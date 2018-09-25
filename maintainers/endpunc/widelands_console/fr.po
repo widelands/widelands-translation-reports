@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-05-05 17:07+0000\n"
+"PO-Revision-Date: 2018-05-06 10:07+0000\n"
+"Last-Translator: Renaud Bouchard\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:44
+msgid "Options:"
+msgstr "Options :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:45
+msgid " --<config-entry-name>=value overwrites any config file setting"
+msgstr " --<config-entry-name>=value \n\tRé-écris tous les paramètres des fichiers de configuration."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:48
+msgid ""
+" --datadir=DIRNAME    Use specified directory for the widelands\n"
+"                      data files"
+msgstr " --datadir=DIRNAME\n\tUtilise le dossier spécifié pour les données de Widelands."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:51
+msgid ""
+" --homedir=DIRNAME    Use specified directory for widelands config\n"
+"                      files, savegames and replays"
+msgstr " --homedir=DIRNAME\n\tUtilise le dossier spécifié pour la sauvegarde des fichiers de\n\tconfiguration de Widelands, sauvegardes et replays."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:61
+msgid ""
+" --coredump=[true|false]\n"
+"                      Generates a core dump on segfaults instead of\n"
+"                      using the SDL"
+msgstr " --coredump=[true|false]\n\tGénère un dump du noyau au lieu d'utiliser SDL."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:77
+msgid " --autosave=[...]     Automatically save each n minutes"
+msgstr " --autosave=[...]\n\tSauvegarde automatique toutes les n minutes."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:78
+msgid ""
+" --rolling_autosave=[...]\n"
+"                      Use this many files for rolling autosaves"
+msgstr " --rolling_autosave=[...]\n\tUtilise ce nombre de fichiers pour le roullement de sauvegardes\n\tautomatiques."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:89
+msgid "Sound options:"
+msgstr "Options sonores :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:125
+msgid "Graphic options:"
+msgstr "Options graphiques :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:140
+msgid "Options for the internal window manager:"
+msgstr "Options pour le gestionnaire de fenêtre interne :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:168
+msgid " --verbose            Enable verbose debug messages"
+msgstr " --verbose\n\tActive les messages verbeux de debogage."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:169
+msgid " --help               Show this help"
+msgstr " --help\n\tMontre cette aide."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:170
+msgid ""
+"Bug reports? Suggestions? Check out the project website:\n"
+"        https://wl.widelands.org/\n"
+"\n"
+"Hope you enjoy this game!"
+msgstr "Rapports de bogues ? Suggestions ? Visitez le site web du projet\n https://wl.widelands.org/\n\nNous espérons que vous appréciez ce jeu !"

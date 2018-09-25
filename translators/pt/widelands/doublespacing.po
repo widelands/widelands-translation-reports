@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-17 09:23+0000\n"
+"PO-Revision-Date: 2018-09-25 01:48+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/widelands/widelands/"
+"language/pt/)\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:268
+msgid "/forcePause            -  Force the game to pause."
+msgstr "/forcePause            -  Forçar a  pausa do jogo."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/internet_gaming.cc:287
+#: ../../src/network/network_gaming_messages.cc:129
+#, c-format
+msgid "Something went wrong: %s"
+msgstr "Alguma coisa correu mal:  %s"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
+#. load.
+#. * TRANSLATORS: Make sure that you keep consistency in your translation.
+#: ../../src/wui/load_or_save_game.cc:106
+msgid "H = Multiplayer (Host)"
+msgstr "H  = Multi-jogador (hospedeiro)"

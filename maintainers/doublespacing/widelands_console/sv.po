@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-05-05 17:07+0000\n"
+"PO-Revision-Date: 2018-05-05 17:10+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
+"language/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:48
+msgid ""
+" --datadir=DIRNAME    Use specified directory for the widelands\n"
+"                      data files"
+msgstr " --datadir=KATALOG    Använd den specifierade foldern för widelands\ndatafiler"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:61
+msgid ""
+" --coredump=[true|false]\n"
+"                      Generates a core dump on segfaults instead of\n"
+"                      using the SDL"
+msgstr "--coredump=[ja|nej]\nGenererar en minnesutskrift av segmenteringsfel istället för att\nanvända SDL"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:65
+msgid ""
+" --language=[de_DE|sv_SE|...]\n"
+"                      The locale to use."
+msgstr " --language=[de_DE|sv_SE|...]\nStäll in språk."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain.
+#. * TRANSLATORS: A syncstream is a synchronization stream. Syncstreams are
+#. used in
+#. multiplayer
+#. * TRANSLATORS: games to make sure that there is no mismatch between the
+#. players.
+#: ../../src/wlapplication_messages.cc:74
+msgid ""
+" --write_syncstreams=[true|false]\n"
+"                      Create syncstream dump files to help debug network games."
+msgstr "--write_syncstreams=[ja|nej]\nSkapa synkströmdumpfiler för att hjälpa till att felsöka nätverksspel."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:77
+msgid " --autosave=[...]     Automatically save each n minutes"
+msgstr "--autosave=[...] Spara spelet automatiskt var n:te minut"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:78
+msgid ""
+" --rolling_autosave=[...]\n"
+"                      Use this many files for rolling autosaves"
+msgstr "--rolling_autosave=[...]\nAnvänd de här filerna för rullande automatsparningar"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:90
+msgid " --nosound            Starts the game with sound disabled."
+msgstr " --nosound Startar spelet med ljud avstängt."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:92
+msgid " --disable_music      Disable music."
+msgstr " --disable_music Stäng av musik."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:94
+msgid " --nozip              Do not save files as binary zip archives."
+msgstr " --nozip Spara inte spel som binära zip-arkiv."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:96
+msgid ""
+" --editor             Directly starts the Widelands editor.\n"
+"                      You can add a =FILENAME to directly load\n"
+"                      the map FILENAME in editor."
+msgstr " --editor  Starta direkt i Widelands kartredigerare.\nLägg till =FILNAMN för att direkt läsa in\nkartan FILNAMN i redigeraren."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:109
+msgid ""
+" --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
+"                      map."
+msgstr " --scenario=FILNAMN  Starta direkt FILNAMN som scenariokarta."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:113
+msgid ""
+" --script=FILENAME    Run the given Lua script after initialization.\n"
+"                      Only valid with --scenario, --loadgame, or --editor."
+msgstr "--script=FILNAMN  Kör det angivna Lua scriptet efter initialisering\nBara giltigt med --scenario, --loadgame, eller --editor."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:119
+msgid ""
+" --auto_roadbuild_mode=[true|false]\n"
+"                      Whether to enter roadbuilding mode\n"
+"                      automatically after placing a flag that is\n"
+"                      not connected to a road."
+msgstr "--auto_roadbuild_mode=[ja|nej]\nStäll in om vägbyggarläge ska startas\nautomatiskt efter att en flagga som \ninte är ansluten till en väg har placerats."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:129
+msgid ""
+" --fullscreen=[true|false]\n"
+"                      Whether to use the whole display for the\n"
+"                      game screen."
+msgstr "--fullscreen=[ja|nej]\nOm hela skärmen ska användas\nför spelet."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:133
+msgid " --xres=[...]         Width of the window in pixel."
+msgstr "--xres=[...] Fönstrets bredd i pixlar."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:134
+msgid " --yres=[...]         Height of the window in pixel."
+msgstr "--yres=[...] Fönstrets höjd i pixlar."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:144
+msgid ""
+" --border_snap_distance=[0 ...]\n"
+"                      Move a window to the edge of the screen\n"
+"                      when the edge of the window comes within\n"
+"                      this distance from the edge of the screen."
+msgstr " --border_snap_distance=[0 ...]\nFlytta ett fönster till skärmkanten när \nfönsterkanten kommer inom detta avstånd\nfrån skärmkanten."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:152
+msgid ""
+" --dock_windows_to_edges=[true|false]\n"
+"                      Eliminate a window's border towards the\n"
+"                      edge of the screen when the edge of the\n"
+"                      window is next to the edge of the screen."
+msgstr "--dock_windows_to_edges=[ja|nej]\nEliminera ett fönsters kant mot\nskärmens kant när kanten på\nfönstret ligger intill skärmens kant."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:157
+msgid ""
+" --panel_snap_distance=[0 ...]\n"
+"                      Move a window to the edge of the panel when\n"
+"                      the edge of the window comes within this\n"
+"                      distance from the edge of the panel."
+msgstr " --panel_snap_distance=[0 ...]\nFlytta fönster till panelkanten när\nfönsterkanten kommer inom det här\navståndet från panelkanten."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:162
+msgid ""
+" --snap_windows_only_when_overlapping=[yes|no]\n"
+"                      Only move a window to the edge of a panel\n"
+"                      if the window is overlapping with the\n"
+"                      panel."
+msgstr " --snap_windows_only_when_overlapping=[ja|nej]\nFlytta endast fönster till panelkanten om \nfönstret överlappar panelen."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:168
+msgid " --verbose            Enable verbose debug messages"
+msgstr " --verbose  Aktivera utförliga meddelanden för felsökning"

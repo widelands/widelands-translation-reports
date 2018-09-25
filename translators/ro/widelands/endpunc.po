@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Romanian (http://www.transifex.com/widelands/widelands/"
+"language/ro/)\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; "
+"plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:167
+#, c-format
+msgid ""
+"Widelands could not load the file \"%s\". The file format seems to be "
+"incompatible."
+msgstr "Widelands nu a putut încarca fişierul \"%s\". Formatul fişierului este incompatibil"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+msgid "Creating empty map…"
+msgstr "Construire hartă goală..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: %s are the currently selected items in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#, c-format
+msgid "Current: %s …"
+msgstr "Curent: %s ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Help text in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+msgid "Click to select an item. Use the Ctrl key to select multiple items."
+msgstr "Click pentru a selecta un obiect. Folosește tasta Ctrl pentru a selecta obiecte multiple"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:162
+msgid "Land:"
+msgstr "Teren"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:175
+msgid "Wasteland:"
+msgstr "Teren necultivat"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+msgid "Generating random map…"
+msgstr "Construiește hartă aleatoare..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:271
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:285
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:331
+msgid "Error Saving Map!"
+msgstr "Eroare la salvarea hărții"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor random height access key. *
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:82
+msgid ""
+"Click on the map to set terrain height to a random value within the "
+"specified range"
+msgstr "Dă click pe hartă pentru a seta înălțimea terenului la o valoare aleatoare dintr-o plajă specifică."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+msgid "Loading map…"
+msgstr "Încărcare hartă..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+msgid "Loading…"
+msgstr "Încărcare"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:749
+msgid "No use for ships on this map!"
+msgstr "Nave nefolositoare pe această hartă"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:1285
+msgid "No soldier to train!"
+msgstr "Nici un soldat de antrenat"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:1294
+#: ../../src/logic/map_objects/tribes/production_program.cc:1372
+msgid "No soldier found for this training level!"
+msgstr "Nu a fost găsit nici un soldat pentru acest nivel de antrenare"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/ship.cc:424
+msgid "An expedition ship found a new port build space."
+msgstr "O navă de expediție a găsit un noi spațiu pentru a construi un port"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/ship.cc:543
+msgid "An expedition ship sailed around its island without any events."
+msgstr "O navă de expediție a navigat în jurul insulei fără nici un eventiment"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: A ship has discovered land
+#: ../../src/logic/map_objects/tribes/ship.cc:605
+msgid "Land Ahoy!"
+msgstr "Țărm la orizont"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/ship.cc:856
+msgid "An expedition ship is waiting for your commands."
+msgstr "O navă de expediție îți așteaptă comenzile"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/warehouse.cc:532
+msgid "A new port was added to your economy."
+msgstr "Un nou port a fost adăugat economiei tale"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/warehouse.cc:535
+msgid "A new headquarters was added to your economy."
+msgstr "Un nou sediu central a fost adăugat economiei tale"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/warehouse.cc:538
+msgid "A new warehouse was added to your economy."
+msgstr "Un nou depozit a fost adăugat economiei tale"

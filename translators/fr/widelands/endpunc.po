@@ -1,0 +1,771 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:232
+msgid "The map has not been saved, do you really want to quit?"
+msgstr "La carte n'a pas été enregistré, voulez vous vraiment quitter ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+msgid "Creating empty map…"
+msgstr "Création d'une carte vide..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:628
+#, c-format
+msgid "Loading map “%s”…"
+msgstr "Chargement de la carte \"%s\"..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: %s are the currently selected items in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#, c-format
+msgid "Current: %s …"
+msgstr "Actuel : %s ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
+#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/tribal_encyclopedia.cc:56
+msgid "Error!"
+msgstr "Erreur !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:100
+msgid "Map name:"
+msgstr "Nom de la carte :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:104
+msgid "Authors:"
+msgstr "Auteurs :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:108
+#: ../../src/ui_fsmenu/campaign_select.cc:78
+#: ../../src/ui_fsmenu/campaign_select.cc:155
+#: ../../src/ui_fsmenu/campaign_select.cc:384 ../../src/wui/mapdetails.cc:142
+msgid "Description:"
+msgstr "Description :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:112
+msgid "Hint (optional):"
+msgstr "Astuce (optionnel) :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:119
+#: ../../src/wui/mapdetails.cc:136
+msgid "Tags:"
+msgstr "Etiquettes :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Label for the list of suggested teams when choosing a map
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:127
+#: ../../src/wui/suggested_teams_box.cc:90
+msgid "Suggested Teams:"
+msgstr "Équipes suggérées :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:58
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:66
+msgid "Width:"
+msgstr "Largeur :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:70
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:78
+msgid "Height:"
+msgstr "Hauteur :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:114
+msgid "Terrain:"
+msgstr "Terrain :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:91
+#: ../../src/wui/gamedetails.cc:126
+msgid "Players:"
+msgstr "Joueurs :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:117
+msgid "Climate:"
+msgstr "Climat :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:118
+msgid "Resources:"
+msgstr "Ressources :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:149
+msgid "Water:"
+msgstr "Eau :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:162
+msgid "Land:"
+msgstr "Terre :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:175
+msgid "Wasteland:"
+msgstr "Terres en friche :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:180
+msgid "Mountains:"
+msgstr "Montagnes :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:191
+msgid "Random number:"
+msgstr "Nombre aléatoire :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:200
+msgid "Map ID:"
+msgstr "ID de la carte :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+msgid "Generating random map…"
+msgstr "Génération d'une carte aléatoire..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
+#: ../../src/wui/game_main_menu_save_game.cc:61
+#: ../../src/wui/gamedetails.cc:143
+msgid "Filename:"
+msgstr "Nom de fichier :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:268
+#: ../../src/wui/game_main_menu_save_game.cc:171
+#, c-format
+msgid "A file with the name ‘%s’ already exists. Overwrite?"
+msgstr "Un fichier nommé '%s' existe déjà. L'écraser ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:271
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:285
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:331
+msgid "Error Saving Map!"
+msgstr "Erreur d'enregistrement de la carte !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:328
+msgid ""
+"Error Saving Map!\n"
+"Saved map file may be corrupt!\n"
+"\n"
+"Reason given:\n"
+msgstr "Erreur en sauvant la carte !\nLe fichier de carte sauvé peut-être corrompu !\n\nRaison donnée :\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Info text in editor player menu when a player has selected
+#. more than the
+#. recommended number of players. Choice is made by OK/Abort.
+#: ../../src/editor/ui_menus/player_menu.cc:61
+msgid ""
+"We do not recommend setting more than 8 players except for testing purposes."
+" Are you sure that you want more than 8 players?"
+msgstr "Nous ne recommandons pas de définir plus de 8 joueurs excepté pour des fins de test. Êtes vous sur que vous voulez plus de 8 joueurs ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:50
+msgid "Minimum height:"
+msgstr "Elévation minimum :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:62
+msgid "Maximum height:"
+msgstr "Elévation maximum :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+msgid "Loading map…"
+msgstr "Chargement de la carte..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+msgid "Loading…"
+msgstr "Chargement..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
+#: ../../src/logic/map_objects/tribes/militarysite.cc:243
+msgctxt "building"
+msgid "Lost!"
+msgstr "Perdu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/militarysite.cc:244
+msgid "Militarysite lost!"
+msgstr "Bâtiment militaire perdu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Message title.
+#. * TRANSLATORS: If you run out of space, you can also translate this as
+#. "Success!"
+#: ../../src/logic/map_objects/tribes/militarysite.cc:286
+msgid "Enemy Defeated!"
+msgstr "Ennemi vaincu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/militarysite.cc:286
+msgid "Enemy at site defeated!"
+msgstr "Ennemi sur site vaincu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Militarysite is being attacked
+#: ../../src/logic/map_objects/tribes/militarysite.cc:863
+msgctxt "building"
+msgid "Attack!"
+msgstr "Attaque !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:749
+msgid "No use for ships on this map!"
+msgstr "Pas besoin des navires sur cette carte !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:1285
+msgid "No soldier to train!"
+msgstr "Aucun soldat à entraîner !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:1294
+#: ../../src/logic/map_objects/tribes/production_program.cc:1372
+msgid "No soldier found for this training level!"
+msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/productionsite.cc:969
+msgid "Can’t find any more resources!"
+msgstr "Impossible de trouver plus de ressources !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/ship.cc:542
+msgid "Island Circumnavigated"
+msgstr "Nous avons navigué tout autours de l'île."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: A ship has discovered land
+#: ../../src/logic/map_objects/tribes/ship.cc:605
+msgid "Land Ahoy!"
+msgstr "Terre en vue !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/ship.cc:671
+msgid "Port Lost!"
+msgstr "Port perdu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/worker.cc:1856
+msgid "Worker got lost!"
+msgstr "Un ouvrier s'est perdu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:99
+msgid "Saving game…"
+msgstr "Sauvegarde du jeu..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:115
+msgid "Saving failed!"
+msgstr "La sauvegarde a échoué !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/map_io/s2map.cc:424
+msgid "Bluebyte Settlers II Map. No comment defined!"
+msgstr "Carte Bluebyte Settlers II. Pas de commentaire défini !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:257
+msgid "Available host commands are:"
+msgstr "Les commandes hôte disponibles sont :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:312
+msgid "You can not kick yourself!"
+msgstr "Vous ne pouvez pas vous expulser vous-même !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:318
+#, c-format
+msgid "Are you sure you want to kick %s?"
+msgstr "Êtes vous sûr de vouloir expulser %s ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:329
+msgid "kick acknowledgement cancelled: No name given!"
+msgstr "Approbation de l'expulsion annulée : Pas de nom donné !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:337
+msgid "kick acknowledgement cancelled: Wrong name given!"
+msgstr "Approbation de l'expulsion annulée : Mauvais nom donné !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:494
+msgid "Failed to host the server!"
+msgstr "Échec de l'hébergement du serveur"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:503
+msgid "Failed to start the server!"
+msgstr "Échec à démarrer le serveur !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:213
+msgid "Successfully reconnected to the metaserver!"
+msgstr "Reconnecté au méta-serveur avec succès !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:370
+msgid "Welcome to the Widelands Metaserver!"
+msgstr "Bienvenu sur le Meta-serveur de Widelands !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:387
+msgid "Our forums can be found at:"
+msgstr "Nos forums peuvent êtres trouvés à :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:389
+msgid "For reporting bugs, visit:"
+msgstr "Pour signaler des bugs, visitez :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:769
+msgid "Message could not be sent: You are not connected to the metaserver!"
+msgstr "Le message n'a pas pu être envoyé : vous n'êtes pas connecté au méta-serveur !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:788
+#: ../../src/network/internet_gaming.cc:795
+msgid "Message could not be sent: Was this supposed to be a private message?"
+msgstr "Le message n'a pas pu être envoyé : était-ce censé être un message privé ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:43
+#, c-format
+msgid "There is no user with the name %s logged in!"
+msgstr "Il n'y a pas d'utilisateur avec le nom %s connecté !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:44
+msgid "The sent password was incorrect!"
+msgstr "Le mot de passe envoyé était incorrect !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:45
+msgid "The protocol version you are using is not supported!"
+msgstr "La version du protocole que vous utilisez n'est pas supportée !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:46
+msgid "You are already logged in!"
+msgstr "Vous êtes déjà connecté !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:158
+#, c-format
+msgid "Host sent player %s to the lobby!"
+msgstr "L'hôte a envoyé le joueur %s dans le vestibule !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:162
+#, c-format
+msgid "Started to send file %1$s to %2$s!"
+msgstr "Commence à envoyer le fichier %1$s vers %2$s !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_lan_promotion.cc:359
+msgid "Failed to use the local network!"
+msgstr "Utilisation du réseau local échouée !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:152
+msgid "Campaign Name:"
+msgstr "Nom de la campagne :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:153
+msgid "Tribe:"
+msgstr "Tribu :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:154
+msgid "Difficulty:"
+msgstr "Difficulté :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:382
+msgid "Tutorial:"
+msgstr "Tutoriel :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:383 ../../src/wui/mapdetails.cc:99
+msgid "Scenario:"
+msgstr "Scénario :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:414 ../../src/wui/mapdetails.cc:126
+msgid "Author:"
+msgid_plural "Authors:"
+msgstr[0] "Auteur:"
+msgstr[1] "Auteurs :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:63
+msgid "Clients online:"
+msgstr "Clients en ligne :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:64
+msgid "List of games:"
+msgstr "Liste des parties :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:65
+msgid "Name of your server:"
+msgstr "Nom de votre serveur :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/intro.cc:31
+msgid "Press any key or click to continue…"
+msgstr "Pressez sur n'importe quelle touche ou cliquez pour continuer..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#, c-format
+msgid ""
+"Widelands tried to start a game with a file that could not be found at the given path.\n"
+"The file was: %s\n"
+"If this happens in a network game, the host might have selected a file that you do not own. Normally, such a file should be sent from the host to you, but perhaps the transfer was not yet finished!?!"
+msgstr "Widelands à tenté de démarrer un jeu avec un fichier introuvable dans le chemin donné.\nCe fichier est : %s\nSi cela arrive pendant une partie en réseau: l'hébergeur peut avoir sélectionné un fichier que vous ne possédez pas. Normalement ce type de fichier doit vous être envoyé par l'hébergeur. Peut-être que le transfert de ce fichier n'est pas encore terminé !?!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:491
+msgid "Saved players are:"
+msgstr "Les joueurs sauvegardés sont :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:587
+msgid "Map details:"
+msgstr "Détails de la carte :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:42
+msgid "List of games in your local network:"
+msgstr "Liste des parties sur votre réseau local :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:43
+msgid "Your nickname:"
+msgstr "Votre pseudo :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:44
+msgid "Host to connect:"
+msgstr "Hôte auquel se connecter :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:131
+msgid "Maximum FPS:"
+msgstr "FPS maximum :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:150
+msgid "Distance for windows to snap to other panels:"
+msgstr "Distance pour que la fenêtre se colle à d'autres :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:162
+msgid "Distance for windows to snap to borders:"
+msgstr "Distance pour que la fenêtre se colle aux bords :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:180
+msgid "Save game automatically every:"
+msgstr "Sauvegarde automatique à chaque :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:193
+msgid "Maximum number of autosave files:"
+msgstr "Nombre maximal de sauvegardes automatiques :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:263
+#: ../../src/wui/game_options_sound_menu.cc:85
+msgid "Sound is disabled due to a problem with the sound driver"
+msgstr "Le son est désactivé à cause d'un problème avec le pilote son."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:173
+msgid "Destroy building?"
+msgstr "Détruire le bâtiment ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:174
+msgid "Do you really want to destroy this building?"
+msgstr "Voulez vous réellement détruire ce bâtiment ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:219
+msgid "Do you really want to dismantle this building?"
+msgstr "Voulez vous réellement démonter ce bâtiment ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:267 ../../src/wui/actionconfirm.cc:271
+msgid "Do you really want to enhance this building?"
+msgstr "Voulez vous réellement améliorer ce bâtiment ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Warning message when player wants to enhance a military
+#. building
+#: ../../src/wui/actionconfirm.cc:269
+msgid "Be careful if the enemy is near!"
+msgstr "Soyez précautionneux si l' ennemi est proche !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:349
+msgid "Cancel expedition?"
+msgstr "Annuler l'expédition ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:350
+msgid "Do you really want to cancel the active expedition?"
+msgstr "Voulez-vous vraiment annuler l'expédition en cours ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_box.cc:135
+msgid "Soldiers:"
+msgstr "Soldats :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/building_statistics_menu.cc:72
+msgid "Under Construction:"
+msgstr "En construction :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is the second part of productivity with input field
+#. * TRANSLATORS: Building statistics window -  'Low Productivity <input>%:'
+#: ../../src/wui/building_statistics_menu.cc:92
+msgid "%:"
+msgstr "% :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/buildingwindow.cc:259 ../../src/wui/fieldaction.cc:98
+msgid "Construction costs:"
+msgstr "Coûts de construction :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/buildingwindow.cc:291
+msgid "Returns:"
+msgstr "Retours :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_main_menu_save_game.cc:158
+msgid ""
+"Game Saving Error!\n"
+"Saved game file may be corrupt!\n"
+"\n"
+"Reason given:\n"
+msgstr "Erreur pendant la sauvegarde du jeu !\nLe fichier de sauvegarde du jeu peut être corrompu !\n\nRaison donnée :\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_main_menu_save_game.cc:161
+#: ../../src/wui/game_main_menu_save_game.cc:170
+msgid "Save Game Error!"
+msgstr "Erreur de sauvegarde du jeu !"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window. There is a separate string
+#. for 1
+#. * message.
+#. * DO NOT omit the placeholder in your translation.
+#: ../../src/wui/game_message_menu.cc:622
+#, c-format
+msgid "Restore the selected %d message"
+msgid_plural "Restore the selected %d messages"
+msgstr[0] "Restaurer le message %d sélectionné:"
+msgstr[1] "Restaurer les messages %d sélectionnés:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_options_menu.cc:46
+msgid "Are you sure you wish to exit this game?"
+msgstr "Êtes vous sur de vouloir quitter cette partie ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_summary.cc:62
+msgid "Player Info:"
+msgstr "Information joueur :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_summary.cc:78
+msgid "Elapsed time:"
+msgstr "Temps écoulé :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_summary.cc:197
+msgid "You won!"
+msgstr "Vous avez gagné !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_summary.cc:204
+#, c-format
+msgid "%s won!"
+msgstr "%s a gagné !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_summary.cc:207
+msgid "Team %|1$u| won!"
+msgstr "L'équipe %|1$u| a gagné !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:113
+msgid "Map Name:"
+msgstr "Nom de la carte :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: The current time of a savegame. Shown in the game saving and
+#. loading screens.
+#: ../../src/wui/gamedetails.cc:122
+msgid "Game Time:"
+msgstr "Temps de jeu :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:130
+msgid "Widelands Version:"
+msgstr "Version de Widelands :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:134
+msgid "Win Condition:"
+msgstr "Condition de victoire :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:93
+msgid "The date this game was saved"
+msgstr "La date à laquelle cette partie a été sauvegardé."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:240
+msgid "Do you really want to delete this replay?"
+msgstr "Voulez-vous vraiment effacer ce replay ?"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the placeholder in your translation.
+#: ../../src/wui/load_or_save_game.cc:243
+#, c-format
+msgid "Do you really want to delete this %d replay?"
+msgid_plural "Do you really want to delete these %d replays?"
+msgstr[0] "Voulez vous réellement supprimer ce %d replay ?"
+msgstr[1] "Voulez vous réellement supprimer ces %d replays ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:250
+msgid "Do you really want to delete this game?"
+msgstr "Voulez-vous vraiment effacer cette partie ?"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string.
+#. DO NOT omit the placeholder in your translation.
+#: ../../src/wui/load_or_save_game.cc:253
+#, c-format
+msgid "Do you really want to delete this %d game?"
+msgid_plural "Do you really want to delete these %d games?"
+msgstr[0] "Voulez vous réellement supprimer cette %d partie ?"
+msgstr[1] "Voulez vous réellement supprimer ces %d parties ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This text is on a separate line with an error message below
+#: ../../src/wui/load_or_save_game.cc:487
+msgid "Error message:"
+msgstr "Message d'erreur :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:34
+msgid "Nickname:"
+msgstr "Pseudo :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:35
+msgid "Password:"
+msgstr "Mot de passe :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:41
+msgid "WARNING: Password will be shown and saved readable!"
+msgstr "ATTENTION : Le mot de passe sera exposé et sauvegardé de manière lisible !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:75
+msgid "Please enter a nickname!"
+msgstr "Veuillez entrer un pseudonyme !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:81
+msgid "Sorry, but spaces are not allowed in nicknames!"
+msgstr "Désolé, mais les espaces ne sont pas autorisés dans les pseudonymes !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:87
+msgid "Please enter your password!"
+msgstr "Veuillez entrer votre mot de passe s'il vous plait !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/mapdetails.cc:91
+msgid "Directory:"
+msgstr "Répertoire :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/mapdetails.cc:99
+msgid "Map:"
+msgstr "Carte :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Map hint header when selecting a map.
+#: ../../src/wui/mapdetails.cc:148
+msgid "Hint:"
+msgstr "Conseil :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the seafaring statistics window
+#: ../../src/wui/seafaring_statistics_menu.cc:122
+msgid "Go to the selected ship and open its window"
+msgstr "Aller au navire sélectionné et ouvrir sa fenêtre."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:519
+msgid "Show ships shipping wares and workers"
+msgstr "Afficher les navires transportant des marchandises et des ouvriers."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:533
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "Afficher les expéditions qui ont trouvé un espace portuaire ou qui fondent une colonie."

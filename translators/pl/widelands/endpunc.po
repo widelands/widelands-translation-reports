@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
+"pl/)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
+"12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
+" (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+msgid "Creating empty map…"
+msgstr "Tworzenie pustej mapy..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: %s are the currently selected items in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#, c-format
+msgid "Current: %s …"
+msgstr "Bieżące: %s ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:141
+msgid "Main Options"
+msgstr "Główne opcje:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+msgid "Generating random map…"
+msgstr "Generowanie losowej mapy..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/player_menu.cc:183
+#: ../../src/wui/multiplayersetupgroup.cc:461
+msgid "The tribe will be selected at random"
+msgstr "Plemię zostanie wybrane losowo."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+msgid "Loading map…"
+msgstr "Wczytywanie mapy..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+msgid "Loading…"
+msgstr "Wczytywanie..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:99
+msgid "Saving game…"
+msgstr "Zapisywanie gry..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:463
+#, c-format
+msgid "Invalid chat message type \"%s\"."
+msgstr "Błędny typ wiadomości na czacie \"%s\""
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/intro.cc:31
+msgid "Press any key or click to continue…"
+msgstr "Naciśnij dowolny klawisz lub kliknij, aby kontynuować..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#, c-format
+msgid ""
+"Widelands tried to start a game with a file that could not be found at the given path.\n"
+"The file was: %s\n"
+"If this happens in a network game, the host might have selected a file that you do not own. Normally, such a file should be sent from the host to you, but perhaps the transfer was not yet finished!?!"
+msgstr "Widelands próbowało rozpocząć grę z plikiem, którego nie znaleziono w podanej ścieżce.\nPlikiem był: %s\nPrzyczyną mogło być wybranie przez hosta pliku, którego nie posiadasz. Normalnie plik ten powinien był zostać wysłany do ciebie przez hosta, być może transfer się jeszcze nie skończył?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Options: Save game automatically every:
+#: ../../src/ui_fsmenu/options.cc:287
+msgid "Off"
+msgstr "Wył."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: day(s). Keep this as short as possible. Used in statistics.
+#: ../../src/wui/plot_area.cc:112
+msgctxt "unit_narrow"
+msgid "%1%d"
+msgid_plural "%1%d"
+msgstr[0] "%1% dz."
+msgstr[1] "%1% dni"
+msgstr[2] "%1% dni"
+msgstr[3] "%1% dni"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: hour(s). Keep this as short as possible. Used in statistics.
+#: ../../src/wui/plot_area.cc:115
+msgctxt "unit_narrow"
+msgid "%1%h"
+msgid_plural "%1%h"
+msgstr[0] "%1% godz."
+msgstr[1] "%1% godz."
+msgstr[2] "%1% godz."
+msgstr[3] "%1% godz."
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: minute(s). Keep this as short as possible. Used in
+#. statistics.
+#: ../../src/wui/plot_area.cc:118
+msgctxt "unit_narrow"
+msgid "%1%m"
+msgid_plural "%1%m"
+msgstr[0] "%1% min."
+msgstr[1] "%1% min."
+msgstr[2] "%1% min."
+msgstr[3] "%1% min."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/productionsitewindow.cc:101
+msgid "Exp"
+msgstr "Dośw."

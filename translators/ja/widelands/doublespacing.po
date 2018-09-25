@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
+"language/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:259
+msgid "/help  -  Shows this help"
+msgstr "/help - このヘルプを表示"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:261
+msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
+msgstr "/announce <msg> - アナウンスとしてチャットメッセージを送信(システムチャット)"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:263
+msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
+msgstr "/warn <name> <reason> - <reason>の理由でユーザー<name>に警告"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:265
+msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
+msgstr "/kick <name> <reason> - <reason>の理由でユーザー<name>を追い出す"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:267
+msgid "/forcePause            -  Force the game to pause."
+msgstr "/forcePause            - ゲームを強制的に一時停止"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/gamehost.cc:321
+#, c-format
+msgid "If yes, type: /ack_kick %s"
+msgstr "これでいいなら  /ack_kick %s と入力してください"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#, c-format
+msgid ""
+"Widelands tried to start a game with a file that could not be found at the given path.\n"
+"The file was: %s\n"
+"If this happens in a network game, the host might have selected a file that you do not own. Normally, such a file should be sent from the host to you, but perhaps the transfer was not yet finished!?!"
+msgstr "Widelandsは、指定されたパスで見つからなかったファイルを使用して、ゲームを開始しようとしました。\nファイル:  %s\nネットワークゲームでこの問題が発生した場合、ホストがあなたが所有していないファイルを選択している可能性があります。 通常このようなファイルは、ホストから送信されるはずですが、もしかして転送がまだ終了していないのでしょうか？！"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/options.cc:180
+msgid "Save game automatically every:"
+msgstr "ゲームの自動保存頻度:  "

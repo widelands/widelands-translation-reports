@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
+"nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/scripting/infrastructure.lua:170
+msgid ""
+"Some of your starting buildings didn’t have enough room and weren’t built. "
+"You are at a disadvantage with this; consider restarting this map with a "
+"fair starting condition."
+msgstr "Er was onvoldoende ruimte voor enkele van je startgebouwen en deze zijn niet gebouwd.  Dit stelt je op een achterstand, overweeg om deze kaart opnieuw te beginnen met een eerlijke startpositie."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Help text in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+msgid "Click to select an item. Use the Ctrl key to select multiple items."
+msgstr "Klik om een gereedschap te selecteren.  Ctrl + klik om meerdere gereedschappen te selecteren."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: This is shown after a random map has been created in the
+#. editor.
+#. * TRANSLATORS: You don't need to be literal with your translation,
+#. * TRANSLATORS: as long as the user understands that he needs to check the
+#. player
+#. positions.
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:576
+msgid ""
+"The map has been generated. Please double-check the player starting "
+"positions to make sure that your carriers won’t drown, or be stuck on an "
+"island or on top of a mountain."
+msgstr "De kaart is aangemaakt.  Gelieve zelf de startposities te controleren zodat je dragers niet verdrinken, of vast komen te zitten op een eiland of een bergtop."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:282
+#, c-format
+msgid ""
+"A file with the name ‘%s.tmp’ already exists. You have to remove it "
+"manually."
+msgstr "Een bestand met de naam '%s.tmp' bestaat al.  Je moet het manueel verwijderen."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:259
+msgid "/help  -  Shows this help"
+msgstr "/help - Toont deze hulp"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:261
+msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
+msgstr "/announce <bericht> - Stuur een chatbericht als aankondiging (system chat)"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:263
+msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
+msgstr "/warn <naam> <reden> - Waarschuw de gebruiker <naam> vanwege <reden>"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:265
+msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
+msgstr "/kick <naam> <reden> - Verwijder de gebruiker <naam> vanwege >reden>"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:267
+msgid "/forcePause            -  Force the game to pause."
+msgstr "/forcePause - Dwing het spel tot pauzeren."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:269
+msgid "/endForcedPause        -  Return game to normal speed."
+msgstr "/endForcedPause - Ga terug naar normale spelsnelheid."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Error message introduction for when an old savegame can't be
+#. loaded
+#: ../../src/wui/load_or_save_game.cc:484
+msgid ""
+"This file has the wrong format and can’t be loaded. Maybe it was created "
+"with an older version of Widelands."
+msgstr "Dit bestand heeft het verkeerde formaat en kan niet geladen worden.  Misschien is het aangemaakt met een oudere versie van Widelands."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Health, Attack, Defense, Evade
+#: ../../src/wui/soldierlist.cc:387 ../../src/wui/soldierlist.cc:455
+#, c-format
+msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
+msgstr "L: %1$u/%2$u A: %3$u/%4$u V: %5$u/%6$u O: %7$u/%8$u"

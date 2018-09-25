@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
+"widelands/language/gd/)\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/map_objects/immovable.cc:518
+#: ../../src/logic/map_objects/tribes/constructionsite.cc:104
+#, c-format
+msgid "%i%% built"
+msgstr "’Ga thogail: %i%%"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/gamehost.cc:329
+msgid "kick acknowledgement cancelled: No name given!"
+msgstr "Chaidh sgur de dhearbhadh a’ bhròig: cha deach ainm a thoirt seachad!"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/gamehost.cc:337
+msgid "kick acknowledgement cancelled: Wrong name given!"
+msgstr "Chaidh sgur de dhearbhadh a’ bhròig: cha deach an t-ainm ceart a thoirt seachad!"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/internet_gaming.cc:557
+#, c-format
+msgid "%s joined the lobby"
+msgstr "Thàinig %s a-steach dhan lobaidh"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/internet_gaming.cc:564
+#, c-format
+msgid "%s left the lobby"
+msgstr "Dh’fhàg %s an lobaidh"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/network_gaming_messages.cc:161
+#, c-format
+msgid "%s has joined the game"
+msgstr "Thàinig %s a-steach dhan gheama"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/game_summary.cc:204
+#, c-format
+msgid "%s won!"
+msgstr "Bhuannaich %s!"

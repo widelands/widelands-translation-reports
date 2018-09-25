@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-05-05 17:07+0000\n"
+"PO-Revision-Date: 2018-05-05 17:10+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Danish (http://www.transifex.com/widelands/widelands/language/"
+"da/)\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:48
+msgid ""
+" --datadir=DIRNAME    Use specified directory for the widelands\n"
+"                      data files"
+msgstr " --datadir=MAPPENAVN    Brug angivet mappe for widelands' datafiler"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:61
+msgid ""
+" --coredump=[true|false]\n"
+"                      Generates a core dump on segfaults instead of\n"
+"                      using the SDL"
+msgstr " --coredump=[true|false]\n                      Opretter et kernedump på segfaults i stedet for at bruge SDL'en"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:109
+msgid ""
+" --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
+"                      map."
+msgstr " --scenario=FILNAVN  Starter direkte kortet FILNAVN som scenariokort."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:113
+msgid ""
+" --script=FILENAME    Run the given Lua script after initialization.\n"
+"                      Only valid with --scenario, --loadgame, or --editor."
+msgstr " --script=FILNAVN   Kør det angivne Lua-skript efter initialisering.\n                      Kun gyldigt med --scenario, --loadgame eller --editor."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:129
+msgid ""
+" --fullscreen=[true|false]\n"
+"                      Whether to use the whole display for the\n"
+"                      game screen."
+msgstr " --fullscreen=[true|false]\n                      Skal hele skærmen bruges til spilskærm."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:162
+msgid ""
+" --snap_windows_only_when_overlapping=[yes|no]\n"
+"                      Only move a window to the edge of a panel\n"
+"                      if the window is overlapping with the\n"
+"                      panel."
+msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                      Flyt kun et vindue til kanten af et panel hvis\n                      vinduet overlapper med panelet."

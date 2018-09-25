@@ -1,0 +1,453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
+"language/ca/)\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: January. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:96
+msgid "Jan"
+msgstr "Gen."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: February. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:102
+msgid "Feb"
+msgstr "Febr."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: April. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:114
+msgid "Apr"
+msgstr "Abr."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: July. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:132
+msgid "Jul"
+msgstr "Jul."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: August. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:138
+msgid "Aug"
+msgstr "Ag."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: September. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:144
+msgid "Sep"
+msgstr "Set."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: October. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:150
+msgid "Oct"
+msgstr "Oct."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: November. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:156
+msgid "Nov"
+msgstr "Nov."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: December. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#: ../../src/base/time_string.cc:161
+msgid "Dec"
+msgstr "Des."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: %s are the currently selected items in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#, c-format
+msgid "Current: %s …"
+msgstr "Actual: %s…"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/player_menu.cc:183
+#: ../../src/wui/multiplayersetupgroup.cc:461
+msgid "The tribe will be selected at random"
+msgstr "S'escollirà una cultura de manera aleatòria."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor change height access keys. *
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
+msgid ""
+"Click on the map to increase, Shift + Click on the map to decrease terrain "
+"height"
+msgstr "Cliqueu al mapa per augmentar l'alçada. Amb Maj+Clic al mapa, es reduirà l'alçada."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor change rseources access keys. *
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:81
+msgid ""
+"Click on the map to increase, Shift + Click on the map to decrease the "
+"amount of the selected resource"
+msgstr "Cliqueu al mapa per incrementar-ne la quantitat. Amb Maj+Clic, es reduirà la quantitat del recurs seleccionat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor random height access key. *
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:82
+msgid ""
+"Click on the map to set terrain height to a random value within the "
+"specified range"
+msgstr "Cliqueu al mapa per establir l'alçada del terreny a un valor aleatori dins de l'interval especificat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:213
+msgid "Loading graphics"
+msgstr "S'estan carregant els gràfics…"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:749
+msgid "No use for ships on this map!"
+msgstr "Els vaixells no serveixen per res en aquest mapa."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:1285
+msgid "No soldier to train!"
+msgstr "Sense soldats per entrenar"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/production_program.cc:1294
+#: ../../src/logic/map_objects/tribes/production_program.cc:1372
+msgid "No soldier found for this training level!"
+msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:263
+msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
+msgstr "/warn <nom> <motiu> - Avisar a l'usuari <nom> pel <motiu> que s'especifiqui."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:329
+msgid "kick acknowledgement cancelled: No name given!"
+msgstr "expulsió cancel·lada: no s'ha donat cap nom."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:337
+msgid "kick acknowledgement cancelled: Wrong name given!"
+msgstr "expulsió cancel·lada: nom incorrecte."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:494
+msgid "Failed to host the server!"
+msgstr "No s'ha pogut establir com a amfitrió."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:503
+msgid "Failed to start the server!"
+msgstr "No s'ha pogut iniciar el servidor."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:769
+msgid "Message could not be sent: You are not connected to the metaserver!"
+msgstr "No s'ha pogut enviar el missatge perquè no esteu connectats al metaservidor."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Geeky message from the metaserver
+#. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
+#: ../../src/network/internet_gaming.cc:874
+#, c-format
+msgid "Unable to determine truth value for \"%s\""
+msgstr "No s'ha pogut determinar el valor vertader de «%s»."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:43
+#, c-format
+msgid "There is no user with the name %s logged in!"
+msgstr "No ha iniciat sessió cap usuari amb el nom %s."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:45
+msgid "The protocol version you are using is not supported!"
+msgstr "La versió de protocol que useu no és compatible."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:46
+msgid "You are already logged in!"
+msgstr "Ja esteu connectat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:158
+#, c-format
+msgid "Host sent player %s to the lobby!"
+msgstr "L'amfitrió ha enviat el jugador %s a la sala d'espera."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:160
+#, c-format
+msgid "WARNING: %1$s uses version: %2$s, while Host uses version: %3$s"
+msgstr "AVÍS: %1$s empra la versió «%2$s», mentre que l'amfitrió usa la versió «%3$s»."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_lan_promotion.cc:359
+msgid "Failed to use the local network!"
+msgstr "No s'ha pogut usar la xarxa local."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/dropdown.cc:262 ../../src/ui_basic/dropdown.cc:264
+#: ../../src/ui_fsmenu/launch_mpg.cc:436
+msgid "Error"
+msgstr "S'ha produït un error."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:119
+msgid "Change map or saved game"
+msgstr "Canvia el mapa o partida desada."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#, c-format
+msgid ""
+"Widelands tried to start a game with a file that could not be found at the given path.\n"
+"The file was: %s\n"
+"If this happens in a network game, the host might have selected a file that you do not own. Normally, such a file should be sent from the host to you, but perhaps the transfer was not yet finished!?!"
+msgstr "El Widelands ha intentat iniciar la partida però l'arxiu no s'ha pogut trobar.\nL'arxiu és «%s».\nSi això passa en una partida en xarxa, l'amfitrió pot haver seleccionat un arxiu que no teniu al vostre ordinador. Normalment, l'amfitrió us ha d'enviar l'arxiu. Potser la transferència no s'ha completat?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: %1$s = version string, %2%s = "Debug" or "Release"
+#: ../../src/ui_fsmenu/main.cc:61
+#, c-format
+msgid "Version %1$s (%2$s)"
+msgstr "Versió %1$s (%2$s)."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Placeholders are the copyright years
+#: ../../src/ui_fsmenu/main.cc:67
+msgid "(C) %1%-%2% by the Widelands Development Team"
+msgstr "(C) %1%-%2% de l'equip de desenvolupament del Widelands."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:70
+msgid "Licensed under the GNU General Public License V2.0"
+msgstr "Distribuït sota la llicència pública general (GPL) GNU v2.0."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:263
+#: ../../src/wui/game_options_sound_menu.cc:85
+msgid "Sound is disabled due to a problem with the sound driver"
+msgstr "S'ha desactivat el so degut a un problema amb el controlador de so."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:542
+#, c-format
+msgid "If you wish to help us translate, please visit %s"
+msgstr "Si desitgeu ajudar-nos a traduir el Widelands, si us plau visiteu %s."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:173
+msgid "Destroy building?"
+msgstr "Destrueix l'edifici"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:218
+msgid "Dismantle building?"
+msgstr "Desmantella l'edifici"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:265
+msgid "Enhance building?"
+msgstr "Amplia l'edifici"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Warning message when player wants to enhance a military
+#. building
+#: ../../src/wui/actionconfirm.cc:269
+msgid "Be careful if the enemy is near!"
+msgstr "Aneu amb compte si l'enemic és a prop."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:311
+msgid "Sink the ship?"
+msgstr "Afona la nau"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_main_menu_save_game.cc:161
+#: ../../src/wui/game_main_menu_save_game.cc:170
+msgid "Save Game Error!"
+msgstr "Error mentre es desava la partida."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is shown in the game summary for the players who have
+#. lost.
+#: ../../src/wui/game_summary.cc:169
+msgid "Lost"
+msgstr "Ha perdut."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is shown in the game summary for the players who have
+#. won.
+#: ../../src/wui/game_summary.cc:173
+msgid "Won"
+msgstr "Ha guanyat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is shown in the game summary for the players who have
+#. resigned.
+#: ../../src/wui/game_summary.cc:182
+msgid "Resigned"
+msgstr "Ha abandonat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_summary.cc:204
+#, c-format
+msgid "%s won!"
+msgstr "%s ha guanyat"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:93
+msgid "The date this game was saved"
+msgstr "La data en què es va guardar la partida."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:41
+msgid "WARNING: Password will be shown and saved readable!"
+msgstr "AVÍS: es mostrarà la contrasenya i serà mostrada i guardada de forma llegible."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:46
+msgid "Automatically use this login information from now on."
+msgstr "Empra automàticament aquesta informació per iniciar una sessió a partir d'ara"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:75
+msgid "Please enter a nickname!"
+msgstr "Escolliu un àlies."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:81
+msgid "Sorry, but spaces are not allowed in nicknames!"
+msgstr "No es permeten espais als àlies."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:87
+msgid "Please enter your password!"
+msgstr "Escolliu una contrasenya."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Column title for number of players in map list
+#: ../../src/wui/maptable.cc:34
+msgid "Pl."
+msgstr "#J"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/maptable.cc:35 ../../src/wui/maptable.cc:64
+msgid "Filename"
+msgstr "Nom de l'arxiu:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is an option in multiplayer setup for sharing
+#. another player's starting position.
+#: ../../src/wui/multiplayersetupgroup.cc:443
+#, c-format
+msgid "Shared in Player %u"
+msgstr "Aquesta posició inicial forma part del clan del jugador %u."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/productionsitewindow.cc:114
+msgid "Terminate the employment of the selected worker"
+msgstr "Finalitzar l'assignació del treballador en aquest edifici."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the seafaring statistics window
+#: ../../src/wui/seafaring_statistics_menu.cc:118
+msgid "Open the selected ship’s window"
+msgstr "Obre la finestra del vaixell seleccionat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the seafaring statistics window
+#: ../../src/wui/seafaring_statistics_menu.cc:122
+msgid "Go to the selected ship and open its window"
+msgstr "Vés al vaixell seleccionat i obre'n la finestra."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the seafaring statistics window
+#: ../../src/wui/seafaring_statistics_menu.cc:134
+msgid "Center the map on the selected ship"
+msgstr "Centra el mapa al vaixell seleccionat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:506
+msgid "Show all ships"
+msgstr "Mostra tots els vaixells."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:515
+msgid "Show idle ships"
+msgstr "Mostra els vaixells inactius."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:519
+msgid "Show ships shipping wares and workers"
+msgstr "Mostra vaixells transportant béns i treballadors."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:524
+msgid "Show waiting expeditions"
+msgstr "Mostra les expedicions que estan en espera."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:528
+msgid "Show scouting expeditions"
+msgstr "Mostra les expedicions que estan explorant."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:533
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "Mostra les expedicions que han trobat un espai portuari o estan fundant una colònia."

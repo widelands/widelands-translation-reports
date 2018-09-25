@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-14 06:11+0000\n"
+"PO-Revision-Date: 2018-09-07 13:05+0000\n"
+"Last-Translator: Gontzal M. Pujana <juchuf@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
+"language/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) options: Missing or translated option '--<config-entry-name>'
+#: ../../src/wlapplication_messages.cc:45
+msgid " --<config-entry-name>=value overwrites any config file setting"
+msgstr " --<nombre-variable>=valor sobreescribe cualquier parametro del archivo de configuración"
+
+# (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
+#: ../../src/wlapplication_messages.cc:144
+msgid ""
+" --border_snap_distance=[0 ...]\n"
+"                      Move a window to the edge of the screen\n"
+"                      when the edge of the window comes within\n"
+"                      this distance from the edge of the screen."
+msgstr " --border_snap_distance=[0 ...]\n                      Mueve una ventana al borde de la pantalla\n                      cuando el borde de la ventana está a esta\n                      distancia del borde de la pantalla."
+
+# (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
+#: ../../src/wlapplication_messages.cc:157
+msgid ""
+" --panel_snap_distance=[0 ...]\n"
+"                      Move a window to the edge of the panel when\n"
+"                      the edge of the window comes within this\n"
+"                      distance from the edge of the panel."
+msgstr " --panel_snap_distance=[0 ...]\n                      Mueve una ventana al borde del panel cuando\n                      el borde de la ventana se encuentra dentro\n                      de esta distancia del borde del panel."

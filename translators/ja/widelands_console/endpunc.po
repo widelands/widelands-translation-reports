@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-05-11 05:42+0000\n"
+"PO-Revision-Date: 2018-05-12 00:56+0000\n"
+"Last-Translator: tamanegi\n"
+"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
+"language/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:45
+msgid " --<config-entry-name>=value overwrites any config file setting"
+msgstr " --<config-entry-name>=value  設定ファイルで定義された設定を上書きします。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:48
+msgid ""
+" --datadir=DIRNAME    Use specified directory for the widelands\n"
+"                      data files"
+msgstr " --datadir=DIRNAME    指定したディレクトリをwidelandsデータディレクトリ\n                      として使用します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:51
+msgid ""
+" --homedir=DIRNAME    Use specified directory for widelands config\n"
+"                      files, savegames and replays"
+msgstr " --homedir=DIRNAME    widelands設定ファイル、セーブデータ、リプレイを\n                      置くディレクトリを指定します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:65
+msgid ""
+" --language=[de_DE|sv_SE|...]\n"
+"                      The locale to use."
+msgstr " --language=[de_DE|sv_SE|...]\n                      使用するロケール。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain.
+#. * TRANSLATORS: A syncstream is a synchronization stream. Syncstreams are
+#. used in
+#. multiplayer
+#. * TRANSLATORS: games to make sure that there is no mismatch between the
+#. players.
+#: ../../src/wlapplication_messages.cc:74
+msgid ""
+" --write_syncstreams=[true|false]\n"
+"                      Create syncstream dump files to help debug network games."
+msgstr " --write_syncstreams=[true|false]\n                      ネットワークゲームのデバッグのため同期ログファイルを\n                      作ります"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:81
+msgid ""
+" --metaserver=[...]\n"
+"                      Connect to a different metaserver for internet gaming."
+msgstr " --metaserver=[...]\n                      オンラインプレイ時に指定したメタサーバに接続します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:84
+msgid ""
+" --metaserverport=[...]\n"
+"                      Port number of the metaserver for internet gaming."
+msgstr " --metaserverport=[...]\n                      メタサーバのポート番号を指定します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:90
+msgid " --nosound            Starts the game with sound disabled."
+msgstr " --nosound            サウンドを無効にしてゲームを開始します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:91
+msgid " --disable_fx         Disable sound effects."
+msgstr " --disable_fx         効果音を無効にします。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:92
+msgid " --disable_music      Disable music."
+msgstr " --disable_music      BGMを無効にします。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:94
+msgid " --nozip              Do not save files as binary zip archives."
+msgstr " --nozip              セーブファイルをzip圧縮しません。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:96
+msgid ""
+" --editor             Directly starts the Widelands editor.\n"
+"                      You can add a =FILENAME to directly load\n"
+"                      the map FILENAME in editor."
+msgstr " --editor             Widelandsエディタを直接起動します。\n                      エディタでマップFILENAMEを直接読み込むために\n                      =FILENAMEを追加できます。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:100
+msgid ""
+" --ai_training        Enables AI training mode. See\n"
+"                      https://wl.widelands.org/wiki/Ai%20Training/\n"
+"                      for a full description of the AI training logic."
+msgstr " --ai_training        AI訓練モードを有効にします。このモードの\n                      詳細については次のページをごらんください。\n                      https://wl.widelands.org/wiki/Ai%20Training/"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:104
+msgid ""
+" --auto_speed         In multiplayer games only, this will keep\n"
+"                      adjusting the game speed automatically,\n"
+"                      depending on FPS. Useful in conjunction with\n"
+"                      --ai_training."
+msgstr " --auto_speed         マルチプレイ限定。ゲームスピードをFPS\n                      に応じて自動的に調整します。--ai_training指定時\n                      にこれを指定すると便利です。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:109
+msgid ""
+" --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
+"                      map."
+msgstr " --scenario=FILENAME  シナリオマップとしてファイル名を\n                      直接起動します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:112
+msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
+msgstr " --loadgame=FILENAME    セーブデータFILENAMEを直接読み込みます。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:113
+msgid ""
+" --script=FILENAME    Run the given Lua script after initialization.\n"
+"                      Only valid with --scenario, --loadgame, or --editor."
+msgstr " --script=FILENAME 初期化後に指定したLuaスクリプトを実行します。\n                      --scenario、--loadgame、--editorでのみ有効です。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:119
+msgid ""
+" --auto_roadbuild_mode=[true|false]\n"
+"                      Whether to enter roadbuilding mode\n"
+"                      automatically after placing a flag that is\n"
+"                      not connected to a road."
+msgstr " --auto_roadbuild_mode=[true|false]\n                      道に接続されていない旗を建設した\n                      時に自動的に道建設モードに移行する\n                      かどうかを設定します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:129
+msgid ""
+" --fullscreen=[true|false]\n"
+"                      Whether to use the whole display for the\n"
+"                      game screen."
+msgstr " --fullscreen=[true|false]\n                      フルスクリーンモードの利用を設定します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:133
+msgid " --xres=[...]         Width of the window in pixel."
+msgstr " --xres=[...]         ウィンドウの幅 (ピクセル単位)"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:134
+msgid " --yres=[...]         Height of the window in pixel."
+msgstr " --yres=[...]         ウィンドウの高さ (ピクセル単位)"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:135
+msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
+msgstr " --maxfps=[5 ...]     フレームレートの最大値を指定します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:141
+msgid ""
+" --animate_map_panning=[yes|no]\n"
+"                      Should automatic map movements be animated."
+msgstr " --animate_map_panning=[yes|no]\n                      マップ上での自動移動をアニメーションさせるか\n                      どうかを設定します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:144
+msgid ""
+" --border_snap_distance=[0 ...]\n"
+"                      Move a window to the edge of the screen\n"
+"                      when the edge of the window comes within\n"
+"                      this distance from the edge of the screen."
+msgstr " --border_snap_distance=[0 ...]\n                      画面端からこの距離内に\n                      ウィンドウ端が来たときに、\n                      画面端へウィンドウを移動します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain
+#: ../../src/wlapplication_messages.cc:152
+msgid ""
+" --dock_windows_to_edges=[true|false]\n"
+"                      Eliminate a window's border towards the\n"
+"                      edge of the screen when the edge of the\n"
+"                      window is next to the edge of the screen."
+msgstr " --dock_windows_to_edges=[true|false]\n                      ウィンドウの端がスクリーンの端に接した\n                      時、ウィンドウの端を消します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:157
+msgid ""
+" --panel_snap_distance=[0 ...]\n"
+"                      Move a window to the edge of the panel when\n"
+"                      the edge of the window comes within this\n"
+"                      distance from the edge of the panel."
+msgstr " --panel_snap_distance=[0 ...]\n                      ウィンドウ端がパネル端からこの距離内に\n                      来たときに、パネル端へウィンドウを移動\n                      させます。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:162
+msgid ""
+" --snap_windows_only_when_overlapping=[yes|no]\n"
+"                      Only move a window to the edge of a panel\n"
+"                      if the window is overlapping with the\n"
+"                      panel."
+msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                      ウィンドウがパネルと重なっているときに、\n                      ウィンドウだけをパネル端へ移動させます。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:168
+msgid " --verbose            Enable verbose debug messages"
+msgstr " --verbose            デバッグメッセージを有効化します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:169
+msgid " --help               Show this help"
+msgstr " --help               このヘルプを表示します。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:170
+msgid ""
+"Bug reports? Suggestions? Check out the project website:\n"
+"        https://wl.widelands.org/\n"
+"\n"
+"Hope you enjoy this game!"
+msgstr "バグ報告？提案？それならプロジェクトのサイトへ行きましょう：\n         https://wl.widelands.org/\n\nどうぞゲームをお楽しみ下さい！"

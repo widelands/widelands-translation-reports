@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
+"ko/)\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+msgid "Generating random map…"
+msgstr "무작위 지도 생성 중..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor change height access keys. *
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
+msgid ""
+"Click on the map to increase, Shift + Click on the map to decrease terrain "
+"height"
+msgstr "지형 높이를 상승시키려면 지도에 클릭, 하강시키려면 Shift + 클릭을 하세요."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor set height access key. *
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:67
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:85
+msgid "Ctrl + Click on the map to set terrain height"
+msgstr "지형 높이를 설정하려면 지도에 Ctrl + 클릭을 하세요."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor change rseources access keys. *
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:81
+msgid ""
+"Click on the map to increase, Shift + Click on the map to decrease the "
+"amount of the selected resource"
+msgstr "선택한 자원의 양을 증가시키려면 지도에 클릭, 감소시키려면 Shift + 클릭을 하세요."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Editor random height access key. *
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:82
+msgid ""
+"Click on the map to set terrain height to a random value within the "
+"specified range"
+msgstr "정해진 범위 내의 무작위 값을 지형 높이로 설정하려면 지도에 클릭하세요."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip header for characters in illegal filenames.
+#. * This is followed by a list of bullet points
+#: ../../src/io/filesystem/filesystem.cc:221
+msgctxt "illegal_filename_characters"
+msgid "The following characters are not allowed:"
+msgstr "다음 문자는 허용되지 않습니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+msgid "Loading map…"
+msgstr "지도 불러오는 중..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+msgid "Loading…"
+msgstr "불러오는 중..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is a ship state. The ship is ready to transport wares,
+#. but has
+#. * nothing to do.
+#: ../../src/logic/map_objects/tribes/ship.cc:999
+#: ../../src/wui/seafaring_statistics_menu.cc:215
+msgctxt "ship_state"
+msgid "Idle"
+msgstr "대기중??"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:99
+msgid "Saving game…"
+msgstr "게임 저장 중..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:267
+msgid "/forcePause            -  Force the game to pause."
+msgstr "/forcePause - 게임을 강제로 일시정지"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:269
+msgid "/endForcedPause        -  Return game to normal speed."
+msgstr "/endForcedPause - 게임을 원래 속도로 복구하기"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:494
+msgid "Failed to host the server!"
+msgstr "서버를 주최하지 못 했습니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:387
+msgid "Our forums can be found at:"
+msgstr "우리의 게시판은 다음에서 찾을 수 있습니다 :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:463
+#, c-format
+msgid "Invalid chat message type \"%s\"."
+msgstr "잘못된 채팅 메시지 타입 \"%s\""
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/intro.cc:31
+msgid "Press any key or click to continue…"
+msgstr "계속하려면 아무 키나 입력하거나 클릭하세요..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:263
+#: ../../src/wui/game_options_sound_menu.cc:85
+msgid "Sound is disabled due to a problem with the sound driver"
+msgstr "사운드 드라이버에 문제가 있어서 소리가 나지 않습니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/game_main_menu_save_game.cc:158
+msgid ""
+"Game Saving Error!\n"
+"Saved game file may be corrupt!\n"
+"\n"
+"Reason given:\n"
+msgstr "게임 저장 오류!\n저장된 게임 파일이 손상되었습니다!\n\n손상 이유 :\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
+#. load.
+#. * TRANSLATORS: %s is a list of game modes.
+#: ../../src/wui/load_or_save_game.cc:110
+#, c-format
+msgid "Game Mode: %s."
+msgstr "게임 모드: %s"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/multiplayersetupgroup.cc:505
+#: ../../src/wui/playerdescrgroup.cc:179
+msgid "Start type is set via the scenario"
+msgstr "시작 유형은 시나리오를 통해 설정됩니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:519
+msgid "Show ships shipping wares and workers"
+msgstr "배송 물품 및 노동자를 표시합니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/seafaring_statistics_menu.cc:533
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "항구 자리를 찾았거나 식민지를 세우고있는 탐험대를 표시합니다."

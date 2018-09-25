@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
+"nl/)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: "Completed working because the economy needs the ware ‘%s’"
+#: ../../src/logic/map_objects/tribes/production_program.cc:549
+#, c-format
+msgid "Completed %1$s because %2$s"
+msgstr "%1$s uitgevoerd want %2$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: "Skipped working because the economy needs the ware ‘%s’"
+#: ../../src/logic/map_objects/tribes/production_program.cc:554
+#, c-format
+msgid "Skipped %1$s because %2$s"
+msgstr "%1$s overgeslagen want %2$s"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: %s is a list of wares. String is fetched according to total
+#. amount of
+#. wares.
+#: ../../src/logic/map_objects/tribes/production_program.cc:995
+#, c-format
+msgid "Produced %s"
+msgid_plural "Produced %s"
+msgstr[0] "%s geproduceerd"
+msgstr[1] "%s geproduceerd"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: %s is a list of workers. String is fetched according to
+#. total amount of
+#. workers.
+#: ../../src/logic/map_objects/tribes/production_program.cc:1077
+#, c-format
+msgid "Recruited %s"
+msgid_plural "Recruited %s"
+msgstr[0] "%s gerekruteerd"
+msgstr[1] "%s gerekruteerd"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Column title for number of players in map list
+#: ../../src/wui/maptable.cc:34
+msgid "Pl."
+msgstr "#S"

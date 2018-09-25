@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-07-20 07:33+0000\n"
+"PO-Revision-Date: 2018-07-20 08:35+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
+"widelands/language/gd/)\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/help/common_helptexts.lua:18
+msgid ""
+"Widelands is a free, open source real-time strategy game with singleplayer "
+"campaigns and a multiplayer mode. The game was inspired by Settlers II but "
+"has significantly more variety and depth to it. Still, it is easy to get "
+"started through playable tutorials."
+msgstr "’S e geama ro-innleachd fìor-ùine saor is open source a th’ ann an Widelands le iomairtean aon-chluicheadair is modh ioma-chluicheadair. ’S ann gun do chuir Settlers II an geama ’nar n-inntinn ach tha barrachd caochlaidh is doimhne ann. Tha e furasta gu leòr tòiseachadh air co-dhiù le oideachadh a ghabhas cluiche."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/help/common_helptexts.lua:28
+#, lua-format
+msgid ""
+"Replays are a very useful tool to find bugs in the game logic, so they can "
+"be useful as attachments to bug reports. The replay files are saved in the "
+"%s directory on Linux and Mac OS X. On Windows, they are in the ‘replays’ "
+"subdirectory of your Widelands installation."
+msgstr "’S e uidheamachd glè fheumail gus bugaichean ann an loidsig a’ gheama a lorg a th’ anns na h-ath-chluichean, mar sin bidh iad feumail ma cheanglas tu ri aithris air buga iad. Thèid na h-ath-chluichean a shàbhaladh sa phasgan %s air Linux is Mac OS X. Air Windows, bidh iad ann am pasgan “replays” fon phasgan stàlaidh Widelands agad."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/help/multiplayer_help.lua:19
+msgid "Set as shared in starting position for another player."
+msgstr "’Na cho-phàirteach ann an ionad-tòiseachaidh airson cluicheadair eile."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/help/multiplayer_help.lua:22
+msgid ""
+"Every client connected to a player (who isn’t a spectator) can set the tribe"
+" and the team for that player."
+msgstr "’S urrainn do gach cliant a bhios ceangailte ri cluicheadair (nach eil ’na amharc) treubh is sgioba a’ chluicheadair sin a shuidheachadh."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/editor.lua:11
+msgid ""
+"You can select multiple animal types if you hold down Ctrl during selection."
+" If you then click on the map, an instance of one of the selected animal "
+"types will be placed."
+msgstr "’S urrainn dhut iomadh seòrsa de bheathach a thaghadh aig an aon àm ’s tu a’ cumail Ctrl sìos fhad ’s a bhios tu ’gan taghadh. Ma nì thu briogadh air a’ mhapa an uairsin, thèid ball dhe aon dhe na seòrsaichean de bheathach a thagh thu a chur ann."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/editor.lua:27
+msgid ""
+"The number keys (0 - 9) allow you to directly set the size of the selected "
+"area around your mouse cursor."
+msgstr "’S urrainn dhut meud an raoin a thèid a thaghadh mu chùrsair na luchaige agad a shuidheachadh sa bhad leis na h-iuchraichean àireimh (0 - 9)."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/editor.lua:43
+msgid ""
+"You can place a medium building on any node where there is a slope no "
+"greater than 1 in the south-east direction and its height difference to all "
+"nodes in a radius of 2 is no greater than 2."
+msgstr "’S urrainn dhut togalach meadhanach a chur air nòd mur eil an sliabh gu ear-dheas air nas motha na 1 agus mur eil diofar na h-àirde an coimeas gach nòid am broinn rèideis de 2 nas motha na 2."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/editor.lua:47
+msgid ""
+"You can place a big building on any node where you could place a medium "
+"building if there is no obstacle or non-arable terrain towards the west, "
+"northwest and northeast."
+msgstr "’S urrainn ghut togalach mòr a chur air nòd sam bith far am b’ urrainn dhut togalach meadhanach a chur ann agus mur eil cnap-starra no tìr nach eil ’na thalamh-àitich gu iar, iar-thuath no ear-thuath air."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/general_game.lua:14
+msgid ""
+"Your territory can be expanded by building various military buildings – "
+"Sentry, Fortress, Blockhouse, etc."
+msgstr "’S urrainn dhut barrachd ranntair a ghabhail ma thogas tu togalaichean an airm a leithid freiceadanan, dùin, taighean-bloca agus msaa."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/general_game.lua:47
+msgid ""
+"Removing a road while holding Ctrl lets you remove all flags up to the first"
+" junction."
+msgstr "’S urrainn dhut gach bratach gun chiad ghobhal a thoirt air falbh ’s tu a’ cumail sìos CTRL fhad ’s a bhios tu a’ toirt rathad air falbh."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/multiplayer.lua:4
+msgid ""
+"You can use the ’Page up’ and ‘Page down’ keys to adjust your desired speed "
+"– the real speed is then democratically set."
+msgstr "’S urrainn dhut na h-iuchraichean “Page up” is “Page down” a chleachdadh gus gleus a chur air luaths a gheama – thèid an luaths da-rìribh a shuidheachadh gu deamocratach an uairsin."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/multiplayer.lua:8
+msgid ""
+"You can use ‘/me’ at the beginning of a chatmessage: ‘/me is tired’ will be "
+"printed as ‘-> Nickname is tired’."
+msgstr "’S urrainn dhut /me a chleachdadh aig toiseach teachdaireachd na cabadaich. Thèid “/me a tha sgìth” a shealltainn mar “-> far-ainm a tha sgìth”."

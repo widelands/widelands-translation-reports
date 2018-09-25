@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 19:02+0000\n"
+"Last-Translator: Elisabeth Jäger\n"
+"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
+"de/)\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/logic/map_objects/tribes/worker.cc:219
+#, c-format
+msgid ""
+"should breed resource type %s, which does not exist in world; tribe is not "
+"compatible with world"
+msgstr "sollte Rohstoffe des Typs %s züchten, welche in dieser Welt nicht existieren; Stamm und Welt sind  inkompatibel"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:259
+msgid "/help  -  Shows this help"
+msgstr "/help – Zeigt diese Hilfe"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:261
+msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
+msgstr "/announce <Nachricht> – Schickt eine Chat-Nachricht als Meldung (System-Chat)"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:263
+msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
+msgstr "/warn <Name> <Grund> – Verwarnt den Benutzer <Name> aufgrund von <Grund>"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:265
+msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
+msgstr "/kick <Name> <Grund> – Wirft den Benutzer <Name> hinaus, aufgrund von <Grund>"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:267
+msgid "/forcePause            -  Force the game to pause."
+msgstr "/forcePause – Erzwingt eine Spielpause."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:269
+msgid "/endForcedPause        -  Return game to normal speed."
+msgstr "/endForcedPause – Setzt das Spiel fort."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/internet_gaming.cc:428
+#, c-format
+msgid ""
+"WARNING: Received a %s command although we are not in CONNECTING state."
+msgstr "WARNUNG:  Es wurde der Befehl %s empfangen, obwohl wir nicht dabei sind, uns mit dem Metaserver zu verbinden."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/internet_gaming.cc:788
+#: ../../src/network/internet_gaming.cc:795
+msgid "Message could not be sent: Was this supposed to be a private message?"
+msgstr "Die Nachricht konnte nicht gesendet werden:  Sollte dies eine private Nachricht sein?"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/internet_gaming_messages.cc:63
+msgid ""
+"You tried to log back in, but the server has no knowledge of your previous "
+"state anymore."
+msgstr "Du  hast versucht, dich wieder mit dem Metaserver zu verbinden, aber mittlerweile hat dieser keine Informationen über deinen letzten Status mehr."

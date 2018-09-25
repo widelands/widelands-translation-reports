@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
+"widelands/language/gd/)\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+msgid "Loading…"
+msgstr "’Ga luchdadh…"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/map_objects/immovable.cc:518
+#: ../../src/logic/map_objects/tribes/constructionsite.cc:104
+#, c-format
+msgid "%i%% built"
+msgstr "’Ga thogail: %i%%"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: e.g. 'Did not start working because 3x water and 3x wheat
+#. are missing'
+#. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
+#. bread is missing'
+#: ../../src/logic/map_objects/tribes/production_program.cc:888
+#, c-format
+msgid "%s is missing"
+msgid_plural "%s are missing"
+msgstr[0] "gu bheil %s a dhìth"
+msgstr[1] "gu bheil %s a dhìth"
+msgstr[2] "gu bheil %s a dhìth"
+msgstr[3] "gu bheil %s a dhìth"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/map_objects/tribes/productionsite.cc:308
+msgid "(stopped)"
+msgstr "(’na stad)"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: This is a ship state. The ship is ready to transport wares,
+#. but has
+#. * nothing to do.
+#: ../../src/logic/map_objects/tribes/ship.cc:999
+#: ../../src/wui/seafaring_statistics_menu.cc:215
+msgctxt "ship_state"
+msgid "Idle"
+msgstr "’Na tàmh"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/internet_gaming.cc:557
+#, c-format
+msgid "%s joined the lobby"
+msgstr "Thàinig %s a-steach dhan lobaidh"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/internet_gaming.cc:564
+#, c-format
+msgid "%s left the lobby"
+msgstr "Dh’fhàg %s an lobaidh"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/network_gaming_messages.cc:130
+#, c-format
+msgid "%1$s has left the game (%2$s)"
+msgstr "Dh’fhàg %1$s an geama (%2$s)"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/network_gaming_messages.cc:161
+#, c-format
+msgid "%s has joined the game"
+msgstr "Thàinig %s a-steach dhan gheama"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Campaign scenario number table header
+#: ../../src/ui_fsmenu/campaign_select.cc:345
+msgid "#"
+msgstr "Àir."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/launch_game.cc:92
+msgid "The game is a saved game – the win condition was set before."
+msgstr "’S e geama air a shàbhaladh a tha sa gheama – chaidh cumha na buaidhe a shuidheachadh mar-thà."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/launch_mpg.cc:329
+msgid "Saved Game is Directory"
+msgstr "’S e pasgan a tha sa gheama air a shàbhaladh"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wui/building_statistics_menu.cc:72
+msgid "Under Construction:"
+msgstr "’Ga thogail:"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wui/game_summary.cc:204
+#, c-format
+msgid "%s won!"
+msgstr "Bhuannaich %s!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wui/interactive_gamebase.cc:54
+msgid "PAUSE"
+msgstr "’NA STAD"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wui/load_or_save_game.cc:113
+msgid "Numbers are the number of players."
+msgstr "’S e àireamh nan cluicheadairean a tha sna h-àireamhan."

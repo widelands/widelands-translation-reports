@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-13 07:23+0000\n"
+"Last-Translator: Любомир Василев\n"
+"Language-Team: Bulgarian (http://www.transifex.com/widelands/widelands/"
+"language/bg/)\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: A variant of the commandline parameter "true" value
+#. * TRANSLATORS: Needs to be consistent with the translations in widelands-
+#. console
+#: ../../src/profile/profile.cc:51
+msgid "on"
+msgstr "вкл."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: A variant of the commandline parameter "false" value
+#. * TRANSLATORS: Needs to be consistent with the translations in widelands-
+#. console
+#: ../../src/profile/profile.cc:64
+msgid "off"
+msgstr "изкл."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Options: Save game automatically every:
+#: ../../src/ui_fsmenu/options.cc:287
+msgid "Off"
+msgstr "Изкл."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
+#. are:
+#. month day, year
+#: ../../src/wui/load_or_save_game.cc:411
+msgid "%1% %2%, %3%"
+msgstr "%2% %1% %3% г."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
+#. are:
+#. month (short name) day (number), year (number). This is part of a list.
+#: ../../src/wui/load_or_save_game.cc:417
+msgid "saved on %1% %2%, %3%"
+msgstr "запазено на %2% %1% %3% г."

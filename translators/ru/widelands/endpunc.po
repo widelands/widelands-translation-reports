@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-13 12:41+0000\n"
+"Last-Translator: Viktor S <awsswa59@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
+"language/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+msgid "Creating empty map…"
+msgstr "Создание пустой карты..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+msgid "Generating random map…"
+msgstr "Создание случайной карты..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+msgid "Loading map…"
+msgstr "Загрузка карты..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+msgid "Loading…"
+msgstr "Загрузка..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:99
+msgid "Saving game…"
+msgstr "Сохранение игры..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Available host command
+#: ../../src/network/gamehost.cc:267
+msgid "/forcePause            -  Force the game to pause."
+msgstr "/forcePause — Принудительно поставить игру на паузу"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:119
+msgid "Client has left the game."
+msgstr "Клиент отключился"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:122
+msgid "Server has left the game."
+msgstr "Сервер покинул игру"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:139
+msgid "Server sent a user update for a user that does not exist."
+msgstr "Сервер отправляет обновление пользователю которого нет"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:144
+msgid "Client reports time to host that is running backwards."
+msgstr "Клиент получает время от хоста, который отстает по времени"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:148
+msgid "The game has already started."
+msgstr "Игра уже началась"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:149
+msgid "Client has no access to other player’s settings."
+msgstr "Клиент не имеет доступа к настройкам других игроков"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_lan_promotion.cc:359
+msgid "Failed to use the local network!"
+msgstr "Не удалось использовать локальную сеть"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:414 ../../src/wui/mapdetails.cc:126
+msgid "Author:"
+msgid_plural "Authors:"
+msgstr[0] "Автор"
+msgstr[1] "Авторы"
+msgstr[2] "Авторы"
+msgstr[3] "Авторы"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:441
+msgid "Pick a tutorial from the list, then hit \"OK\"."
+msgstr "Выберите урок из списка и нажмите \"ОК\""
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/intro.cc:31
+msgid "Press any key or click to continue…"
+msgstr "Нажмите любую клавишу или щёлкните для продолжения..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:416
+msgid "You are a spectator."
+msgstr "Вы – наблюдатель"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Options: Save game automatically every:
+#: ../../src/ui_fsmenu/options.cc:287
+msgid "Off"
+msgstr "Откл."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button tooltip
+#: ../../src/wui/game_options_menu.cc:79
+msgid "Set sound effect and music options"
+msgstr "Настроить музыку и звуковые эффекты."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:93
+msgid "Save Date"
+msgstr "Дата сохранения:"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:182
+#, c-format
+msgid "Selected %d file:"
+msgid_plural "Selected %d files:"
+msgstr[0] "Выбран %d файл"
+msgstr[1] "Выбрано %d файлов"
+msgstr[2] "Выбрано %d файлов"
+msgstr[3] "Выбрано %d файлов"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:46
+msgid "Automatically use this login information from now on."
+msgstr "Автоматически входить используя эту информацию"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/shipwindow.cc:84
+msgid "Explore the island’s coast clockwise"
+msgstr "Исследовать побережье острова двигаясь по направлению часовой стрелки."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/shipwindow.cc:112
+msgid "Explore the island’s coast counter clockwise"
+msgstr "Исследовать побережье острова двигаясь против часовой."

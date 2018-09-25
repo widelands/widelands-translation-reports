@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-14 06:11+0000\n"
+"PO-Revision-Date: 2018-09-07 13:05+0000\n"
+"Last-Translator: Gontzal M. Pujana <juchuf@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
+"language/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:46
+msgid "                      Note: New value will be written to config file"
+msgstr "Nota: Nuevos valores serán escritos en el archivo de configuración"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:55
+msgid "                      Default is ~/.widelands"
+msgstr "Por defecto es ~/.widelands"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
+#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
+#. widelands
+#. textdomain.
+#. * TRANSLATORS: A syncstream is a synchronization stream. Syncstreams are
+#. used in
+#. multiplayer
+#. * TRANSLATORS: games to make sure that there is no mismatch between the
+#. players.
+#: ../../src/wlapplication_messages.cc:74
+msgid ""
+" --write_syncstreams=[true|false]\n"
+"                      Create syncstream dump files to help debug network games."
+msgstr " --write_syncstreams=[true|false]\nCrea archivos de volcado de syncstream para facilitar la depuración del multijugador."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:162
+msgid ""
+" --snap_windows_only_when_overlapping=[yes|no]\n"
+"                      Only move a window to the edge of a panel\n"
+"                      if the window is overlapping with the\n"
+"                      panel."
+msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                      Solo mueve la ventana al borde del panel\n                      si la ventana se sobrepone con el panel."

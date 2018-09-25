@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
+"language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:167
+#, c-format
+msgid ""
+"Widelands could not load the file \"%s\". The file format seems to be "
+"incompatible."
+msgstr "Widelands 不能读取文件 “%s\"。文件格式似乎不兼容。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:232
+msgid "The map has not been saved, do you really want to quit?"
+msgstr "这个地图没有保存，您确定真的要退出吗？"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
+#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/tribal_encyclopedia.cc:56
+msgid "Error!"
+msgstr "错误！"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:108
+#: ../../src/ui_fsmenu/campaign_select.cc:78
+#: ../../src/ui_fsmenu/campaign_select.cc:155
+#: ../../src/ui_fsmenu/campaign_select.cc:384 ../../src/wui/mapdetails.cc:142
+msgid "Description:"
+msgstr "描述："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:112
+msgid "Hint (optional):"
+msgstr "提示（可选项）"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:119
+#: ../../src/wui/mapdetails.cc:136
+msgid "Tags:"
+msgstr "标签："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:114
+msgid "Terrain:"
+msgstr "地域："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:91
+#: ../../src/wui/gamedetails.cc:126
+msgid "Players:"
+msgstr "玩家："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:118
+msgid "Resources:"
+msgstr "资源："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:200
+msgid "Map ID:"
+msgstr "地图ID"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
+#: ../../src/wui/game_main_menu_save_game.cc:61
+#: ../../src/wui/gamedetails.cc:143
+msgid "Filename:"
+msgstr "文件名"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:268
+#: ../../src/wui/game_main_menu_save_game.cc:171
+#, c-format
+msgid "A file with the name ‘%s’ already exists. Overwrite?"
+msgstr "文件‘%s’已经存在了，要覆盖吗？"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:271
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:285
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:331
+msgid "Error Saving Map!"
+msgstr "保存地图错误！"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:282
+#, c-format
+msgid ""
+"A file with the name ‘%s.tmp’ already exists. You have to remove it "
+"manually."
+msgstr "名为'%s.tmp'的文件已经存在。你必须自己删除它。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:328
+msgid ""
+"Error Saving Map!\n"
+"Saved map file may be corrupt!\n"
+"\n"
+"Reason given:\n"
+msgstr "保存地图错误！\n已保存的地图文件可能损坏！\n\n原因：\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_menu.cc:66
+msgid ""
+"Set the position that will have the coordinates (0, 0). This will be the "
+"top-left corner of a generated minimap."
+msgstr "已设置坐标为(0,0)的位置。这会在生成地图的左上角。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:452 ../../src/logic/player.cc:223
+#, c-format
+msgid ""
+"Widelands could not start the game, because player %u has no starting position.\n"
+"You can manually add a starting position with the Widelands Editor to fix this problem."
+msgstr "Widelands不能开始游戏，因为玩家%u没有开始位置。\n你可以用Widelands编辑器手动添加一个开始位置来解决这个问题。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game_data_error.cc:48
+msgid ""
+"This game was saved using an older version of Widelands and cannot be loaded"
+" anymore, or it's a new version that can't be handled yet."
+msgstr "无法载入。这是低版本或者更高此版本不能载入的Widelands存档。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/objective.h:38
+msgid "This objective has no description."
+msgstr "此目标无描述。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/replay_game_controller.cc:98
+msgid ""
+"The end of the replay has been reached and the game has been paused. You may"
+" unpause the game and continue watching if you want to."
+msgstr "重放已经结束，游戏暂停。如果你喜欢你可以继续游戏和观看。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:115
+msgid "Saving failed!"
+msgstr "保存失败！"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:114
+msgid ""
+"Widelands could not establish a connection to the given address.\n"
+"Either there was no metaserver running at the supposed port or\n"
+"your network setup is broken."
+msgstr "Widelands不能对指定地址建立连接.\n可能在指定端口没有运行的metaserver或者\n您的网络设置存在问题。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:152
+msgid "Campaign Name:"
+msgstr "战役名称："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:154
+msgid "Difficulty:"
+msgstr "难度"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:382
+msgid "Tutorial:"
+msgstr "教程："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:441
+msgid "Pick a tutorial from the list, then hit \"OK\"."
+msgstr "从列表里选取一个教程，然后点击“好的”"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/campaign_select.cc:443
+msgid ""
+"You can see a description of the currently selected tutorial on the right."
+msgstr "在右边你可以看到当前选择教程的描述。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:64
+msgid "List of games:"
+msgstr "游戏列表："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:92
+msgid "The game is a saved game – the win condition was set before."
+msgstr "此游戏是保存的游戏，胜利条件已经设置。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:191
+msgid "The host has not yet selected a map or saved game."
+msgstr "主机还未选择地图或游戏存档"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:330
+msgid ""
+"WARNING:\n"
+"The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
+"Widelands is not able to transfer directory structures to the clients, please select another saved game or zip the directories’ content."
+msgstr "警告：\n你选择的游戏存档是一个文件夹。这种情况在你设置\"nozip\"选项为true或者手工解压缩了游戏存档时会出现。\nWidelands不能传输文件夹到其他客户端，请选择另一个游戏存档或者压缩文件夹内容为zip文件。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#, c-format
+msgid ""
+"Widelands tried to start a game with a file that could not be found at the given path.\n"
+"The file was: %s\n"
+"If this happens in a network game, the host might have selected a file that you do not own. Normally, such a file should be sent from the host to you, but perhaps the transfer was not yet finished!?!"
+msgstr "Widelands用了一个无法找到的文件路径开始游戏。\n此文件是：%s\n如果此情况发生在网络游戏中，游戏创建者可能选择了你没有的文件。通常，此文件将从创建者传输过来，但是可能传输目前还没有完成?!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:384
+msgid ""
+"The selected file can not be found. If it is not automatically transferred "
+"to you, please write to the host about this problem."
+msgstr "无法找到选择的文件。如果此文件没有自动下载，请致信游戏创建者说明问题。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:416
+msgid "You are a spectator."
+msgstr "你是观众。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:587
+msgid "Map details:"
+msgstr "地图详情："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:42
+msgid "List of games in your local network:"
+msgstr "本地网络游戏列表"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:43
+msgid "Your nickname:"
+msgstr "您的名字"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:44
+msgid "Host to connect:"
+msgstr "连接主机"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:131
+msgid "Maximum FPS:"
+msgstr "最大每秒帧数"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:150
+msgid "Distance for windows to snap to other panels:"
+msgstr "触发窗口与其他面板对齐的距离"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:162
+msgid "Distance for windows to snap to borders:"
+msgstr "触发窗口与边框对齐的距离"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:113
+msgid "Map Name:"
+msgstr "地图名称："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:130
+msgid "Widelands Version:"
+msgstr "WIdelands版本："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:134
+msgid "Win Condition:"
+msgstr "胜利条件："
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
+#. load.
+#. * TRANSLATORS: %s is a list of game modes.
+#: ../../src/wui/load_or_save_game.cc:110
+#, c-format
+msgid "Game Mode: %s."
+msgstr "游戏模式: %s"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:113
+msgid "Numbers are the number of players."
+msgstr "数字是玩家数。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:240
+msgid "Do you really want to delete this replay?"
+msgstr "确定删除此重放？"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:250
+msgid "Do you really want to delete this game?"
+msgstr "确定删除此游戏？"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Error message introduction for when an old savegame can't be
+#. loaded
+#: ../../src/wui/load_or_save_game.cc:484
+msgid ""
+"This file has the wrong format and can’t be loaded. Maybe it was created "
+"with an older version of Widelands."
+msgstr "文件格式错误，无法载入。可能是由旧版本Widelands产生。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This text is on a separate line with an error message below
+#: ../../src/wui/load_or_save_game.cc:487
+msgid "Error message:"
+msgstr "错误消息："

@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2018-09-12 15:51+0000\n"
+"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
+"widelands/language/pt_BR/)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/format_scenario.lua:40
+#: ../../data/scripting/richtext_scenarios.lua:90
+msgid "New Objective"
+msgid_plural "New Objectives"
+msgstr[0] "Novo Objetivo"
+msgstr[1] "Novos objetivos."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gameclient.cc:943
+msgid "Disconnected from Host"
+msgstr "Desconectando do Host."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:312
+msgid "You can not kick yourself!"
+msgstr "Não se pode expulsar a você próprio !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gamehost.cc:337
+msgid "kick acknowledgement cancelled: Wrong name given!"
+msgstr "reconhecimento da expulsão cancelado: Nome errado !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:114
+msgid ""
+"Widelands could not establish a connection to the given address.\n"
+"Either there was no metaserver running at the supposed port or\n"
+"your network setup is broken."
+msgstr "Widelands não conseguiu estabelecer conexão com o endereço fornecido\nOu não havia nenhum metaserver em execução no suposto \"port\" ou\na sua conexão está quebrada"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming_messages.cc:53
+msgid "Metaserver did not answer"
+msgstr "Metaserver não responde."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:134
+msgid "Received a PLAYERCOMMAND even though no game is running."
+msgstr "Recebeu um PLAYERCOMMAND apesar de o jogo não estar sendo executado"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:148
+msgid "The game has already started."
+msgstr "O jogo já começou"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:158
+#, c-format
+msgid "Host sent player %s to the lobby!"
+msgstr "O anfitrião enviou o jogador %s para o lóbi !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:131
+msgid "Maximum FPS:"
+msgstr "FPS máximo :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/economy_options_window.cc:151
+msgid "Decrease target"
+msgstr "Diminuir o alvo."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/economy_options_window.cc:158
+msgid "Increase target"
+msgstr "Aumentar o alvo."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:41
+msgid "WARNING: Password will be shown and saved readable!"
+msgstr "AVISO: a senha será apresentada e guardada de forma legível."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:75
+msgid "Please enter a nickname!"
+msgstr "Por favor escolha um Apelido"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:81
+msgid "Sorry, but spaces are not allowed in nicknames!"
+msgstr "Desculpe, mas o Apelido não pode conter espaços !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:87
+msgid "Please enter your password!"
+msgstr "Por favor escreva sua senha !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/warehousewindow.cc:148
+msgid "Remove selected wares from here"
+msgstr "Remover os bens selecionados daqui."
