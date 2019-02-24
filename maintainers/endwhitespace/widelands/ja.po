@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
-"language/ja/)\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-29 10:25+0000\n"
+"Last-Translator: tamanegi\n"
+"Language-Team: Japanese "
+"(http://www.transifex.com/widelands/widelands/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:100
@@ -115,13 +115,13 @@ msgstr "マップID: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:70
-#: ../../src/wui/game_main_menu_save_game.cc:61
+#: ../../src/wui/game_main_menu_save_game.cc:64
 #: ../../src/wui/gamedetails.cc:143
 msgid "Filename:"
 msgstr "ファイル名: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:40
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:43
 msgid "Enter Directory Name:"
 msgstr "ディレクトリ名を入力してください: "
 
@@ -147,7 +147,7 @@ msgid "Set amount to:"
 msgstr "資源量をこの値に設定する: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/network/gamehost.cc:257
+#: ../../src/network/gamehost.cc:258
 msgid "Available host commands are:"
 msgstr "利用可能なホストコマンド: "
 
@@ -259,7 +259,7 @@ msgid "Returns:"
 msgstr "回収物資: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/game_main_menu_save_game.cc:158
+#: ../../src/wui/game_main_menu_save_game.cc:162
 msgid ""
 "Game Saving Error!\n"
 "Saved game file may be corrupt!\n"
@@ -304,7 +304,7 @@ msgid "Error:"
 msgstr "エラー: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/load_or_save_game.cc:182
+#: ../../src/wui/load_or_save_game.cc:188
 #, c-format
 msgid "Selected %d file:"
 msgid_plural "Selected %d files:"
@@ -312,7 +312,7 @@ msgstr[0] "%dファイルが選択中: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/load_or_save_game.cc:487
+#: ../../src/wui/load_or_save_game.cc:546
 msgid "Error message:"
 msgstr "エラーメッセージ: "
 

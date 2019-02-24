@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-24 06:23+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
-"language/es/)\n"
+"Language-Team: Spanish "
+"(http://www.transifex.com/widelands/widelands/language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/editorinteractive.cc:617
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Creando mapa vacío..."
@@ -26,7 +26,7 @@ msgid "Generating random map…"
 msgstr "Generando mapa aleatorio..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
 msgid "Loading map…"
 msgstr "Cargando mapa..."
 
@@ -41,29 +41,29 @@ msgid "This objective has no description."
 msgstr "El objetivo no tiene descripción"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:99
+#: ../../src/logic/save_handler.cc:104
 msgid "Saving game…"
 msgstr "Guardando partida..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s contains an error message.
-#: ../../src/network/gameclient.cc:939
+#: ../../src/network/gameclient.cc:964
 #, c-format
 msgid "%s An automatic savegame will be created."
 msgstr "%s Se creará una partida guardada automáticamente"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:400
+#: ../../src/network/internet_gaming.cc:412
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "El meta servidor envió un mensaje de ERROR extraño durante la conexión."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:415
+#: ../../src/network/internet_gaming.cc:426
 msgid "Unexpected packet"
 msgstr "Paquete inesperado."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:140
+#: ../../src/network/network_gaming_messages.cc:141
 msgid "Server uses a different protocol version"
 msgstr "El servidor utiliza una versión diferente del protocolo."
 
@@ -95,12 +95,12 @@ msgstr "Distancia para que las ventanas se alineen con los bordes"
 #. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
 #. load.
 #. * TRANSLATORS: %s is a list of game modes.
-#: ../../src/wui/load_or_save_game.cc:110
+#: ../../src/wui/load_or_save_game.cc:112
 #, c-format
 msgid "Game Mode: %s."
 msgstr "Modo de Juego: %s"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:113
+#: ../../src/wui/load_or_save_game.cc:115
 msgid "Numbers are the number of players."
 msgstr "Número son el número de jugadores"

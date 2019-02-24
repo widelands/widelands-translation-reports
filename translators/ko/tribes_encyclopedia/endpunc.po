@@ -2,26 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-13 08:47+0000\n"
-"Last-Translator: ks k\n"
-"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
-"ko/)\n"
+"POT-Creation-Date: 2019-02-03 08:14+0000\n"
+"PO-Revision-Date: 2019-02-03 08:20+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Korean "
+"(http://www.transifex.com/widelands/widelands/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/helptexts.lua:16
-msgctxt "atlanteans_building"
-msgid ""
-"Forges tridents to equip the soldiers and to train their attack in the "
-"dungeon."
-msgstr "군인들을 무장시키고 지하감옥에서 공격을 훈련시킬 삼지창을 단조하세요"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a building
@@ -30,7 +21,7 @@ msgctxt "barbarians_building"
 msgid ""
 "Song written by Sigurd the Bard when the first rain fell after the Great "
 "Drought in the 21st year of Chat’Karuth’s reign."
-msgstr "찻'카루스의 치세 21년째의 대가뭄 뒤 첫 비가 내렸을 때 음유시인 시구르드가 쓴 노래"
+msgstr "찻’카루스의 치세 21년째의 대가뭄 뒤 첫 비가 내렸을 때 음유시인 시구르드가 쓴 노래"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
@@ -39,7 +30,27 @@ msgctxt "empire_building"
 msgid ""
 "Forges spears to equip the soldiers and to train their attack in the "
 "training camp."
-msgstr "군인들을 무장시키고 훈련소에서 공격을 훈련시킬 창을 단조하세요"
+msgstr "군인들을 무장시키고 훈련소에서 공격을 훈련시킬 창을 단조하십시오"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine/helptexts.lua:26
+#, lua-format
+msgctxt "frisians_building"
+msgid ""
+"If the food supply is steady, the gold mine can produce one piece of gold "
+"ore in %s on average."
+msgstr "??만약 식량 공급이 중단된다면, 금광은 평균 %s 개의 금광석을 금광석을 생산할 수 있다.?? 숫자가 개수인가???"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/controls.lua:116
+msgid "Show ships shipping wares and workers"
+msgstr "배송 물품 및 노동자를 표시합니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/controls.lua:122
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "항구 자리를 찾았거나 식민지를 세우고있는 탐험대를 표시합니다."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a worker: Scout
@@ -50,8 +61,6 @@ msgid ""
 msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for a building
-#. TRANSLATORS: Performance helptext for a building
 #. TRANSLATORS: Helptext for a worker: Scout
 #: ../../data/tribes/workers/barbarians/scout/helptexts.lua:3
 msgctxt "barbarians_worker"

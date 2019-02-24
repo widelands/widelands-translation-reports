@@ -2,17 +2,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-08-24 06:54+0000\n"
-"PO-Revision-Date: 2018-08-27 14:23+0000\n"
-"Last-Translator: Rick van der Zwet <info@rickvanderzwet.nl>\n"
-"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
-"nl/)\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-25 00:31+0000\n"
+"Last-Translator: stdh\n"
+"Language-Team: Dutch "
+"(http://www.transifex.com/widelands/widelands/language/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:54
+msgctxt "atlanteans_building"
+msgid ""
+"The fish breeder working out of this fish breeder’s house can’t find any "
+"fish in his work area. Remember that you can only regenerate your fish "
+"resources if there are some fish left to breed."
+msgstr "De viskweker die vanuit deze viskwekerij werkt kan in zijn werkgebied geen vis vinden.  Denk eraan dat je het visbestand enkel kan herstellen als er nog enkele vissen overblijven om mee te kweken."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:59
@@ -33,8 +42,8 @@ msgid ""
 msgstr "De houtvester die vanuit deze houtvesterswoning werkt kan geen bomen meer vinden in zijn werkgebied.  Het valt te overwegen dit gebouw te ontmantelen of te vernietigen, of een boswachtershuis te bouwen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:77
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:80
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:94
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:96
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -42,8 +51,8 @@ msgid ""
 msgstr "De hoofdader van deze steenkoolmijn is uitgeput en het rendement is sterk verminderd.  Het valt te overwegen deze mijn op te waarderen, te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:77
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:80
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:78
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:96
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -51,7 +60,7 @@ msgid ""
 msgstr "De hoofdader van deze goudmijn is uitgeput en het rendement is sterk verminderd.  Het valt te overwegen deze mijn op te waarderen, te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:79
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:95
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -60,7 +69,7 @@ msgid ""
 msgstr "De hoofdader van deze goudmijn is uitgeput en het rendement is sterk verminderd.  Deze mijn kan niet meer opgewaardeerd worden, dus het valt te overwegen ze te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:75
+#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:92
 msgctxt "barbarians_building"
 msgid ""
 "This granite mine’s main vein is exhausted. Expect strongly diminished "
@@ -79,8 +88,8 @@ msgid ""
 msgstr "De jager die vanuit deze jachthut werkt kan geen wild meer vinden in zijn werkgebied.  Denk eraan dat je een jachtopzichtershut kan bouwen om meer wild los te laten in de omgeving."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:77
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:80
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:78
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:96
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -88,7 +97,7 @@ msgid ""
 msgstr "De hoofdader van deze ijzermijn is uitgeput en het rendement is sterk verminderd.  Het valt te overwegen deze mijn op te waarderen, te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:82
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:96
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -106,7 +115,7 @@ msgid ""
 msgstr "De houthakker die vanuit deze houthakkershut werkt kan geen bomen meer vinden in zijn werkgebied.  Het valt te overwegen dit gebouw te ontmantelen of te vernietigen, of een boswachtershut te bouwen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:78
+#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:93
 msgctxt "empire_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -114,7 +123,7 @@ msgid ""
 msgstr "De hoofdader van deze steenkoolmijn is uitgeput en het rendement is sterk verminderd.  Het valt te overwegen deze mijn op te waarderen, te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:76
+#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:93
 msgctxt "empire_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -123,7 +132,7 @@ msgid ""
 msgstr "De hoofdader van deze steenkoolmijn is uitgeput en het rendement is sterk verminderd.  Deze mijn kan niet meer opgewaardeerd worden, dus het valt te overwegen ze te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:78
+#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:92
 msgctxt "empire_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -131,7 +140,7 @@ msgid ""
 msgstr "De hoofdader van deze goudmijn is uitgeput en het rendement is sterk verminderd.  Het valt te overwegen deze mijn op te waarderen, te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:78
+#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:93
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -139,7 +148,7 @@ msgid ""
 msgstr "De hoofdader van deze ijzermijn is uitgeput en het rendement is sterk verminderd.  Het valt te overwegen deze mijn op te waarderen, te ontmantelen of te vernietigen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:76
+#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:92
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -157,7 +166,7 @@ msgid ""
 msgstr "De houthakker die vanuit dit houthakkershuis werkt kan geen bomen meer vinden in zijn werkgebied.  Het valt te overwegen dit gebouw te ontmantelen of te vernietigen, of een boswachtershuis te bouwen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:104
+#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:134
 msgctxt "empire_building"
 msgid ""
 "This marble mine’s main vein is exhausted. Expect strongly diminished "

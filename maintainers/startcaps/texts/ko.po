@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-07-20 07:33+0000\n"
-"PO-Revision-Date: 2018-07-21 14:56+0000\n"
+"POT-Creation-Date: 2018-12-28 13:48+0000\n"
+"PO-Revision-Date: 2019-01-05 08:00+0000\n"
 "Last-Translator: ks k\n"
-"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
-"ko/)\n"
+"Language-Team: Korean "
+"(http://www.transifex.com/widelands/widelands/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/AUTHORS.lua:27
@@ -384,6 +384,37 @@ msgid "Replays"
 msgstr "다시보기"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/common_helptexts.lua:26
+msgid ""
+"Widelands records every game you play in two files. One of these files has a"
+" .wrpl.wgf extension and contains an initial savegame. The other file has a "
+".wrpl extension and contains all commands that were issued by all players, "
+"such as building a road or attacking an enemy. The rest of the filenames "
+"will tell you the time you started the game."
+msgstr "와이드랜드는 당신이 하는 모든 게임을 두 개의 파일로 기록합니다. 하나는 확장자가 .wrpl.wgf이고 초기 상태를 저장 합니다. 다른 파일에는 .wrpl 확장자가 있으며, 도로를 건설하거나 적을 공격하는 등 모든 플레이어가 실행한 모든 명령이 포함되어 있습니다. 파일 이름의 앞부분은 당신이 게임을 시작한 시간을 나타냅니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/common_helptexts.lua:27
+msgid ""
+"Using the Watch Replay option in the main menu, a previously played game "
+"will be precisely reconstructed for you to watch. Note, however, that even "
+"small changes in the game data files or the Widelands executable can cause a"
+" replay to become incompatible and to ‘go out of sync’. This is similar to "
+"how network games will suffer from desynchronization problems if one of the "
+"players has a different version of the game."
+msgstr "메인 메뉴의 게임 다시보기 옵션을 사용하면 이전에 재생한 게임을 정확하게 재구성하여 볼 수 있습니다. 그러나 게임 데이터 파일이나 와이드랜드 실행 파일의 작은 변경으로 인해 재생이 호환되지 않아 '동기화되지 않음'이 발생할 수 있습니다. 이는 플레이어 중 한 명이 다른 버전의 게임을 사용하는 경우 네트워크 게임이 동기화 해제 문제를 겪는 것과 유사합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/common_helptexts.lua:28
+#, lua-format
+msgid ""
+"Replays are a very useful tool to find bugs in the game logic, so they can "
+"be useful as attachments to bug reports. The replay files are saved in the "
+"%s directory on Linux and Mac OS X. On Windows, they are in the ‘replays’ "
+"subdirectory of your Widelands installation."
+msgstr "다시보기는 게임 논리에서 버그를 찾는 데 매우 유용한 도구이므로 버그 보고서에 첨부 파일로 유용 할 수 있습니다. 재생 파일은 리눅스 및 Mac OS X의 %s 디렉토리에 저장됩니다. 윈도우즈에서는 와이드랜드 설치의 'replays'하위 디렉토리에 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an access key combination. Localize, but do not change
 #. the key.
 #: ../../data/txts/help/common_helptexts.lua:42
@@ -424,9 +455,55 @@ msgid "Client settings"
 msgstr "클라이언트 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:11
+msgid ""
+"On the left side is a list of all clients including you. You can set your "
+"role with the button following your nickname. Available roles are:"
+msgstr "왼쪽에 당신을 포함한 모든 클라이언트 목록이 있습니다. 대화명에 따라 단추를 사용하여 역할을 설정할 수 있습니다. 사용 가능한 역할은 다음과 같습니다:"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:12
+msgid ""
+"The player with the color of the flag. If more than one client selected the "
+"same color, these share control over the player (‘shared kingdom mode’)."
+msgstr "깃발의 색깔을 가진 선수. 둘 이상의 클라이언트가 동일한 색상을 선택한 경우, 플레이어에 대한 제어권을 공유합니다 ( '공유된 왕국 모드')."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:13
+msgid ""
+"Spectator mode, meaning you can see everything, but cannot control any "
+"player"
+msgstr "관전자 모드, 모든 것을 볼 수 있지만 플레이어를 제어 할 수 없음을 의미합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:15
+msgid "Player settings"
+msgstr "놀사람 설정"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:16
+msgid ""
+"In the middle are the settings for the players. To start a game, each player"
+" must be one of the following:"
+msgstr "가운데에는 플레이어의 설정이 있습니다. 게임을 시작하려면 각 플레이어는 다음 중 하나 여야합니다.:"
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/help/multiplayer_help.lua:17
 msgid "Connected to one or more clients (see ‘Client settings’)."
 msgstr "하나 이상의 클라이언트에 연결되었습니다('클라이언트 설정'참조)."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:18
+msgid ""
+"Connected to a computer player (the face in the picture as well as the mouse"
+" hover texts indicate the strength of the currently selected computer "
+"player)."
+msgstr "컴퓨터 플레이어에 연결됨(그림의 얼굴 뿐만 아니라 마우스를 가리키면 현재 선택된 컴퓨터 플레이어의 힘을 나타냅니다.)"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:19
+msgid "Set as shared in starting position for another player."
+msgstr "다른 플레이어의 시작 위치를 공유로 설정합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/help/multiplayer_help.lua:20
@@ -434,16 +511,78 @@ msgid "Closed."
 msgstr "닫혀짐."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:21
+msgid ""
+"The latter three can only be set by the hosting client by left-clicking the "
+"‘type’ button of a player. Hosting players can also set the initialization "
+"of each player (the set of buildings, wares and workers the player starts "
+"with) and the tribe and team for computer players."
+msgstr "뒤의 세 개는 선수의 ‘유형’ 버튼을 마우스 왼쪽 버튼으로 클릭해야만 호스팅 손님에서 설정할 수 있습니다. 방장 선수는 또한 각 선수(선수가 시작하는 건물, 창고 및 작업자 설정)와 컴퓨터 선수 부족 및 팀의 초기화를 설정할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:22
+msgid ""
+"Every client connected to a player (who isn’t a spectator) can set the tribe"
+" and the team for that player."
+msgstr "(관객이 아닌) 선수와 연결된 모든 손님들은 해당 선수에 대한 부족과 팀을 설정할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/help/multiplayer_help.lua:24
 msgid "Map details"
 msgstr "지도 세부 정보"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:25
+msgid ""
+"You can see information about the selected map or savegame on the right-hand"
+" side. A button next to the map name allows the host to change to a "
+"different map. Furthermore, the host is able to set a specific win "
+"condition, and finally can start the game as soon as all players are set up."
+msgstr "오른쪽에서 선택한 지도 또는 저장 게임에 대한 정보를 볼 수 있습니다. 지도 이름 옆에있는 버튼을 사용하면 방장이 다른 지도로 변경할 수 있습니다. 또한, 방장은 특정 우승 조건을 설정할 수 있으며, 마지막으로 모든 선수가 설정되는 즉시 놀이를 시작할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/atlanteans.lua:4
+msgid ""
+"Keep an eye on your fishers and build a fish breeder’s house. After fish "
+"resources are exhausted in their work area, the fish supply cannot be "
+"regenerated."
+msgstr "낚시꾼들을 잘 감시하고 어장 집을 지으십시오. 물고기 자원은 일터에서 고갈되면 다시 살릴 수 없습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/atlanteans.lua:8
+msgid ""
+"Always build a forester’s and a woodcutter’s house, so you will not run out "
+"of logs."
+msgstr "항상 통나무가 고갈되지 않도록 숲지기와 나무꾼의 집을 지으십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/atlanteans.lua:12
+msgid ""
+"Atlanteans need spidercloth for many buildings. Build the needed "
+"infrastructure early before you run out."
+msgstr "아틀란티스족은 많은 건물에 거미줄이 필요합니다. 예산이 소진되기 전에 필요한 기반 시설을 초반에 구축하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/barbarians.lua:4 ../../data/txts/tips/empire.lua:4
+msgid ""
+"Keep an eye on your fishers. After fish resources are exhausted in their "
+"work area, they will stop fishing."
+msgstr "낚시꾼을 잘 보십시오. 물고기 자원이 작업 영역에서 고갈되면 낚시를 멈춥니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/barbarians.lua:8
 msgid ""
 "Always build a ranger’s and a gamekeeper’s hut, so you will not run out of "
 "logs or game."
-msgstr "숲 지킴이와 짐승 키움이의 오두막을 항상 세우십시오. 그러면 통나무나 짐승들이 부족하지 않을 것입니다."
+msgstr "항상 숲지기와 짐승 키움이의 오두막을 지어서 통나무나 짐승들이 부족하지 않도록 하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/barbarians.lua:12 ../../data/txts/tips/empire.lua:12
+#: ../../data/txts/tips/frisians.lua:12
+msgid ""
+"Most enhanced buildings need experienced workers. Do not enhance a building "
+"unless you have the necessary workers available."
+msgstr "대부분의 고급 건물에는 숙련된 근로자가 필요합니다. 필요한 근로자가 없는 한 건물을 개선하지 마십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website
@@ -455,9 +594,91 @@ msgid ""
 msgstr "%s에 있는 위키에서 편집자를 위한 일반 도움말과 간단한 자습서를 찾을 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:15
+msgid ""
+"Just like with animals, you can also select multiple immovables or ground "
+"textures with Ctrl + mouse click."
+msgstr "동물과 마찬가지로 Ctrl + 마우스 클릭으로 여러개의 움직이지 않는 벽이나 텍스처를 선택할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:19
+msgid ""
+"Holding down Shift switches the first alternative tool on. This tool is in "
+"most cases the complete opposite of the normal tool (for example deletion of"
+" an object instead of placing one)."
+msgstr "쉬프트키를 계속 누르면 첫 번째 대체 도구가 켜집니다. 이 도구는 대부분의 경우 일반 도구와 완전히 반대입니다 (예: 개체를 배치하는 대신 개체를 삭제하는 경우)."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:23
+msgid ""
+"Holding down Alt switches the second alternative tool on (if it exists)."
+msgstr "알트키를 누르면 두 번째 대체 도구가 켜집니다 (있는 경우)."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:27
+msgid ""
+"The number keys (0 - 9) allow you to directly set the size of the selected "
+"area around your mouse cursor."
+msgstr "숫자 키 (0 - 9)를 사용하여 마우스 커서 주변의 선택된 영역의 크기를 직접 설정할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:31
+msgid ""
+"Space key behaves like in normal game. It switches if building spaces are "
+"shown on or off."
+msgstr "스페이스키는 정상적인 게임에서처럼 작동합니다. 건물 공간이 켜져 있거나 꺼져있는 경우 전환됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:35
+msgid ""
+"When placing trees, use the help button to see which trees are more likely "
+"to survive on which terrain."
+msgstr "나무를 심어 놓으려면 도움말 버튼을 사용하여 어느 지형에서 어떤 나무가 생존 할 가능성이 더 높은지 확인하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:39
+msgid ""
+"If you do not set water and fish resources, a default amount will be used."
+msgstr "물이나 물고기 자원을 설정하지 않으면 기본량으로 설정되어 사용됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:43
+msgid ""
+"You can place a medium building on any node where there is a slope no "
+"greater than 1 in the south-east direction and its height difference to all "
+"nodes in a radius of 2 is no greater than 2."
+msgstr "남동쪽 방향에서 1 이하의 경사가 있고 반지름 2의 모든 노드에 대한 높이 차이가 2 이하인 노드에 중간 건물을 배치할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:47
+msgid ""
+"You can place a big building on any node where you could place a medium "
+"building if there is no obstacle or non-arable terrain towards the west, "
+"northwest and northeast."
+msgstr "당신은 서쪽, 북서쪽, 북동쪽을 향해 장애물이나 생존할 수 없는 지형지물이 없는 경우 중간 건물을 배치할 수 있는 어떤 노드에도 큰 건물을 세울 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/empire.lua:8
 msgid "Always build a forester’s house so you will not run out of logs."
-msgstr "통나무가 고갈되지 않도록 항상 숲지기의 원두막을 건설하십시오."
+msgstr "항상 통나무가 고갈되지 않도록 숲지기의 집을 지으십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/empire.lua:16
+msgid "Empire needs a lot of marble. Keep looking for marble resources."
+msgstr "제국은 많은 대리석이 필요로합니다. 대리석 자원을 계속 찾으십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/frisians.lua:4
+msgid ""
+"To produce bricks, you need granite; to produce granite, you need a quarry "
+"or rock mine; to build those, you need bricks. Take care not to get "
+"deadlocked!"
+msgstr "벽돌을 생산하려면 화강암이 필요합니다. 화강암을 생산하려면 채석장이나 암석이 필요합니다. 그것을 짓기위해서는 벽돌이 필요합니다. 교착 상태에 빠지지 않도록 주의하십시오!"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/frisians.lua:8
+msgid "Always build a forester’s house, so you will not run out of logs."
+msgstr "항상 통나무가 고갈되지 않도록 숲지기의 집을 지으십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/general_game.lua:6
@@ -509,6 +730,66 @@ msgid ""
 msgstr "특정 물건의 배달을 조정하려면 건물 창에서 우선 순위 버튼을 사용하십시오. Ctrl키를 누른 상태에서 클릭하면 모든 제품이 한번에 조정됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:35
+msgid ""
+"Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
+"can be accessed via the flag menu."
+msgstr "'경제 구성'메뉴를 사용하여 목표 수량을 조정하십시오. 깃발 메뉴를 통해 접근 할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:39
+msgid ""
+"Manage your messages more efficiently: press ‘N’ for News to access the "
+"messages window, then use ‘G’ for Go To, and the Delete key to archive "
+"messages."
+msgstr "메시지를 보다 효율적으로 관리하십시오: 메시지 창에 접근하려면 새소식의 ‘N’ 을 누르고, 이동을 위해 ‘G’ 를 누르고, 메시지를 보관하려면 딜리트키를 누르십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:47
+msgid ""
+"Removing a road while holding Ctrl lets you remove all flags up to the first"
+" junction."
+msgstr "컨트롤 키를 누른 상태에서 길을 제거하면 첫 번째 교차점까지의 모든 깃발을 제거할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:51
+msgid ""
+"New soldiers are recruited in a barracks. Their abilities can then be "
+"improved in training sites."
+msgstr "신병들이 병영에 모집되었습니다. 그들의 능력은 훈련소에서 향상 될 수 있습니다.\n신병들이 막사에 채용되었다. 그들의 능력은 훈련 현장에서 향상될 수 있다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:55
+msgid ""
+"If you like to live dangerously, pressing Ctrl while clicking the enhance, "
+"dismantle or destroy building buttons will skip the confirmation."
+msgstr "위험하게 살고 싶다면, 컨트롤 키를 누른 상태에서 건물 강화나 건물 해체나 파괴 버튼을 클릭하면 확인을 건너 뜁니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:59
+msgid "Press I to quickly toggle the display of your stock inventory."
+msgstr "재고 목록을 빨리 전환하려면  ‘I’ 를 누르십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:63
+msgid ""
+"An economy consists of all buildings and flags connected by roads. The "
+"supplies and demands of buildings are handled in its economy."
+msgstr "경제는 길로 연결된 모든 건물과 깃발로 이루어져 있습니다. 건물의 공급과 수요는 경제에서 처리됩니다.[쉬운번역으로수정바람 내용어려움]"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:67
+msgid ""
+"Some buildings, such as the farm, have a very small work area. If the "
+"building is surrounded with trees or roads, production will stop."
+msgstr "농장과 같은 몇몇 건물은 작업 공간이 매우 작습니다. 만약 그 건물이 나무나 도로로 둘러싸버리면, 생산은 중단될 것입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:71
+msgid "Zoom in/out with the mouse wheel or %1%. Press %2% to reset the zoom."
+msgstr "마우스 휠 또는 %1% (으)로 확대/축소합니다. %2% (을)를 눌러 확대/축소를 다시 설정하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/general_game.lua:75
 msgid ""
 "When a building is destroyed, its workers will start looking for a nearby "
@@ -518,11 +799,32 @@ msgid ""
 msgstr "건물이 파괴되면, 노동자들은 도로 근처의 연결된 창고로 이동할 수 있는 가까운 깃발을 찾기 시작할 것입니다. 주변에 그런 깃발이 없다면 주변을 방황하다가 결국 죽게될 것입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/multiplayer.lua:4
+msgid ""
+"You can use the ’Page up’ and ‘Page down’ keys to adjust your desired speed "
+"– the real speed is then democratically set."
+msgstr "’페이지 업’ 과 ‘페이지 다운’ 키를 사용하여 원하는 속도를 조정할 수 있습니다. – 이때 실제 속도는 민주적으로 설정됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/multiplayer.lua:8
+msgid ""
+"You can use ‘/me’ at the beginning of a chatmessage: ‘/me is tired’ will be "
+"printed as ‘-> Nickname is tired’."
+msgstr "채팅메시지를 시작할 때 '/me는 피곤하다'를 사용할 수 있다. '-> 닉네임은 피곤하다'로 출력된다.\n채팅 메시지 시작 부분에서 '/me'를 사용할 수 있습니다 : '/ me is tired'는 '-> Nickname is tired'로 인쇄됩니다.\n\n채팅 메시지의 시작부분에 ‘/me’  를 사용할수있습니다:  ‘/me 는 지쳤습니다.' 로입력하면 ‘->대화명님은 지쳤습니다.' 로 표시됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/multiplayer.lua:12
 msgid ""
 "Use ‘@name’ at the beginning of a chat message to send it to only one "
 "player."
 msgstr "채팅 메시지가 시작될 때 '@name'을 사용하여 한 명에게만 메시지를 보냅니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/multiplayer.lua:16
+msgid ""
+"If the game should crash, don't worry! The game will be saved automatically "
+"so that you can reload it afterwards."
+msgstr "만약 게임이 중단되어도, 걱정하지 마십시오! 게임은 자동으로 저장되므로 나중에 다시 불러올 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website

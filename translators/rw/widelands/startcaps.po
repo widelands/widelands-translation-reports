@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-24 06:23+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Kinyarwanda (http://www.transifex.com/widelands/widelands/"
-"language/rw/)\n"
+"Language-Team: Kinyarwanda "
+"(http://www.transifex.com/widelands/widelands/language/rw/)\n"
 "Language: rw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/editorinteractive.cc:90
@@ -39,7 +39,7 @@ msgstr "abakinnyi:"
 #: ../../src/logic/single_player_game_settings_provider.cc:90
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:70
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:102
-#: ../../src/network/gamehost.cc:1589 ../../src/ui_fsmenu/launch_mpg.cc:509
+#: ../../src/network/gamehost.cc:1609 ../../src/ui_fsmenu/launch_mpg.cc:509
 #: ../../src/wui/multiplayersetupgroup.cc:135
 #: ../../src/wui/multiplayersetupgroup.cc:189
 #, c-format
@@ -47,7 +47,7 @@ msgid "Player %u"
 msgstr "umukinnyi %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:1583 ../../src/wui/game_summary.cc:102
+#: ../../src/network/gamehost.cc:1603 ../../src/wui/game_summary.cc:102
 msgid "Player"
 msgstr "umukinnyi"
 
@@ -73,7 +73,8 @@ msgstr "gutera"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Button tooltip
-#: ../../src/wui/game_options_menu.cc:99 ../../src/wui/game_summary.cc:93
+#: ../../src/wui/game_client_disconnected.cc:96
+#: ../../src/wui/game_options_menu.cc:76 ../../src/wui/game_summary.cc:93
 msgid "Exit Game"
 msgstr "iherezo umukino"
 
@@ -93,8 +94,8 @@ msgid "Productivity"
 msgstr "umusaniro"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_player.cc:205
-#: ../../src/wui/interactive_player.cc:257
+#: ../../src/wui/interactive_player.cc:182
+#: ../../src/wui/interactive_player.cc:234
 msgid "Messages"
 msgstr "ubutumwa"
 

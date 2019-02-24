@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 19:02+0000\n"
-"Last-Translator: Elisabeth Jäger\n"
-"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
-"de/)\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-27 12:47+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"Language-Team: German "
+"(http://www.transifex.com/widelands/widelands/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/scripting/format_scenario.lua:12
@@ -36,7 +36,7 @@ msgstr "„%s“"
 #. are any issues
 #. * TRANSLATORS: we need to address for your language.
 #: ../../src/logic/map_objects/tribes/production_program.cc:544
-#: ../../src/logic/map_objects/tribes/production_program.cc:902
+#: ../../src/logic/map_objects/tribes/production_program.cc:898
 #, c-format
 msgid "Did not start %1$s because %2$s"
 msgstr "%1$s wurde nicht angefangen, weil %2$s"
@@ -59,7 +59,7 @@ msgstr "%1$s wurde übersprungen, weil %2$s"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1077
+#: ../../src/logic/map_objects/tribes/production_program.cc:1073
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -71,7 +71,7 @@ msgstr[1] "%s ausgebildet"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:638
+#: ../../src/wui/game_message_menu.cc:643
 #, c-format
 msgid "Archive the selected %d message"
 msgid_plural "Archive the selected %d messages"
@@ -79,7 +79,7 @@ msgstr[0] "%d ausgewählte Nachricht ablegen"
 msgstr[1] "%d ausgewählte Nachrichten ablegen"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/load_or_save_game.cc:182
+#: ../../src/wui/load_or_save_game.cc:188
 #, c-format
 msgid "Selected %d file:"
 msgid_plural "Selected %d files:"

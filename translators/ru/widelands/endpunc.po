@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-13 12:41+0000\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-25 11:31+0000\n"
 "Last-Translator: Viktor S <awsswa59@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
-"language/ru/)\n"
+"Language-Team: Russian "
+"(http://www.transifex.com/widelands/widelands/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,13 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/editorinteractive.cc:617
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Создание пустой карты..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/tools/info_tool.cc:53
+msgid "Node"
+msgstr "Узел:"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_random_map.cc:534
@@ -28,24 +33,24 @@ msgid "Generating random map…"
 msgstr "Создание случайной карты..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
 msgid "Loading map…"
 msgstr "Загрузка карты..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
 msgid "Loading…"
 msgstr "Загрузка..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:99
+#: ../../src/logic/save_handler.cc:104
 msgid "Saving game…"
 msgstr "Сохранение игры..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:267
+#: ../../src/network/gamehost.cc:268
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause — Принудительно поставить игру на паузу"
 
@@ -60,22 +65,22 @@ msgid "Server has left the game."
 msgstr "Сервер покинул игру"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:139
+#: ../../src/network/network_gaming_messages.cc:140
 msgid "Server sent a user update for a user that does not exist."
 msgstr "Сервер отправляет обновление пользователю которого нет"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:144
+#: ../../src/network/network_gaming_messages.cc:145
 msgid "Client reports time to host that is running backwards."
 msgstr "Клиент получает время от хоста, который отстает по времени"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:148
+#: ../../src/network/network_gaming_messages.cc:149
 msgid "The game has already started."
 msgstr "Игра уже началась"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:149
+#: ../../src/network/network_gaming_messages.cc:150
 msgid "Client has no access to other player’s settings."
 msgstr "Клиент не имеет доступа к настройкам других игроков"
 
@@ -116,17 +121,17 @@ msgstr "Откл."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Button tooltip
-#: ../../src/wui/game_options_menu.cc:79
+#: ../../src/wui/game_options_menu.cc:56
 msgid "Set sound effect and music options"
 msgstr "Настроить музыку и звуковые эффекты."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:93
+#: ../../src/wui/load_or_save_game.cc:95
 msgid "Save Date"
 msgstr "Дата сохранения:"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:182
+#: ../../src/wui/load_or_save_game.cc:188
 #, c-format
 msgid "Selected %d file:"
 msgid_plural "Selected %d files:"

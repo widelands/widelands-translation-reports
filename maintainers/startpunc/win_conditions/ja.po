@@ -2,36 +2,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-04-22 08:28+0000\n"
-"PO-Revision-Date: 2018-04-23 13:46+0000\n"
+"POT-Creation-Date: 2019-02-15 11:14+0000\n"
+"PO-Revision-Date: 2019-02-22 13:37+0000\n"
 "Last-Translator: tamanegi\n"
-"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
-"language/ja/)\n"
+"Language-Team: Japanese "
+"(http://www.transifex.com/widelands/widelands/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/collectors.lua:126
+#: ../../data/scripting/win_conditions/collectors.lua:130
 #, lua-format
 msgid "Status for %s"
 msgstr "%sの状況"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:158
-#: ../../data/scripting/win_conditions/territorial_time.lua:206
-#, lua-format
-msgid "You’ve still got %i minute to prevent a victory."
-msgid_plural "You’ve still got %i minutes to prevent a victory."
-msgstr[0] "%i分の間に何とかしなければなりません。"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:164
-#: ../../data/scripting/win_conditions/territorial_time.lua:213
+#: ../../data/scripting/win_conditions/territorial_functions.lua:233
 #, lua-format
 msgid "Keep it for %i more minute to win the game."
 msgid_plural "Keep it for %i more minutes to win the game."
 msgstr[0] "%i分以上維持すれば勝利です。"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/scripting/win_conditions/territorial_functions.lua:260
+#, lua-format
+msgid "You’ve still got %i minute to prevent a victory."
+msgid_plural "You’ve still got %i minutes to prevent a victory."
+msgstr[0] "%i分の間に何とかしなければなりません。"

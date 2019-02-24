@@ -2,17 +2,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-07-20 07:33+0000\n"
-"PO-Revision-Date: 2018-07-21 14:56+0000\n"
+"POT-Creation-Date: 2018-12-28 13:48+0000\n"
+"PO-Revision-Date: 2019-01-05 08:00+0000\n"
 "Last-Translator: ks k\n"
-"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
-"ko/)\n"
+"Language-Team: Korean "
+"(http://www.transifex.com/widelands/widelands/language/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/help/multiplayer_help.lua:22
+msgid ""
+"Every client connected to a player (who isn’t a spectator) can set the tribe"
+" and the team for that player."
+msgstr "(관객이 아닌) 선수와 연결된 모든 손님들은 해당 선수에 대한 부족과 팀을 설정할 수 있습니다."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %s = URL to the Widelands website
@@ -22,3 +29,22 @@ msgid ""
 "You can find general help for the editor as well as a short tutorial on our "
 "wiki at %s."
 msgstr "%s에 있는 위키에서 편집자를 위한 일반 도움말과 간단한 자습서를 찾을 수 있습니다."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/general_game.lua:35
+msgid ""
+"Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
+"can be accessed via the flag menu."
+msgstr "'경제 구성'메뉴를 사용하여 목표 수량을 조정하십시오. 깃발 메뉴를 통해 접근 할 수 있습니다."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/general_game.lua:43
+msgid "Press %1% to store important locations, then press %2% to recall them."
+msgstr "%1% 를 눌러 중요한 위치를 저장 한 다음 %2% 를 눌러 불러올 수 있습니다."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/multiplayer.lua:4
+msgid ""
+"You can use the ’Page up’ and ‘Page down’ keys to adjust your desired speed "
+"– the real speed is then democratically set."
+msgstr "’페이지 업’ 과 ‘페이지 다운’ 키를 사용하여 원하는 속도를 조정할 수 있습니다. – 이때 실제 속도는 민주적으로 설정됩니다."

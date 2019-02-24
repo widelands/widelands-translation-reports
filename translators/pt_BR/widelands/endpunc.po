@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
-"widelands/language/pt_BR/)\n"
+"POT-Creation-Date: 2019-02-09 09:43+0000\n"
+"PO-Revision-Date: 2019-02-11 00:18+0000\n"
+"Last-Translator: Tiago Henrique <tiagohrm@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) "
+"(http://www.transifex.com/widelands/widelands/language/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/format_scenario.lua:40
@@ -23,17 +23,22 @@ msgstr[0] "Novo Objetivo"
 msgstr[1] "Novos objetivos."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:943
+#: ../../data/scripting/infrastructure.lua:171
+msgid "Not enough space"
+msgstr "Espaço insuficiente."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gameclient.cc:969
 msgid "Disconnected from Host"
 msgstr "Desconectando do Host."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:312
+#: ../../src/network/gamehost.cc:313
 msgid "You can not kick yourself!"
 msgstr "Não se pode expulsar a você próprio !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:337
+#: ../../src/network/gamehost.cc:338
 msgid "kick acknowledgement cancelled: Wrong name given!"
 msgstr "reconhecimento da expulsão cancelado: Nome errado !"
 
@@ -46,22 +51,22 @@ msgid ""
 msgstr "Widelands não conseguiu estabelecer conexão com o endereço fornecido\nOu não havia nenhum metaserver em execução no suposto \"port\" ou\na sua conexão está quebrada"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:53
+#: ../../src/network/internet_gaming_messages.cc:54
 msgid "Metaserver did not answer"
 msgstr "Metaserver não responde."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:134
+#: ../../src/network/network_gaming_messages.cc:135
 msgid "Received a PLAYERCOMMAND even though no game is running."
 msgstr "Recebeu um PLAYERCOMMAND apesar de o jogo não estar sendo executado"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:148
+#: ../../src/network/network_gaming_messages.cc:149
 msgid "The game has already started."
 msgstr "O jogo já começou"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:158
+#: ../../src/network/network_gaming_messages.cc:159
 #, c-format
 msgid "Host sent player %s to the lobby!"
 msgstr "O anfitrião enviou o jogador %s para o lóbi !"

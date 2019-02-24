@@ -2,17 +2,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-17 09:23+0000\n"
-"PO-Revision-Date: 2018-09-24 19:50+0000\n"
-"Last-Translator: Jukka Pakarinen\n"
-"Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
-"language/fi/)\n"
+"POT-Creation-Date: 2019-02-03 08:14+0000\n"
+"PO-Revision-Date: 2019-02-06 07:26+0000\n"
+"Last-Translator: Teppo Mäenpää <teppo@runbox.com>\n"
+"Language-Team: Finnish "
+"(http://www.transifex.com/widelands/widelands/language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/scouts_house/helptexts.lua:8
+msgctxt "frisians_building"
+msgid "The spokesman of the scouts’ labor union"
+msgstr "Tiedustelijoiden ammattiyhdistyksen tiedottaja "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Performance helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/tavern/helptexts.lua:23
+#, lua-format
+msgctxt "frisians_building"
+msgid ""
+"The tavern can produce one ration in %s on average if the supply is steady; "
+"otherwise, it will take 50%% longer."
+msgstr "Krouvi voi tuottaa yhden ruoka-annoksen keskimäärin %s, jos toimitukset ovat vakaat; muussa tapauksessa se vie 50%% pidempään. "
 
 # (pofilter) endwhitespace: Different whitespace at the end, Different whitespace at the end
 #. TRANSLATORS: Tribal Encyclopedia: Heading for which tool workers use

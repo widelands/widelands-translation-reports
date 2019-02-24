@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
-"fr/)\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-27 16:51+0000\n"
+"Last-Translator: Renaud Bouchard\n"
+"Language-Team: French "
+"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/tools/info_tool.cc:223
@@ -37,7 +37,7 @@ msgstr "Le bâtiment ne dispose pas des marchandises suivantes : %s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:995
+#: ../../src/logic/map_objects/tribes/production_program.cc:991
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -48,7 +48,7 @@ msgstr[1] "%s Produit"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1077
+#: ../../src/logic/map_objects/tribes/production_program.cc:1073
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -56,12 +56,12 @@ msgstr[0] "recruté %s"
 msgstr[1] "%s recruté"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:329
+#: ../../src/network/gamehost.cc:330
 msgid "kick acknowledgement cancelled: No name given!"
 msgstr "Approbation de l'expulsion annulée : Pas de nom donné !"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:337
+#: ../../src/network/gamehost.cc:338
 msgid "kick acknowledgement cancelled: Wrong name given!"
 msgstr "Approbation de l'expulsion annulée : Mauvais nom donné !"
 

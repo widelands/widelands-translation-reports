@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-04-22 08:28+0000\n"
-"PO-Revision-Date: 2018-04-23 13:46+0000\n"
+"POT-Creation-Date: 2019-02-15 11:14+0000\n"
+"PO-Revision-Date: 2019-02-22 13:37+0000\n"
 "Last-Translator: tamanegi\n"
-"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
-"language/ja/)\n"
+"Language-Team: Japanese "
+"(http://www.transifex.com/widelands/widelands/language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/artifacts.lua:15
@@ -104,38 +104,26 @@ msgid "Points"
 msgstr "ポイント"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:126
+#: ../../data/scripting/win_conditions/collectors.lua:130
 #, lua-format
 msgid "Status for %s"
 msgstr "%sの状況"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:143
+#: ../../data/scripting/win_conditions/collectors.lua:147
 #, lua-format
 msgid "Total: %i point"
 msgid_plural "Total: %i points"
 msgstr[0] "合計: %i ポイント"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:156
-msgid "The game has ended."
-msgstr "ゲーム終了。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Context: 'The game will end in 2 hours and 30 minutes.'
-#: ../../data/scripting/win_conditions/collectors.lua:175
-#, lua-format
-msgid "The game will end in %s."
-msgstr "ゲームはあと %s で終了します。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:188
+#: ../../data/scripting/win_conditions/collectors.lua:168
 #, lua-format
 msgid "Status for Team %d"
 msgstr "チーム %d の状況"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:190
+#: ../../data/scripting/win_conditions/collectors.lua:170
 #, lua-format
 msgid "Team Total: %i point"
 msgid_plural "Team Total: %i points"
@@ -172,12 +160,37 @@ msgid "This is an endless game without rules. Fog of war is disabled."
 msgstr "これはルールのないエンドレスのゲームです。戦場に霧はありません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:17
+#: ../../data/scripting/win_conditions/territorial_functions.lua:12
+#, lua-format
+msgid "Team %i"
+msgstr "チーム%i"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/territorial_functions.lua:232
+msgid "You own more than half of the map’s area."
+msgstr "あなたはマップ面積の半分以上を所有しています。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/territorial_functions.lua:233
+#, lua-format
+msgid "Keep it for %i more minute to win the game."
+msgid_plural "Keep it for %i more minutes to win the game."
+msgstr[0] "%i分以上維持すれば勝利です。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/territorial_functions.lua:260
+#, lua-format
+msgid "You’ve still got %i minute to prevent a victory."
+msgid_plural "You’ve still got %i minutes to prevent a victory."
+msgstr[0] "%i分の間に何とかしなければなりません。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/territorial_lord.lua:18
 msgid "Territorial Lord"
 msgstr "領主"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:20
+#: ../../data/scripting/win_conditions/territorial_lord.lua:21
 msgid ""
 "Each player or team tries to obtain more than half of the map’s area. The "
 "winner will be the player or the team that is able to keep that area for at "
@@ -185,41 +198,12 @@ msgid ""
 msgstr "マップ面積の半分以上を獲得することが目的です。最低20分間その面積を維持したプレイヤー（チーム）が勝者になります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:155
-#: ../../data/scripting/win_conditions/territorial_time.lua:30
-#, lua-format
-msgid "Team %i"
-msgstr "チーム%i"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:158
-#: ../../data/scripting/win_conditions/territorial_time.lua:206
-#, lua-format
-msgid "You’ve still got %i minute to prevent a victory."
-msgid_plural "You’ve still got %i minutes to prevent a victory."
-msgstr[0] "%i分の間に何とかしなければなりません。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:163
-#: ../../data/scripting/win_conditions/territorial_time.lua:212
-msgid "You own more than half of the map’s area."
-msgstr "あなたはマップ面積の半分以上を所有しています。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_lord.lua:164
-#: ../../data/scripting/win_conditions/territorial_time.lua:213
-#, lua-format
-msgid "Keep it for %i more minute to win the game."
-msgid_plural "Keep it for %i more minutes to win the game."
-msgstr[0] "%i分以上維持すれば勝利です。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_time.lua:20
+#: ../../data/scripting/win_conditions/territorial_time.lua:21
 msgid "Territorial Time"
 msgstr "領有時間"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_time.lua:23
+#: ../../data/scripting/win_conditions/territorial_time.lua:24
 msgid ""
 "Each player or team tries to obtain more than half of the map’s area. The "
 "winner will be the player or the team that is able to keep that area for at "
@@ -230,19 +214,25 @@ msgstr "マップ面積の半分以上を獲得することが目的です。少
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Refers to "You own more than half of the map’s area. Keep it
 #. for x more minute(s) to win the game."
-#: ../../data/scripting/win_conditions/territorial_time.lua:229
+#: ../../data/scripting/win_conditions/territorial_time.lua:60
 #, lua-format
 msgid "Otherwise the game will end in %i minute."
 msgid_plural "Otherwise the game will end in %i minutes."
 msgstr[0] "それができない場合、ゲームはあと %i 分で終了します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_time.lua:234
-#: ../../data/scripting/win_conditions/wood_gnome.lua:92
+#: ../../data/scripting/win_conditions/territorial_time.lua:65
 #, lua-format
 msgid "The game will end in %i minute."
 msgid_plural "The game will end in %i minutes."
 msgstr[0] "ゲームはあと %i 分で終了します。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Context: 'The game will end in (2 hours and) 30 minutes.'
+#: ../../data/scripting/win_conditions/win_condition_functions.lua:272
+#, lua-format
+msgid "The game will end in %s."
+msgstr "ゲームはあと %s で終了します。"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/win_condition_texts.lua:4
@@ -317,6 +307,6 @@ msgstr "所有中の木"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:156
+#: ../../data/scripting/win_conditions/wood_gnome.lua:124
 msgid "The winner is %1$s with %2$s."
 msgstr "勝者は%2$sを所有している%1$sです。"

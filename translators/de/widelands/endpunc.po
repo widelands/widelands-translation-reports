@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 19:02+0000\n"
-"Last-Translator: Elisabeth Jäger\n"
-"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
-"de/)\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-27 12:47+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"Language-Team: German "
+"(http://www.transifex.com/widelands/widelands/language/de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -94,13 +94,13 @@ msgid "Dec"
 msgstr "Dez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:614
+#: ../../src/editor/editorinteractive.cc:617
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Erstelle leere Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:628
+#: ../../src/editor/editorinteractive.cc:631
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Lade Karte „%s“ …"
@@ -111,13 +111,18 @@ msgid "Generating random map…"
 msgstr "Erstelle Zufallskarte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:231 ../../src/logic/game.cc:299
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:314
+msgid "Try saving under a different name!"
+msgstr "Versuche es bitte mit einem anderen Speichernamen."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
 msgid "Loading map…"
 msgstr "Lade Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
 msgid "Loading…"
 msgstr "Lade …"
 
@@ -127,22 +132,22 @@ msgid "Enemy at site defeated!"
 msgstr "Feindliches Militärgebäude besiegt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:99
+#: ../../src/logic/save_handler.cc:104
 msgid "Saving game…"
 msgstr "Spiel wird gespeichert …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:400
+#: ../../src/network/internet_gaming.cc:412
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "Der Metaserver hat einen seltsamen ERROR (Fehler) Code beim Aufbau der Verbindung gesendet."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:46
+#: ../../src/network/internet_gaming_messages.cc:47
 msgid "You are already logged in!"
 msgstr "Du bist bereits eingelogt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:163
+#: ../../src/network/network_gaming_messages.cc:164
 #, c-format
 msgid "Completed transfer of file %1$s to %2$s"
 msgstr "Die Übertragung der Datei %1$s zum Empfänger %2$s ist abgeschlossen."

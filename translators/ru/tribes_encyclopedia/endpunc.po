@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-14 06:11+0000\n"
-"PO-Revision-Date: 2018-09-14 06:13+0000\n"
+"POT-Creation-Date: 2019-02-03 08:14+0000\n"
+"PO-Revision-Date: 2019-02-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
-"language/ru/)\n"
+"Language-Team: Russian "
+"(http://www.transifex.com/widelands/widelands/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
@@ -86,12 +86,6 @@ msgid ""
 msgstr "\"Сильный — никогда не простит и не позабудет, но несправедливая месть приносит страдания — в прошлом и во все времена\"."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a Barbarian resource: Stones
-#: ../../data/tribes/immovables/resi_stones1/helptexts.lua:12
-msgid "There is only a little bit of granite here."
-msgstr "Здесь есть немного гранита"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a ware: Log
 #: ../../data/tribes/wares/log/helptexts.lua:12
 msgctxt "empire_ware"
@@ -107,3 +101,10 @@ msgstr "Варварские дровосеки валят деревья; ле�
 msgctxt "atlanteans_worker"
 msgid "Plants and harvests blackroot."
 msgstr "Сажает и собирает козелец"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a worker: Fruit Collector
+#: ../../data/tribes/workers/frisians/fruit_collector/helptexts.lua:3
+msgctxt "frisians_worker"
+msgid "Gathers berries."
+msgstr "Собирает ягоды"

@@ -2,18 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-10 06:56+0000\n"
-"PO-Revision-Date: 2018-09-10 12:37+0000\n"
+"POT-Creation-Date: 2019-02-09 09:43+0000\n"
+"PO-Revision-Date: 2019-02-10 12:29+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
-"widelands/language/gd/)\n"
+"Language-Team: Gaelic, Scottish "
+"(http://www.transifex.com/widelands/widelands/language/gd/)\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
@@ -255,21 +255,35 @@ msgid "The headquarters shipwreck is your main building."
 msgstr "’S e am prìomh thogalach agad a th’ anns an long bhriste seo."
 
 # (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Note helptext for a building
+#: ../../data/tribes/buildings/warehouses/frisians/headquarters/helptexts.lua:21
+msgctxt "frisians_building"
+msgid "The headquarters is your main building."
+msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
+
+# (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a Barbarian resource: Stones
-#: ../../data/tribes/immovables/resi_stones1/helptexts.lua:10
-#: ../../data/tribes/immovables/resi_stones2/helptexts.lua:10
+#: ../../data/tribes/immovables/resi/helptexts/stones_1.lua:10
+#: ../../data/tribes/immovables/resi/helptexts/stones_2.lua:10
 msgid ""
 "Granite is a basic building material and can be dug up by a granite mine."
 msgstr "’S e stuth togail bunasach a tha sa ghaireal agus tochlaidh mèinn gaireil e."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for an Empire resource: Stones
-#: ../../data/tribes/immovables/resi_stones1/helptexts.lua:15
-#: ../../data/tribes/immovables/resi_stones2/helptexts.lua:15
+#: ../../data/tribes/immovables/resi/helptexts/stones_1.lua:15
+#: ../../data/tribes/immovables/resi/helptexts/stones_2.lua:15
 msgid ""
 "Marble is a basic building material and can be dug up by a marble mine. You "
 "will also get granite from the mine."
 msgstr "’S e stuth togail bunasach a tha sa mharmor agus tochlaidh mèinn marmoir e. Gheibh thu gaireal on mhèinn cuideachd."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a Frisian resource: Stones
+#: ../../data/tribes/immovables/resi/helptexts/stones_1.lua:20
+#: ../../data/tribes/immovables/resi/helptexts/stones_2.lua:20
+msgid "Granite is a basic building material and can be dug up by a rock mine."
+msgstr "’S e stuth togail bunasach a tha sa ghaireal agus tochlaidh mèinn cloiche e."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a ware: Chain Armor
@@ -312,6 +326,24 @@ msgid ""
 msgstr "’S e an t-arm bunasach aig na Tùsanaich a th’ anns an tuagh. Beiridh gach saighdear òg tè."
 
 # (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Barley
+#: ../../data/tribes/wares/barley/helptexts.lua:4
+msgctxt "frisians_ware"
+msgid ""
+"Barley is a slow-growing grain that is used for baking bread and brewing "
+"beer. It is also eaten by reindeer."
+msgstr "’S e gràin a dh’fhàsas gu slaodach a tha san eòrna ’s thèid a chleachdadh a chum arain is leanna. Ithidh na rèin-fhèidh e cuideachd."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Brick
+#: ../../data/tribes/wares/brick/helptexts.lua:4
+msgctxt "frisians_ware"
+msgid ""
+"Bricks are the best and most important building material. They are made out "
+"of clay and granite."
+msgstr "’S e an stuth-togail as fhearr is as cudromaiche a tha sna breigichean. Thèid an dèanamh à criadh is gaireal."
+
+# (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a ware: Felling Ax
 #: ../../data/tribes/wares/felling_ax/helptexts.lua:4
 msgctxt "ware"
@@ -337,6 +369,15 @@ msgid ""
 msgstr "’S e aon dhe na stòrasan bìdh as motha aig na h-Atlantaich a th’ anns na h-èisg. Feumaidh tu an toiteadh ann an taigh-toitidh mus lìbhrig thu dha na mèinnean, ionadan-oideachaidh is rabhadairean iad."
 
 # (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Fish
+#: ../../data/tribes/wares/fish/helptexts.lua:10
+msgctxt "frisians_ware"
+msgid ""
+"Fish is a very important food resource for the Frisians. It is fished from "
+"the shore or reared in aqua farms."
+msgstr "’S e stòras bìdh cudromach dha na Frìoslannaich a tha san iasg. Thèid iasgach on chladach no a thogail ann an tuathanas-uisge."
+
+# (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a ware: Granite
 #: ../../data/tribes/wares/granite/helptexts.lua:4
 msgctxt "ware"
@@ -359,6 +400,15 @@ msgid ""
 "smithy and used in the training camp – together with food – to train "
 "soldiers from health level 0 to level 1."
 msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus saighdearan a dhìon. Saothraichidh tu ann an ceàrdach chlogaidean i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Helmet
+#: ../../data/tribes/wares/helmet/helptexts.lua:6
+msgctxt "frisians_ware"
+msgid ""
+"A helmet is a basic tool to protect soldiers. It is produced in the small "
+"armor smithy and used to train soldiers from health level 0 to level 1."
+msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus saighdearan a dhìon. Saothraichidh tu ann an ceàrdach armachd bheag i is thèid a cleachdadh sa champa oideachaidh gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a ware: Warhelm
@@ -407,6 +457,33 @@ msgid ""
 msgstr "’S e an t-arm bunasach ann an siostam arm na h-Impireachd a th’ anns an t-sleagh fiodha. Thèid a shaothrachadh ann an ceàrdach arm. Beiridh gach saighdear òg tè is clogaid."
 
 # (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Broadsword
+#: ../../data/tribes/wares/sword_broad/helptexts.lua:4
+msgctxt "frisians_ware"
+msgid ""
+"The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
+"equipped with a broadsword and a double-edged sword."
+msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 2 a tha sa chlaidheamh-leathann. Gheibh saighdearan air leibheil 5 an dà chuid claidheamh-leathann agus claidheamh dà-fhaobharach."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Double-edged Sword
+#: ../../data/tribes/wares/sword_double/helptexts.lua:4
+msgctxt "frisians_ware"
+msgid ""
+"The double-edged sword is the weapon used by level 3 soldiers. Level 6 "
+"soldiers are equipped with two of these ferocious swords."
+msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 3 a tha sa chlaidheamh dà-fhaobharach. Gheibh saighdearan air leibheil 6 dà fhear dhen chlaidheamh ana-bhiorach seo."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Long Sword
+#: ../../data/tribes/wares/sword_long/helptexts.lua:4
+msgctxt "frisians_ware"
+msgid ""
+"The long sword is the weapon used by level 1 soldiers. Level 4 soldiers are "
+"equipped with a long and a double-edged sword."
+msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 1 a tha sa chlaidheamh-mhòr. Gheibh saighdearan air leibheil 4 an dà chuid claidheamh-mòr agus claidheamh dà-fhaobharach."
+
+# (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a ware: Tabard
 #: ../../data/tribes/wares/tabard/helptexts.lua:4
 msgctxt "atlanteans_ware"
@@ -414,6 +491,16 @@ msgid ""
 "A tabard and a light trident are the basic equipment for young soldiers. "
 "Tabards are produced in the weaving mill."
 msgstr "’S e acainn bhunasach nan saighdearan òga a th’ anns an lèine is muirgheadh aotrom. Nì thu lèintean ann an taigh nam beart."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a ware: Thatch Reed
+#: ../../data/tribes/wares/thatch_reed/helptexts.lua:6
+msgctxt "frisians_ware"
+msgid ""
+"Thatch reed is a special kind of reed that is grown in a reed farm. Nothing "
+"is better suited to make roofs waterproof. It is also used to make buckets "
+"and fishing nets as well as cloth."
+msgstr "’s e seòrsa sònraichte de chuilc a tha san fheur thughaidh a thèid a dh’fhàs ann an tuathanas-cuilce. Chan eil gin nas fhearr ach an dìon do mhullach do thaigh on uisge. Thèid a cleachdadh cuideachd airson peilichean, lìontan-èisg is clò a dhèanamh."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Helptext for a ware: Double Trident

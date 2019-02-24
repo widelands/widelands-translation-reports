@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-24 06:23+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
-"pl/)\n"
+"Language-Team: Polish "
+"(http://www.transifex.com/widelands/widelands/language/pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,41 +14,41 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
 "12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
 " (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:259
+#: ../../src/network/gamehost.cc:260
 msgid "/help  -  Shows this help"
 msgstr "/help - Pokazuje tę pomoc"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:261
+#: ../../src/network/gamehost.cc:262
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <wiadomość> - Przesyła wiadomość jako ogłoszenie (na czacie systemowym)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:263
+#: ../../src/network/gamehost.cc:264
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <imię> <powód> - Ostrzega użytkownika <imię> z powodu <powód>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:265
+#: ../../src/network/gamehost.cc:266
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <imię > <powód> - Wyrzuca użytkownika <imię> z powodu <powód>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:267
+#: ../../src/network/gamehost.cc:268
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Wymusza wstrzymanie gry."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:269
+#: ../../src/network/gamehost.cc:270
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Przywraca grę do normalnej szybkości."
 

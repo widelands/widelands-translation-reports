@@ -2,22 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-05-05 17:07+0000\n"
-"PO-Revision-Date: 2018-05-05 17:10+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
-"language/hu/)\n"
+"POT-Creation-Date: 2018-11-02 08:03+0000\n"
+"PO-Revision-Date: 2018-11-04 10:24+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
+"Language-Team: Hungarian "
+"(http://www.transifex.com/widelands/widelands/language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) options: Missing or translated option '--<config-entry-name>'
 #: ../../src/wlapplication_messages.cc:45
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<beállítás-neve>=érték felülírja bármelyik beállítást a beállítási fájlból"
+
+# (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
+#: ../../src/wlapplication_messages.cc:135
+msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
+msgstr " --maxfps=[5 …]     A játék legmagasabb képfrissítési sebessége."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
 #: ../../src/wlapplication_messages.cc:144

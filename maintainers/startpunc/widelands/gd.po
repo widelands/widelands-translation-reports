@@ -2,27 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-12 15:51+0000\n"
-"PO-Revision-Date: 2018-09-12 15:53+0000\n"
+"POT-Creation-Date: 2018-11-24 06:21+0000\n"
+"PO-Revision-Date: 2018-11-24 08:41+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
-"widelands/language/gd/)\n"
+"Language-Team: Gaelic, Scottish "
+"(http://www.transifex.com/widelands/widelands/language/gd/)\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/game.cc:338 ../../src/logic/game.cc:377
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1419
+#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
 msgid "Loading…"
 msgstr "’Ga luchdadh…"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/immovable.cc:518
+#: ../../src/logic/map_objects/immovable.cc:535
 #: ../../src/logic/map_objects/tribes/constructionsite.cc:104
 #, c-format
 msgid "%i%% built"
@@ -33,7 +33,7 @@ msgstr "’Ga thogail: %i%%"
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:888
+#: ../../src/logic/map_objects/tribes/production_program.cc:884
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"
@@ -51,20 +51,20 @@ msgstr "(’na stad)"
 #. * TRANSLATORS: This is a ship state. The ship is ready to transport wares,
 #. but has
 #. * nothing to do.
-#: ../../src/logic/map_objects/tribes/ship.cc:999
+#: ../../src/logic/map_objects/tribes/ship.cc:996
 #: ../../src/wui/seafaring_statistics_menu.cc:215
 msgctxt "ship_state"
 msgid "Idle"
 msgstr "’Na tàmh"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/internet_gaming.cc:557
+#: ../../src/network/internet_gaming.cc:559
 #, c-format
 msgid "%s joined the lobby"
 msgstr "Thàinig %s a-steach dhan lobaidh"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/internet_gaming.cc:564
+#: ../../src/network/internet_gaming.cc:566
 #, c-format
 msgid "%s left the lobby"
 msgstr "Dh’fhàg %s an lobaidh"
@@ -76,7 +76,13 @@ msgid "%1$s has left the game (%2$s)"
 msgstr "Dh’fhàg %1$s an geama (%2$s)"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:161
+#: ../../src/network/network_gaming_messages.cc:131
+#, c-format
+msgid "%1$s has been replaced with %2$s"
+msgstr "Chaidh %2$s a chur an àite %1$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/network_gaming_messages.cc:162
 #, c-format
 msgid "%s has joined the game"
 msgstr "Thàinig %s a-steach dhan gheama"
@@ -109,11 +115,31 @@ msgid "%s won!"
 msgstr "Bhuannaich %s!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/interactive_gamebase.cc:54
+#: ../../src/wui/interactive_gamebase.cc:56
 msgid "PAUSE"
 msgstr "’NA STAD"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/load_or_save_game.cc:113
+#: ../../src/wui/load_or_save_game.cc:115
 msgid "Numbers are the number of players."
 msgstr "’S e àireamh nan cluicheadairean a tha sna h-àireamhan."
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#: ../../src/wui/load_or_save_game.cc:320
+#, c-format
+msgid "%d replay could not be deleted."
+msgid_plural "%d replays could not be deleted."
+msgstr[0] "Tha %d ath-cluiche nach b’ urrainn dhuinn a sguabadh às."
+msgstr[1] "Tha %d ath-cluiche nach b’ urrainn dhuinn a sguabadh às."
+msgstr[2] "Tha %d ath-cluichean nach b’ urrainn dhuinn a sguabadh às."
+msgstr[3] "Tha %d ath-cluiche nach b’ urrainn dhuinn a sguabadh às."
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#: ../../src/wui/load_or_save_game.cc:329
+#, c-format
+msgid "%d game could not be deleted."
+msgid_plural "%d games could not be deleted."
+msgstr[0] "Tha %d gheama nach b’ urrainn dhuinn a sguabadh às."
+msgstr[1] "Tha %d gheama nach b’ urrainn dhuinn a sguabadh às."
+msgstr[2] "Tha %d geamannan nach b’ urrainn dhuinn a sguabadh às."
+msgstr[3] "Tha %d geama nach b’ urrainn dhuinn a sguabadh às."

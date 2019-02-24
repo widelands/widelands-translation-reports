@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-10 06:56+0000\n"
-"PO-Revision-Date: 2018-09-11 12:24+0000\n"
+"POT-Creation-Date: 2019-02-03 08:14+0000\n"
+"PO-Revision-Date: 2019-02-03 14:44+0000\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
-"Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
-"language/nds/)\n"
+"Language-Team: Low German "
+"(http://www.transifex.com/widelands/widelands/language/nds/)\n"
 "Language: nds\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
@@ -22,7 +22,7 @@ msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
 "its maker.’"
-msgstr "Eene neie Ridderext wiest dat beste in hör Drager – oder dat leepste in hör Maker."
+msgstr "Eene neje Ridderext wiest dat beste in hör Drager – oder dat leepste in hör Maker."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
@@ -32,6 +32,36 @@ msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "Wat sall dat heten, miene Fisse sünd nich frisk!?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:358
-msgid "Dependencies"
-msgstr "Hangt of vun:"
+#. TRANSLATORS: Lore author helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/farm/helptexts.lua:11
+msgctxt "frisians_building"
+msgid ""
+"A farmer’s reply when asked by his chieftain why he was planting such a "
+"slow-growing grain."
+msgstr "Wat een Buur seggt, wenn sien Anföhrer hüm fraggt, waarum he een Koorn plant, dat so langsaam wasst"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Note helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/helptexts.lua:21
+msgctxt "frisians_building"
+msgid ""
+"Reed is the traditional material for roofing. It is also needed for "
+"producing buckets and fishing nets, and it is woven – together with reindeer"
+" fur – into the cloth used for ships’ sails."
+msgstr "All Dacken worden mit Reit beschickt. Man bruukt 't ok, um Emmers un Fiskernetten to maken, un daar weevt man – tosammen mit Sneeihirsken-Fell – de Stoff mit, de man för de Seils vun Schippen bruukt,"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Note helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/reindeer_farm/helptexts.lua:21
+msgctxt "frisians_building"
+msgid ""
+"If the supply is steady, the reindeer farm produces one meat after producing"
+" three pieces of fur."
+msgstr "Wenn de Versörgung good is, produzeert de Sneeihirsktüchteree eenmaal Fleesk, nadeem se dree Stücken Fell produzeert hett,"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Hunting Spear
+#: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Jaggtsperen worden vun de Smede produzeert."
