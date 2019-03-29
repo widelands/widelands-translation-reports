@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Spanish "
 "(http://www.transifex.com/widelands/widelands/language/es/)\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:617
+#: ../../src/editor/editorinteractive.cc:615
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Creando mapa vacío..."
@@ -26,7 +26,7 @@ msgid "Generating random map…"
 msgstr "Generando mapa aleatorio..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "Cargando mapa..."
 
@@ -41,13 +41,13 @@ msgid "This objective has no description."
 msgstr "El objetivo no tiene descripción"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Guardando partida..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s contains an error message.
-#: ../../src/network/gameclient.cc:964
+#: ../../src/network/gameclient.cc:969
 #, c-format
 msgid "%s An automatic savegame will be created."
 msgstr "%s Se creará una partida guardada automáticamente"

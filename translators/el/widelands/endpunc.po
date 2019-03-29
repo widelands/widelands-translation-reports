@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Greek "
 "(http://www.transifex.com/widelands/widelands/language/el/)\n"
@@ -21,7 +21,7 @@ msgstr "Ο χάρτης δεν έχει αποθηκευτεί. Θέλετε σ�
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:295
-#: ../../src/wui/game_main_menu_save_game.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:226
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "Ένα αρχείο με το όνομα ‘%s’ ήδη υπάρχει. Αντικατάσταση.;"
@@ -99,14 +99,14 @@ msgid "You won!"
 msgstr "Νικήσατε:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:246
+#: ../../src/wui/load_or_save_game.cc:245
 msgid "Do you really want to delete this replay?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτήν την αναπαραγωγή;"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
-#. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/load_or_save_game.cc:249
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a
+#. separate string. DO NOT omit the placeholder in your translation.
+#: ../../src/wui/load_or_save_game.cc:248
 #, c-format
 msgid "Do you really want to delete this %d replay?"
 msgid_plural "Do you really want to delete these %d replays?"
@@ -114,14 +114,14 @@ msgstr[0] "Θέλετε σίγουρα να διαγράψετε αυτήν τη
 msgstr[1] "Θέλετε σίγουρα να διαγράψετε αυτές τις %d αναπαραγωγές;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:256
+#: ../../src/wui/load_or_save_game.cc:254
 msgid "Do you really want to delete this game?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτό το παιχνίδι;"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#. * TRANSLATORS: Used with multiple games, 1 game has a separate string.
-#. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/load_or_save_game.cc:259
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate
+#. string. DO NOT omit the placeholder in your translation.
+#: ../../src/wui/load_or_save_game.cc:257
 #, c-format
 msgid "Do you really want to delete this %d game?"
 msgid_plural "Do you really want to delete these %d games?"

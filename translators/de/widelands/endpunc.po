@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-27 12:47+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-04 11:38+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German "
 "(http://www.transifex.com/widelands/widelands/language/de/)\n"
@@ -94,13 +94,13 @@ msgid "Dec"
 msgstr "Dez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:617
+#: ../../src/editor/editorinteractive.cc:615
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Erstelle leere Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:631
+#: ../../src/editor/editorinteractive.cc:630
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Lade Karte „%s“ …"
@@ -111,20 +111,25 @@ msgid "Generating random map…"
 msgstr "Erstelle Zufallskarte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:314
-msgid "Try saving under a different name!"
-msgstr "Versuche es bitte mit einem anderen Speichernamen."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "Lade Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:318
+msgid "Initializing game…"
+msgstr "Spiel wird initialisiert …"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "Lade …"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:252
+msgid "Try saving under a different name!"
+msgstr "Versuche es bitte mit einem anderen Speichernamen."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/logic/map_objects/tribes/militarysite.cc:286
@@ -132,7 +137,7 @@ msgid "Enemy at site defeated!"
 msgstr "Feindliches Militärgebäude besiegt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Spiel wird gespeichert …"
 

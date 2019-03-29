@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-12-01 14:33+0000\n"
+"POT-Creation-Date: 2019-03-22 18:47+0000\n"
+"PO-Revision-Date: 2019-03-24 10:19+0000\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German "
 "(http://www.transifex.com/widelands/widelands/language/nds/)\n"
@@ -64,6 +64,11 @@ msgstr "An’n Begünn vun de Naam vun de Datei staht %s"
 msgctxt "illegal_filename_characters"
 msgid "%s anywhere in the filename"
 msgstr "Enerwaar in de Naam vun de Datei staht %s"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/generic_save_handler.cc:294
+msgid "An unexpected error occurred:"
+msgstr "'t hett eenen unverwachten Fehler geven:"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total

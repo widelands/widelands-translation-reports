@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-27 16:51+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-05 19:19+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -20,13 +20,13 @@ msgid "The map has not been saved, do you really want to quit?"
 msgstr "La carte n'a pas été enregistré, voulez vous vraiment quitter ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:617
+#: ../../src/editor/editorinteractive.cc:615
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Création d'une carte vide..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:631
+#: ../../src/editor/editorinteractive.cc:630
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Chargement de la carte \"%s\"..."
@@ -40,7 +40,7 @@ msgstr "Actuel : %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
-#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/encyclopedia_window.cc:140
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "Erreur !"
@@ -150,40 +150,30 @@ msgid "Generating random map…"
 msgstr "Génération d'une carte aléatoire..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
-#: ../../src/wui/game_main_menu_save_game.cc:64
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:71
+#: ../../src/wui/game_main_menu_save_game.cc:66
 #: ../../src/wui/gamedetails.cc:143
 msgid "Filename:"
 msgstr "Nom de fichier :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:171
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
 msgid "Error Creating Directory!"
 msgstr "Erreur à la création du répertoire !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:295
-#: ../../src/wui/game_main_menu_save_game.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:226
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "Un fichier nommé '%s' existe déjà. L'écraser ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:298
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:315
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:348
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
 msgid "Error Saving Map!"
 msgstr "Erreur d'enregistrement de la carte !"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
-msgid ""
-"Error Saving Map!\n"
-"Saved map file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "Erreur en sauvant la carte !\nLe fichier de carte sauvé peut-être corrompu !\n\nRaison donnée :\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:100
@@ -211,15 +201,54 @@ msgid "Maximum height:"
 msgstr "Elévation maximum :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "Chargement de la carte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:318
+msgid "Initializing game…"
+msgstr "Initialisation de la partie..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "Chargement..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:237
+#: ../../src/logic/generic_save_handler.cc:241
+msgid "File successfully saved!"
+msgstr "Fichier sauvegardé avec succès."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:246
+#, c-format
+msgid "Directory ‘%s’ could not be created!"
+msgstr "Le répertoire ‘%s’ ne peut être créé !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:250
+#, c-format
+msgid "File ‘%s’ could not be removed!"
+msgstr "Le fichier ‘%s’ n'a pu être enlevé !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:265
+msgid "Saved file may be corrupt!"
+msgstr "Le fichier de sauvegarde est peut être corrompu !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:273
+#, c-format
+msgid "File ‘%s’ could not be restored!"
+msgstr "Le fichier ‘%s’ n'a pu être restauré !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:294
+msgid "An unexpected error occurred:"
+msgstr "Une erreur inattendue  s'est produite :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
@@ -291,22 +320,23 @@ msgid "Port Lost!"
 msgstr "Port perdu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:1857
+#: ../../src/logic/map_objects/tribes/worker.cc:1862
 msgid "Worker got lost!"
 msgstr "Un ouvrier s'est perdu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Sauvegarde du jeu..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:120
+#: ../../src/logic/save_handler.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:268
 msgid "Saving failed!"
 msgstr "La sauvegarde a échoué !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:424
+#: ../../src/map_io/s2map.cc:454
 msgid "Bluebyte Settlers II Map. No comment defined!"
 msgstr "Carte Bluebyte Settlers II. Pas de commentaire défini !"
 
@@ -596,19 +626,10 @@ msgid "Are you sure you wish to exit this game?"
 msgstr "Êtes vous sur de vouloir quitter cette partie ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:162
-msgid ""
-"Game Saving Error!\n"
-"Saved game file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "Erreur pendant la sauvegarde du jeu !\nLe fichier de sauvegarde du jeu peut être corrompu !\n\nRaison donnée :\n"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:165
-#: ../../src/wui/game_main_menu_save_game.cc:174
-msgid "Save Game Error!"
-msgstr "Erreur de sauvegarde du jeu !"
+#: ../../src/wui/game_main_menu_save_game.cc:230
+#: ../../src/wui/game_main_menu_save_game.cc:258
+msgid "Error Saving Game!"
+msgstr "Erreur pendant la sauvegarde du jeu !"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window. There is a separate string
@@ -676,14 +697,14 @@ msgid "The date this game was saved"
 msgstr "La date à laquelle cette partie a été sauvegardé."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:246
+#: ../../src/wui/load_or_save_game.cc:245
 msgid "Do you really want to delete this replay?"
 msgstr "Voulez-vous vraiment effacer ce replay ?"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
-#. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/load_or_save_game.cc:249
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a
+#. separate string. DO NOT omit the placeholder in your translation.
+#: ../../src/wui/load_or_save_game.cc:248
 #, c-format
 msgid "Do you really want to delete this %d replay?"
 msgid_plural "Do you really want to delete these %d replays?"
@@ -691,14 +712,14 @@ msgstr[0] "Voulez vous réellement supprimer ce %d replay ?"
 msgstr[1] "Voulez vous réellement supprimer ces %d replays ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:256
+#: ../../src/wui/load_or_save_game.cc:254
 msgid "Do you really want to delete this game?"
 msgstr "Voulez-vous vraiment effacer cette partie ?"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#. * TRANSLATORS: Used with multiple games, 1 game has a separate string.
-#. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/load_or_save_game.cc:259
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate
+#. string. DO NOT omit the placeholder in your translation.
+#: ../../src/wui/load_or_save_game.cc:257
 #, c-format
 msgid "Do you really want to delete this %d game?"
 msgid_plural "Do you really want to delete these %d games?"
@@ -706,18 +727,18 @@ msgstr[0] "Voulez vous réellement supprimer cette %d partie ?"
 msgstr[1] "Voulez vous réellement supprimer ces %d parties ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:315
+#: ../../src/wui/load_or_save_game.cc:313
 msgid "Error Deleting File!"
 msgstr "Erreur à la suppression du fichier !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:315
+#: ../../src/wui/load_or_save_game.cc:313
 msgid "Error Deleting Files!"
 msgstr "Erreur lors de la suppression des fichiers !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/load_or_save_game.cc:546
+#: ../../src/wui/load_or_save_game.cc:544
 msgid "Error message:"
 msgstr "Message d'erreur :"
 
@@ -769,18 +790,18 @@ msgstr "Conseil :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:122
+#: ../../src/wui/seafaring_statistics_menu.cc:121
 msgid "Go to the selected ship and open its window"
 msgstr "Aller au navire sélectionné et ouvrir sa fenêtre."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:516
+#: ../../src/wui/seafaring_statistics_menu.cc:514
 msgid "Show ships shipping wares and workers"
 msgstr "Afficher les navires transportant des marchandises et des ouvriers."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:530
+#: ../../src/wui/seafaring_statistics_menu.cc:528
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Afficher les expéditions qui ont trouvé un espace portuaire ou qui fondent une colonie."

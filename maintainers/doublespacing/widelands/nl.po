@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-25 00:28+0000\n"
-"Last-Translator: stdh\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Dutch "
 "(http://www.transifex.com/widelands/widelands/language/nl/)\n"
 "Language: nl\n"
@@ -114,7 +114,7 @@ msgstr "De verbinding met één van de spelers is verbroken.  Het spel is automa
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/load_or_save_game.cc:447
+#: ../../src/wui/load_or_save_game.cc:445
 msgid "saved today at %1%:%2%"
 msgstr "vandaag opgeslagen om  %1%:%2%"
 
@@ -122,14 +122,14 @@ msgstr "vandaag opgeslagen om  %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/load_or_save_game.cc:464
+#: ../../src/wui/load_or_save_game.cc:462
 msgid "saved yesterday at %1%:%2%"
 msgstr "gisteren opgeslagen om  %1%:%2%"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/load_or_save_game.cc:543
+#: ../../src/wui/load_or_save_game.cc:541
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."

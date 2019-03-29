@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 18:54+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-04 16:44+0000\n"
 "Last-Translator: Juanjo\n"
 "Language-Team: Catalan "
 "(http://www.transifex.com/widelands/widelands/language/ca/)\n"
@@ -111,15 +111,15 @@ msgid "Current: %s …"
 msgstr "Actual: %s…"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:171
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
 msgid "Error Creating Directory!"
 msgstr "S'ha produït un error al crear el directori."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:314
-msgid "Try saving under a different name!"
-msgstr "Proveu desant-ho amb un altre nom."
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:335
+msgid "Map saved"
+msgstr "S'ha desat el mapa."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:100
@@ -161,6 +161,46 @@ msgstr "Cliqueu al mapa per establir l'alçada del terreny a un valor aleatori d
 #: ../../src/logic/editor_game_base.cc:318
 msgid "Loading graphics"
 msgstr "S'estan carregant els gràfics…"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:237
+#: ../../src/logic/generic_save_handler.cc:241
+msgid "File successfully saved!"
+msgstr "El fitxer s'ha desat correctament."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:246
+#, c-format
+msgid "Directory ‘%s’ could not be created!"
+msgstr "No s'ha pogut crear la carpeta «%s»."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:250
+#, c-format
+msgid "File ‘%s’ could not be removed!"
+msgstr "No s'ha pogut eliminar el fitxer «%s»."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:252
+msgid "Try saving under a different name!"
+msgstr "Proveu desant-ho amb un altre nom."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:258
+#, c-format
+msgid "Error writing data to file ‘%s’!"
+msgstr "S'ha produït un error escrivint el fitxer «%s»."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:265
+msgid "Saved file may be corrupt!"
+msgstr "El fitxer desat pot estar corromput."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:273
+#, c-format
+msgid "File ‘%s’ could not be restored!"
+msgstr "El fitxer «%s» no s'ha pogut recuperar."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/logic/map_objects/tribes/production_program.cc:745
@@ -322,10 +362,10 @@ msgid "Sink the ship?"
 msgstr "Afona la nau"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:165
-#: ../../src/wui/game_main_menu_save_game.cc:174
-msgid "Save Game Error!"
-msgstr "Error mentre es desava la partida."
+#: ../../src/wui/game_main_menu_save_game.cc:230
+#: ../../src/wui/game_main_menu_save_game.cc:258
+msgid "Error Saving Game!"
+msgstr "S'ha produït un error desant la partida."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This is shown in the game summary for the players who have
@@ -360,12 +400,12 @@ msgid "The date this game was saved"
 msgstr "La data en què es va guardar la partida."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:315
+#: ../../src/wui/load_or_save_game.cc:313
 msgid "Error Deleting File!"
 msgstr "S'ha produït un error a l'esborrar l'arxiu."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:315
+#: ../../src/wui/load_or_save_game.cc:313
 msgid "Error Deleting Files!"
 msgstr "S'ha produït un error esborrant els arxius."
 
@@ -420,54 +460,54 @@ msgstr "Finalitzar l'assignació del treballador en aquest edifici."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:118
+#: ../../src/wui/seafaring_statistics_menu.cc:117
 msgid "Open the selected ship’s window"
 msgstr "Obre la finestra del vaixell seleccionat."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:122
+#: ../../src/wui/seafaring_statistics_menu.cc:121
 msgid "Go to the selected ship and open its window"
 msgstr "Vés al vaixell seleccionat i obre'n la finestra."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:134
+#: ../../src/wui/seafaring_statistics_menu.cc:133
 msgid "Center the map on the selected ship"
 msgstr "Centra el mapa al vaixell seleccionat."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:503
+#: ../../src/wui/seafaring_statistics_menu.cc:501
 msgid "Show all ships"
 msgstr "Mostra tots els vaixells."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:512
+#: ../../src/wui/seafaring_statistics_menu.cc:510
 msgid "Show idle ships"
 msgstr "Mostra els vaixells inactius."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:516
+#: ../../src/wui/seafaring_statistics_menu.cc:514
 msgid "Show ships shipping wares and workers"
 msgstr "Mostra vaixells transportant béns i treballadors."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:521
+#: ../../src/wui/seafaring_statistics_menu.cc:519
 msgid "Show waiting expeditions"
 msgstr "Mostra les expedicions que estan en espera."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:525
+#: ../../src/wui/seafaring_statistics_menu.cc:523
 msgid "Show scouting expeditions"
 msgstr "Mostra les expedicions que estan explorant."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:530
+#: ../../src/wui/seafaring_statistics_menu.cc:528
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Mostra les expedicions que han trobat un espai portuari o estan fundant una colònia."

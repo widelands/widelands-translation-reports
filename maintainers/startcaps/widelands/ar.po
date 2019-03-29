@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Arabic "
 "(http://www.transifex.com/widelands/widelands/language/ar/)\n"
@@ -197,8 +197,8 @@ msgid "Dec"
 msgstr "ديسمبر"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:62 ../../src/logic/game.cc:216
-#: ../../src/logic/game.cc:269
+#: ../../src/editor/editorinteractive.cc:62 ../../src/logic/game.cc:222
+#: ../../src/logic/game.cc:275
 msgid "Loading tribes"
 msgstr "يُحمل القبائل"
 
@@ -216,14 +216,14 @@ msgstr "اللاعبين"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/editorinteractive.cc:117
-#: ../../src/wui/interactive_player.cc:155
+#: ../../src/wui/interactive_player.cc:179
 #: ../../src/wui/interactive_spectator.cc:68
 msgid "Minimap"
 msgstr "الخريطة المُصغرة"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/editorinteractive.cc:120
-#: ../../src/wui/interactive_player.cc:161
+#: ../../src/wui/interactive_player.cc:185
 #: ../../src/wui/interactive_spectator.cc:75
 msgid "Reset zoom"
 msgstr "أعادة التقريب"
@@ -240,7 +240,7 @@ msgstr "إعاده"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/editorinteractive.cc:138
-#: ../../src/wui/buildingwindow.cc:354 ../../src/wui/interactive_player.cc:185
+#: ../../src/wui/buildingwindow.cc:354 ../../src/wui/interactive_player.cc:209
 msgid "Help"
 msgstr "مساعدة"
 
@@ -253,8 +253,8 @@ msgid ""
 msgstr "\"الارض الواسعة\" غير قادره على فتح الملف \"%s\". يبدو أن الملف غير مكتمل."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:181 ../../src/logic/game.cc:226
-#: ../../src/logic/game.cc:276
+#: ../../src/editor/editorinteractive.cc:181 ../../src/logic/game.cc:232
+#: ../../src/logic/game.cc:282
 msgid "Creating players"
 msgstr "يُنشىء اللاعبين"
 
@@ -269,24 +269,24 @@ msgid "The map has not been saved, do you really want to quit?"
 msgstr "هذه الخريطه لم تُحفظ بعد ، اترغب حقاً بالخروج؟"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:617
+#: ../../src/editor/editorinteractive.cc:615
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "ينشئ خريطة فارغة..."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default name for new map
-#: ../../src/editor/editorinteractive.cc:621
+#: ../../src/editor/editorinteractive.cc:619
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:150
 #: ../../src/editor/ui_menus/main_menu_random_map.cc:531
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:138
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:141
 #: ../../src/logic/map.h:161 ../../src/wui/mapdata.cc:44
 msgid "No Name"
 msgstr "بدون إسم"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Map author name when it hasn't been set yet
-#: ../../src/editor/editorinteractive.cc:624
+#: ../../src/editor/editorinteractive.cc:623
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:151
 #: ../../src/editor/ui_menus/main_menu_random_map.cc:532
 #: ../../src/logic/map.h:162
@@ -295,7 +295,7 @@ msgid "Unknown"
 msgstr "غير معروف"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:631
+#: ../../src/editor/editorinteractive.cc:630
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "يُحمل خريطة \"%s\"..."
@@ -380,7 +380,7 @@ msgstr "الأسم: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/tools/info_tool.cc:215
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:171
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:175
 #: ../../src/ui_fsmenu/launch_mpg.cc:589
 msgid "Size: %1% x %2%"
 msgstr "الحجم: %1% في %2%"
@@ -425,7 +425,7 @@ msgstr "الحالي: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
-#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/encyclopedia_window.cc:140
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "خطأ!"
@@ -456,14 +456,14 @@ msgstr "حمل خريطة"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu.cc:58
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:52
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:53
 msgid "Save Map"
 msgstr "إحفظ الخريطة"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu.cc:60
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:45
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:69
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
 msgid "Map Options"
 msgstr "إعدادات الخريطة"
 
@@ -475,7 +475,7 @@ msgstr "أخرج من المُعدل"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Directory name for user maps in map selection
 #: ../../src/editor/ui_menus/main_menu_load_map.cc:69
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:266
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:269
 #: ../../src/wui/mapdata.cc:162
 msgid "My Maps"
 msgstr "خرائطي"
@@ -495,7 +495,7 @@ msgstr "سيناريوهات اللعب الجماعي"
 #: ../../src/ui_basic/messagebox.cc:86 ../../src/ui_fsmenu/helpwindow.cc:51
 #: ../../src/ui_fsmenu/load_map_or_game.cc:36
 #: ../../src/ui_fsmenu/options.cc:88
-#: ../../src/wui/game_main_menu_save_game.cc:69
+#: ../../src/wui/game_main_menu_save_game.cc:71
 #: ../../src/wui/story_message_box.cc:45
 msgid "OK"
 msgstr "موافق"
@@ -508,7 +508,7 @@ msgstr "موافق"
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:60
 #: ../../src/ui_basic/messagebox.cc:92 ../../src/ui_fsmenu/launch_mpg.cc:79
 #: ../../src/ui_fsmenu/options.cc:86
-#: ../../src/wui/game_main_menu_save_game.cc:68 ../../src/wui/login_box.cc:59
+#: ../../src/wui/game_main_menu_save_game.cc:70 ../../src/wui/login_box.cc:59
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -564,17 +564,17 @@ msgid "Suggested Teams:"
 msgstr "الفِرق المُقترحة:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:141
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:142
 msgid "Main Options"
 msgstr "إعدادات أساسية"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:143
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:144
 msgid "Tags"
 msgstr "الوسوم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:145
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:146
 msgid "Teams"
 msgstr "الفِرق"
 
@@ -724,40 +724,30 @@ msgid ""
 msgstr "الخريطة تم إنشائها. من فضلك تحقق مجدداً من أماكن بدء اللاعبين لكي تتأكد من أنها ليس موضوعة جيداً، أو محجوزة في جزيرة أو في أعلي جبل ما.."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:61
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:62
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:31
 msgid "Make Directory"
 msgstr "إصنع مسار"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
-#: ../../src/wui/game_main_menu_save_game.cc:64
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:71
+#: ../../src/wui/game_main_menu_save_game.cc:66
 #: ../../src/wui/gamedetails.cc:143
 msgid "Filename:"
 msgstr "أسم الملف:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:295
-#: ../../src/wui/game_main_menu_save_game.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:226
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "ملف بأسم \"%s\" موجود مسبقاً. إستبدال؟"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:298
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:315
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:348
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
 msgid "Error Saving Map!"
 msgstr "خطأ في حفظ الخريطة!"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
-msgid ""
-"Error Saving Map!\n"
-"Saved map file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "خطأ في حفظ الخريطة!\nملف الخريطة المحفوظ ربما يكون تالفاً!\n\nالسبب المُعطي:\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:43
@@ -781,7 +771,7 @@ msgstr "عدد اللاعبين"
 #: ../../src/logic/single_player_game_settings_provider.cc:90
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:70
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:102
-#: ../../src/network/gamehost.cc:1609 ../../src/ui_fsmenu/launch_mpg.cc:509
+#: ../../src/network/gamehost.cc:1619 ../../src/ui_fsmenu/launch_mpg.cc:509
 #: ../../src/wui/multiplayersetupgroup.cc:135
 #: ../../src/wui/multiplayersetupgroup.cc:189
 #, c-format
@@ -897,44 +887,44 @@ msgstr "يُحمل الرسوميات"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Win condition for this game has not been set.
-#: ../../src/logic/game.cc:135
+#: ../../src/logic/game.cc:140
 msgid "Not set"
 msgstr "لم يُدخل"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:208 ../../src/logic/game.cc:260
-#: ../../src/logic/game.cc:330 ../../src/logic/game.cc:365
+#: ../../src/logic/game.cc:214 ../../src/logic/game.cc:266
+#: ../../src/logic/game.cc:337 ../../src/logic/game.cc:372
 msgid "Preloading map"
 msgstr "حمل مسبقاً للخريطة"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:214 ../../src/logic/game.cc:266
+#: ../../src/logic/game.cc:220 ../../src/logic/game.cc:272
 msgid "Loading world"
 msgstr "يُحمل العالم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "يُحمل خريطة..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "يُحمل..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:445
+#: ../../src/logic/game.cc:452
 msgid "Creating player infrastructure"
 msgstr "يُنشئ بنية اللاعب التحتية"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:456 ../../src/logic/player.cc:222
+#: ../../src/logic/game.cc:463 ../../src/logic/player.cc:222
 msgid "Missing starting position"
 msgstr "مواقع البدء مفقودة"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:457 ../../src/logic/player.cc:223
+#: ../../src/logic/game.cc:464 ../../src/logic/player.cc:223
 #, c-format
 msgid ""
 "Widelands could not start the game, because player %u has no starting position.\n"
@@ -1067,23 +1057,25 @@ msgstr[4] "عمال مفقودون"
 msgstr[5] "عمال مفقودون"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "يحفظ اللعبة..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:120
+#: ../../src/logic/save_handler.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:268
 msgid "Saving failed!"
 msgstr "فشل الحفظ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:220
+#: ../../src/logic/save_handler.cc:188
+#: ../../src/wui/game_main_menu_save_game.cc:252
 msgid "Game saved"
 msgstr "حُفظت بنجاح"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:187 ../../src/network/gamehost.cc:641
-#: ../../src/wlapplication.cc:1314
+#: ../../src/network/gameclient.cc:187 ../../src/network/gamehost.cc:646
+#: ../../src/wlapplication.cc:1316
 msgid "Preparing game"
 msgstr "تُحضر اللعبه"
 
@@ -1105,13 +1097,13 @@ msgid "The stated reason was: %s"
 msgstr "السبب المُعلن كان: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:1546
+#: ../../src/network/gamehost.cc:1556
 #, c-format
 msgid "Computer %u"
 msgstr "الكمبيوتر %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:1603 ../../src/wui/game_summary.cc:102
+#: ../../src/network/gamehost.cc:1613 ../../src/wui/game_summary.cc:102
 msgid "Player"
 msgstr "اللاعب"
 
@@ -1361,39 +1353,39 @@ msgid "Back"
 msgstr "رجوع"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:137
+#: ../../src/ui_fsmenu/internet_lobby.cc:138
 msgid "User Status"
 msgstr "حالة المستخدم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:138
-msgid "Registered"
-msgstr "مُسجل"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:139
+#: ../../src/ui_fsmenu/internet_lobby.cc:140
 msgid "Administrator"
 msgstr "المدير"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:140
+#: ../../src/ui_fsmenu/internet_lobby.cc:141
+msgid "Registered"
+msgstr "مُسجل"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/internet_lobby.cc:141
 msgid "Unregistered"
 msgstr "غير مُسجل"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Player Name
-#: ../../src/ui_fsmenu/internet_lobby.cc:144
+#: ../../src/ui_fsmenu/internet_lobby.cc:146
 msgctxt "player"
 msgid "Name"
 msgstr "الإسم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:145
+#: ../../src/ui_fsmenu/internet_lobby.cc:147
 msgid "Version"
 msgstr "النسخة"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:147
+#: ../../src/ui_fsmenu/internet_lobby.cc:149
 #: ../../src/ui_fsmenu/options.cc:233
 msgid "Game"
 msgstr "اللعبة"
@@ -1567,14 +1559,14 @@ msgid "State"
 msgstr "الحالة"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:196
+#: ../../src/ui_fsmenu/netsetup_lan.cc:201
 #: ../../src/wui/multiplayersetupgroup.cc:359
 #: ../../src/wui/playerdescrgroup.cc:135
 msgid "Open"
 msgstr "فتح"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:199
+#: ../../src/ui_fsmenu/netsetup_lan.cc:204
 #: ../../src/wui/multiplayersetupgroup.cc:354
 #: ../../src/wui/multiplayersetupgroup.cc:355
 msgid "Closed"
@@ -1582,7 +1574,7 @@ msgstr "اُغلقت"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The state of a LAN game can be open, closed or unknown
-#: ../../src/ui_fsmenu/netsetup_lan.cc:203
+#: ../../src/ui_fsmenu/netsetup_lan.cc:208
 msgctxt "game_state"
 msgid "Unknown"
 msgstr "غير معروف"
@@ -1654,7 +1646,7 @@ msgid "Load Game"
 msgstr "حمل اللعبة"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1109
+#: ../../src/wlapplication.cc:1111
 msgid "Game data error"
 msgstr "خطأ فى بيانات اللعبة"
 
@@ -1818,7 +1810,7 @@ msgid "Action"
 msgstr "الأفعال"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:314 ../../src/wui/fieldaction.cc:371
+#: ../../src/wui/fieldaction.cc:314 ../../src/wui/fieldaction.cc:370
 msgid "Build road"
 msgstr "إبني طريق"
 
@@ -1848,42 +1840,42 @@ msgid "Destroy a road"
 msgstr "دمر طريق"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:373 ../../src/wui/watchwindow.cc:54
+#: ../../src/wui/fieldaction.cc:372 ../../src/wui/watchwindow.cc:54
 msgid "Watch"
 msgstr "شاهد"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:387
+#: ../../src/wui/fieldaction.cc:386
 msgid "Start attack"
 msgstr "إبدأ الهجوم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:393
+#: ../../src/wui/fieldaction.cc:392
 msgid "Attack"
 msgstr "هجوم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:473
+#: ../../src/wui/fieldaction.cc:472
 msgid "Build mines"
 msgstr "إبني منجم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:486
+#: ../../src/wui/fieldaction.cc:485
 msgid "Build flag"
 msgstr "إبني علم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:489
+#: ../../src/wui/fieldaction.cc:488
 msgid "Cancel road"
 msgstr "إلغاء الطريق"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:492
+#: ../../src/wui/fieldaction.cc:491
 msgid "Build roads"
 msgstr "إبني طريق"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_chat_menu.cc:53 ../../src/wui/interactive_player.cc:168
+#: ../../src/wui/game_chat_menu.cc:53 ../../src/wui/interactive_player.cc:192
 #: ../../src/wui/interactive_spectator.cc:84
 msgid "Chat"
 msgstr "الدردشة"
@@ -1915,25 +1907,10 @@ msgstr "هل تود أن تخرج من اللعبة؟"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Button tooltip
-#: ../../src/wui/game_main_menu_save_game.cc:50
+#: ../../src/wui/game_main_menu_save_game.cc:52
 #: ../../src/wui/game_options_menu.cc:66
 msgid "Save Game"
 msgstr "حفظ اللعبة"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_main_menu_save_game.cc:162
-msgid ""
-"Game Saving Error!\n"
-"Saved game file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "خطأ حفظ اللعبة!\nاللعبة المحفوظة ربما تكون عاطبة\n\nالسبب المُعطي:\n"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_main_menu_save_game.cc:165
-#: ../../src/wui/game_main_menu_save_game.cc:174
-msgid "Save Game Error!"
-msgstr "خطأ حفظ اللعبة!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/game_message_menu.cc:51
@@ -1960,7 +1937,7 @@ msgstr "أرشفة الرسالة المحددة"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/game_objectives_menu.cc:42
-#: ../../src/wui/interactive_player.cc:178
+#: ../../src/wui/interactive_player.cc:202
 msgid "Objectives"
 msgstr "الأهداف"
 
@@ -2159,14 +2136,14 @@ msgid "PAUSE"
 msgstr "إيقاف مؤقت"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_player.cc:147
+#: ../../src/wui/interactive_player.cc:171
 #: ../../src/wui/interactive_spectator.cc:59
 msgid "Statistics"
 msgstr "اﻹحصائيات"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_player.cc:182
-#: ../../src/wui/interactive_player.cc:234
+#: ../../src/wui/interactive_player.cc:206
+#: ../../src/wui/interactive_player.cc:258
 msgid "Messages"
 msgstr "الرسائل"
 
@@ -2519,7 +2496,7 @@ msgid "Go to ship"
 msgstr "إذهب إلي السفينة"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/shipwindow.cc:219
+#: ../../src/wui/shipwindow.cc:220
 msgid ""
 "This expedition can’t be canceled, because the ship has no port to return "
 "to."

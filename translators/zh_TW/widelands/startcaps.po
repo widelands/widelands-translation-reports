@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Chinese (Taiwan) "
 "(http://www.transifex.com/widelands/widelands/language/zh_TW/)\n"
@@ -28,7 +28,7 @@ msgstr "玩家"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/editorinteractive.cc:138
-#: ../../src/wui/buildingwindow.cc:354 ../../src/wui/interactive_player.cc:185
+#: ../../src/wui/buildingwindow.cc:354 ../../src/wui/interactive_player.cc:209
 msgid "Help"
 msgstr "幫助"
 
@@ -61,7 +61,7 @@ msgstr "作者: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
-#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/encyclopedia_window.cc:140
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "錯誤!"
@@ -79,7 +79,7 @@ msgstr "退出編輯器"
 #: ../../src/ui_basic/messagebox.cc:86 ../../src/ui_fsmenu/helpwindow.cc:51
 #: ../../src/ui_fsmenu/load_map_or_game.cc:36
 #: ../../src/ui_fsmenu/options.cc:88
-#: ../../src/wui/game_main_menu_save_game.cc:69
+#: ../../src/wui/game_main_menu_save_game.cc:71
 #: ../../src/wui/story_message_box.cc:45
 msgid "OK"
 msgstr "确定"
@@ -92,7 +92,7 @@ msgstr "确定"
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:60
 #: ../../src/ui_basic/messagebox.cc:92 ../../src/ui_fsmenu/launch_mpg.cc:79
 #: ../../src/ui_fsmenu/options.cc:86
-#: ../../src/wui/game_main_menu_save_game.cc:68 ../../src/wui/login_box.cc:59
+#: ../../src/wui/game_main_menu_save_game.cc:70 ../../src/wui/login_box.cc:59
 msgid "Cancel"
 msgstr "取消"
 
@@ -119,7 +119,7 @@ msgstr "玩家:"
 #: ../../src/logic/single_player_game_settings_provider.cc:90
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:70
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:102
-#: ../../src/network/gamehost.cc:1609 ../../src/ui_fsmenu/launch_mpg.cc:509
+#: ../../src/network/gamehost.cc:1619 ../../src/ui_fsmenu/launch_mpg.cc:509
 #: ../../src/wui/multiplayersetupgroup.cc:135
 #: ../../src/wui/multiplayersetupgroup.cc:189
 #, c-format
@@ -134,7 +134,7 @@ msgid "Tribe"
 msgstr "部落"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:1856
+#: ../../src/logic/map_objects/tribes/worker.cc:1861
 #: ../../src/wui/productionsitewindow.cc:100
 #: ../../src/wui/productionsitewindow.cc:125
 msgid "Worker"
@@ -149,13 +149,13 @@ msgid ""
 msgstr "重新整理時間已經暫停。你可以結束暫停或取消繼續執行。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:187 ../../src/network/gamehost.cc:641
-#: ../../src/wlapplication.cc:1314
+#: ../../src/network/gameclient.cc:187 ../../src/network/gamehost.cc:646
+#: ../../src/wlapplication.cc:1316
 msgid "Preparing game"
 msgstr "準備遊戲中"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:1603 ../../src/wui/game_summary.cc:102
+#: ../../src/network/gamehost.cc:1613 ../../src/wui/game_summary.cc:102
 msgid "Player"
 msgstr "玩家"
 
@@ -220,7 +220,7 @@ msgid "Campaigns"
 msgstr "推廣活動"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1109
+#: ../../src/wlapplication.cc:1111
 msgid "Game data error"
 msgstr "遊戲日期錯誤"
 
@@ -230,7 +230,7 @@ msgid "Soldiers:"
 msgstr "士兵:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/building_statistics_menu.cc:308
+#: ../../src/wui/building_statistics_menu.cc:309
 msgid "Mines"
 msgstr "公里"
 
@@ -254,12 +254,12 @@ msgid "Workers"
 msgstr "工人"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:393
+#: ../../src/wui/fieldaction.cc:392
 msgid "Attack"
 msgstr "攻擊"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_chat_menu.cc:53 ../../src/wui/interactive_player.cc:168
+#: ../../src/wui/game_chat_menu.cc:53 ../../src/wui/interactive_player.cc:192
 #: ../../src/wui/interactive_spectator.cc:84
 msgid "Chat"
 msgstr "聊天"
@@ -292,7 +292,7 @@ msgid "Military"
 msgstr "軍事"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_player.cc:147
+#: ../../src/wui/interactive_player.cc:171
 #: ../../src/wui/interactive_spectator.cc:59
 msgid "Statistics"
 msgstr "統計"

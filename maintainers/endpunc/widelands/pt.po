@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-25 11:02+0000\n"
-"Last-Translator: zecas <jjorge@free.fr>\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 18:20+0000\n"
+"Last-Translator: Rui <xymarior@yandex.com>\n"
 "Language-Team: Portuguese "
 "(http://www.transifex.com/widelands/widelands/language/pt/)\n"
 "Language: pt\n"
@@ -20,15 +20,20 @@ msgid "Generating random map…"
 msgstr "Gerando mapa aleatório …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "Carregando o mapa …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "A carregar …"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:265
+msgid "Saved file may be corrupt!"
+msgstr "O ficheiro guardado pode estar corrompido"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/logic/map_objects/tribes/production_program.cc:745
@@ -42,12 +47,12 @@ msgid "No soldier found for this training level!"
 msgstr "Não há soldados para treinar por este nível !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:1857
+#: ../../src/logic/map_objects/tribes/worker.cc:1862
 msgid "Worker got lost!"
 msgstr "O trabalhador perdeu-se !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Salvando o jogo …"
 
@@ -114,7 +119,7 @@ msgstr "Tempo decorrido :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/load_or_save_game.cc:546
+#: ../../src/wui/load_or_save_game.cc:544
 msgid "Error message:"
 msgstr "Mensagem do erro :"
 

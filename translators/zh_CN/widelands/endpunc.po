@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Chinese (China) "
 "(http://www.transifex.com/widelands/widelands/language/zh_CN/)\n"
@@ -29,7 +29,7 @@ msgstr "这个地图没有保存，您确定真的要退出吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
-#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/encyclopedia_window.cc:140
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "错误！"
@@ -75,34 +75,24 @@ msgid "Map ID:"
 msgstr "地图ID"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
-#: ../../src/wui/game_main_menu_save_game.cc:64
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:71
+#: ../../src/wui/game_main_menu_save_game.cc:66
 #: ../../src/wui/gamedetails.cc:143
 msgid "Filename:"
 msgstr "文件名"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:295
-#: ../../src/wui/game_main_menu_save_game.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:226
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "文件‘%s’已经存在了，要覆盖吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:298
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:315
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:348
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
 msgid "Error Saving Map!"
 msgstr "保存地图错误！"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
-msgid ""
-"Error Saving Map!\n"
-"Saved map file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "保存地图错误！\n已保存的地图文件可能损坏！\n\n原因：\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/tool_menu.cc:66
@@ -112,7 +102,7 @@ msgid ""
 msgstr "已设置坐标为(0,0)的位置。这会在生成地图的左上角。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:457 ../../src/logic/player.cc:223
+#: ../../src/logic/game.cc:464 ../../src/logic/player.cc:223
 #, c-format
 msgid ""
 "Widelands could not start the game, because player %u has no starting position.\n"
@@ -139,7 +129,8 @@ msgid ""
 msgstr "重放已经结束，游戏暂停。如果你喜欢你可以继续游戏和观看。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:120
+#: ../../src/logic/save_handler.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:268
 msgid "Saving failed!"
 msgstr "保存失败！"
 
@@ -286,19 +277,19 @@ msgid "Numbers are the number of players."
 msgstr "数字是玩家数。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:246
+#: ../../src/wui/load_or_save_game.cc:245
 msgid "Do you really want to delete this replay?"
 msgstr "确定删除此重放？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:256
+#: ../../src/wui/load_or_save_game.cc:254
 msgid "Do you really want to delete this game?"
 msgstr "确定删除此游戏？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/load_or_save_game.cc:543
+#: ../../src/wui/load_or_save_game.cc:541
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
@@ -306,6 +297,6 @@ msgstr "文件格式错误，无法载入。可能是由旧版本Widelands产生
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/load_or_save_game.cc:546
+#: ../../src/wui/load_or_save_game.cc:544
 msgid "Error message:"
 msgstr "错误消息："

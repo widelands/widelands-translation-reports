@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Spanish "
 "(http://www.transifex.com/widelands/widelands/language/es/)\n"
@@ -16,26 +16,16 @@ msgstr ""
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../src/editor/ui_menus/help.cc:42 ../../src/ui_fsmenu/multiplayer.cc:139
-#: ../../src/wui/encyclopedia_window.cc:139
+#: ../../src/wui/encyclopedia_window.cc:140
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "¡Error!"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:298
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:315
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:348
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
 msgid "Error Saving Map!"
 msgstr "¡Error guardando el mapa!"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
-msgid ""
-"Error Saving Map!\n"
-"Saved map file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "¡Error guardando el mapa!\n¡El archivo de mapa puede estar corrupto!\n\nRazón dada:\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
@@ -108,12 +98,13 @@ msgid "Port Lost!"
 msgstr "¡Puerto perdido!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:1857
+#: ../../src/logic/map_objects/tribes/worker.cc:1862
 msgid "Worker got lost!"
 msgstr "¡Un trabajador se ha perdido!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/save_handler.cc:120
+#: ../../src/logic/save_handler.cc:175
+#: ../../src/wui/game_main_menu_save_game.cc:268
 msgid "Saving failed!"
 msgstr "¡El guardado ha fallado!"
 
@@ -208,12 +199,12 @@ msgid "Team %|1$u| won!"
 msgstr "¡El equipo %|1$u| ha ganado!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/load_or_save_game.cc:246
+#: ../../src/wui/load_or_save_game.cc:245
 msgid "Do you really want to delete this replay?"
 msgstr "¿Realmente quieres borrar esta repetición?"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/load_or_save_game.cc:256
+#: ../../src/wui/load_or_save_game.cc:254
 msgid "Do you really want to delete this game?"
 msgstr "¿Realmente quieres borrar esta partida?"
 

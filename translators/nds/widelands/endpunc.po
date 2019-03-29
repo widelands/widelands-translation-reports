@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-12-01 14:33+0000\n"
+"POT-Creation-Date: 2019-03-22 18:47+0000\n"
+"PO-Revision-Date: 2019-03-24 10:19+0000\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German "
 "(http://www.transifex.com/widelands/widelands/language/nds/)\n"
@@ -94,26 +94,26 @@ msgid "Dec"
 msgstr "Dez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:617
+#: ../../src/editor/editorinteractive.cc:615
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Maak leege Kaart …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:631
+#: ../../src/editor/editorinteractive.cc:630
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Lade Kaart “%s” …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:143
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:144
 msgid "Tags"
 msgstr "Teken:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:145
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:146
 msgid "Teams"
-msgstr "Klottjes:"
+msgstr "Klottjen:"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_random_map.cc:534
@@ -153,13 +153,18 @@ msgid ""
 msgstr "Klick de Kaart an tum Fastmaken vun de Höcht to eene tofällige Tahl in de utköört Intervall."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "Lade de Kaart …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:317
+msgid "Initializing game…"
+msgstr "Speel word vörbereidt …"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:354 ../../src/logic/game.cc:393
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "Lade …"
 
@@ -175,12 +180,13 @@ msgid "Land Ahoy!"
 msgstr "Küst to sehn kregen"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Sekere dat Speel …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:220
+#: ../../src/logic/save_handler.cc:188
+#: ../../src/wui/game_main_menu_save_game.cc:252
 msgid "Game saved"
 msgstr "Dat Speel is sekert worden!"
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-04-06 16:24+0000\n"
-"PO-Revision-Date: 2018-04-07 17:52+0000\n"
+"POT-Creation-Date: 2019-03-01 12:45+0000\n"
+"PO-Revision-Date: 2019-03-02 16:57+0000\n"
 "Last-Translator: Любомир Василев\n"
 "Language-Team: Bulgarian "
 "(http://www.transifex.com/widelands/widelands/language/bg/)\n"
@@ -15,6 +15,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/LICENSE.lua:9
-msgid "Copyright 2002 - 2018 by the Widelands Development Team."
-msgstr "© 2002-2018 от екипа по разработката на Widelands."
+#. TRANSLATORS: Placeholder is copyright end year
+#: ../../data/txts/LICENSE.lua:10
+msgid "Copyright 2002 - %1% by the Widelands Development Team."
+msgstr "© 2002-%1% от екипа по разработката на Widelands."

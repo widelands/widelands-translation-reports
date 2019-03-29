@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-11-24 06:23+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2019-03-22 18:47+0000\n"
+"PO-Revision-Date: 2019-03-23 12:33+0000\n"
+"Last-Translator: Jonatan Nyberg\n"
 "Language-Team: Swedish "
 "(http://www.transifex.com/widelands/widelands/language/sv/)\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 2.2.5\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:617
+#: ../../src/editor/editorinteractive.cc:615
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:143
 msgid "Creating empty map…"
 msgstr "Skapar tom karta..."
@@ -34,13 +34,13 @@ msgid ""
 msgstr "Klicka på kartan för att öka, 'shift' + klicka på kartan för att minska terränghöjden."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "Laddar karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:354 ../../src/logic/game.cc:393
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "Laddar..."
 
@@ -59,7 +59,7 @@ msgid ""
 msgstr "skulle bryta resurs %s, vilken inte finns på denna karta; stammen är inte kompatibel med denna karta."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:219
+#: ../../src/logic/map_objects/tribes/worker.cc:220
 #, c-format
 msgid ""
 "should breed resource type %s, which does not exist in world; tribe is not "
@@ -72,17 +72,17 @@ msgid "This objective has no description."
 msgstr "Detta objektiv har ingen beskrivning"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Sparar spel..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:718
+#: ../../src/network/gameclient.cc:719
 msgid "/me 's file failed md5 checksumming."
 msgstr "/me s fil md5-kontrollsumma  underkändes"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:758
+#: ../../src/network/gameclient.cc:759
 msgid ""
 "/me checked the received file. Although md5 check summing succeeded, I can "
 "not handle the file."

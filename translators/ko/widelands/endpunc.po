@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-12-28 13:48+0000\n"
-"PO-Revision-Date: 2019-01-05 03:52+0000\n"
-"Last-Translator: ks k\n"
+"POT-Creation-Date: 2019-03-03 08:19+0000\n"
+"PO-Revision-Date: 2019-03-03 08:20+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Korean "
 "(http://www.transifex.com/widelands/widelands/language/ko/)\n"
 "Language: ko\n"
@@ -60,13 +60,13 @@ msgid "The following characters are not allowed:"
 msgstr "다음 문자는 허용되지 않습니다."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:236 ../../src/logic/game.cc:304
+#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
 msgid "Loading map…"
 msgstr "지도 불러오는 중..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:343 ../../src/logic/game.cc:382
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1422
+#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
+#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "불러오는 중..."
 
@@ -74,14 +74,14 @@ msgstr "불러오는 중..."
 #. * TRANSLATORS: This is a ship state. The ship is ready to transport wares,
 #. but has
 #. * nothing to do.
-#: ../../src/logic/map_objects/tribes/ship.cc:996
+#: ../../src/logic/map_objects/tribes/ship.cc:998
 #: ../../src/wui/seafaring_statistics_menu.cc:213
 msgctxt "ship_state"
 msgid "Idle"
 msgstr "대기중??"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:104
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "게임 저장 중..."
 
@@ -155,15 +155,6 @@ msgstr "연결이 끊긴 플레이어를 선택된 인공지능으로 바꾸고 
 #, c-format
 msgid "Replace player with %s"
 msgstr "놀 사람을 %s (으)로 바꿉니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:162
-msgid ""
-"Game Saving Error!\n"
-"Saved game file may be corrupt!\n"
-"\n"
-"Reason given:\n"
-msgstr "게임 저장 오류!\n저장된 게임 파일이 손상되었습니다!\n\n손상 이유 :\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
