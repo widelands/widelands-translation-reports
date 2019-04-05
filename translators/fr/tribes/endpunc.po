@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-14 06:11+0000\n"
-"PO-Revision-Date: 2018-08-03 12:13+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-04 13:28+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -53,6 +53,15 @@ msgid "Main Marble Vein Exhausted"
 msgstr "Veine de marbre principale épuisée."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/preload.lua:18
-msgid "The mighty tribes of the east-lands."
-msgstr "Les puissantes tribus des terres de l'est !"
+#. TRANSLATORS: This is an immovable name used in lists of immovables
+#: ../../data/tribes/immovables/blackrootfield_harvested/init.lua:7
+msgctxt "immovable"
+msgid "Blackroot Field (harvested)"
+msgstr "Champ de racines noires (récolté)."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is a ware name used in lists of wares
+#: ../../data/tribes/wares/fur_garment_studded/init.lua:7
+msgctxt "ware"
+msgid "Studded Fur Garment"
+msgstr "Vêtements en fourrure cloutés."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-02-03 08:14+0000\n"
-"PO-Revision-Date: 2019-02-04 10:11+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-04 13:38+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -86,6 +86,13 @@ msgstr "Vous avez trente secondes pour apprendre les bases du combat à l'épée
 msgctxt "frisians_building"
 msgid "A trainer greeting the new recruits"
 msgstr "Un formateur accueillant les nouvelles recrues."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/barracks/helptexts.lua:13
+msgctxt "frisians_building"
+msgid "Equips recruits and trains them as soldiers."
+msgstr "Équipe les recrues et les forme en soldats"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a building
@@ -177,7 +184,7 @@ msgstr "Qui dit qu'une bête de somme ne peut pas être utile pour autres choses
 msgctxt "frisians_building"
 msgid ""
 "The reindeer breeder who first proposed using reindeer fur for clothing"
-msgstr "L'éleveur de rennes qui a été le premier à proposer l'utilisation de la fourrure de renne pour l'habillement."
+msgstr "L'éleveur de rennes a été le premier à proposer l'utilisation de la fourrure de renne pour l'habillement."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building. Reference to frequent
@@ -269,7 +276,7 @@ msgstr "Rien que des fruits toute la journée.... Tu ne peux pas te dépêcher u
 #: ../../data/tribes/buildings/productionsites/frisians/tavern/helptexts.lua:8
 msgctxt "frisians_building"
 msgid "Hungry customers in times of a shortage of smoked fish and meat"
-msgstr "Des clients affamés en période de pénurie de poisson et de viande fumés."
+msgstr "Des clients affamés en période de pénurie de poisson et de viande fumée."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
@@ -311,6 +318,16 @@ msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
 msgstr "Entraîne les soldats en «&nbsp;Attaque&nbsp;» et en «&nbsp;Santé&nbsp;»"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:107
+msgid "Food:"
+msgstr "Nourriture :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:157
+msgid "Equipment:"
+msgstr "Equipement :"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/scripting/help/building_help.lua:202
 msgid "Purpose:"
 msgstr "Objectif :"
@@ -320,6 +337,11 @@ msgstr "Objectif :"
 #: ../../data/tribes/scripting/help/building_help.lua:463
 msgid "Note:"
 msgstr "Note :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:235
+msgid "Work area radius:"
+msgstr "Rayon d'activité :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/scripting/help/building_help.lua:239
@@ -375,11 +397,6 @@ msgid "Soldiers:"
 msgstr "Soldats :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:407
-msgid "Defense Training"
-msgstr "Entraînement à la Défense:"
-
-# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/scripting/help/building_help.lua:470
 msgid "Direct build cost:"
 msgstr "Coût de construction directe :"
@@ -428,6 +445,43 @@ msgid "Space required:"
 msgstr "Espace requis :"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Tribal Encyclopedia: Heading for wares and workers consumed by
+#. a productionsite
+#: ../../data/tribes/scripting/help/format_help.lua:259
+msgid "Wares and workers consumed:"
+msgstr "Marchandises et travailleurs utilisés :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Tribal Encyclopedia: Heading for workers consumed by a
+#. productionsite
+#: ../../data/tribes/scripting/help/format_help.lua:262
+msgid "Workers consumed:"
+msgstr "Travailleurs utilisés :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Tribal Encyclopedia: Heading for wares consumed by a
+#. productionsite
+#: ../../data/tribes/scripting/help/format_help.lua:266
+msgid "Wares consumed:"
+msgstr "Marchandises utilisées :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Ware Encyclopedia: Wares produced by a productionsite
+#: ../../data/tribes/scripting/help/ware_help.lua:107
+msgid "Ware produced:"
+msgid_plural "Wares produced:"
+msgstr[0] "Marchandise produite&nbsp;:"
+msgstr[1] "Marchandises produites :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Worker Encyclopedia: Workers recruited by a productionsite
+#: ../../data/tribes/scripting/help/worker_help.lua:79
+msgid "Worker recruited:"
+msgid_plural "Workers recruited:"
+msgstr[0] "Ouvrier recruté&nbsp;:"
+msgstr[1] "Ouvriers recrutés :"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a ware: Hunting Spear
 #: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
 msgctxt "frisians_ware"
@@ -453,6 +507,13 @@ msgid ""
 msgstr "L'épée longue est l'arme utilisée par les soldats de niveau 1. Les soldats de niveau 4 sont équipés d'une épée longue et d'une épée à double-tranchant.."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Water
+#: ../../data/tribes/wares/water/helptexts.lua:4
+msgctxt "ware"
+msgid "Water is the essence of life!"
+msgstr "L'eau est l'essence de la vie !"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a worker: Recruit
 #: ../../data/tribes/workers/atlanteans/recruit/helptexts.lua:3
 msgctxt "atlanteans_worker"
@@ -464,7 +525,7 @@ msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 #: ../../data/tribes/workers/atlanteans/soldier/helptexts.lua:3
 msgctxt "atlanteans_worker"
 msgid "Defend and Conquer!"
-msgstr "Défend et conquiert !"
+msgstr "Défendre et conquérir !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a worker: Farmer
@@ -485,7 +546,7 @@ msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 #: ../../data/tribes/workers/barbarians/soldier/helptexts.lua:3
 msgctxt "barbarians_worker"
 msgid "Defend and Conquer!"
-msgstr "Défend et conquiert !"
+msgstr "Défendre et conquérir !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a worker: Farmer
@@ -506,7 +567,7 @@ msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 #: ../../data/tribes/workers/empire/soldier/helptexts.lua:3
 msgctxt "empire_worker"
 msgid "Defend and Conquer!"
-msgstr "Défend et conquiert !"
+msgstr "Défendre et conquérir !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a worker: Scout

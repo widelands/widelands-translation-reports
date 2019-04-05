@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-05-05 17:07+0000\n"
-"PO-Revision-Date: 2018-05-06 10:07+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-02 09:36+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -17,12 +17,17 @@ msgstr ""
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:46
 msgid "                      Note: New value will be written to config file"
-msgstr "Note: Les nouvelles valeurs seront écrites au fichier config"
+msgstr "Note: Les nouvelles valeurs seront écrites au fichier de configuration"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:55
 msgid "                      Default is ~/.widelands"
-msgstr "\tPar défaut est ~/.widelands"
+msgstr "Par défaut est ~/.widelands"
+
+# (pofilter) startwhitespace: Different whitespace at the start
+#: ../../src/wlapplication_messages.cc:92
+msgid " --disable_music      Disable music."
+msgstr "--disable_music      Désactive la musique."
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:100
@@ -30,7 +35,7 @@ msgid ""
 " --ai_training        Enables AI training mode. See\n"
 "                      https://wl.widelands.org/wiki/Ai%20Training/\n"
 "                      for a full description of the AI training logic."
-msgstr "--ai_training Active le mode d'entraînement de l'IA. Voyez\nhttps://wl.widelans.org/wiki/Ai%20Training/\npour une description complète de la logique d'entraînement de l'IA."
+msgstr "--ai_training         Active le mode d'entraînement de l'IA. Voyez\n                      https://wl.widelands.org/wiki/Ai%20Training/\n                      pour une description complète de la logique d'entraînement de l'IA."
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:104
@@ -39,4 +44,4 @@ msgid ""
 "                      adjusting the game speed automatically,\n"
 "                      depending on FPS. Useful in conjunction with\n"
 "                      --ai_training."
-msgstr "--auto_speed Dans les jeux multijoueurs seulement, ceci ajustera\nla vitesse du jeu automatiquement,\npar rapport au IPS. Utile en conjonction avec\n--ai_training."
+msgstr "--auto_speed           Dans les jeux multijoueurs seulement, ceci ajustera\nla vitesse du jeu automatiquement,\npar rapport au IPS. Utile en conjonction avec\n--ai_training."

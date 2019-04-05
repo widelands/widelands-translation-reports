@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-02-03 08:14+0000\n"
-"PO-Revision-Date: 2019-02-05 16:03+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-03-30 11:23+0000\n"
+"Last-Translator: Facundo Gomez <facundogomez15@gmail.com>\n"
 "Language-Team: Spanish "
 "(http://www.transifex.com/widelands/widelands/language/es/)\n"
 "Language: es\n"
@@ -18,6 +18,11 @@ msgstr ""
 #: ../../src/wlapplication_messages.cc:45
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<nombre-variable>=valor sobreescribe cualquier parametro del archivo de configuración"
+
+# (pofilter) options: Missing or translated option '--maxfps'
+#: ../../src/wlapplication_messages.cc:136
+msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
+msgstr " --maxcps=[5 ...]     Máxima óptica de cuadros por segundo del juego."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
 #: ../../src/wlapplication_messages.cc:145

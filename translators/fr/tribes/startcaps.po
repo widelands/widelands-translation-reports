@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-14 06:11+0000\n"
-"PO-Revision-Date: 2018-08-03 12:13+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-04 13:28+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -95,72 +95,68 @@ msgstr "Mouds le blé"
 #. ...
 #: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:59
 msgid "planting grapevines"
-msgstr "Planter des vignes"
+msgstr "Plante des vignes"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start harvesting grapevines because
 #. ...
 #: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:67
 msgid "harvesting grapes"
-msgstr "Récolte du raisins"
+msgstr "Récolte des grappes de raisin"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start forging a wooden spear because
 #. ...
 #: ../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:78
 msgid "forging a wooden spear"
-msgstr "Fabriquer une lance de bois"
+msgstr "Fabrique une lance de bois"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start forging a spear because ...
 #: ../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:93
 msgid "forging a spear"
-msgstr "Forger une lance"
+msgstr "Forge une lance"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start forging an advanced spear
 #. because ...
 #: ../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:108
 msgid "forging an advanced spear"
-msgstr "Forger une lance avancée"
+msgstr "Forge une lance avancée"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start forging a heavy spear because
 #. ...
 #: ../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:123
 msgid "forging a heavy spear"
-msgstr "Forger une lourde lance"
+msgstr "Forge une lance lourde"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start forging a war spear because
 #. ...
 #: ../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:138
 msgid "forging a war spear"
-msgstr "Forger une lance de guerre"
+msgstr "Forge une lance de guerre"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start making wine because ...
 #: ../../data/tribes/buildings/productionsites/empire/winery/init.lua:56
 msgid "making wine"
-msgstr "Faire du vin"
+msgstr "Fait du vin"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:61
-msgid "No Flowers"
-msgstr "pas de fleurs"
+#. TRANSLATORS: This is a building name used in lists of buildings
+#: ../../data/tribes/buildings/productionsites/frisians/furnace/init.lua:7
+msgctxt "frisians_building"
+msgid "Furnace"
+msgstr "fourneau"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
-#. because ... (can produce more efficient when supply is good)
-#: ../../data/tribes/buildings/productionsites/frisians/tavern/init.lua:74
-msgid "preparing only one ration"
-msgstr "Prépare seulement une ration"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Completed/Skipped/Did not start preparing rations because ...
-#: ../../data/tribes/buildings/productionsites/frisians/tavern/init.lua:88
-msgid "preparing rations"
-msgstr "Prépare des rations"
+#. TRANSLATORS: Completed/Skipped/Did not start rearing reindeer because ...
+#: ../../data/tribes/buildings/productionsites/frisians/reindeer_farm/init.lua:76
+msgctxt "frisians_building"
+msgid "rearing reindeer"
+msgstr "Élève des rennes"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
@@ -189,10 +185,3 @@ msgstr "Améliore l'attaque du soldat du niveau 2 au niveau 3"
 msgctxt "frisians_building"
 msgid "upgrading soldier health from level 0 to level 1"
 msgstr "Améliore la santé du soldat du niveau 0 au niveau 1"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: This is an immovable name used in lists of immovables
-#: ../../data/tribes/immovables/grapevine_ripe/init.lua:7
-msgctxt "immovable"
-msgid "Grapevine (ripe)"
-msgstr "vigne mûre"

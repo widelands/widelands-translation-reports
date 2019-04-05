@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-05-05 17:07+0000\n"
-"PO-Revision-Date: 2018-05-06 10:07+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-02 09:36+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -17,93 +17,31 @@ msgstr ""
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:46
 msgid "                      Note: New value will be written to config file"
-msgstr "Note: Les nouvelles valeurs seront écrites au fichier config"
+msgstr "Note: Les nouvelles valeurs seront écrites au fichier de configuration"
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:48
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
-msgstr " --datadir=DIRNAME\n\tUtilise le dossier spécifié pour les données de Widelands."
+msgstr " --datadir=DIRNAME    Utilise le dossier spécifié pour les données\nde Widelands."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:51
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
-msgstr " --homedir=DIRNAME\n\tUtilise le dossier spécifié pour la sauvegarde des fichiers de\n\tconfiguration de Widelands, sauvegardes et replays."
+msgstr " --homedir=DIRNAME    Utilise le dossier spécifié pour la sauvegarde des fichiers de configuration de Widelands,\n sauvegardes et replays."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:55
 msgid "                      Default is ~/.widelands"
-msgstr "\tPar défaut est ~/.widelands"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:61
-msgid ""
-" --coredump=[true|false]\n"
-"                      Generates a core dump on segfaults instead of\n"
-"                      using the SDL"
-msgstr " --coredump=[true|false]\n\tGénère un dump du noyau au lieu d'utiliser SDL."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:65
-msgid ""
-" --language=[de_DE|sv_SE|...]\n"
-"                      The locale to use."
-msgstr " --language=[de_DE|sv_SE|...]\n\tLocales à utiliser."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain.
-#. * TRANSLATORS: A syncstream is a synchronization stream. Syncstreams are
-#. used in
-#. multiplayer
-#. * TRANSLATORS: games to make sure that there is no mismatch between the
-#. players.
-#: ../../src/wlapplication_messages.cc:74
-msgid ""
-" --write_syncstreams=[true|false]\n"
-"                      Create syncstream dump files to help debug network games."
-msgstr " --write_syncstreams=[true|false]\n\tCréé des fichiers journaux des flux de synchronisation pour aider à\n\tdéboguer les parties en réseau."
+msgstr "Par défaut est ~/.widelands"
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:77
 msgid " --autosave=[...]     Automatically save each n minutes"
-msgstr " --autosave=[...]\n\tSauvegarde automatique toutes les n minutes."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:78
-msgid ""
-" --rolling_autosave=[...]\n"
-"                      Use this many files for rolling autosaves"
-msgstr " --rolling_autosave=[...]\n\tUtilise ce nombre de fichiers pour le roullement de sauvegardes\n\tautomatiques."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:90
-msgid " --nosound            Starts the game with sound disabled."
-msgstr " --nosound\n\tDémarre le jeu avec le son désactivé."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:91
-msgid " --disable_fx         Disable sound effects."
-msgstr " --disable_fx\n\tDésactive les effets sonores."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:92
-msgid " --disable_music      Disable music."
-msgstr " --disable_music\n\tDésactive la musique."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:94
-msgid " --nozip              Do not save files as binary zip archives."
-msgstr " --nozip\n\tNe pas sauver les fichiers en archives zip binaires."
+msgstr " --autosave=[...]      Sauvegarde automatique toutes les n minutes."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:96
@@ -111,15 +49,7 @@ msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"
 "                      the map FILENAME in editor."
-msgstr " --editor\n\tDémarre directement l'éditeur de Widelands.\n\tVous pouvez ajouter =FILENAME pour charger directement la carte FILENAME\n\tdans l'éditeur."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:100
-msgid ""
-" --ai_training        Enables AI training mode. See\n"
-"                      https://wl.widelands.org/wiki/Ai%20Training/\n"
-"                      for a full description of the AI training logic."
-msgstr "--ai_training Active le mode d'entraînement de l'IA. Voyez\nhttps://wl.widelans.org/wiki/Ai%20Training/\npour une description complète de la logique d'entraînement de l'IA."
+msgstr " --editor              Démarre directement l'éditeur de Widelands.\n                        Vous pouvez ajouter =FILENAME pour charger directement\n                        la carte FILENAME dans l'éditeur."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:104
@@ -128,117 +58,47 @@ msgid ""
 "                      adjusting the game speed automatically,\n"
 "                      depending on FPS. Useful in conjunction with\n"
 "                      --ai_training."
-msgstr "--auto_speed Dans les jeux multijoueurs seulement, ceci ajustera\nla vitesse du jeu automatiquement,\npar rapport au IPS. Utile en conjonction avec\n--ai_training."
+msgstr "--auto_speed           Dans les jeux multijoueurs seulement, ceci ajustera\nla vitesse du jeu automatiquement,\npar rapport au IPS. Utile en conjonction avec\n--ai_training."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:109
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
-msgstr " --scenario=FILENAME\n\tDémarre directement la carte FILENAME comme carte de scénario."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:112
-msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
-msgstr " --loadgame=FILENAME\n\tCharge directement la sauvegarde FILENAME."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:113
-msgid ""
-" --script=FILENAME    Run the given Lua script after initialization.\n"
-"                      Only valid with --scenario, --loadgame, or --editor."
-msgstr " --script=FILENAME\n\tExécute le script LUA donné après l'initialisation.\n\tSeulement valide avec --scenario, --loadgame, ou --editor."
+msgstr " --scenario=FILENAME  Démarre directement la carte FILENAME comme carte de\nscénario."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:119
-msgid ""
-" --auto_roadbuild_mode=[true|false]\n"
-"                      Whether to enter roadbuilding mode\n"
-"                      automatically after placing a flag that is\n"
-"                      not connected to a road."
-msgstr " --auto_roadbuild_mode=[true|false]\n\tPour passer en mode construction de route automatiquement après avoir\n\tplacé un drapeau qui n'est pas connecté à une route."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:129
+#: ../../src/wlapplication_messages.cc:130
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
 "                      game screen."
-msgstr " --fullscreen=[true|false]\n\tPour utiliser tout l'écran pour l'écran de jeu."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:133
-msgid " --xres=[...]         Width of the window in pixel."
-msgstr " --xres=[...]\n\tLargeur de la fenêtre en pixels."
+msgstr " --fullscreen=[true|false]\n                      Pour utiliser tout l'écran pour l'écran de jeu."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:134
+msgid " --xres=[...]         Width of the window in pixel."
+msgstr " --xres=[...]          Largeur de la fenêtre en pixels."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:135
 msgid " --yres=[...]         Height of the window in pixel."
-msgstr " --yres=[...]\n\tHauteur de la fenêtre en pixels."
+msgstr " --yres=[...]          Hauteur de la fenêtre en pixels."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:144
-msgid ""
-" --border_snap_distance=[0 ...]\n"
-"                      Move a window to the edge of the screen\n"
-"                      when the edge of the window comes within\n"
-"                      this distance from the edge of the screen."
-msgstr " --border_snap_distance=[0 ...]\n\tBouge une fenêtre vers le bord de l'écran quand le bord de la fenêtre\n\trentre dans cette distance du bord de l'écran."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:152
-msgid ""
-" --dock_windows_to_edges=[true|false]\n"
-"                      Eliminate a window's border towards the\n"
-"                      edge of the screen when the edge of the\n"
-"                      window is next to the edge of the screen."
-msgstr " --dock_windows_to_edges=[true|false]\n\tElimine le bord d'une fenêtre du coté du bord de l'écran lorsque \n\tle bord de la fenêtre est à coté du bord de l'écran."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:158
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"
 "                      the edge of the window comes within this\n"
 "                      distance from the edge of the panel."
-msgstr " --panel_snap_distance=[0 ...]\n\tBouge une fenêtre vers le bord du panneau quand le bord\n\tde la fenêtre entre dans cette distance du bord du panneau."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:162
-msgid ""
-" --snap_windows_only_when_overlapping=[yes|no]\n"
-"                      Only move a window to the edge of a panel\n"
-"                      if the window is overlapping with the\n"
-"                      panel."
-msgstr " --snap_windows_only_when_overlapping=[yes|no]\n\tBouge seulement la fenêtre vers le bord du panneau si la fenêtre\n\test au dessus du panneau."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:168
-msgid " --verbose            Enable verbose debug messages"
-msgstr " --verbose\n\tActive les messages verbeux de debogage."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:169
-msgid " --help               Show this help"
-msgstr " --help\n\tMontre cette aide."
+msgstr " --panel_snap_distance=[0 ...]\n                      Bouge une fenêtre vers le bord du panneau quand\n                     le bord de la fenêtre entre dans cette distance\n                    du bord du panneau."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:170
-msgid ""
-"Bug reports? Suggestions? Check out the project website:\n"
-"        https://wl.widelands.org/\n"
-"\n"
-"Hope you enjoy this game!"
-msgstr "Rapports de bogues ? Suggestions ? Visitez le site web du projet\n https://wl.widelands.org/\n\nNous espérons que vous appréciez ce jeu !"
+msgid " --help               Show this help"
+msgstr " --help                Montre cette aide."

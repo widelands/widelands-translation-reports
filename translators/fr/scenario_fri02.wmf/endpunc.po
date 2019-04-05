@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-10-12 07:46+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: zecas <jjorge@free.fr>, 2018\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2018-03-24 18:16+0000\n"
+"Last-Translator: Renaud Bouchard, 2019\n"
 "Language-Team: French (https://www.transifex.com/widelands/teams/35159/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,6 @@ msgstr ""
 "trouver dans le Sud ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:60
-msgid "Decide whether you want to cooperate with the Empire"
-msgstr "Décider si vous voulez coopérer avec l'Empire."
-
-# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:62
 msgid "Gather Wares as a Gift or Destroy the Empire’s Warehouse"
 msgstr ""
@@ -43,15 +38,37 @@ msgstr ""
 "c'est le cas, remplir son entrepôt avec ces  :"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Hauke – Expansion hint. A poem, verse 4
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:96
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:344
+msgid "Who’s ordering around here thee!"
+msgstr "Qui commande ici alors !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:101
+msgid "Defeat the Barbarians!"
+msgstr "Défaire les Barbares !"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:104
 msgid "Defeat the hostile tribe living northwest of the Empire’s outpost!"
 msgstr ""
 "Vaincre la tribu hostile vivant au nord-ouest de l'avant-poste de l'Empire !"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:109
+msgid "Defeat Murilius!"
+msgstr "Défaire Murilius !"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:111
 msgid "Defeat the Arrogant Outpost of the Empire"
 msgstr "Défaire l'avant-poste arrogant de l'Empire."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:118
+msgid "Defeat Murilius and the Barbarians!"
+msgstr "Défaire Murilius et les Barbares !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:120
@@ -121,7 +138,7 @@ msgstr "...est-ce que quelqu'un comprend ce qu'il dit ?"
 #. Murilius, so he sounds very formal.
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:269
 msgid "Do they not even speak the noble language of the Empire?"
-msgstr "Ne parlent-ils même pas la langue noble de l'Empire ?"
+msgstr "Ne parlent-ils même pas la noble langue de l'Empire ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – Supply Murilius 3
@@ -214,6 +231,11 @@ msgstr ""
 "gracieuse en gaspillant vos précieuses ressources en expansion !"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:372
+msgid "Defeat the enemies!"
+msgstr "Défaire les ennemis !"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – Supplied Murilius
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:385
 msgid ""
@@ -232,6 +254,11 @@ msgid ""
 msgstr ""
 "Vous avez fait du bon travail, étrangers ! Comme je vous l'ai dit tout à "
 "l'heure, vous serez récompensés par l'amitié de l'Empire !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:403
+msgid "Defeat the Empire!"
+msgstr "Défaire l'Empire !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Reebaud – defeat Murilius 2

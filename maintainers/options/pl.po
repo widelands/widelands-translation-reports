@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-28 05:45+0000\n"
-"PO-Revision-Date: 2018-10-03 08:52+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-02 11:46+0000\n"
 "Last-Translator: Tomasz Pudło <wptom@wp.pl>\n"
 "Language-Team: Polish "
 "(http://www.transifex.com/widelands/widelands/language/pl/)\n"
@@ -28,8 +28,13 @@ msgid ""
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr "--script=FILENAME Uruchom podany skrypt Lua po inicjalizacji.\nPoprawny tylko z opcjami --scenario, --loadgame lub --editor."
 
+# (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
+#: ../../src/wlapplication_messages.cc:136
+msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
+msgstr " --maxfps=[5 ...]     Maksymalna liczba klatek na sekundę w grze."
+
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:145
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -38,7 +43,7 @@ msgid ""
 msgstr "--border_snap_distance=[0 ...]\nPrzesuń okno do krawędzi ekranu\ngdy krawędź okna jest w tej odległości\nod krawędzi ekranu."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:158
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

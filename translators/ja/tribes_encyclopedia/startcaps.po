@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-02-15 11:14+0000\n"
-"PO-Revision-Date: 2019-02-22 13:42+0000\n"
-"Last-Translator: tamanegi\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-03-29 16:59+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Japanese "
 "(http://www.transifex.com/widelands/widelands/language/ja/)\n"
 "Language: ja\n"
@@ -404,6 +404,7 @@ msgstr "建物の建設、船の帆、兵士の訓練に使うタバードに使
 #: ../../data/tribes/buildings/productionsites/atlanteans/well/helptexts.lua:16
 #: ../../data/tribes/buildings/productionsites/barbarians/well/helptexts.lua:13
 #: ../../data/tribes/buildings/productionsites/empire/well/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/frisians/well/helptexts.lua:13
 msgctxt "building"
 msgid "Draws water out of the deep."
 msgstr "地下から水を汲み上げます。"
@@ -1543,7 +1544,7 @@ msgstr "大麦と水から鉱夫や兵士が食べるパンを焼きます。"
 #, lua-format
 msgctxt "frisians_building"
 msgid "The bakery needs %s on average to produce one loaf of bread."
-msgstr "パン職人が一単位のパンを焼くには平均 %1%かかります。"
+msgstr "パン職人が一単位のパンを焼くには平均 %sかかります。"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore helptext for a building
@@ -2535,7 +2536,7 @@ msgstr "部族が塩水を飲まないのはなぜだ、と問われた時にア
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/well/helptexts.lua:18
+#: ../../data/tribes/buildings/productionsites/frisians/well/helptexts.lua:23
 #, lua-format
 msgctxt "frisians_building"
 msgid "The well needs %s on average to produce one bucket of water."

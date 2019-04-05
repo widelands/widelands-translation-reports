@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-05 19:19+0000\n"
+"POT-Creation-Date: 2019-03-29 07:26+0000\n"
+"PO-Revision-Date: 2019-04-04 12:37+0000\n"
 "Last-Translator: Renaud Bouchard\n"
 "Language-Team: French "
 "(http://www.transifex.com/widelands/widelands/language/fr/)\n"
@@ -102,7 +102,7 @@ msgstr "Terrain :"
 #: ../../src/editor/ui_menus/main_menu_random_map.cc:91
 #: ../../src/wui/gamedetails.cc:126
 msgid "Players:"
-msgstr "Joueurs :"
+msgstr "Joueurs :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_random_map.cc:117
@@ -171,9 +171,14 @@ msgstr "Un fichier nommé '%s' existe déjà. L'écraser ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:298
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:341
 msgid "Error Saving Map!"
 msgstr "Erreur d'enregistrement de la carte !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:43
+msgid "Enter Directory Name:"
+msgstr "Entrez le nom du répertoire :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:100
@@ -191,6 +196,27 @@ msgid ""
 msgstr "Nous ne recommandons pas de définir plus de 8 joueurs excepté pour des fins de test. Êtes vous sur que vous voulez plus de 8 joueurs ?"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:47
+msgid "Increase/Decrease height by:"
+msgstr "Augmenter / Diminuer la valeur par :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:59
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:74
+msgid "Set height to:"
+msgstr "Fixer l' élévation à :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:61
+msgid "Increase/Decrease amount by:"
+msgstr "Augmenter / Diminuer la valeur par :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:73
+msgid "Set amount to:"
+msgstr "Fixer le montant à :"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:50
 msgid "Minimum height:"
 msgstr "Elévation minimum :"
@@ -201,17 +227,25 @@ msgid "Maximum height:"
 msgstr "Elévation maximum :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
+#. * TRANSLATORS: Tooltip header for characters in illegal filenames.
+#. * This is followed by a list of bullet points
+#: ../../src/io/filesystem/filesystem.cc:221
+msgctxt "illegal_filename_characters"
+msgid "The following characters are not allowed:"
+msgstr "Les caractères suivants ne sont pas permis :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:317
 msgid "Loading map…"
 msgstr "Chargement de la carte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:318
+#: ../../src/logic/game.cc:324
 msgid "Initializing game…"
 msgstr "Initialisation de la partie..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
+#: ../../src/logic/game.cc:361 ../../src/logic/game.cc:400
 #: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
 msgid "Loading…"
 msgstr "Chargement..."
@@ -220,7 +254,7 @@ msgstr "Chargement..."
 #: ../../src/logic/generic_save_handler.cc:237
 #: ../../src/logic/generic_save_handler.cc:241
 msgid "File successfully saved!"
-msgstr "Fichier sauvegardé avec succès."
+msgstr "Fichier sauvegardé avec succès !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/logic/generic_save_handler.cc:246
@@ -233,6 +267,17 @@ msgstr "Le répertoire ‘%s’ ne peut être créé !"
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Le fichier ‘%s’ n'a pu être enlevé !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:252
+msgid "Try saving under a different name!"
+msgstr "Essaye de sauver avec nom différent !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:258
+#, c-format
+msgid "Error writing data to file ‘%s’!"
+msgstr "Erreur à l'écriture des données du fichier ‘%s’ !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/logic/generic_save_handler.cc:265
@@ -369,12 +414,12 @@ msgstr "Approbation de l'expulsion annulée : Mauvais nom donné !"
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/network/gamehost.cc:495
 msgid "Failed to host the server!"
-msgstr "Échec de l'hébergement du serveur"
+msgstr "Échec de l'hébergement du serveur !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/network/gamehost.cc:504
 msgid "Failed to start the server!"
-msgstr "Échec à démarrer le serveur !"
+msgstr "Échec au démarrage du serveur !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/network/internet_gaming.cc:213
@@ -554,7 +599,7 @@ msgstr "Nombre maximal de sauvegardes automatiques :"
 #: ../../src/ui_fsmenu/options.cc:263
 #: ../../src/wui/game_options_sound_menu.cc:85
 msgid "Sound is disabled due to a problem with the sound driver"
-msgstr "Le son est désactivé à cause d'un problème avec le pilote son."
+msgstr "Le son est désactivé à cause d'un problème avec le pilote sonore."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/actionconfirm.cc:173
@@ -641,7 +686,7 @@ msgstr "Erreur pendant la sauvegarde du jeu !"
 msgid "Restore the selected %d message"
 msgid_plural "Restore the selected %d messages"
 msgstr[0] "Restaurer le message %d sélectionné:"
-msgstr[1] "Restaurer les messages %d sélectionnés:"
+msgstr[1] "Restaurer les %d messages sélectionnés:"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/game_summary.cc:62
@@ -675,6 +720,12 @@ msgid "Map Name:"
 msgstr "Nom de la carte :"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: The time a replay starts. Shown in the replay loading screen
+#: ../../src/wui/gamedetails.cc:119
+msgid "Start of Replay:"
+msgstr "Début du replay :"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: The current time of a savegame. Shown in the game saving and
 #. loading screens.
 #: ../../src/wui/gamedetails.cc:122
@@ -692,9 +743,22 @@ msgid "Win Condition:"
 msgstr "Condition de victoire :"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:173
+msgid "Error:"
+msgstr "Erreur :"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/load_or_save_game.cc:95
 msgid "The date this game was saved"
 msgstr "La date à laquelle cette partie a été sauvegardé."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/load_or_save_game.cc:188
+#, c-format
+msgid "Selected %d file:"
+msgid_plural "Selected %d files:"
+msgstr[0] "Fichier %d sélectionné:"
+msgstr[1] "Fichiers %d sélectionnés :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/load_or_save_game.cc:245
