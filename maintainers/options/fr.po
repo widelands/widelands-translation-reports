@@ -1,59 +1,59 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-04-02 09:36+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-16 11:37+0000\n"
 "Last-Translator: Renaud Bouchard\n"
-"Language-Team: French "
-"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--datadir'
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAME    Utilise le dossier spécifié pour les données\nde Widelands."
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--homedir'
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=DIRNAME    Utilise le dossier spécifié pour la sauvegarde des fichiers de configuration de Widelands,\n sauvegardes et replays."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--scenario'
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=FILENAME  Démarre directement la carte FILENAME comme carte de\nscénario."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--loadgame'
-#: ../../src/wlapplication_messages.cc:112
+#: ../../src/wlapplication_messages.cc:107
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=FILENAME  Charge directement la sauvegarde FILENAME."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--script'
-#: ../../src/wlapplication_messages.cc:113
+#: ../../src/wlapplication_messages.cc:108
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr " --script=FILENAME    Exécute le script LUA donné après l'initialisation.\n                       Seulement valide avec --scenario, --loadgame, ou --editor."
 
 # (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
-#: ../../src/wlapplication_messages.cc:136
+#: ../../src/wlapplication_messages.cc:130
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr " --maxfps=[5 ...]     Nombre d'images optique maximum du jeux."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:145
+#: ../../src/wlapplication_messages.cc:139
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -62,7 +62,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                      Bouge une fenêtre vers le bord de l'écran\n                      quand le bord de la fenêtre rentre dans\n                      cette distance du bord de l'écran."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:158
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

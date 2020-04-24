@@ -1,35 +1,35 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-08-24 06:54+0000\n"
-"PO-Revision-Date: 2018-08-28 17:26+0000\n"
-"Last-Translator: Jukka Pakarinen\n"
-"Language-Team: Finnish "
-"(http://www.transifex.com/widelands/widelands/language/fi/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-20 15:35+0000\n"
+"Last-Translator: Teppo Mäenpää <teppo@runbox.com>\n"
+"Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
+"language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=HAKEMISTO  Käytä annettua hakemistoa widelandsin\n                      data tiedostoille"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=HAKEMISTO  Käytä HAKEMISTO:a widelands asetustiedstoille,\n                      pelitallenteilla ja toistotiedostoille"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:104
+#: ../../src/wlapplication_messages.cc:99
 msgid ""
 " --auto_speed         In multiplayer games only, this will keep\n"
 "                      adjusting the game speed automatically,\n"
@@ -38,7 +38,7 @@ msgid ""
 msgstr " --auto_speed         Vain moninpeleissä tämä säätää\n                      pelin nopeuden automaattisesti\n                      perustuen FPS:ään. Hyödyllinen\n                      yhdistettynä  asetuksen --ai_training."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
@@ -49,7 +49,7 @@ msgstr " --scenario=TIEDOSTO  Käynnistää annetun kartan suoraan kenaariona."
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:129
+#: ../../src/wlapplication_messages.cc:124
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
@@ -57,7 +57,7 @@ msgid ""
 msgstr " --fullscreen=[true|false]\n                      Käyttääkkö peli-ikkunalle koko näytön laajuutta."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:139
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -66,7 +66,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                      Siirrä ikkuna ruudun reunaan kun sen oma reuna\n                      on tällä etäisyydellä ruudun reunasta."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"
@@ -75,7 +75,7 @@ msgid ""
 msgstr " --panel_snap_distance=[0 ...]\n                      Siirrä ikkuna paneelin reunaan kun ikkunan reuna\n                      on tällä etäisyydellä paneelin reunasta."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:162
+#: ../../src/wlapplication_messages.cc:157
 msgid ""
 " --snap_windows_only_when_overlapping=[yes|no]\n"
 "                      Only move a window to the edge of a panel\n"

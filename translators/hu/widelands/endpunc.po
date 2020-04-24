@@ -1,53 +1,120 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-03 08:20+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Hungarian "
-"(http://www.transifex.com/widelands/widelands/language/hu/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/player_menu.cc:183
-#: ../../src/wui/multiplayersetupgroup.cc:461
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:174
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:189
+msgid "Error Creating Directory!"
+msgstr "Hiba a könyvtár létrehozásakor."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:100
+msgid "This extension is reserved!"
+msgstr "Ez a kiterjesztés foglalt."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/player_menu.cc:184
+#: ../../src/wui/multiplayersetupgroup.cc:481
 msgid "The tribe will be selected at random"
 msgstr "A törzs véletlenszerűen lesz kiválasztva."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:236
+#: ../../src/logic/generic_save_handler.cc:240
+msgid "File successfully saved!"
+msgstr "A fájl sikeresen elmentve."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:245
+#, c-format
+msgid "Directory ‘%s’ could not be created!"
+msgstr "A(z) „%s” könyvtár nem hozható létre."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:249
+#, c-format
+msgid "File ‘%s’ could not be removed!"
+msgstr "A(z) „%s” fájl nem távolítható el."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:251
+msgid "Try saving under a different name!"
+msgstr "Próbáld meg más néven elmenteni."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:257
+#, c-format
+msgid "Error writing data to file ‘%s’!"
+msgstr "Hiba az adatok a(z) „%s” fájlba írásakor."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:264
+msgid "Saved file may be corrupt!"
+msgstr "A mentett fájl sérült lehet."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:272
+#, c-format
+msgid "File ‘%s’ could not be restored!"
+msgstr "A(z) „%s” nem állítható helyre."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:268
+#: ../../src/network/gamehost.cc:282
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - A játék megállításának kényszerítése"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:495
+#: ../../src/network/gamehost.cc:512
 msgid "Failed to host the server!"
 msgstr "A kiszolgáló létesítése meghiúsult."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:504
+#: ../../src/network/gamehost.cc:521
 msgid "Failed to start the server!"
 msgstr "A kiszolgáló elindítása meghiúsult."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_lan_promotion.cc:359
+#: ../../src/network/network_lan_promotion.cc:364
 msgid "Failed to use the local network!"
 msgstr "A helyi hálózat használata meghiúsult."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:139
+#: ../../src/ui_fsmenu/options.cc:147
 msgid "Animate automatic map movements"
 msgstr "Automatikus térkép mozgások animálása."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/seafaring_statistics_menu.cc:528
+#: ../../src/wui/game_main_menu_save_game.cc:238
+#: ../../src/wui/game_main_menu_save_game.cc:271
+msgid "Error Saving Game!"
+msgstr "Hiba a játék mentésekor"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/savegamedeleter.cc:79
+msgid "Error Deleting File!"
+msgstr "Hiba a fájl törlésekor."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/savegamedeleter.cc:79
+msgid "Error Deleting Files!"
+msgstr "Hiba a fájlok törlésekor."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the ship statistics window
+#: ../../src/wui/seafaring_statistics_menu.cc:553
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Azon expedíciók megjelenítése, melyek találtak kikötőhelyet, vagy kolóniát alapítanak."

@@ -1,50 +1,50 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-04-02 09:36+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-16 11:37+0000\n"
 "Last-Translator: Renaud Bouchard\n"
-"Language-Team: French "
-"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:46
+#: ../../src/wlapplication_messages.cc:45
 msgid "                      Note: New value will be written to config file"
 msgstr "Note: Les nouvelles valeurs seront écrites au fichier de configuration"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAME    Utilise le dossier spécifié pour les données\nde Widelands."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=DIRNAME    Utilise le dossier spécifié pour la sauvegarde des fichiers de configuration de Widelands,\n sauvegardes et replays."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:55
+#: ../../src/wlapplication_messages.cc:54
 msgid "                      Default is ~/.widelands"
 msgstr "Par défaut est ~/.widelands"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:77
+#: ../../src/wlapplication_messages.cc:76
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr " --autosave=[...]      Sauvegarde automatique toutes les n minutes."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:96
+#: ../../src/wlapplication_messages.cc:91
 msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"
@@ -52,7 +52,7 @@ msgid ""
 msgstr " --editor              Démarre directement l'éditeur de Widelands.\n                        Vous pouvez ajouter =FILENAME pour charger directement\n                        la carte FILENAME dans l'éditeur."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:104
+#: ../../src/wlapplication_messages.cc:99
 msgid ""
 " --auto_speed         In multiplayer games only, this will keep\n"
 "                      adjusting the game speed automatically,\n"
@@ -61,7 +61,7 @@ msgid ""
 msgstr "--auto_speed           Dans les jeux multijoueurs seulement, ceci ajustera\nla vitesse du jeu automatiquement,\npar rapport au IPS. Utile en conjonction avec\n--ai_training."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
@@ -72,7 +72,7 @@ msgstr " --scenario=FILENAME  Démarre directement la carte FILENAME comme carte
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:130
+#: ../../src/wlapplication_messages.cc:124
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
@@ -80,17 +80,17 @@ msgid ""
 msgstr " --fullscreen=[true|false]\n                      Pour utiliser tout l'écran pour l'écran de jeu."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:134
+#: ../../src/wlapplication_messages.cc:128
 msgid " --xres=[...]         Width of the window in pixel."
 msgstr " --xres=[...]          Largeur de la fenêtre en pixels."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:135
+#: ../../src/wlapplication_messages.cc:129
 msgid " --yres=[...]         Height of the window in pixel."
 msgstr " --yres=[...]          Hauteur de la fenêtre en pixels."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:158
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"
@@ -99,6 +99,6 @@ msgid ""
 msgstr " --panel_snap_distance=[0 ...]\n                      Bouge une fenêtre vers le bord du panneau quand\n                     le bord de la fenêtre entre dans cette distance\n                    du bord du panneau."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:170
+#: ../../src/wlapplication_messages.cc:164
 msgid " --help               Show this help"
 msgstr " --help                Montre cette aide."

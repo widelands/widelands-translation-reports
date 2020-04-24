@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-03-29 17:44+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Gaelic, Scottish "
-"(http://www.transifex.com/widelands/widelands/language/gd/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-15 14:46+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
+"widelands/language/gd/)\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:28
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:40
 msgid ""
 "Widelands is a slow-paced build-up strategy game with an emphasis on "
 "construction rather than destruction. This tutorial will guide you through "
@@ -24,12 +24,7 @@ msgid ""
 msgstr "’S e geama ro-innleachd mhaille a th’ ann an Widelands far am bi d’ aire air togail seach milleadh. Seallaidh an t-oideachadh seo dhut na tha bunasach sa gheama."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:29
-msgid "Dismiss this box by left-clicking on the button below."
-msgstr "’S urrainn dhut am bogsa seo a leigeil seachad le briogadh clì air a’ phutan gu h-ìosal."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:254
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:355
 msgid ""
 "The quarry is a small building like the lumberjack’s hut. You can therefore "
 "build it on any field that shows a red, yellow or green house when the "
@@ -37,49 +32,23 @@ msgid ""
 msgstr "’S e togalach beag a tha sa chuaraidh mar a tha am bothan coillteir. Mar sin, ’s urrainn dhut fear a thogail air raon sam bith a sheallas taigh dearg, buidhe no uaine nuair a bhios na h-ionadan togail ’gan nochdadh (brùth air Space gus an nochdadh)."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:349
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:462
 msgid ""
 "You can connect the new road to any flag of your existing road network. You "
 "can create junctions everywhere, not only in front of buildings."
 msgstr "’S urrainn dhut an rathad ùr a cheangal ri bratach sam bith air lìonra nan rathaidean a th’ agad. ’S urrainn dhut goibhlean a chruthachadh àite sam bith seach air beulaibh thogalaichean a-mhàin."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:379
-msgid "‘Archive selected message’ button to move it into your archive."
-msgstr "a’ phutan “Cuir an teachdaireachd a thagh thu dhan tasglann” gus a gluasad dhan tasglann agad."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:381
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:391
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:533
 msgid ""
 "You can also hold down the Ctrl or Shift key to select multiple messages, or"
 " press Ctrl + A to select them all."
 msgstr "’S urrainn dhut cuideachd an iuchair Ctrl no Shift a chumail sìos gus iomadh teachdaireachd a thaghadh, no brùth air Ctrl + A gus a h-uile gin dhiubh a thaghadh."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:409
-msgid ""
-"All windows in Widelands can be closed by right-clicking into them. Some "
-"windows can also be toggled with the buttons at the very bottom of the "
-"screen."
-msgstr "’S urrainn dhut uinneag sam bith ann an Widelands a dhùnadh ’s tu a’ dèanamh briogadh deas air. Gabhaidh cuid a dh’uinneagan sealltainn is falach leis na putanan aig bonn na sgrìn cuideachd."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:451
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:614
 msgid ""
 "The sentry is the only military site that fits on a small building plot. If "
 "your lumberjack has cleared enough space, you can also build another "
 "military building."
-msgstr "’S e am freiceadan a tha san aon togalach an airm as urrainn dhut togail air raon togail beag. Ma tha an coilltear agad air rum gu leòr a chruthachadh, ’s urrainn dhut togalaichean an airm eile a thogail cuideachd a tha nas motha."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:482
-msgid ""
-"‘Main Menu’ button on the very left at the bottom of the screen. Then click "
-"the"
-msgstr "putan a’ phrìomh clàr-taice taobh clì aig bonn na sgrìn. An uairsin, briog air"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:483
-msgid "‘Exit Game’ button."
-msgstr "a’ phutan “Fàg an geama”."
+msgstr "’S e am freiceadan a tha san aon togalach an airm as urrainn dhut togail air raon togail beag. Ma tha an coilltear agad air rùm gu leòr a chruthachadh, ’s urrainn dhut togalaichean an airm eile a thogail cuideachd a tha nas motha."

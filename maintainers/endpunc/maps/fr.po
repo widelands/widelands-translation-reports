@@ -1,21 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-04-04 08:01+0000\n"
-"Last-Translator: Renaud Bouchard\n"
-"Language-Team: French "
-"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:02+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/campaigns.conf:57
+#. TRANSLATORS: A short description of a campaign
+#: ../../data/campaigns/campaigns.lua:49
+msgid "Introduces the Barbarians."
+msgstr "Présentation des Barbares"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: A long description of a campaign
+#: ../../data/campaigns/campaigns.lua:124
 msgid ""
 "Living off the ocean is a constant struggle, and even more so for the "
 "inhabitants of the Frisian North Sea shore. Was the last storm flood, the "
@@ -26,7 +33,6 @@ msgid ""
 msgstr "Vivre sur les océans est un lutte constante, et encore plus pour les habitants de la rive Nord de Frison. Depuis la dernière tempête, la plus dévastatrice de mémoire d'homme, rien d'autre qu'un autre exemple des épreuves que les Frisons ont à endurer – ou un signe des dieux qu'une tribu s'étant installée ici doive chercher un nouvel abri ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/campaigns.conf:106
 #: ../../data/campaigns/emp04.wmf/elemental:8
 msgid "Surprise, Surprise!"
 msgstr "Surprise, surprise !"

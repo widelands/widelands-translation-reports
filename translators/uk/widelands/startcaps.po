@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-03 08:20+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Ukrainian "
-"(http://www.transifex.com/widelands/widelands/language/uk/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/widelands/widelands/"
+"language/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,15 +15,15 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:96
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:93
 msgid "Jan"
 msgstr "січ"
 
@@ -32,8 +32,8 @@ msgstr "січ"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:102
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:99
 msgid "Feb"
 msgstr "лют"
 
@@ -42,8 +42,8 @@ msgstr "лют"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:108
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:105
 msgid "Mar"
 msgstr "бер"
 
@@ -52,8 +52,8 @@ msgstr "бер"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:114
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:111
 msgid "Apr"
 msgstr "кві"
 
@@ -62,8 +62,8 @@ msgstr "кві"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:120
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:117
 msgid "May"
 msgstr "тра"
 
@@ -72,8 +72,8 @@ msgstr "тра"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:126
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:123
 msgid "Jun"
 msgstr "чер"
 
@@ -82,8 +82,8 @@ msgstr "чер"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:132
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:129
 msgid "Jul"
 msgstr "лип"
 
@@ -92,8 +92,8 @@ msgstr "лип"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:138
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:135
 msgid "Aug"
 msgstr "сер"
 
@@ -102,8 +102,8 @@ msgstr "сер"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:144
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:141
 msgid "Sep"
 msgstr "вер"
 
@@ -112,8 +112,8 @@ msgstr "вер"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:150
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:147
 msgid "Oct"
 msgstr "жов"
 
@@ -122,8 +122,8 @@ msgstr "жов"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:156
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:153
 msgid "Nov"
 msgstr "лис"
 
@@ -132,12 +132,11 @@ msgstr "лис"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:161
+#: ../../src/base/time_string.cc:158
 msgid "Dec"
 msgstr "гру"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayer.cc:94
-#: ../../src/ui_fsmenu/netsetup_lan.cc:119 ../../src/wui/login_box.cc:63
+#: ../../src/ui_fsmenu/netsetup_lan.cc:122 ../../src/wui/login_box.cc:71
 msgid "nobody"
 msgstr "Нікого"

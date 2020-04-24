@@ -1,32 +1,32 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-07-28 07:19+0000\n"
-"PO-Revision-Date: 2018-07-29 14:17+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2019-12-30 08:11+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Gaelic, Scottish "
-"(http://www.transifex.com/widelands/widelands/language/gd/)\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
+"widelands/language/gd/)\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) options: Missing or translated option '--<config-entry-name>'
-#: ../../src/wlapplication_messages.cc:45
+#: ../../src/wlapplication_messages.cc:44
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr "Sgrìobhaidh --<ainm-na-roghainn>=luach thairis air roghainn\nsam bith san fhaidhle config"
 
 # (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
-#: ../../src/wlapplication_messages.cc:135
+#: ../../src/wlapplication_messages.cc:130
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr " --maxfps=[5 ...]          Reat as motha nam frèamaichean lèirsinneach sa gheama."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:139
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -35,7 +35,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                           Gluais uinneag gu oir na sgrìn ma bhios i taobh\n                           a-staigh an astair seo o oir na sgrìn."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

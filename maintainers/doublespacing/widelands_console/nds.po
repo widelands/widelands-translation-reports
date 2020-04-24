@@ -1,32 +1,32 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-18 09:59+0000\n"
-"PO-Revision-Date: 2019-03-22 11:27+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-01-02 17:15+0000\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
-"Language-Team: Low German "
-"(http://www.transifex.com/widelands/widelands/language/nds/)\n"
+"Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
+"language/nds/)\n"
 "Language: nds\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=LISTNAAM   Bruuk deeses Verteeknis för de Widelands-Daten-Dateien"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
-msgstr " --homedir=LISTNAME   Bruuk deeses Verteeknis för de Widelands Instellungen-Dateien, sekerte Speele un Uptekens"
+msgstr " --homedir=LISTNAME   Bruuk deeses Verteeknis för de Widelands Instellens-Dateien, sekerte Speele un Uptekens"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
@@ -38,14 +38,14 @@ msgstr " --homedir=LISTNAME   Bruuk deeses Verteeknis för de Widelands Instellu
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:74
+#: ../../src/wlapplication_messages.cc:73
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr " --write_syncstreams=[jau|nee]\n                      Schriev Sync-Stream-Dateien för Internett-Spelen,\n                      um Verschievens unnersöken to könen"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:104
+#: ../../src/wlapplication_messages.cc:99
 msgid ""
 " --auto_speed         In multiplayer games only, this will keep\n"
 "                      adjusting the game speed automatically,\n"
@@ -54,30 +54,30 @@ msgid ""
 msgstr " --auto_speed         Sett de Gauheid vum Speel in Spelen över 't\n                      Internett so, dat 't good tur FPS-Tahl passt.\n                      Bruuk dat blot mit --ai_training."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=DATEINAAM Stracks de Kaart DATEINAAM as Rutfödderung starten."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:112
+#: ../../src/wlapplication_messages.cc:107
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=DATEINAAM Stracks dat sekerte Speel DATEINAAM laden."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:113
+#: ../../src/wlapplication_messages.cc:108
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
-msgstr " --script=DATEINAAM   Bruukt dat angeven Lua-Skript na de Begünn.\n                      Verloovt blot mit --scenario, --loadgame oder --editor."
+msgstr " --script=DATEINAAM   Bruukt dat angeven Lua-Skript na de Begünn.\n                      Verloovt blot mit --scenario, --loadgame of --editor."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:130
+#: ../../src/wlapplication_messages.cc:124
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
@@ -85,6 +85,6 @@ msgid ""
 msgstr " --fullscreen=[jau|nee]\n                      Of de hele Billschirm bruukt worden sall."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:135
+#: ../../src/wlapplication_messages.cc:129
 msgid " --yres=[...]         Height of the window in pixel."
 msgstr " --yres=[...] Fenster-Höcht in Bildtüttels."

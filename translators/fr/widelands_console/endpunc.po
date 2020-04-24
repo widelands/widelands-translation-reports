@@ -1,38 +1,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-04-02 09:36+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-16 11:37+0000\n"
 "Last-Translator: Renaud Bouchard\n"
-"Language-Team: French "
-"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:44
+#: ../../src/wlapplication_messages.cc:43
 msgid "Options:"
 msgstr "Options :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:45
+#: ../../src/wlapplication_messages.cc:44
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<config-entry-name>=valeur Ré-écris tous les paramètres des fichiers de configuration."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAME    Utilise le dossier spécifié pour les données\nde Widelands."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
@@ -43,7 +43,7 @@ msgstr " --homedir=DIRNAME    Utilise le dossier spécifié pour la sauvegarde d
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:61
+#: ../../src/wlapplication_messages.cc:60
 msgid ""
 " --coredump=[true|false]\n"
 "                      Generates a core dump on segfaults instead of\n"
@@ -51,24 +51,19 @@ msgid ""
 msgstr " --coredump=[true|false]\n                      Génère un dump du noyau au\n                      lieu d'utiliser SDL."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:77
+#: ../../src/wlapplication_messages.cc:76
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr " --autosave=[...]      Sauvegarde automatique toutes les n minutes."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:78
+#: ../../src/wlapplication_messages.cc:77
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr " --rolling_autosave=[...]\n                      Utilise ce nombre de fichiers pour le roulement de sauvegardes automatiques."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:89
-msgid "Sound options:"
-msgstr "Options sonores :"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:125
+#: ../../src/wlapplication_messages.cc:120
 msgid "Graphic options:"
 msgstr "Options graphiques :"
 
@@ -77,25 +72,25 @@ msgstr "Options graphiques :"
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:141
+#: ../../src/wlapplication_messages.cc:135
 msgid "Options for the internal window manager:"
 msgstr "Options pour le gestionnaire de fenêtre interne :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:169
+#: ../../src/wlapplication_messages.cc:163
 msgid " --verbose            Enable verbose debug messages"
 msgstr " --verbose            Active les messages verbeux de debogage."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:170
+#: ../../src/wlapplication_messages.cc:164
 msgid " --help               Show this help"
 msgstr " --help                Montre cette aide."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:171
+#: ../../src/wlapplication_messages.cc:165
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
-"        https://wl.widelands.org/\n"
+"        https://www.widelands.org/\n"
 "\n"
 "Hope you enjoy this game!"
 msgstr "Rapports de bogues ? Suggestions ? Visitez le site web du projet :\n         https://wl.widelands.org/\n\nNous espérons que vous appréciez ce jeu !"

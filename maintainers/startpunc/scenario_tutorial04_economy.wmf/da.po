@@ -1,28 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-14 06:11+0000\n"
-"PO-Revision-Date: 2018-09-14 06:13+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Danish "
-"(http://www.transifex.com/widelands/widelands/language/da/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-12 17:33+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Danish (http://www.transifex.com/widelands/widelands/language/"
+"da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:76
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:85
 msgid ""
 "‘2/1’ below the quarry: This means that you have two quarries, plus another "
 "one which is under construction."
 msgstr "»2/1« under stenbruddet: Dette betyder, at du har to stenbrud samt endnu et, som er under konstruktion."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:77
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:86
 msgid ""
 "‘0%’: This indicates the average productivity of all buildings of that type."
 " You have just started this game, therefore none of your buildings has done "
@@ -30,7 +30,7 @@ msgid ""
 msgstr "»0%«: Dette indikerer den gennemsnitlige produktivitet for alle bygninger af den slags. Du har netop startet dette spil, derfor har ingen af dine bygninger udføret noget arbejde endnu, men de vil snart begynde arbejdet."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:78
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:87
 msgid ""
 "‘2/4’ below your sentry: For military buildings, the stationed soldiers are "
 "shown instead of a productivity. You want to have four soldiers in your "
@@ -39,12 +39,7 @@ msgid ""
 msgstr "»2/4« under dit vagttårn: For militære bygninger, de stationerede soldater vises i stedet for en produktion. Du skal have fire soldater i dine vagttårne, men kun to soldater er stationeret i denne slags bygning. Dette efterlader to ledige positioner - vi har brug for flere soldater."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:290
-msgid "‘Ware statistics’ button."
-msgstr "Knap for »varestatistik«."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/format_scenario.lua:12
+#: ../../data/scripting/richtext_scenarios.lua:36
 #, lua-format
 msgid "“%s”"
 msgstr "»%s«"

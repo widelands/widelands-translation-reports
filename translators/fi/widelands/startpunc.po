@@ -1,29 +1,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-03-30 17:03+0000\n"
-"Last-Translator: Jukka Pakarinen\n"
-"Language-Team: Finnish "
-"(http://www.transifex.com/widelands/widelands/language/fi/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
+"language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/format_scenario.lua:12
 #: ../../data/scripting/richtext_scenarios.lua:36
 #, lua-format
 msgid "“%s”"
 msgstr "\"%s\""
 
 # (pofilter) startpunc: Different punctuation at the start
-#. * TRANSLATORS: "Completed working because the economy needs the ware ‘%s’"
-#: ../../src/logic/map_objects/tribes/production_program.cc:549
+#. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
+#: ../../src/logic/map_objects/tribes/production_program.cc:506
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s valmistui, koska %2$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
+#. description of the
+#. * training program, e.g. Completed upgrading soldier evade from level 0 to
+#. level 1
+#: ../../src/logic/map_objects/tribes/production_program.cc:1194
+#, c-format
+msgid "Completed %s"
+msgstr "%svalmis"

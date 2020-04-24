@@ -1,28 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-05-05 17:07+0000\n"
-"PO-Revision-Date: 2018-05-05 17:10+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2019-12-30 08:11+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Dutch "
-"(http://www.transifex.com/widelands/widelands/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
+"nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAAM Gebruik gespecificeerde directory voor Widelands\n                      databestanden"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
@@ -33,7 +33,7 @@ msgstr " --homedir=DIRNAAM Gebruik gespecificeerde directory voor Widelands \n  
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:61
+#: ../../src/wlapplication_messages.cc:60
 msgid ""
 " --coredump=[true|false]\n"
 "                      Generates a core dump on segfaults instead of\n"
@@ -50,41 +50,31 @@ msgstr " --coredump=[true|false]\nMake een 'coredump' op segmentatiefouten \nin 
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:74
+#: ../../src/wlapplication_messages.cc:73
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr " --write_syncstreams=[true|false]\nMaak syncstream bestanden om netwerkspellen te helpen debuggen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:78
+#: ../../src/wlapplication_messages.cc:77
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr " --rolling_autosave=[...]\nGebruik n bestanden voor doorlopend \nautomatisch opslaan"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:90
+#: ../../src/wlapplication_messages.cc:87
 msgid " --nosound            Starts the game with sound disabled."
 msgstr " --nosound Start het spel zonder geluid."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:91
-msgid " --disable_fx         Disable sound effects."
-msgstr " --disable_fx Schakel geluidseffecten uit."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:92
-msgid " --disable_music      Disable music."
-msgstr " --disable_music Schakel muziek uit."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:94
+#: ../../src/wlapplication_messages.cc:89
 msgid " --nozip              Do not save files as binary zip archives."
 msgstr " --nozip Sla bestanden niet op als binaire zip archieven."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:96
+#: ../../src/wlapplication_messages.cc:91
 msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"
@@ -92,12 +82,12 @@ msgid ""
 msgstr " --editor Start meteen de Widelands editor.\n                      Je kunt =BESTANDNAAM toevoegen om direct\n                      de kaart BESTANDNAAM in de editor te laden."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:112
+#: ../../src/wlapplication_messages.cc:107
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=BESTANDNAAM Laad meteen het opgeslagen spel BESTANDNAAM."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:113
+#: ../../src/wlapplication_messages.cc:108
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
@@ -108,7 +98,7 @@ msgstr " --script=BESTANDSNAAM Start het opgegeven script na initialisatie.\n   
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:119
+#: ../../src/wlapplication_messages.cc:114
 msgid ""
 " --auto_roadbuild_mode=[true|false]\n"
 "                      Whether to enter roadbuilding mode\n"
@@ -121,7 +111,7 @@ msgstr " --auto_roadbuild_mode=[true|false]\nGa automatisch naar de wegenbouwers
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:129
+#: ../../src/wlapplication_messages.cc:124
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
@@ -133,7 +123,7 @@ msgstr " --fullscreen=[true|false]\nGebruik het volledige scherm"
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:152
+#: ../../src/wlapplication_messages.cc:147
 msgid ""
 " --dock_windows_to_edges=[true|false]\n"
 "                      Eliminate a window's border towards the\n"
@@ -142,6 +132,6 @@ msgid ""
 msgstr " --dock_windows_to_edges=[true|false]\nElimineer de rand van het venster aan de \nrand van het scherm, indien de rand van \nhet venster aan het rand van het scherm bevind."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:169
+#: ../../src/wlapplication_messages.cc:164
 msgid " --help               Show this help"
 msgstr " --help Toon deze hulp"

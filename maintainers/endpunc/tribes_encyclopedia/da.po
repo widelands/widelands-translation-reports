@@ -1,18 +1,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-02-03 08:14+0000\n"
-"PO-Revision-Date: 2019-02-03 08:20+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-29 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Danish "
-"(http://www.transifex.com/widelands/widelands/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/widelands/widelands/language/"
+"da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/weaving_mill/helptexts.lua:17
+msgctxt "barbarians_building"
+msgid "Weaves cloth out of reed."
+msgstr "Væver klæde ud af strå"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
@@ -24,6 +31,30 @@ msgid ""
 msgstr "»Oh hvor sødmefuld er livets kilde ikke,<br>som kommer ned fra himlen<br>og lader jorden drikke«."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/wood_hardener/helptexts.lua:12
+msgctxt "barbarians_building"
+msgid ""
+"Legend about a quarrel between the brothers Harthor and Manthor,<br>Manthor "
+"is said to be the inventor of blackwood"
+msgstr "Legende om en skænderi mellem brødrene Harthor og Manthor,<br>Manthor siges at være opfinderen af hårdt træ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/farm/helptexts.lua:16
+msgctxt "building"
+msgid "Sows and harvests barley."
+msgstr "Sår og høster byg"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/reindeer_farm/helptexts.lua:11
+msgctxt "frisians_building"
+msgid ""
+"The reindeer breeder who first proposed using reindeer fur for clothing"
+msgstr "Rensdyravleren der først foreslog at bruge rensdyrets pels til beklædning."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
 #: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/helptexts.lua:3
 msgctxt "barbarians_building"
@@ -31,3 +62,24 @@ msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
 "suffered – in the past and for all future.’"
 msgstr "»Den som er stærk skal aldrig tilgive eller glemme, men hævne uretfærdighed - i fortiden og for al fremtid«."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Fire Tongs
+#: ../../data/tribes/wares/fire_tongs/helptexts.lua:6
+msgctxt "atlanteans_ware_fire_tongs"
+msgid "They are used in the smelting works and produced by the toolsmith."
+msgstr "De bruges i smelteværkerne og fremstilles af værktøjsmageren"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Fishing Net
+#: ../../data/tribes/wares/fishing_net/helptexts.lua:6
+msgctxt "frisians_ware"
+msgid "Fishing nets are the tool used by fishers."
+msgstr "Fiskenet er værktøjet brugt af fiskere"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Hunting Spear
+#: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Jagtspyd fremstilles i smedjen."

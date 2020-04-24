@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-03 08:20+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Polish "
-"(http://www.transifex.com/widelands/widelands/language/pl/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
+"pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,66 +14,90 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
 "12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
 " (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:615
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+#: ../../src/editor/editorinteractive.cc:958
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
 msgid "Creating empty map…"
 msgstr "Tworzenie pustej mapy..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:184
 #, c-format
 msgid "Current: %s …"
 msgstr "Bieżące: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:142
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:175
 msgid "Main Options"
 msgstr "Główne opcje:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
 msgid "Generating random map…"
 msgstr "Generowanie losowej mapy..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/player_menu.cc:183
-#: ../../src/wui/multiplayersetupgroup.cc:461
+#: ../../src/editor/ui_menus/player_menu.cc:184
+#: ../../src/wui/multiplayersetupgroup.cc:481
 msgid "The tribe will be selected at random"
 msgstr "Plemię zostanie wybrane losowo."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
+#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
 msgid "Loading map…"
 msgstr "Wczytywanie mapy..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
+#: ../../src/logic/game.cc:321
+msgid "Initializing game…"
+msgstr "Inicjalizuję grę..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
+#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
 msgid "Loading…"
 msgstr "Wczytywanie..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
-msgid "Saving game…"
-msgstr "Zapisywanie gry..."
+#: ../../src/logic/generic_save_handler.cc:245
+#, c-format
+msgid "Directory ‘%s’ could not be created!"
+msgstr "Nie można było utworzyć katalogu “%s”."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:465
+#: ../../src/logic/generic_save_handler.cc:249
+#, c-format
+msgid "File ‘%s’ could not be removed!"
+msgstr "Nie można było usunąć pliku “%s”."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:272
+#, c-format
+msgid "File ‘%s’ could not be restored!"
+msgstr "Nie dało się przywrócić pliku “%s”."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:274
+#, c-format
+msgid "Backup file ‘%s’ will be available for some time."
+msgstr "Plik kopii bezpieczeństwa “%s” będzie dostępny przez jakiś czas"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:520
 #, c-format
 msgid "Invalid chat message type \"%s\"."
 msgstr "Błędny typ wiadomości na czacie \"%s\""
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/intro.cc:31
+#: ../../src/ui_fsmenu/intro.cc:33
 msgid "Press any key or click to continue…"
 msgstr "Naciśnij dowolny klawisz lub kliknij, aby kontynuować..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#: ../../src/ui_fsmenu/launch_mpg.cc:361 ../../src/ui_fsmenu/launch_spg.cc:196
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -83,13 +107,13 @@ msgstr "Widelands próbowało rozpocząć grę z plikiem, którego nie znalezion
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:287
+#: ../../src/ui_fsmenu/options.cc:288
 msgid "Off"
 msgstr "Wył."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: day(s). Keep this as short as possible. Used in statistics.
-#: ../../src/wui/plot_area.cc:112
+#: ../../src/wui/plot_area.cc:105
 msgctxt "unit_narrow"
 msgid "%1%d"
 msgid_plural "%1%d"
@@ -100,7 +124,7 @@ msgstr[3] "%1% dni"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: hour(s). Keep this as short as possible. Used in statistics.
-#: ../../src/wui/plot_area.cc:115
+#: ../../src/wui/plot_area.cc:108
 msgctxt "unit_narrow"
 msgid "%1%h"
 msgid_plural "%1%h"
@@ -112,7 +136,7 @@ msgstr[3] "%1% godz."
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: minute(s). Keep this as short as possible. Used in
 #. statistics.
-#: ../../src/wui/plot_area.cc:118
+#: ../../src/wui/plot_area.cc:111
 msgctxt "unit_narrow"
 msgid "%1%m"
 msgid_plural "%1%m"
@@ -122,6 +146,12 @@ msgstr[2] "%1% min."
 msgstr[3] "%1% min."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:101
+#: ../../src/wui/productionsitewindow.cc:106
 msgid "Exp"
 msgstr "Dośw."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip in the ship statistics window
+#: ../../src/wui/seafaring_statistics_menu.cc:553
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "Pokaż ekspedycje, które znalazły miejsce na postawienie portu lub zakładają kolonię."

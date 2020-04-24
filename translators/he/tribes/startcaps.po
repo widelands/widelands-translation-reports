@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-07-28 07:19+0000\n"
-"PO-Revision-Date: 2018-07-28 07:23+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-29 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Hebrew "
-"(http://www.transifex.com/widelands/widelands/language/he/)\n"
+"Language-Team: Hebrew (http://www.transifex.com/widelands/widelands/language/"
+"he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a building name used in lists of buildings
@@ -137,7 +137,7 @@ msgstr "אתר בנייה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a building name used in lists of buildings
-#: ../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:94
+#: ../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:106
 msgctxt "atlanteans_building"
 msgid "Armor Smithy"
 msgstr "בית מלאכת נשק"
@@ -579,7 +579,7 @@ msgstr "מפקדה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a building name used in lists of buildings
-#: ../../data/tribes/buildings/warehouses/barbarians/warehouse/init.lua:7
+#: ../../data/tribes/buildings/warehouses/barbarians/warehouse/init.lua:11
 msgctxt "barbarians_building"
 msgid "Warehouse"
 msgstr "מחסן"
@@ -607,35 +607,35 @@ msgstr "אפר"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an immovable name used in lists of immovables
-#: ../../data/tribes/immovables/cornfield_harvested/init.lua:7
+#: ../../data/tribes/immovables/cornfield/harvested/init.lua:7
 msgctxt "immovable"
 msgid "Cornfield (harvested)"
 msgstr "שדה תירס"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an immovable name used in lists of immovables
-#: ../../data/tribes/immovables/cornfield_medium/init.lua:7
+#: ../../data/tribes/immovables/cornfield/medium/init.lua:7
 msgctxt "immovable"
 msgid "Cornfield (medium)"
 msgstr "שדה תירס"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an immovable name used in lists of immovables
-#: ../../data/tribes/immovables/cornfield_ripe/init.lua:7
+#: ../../data/tribes/immovables/cornfield/ripe/init.lua:7
 msgctxt "immovable"
 msgid "Cornfield (ripe)"
 msgstr "שדה תירס"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an immovable name used in lists of immovables
-#: ../../data/tribes/immovables/cornfield_small/init.lua:7
+#: ../../data/tribes/immovables/cornfield/small/init.lua:7
 msgctxt "immovable"
 msgid "Cornfield (small)"
 msgstr "שדה תירס"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an immovable name used in lists of immovables
-#: ../../data/tribes/immovables/cornfield_tiny/init.lua:7
+#: ../../data/tribes/immovables/cornfield/tiny/init.lua:7
 msgctxt "immovable"
 msgid "Cornfield (tiny)"
 msgstr "שדה תירס"
@@ -911,7 +911,7 @@ msgstr "בנאי"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/atlanteans/carrier/init.lua:49
+#: ../../data/tribes/workers/atlanteans/carrier/init.lua:36
 msgctxt "atlanteans_worker"
 msgid "Carrier"
 msgstr "סבל"
@@ -1037,126 +1037,126 @@ msgstr "אורג"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/baker/init.lua:17
+#: ../../data/tribes/workers/barbarians/baker/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Baker"
 msgstr "אופה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/blacksmith/init.lua:17
+#: ../../data/tribes/workers/barbarians/blacksmith/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Blacksmith"
 msgstr "נפח"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/blacksmith_master/init.lua:17
+#: ../../data/tribes/workers/barbarians/blacksmith_master/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Master Blacksmith"
 msgstr "נפח"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/brewer/init.lua:17
+#: ../../data/tribes/workers/barbarians/brewer/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Brewer"
 msgstr "מבשל"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/brewer_master/init.lua:17
+#: ../../data/tribes/workers/barbarians/brewer_master/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Master Brewer"
 msgstr "מבשל"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/builder/init.lua:27
+#: ../../data/tribes/workers/barbarians/builder/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Builder"
 msgstr "בנאי"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/carrier/init.lua:18
+#: ../../data/tribes/workers/barbarians/carrier/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Carrier"
 msgstr "סבל"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/charcoal_burner/init.lua:17
+#: ../../data/tribes/workers/barbarians/charcoal_burner/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Charcoal Burner"
 msgstr "שורף"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/farmer/init.lua:32
+#: ../../data/tribes/workers/barbarians/farmer/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Farmer"
 msgstr "חואי"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/fisher/init.lua:22
+#: ../../data/tribes/workers/barbarians/fisher/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Fisher"
 msgstr "דיג"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/gamekeeper/init.lua:27
+#: ../../data/tribes/workers/barbarians/gamekeeper/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Gamekeeper"
 msgstr "מפקח ציד"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/geologist/init.lua:23
+#: ../../data/tribes/workers/barbarians/geologist/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Geologist"
 msgstr "גאולוג"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/helmsmith/init.lua:17
+#: ../../data/tribes/workers/barbarians/helmsmith/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Helmsmith"
 msgstr "נפח"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/hunter/init.lua:18
+#: ../../data/tribes/workers/barbarians/hunter/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Hunter"
 msgstr "ציד"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/innkeeper/init.lua:17
+#: ../../data/tribes/workers/barbarians/innkeeper/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Innkeeper"
 msgstr "בעל הפונדק"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/lumberjack/init.lua:23
+#: ../../data/tribes/workers/barbarians/lumberjack/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Lumberjack"
 msgstr "כורת עצים"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/miner/init.lua:17
+#: ../../data/tribes/workers/barbarians/miner/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Miner"
 msgstr "כורה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/miner_chief/init.lua:17
+#: ../../data/tribes/workers/barbarians/miner_chief/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Chief Miner"
 msgstr "כורה"
@@ -1170,35 +1170,35 @@ msgstr "שור"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/ranger/init.lua:32
+#: ../../data/tribes/workers/barbarians/ranger/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Ranger"
 msgstr "שומר-יערות"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/scout/init.lua:17
+#: ../../data/tribes/workers/barbarians/scout/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Scout"
 msgstr "צופה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/smelter/init.lua:17
+#: ../../data/tribes/workers/barbarians/smelter/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Smelter"
 msgstr "מכונן"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/trainer/init.lua:16
+#: ../../data/tribes/workers/barbarians/trainer/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Trainer"
 msgstr "מאמן"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/barbarians/weaver/init.lua:17
+#: ../../data/tribes/workers/barbarians/weaver/init.lua:7
 msgctxt "barbarians_worker"
 msgid "Weaver"
 msgstr "אורג"
@@ -1233,7 +1233,7 @@ msgstr "בנאי"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a worker name used in lists of workers
-#: ../../data/tribes/workers/empire/carrier/init.lua:18
+#: ../../data/tribes/workers/empire/carrier/init.lua:13
 msgctxt "empire_worker"
 msgid "Carrier"
 msgstr "סבל"

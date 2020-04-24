@@ -1,57 +1,57 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-22 18:47+0000\n"
-"PO-Revision-Date: 2019-03-23 12:33+0000\n"
-"Last-Translator: Jonatan Nyberg\n"
-"Language-Team: Swedish "
-"(http://www.transifex.com/widelands/widelands/language/sv/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
+"language/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:615
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+#: ../../src/editor/editorinteractive.cc:958
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
 msgid "Creating empty map…"
 msgstr "Skapar tom karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
 msgid "Generating random map…"
 msgstr "Genererar slumpmässig karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease terrain "
 "height"
 msgstr "Klicka på kartan för att öka, 'shift' + klicka på kartan för att minska terränghöjden."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
+#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
 msgid "Loading map…"
-msgstr "Laddar karta..."
+msgstr "Läser in karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:354 ../../src/logic/game.cc:393
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
+#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
+#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
 msgid "Loading…"
-msgstr "Laddar..."
+msgstr "Läser in..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:605
+#: ../../src/logic/map_objects/tribes/ship.cc:618
 msgid "Land Ahoy!"
 msgstr "Land i sikte"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:117
+#: ../../src/logic/map_objects/tribes/worker.cc:114
 #, c-format
 msgid ""
 "should mine resource %s, which does not exist in world; tribe is not "
@@ -59,7 +59,7 @@ msgid ""
 msgstr "skulle bryta resurs %s, vilken inte finns på denna karta; stammen är inte kompatibel med denna karta."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:220
+#: ../../src/logic/map_objects/tribes/worker.cc:217
 #, c-format
 msgid ""
 "should breed resource type %s, which does not exist in world; tribe is not "
@@ -67,44 +67,34 @@ msgid ""
 msgstr "skulle föda upp resurs %s, vilken inte finns på denna karta; stammen är inte kompatibel med denna karta."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:38
+#: ../../src/logic/objective.h:34
 msgid "This objective has no description."
 msgstr "Detta objektiv har ingen beskrivning"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
-msgid "Saving game…"
-msgstr "Sparar spel..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:719
+#: ../../src/network/gameclient.cc:797
 msgid "/me 's file failed md5 checksumming."
 msgstr "/me s fil md5-kontrollsumma  underkändes"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:759
+#: ../../src/network/gameclient.cc:839
 msgid ""
 "/me checked the received file. Although md5 check summing succeeded, I can "
 "not handle the file."
 msgstr "/me kontrollerade mottagen fil. Trots att md5s kontrollsumma lyckades kan inte filen hanteras.."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:141
+#: ../../src/network/network_gaming_messages.cc:145
 msgid "Server uses a different protocol version"
 msgstr "Servern använder en annan protokollversion."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/campaign_select.cc:278
-msgid "Choose a scenario"
-msgstr "Välj ett scenario:"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/intro.cc:31
+#: ../../src/ui_fsmenu/intro.cc:33
 msgid "Press any key or click to continue…"
 msgstr "Tryck valfri tangent eller klicka för att fortsätta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:348 ../../src/ui_fsmenu/launch_spg.cc:178
+#: ../../src/ui_fsmenu/launch_mpg.cc:361 ../../src/ui_fsmenu/launch_spg.cc:196
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -113,16 +103,11 @@ msgid ""
 msgstr "Widelands försökte starta ett spel med en fil som inte kunde hittas vid angiven sökväg.\nFilen var: %s\nOm detta händer i ett nätverksspel kan värden ha valt en fil som du inte äger. Normalt ska en sådan fil skickas från värden till dig men kanske har överföringen fortfarande inte slutförts?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/inputqueuedisplay.cc:246
-msgid "Decrease the number of wares you want to be stored here."
-msgstr "Minska antalet varor du vill lagra här"
+#: ../../src/ui_fsmenu/scenario_select.cc:53
+msgid "Choose a scenario"
+msgstr "Välj ett scenario:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/inputqueuedisplay.cc:254
-msgid "Increase the number of wares you want to be stored here."
-msgstr "Öka antalet varor du vill lagra här"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/login_box.cc:87
+#: ../../src/wui/login_box.cc:172
 msgid "Please enter your password!"
 msgstr "Vänligen ange lösenord"

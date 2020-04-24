@@ -1,46 +1,46 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-03 08:20+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Arabic "
-"(http://www.transifex.com/widelands/widelands/language/ar/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Arabic (http://www.transifex.com/widelands/widelands/language/"
+"ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:233
+#: ../../src/editor/editorinteractive.cc:512
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "هذه الخريطه لم تُحفظ بعد ، اترغب حقاً بالخروج؟"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:615
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+#: ../../src/editor/editorinteractive.cc:958
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
 msgid "Creating empty map…"
 msgstr "ينشئ خريطة فارغة..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:630
+#: ../../src/editor/editorinteractive.cc:972
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "يُحمل خريطة \"%s\"..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:184
 #, c-format
 msgid "Current: %s …"
 msgstr "الحالي: %s..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
 msgid "Generating random map…"
 msgstr "يولد خريطة عشوائية..."
 
@@ -51,7 +51,7 @@ msgstr "يولد خريطة عشوائية..."
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:576
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:527
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -59,15 +59,15 @@ msgid ""
 msgstr "الخريطة تم إنشائها. من فضلك تحقق مجدداً من أماكن بدء اللاعبين لكي تتأكد من أنها ليس موضوعة جيداً، أو محجوزة في جزيرة أو في أعلي جبل ما.."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:295
-#: ../../src/wui/game_main_menu_save_game.cc:226
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
+#: ../../src/wui/game_main_menu_save_game.cc:234
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "ملف بأسم \"%s\" موجود مسبقاً. إستبدال؟"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease terrain "
 "height"
@@ -75,64 +75,59 @@ msgstr "إضغط علي الخريطة للزيادة، Shift + إضغط لكي 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change rseources access keys. *
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:81
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:74
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease the "
 "amount of the selected resource"
 msgstr "إضغط علي الخريطة للزيادة، Shift + إضغط لكي تُخفض كمية الموارد المحددة."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
+#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
 msgid "Loading map…"
 msgstr "يُحمل خريطة..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
+#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
+#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
 msgid "Loading…"
 msgstr "يُحمل..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
-msgid "Saving game…"
-msgstr "يحفظ اللعبة..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:175
-#: ../../src/wui/game_main_menu_save_game.cc:268
+#: ../../src/logic/save_handler.cc:173
+#: ../../src/wui/game_main_menu_save_game.cc:281
 msgid "Saving failed!"
 msgstr "فشل الحفظ"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:319
+#: ../../src/network/gamehost.cc:335
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "هل أنت واثق من طرد %s؟"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:49
+#: ../../src/network/internet_gaming_messages.cc:51
 msgid ""
 "You got disconnected, as you sent a superuser command without superuser "
 "permission. This incident will be logged and reported to the administrator."
 msgstr "لقد فُصلت عن الخادم ، فلقد ادخلت احد اوامر المستخدم الجذر فى حين انك لا تملك تصاريح الجذر. سيتم تسجيل هذه الحادثه وإبلاغها للمشرف"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:121
+#: ../../src/network/network_gaming_messages.cc:125
 msgid "Connection was lost."
 msgstr "فُقِدَ اﻹتصال"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:173
+#: ../../src/wui/actionconfirm.cc:186
 msgid "Destroy building?"
 msgstr "تدمير المبنى؟"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:218
+#: ../../src/wui/actionconfirm.cc:244
 msgid "Dismantle building?"
 msgstr "تفكيك المبنى؟"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:311
+#: ../../src/wui/actionconfirm.cc:360
 msgid "Sink the ship?"
 msgstr "إغراق السفينه؟"
 
@@ -142,11 +137,6 @@ msgid "Are you sure you wish to exit this game?"
 msgstr "هل تود أن تخرج من اللعبة؟"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/login_box.cc:46
-msgid "Automatically use this login information from now on."
-msgstr "إستخدم نفس بيانات الولوج هذه من الان فصاعداً"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/playerdescrgroup.cc:170
+#: ../../src/wui/playerdescrgroup.cc:167
 msgid "The tribe will be set at random."
 msgstr "القبيلة سوف تحدد عشوائياً"

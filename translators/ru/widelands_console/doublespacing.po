@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-17 09:23+0000\n"
-"PO-Revision-Date: 2018-09-25 13:16+0000\n"
-"Last-Translator: Anton Khabarov <2233009@gmail.com>\n"
-"Language-Team: Russian "
-"(http://www.transifex.com/widelands/widelands/language/ru/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-01-07 08:53+0000\n"
+"Last-Translator: Viktor S <awsswa59@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
+"language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,27 +14,27 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:46
+#: ../../src/wlapplication_messages.cc:45
 msgid "                      Note: New value will be written to config file"
 msgstr "Примечание: Новое значение будет записано в файл конфигурации"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:78
+#: ../../src/wlapplication_messages.cc:77
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr "--rolling_autosave=[...]\nИспользовать это множество файлов для перезаписи по кругу"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:94
+#: ../../src/wlapplication_messages.cc:89
 msgid " --nozip              Do not save files as binary zip archives."
 msgstr " --nozip Не упаковывать файлы сохранений в zip-архивы."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:96
+#: ../../src/wlapplication_messages.cc:91
 msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"
@@ -42,22 +42,22 @@ msgid ""
 msgstr "--editor Запускает редактор.\nЕсли добавить =FILENAME можно напрямую загрузить в редактор карту FILENAME."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:100
+#: ../../src/wlapplication_messages.cc:95
 msgid ""
 " --ai_training        Enables AI training mode. See\n"
-"                      https://wl.widelands.org/wiki/Ai%20Training/\n"
+"                      https://www.widelands.org/wiki/Ai%20Training/\n"
 "                      for a full description of the AI training logic."
 msgstr " --ai_training        Включает режим обучения ИИ. Смотрите\n                      https://wl.widelands.org/wiki/Ai%20Training/\n                      для получения подробной информации о логике  обучения ИИ."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=FILENAME  Запускает карту FILENAME в качестве карты\nсценария."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:113
+#: ../../src/wlapplication_messages.cc:108
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
@@ -68,7 +68,7 @@ msgstr " --script=FILENAME    Запускает данный Lua-скрипт �
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:119
+#: ../../src/wlapplication_messages.cc:114
 msgid ""
 " --auto_roadbuild_mode=[true|false]\n"
 "                      Whether to enter roadbuilding mode\n"
@@ -81,7 +81,7 @@ msgstr " --auto_roadbuild_mode=[true|false]\nИспользуется для в�
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:129
+#: ../../src/wlapplication_messages.cc:124
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
@@ -89,7 +89,7 @@ msgid ""
 msgstr " --fullscreen=[true|false]\nИспользуется для того чтобы запустить игровое окно\nво весь экран."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:139
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -102,7 +102,7 @@ msgstr " --border_snap_distance=[0 ...]\nПрилепить окно к краю
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:152
+#: ../../src/wlapplication_messages.cc:147
 msgid ""
 " --dock_windows_to_edges=[true|false]\n"
 "                      Eliminate a window's border towards the\n"
@@ -111,7 +111,7 @@ msgid ""
 msgstr " --dock_windows_to_edges=[true|false]\nУбирает границу окна обращенную\nк краю экрана, когда край окна\nнаходится рядом с краем экрана."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"
@@ -120,7 +120,7 @@ msgid ""
 msgstr " --panel_snap_distance=[0 ...]\nПеремещает окно к краю панели,\nкогда край окна оказывается на\nуказанном расстоянии от края панели."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:162
+#: ../../src/wlapplication_messages.cc:157
 msgid ""
 " --snap_windows_only_when_overlapping=[yes|no]\n"
 "                      Only move a window to the edge of a panel\n"
@@ -129,10 +129,10 @@ msgid ""
 msgstr " --snap_windows_only_when_overlapping=[yes|no]\nПеремещает окно к краю панели,\nтолько если окно перекрывает панель."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:170
+#: ../../src/wlapplication_messages.cc:165
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
-"        https://wl.widelands.org/\n"
+"        https://www.widelands.org/\n"
 "\n"
 "Hope you enjoy this game!"
 msgstr "Сообщения об ошибках? Предложения? Зайдите на веб-сайт проекта:\n https://wl.widelands.org/\n\nНадеюсь, вам понравится эта игра!"

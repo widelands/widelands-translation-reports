@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-03 08:20+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Esperanto "
-"(http://www.transifex.com/widelands/widelands/language/eo/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Esperanto (http://www.transifex.com/widelands/widelands/"
+"language/eo/)\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:167
+#: ../../src/editor/editorinteractive.cc:451
 #, c-format
 msgid ""
 "Widelands could not load the file \"%s\". The file format seems to be "
@@ -23,48 +23,44 @@ msgid ""
 msgstr "Widelands ne povis ŝargi la dosieron \"%s\". La formato ŝajnas esti nekongrua"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:615
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+#: ../../src/editor/editorinteractive.cc:958
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
 msgid "Creating empty map…"
 msgstr "Kreanta mapon malplenan"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:189
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:184
 #, c-format
 msgid "Current: %s …"
 msgstr "Nuna: %s…"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:195
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:165
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:190
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:158
 #, c-format
 msgid "Current: %s"
 msgstr "Nuna: %s…"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1280
+#: ../../src/logic/map_objects/tribes/production_program.cc:1085
 msgid "No soldier to train!"
 msgstr "Neniom da soldatoj"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:38
+#: ../../src/logic/objective.h:34
 msgid "This objective has no description."
 msgstr "Tiu celo ne havas priskribon"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
-msgid "Saving game…"
-msgstr "Konservanta ludon..."
-
-# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:268
+#: ../../src/network/gamehost.cc:282
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Eldevigas lud-paŭzon"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/load_or_save_game.cc:95
+#: ../../src/wui/savegametable.cc:125 ../../src/wui/savegametable.cc:153
+#: ../../src/wui/savegametable.cc:218
 msgid "Save Date"
 msgstr "Konservi daton."

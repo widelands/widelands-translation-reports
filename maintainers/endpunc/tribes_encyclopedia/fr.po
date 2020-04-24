@@ -1,18 +1,48 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-04-04 13:38+0000\n"
-"Last-Translator: Renaud Bouchard\n"
-"Language-Team: French "
-"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/militarysites/barbarians/citadel/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘The Citadel of Adlen surely is the finest masterpiece of Barbarian "
+"craftsmanship. Nothing as strong and big and beautiful has ever been built "
+"in such a short time.’"
+msgstr "La Citadelle d'Adlen est certainement le plus beau chef-d'œuvre de l'artisanat barbare. Rien d'aussi solide, grandiose et splendide n'a jamais été construit en si peu de temps."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a building
+#: ../../data/tribes/buildings/productionsites/atlanteans/ferry_yard/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/ferry_yard/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/empire/ferry_yard/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/frisians/ferry_yard/helptexts.lua:16
+msgctxt "building"
+msgid "Builds ferries."
+msgstr "Construit des ferrys"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Note helptext for a building
+#: ../../data/tribes/buildings/productionsites/atlanteans/ferry_yard/helptexts.lua:21
+#: ../../data/tribes/buildings/productionsites/barbarians/ferry_yard/helptexts.lua:21
+#: ../../data/tribes/buildings/productionsites/empire/ferry_yard/helptexts.lua:21
+#: ../../data/tribes/buildings/productionsites/frisians/ferry_yard/helptexts.lua:21
+msgctxt "building"
+msgid "Needs water nearby."
+msgstr "A besoin d'eau au alentours"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
@@ -24,7 +54,7 @@ msgstr "Filez l'or en fil d'or"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
 #: ../../data/tribes/buildings/productionsites/atlanteans/scouts_house/helptexts.lua:16
-#: ../../data/tribes/buildings/productionsites/barbarians/scouts_hut/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/scouts_hut/helptexts.lua:17
 #: ../../data/tribes/buildings/productionsites/empire/scouts_house/helptexts.lua:16
 #: ../../data/tribes/buildings/productionsites/frisians/scouts_house/helptexts.lua:13
 msgctxt "building"
@@ -127,6 +157,7 @@ msgstr "Je ne connais pas un seul maître mineur qui ne travaillera pas sans une
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/helptexts.lua:3
 #: ../../data/tribes/buildings/productionsites/frisians/charcoal_kiln/helptexts.lua:3
 msgctxt "frisians_building"
 msgid ""
@@ -323,118 +354,118 @@ msgid "Food:"
 msgstr "Nourriture :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:157
+#: ../../data/tribes/scripting/help/building_help.lua:158
 msgid "Equipment:"
 msgstr "Equipement :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:202
+#: ../../data/tribes/scripting/help/building_help.lua:203
 msgid "Purpose:"
 msgstr "Objectif :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:230
-#: ../../data/tribes/scripting/help/building_help.lua:463
+#: ../../data/tribes/scripting/help/building_help.lua:231
+#: ../../data/tribes/scripting/help/building_help.lua:462
 msgid "Note:"
 msgstr "Note :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:235
+#: ../../data/tribes/scripting/help/building_help.lua:236
 msgid "Work area radius:"
 msgstr "Rayon d'activité :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:239
-#: ../../data/tribes/scripting/help/building_help.lua:244
+#: ../../data/tribes/scripting/help/building_help.lua:240
+#: ../../data/tribes/scripting/help/building_help.lua:245
 msgid "Healing:"
 msgstr "Entrainement en santé :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:246
-#: ../../data/tribes/scripting/help/building_help.lua:250
+#: ../../data/tribes/scripting/help/building_help.lua:247
+#: ../../data/tribes/scripting/help/building_help.lua:251
 msgid "Capacity:"
 msgstr "Capacité :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:252
+#: ../../data/tribes/scripting/help/building_help.lua:253
 msgid "Vision range:"
 msgstr "Distance de vision :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Heading in the building help for wares that a building accepts
 #. (e.g. wheat for a mill).
-#: ../../data/tribes/scripting/help/building_help.lua:284
+#: ../../data/tribes/scripting/help/building_help.lua:283
 msgid "Incoming:"
 msgstr "Entrant :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:288
+#: ../../data/tribes/scripting/help/building_help.lua:287
 msgid "Collects:"
 msgstr "Collecte :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is a verb (The miner mines)
-#: ../../data/tribes/scripting/help/building_help.lua:300
+#: ../../data/tribes/scripting/help/building_help.lua:299
 msgid "Mines:"
 msgstr "Mines :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:320
+#: ../../data/tribes/scripting/help/building_help.lua:319
 msgid "Produces:"
 msgstr "Produit :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:362
+#: ../../data/tribes/scripting/help/building_help.lua:361
 msgid "Outgoing:"
 msgstr "Sortant :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:384
-#: ../../data/tribes/scripting/help/building_help.lua:398
-#: ../../data/tribes/scripting/help/building_help.lua:410
-#: ../../data/tribes/scripting/help/building_help.lua:423
+#: ../../data/tribes/scripting/help/building_help.lua:383
+#: ../../data/tribes/scripting/help/building_help.lua:397
+#: ../../data/tribes/scripting/help/building_help.lua:409
+#: ../../data/tribes/scripting/help/building_help.lua:422
 msgid "Soldiers:"
 msgstr "Soldats :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:470
+#: ../../data/tribes/scripting/help/building_help.lua:469
 msgid "Direct build cost:"
 msgstr "Coût de construction directe :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:472
+#: ../../data/tribes/scripting/help/building_help.lua:471
 #: ../../data/tribes/scripting/help/immovable_help.lua:50
 msgid "Build cost:"
 msgstr "Coût de construction :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:483
+#: ../../data/tribes/scripting/help/building_help.lua:482
 msgid "Or enhanced from:"
 msgstr "Ou amélioré à partir de :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:485
+#: ../../data/tribes/scripting/help/building_help.lua:484
 msgid "Enhanced from:"
 msgstr "Amélioré à partir de :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:494
+#: ../../data/tribes/scripting/help/building_help.lua:493
 msgid "Cumulative cost:"
 msgstr "Coût cumulatif :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/controls.lua:116
+#: ../../data/tribes/scripting/help/controls.lua:134
 msgid "Show ships shipping wares and workers"
 msgstr "Afficher les navires transportant des marchandises et des ouvriers."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/controls.lua:122
+#: ../../data/tribes/scripting/help/controls.lua:140
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Afficher les expéditions qui ont trouvé un espace portuaire ou qui fondent une colonie."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:128
+#: ../../data/tribes/scripting/help/controls.lua:146
 msgid "Go to the selected ship and open its window"
 msgstr "Aller au navire sélectionné et ouvrir sa fenêtre."
 
@@ -466,27 +497,25 @@ msgid "Wares consumed:"
 msgstr "Marchandises utilisées :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Ware Encyclopedia: Wares produced by a productionsite
-#: ../../data/tribes/scripting/help/ware_help.lua:107
-msgid "Ware produced:"
-msgid_plural "Wares produced:"
-msgstr[0] "Marchandise produite&nbsp;:"
-msgstr[1] "Marchandises produites :"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Worker Encyclopedia: Workers recruited by a productionsite
-#: ../../data/tribes/scripting/help/worker_help.lua:79
-msgid "Worker recruited:"
-msgid_plural "Workers recruited:"
-msgstr[0] "Ouvrier recruté&nbsp;:"
-msgstr[1] "Ouvriers recrutés :"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a ware: Hunting Spear
 #: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Les lances de chasse sont produites par le forgeron."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Iron Ore
+#: ../../data/tribes/wares/iron_ore/helptexts.lua:4
+msgctxt "default_ware"
+msgid "Iron ore is mined in iron mines."
+msgstr "Le minerai de fer est miné dans les mines de fer"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a ware: Iron Ore
+#: ../../data/tribes/wares/iron_ore/helptexts.lua:8
+msgctxt "barbarians_ware"
+msgid "It is smelted in a smelting works to retrieve the iron."
+msgstr "Il est fondu dans une fonderie pour récupérer le fer"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a ware: Broadsword
@@ -568,6 +597,13 @@ msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 msgctxt "empire_worker"
 msgid "Defend and Conquer!"
 msgstr "Défendre et conquérir !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a worker: Gardener
+#: ../../data/tribes/workers/frisians/reed_farmer/helptexts.lua:3
+msgctxt "frisians_worker"
+msgid "Plants and harvests reed fields."
+msgstr "Plantez et récoltez des champs de roseaux"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a worker: Scout

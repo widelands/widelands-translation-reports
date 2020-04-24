@@ -1,54 +1,54 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-02 08:03+0000\n"
-"PO-Revision-Date: 2018-11-04 10:24+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@gmail.com>\n"
-"Language-Team: Hungarian "
-"(http://www.transifex.com/widelands/widelands/language/hu/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-01-12 17:15+0000\n"
+"Last-Translator: Balázs Meskó <mesko.balazs@fsf.hu>\n"
+"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=KÖNYVTÁRNÉV A megadott könyvtárban találhatóak\na Widelands adatfájljai"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=KÖNYVTÁRNÉV A megadott könyvtár használata\n                      a Widelands beállítási fájlok, mentett játékok\n                      és visszajátszások tárolására"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:65
+#: ../../src/wlapplication_messages.cc:64
 msgid ""
 " --language=[de_DE|sv_SE|...]\n"
 "                      The locale to use."
 msgstr " --language=[de_DE|hu_HU]\n                        Lokalizáció beállítása."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:77
+#: ../../src/wlapplication_messages.cc:76
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr "--autosave=[...] Automatikus mentés n percenként"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=FÁJLNÉV Közvetlenül a FÁJLNÉV térképet indítja küldetésként."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:112
+#: ../../src/wlapplication_messages.cc:107
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=FÁJLNÉV Közvetlenül betölti a FÁJLNÉV néven mentett állást."
 
@@ -57,7 +57,7 @@ msgstr " --loadgame=FÁJLNÉV Közvetlenül betölti a FÁJLNÉV néven mentett 
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:152
+#: ../../src/wlapplication_messages.cc:147
 msgid ""
 " --dock_windows_to_edges=[true|false]\n"
 "                      Eliminate a window's border towards the\n"
@@ -66,7 +66,7 @@ msgid ""
 msgstr "--dock_windows_to_edges=[true|false]\nHa egy ablak oldala a képernyő szélénél\nvan, az ablakkeret azon az oldalon ne\nlátszódjon."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:162
+#: ../../src/wlapplication_messages.cc:157
 msgid ""
 " --snap_windows_only_when_overlapping=[yes|no]\n"
 "                      Only move a window to the edge of a panel\n"

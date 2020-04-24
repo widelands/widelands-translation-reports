@@ -1,26 +1,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-04 11:38+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
-"Language-Team: German "
-"(http://www.transifex.com/widelands/widelands/language/de/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
+"de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:96
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:93
 msgid "Jan"
 msgstr "Jan."
 
@@ -29,8 +29,8 @@ msgstr "Jan."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:102
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:99
 msgid "Feb"
 msgstr "Feb."
 
@@ -39,8 +39,8 @@ msgstr "Feb."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:114
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:111
 msgid "Apr"
 msgstr "Apr."
 
@@ -49,8 +49,8 @@ msgstr "Apr."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:138
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:135
 msgid "Aug"
 msgstr "Aug."
 
@@ -59,8 +59,8 @@ msgstr "Aug."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:144
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:141
 msgid "Sep"
 msgstr "Sep."
 
@@ -69,8 +69,8 @@ msgstr "Sep."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:150
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:147
 msgid "Oct"
 msgstr "Okt."
 
@@ -79,8 +79,8 @@ msgstr "Okt."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: http://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:156
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:153
 msgid "Nov"
 msgstr "Nov."
 
@@ -89,86 +89,136 @@ msgstr "Nov."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:161
+#: ../../src/base/time_string.cc:158
 msgid "Dec"
 msgstr "Dez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:615
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:143
+#: ../../src/editor/editorinteractive.cc:958
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
 msgid "Creating empty map…"
 msgstr "Erstelle leere Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:630
+#: ../../src/editor/editorinteractive.cc:972
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Lade Karte „%s“ …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:534
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:143
+msgid "Waterway length limit:"
+msgstr "maximale Wasserweglänge"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
 msgid "Generating random map…"
 msgstr "Erstelle Zufallskarte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:242 ../../src/logic/game.cc:310
+#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
 msgid "Loading map…"
 msgstr "Lade Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:318
+#: ../../src/logic/game.cc:321
 msgid "Initializing game…"
 msgstr "Spiel wird initialisiert …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:350 ../../src/logic/game.cc:389
-#: ../../src/ui_basic/progresswindow.cc:51 ../../src/wlapplication.cc:1424
+#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
+#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
 msgid "Loading…"
 msgstr "Lade …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:252
+#: ../../src/logic/generic_save_handler.cc:251
 msgid "Try saving under a different name!"
 msgstr "Versuche es bitte mit einem anderen Speichernamen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:286
+#: ../../src/logic/map_objects/tribes/militarysite.cc:283
 msgid "Enemy at site defeated!"
 msgstr "Feindliches Militärgebäude besiegt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
+#: ../../src/logic/save_handler.cc:127
 msgid "Saving game…"
 msgstr "Spiel wird gespeichert …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:412
+#: ../../src/network/internet_gaming.cc:467
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "Der Metaserver hat einen seltsamen ERROR (Fehler) Code beim Aufbau der Verbindung gesendet."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:47
+#: ../../src/network/internet_gaming_messages.cc:49
 msgid "You are already logged in!"
 msgstr "Du bist bereits eingelogt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:164
+#: ../../src/network/network_gaming_messages.cc:167
 #, c-format
 msgid "Completed transfer of file %1$s to %2$s"
 msgstr "Die Übertragung der Datei %1$s zum Empfänger %2$s ist abgeschlossen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/intro.cc:31
+#: ../../src/ui_fsmenu/internet_lobby.cc:69
+msgid "Open Games:"
+msgstr "Offene Spiele"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/intro.cc:33
 msgid "Press any key or click to continue…"
 msgstr "Drücke eine Taste oder klicke um fortzufahren ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:180
+#: ../../src/ui_fsmenu/options.cc:186
 msgid "Save game automatically every:"
 msgstr "Speichere das Spiel automatisch alle"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:542
+#: ../../src/ui_fsmenu/options.cc:547
 #, c-format
 msgid "If you wish to help us translate, please visit %s"
 msgstr "Wenn du uns mit der Übersetzung helfen möchtest, besuche bitte %s."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/constructionsitewindow.cc:187
+#: ../../src/wui/constructionsitewindow.cc:234
+#: ../../src/wui/soldiercapacitycontrol.cc:71
+msgid ""
+"Decrease capacity. Hold down Ctrl to set the capacity to the lowest value"
+msgstr "Verringere die Soldatenkapazität. Halte UMSCHALT gedrückt, um die Kapazität auf den kleinsten Wert zu setzen."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/constructionsitewindow.cc:191
+#: ../../src/wui/constructionsitewindow.cc:238
+#: ../../src/wui/soldiercapacitycontrol.cc:80
+msgid ""
+"Increase capacity. Hold down Ctrl to set the capacity to the highest value"
+msgstr "Erhöhe die Soldatenkapazität. Halte UMSCHALT gedrückt, um die Kapazität auf den größten Wert zu setzen."
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: This is the second part of "Selected %1%
+#. directory/directories and %2%"
+#: ../../src/wui/gamedetails.cc:108
+#, c-format
+msgid "%d file:"
+msgid_plural "%d files:"
+msgstr[0] "%d Datei"
+msgstr[1] "%d Dateien"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#. * TRANSLATORS: %1% = number of selected directories, %2% = number of
+#. selected files
+#: ../../src/wui/gamedetails.cc:112
+msgid "Selected %1% directory and %2%"
+msgid_plural "Selected %1% directories and %2%"
+msgstr[0] "%1% Ordner und %2% ausgewählt:"
+msgstr[1] "%1% Ordner und %2% ausgewählt:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/login_box.cc:42
+msgid "Log in to a registered account."
+msgstr "Log dich mit einem registrierten Konto ein"

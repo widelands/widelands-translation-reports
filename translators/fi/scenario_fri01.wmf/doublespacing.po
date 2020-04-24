@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-01 12:45+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
 "PO-Revision-Date: 2018-03-24 18:15+0000\n"
-"Last-Translator: Jukka Pakarinen, 2018\n"
+"Last-Translator: Jukka Pakarinen, 2020\n"
 "Language-Team: Finnish (https://www.transifex.com/widelands/teams/35159/fi/)"
 "\n"
 "Language: fi\n"
@@ -12,11 +12,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/campaigns/fri01.wmf/scripting/texts.lua:117
+msgid ""
+"If you did not prepare well enough to master this challenge in time, you can"
+" reload the scenario from the backup savegame automatically created for you "
+"shortly before you reached the enemy’s headquarters."
+msgstr ""
+"Jos et valmistautunut tähän haasteeseen riittävästi ajoissa, voit ladata "
+"uudelleen skenaarion varmuuskopiosta, joka on automaattisesti luotu sinulle "
+"juuri ennen kuin saavutit vihollisen  päämajan."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Hauke – recruit 2
-#: ../../data/campaigns/fri01.wmf/scripting/texts.lua:267
+#: ../../data/campaigns/fri01.wmf/scripting/texts.lua:266
 msgid ""
 "We will need a barracks, of course; a reindeer farm to produce fur, and a "
 "sewing room to sew the fur into garments. The reindeer farm produces some "
@@ -30,7 +41,7 @@ msgstr ""
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Hauke – train soldiers 3
-#: ../../data/campaigns/fri01.wmf/scripting/texts.lua:337
+#: ../../data/campaigns/fri01.wmf/scripting/texts.lua:336
 msgid ""
 "We should build these buildings close to the barracks, since it is, as I "
 "already mentioned earlier, much more efficient to centralize all our "

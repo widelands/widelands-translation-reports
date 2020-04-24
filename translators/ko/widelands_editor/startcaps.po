@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-08-24 06:54+0000\n"
-"PO-Revision-Date: 2018-08-25 05:44+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-01 04:54+0000\n"
 "Last-Translator: ks k\n"
-"Language-Team: Korean "
-"(http://www.transifex.com/widelands/widelands/language/ko/)\n"
+"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
+"ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_controls.lua:11
@@ -33,7 +33,6 @@ msgid "Help"
 msgstr "도움말"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: This is an access key combination.
 #: ../../data/scripting/editor/editor_controls.lua:18
 msgid "Toggle main menu"
 msgstr "주 차림표 켜기/끄기"
@@ -195,25 +194,31 @@ msgid "Resources"
 msgstr "자원"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: A header in the editor help
+#. TRANSLATORS: A header in the editor help if there is 1 valid resource
 #: ../../data/scripting/editor/terrain_help.lua:25
 msgid "Valid Resource:"
-msgid_plural "Valid Resources:"
-msgstr[0] "유효한 자원:"
+msgstr "있는 자원 :"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/terrain_help.lua:34
+#. TRANSLATORS: A header in the editor help if there is more than 1 valid
+#. resource
+#: ../../data/scripting/editor/terrain_help.lua:28
+msgid "Valid Resources:"
+msgstr "있는 자원들:"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/editor/terrain_help.lua:39
 msgid "Default:"
 msgstr "기본:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: A header in the editor help
-#: ../../data/scripting/editor/terrain_help.lua:67
+#: ../../data/scripting/editor/terrain_help.lua:72
 msgid "Probability of trees growing"
 msgstr "나무가 자랄 확률"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/terrain_help.lua:72
+#: ../../data/scripting/editor/terrain_help.lua:77
 msgid "No trees will grow here."
 msgstr "여기는 나무가 자랄 수 없습니다."
 

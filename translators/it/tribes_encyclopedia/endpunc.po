@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-02-03 08:14+0000\n"
-"PO-Revision-Date: 2019-02-03 08:20+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-29 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Italian "
-"(http://www.transifex.com/widelands/widelands/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
+"language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for a building
@@ -22,11 +22,11 @@ msgstr ""
 #: ../../data/tribes/buildings/militarysites/atlanteans/tower/helptexts.lua:21
 #: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/helptexts.lua:21
 #: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/helptexts.lua:21
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/helptexts.lua:21
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/helptexts.lua:21
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/helptexts.lua:21
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/helptexts.lua:21
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/helptexts.lua:21
+#: ../../data/tribes/buildings/militarysites/barbarians/barrier/helptexts.lua:18
+#: ../../data/tribes/buildings/militarysites/barbarians/citadel/helptexts.lua:19
+#: ../../data/tribes/buildings/militarysites/barbarians/fortress/helptexts.lua:18
+#: ../../data/tribes/buildings/militarysites/barbarians/sentry/helptexts.lua:19
+#: ../../data/tribes/buildings/militarysites/barbarians/tower/helptexts.lua:19
 #: ../../data/tribes/buildings/militarysites/empire/barrier/helptexts.lua:21
 #: ../../data/tribes/buildings/militarysites/empire/blockhouse/helptexts.lua:21
 #: ../../data/tribes/buildings/militarysites/empire/castle/helptexts.lua:21
@@ -49,7 +49,7 @@ msgstr "Se sei a corto di soldati, puoi premere sul pulsante con la freccia in g
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/partially_finished/constructionsite/helptexts.lua:16
+#: ../../data/tribes/buildings/partially_finished/constructionsite/helptexts.lua:13
 msgctxt "building"
 msgid "A new building is being built at this construction site."
 msgstr "Un nuovo edificio sta venendo costruito in questo cantiere"
@@ -89,8 +89,9 @@ msgstr "Il coltivatore di radici nere impiega in media %1% per seminare e raccog
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
 #: ../../data/tribes/buildings/productionsites/atlanteans/charcoal_kiln/helptexts.lua:16
-#: ../../data/tribes/buildings/productionsites/barbarians/charcoal_kiln/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/charcoal_kiln/helptexts.lua:23
 #: ../../data/tribes/buildings/productionsites/empire/charcoal_kiln/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/helptexts.lua:13
 #: ../../data/tribes/buildings/productionsites/frisians/charcoal_kiln/helptexts.lua:13
 msgctxt "building"
 msgid "Burns logs into charcoal."
@@ -133,7 +134,7 @@ msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio d
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/helptexts.lua:19
 msgctxt "building"
 msgid "Breeds fish."
 msgstr "Fa riprodurre i pesci"
@@ -248,7 +249,7 @@ msgstr "Sega i tronchi per produrre tavole"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
 #: ../../data/tribes/buildings/productionsites/atlanteans/scouts_house/helptexts.lua:16
-#: ../../data/tribes/buildings/productionsites/barbarians/scouts_hut/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/scouts_hut/helptexts.lua:17
 #: ../../data/tribes/buildings/productionsites/empire/scouts_house/helptexts.lua:16
 #: ../../data/tribes/buildings/productionsites/frisians/scouts_house/helptexts.lua:13
 msgctxt "building"
@@ -258,7 +259,7 @@ msgstr "Esplora territorio ignoto"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
 #: ../../data/tribes/buildings/productionsites/atlanteans/shipyard/helptexts.lua:16
-#: ../../data/tribes/buildings/productionsites/barbarians/shipyard/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/shipyard/helptexts.lua:18
 #: ../../data/tribes/buildings/productionsites/empire/shipyard/helptexts.lua:16
 #: ../../data/tribes/buildings/productionsites/frisians/shipyard/helptexts.lua:16
 msgctxt "building"
@@ -275,7 +276,7 @@ msgstr "Costruisce navi che sono usate per stabilire colonie e per trasportare r
 #. TRANSLATORS#: Lore author helptext for a building
 #. TRANSLATORS: Purpose helptext for a building
 #: ../../data/tribes/buildings/productionsites/atlanteans/smelting_works/helptexts.lua:16
-#: ../../data/tribes/buildings/productionsites/barbarians/smelting_works/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/smelting_works/helptexts.lua:17
 #: ../../data/tribes/buildings/productionsites/empire/smelting_works/helptexts.lua:16
 msgctxt "building"
 msgid "Smelts iron ore into iron and gold ore into gold."
@@ -311,6 +312,7 @@ msgstr "Tesse il tessuto di ragno per gli edifici e per le vele delle navi, e i 
 #: ../../data/tribes/buildings/productionsites/atlanteans/well/helptexts.lua:16
 #: ../../data/tribes/buildings/productionsites/barbarians/well/helptexts.lua:13
 #: ../../data/tribes/buildings/productionsites/empire/well/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/frisians/well/helptexts.lua:13
 msgctxt "building"
 msgid "Draws water out of the deep."
 msgstr "Estrae acqua dal pozzo"
@@ -327,7 +329,7 @@ msgstr "Taglia gli alberi nell'area circostante e li processa in tronchi"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/big_inn/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/big_inn/helptexts.lua:17
 msgctxt "barbarians_building"
 msgid ""
 "Prepares rations for scouts and rations, snacks and meals to feed all "
@@ -374,7 +376,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre carbone 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/farm/helptexts.lua:16
+#: ../../data/tribes/buildings/productionsites/barbarians/farm/helptexts.lua:14
 #: ../../data/tribes/buildings/productionsites/empire/farm/helptexts.lua:16
 msgctxt "building"
 msgid "Sows and harvests wheat."
@@ -382,7 +384,7 @@ msgstr "Semina e raccoglie grano"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/farm/helptexts.lua:26
+#: ../../data/tribes/buildings/productionsites/barbarians/farm/helptexts.lua:24
 msgctxt "barbarians_building"
 msgid "The farmer needs %1% on average to sow and harvest a sheaf of wheat."
 msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio di grano"
@@ -525,7 +527,7 @@ msgstr "Il prodotto della calchera va solo a cantieri che ne hanno bisogno. Prin
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/helptexts.lua:21
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/helptexts.lua:18
 msgctxt "barbarians_building"
 msgid "The quarry needs rocks to cut within the work area."
 msgstr "La cava necessita di pietre da tagliare nella sua area di lavoro"
@@ -545,13 +547,6 @@ msgstr "La casa della guardia forestale necessita di spazio libero nella sua are
 msgctxt "building"
 msgid "Prepares rations to feed the scouts and miners."
 msgstr "Prepara razioni per nutrire esploratori e minatori"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/weaving_mill/helptexts.lua:16
-msgctxt "barbarians_building"
-msgid "Weaves cloth out of thatch reed."
-msgstr "Tesse del tessuto partendo dalla paglia di canne"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a building
@@ -669,15 +664,6 @@ msgid ""
 "Cornmeal is produced in a mill out of corn and is one of three parts of the "
 "Atlantean bread produced in bakeries."
 msgstr "La farina di mais è prodotta in un mulino a partire dal mais ed è una delle tre parti del pane degli Atlantidei prodotto nei forni"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Felling Ax
-#: ../../data/tribes/wares/felling_ax/helptexts.lua:6
-msgctxt "barbarians_ware"
-msgid ""
-"Felling axes are produced in the metal workshop (but cease to be produced by"
-" the building if it is enhanced to an ax workshop and war mill)."
-msgstr "Le asce da disboscamento sono prodotte nell'officina metallica (ma smettono di essere prodotte dall'edificio se esso viene potenziato in una fabbrica di asce o fucina da guerra)"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a ware: Hunting Spear

@@ -1,21 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-04 11:38+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
-"Language-Team: German "
-"(http://www.transifex.com/widelands/widelands/language/de/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
+"de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/map_objects/tribes/worker.cc:220
+#: ../../src/logic/map_objects/tribes/worker.cc:217
 #, c-format
 msgid ""
 "should breed resource type %s, which does not exist in world; tribe is not "
@@ -24,49 +24,58 @@ msgstr "sollte Rohstoffe des Typs %s züchten, welche in dieser Welt nicht exist
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:260
+#: ../../src/network/gamehost.cc:274
 msgid "/help  -  Shows this help"
 msgstr "/help – Zeigt diese Hilfe"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:262
+#: ../../src/network/gamehost.cc:276
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <Nachricht> – Schickt eine Chat-Nachricht als Meldung (System-Chat)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:264
+#: ../../src/network/gamehost.cc:278
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <Name> <Grund> – Verwarnt den Benutzer <Name> aufgrund von <Grund>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:266
+#: ../../src/network/gamehost.cc:280
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <Name> <Grund> – Wirft den Benutzer <Name> hinaus, aufgrund von <Grund>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:268
+#: ../../src/network/gamehost.cc:282
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause – Erzwingt eine Spielpause."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:270
+#: ../../src/network/gamehost.cc:284
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause – Setzt das Spiel fort."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:439
+#: ../../src/network/internet_gaming.cc:494
 #, c-format
 msgid ""
 "WARNING: Received a %s command although we are not in CONNECTING state."
 msgstr "WARNUNG:  Es wurde der Befehl %s empfangen, obwohl wir nicht dabei sind, uns mit dem Metaserver zu verbinden."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:827
-#: ../../src/network/internet_gaming.cc:834
+#: ../../src/network/internet_gaming.cc:897
+#: ../../src/network/internet_gaming.cc:904
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "Die Nachricht konnte nicht gesendet werden:  Sollte dies eine private Nachricht sein?"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wui/login_box.cc:47
+#, c-format
+msgid ""
+"In order to use a registered account, you need an account on the Widelands "
+"website. Please log in at %s and set an online gaming password on your "
+"profile page."
+msgstr "Um ein registriertes Konto zu verwenden, brauchst du ein Konto auf der Widelands Webseite. Bitte melde dich auf %s  an und setze ein Passwort für das Internetspiel auf deiner Profilseite."

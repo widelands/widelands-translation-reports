@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-09-17 09:23+0000\n"
-"PO-Revision-Date: 2018-09-25 13:16+0000\n"
-"Last-Translator: Anton Khabarov <2233009@gmail.com>\n"
-"Language-Team: Russian "
-"(http://www.transifex.com/widelands/widelands/language/ru/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-01-07 08:53+0000\n"
+"Last-Translator: Viktor S <awsswa59@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
+"language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,48 +14,48 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--datadir'
-#: ../../src/wlapplication_messages.cc:48
+#: ../../src/wlapplication_messages.cc:47
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAME    Используйте указанную папку для файлов\n                      данных игры"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--homedir'
-#: ../../src/wlapplication_messages.cc:51
+#: ../../src/wlapplication_messages.cc:50
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=DIRNAME    Используйте указанную папку для файлов настроек,\n                      сохранений и повторов игры"
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--scenario'
-#: ../../src/wlapplication_messages.cc:109
+#: ../../src/wlapplication_messages.cc:104
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=FILENAME  Запускает карту FILENAME в качестве карты\nсценария."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--loadgame'
-#: ../../src/wlapplication_messages.cc:112
+#: ../../src/wlapplication_messages.cc:107
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=FILENAME  загружает сохранение игры FILENAME."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--script'
-#: ../../src/wlapplication_messages.cc:113
+#: ../../src/wlapplication_messages.cc:108
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr " --script=FILENAME    Запускает данный Lua-скрипт после инициализации.\nИспользовать только со --scenario, --loadgame, или --editor."
 
 # (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
-#: ../../src/wlapplication_messages.cc:135
+#: ../../src/wlapplication_messages.cc:130
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr " --maxfps=[5 ...]     Максимально кадров в секунду \"FPS\" в игре."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:139
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -64,7 +64,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\nПрилепить окно к краю экрана\nкогда край окна приближается к краю экрана\nна указанное расстояние."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

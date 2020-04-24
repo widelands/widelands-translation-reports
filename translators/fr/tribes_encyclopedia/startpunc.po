@@ -1,28 +1,99 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-04-04 13:38+0000\n"
-"Last-Translator: Renaud Bouchard\n"
-"Language-Team: French "
-"(http://www.transifex.com/widelands/widelands/language/fr/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/militarysites/barbarians/barrier/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘When we looked down to the valley from our newly established barrier, we "
+"felt that the spirit of our fathers was with us.’"
+msgstr "\"Quand nous avons regardé en bas dans la vallée depuis notre nouveau poste frontière, nous avons senti que l'esprit de nos ancêtres était avec nous.\""
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/militarysites/barbarians/citadel/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘The Citadel of Adlen surely is the finest masterpiece of Barbarian "
+"craftsmanship. Nothing as strong and big and beautiful has ever been built "
+"in such a short time.’"
+msgstr "La Citadelle d'Adlen est certainement le plus beau chef-d'œuvre de l'artisanat barbare. Rien d'aussi solide, grandiose et splendide n'a jamais été construit en si peu de temps."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/militarysites/barbarians/fortress/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘This stronghold made from blackwood and stones will be a hard nut to crack "
+"for them.’"
+msgstr "'Cette place-forte faite de bois dur leur fera une dure coquille à casser.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/militarysites/barbarians/tower/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘From the height of our tower we could see far into enemy territory. The "
+"enemy was well prepared, but we also noticed some weak points in their "
+"defense.’"
+msgstr "'Depuis les hauteurs de notre tour nous pouvions voir au loin dans le territoire ennemi. L'ennemi était bien préparé, mais nous avons aussi remarqué des points faibles dans leur défense.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/partially_finished/constructionsite/helptexts.lua:3
+msgctxt "building"
+msgid "‘Don’t swear at the builder who is short of building materials.’"
+msgstr "\"Ne vous en prenez pas au constructeur qui n'a plus de matériaux.\""
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
 #: ../../data/tribes/buildings/productionsites/barbarians/ax_workshop/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/warmill/helptexts.lua:6
+#: ../../data/tribes/buildings/productionsites/barbarians/warmill/helptexts.lua:3
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
 "its maker.’"
 msgstr "«&nbsp;La hache d'une nouvelle recrue révèle le meilleur de celui qui la tient - ou le pire de celui qui l'a forgée.&nbsp;»"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/bakery/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘He who has enough bread will never be too tired to dig the ore and wield "
+"the ax.’"
+msgstr "'Celui qui aura assez de pain ne sera jamais assez fatigué pour extraire des minerais et porter une hache.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/barracks/helptexts.lua:6
+msgctxt "barbarians_building"
+msgid ""
+"‘Don't ask what your tribe can do for you, ask what you can do for your "
+"tribe!’"
+msgstr "\"Ne demandez pas ce que la tribu peut faire pour vous, mais ce que vous pouvez faire pour la tribu !\""
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/cattlefarm/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘The smart leader builds roads, while the really wise leader breeds cattle.’"
+msgstr "\"Le chef avisé construit des routes, tandis que le chef réellement avisé élève du bétail.\""
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
@@ -60,6 +131,14 @@ msgstr "«&nbsp;Je peux supporter des tonnes de granit, mon gars, mais plus tes 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/helmsmithy/helptexts.lua:6
+msgctxt "barbarians_building"
+msgid ""
+"‘The helmets forgéd by this smithy<br>Are widely known for looking pithy.’"
+msgstr "'Les casques forgés par ce forgeron<br>sont largements connus pour leur aspect pitoyable.’"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
 #: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/helptexts.lua:3
 msgctxt "barbarians_building"
 msgid ""
@@ -73,6 +152,13 @@ msgstr "«&nbsp;Aussi silencieux qu'une panthère,<br> agile comme la belette,<b
 msgctxt "barbarians_building"
 msgid "‘The Art of Hunting’"
 msgstr "«&nbsp;L'Art de la Chasse&nbsp;»"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/inn/helptexts.lua:6
+msgctxt "barbarians_building"
+msgid "‘Miner’s Delight: Pitta bread with fish or meat, comes with one beer.’"
+msgstr "'Le délice des mineurs: Du pain pitta avec du poisson ou de la viande, accompagné d'une bière.'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
@@ -120,6 +206,13 @@ msgstr "«&nbsp;Que la première chasse la faim, que la deuxième te mette à l'
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid "‘We open up roads and make houses from mountains.’"
+msgstr "'Nous avons créé des routes et fait des montagnes nos maisons.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
 #: ../../data/tribes/buildings/productionsites/barbarians/rangers_hut/helptexts.lua:4
 msgctxt "barbarians_building"
 msgid ""
@@ -133,6 +226,13 @@ msgstr "«&nbsp;Celui qui fait pousser deux arbres à la place d'un est plus dig
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "«&nbsp;Nous faisons pousser des toits&nbsp;»"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/productionsites/barbarians/tavern/helptexts.lua:6
+msgctxt "barbarians_building"
+msgid "‘Fresh from the countryside: Bread, fish or game to go.’"
+msgstr "'En direct de la campagne: Pain, poisson ou gibier à la demande.'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building
@@ -176,3 +276,18 @@ msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
 "remain totally unaffected."
 msgstr "«&nbsp;Esquive&nbsp;» augmente les chances d'un soldat de ne pas être touché par un ennemi et lui permet ainsi de ne pas être affecté par l'attaque."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/warehouses/barbarians/port/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid ""
+"‘I prefer the planks of a ship to any fortress, no matter how strong it is.’"
+msgstr "\"Je préfère le plancher d'un bateau à n'importe quelle forteresse, aussi solide soit-elle.\""
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a building
+#: ../../data/tribes/buildings/warehouses/barbarians/warehouse/helptexts.lua:3
+msgctxt "barbarians_building"
+msgid "‘Who still owns a warehouse is not yet defeated!’"
+msgstr "\"Qui possède encore un entrepôt n'est pas vaincu !\""

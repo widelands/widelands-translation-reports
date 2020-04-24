@@ -1,57 +1,57 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-29 07:26+0000\n"
-"PO-Revision-Date: 2019-03-29 17:01+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Low German "
-"(http://www.transifex.com/widelands/widelands/language/nds/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:16+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
+"language/nds/)\n"
 "Language: nds\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:260
+#: ../../src/network/gamehost.cc:274
 msgid "/help  -  Shows this help"
-msgstr "/help – Wiest disse Hülp"
+msgstr "/help – Wiest deese Hülp"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:262
+#: ../../src/network/gamehost.cc:276
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <msg> – Stüürt eene Snack-Naricht as Anslag (Systeem-Snack)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:264
+#: ../../src/network/gamehost.cc:278
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
-msgstr "/warn <name> <reason> – Warnt de Benutzer <name>um <reason> "
+msgstr "/warn <name> <reason> – Warnt de Bruker <name>um <reason> "
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:266
+#: ../../src/network/gamehost.cc:280
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
-msgstr "/kick <name> <reason> – Treddt de Benutzer <name>um <reason> "
+msgstr "/kick <name> <reason> – Treddt de Bruker <name>um <reason> "
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:268
+#: ../../src/network/gamehost.cc:282
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause – Dwingt dat Speel tum Anhollen"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:270
+#: ../../src/network/gamehost.cc:284
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause – Dat Speel kummt to de normaale Gauheid weer"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/shipwindow.cc:220
+#: ../../src/wui/shipwindow.cc:219
 msgid ""
 "This expedition can’t be canceled, because the ship has no port to return "
 "to."

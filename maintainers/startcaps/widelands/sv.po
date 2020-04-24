@@ -1,33 +1,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-22 18:47+0000\n"
-"PO-Revision-Date: 2019-03-23 12:33+0000\n"
-"Last-Translator: Jonatan Nyberg\n"
-"Language-Team: Swedish "
-"(http://www.transifex.com/widelands/widelands/language/sv/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
+"language/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: e.g. Completed/Skipped/Did not start ... because the economy
 #. needs the ware
-#. * ‘%s’
-#: ../../src/logic/map_objects/tribes/production_program.cc:308
+#. * '%s'
+#: ../../src/logic/map_objects/tribes/production_program.cc:240
 #, c-format
 msgid "the economy needs the ware ‘%s’"
 msgstr "Ekonomin behöver varan ‘%s’"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: e.g. Completed/Skipped/Did not start ... because the economy
-#. doesn’t need the
-#. * ware ‘%s’
-#: ../../src/logic/map_objects/tribes/production_program.cc:317
+#. doesn't need the
+#. * ware '%s'
+#: ../../src/logic/map_objects/tribes/production_program.cc:249
 #, c-format
 msgid "the economy doesn’t need the ware ‘%s’"
 msgstr "Ekonomin behöver inte varan ‘%s’"
@@ -35,35 +35,35 @@ msgstr "Ekonomin behöver inte varan ‘%s’"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: e.g. Completed/Skipped/Did not start ... because the economy
 #. needs the worker
-#. * ‘%s’
-#: ../../src/logic/map_objects/tribes/production_program.cc:330
+#. * '%s'
+#: ../../src/logic/map_objects/tribes/production_program.cc:262
 #, c-format
 msgid "the economy needs the worker ‘%s’"
 msgstr "Ekonomin behöver arbetaren ‘%s’"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: e.g. Completed/Skipped/Did not start ...
-#. * TRANSLATORS:      ... because the economy doesn’t need the worker ‘%s’
-#: ../../src/logic/map_objects/tribes/production_program.cc:340
+#. * TRANSLATORS:      ... because the economy doesn’t need the worker '%s'
+#: ../../src/logic/map_objects/tribes/production_program.cc:272
 #, c-format
 msgid "the economy doesn’t need the worker ‘%s’"
 msgstr "Ekonomin behöver inte arbetaren ‘%s’"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares
-#: ../../src/logic/map_objects/tribes/production_program.cc:393
+#: ../../src/logic/map_objects/tribes/production_program.cc:326
 #, c-format
 msgid "the building has the following wares: %s"
 msgstr "Byggnaden har följande varor: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares
-#: ../../src/logic/map_objects/tribes/production_program.cc:419
+#: ../../src/logic/map_objects/tribes/production_program.cc:350
 #, c-format
 msgid "the building doesn’t have the following wares: %s"
 msgstr "Byggnaden har inte följande varor: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/plot_area.cc:331
+#: ../../src/wui/plot_area.cc:357
 msgid "game"
 msgstr "Speltid"

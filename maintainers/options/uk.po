@@ -1,27 +1,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-05-05 17:07+0000\n"
-"PO-Revision-Date: 2018-05-05 17:10+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2019-12-30 08:11+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Ukrainian "
-"(http://www.transifex.com/widelands/widelands/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/widelands/widelands/"
+"language/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
+"? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
+"14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
+"100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) options: Missing or translated option '--<config-entry-name>'
-#: ../../src/wlapplication_messages.cc:45
+#: ../../src/wlapplication_messages.cc:44
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<назва-параметру-налаштування>=значення переписує вказаний параметр в налаштуваннях"
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:139
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -30,7 +32,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                      Рухати вікно до межі екрану поки\n                      край вікна не буде на заданій \n                      відстані від краю екрана."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:152
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

@@ -1,28 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2018-11-24 06:21+0000\n"
-"PO-Revision-Date: 2018-12-04 00:56+0000\n"
-"Last-Translator: stdh\n"
-"Language-Team: Dutch "
-"(http://www.transifex.com/widelands/widelands/language/nl/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-12 17:33+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
+"nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:22
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:15
 msgid ""
 "Welcome back. In this tutorial, you are going to learn the most important "
 "things about seafaring, that is ships, ports, and expedition."
 msgstr "Welkom terug.  In deze oefencampagne zal je de belangrijkste dingen leren over zeevaart, dat betekent schepen, havens en expedities."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:33
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:26
 msgid ""
 "Here in the northern part, you only have a goldmine and a warehouse. While "
 "the miners are supplied well with food, there is no way to transport the "
@@ -30,7 +30,7 @@ msgid ""
 msgstr "Hier in het noordelijke deel heb je enkel een goudmijn en een magazijn.  De mijnwerkers zijn dan wel goed voorzien van voedsel, maar het gedolven gouderts geraakt niet tot bij onze hoogovens in het zuidelijke deel."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:34
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:27
 msgid ""
 "We have tried to build a road, but the mountain is too wide and too steep. "
 "We therefore have only one possibility: we need to establish a sea lane "
@@ -38,7 +38,7 @@ msgid ""
 msgstr "We hebben geprobeerd een weg aan te leggen, maar de berg is te breed en te steil.  Er rest ons slechts één mogelijkheid: een vaarroute voorzien tussen beide delen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:45
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:38
 msgid ""
 "For everything you do on the high seas, you need a port at the shore. Ports "
 "are like headquarters: they can store wares, workers and soldiers. The "
@@ -46,7 +46,7 @@ msgid ""
 msgstr "Voor alles wat je op de diepe zeeën wilt uitvoeren heb je havens aan wal nodig.  Havens zijn zoals een hoofdkwartier, ze herbergen goederen, werkers en soldaten.  De soldaten die er verblijven zullen automatisch buitenkomen als een vijand de haven aanvalt."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:59
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:52
 msgid ""
 "Port spaces are set by the map designer, so a map will either contain them "
 "or not. They might, however, be hidden under trees or be blocked by "
@@ -54,7 +54,7 @@ msgid ""
 msgstr "Havenlocaties worden ingesteld door de kaartontwerper, dus een kaart zal ze ofwel bevatten, ofwel niet.  Ze kunnen echter verborgen zitten onder bomen of geblokkeerd zijn door omliggende gebouwen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:69
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:64
 msgid ""
 "Ports are built like normal buildings, but are only available on blue port "
 "spaces. Just click on a field with the icon and the building menu "
@@ -62,19 +62,14 @@ msgid ""
 msgstr "Havens worden gebouwd zoals een gewoon gebouw, maar je kunt ze enkel zetten op blauwe havenlocatie-iconen.  Klik gewoon op een veld met dat icoon en het gebouwmenu zal je automatisch aanbieden een haven te bouwen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:80
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:76
 msgid ""
 "Ships are constructed in a shipyard by a shipwright. We have to build one "
 "somewhere close to the shore."
 msgstr "Schepen worden gemaakt in een scheepswerf door een scheepsbouwer.  We moeten er één bouwen nabij de kust."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:81
-msgid "Build a shipyard close to the coast. It is a medium building."
-msgstr "Bouw een scheepswerf dicht bij de kust.  Het is een middelgroot gebouw."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:90
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:87
 msgid ""
 "The shipyard is a medium building. Although it can be built everywhere on "
 "the map, the shipwright only works when he is close to the water and there "
@@ -82,7 +77,7 @@ msgid ""
 msgstr "De scheepswerf is een middelgroot gebouw.  Hoewel het overal op de kaart kan gebouwd worden, kan de scheepsbouwer enkel werken als hij dicht bij het water is, en als er geen bomen of gebouwen de kustlijn blokkeren."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:99
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:96
 msgid ""
 "Very good. Your shipyard is finished and your shipwright immediately started"
 " working. For the construction of ships, he needs logs, planks and "
@@ -90,7 +85,7 @@ msgid ""
 msgstr "Zeer goed.  Je scheepswerf is klaar en je scheepsbouwer zal onmiddellijk beginnen te werken.  Voor het bouwen van schepen heeft hij boomstammen, planken en spinnendoek nodig, die zullen bij je scheepswerf aangevoerd worden."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:100
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:97
 msgid ""
 "The shipwright will take the ware he needs to a free spot at the shoreline "
 "and build a ship there. When the first ship is finished, it will launch onto"
@@ -98,7 +93,7 @@ msgid ""
 msgstr "De scheepsbouwer zal de goederen die hij nodig heeft naar een vrije plek op de kustlijn dragen en daar een schip bouwen.  Als het eerste schip af is zal het te water gaan, en de scheepsbouwer zal aan het volgende beginnen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:102
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:120
 msgid ""
 "You need to stop your shipyard when you have enough ships. Otherwise, your "
 "shipwright will consume all your logs and spidercloth, producing dozens of "
@@ -106,14 +101,15 @@ msgid ""
 msgstr "Je moet je scheepswerf stoppen wanneer je genoeg schepen hebt.  Anders zal al je hout en spinnendoek gebruikt worden om tientallen schepen te maken."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:103
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:121
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:322
 msgid ""
 "This is the icon for stopping production. You will find it in the building "
 "window."
 msgstr "Dit is het icoon om de productie te stoppen.  Je vindt het in het gebouwenvenster."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:119
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:133
 msgid ""
 "As you surely have already noticed, there is no iron in the mountain in the "
 "west. We have plenty of coal and gold ore, but without iron ore, we cannot "
@@ -121,7 +117,7 @@ msgid ""
 msgstr "Zoals je wellicht gemerkt hebt bevat de berg in het westen geen ijzer.  We hebben genoeg kolen en gouderts, maar zonder ijzererts kunnen we geen werktuigen maken."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:133
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:147
 msgid ""
 "Expeditions can be started in every port. Then, all needed wares are "
 "transported to that port. The wares are exactly those your tribe needs to "
@@ -131,19 +127,19 @@ msgid ""
 msgstr "Expedities kunnen gestart worden vanuit elke haven.  Alle benodigde goederen zullen naar die haven gebracht worden – exact de materialen die jou stam nodig heeft om een haven te bouwen (aangezien je doel is ver van huis een haven te bouwen is dat niet zo verwonderlijk) – en natuurlijk ook een bouwvakker.  Als alles gereed is zal een schip ze komen oppikken."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:135
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:149
 msgid "Now try this out. I will tell you later what the next steps are."
 msgstr "Probeer het nu uit.  Ik zal je later vertellen wat de volgende stappen zijn."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:142
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:160
 msgid ""
 "To do so, click on the ‘Start Expedition’ button in any port. A new tab "
 "where you can see the needed wares will appear."
 msgstr "Klik op de knop ‘Begin een expeditie’ in om het even welke haven.  Een nieuw tabblad zal verschijnen waar je de benodigde goederen kan zien."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:152
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:170
 msgid ""
 "Your expedition ship is ready. It is waiting for your orders in front of "
 "your port. It isn’t transporting wares anymore. Use its buttons to send your"
@@ -153,7 +149,7 @@ msgid ""
 msgstr "Je expeditieschip is klaar.  Het wacht voor de haven op jouw opdrachten, op dit moment transporteert het geen goederen meer.  Gebruik de knoppen om het schip in één van de zes hoofdrichtingen van de Widelandskaart te sturen.  Als het een kustlijn bereikt kan je het bevel geven de kust te volgen, op zoek naar een geschikte plek om aan land te gaan."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:154
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:172
 msgid ""
 "The wares will then be unloaded, and the ship will take up the task of "
 "transporting wares once again. The builder will start his work and build a "
@@ -161,7 +157,7 @@ msgid ""
 msgstr "De goederen zullen dan uitgeladen worden, en het schip zal zich terug bezighouden met transport.  De bouwvakker begint dan aan zijn werk: het bouwen van de haven."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:172
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:195
 msgid ""
 "You’ve lead the expedition to a successful end and founded a new colony. "
 "I’ve sent out some geologists – they already report that they’ve found some "
@@ -169,27 +165,10 @@ msgid ""
 msgstr "Je hebt de expeditie tot een goed einde gebracht en hebt een nieuwe kolonie gesticht.  Ik heb een paar geologen uitgestuurd – ze hebben al laten weten dat ze ijzererts gevonden hebben."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:173
-msgid ""
-"In this scenario, you’ve learned everything about seafaring: how to build "
-"ports and ships and how to send out an expedition. Remember that expeditions"
-" are sometimes the fastest way to reach essential resources – and sometimes "
-"the only one."
-msgstr "In dit scenario heb je alles over zeevaart geleerd: havens en schepen bouwen en expedities uitsturen.  Onthoud dat expedities soms de snelste weg zijn om een essentiële grondstof te bereiken, en soms de enige."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:174
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:197
 msgid ""
 "But I want to speak a word of warning. Ports are like headquarters: they can"
 " be attacked by a nearby enemy. While your headquarters has soldiers to "
 "defend it, your newly built port won’t. You should therefore avoid settling "
 "next to an enemy."
 msgstr "Maar ik wil je ook waarschuwen. Havens zijn als een hoofdkwartier: ze kunnen aangevallen worden door een nabije vijand.  Je hoofdkwartier heeft soldaten om het te verdedigen, maar je net gebouwde haven niet.  Daarom kan je best niet vlak naast een vijand koloniseren."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:175
-msgid ""
-"On this map, there is no enemy to fear. As always, you can continue playing "
-"and watch how the ships deliver wares to the island when you construct some "
-"buildings there. There is also another island where you can build a port."
-msgstr "Op deze kaart valt er geen vijand te vrezen.  Zoals altijd kan je verderspelen en toekijken hoe de schepen goederen leveren aan het eiland als je daar gebouwen zet.  Er is ook een ander eiland waar je een haven kan bouwen."

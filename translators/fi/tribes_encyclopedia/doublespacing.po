@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-01 12:45+0000\n"
-"PO-Revision-Date: 2019-03-02 20:25+0000\n"
-"Last-Translator: Jukka Pakarinen\n"
-"Language-Team: Finnish "
-"(http://www.transifex.com/widelands/widelands/language/fi/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
+"language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a building
@@ -25,7 +25,7 @@ msgstr "Mustajuuriviljelijät tarvitsevat keskimäärin  %1% kylvämiseen ja mus
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/bakery/helptexts.lua:26
+#: ../../data/tribes/buildings/productionsites/barbarians/bakery/helptexts.lua:23
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -35,7 +35,7 @@ msgstr "Jos kaikki tarvittavat tuotteet toimitetaan ajallaa, tämä rakennus voi
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/cattlefarm/helptexts.lua:26
+#: ../../data/tribes/buildings/productionsites/barbarians/cattlefarm/helptexts.lua:23
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -61,24 +61,24 @@ msgid "The brick kiln needs %s on average to produce two bricks."
 msgstr "Tiiliuuni  tarvitsee keskimäärin %s tuottaakseen kaksi tiiltä."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/scripting/help/building_help.lua:382
+#: ../../data/tribes/scripting/help/building_help.lua:381
 msgid "Trains ‘Health’ from %1% up to %2%"
 msgstr "Kouluttaa 'Terveys' tasolta %1% tasolle  %2%"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: %1$s = Health, Evade, Attack or Defense. %2$s and %3$s are
 #. numbers.
-#: ../../data/tribes/scripting/help/building_help.lua:396
+#: ../../data/tribes/scripting/help/building_help.lua:395
 msgid "Trains ‘Attack’ from %1% up to %2%"
 msgstr "Kouluttaa 'Hyökkäys' tasolta  %1% tasolle %2%"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/scripting/help/building_help.lua:408
+#: ../../data/tribes/scripting/help/building_help.lua:407
 msgid "Trains ‘Defense’ from %1% up to %2%"
 msgstr "Kouluttaa 'Puolustus' tasolta  %1% tasolle %2%"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/scripting/help/controls.lua:122
+#: ../../data/tribes/scripting/help/controls.lua:140
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Näytä tutkimusmatkat, jotka ovat löytäneet satamapaikan tai löytämässä  yhdyskunnan"
 
@@ -102,15 +102,6 @@ msgid ""
 "is used in taverns and inns to prepare rations and meals. Bread is also "
 "consumed at the training sites (arena, colosseum, training camp)."
 msgstr "Keisarikunnan maittavan leivän voivat leipurit tehdä jauhoista ja vedestä. Sitä käytetään krouveissa ja kestikievareissa ruoka-annoksien ja aterioiden valmistamiseen.  Leipää kulutetaan myös koulutuspaikoissa (taisteluareena, coloseumi ja harjoitusleiri)."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Fire Tongs
-#: ../../data/tribes/wares/fire_tongs/helptexts.lua:10
-msgctxt "barbarians_ware"
-msgid ""
-"Produced by the metal workshop (but they cease to be produced by the "
-"building if it is enhanced to an ax workshop and war mill)."
-msgstr "Tuottaa metallipaja (mutta tuotanto loppuu rakennuksessa, jos se laajennetaan kirvespajaksi  ja asetehtaaksi)."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a ware: Fish

@@ -1,49 +1,49 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-02-09 09:43+0000\n"
-"PO-Revision-Date: 2019-02-09 09:44+0000\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-03-03 09:10+0000\n"
 "Last-Translator: GunChleoc\n"
-"Language-Team: Greek "
-"(http://www.transifex.com/widelands/widelands/language/el/)\n"
+"Language-Team: Greek (http://www.transifex.com/widelands/widelands/language/"
+"el/)\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: e.g. Team 1 owns 5 artifacts.
-#: ../../data/scripting/win_conditions/artifacts.lua:150
+#: ../../data/scripting/win_conditions/artifacts.lua:179
 msgid "%1$s owns %2$s."
 msgstr "Ο %1$s κατέχει %2$s."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:13
+#: ../../data/scripting/win_conditions/territorial_functions.lua:14
 msgid "%1$s has %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "Ο %1$s κατέχει %2$3.0f%% της γης (%3$i από %4$i)."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:14
+#: ../../data/scripting/win_conditions/territorial_functions.lua:15
 msgid "%1$s had %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "Ο %1$s κατείχε %2$3.0f%% της γης (%3$i από %4$i)."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:259
+#: ../../data/scripting/win_conditions/territorial_functions.lua:238
 #, lua-format
 msgid "%s owns more than half of the map’s area."
 msgstr "Ο %s κατέχει περισσότερη από τη μισή έκταση του χάρτη."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:99
+#: ../../data/scripting/win_conditions/wood_gnome.lua:63
 msgid "%1$s has %2$s at the moment."
 msgstr "Ο %1$s έχει %2$s επί του παρόντος."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:118
+#: ../../data/scripting/win_conditions/wood_gnome.lua:82
 msgid "%1$s had %2$s."
 msgstr "Ο %1$s είχε %2$s."

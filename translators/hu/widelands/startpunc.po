@@ -1,21 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-03 08:20+0000\n"
-"Last-Translator: GunChleoc\n"
-"Language-Team: Hungarian "
-"(http://www.transifex.com/widelands/widelands/language/hu/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/format_scenario.lua:12
 #: ../../data/scripting/richtext_scenarios.lua:36
 #, lua-format
 msgid "“%s”"
@@ -23,33 +22,33 @@ msgstr "„%s”"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
-#: ../../src/editor/ui_menus/player_menu.cc:147
-#: ../../src/editor/ui_menus/player_menu.cc:269
-#: ../../src/logic/single_player_game_settings_provider.cc:90
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:70
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:102
-#: ../../src/network/gamehost.cc:1619 ../../src/ui_fsmenu/launch_mpg.cc:509
-#: ../../src/wui/multiplayersetupgroup.cc:135
-#: ../../src/wui/multiplayersetupgroup.cc:189
+#: ../../src/editor/ui_menus/player_menu.cc:148
+#: ../../src/editor/ui_menus/player_menu.cc:274
+#: ../../src/logic/single_player_game_settings_provider.cc:96
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:69
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:101
+#: ../../src/ui_fsmenu/launch_mpg.cc:523
+#: ../../src/wui/multiplayersetupgroup.cc:140
+#: ../../src/wui/multiplayersetupgroup.cc:194
 #, c-format
 msgid "Player %u"
 msgstr "%u. játékos"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/player.cc:1336
+#: ../../src/logic/player.cc:1523
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
 msgstr "%d. hajó"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:1556
+#: ../../src/network/gamehost.cc:1605
 #, c-format
 msgid "Computer %u"
 msgstr "%u. számítógép"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/internet_gaming.cc:382
+#: ../../src/network/internet_gaming.cc:431
 #, c-format
 msgid ""
 "You have been logged in as '%s' since your requested name is already in use "
@@ -57,28 +56,20 @@ msgid ""
 msgstr "„%s” néven jelentkeztél be, mivel a kért név már használatban van, vagy foglalt."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:142
+#: ../../src/network/network_gaming_messages.cc:146
 #, c-format
 msgid "Received command number %s, which is not allowed in this state."
 msgstr "%s sorszámú parancs érkezett, amely nem engedélyezett ebben az állapotban."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/game_summary.cc:207
+#: ../../src/wui/game_summary.cc:204
 msgid "Team %|1$u| won!"
 msgstr "%|1$u| csapat nyert!"
-
-# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/load_or_save_game.cc:188
-#, c-format
-msgid "Selected %d file:"
-msgid_plural "Selected %d files:"
-msgstr[0] "%d fájl kiválasztva:"
-msgstr[1] "%d fájl kiválasztva:"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: This is an option in multiplayer setup for sharing
 #. another player's starting position.
-#: ../../src/wui/multiplayersetupgroup.cc:443
+#: ../../src/wui/multiplayersetupgroup.cc:463
 #, c-format
 msgid "Shared in Player %u"
 msgstr "%u. játékosként megosztva"

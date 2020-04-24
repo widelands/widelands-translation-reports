@@ -1,42 +1,47 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
-"Report-Msgid-Bugs-To: https://wl.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2019-03-03 08:19+0000\n"
-"PO-Revision-Date: 2019-03-04 11:38+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
-"Language-Team: German "
-"(http://www.transifex.com/widelands/widelands/language/de/)\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-04-22 20:01+0000\n"
+"PO-Revision-Date: 2020-04-22 20:03+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
+"de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.2.5\n"
+"X-Generator: Translate Toolkit 2.4.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Editor terrain property: space for a flag
-#: ../../src/editor/tools/info_tool.cc:81
+#: ../../src/editor/tools/info_tool.cc:78
 msgid "flag"
 msgstr "Flagge"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Editor terrain property: mine building plot
-#: ../../src/editor/tools/info_tool.cc:85
+#: ../../src/editor/tools/info_tool.cc:82
 msgid "mine"
 msgstr "Mine"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Editor terrain property: port space
-#: ../../src/editor/tools/info_tool.cc:89
+#: ../../src/editor/tools/info_tool.cc:86
 msgid "port"
 msgstr "Hafen"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:143
+msgid "Waterway length limit:"
+msgstr "maximale Wasserweglänge"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Part of tooltip entry for characters in illegal filenames.
 #. replaces tha
 #. * blank space in a list of illegal characters
-#: ../../src/io/filesystem/filesystem.cc:197
+#: ../../src/io/filesystem/filesystem.cc:248
 msgctxt "illegal_filename_characters"
 msgid "blank space"
 msgstr "Leerzeichen"
@@ -45,7 +50,7 @@ msgstr "Leerzeichen"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1073
+#: ../../src/logic/map_objects/tribes/production_program.cc:925
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -53,12 +58,22 @@ msgstr[0] "%s ausgebildet"
 msgstr[1] "%s ausgebildet"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:330
+#. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
+#. description of the
+#. * training program, e.g. Completed upgrading soldier evade from level 0 to
+#. level 1
+#: ../../src/logic/map_objects/tribes/production_program.cc:1194
+#, c-format
+msgid "Completed %s"
+msgstr "%s wurde abgeschlossen"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/gamehost.cc:346
 msgid "kick acknowledgement cancelled: No name given!"
 msgstr "Kick-Zustimmung abgebrochen: Es wurde kein Name angegeben!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:338
+#: ../../src/network/gamehost.cc:354
 msgid "kick acknowledgement cancelled: Wrong name given!"
 msgstr "Kick-Zustimmung abgebrochen: Es wurde ein falscher Name angegeben!"
 
@@ -67,26 +82,44 @@ msgstr "Kick-Zustimmung abgebrochen: Es wurde ein falscher Name angegeben!"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:643
+#: ../../src/wui/game_message_menu.cc:673
 #, c-format
 msgid "Archive the selected %d message"
 msgid_plural "Archive the selected %d messages"
 msgstr[0] "%d ausgewählte Nachricht ablegen"
 msgstr[1] "%d ausgewählte Nachrichten ablegen"
 
-# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/wui/load_or_save_game.cc:188
-#, c-format
-msgid "Selected %d file:"
-msgid_plural "Selected %d files:"
-msgstr[0] "%d Datei ausgewählt:"
-msgstr[1] "%d Dateien ausgewählt:"
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Generic unit label. Used in statistics.
+#: ../../src/wui/plot_area.cc:124
+msgctxt "unit_generic"
+msgid "days"
+msgstr "Tage"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Generic unit label. Used in statistics.
+#: ../../src/wui/plot_area.cc:127
+msgctxt "unit_generic"
+msgid "hours"
+msgstr "Stunden"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Generic unit label. Used in statistics.
+#: ../../src/wui/plot_area.cc:130
+msgctxt "unit_generic"
+msgid "minutes"
+msgstr "Minuten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/plot_area.cc:357
+msgid "game"
+msgstr "Spiel"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/load_or_save_game.cc:445
+#: ../../src/wui/savegameloader.cc:142
 msgid "saved today at %1%:%2%"
 msgstr "Gespeichert heute, %1%:%2%"
 
@@ -94,40 +127,15 @@ msgstr "Gespeichert heute, %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/load_or_save_game.cc:462
+#: ../../src/wui/savegameloader.cc:160
 msgid "saved yesterday at %1%:%2%"
 msgstr "Gespeichert gestern, %1%:%2%"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
-#. month (short name) day (number), year (number). This is part of a list.
-#: ../../src/wui/load_or_save_game.cc:474
+#. month (short name) day (number),
+#. year (number). This is part of a list.
+#: ../../src/wui/savegameloader.cc:172
 msgid "saved on %1% %2%, %3%"
 msgstr "Gespeichert am %2%. %1% %3%"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Generic unit label. Used in statistics.
-#: ../../src/wui/plot_area.cc:131
-msgctxt "unit_generic"
-msgid "days"
-msgstr "Tage"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Generic unit label. Used in statistics.
-#: ../../src/wui/plot_area.cc:134
-msgctxt "unit_generic"
-msgid "hours"
-msgstr "Stunden"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Generic unit label. Used in statistics.
-#: ../../src/wui/plot_area.cc:137
-msgctxt "unit_generic"
-msgid "minutes"
-msgstr "Minuten"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/plot_area.cc:331
-msgid "game"
-msgstr "Spiel"
