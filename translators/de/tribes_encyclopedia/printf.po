@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-02 09:33+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-17 19:43+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,77 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/helptexts.lua:22
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/helptexts.lua:22
-#, lua-format
-msgctxt "barbarians_building"
+#. TRANSLATORS: Note helptext for a mine.
+#: ../../data/tribes/scripting/help/building_help.lua:425
 msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any coal."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an wird sie nur eine 5%%-Chance haben, noch mehr Kohle zu finden."
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/helptexts.lua:18
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/helptexts.lua:18
-#, lua-format
-msgctxt "barbarians_building"
-msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any gold ore."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an hat sie nur eine 5%%-Chance, noch mehr Golderz zu finden."
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/helptexts.lua:18
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/helptexts.lua:18
-#, lua-format
-msgctxt "barbarians_building"
-msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any iron ore."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an hat sie nur eine 5%%-Chance, noch mehr Eisenerz zu finden."
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine/helptexts.lua:21
-#, lua-format
-msgctxt "frisians_building"
-msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any coal."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an wird sie nur eine 5%%-Chance haben, noch mehr Kohle zu finden."
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/helptexts.lua:21
-#, lua-format
-msgctxt "frisians_building"
-msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any gold ore."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an hat sie nur eine 5%%-Chance, noch mehr Golderz zu finden."
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine/helptexts.lua:21
-#, lua-format
-msgctxt "frisians_building"
-msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any iron ore."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an hat sie nur eine 5%%-Chance, noch mehr Eisenerz zu finden."
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine/helptexts.lua:21
-#, lua-format
-msgctxt "frisians_building"
-msgid ""
-"This mine exploits only %s of the resource. From there on out, it will only "
-"have a 5%% chance of finding any granite."
-msgstr "Diese Mine baut nur %s der Rohstoffe ab. Von da an hat sie nur eine 5%%-Chance, noch mehr Stein zu finden."
+"This mine will exploit %1%%% of its resources. From there on out, it will "
+"only have a %2%%% chance of finding any more of them."
+msgstr "Diese Mine baut nur %1%%% der Rohstoffe ab. Von da an hat sie nur eine %2%%%-Chance, noch mehr davon zu finden."

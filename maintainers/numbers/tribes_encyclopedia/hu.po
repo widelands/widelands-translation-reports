@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
@@ -12,11 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/helptexts.lua:27
+#. TRANSLATORS: Performance helptext for production site: Gamekeeper's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1201
+msgctxt "barbarians_building"
+msgid "The gamekeeper pauses 52.5 seconds before going to work again."
+msgstr "A vadőr 52,5 másodpercnyi szünetet tart, mielőtt újra elkezd dolgozni."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for production site: Coal Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1514
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 32.5 seconds on "
@@ -24,8 +31,8 @@ msgid ""
 msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 32,5 másodpercenként képes szenet termelni."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/helptexts.lua:27
+#. TRANSLATORS: Performance helptext for production site: Deep Coal Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1529
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 19.5 seconds on "
@@ -33,8 +40,8 @@ msgid ""
 msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 19,5 másodpercenként képes szenet termelni."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/helptexts.lua:27
+#. TRANSLATORS: Performance helptext for production site: Deeper Coal Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1544
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 14.4 seconds on "
@@ -42,33 +49,9 @@ msgid ""
 msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 14,4 másodpercenként képes szenet termelni."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:24
-msgctxt "barbarians_building"
-msgid "The gamekeeper pauses 52.5 seconds before going to work again."
-msgstr "A vadőr 52,5 másodpercnyi szünetet tart, mielőtt újra elkezd dolgozni."
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/helptexts.lua:23
-msgctxt "barbarians_building"
-msgid ""
-"If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
-" on average."
-msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 19,5 másodpercenként képes aranyércet termelni."
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/helptexts.lua:23
-msgctxt "barbarians_building"
-msgid ""
-"If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
-" on average."
-msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 18,5 másodpercenként képes aranyércet termelni."
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/helptexts.lua:23
+#. TRANSLATORS: Performance helptext for a barbarian production site: Deep
+#. Iron Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1570
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 39.5 seconds"
@@ -76,10 +59,29 @@ msgid ""
 msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 39,5 másodpercenként képes vasércet termelni."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/helptexts.lua:23
+#. TRANSLATORS: Performance helptext for a barbarian production site: Deeper
+#. Iron Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1583
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 17.6 seconds"
 " on average."
 msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 17,6 másodpercenként képes vasércet termelni."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for production site: Deep Gold Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1609
+msgctxt "barbarians_building"
+msgid ""
+"If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
+" on average."
+msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 19,5 másodpercenként képes aranyércet termelni."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for production site: Deeper Gold Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1622
+msgctxt "barbarians_building"
+msgid ""
+"If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
+" on average."
+msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 18,5 másodpercenként képes aranyércet termelni."

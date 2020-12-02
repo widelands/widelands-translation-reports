@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
 "widelands/language/pt_BR/)\n"
@@ -12,65 +12,66 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ax_workshop/helptexts.lua:13
-msgctxt "barbarians_building"
-msgid "Produces axes, sharp axes and broad axes."
-msgstr "Produz tecido para navios e soldados"
+#. TRANSLATORS: Helptext for an atlantean worker: Shipwright
+#: ../../data/tribes/initialization/atlanteans/units.lua:888
+msgctxt "atlanteans_worker"
+msgid "Works at the shipyard and constructs new ships."
+msgstr "Trabalha no Estaleiro naval onde constrói as novas embarcações"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/helptexts.lua:17
+#. TRANSLATORS: Helptext for an atlantean worker: Trainer
+#: ../../data/tribes/initialization/atlanteans/units.lua:1014
+msgctxt "atlanteans_worker"
+msgid "Trains the soldiers."
+msgstr "Treina os soldados"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an atlantean training site: Dungeon, part
+#. 1
+#: ../../data/tribes/initialization/atlanteans/units.lua:1594
 msgctxt "atlanteans_building"
 msgid "Trains soldiers in ‘Attack’."
 msgstr "Treina os soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:253
+#. TRANSLATORS: Helptext for a barbarian worker: Shipwright
+#: ../../data/tribes/initialization/barbarians/units.lua:617
+msgctxt "barbarians_worker"
+msgid "Works at the shipyard and constructs new ships."
+msgstr "Trabalha no Estaleiro naval onde constrói as novas embarcações"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a barbarian worker: Trainer
+#: ../../data/tribes/initialization/barbarians/units.lua:764
+msgctxt "barbarians_worker"
+msgid "Trains the soldiers."
+msgstr "Treina os soldados"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a barbarian production site: Ax Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1417
+msgctxt "barbarians_building"
+msgid "Produces axes, sharp axes and broad axes."
+msgstr "Produz tecido para navios e soldados"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Shipwright
+#: ../../data/tribes/initialization/empire/units.lua:651
+msgctxt "empire_worker"
+msgid "Works at the shipyard and constructs new ships."
+msgstr "Trabalha no Estaleiro naval onde constrói as novas embarcações"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Trainer
+#: ../../data/tribes/initialization/empire/units.lua:798
+msgctxt "empire_worker"
+msgid "Trains the soldiers."
+msgstr "Treina os soldados"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:458
 msgid "Vision range:"
 msgstr "Campo de visão"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Shipwright
-#: ../../data/tribes/workers/atlanteans/shipwright/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Works at the shipyard and constructs new ships."
-msgstr "Trabalha no Estaleiro naval onde constrói as novas embarcações"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Trainer
-#: ../../data/tribes/workers/atlanteans/trainer/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Trains the soldiers."
-msgstr "Treina os soldados"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Shipwright
-#: ../../data/tribes/workers/barbarians/shipwright/helptexts.lua:3
-msgctxt "barbarians_worker"
-msgid "Works at the shipyard and constructs new ships."
-msgstr "Trabalha no Estaleiro naval onde constrói as novas embarcações"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Trainer
-#: ../../data/tribes/workers/barbarians/trainer/helptexts.lua:3
-msgctxt "barbarians_worker"
-msgid "Trains the soldiers."
-msgstr "Treina os soldados"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Shipwright
-#: ../../data/tribes/workers/empire/shipwright/helptexts.lua:3
-msgctxt "empire_worker"
-msgid "Works at the shipyard and constructs new ships."
-msgstr "Trabalha no Estaleiro naval onde constrói as novas embarcações"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Trainer
-#: ../../data/tribes/workers/empire/trainer/helptexts.lua:3
-msgctxt "empire_worker"
-msgid "Trains the soldiers."
-msgstr "Treina os soldados"

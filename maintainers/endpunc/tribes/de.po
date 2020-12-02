@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-02 11:00+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-17 15:48+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,67 +12,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/discovery.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/discovery.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/discovery.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/discovery.lua:13
-msgid ""
-"Start the game with three ships on the ocean and only a handful of supplies"
-msgstr "Beginne das Spiel mit drei Schiffen auf dem Ozean und nur einer Hand voll an Gütern."
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Fortified Village" starting
 #. condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/fortified_village.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/fortified_village.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/fortified_village.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/fortified_village.lua:13
+#: ../../data/tribes/initialization/amazons/starting_conditions/fortified_village.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/fortified_village.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/fortified_village.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/fortified_village.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/fortified_village.lua:13
 msgid "Start the game with a fortified military installation"
 msgstr "Beginne das Spiel mit einer befestigten Militäranlage."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Headquarters" starting condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/headquarters.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/headquarters.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/headquarters.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/headquarters.lua:13
+#: ../../data/tribes/initialization/amazons/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/headquarters.lua:13
 msgid "Start the game with your headquarters only"
 msgstr "Beginne das Spiel nur mit deinem Hauptquartier."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "Poor Hamlet" (minimum) starting
-#. condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/poor_hamlet.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/poor_hamlet.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/poor_hamlet.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/poor_hamlet.lua:13
-msgid ""
-"Start the game with just a warehouse and the bare minimum for bootstrapping "
-"an economy. Warning: the AI can't successfully start from this"
-msgstr "Am Anfang des Spieles steht nur ein Lagerhaus und das absolute Minimum für den Aufbau einer Wirtschaft bereit. Warnung: Die KI kann damit nicht erfolgreich starten."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "Hardcore" starting condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/struggling_outpost.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/struggling_outpost.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/struggling_outpost.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/struggling_outpost.lua:13
-msgid ""
-"Start the game with just your headquarters and very few wares for "
-"bootstrapping an economy. Warning: the AI can't successfully start from this"
-msgstr "Am Anfang des Spieles stehen nur ein Hauptquartier und sehr wenige Waren für den Aufbau einer Wirtschaft bereit. Warnung: Die KI kann damit nicht erfolgreich starten."
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Trading Outpost" starting
 #. condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/trading_outpost.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/trading_outpost.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/trading_outpost.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/trading_outpost.lua:13
+#: ../../data/tribes/initialization/amazons/starting_conditions/trading_outpost.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/trading_outpost.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/trading_outpost.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/trading_outpost.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/trading_outpost.lua:13
 msgid ""
 "If this player runs low on important wares, they will be replenished for "
 "free"
@@ -80,9 +50,20 @@ msgstr "Wenn diesem Spieler wichtige Waren ausgehen, werden sie umsonst aufgefü
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Village" starting condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/village.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/village.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/village.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/village.lua:13
+#: ../../data/tribes/initialization/amazons/starting_conditions/village.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/village.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/village.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/village.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/village.lua:13
 msgid "Start the game with a peaceful village"
 msgstr "Beginne das Spiel mit einem friedlichen Dorf."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
+msgid ""
+"Start the game with three ships on the ocean and only a handful of supplies"
+msgstr "Beginne das Spiel mit drei Schiffen auf dem Ozean und nur einer Hand voll an Gütern."

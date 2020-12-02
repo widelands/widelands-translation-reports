@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2019-10-09 08:04+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-09-04 08:25+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_controls.lua:11
@@ -128,7 +128,7 @@ msgstr "概要"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_help.lua:59
-#: ../../data/scripting/editor/editor_introduction.lua:11
+#: ../../data/scripting/editor/editor_introduction.lua:10
 msgid "Introduction"
 msgstr "紹介"
 
@@ -149,14 +149,14 @@ msgid "Trees"
 msgstr "木々"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/editor_introduction.lua:13
+#: ../../data/scripting/editor/editor_introduction.lua:12
 msgid ""
 "This editor is intended for players who would like to design their own maps "
 "to use with Widelands."
 msgstr "このエディタは、Widelandsで使うマップをデザインする人のためのものです。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/editor_introduction.lua:14
+#: ../../data/scripting/editor/editor_introduction.lua:13
 msgid ""
 "As you can see, this editor is heavy work in progress and as the editor "
 "becomes better and better, this text will also get longer and more complete."
@@ -174,18 +174,21 @@ msgstr "デフォルト"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: A header in the editor help
-#: ../../data/scripting/editor/terrain_help.lua:72
+#: ../../data/scripting/editor/terrain_help.lua:55
+#: ../../data/scripting/editor/terrain_tooltip.lua:35
 msgid "Probability of trees growing"
 msgstr "樹木の成長確率"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/terrain_help.lua:77
+#: ../../data/scripting/editor/terrain_help.lua:60
+#: ../../data/scripting/editor/terrain_tooltip.lua:37
 msgid "No trees will grow here."
 msgstr "ここでは木々は育ちません。"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: A header in the editor help. Terrains preferred by a type of
 #. tree.
-#: ../../data/scripting/editor/tree_help.lua:19
+#: ../../data/scripting/editor/tree_help.lua:18
+#: ../../data/scripting/editor/tree_tooltip.lua:31
 msgid "Preferred terrains"
 msgstr "好む地形"

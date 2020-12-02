@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
@@ -12,34 +12,33 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:958
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
-msgid "Creating empty map…"
-msgstr "Creazione di una mappa vuota in corso..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:972
+#: ../../src/editor/editorinteractive.cc:977
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Caricamento della mappa \"%s\" in corso..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:184
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:176
 #, c-format
 msgid "Current: %s …"
 msgstr "Attualmente selezionati: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:122
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:367
 msgid "Hint (optional):"
 msgstr "Consiglio (opzionale)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:101
+msgid "Creating empty map…"
+msgstr "Creazione di una mappa vuota in corso..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
 msgid "Generating random map…"
 msgstr "Generazione di una mappa casuale in corso..."
 
@@ -54,7 +53,7 @@ msgstr "Clicca sulla mappa per aumentare l'elevazione del terreno, Shift + clicc
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor set height access key. *
 #: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:82
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:80
 msgid "Ctrl + Click on the map to set terrain height"
 msgstr "Ctrl + Clicca sulla mappa per fissare l'elevazione del terreno."
 
@@ -67,44 +66,33 @@ msgid ""
 msgstr "Clicca sulla mappa per aumentare l'ammontare della risorsa selezionata, Shift + clicca per diminuirlo."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:331
-msgid "Loading graphics"
-msgstr "Caricamento della grafica in corso..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
+#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
 msgid "Loading map…"
 msgstr "Caricamento della mappa in corso"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
-#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
-msgid "Loading…"
-msgstr "Caricamento in corso..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:797
+#: ../../src/network/gameclient.cc:816
 msgid "/me 's file failed md5 checksumming."
 msgstr "/me dice che il suo file non ha superato il controllo md5"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:307 ../../src/network/gamehost.cc:331
+#: ../../src/network/gamehost.cc:318 ../../src/network/gamehost.cc:342
 #, c-format
 msgid "The client %s could not be found."
 msgstr "Non è stato possibile trovare il client %s"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:161
+#: ../../src/network/network_gaming_messages.cc:160
 msgid "Client requests file although none is available to send."
 msgstr "Il client richiede un file sebbene non ve ne siano disponibili da inviare"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/intro.cc:33
-msgid "Press any key or click to continue…"
-msgstr "Premi un tasto qualunque o un click per continuare"
+#: ../../src/ui_basic/progresswindow.cc:62
+msgid "Loading…"
+msgstr "Caricamento in corso..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:343
+#: ../../src/ui_fsmenu/launch_mpg.cc:266
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
@@ -112,6 +100,6 @@ msgid ""
 msgstr "AVVERTIMENTO:\nIl salvataggio che hai selezionato è una directory. Questo succede se attivi l'opzione \"nozip\" o se scompatti manualmente un salvataggio.\nWidelands non è in grado di trasferire le strutture della directory ai client, seleziona un altro salvataggio o comprimi il contenuto delle directory"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:186
+#: ../../src/ui_fsmenu/options.cc:207
 msgid "Save game automatically every:"
 msgstr "Salvataggio automatico del gioco ogni"

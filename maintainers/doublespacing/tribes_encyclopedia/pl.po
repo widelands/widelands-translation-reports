@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
 "pl/)\n"
@@ -14,13 +14,22 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
 "12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
 " (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
+#. TRANSLATORS: Note helptext for an atlantean production site: Mill
+#: ../../data/tribes/initialization/atlanteans/units.lua:1464
+msgctxt "atlanteans_building"
 msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "\"Równie mocno kocha zwierzęta hodować,<br>\n\t\t\tjak my kochamy je jeść i przyrządzać.\""
+"When no cornmeal is required, the mill will try to produce blackroot flour "
+"even when there is no demand for it."
+msgstr "Jeśli nie potrzeba więcej kaszy kukurydzianej, młyn będzie  produkować mąkę korzenną niezależnie od tego, czy jest gdzieś potrzebna."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for a frisian ware: Beer
+#: ../../data/tribes/initialization/frisians/units.lua:212
+msgctxt "frisians_ware"
+msgid ""
+"Beer is produced in breweries and used in drinking halls to produce meals. "
+"Soldiers drink beer while receiving basic training."
+msgstr "Piwo jest produkowane w browarach i wykorzystywane w karczmach  do przygotowywania posiłków. Żołnierze piją piwo, kiedy otrzymują podstawowe szkolenie."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
@@ -12,20 +12,30 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
-# (pofilter) doublewords: The word 'savea' is repeated
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/helptexts.lua:16
-msgctxt "building"
+# (pofilter) doublewords: The word 'niitä' is repeated
+#. TRANSLATORS: Helptext for an atlantean ware: Shovel, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:599
+msgctxt "atlanteans_ware"
 msgid ""
-"Digs up mud from the ground and uses water to turn it into clay. Clay is "
-"used to make bricks, reinforce the charcoal kiln and to build ships."
-msgstr "Kaivaa mutaa maasta ja käyttää vettä tehdäkseen siitä savea. Savea käytetään tiilien teossa, miilun vahvistamiseen ja laivojen rakentamisessa."
+"Therefore the forester and the blackroot farmer use them. They are produced "
+"by the toolsmith."
+msgstr "Sen vuoksi metsänhoitaja ja mustajuuriviljelijä käyttävät niitä. Niitä tuottaa työkaluseppä."
+
+# (pofilter) doublewords: The word 'niitä' is repeated
+#. TRANSLATORS: Helptext for a barbarian ware: Shovel, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:347
+msgctxt "barbarians_ware"
+msgid ""
+"Therefore the gardener and the ranger use them. Produced at the metal "
+"workshop (but cease to be produced by the building if it is enhanced to an "
+"ax workshop and war mill)."
+msgstr "Sen vuoksi puutarhuri ja metsänvartija käyttävät niitä. Niitä tuotetaan metallipajassa (mutta tuotanto loppuu rakennuksessa, jos se laajennetaan kirverpahaksi ja asetehtaaksi)."
 
 # (pofilter) doublewords: The word 'sitä' is repeated
-#. TRANSLATORS: Helptext for a ware: Bronze Ax
-#: ../../data/tribes/wares/ax_bronze/helptexts.lua:4
+#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:474
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -35,8 +45,8 @@ msgid ""
 msgstr "Pronssikirvestä pidetään aseena, jota on vaikea käsitellä. Vain taitavat sotilaat voivat käyttää sitä. Sitä tuotetaan asetehtaassa ja käytetään harjoitusleirillä – ruuan kanssa – kouluttamaan sotilaita hyökkäystasolta 2 tasolle 3."
 
 # (pofilter) doublewords: The word 'kalaa' is repeated
-#. TRANSLATORS: Helptext for a ware: Fish
-#: ../../data/tribes/wares/fish/helptexts.lua:8
+#. TRANSLATORS: Helptext for an empire ware: Fish
+#: ../../data/tribes/initialization/empire/units.lua:139
 msgctxt "empire_ware"
 msgid ""
 "Besides bread and meat, fish is also a foodstuff for the Empire. Fish are "
@@ -44,29 +54,19 @@ msgid ""
 msgstr "Leivän ja lihan lisäksi Keisarikunnassa syödään myös kalaa. Kalaa käytetään krouveissa, kestikievareissa ja harjoittelupaikoilla (areena, colosseumi, harjoitteluleiri)."
 
 # (pofilter) doublewords: The word 'niitä' is repeated
-#. TRANSLATORS: Helptext for a ware: Shovel
-#: ../../data/tribes/wares/shovel/helptexts.lua:6
-msgctxt "atlanteans_ware"
-msgid ""
-"Therefore the forester and the blackroot farmer use them. They are produced "
-"by the toolsmith."
-msgstr "Sen vuoksi metsänhoitaja ja mustajuuriviljelijä käyttävät niitä. Niitä tuottaa työkaluseppä."
-
-# (pofilter) doublewords: The word 'niitä' is repeated
-#. TRANSLATORS: Helptext for a ware: Shovel
-#: ../../data/tribes/wares/shovel/helptexts.lua:8
-msgctxt "barbarians_ware"
-msgid ""
-"Therefore the gardener and the ranger use them. Produced at the metal "
-"workshop (but cease to be produced by the building if it is enhanced to an "
-"ax workshop and war mill)."
-msgstr "Sen vuoksi puutarhuri ja metsänvartija käyttävät niitä. Niitä tuotetaan metallipajassa (mutta tuotanto loppuu rakennuksessa, jos se laajennetaan kirverpahaksi ja asetehtaaksi)."
-
-# (pofilter) doublewords: The word 'niitä' is repeated
-#. TRANSLATORS: Helptext for a ware: Shovel
-#: ../../data/tribes/wares/shovel/helptexts.lua:10
+#. TRANSLATORS: Helptext for an empire ware: Shovel, part 2
+#: ../../data/tribes/initialization/empire/units.lua:373
 msgctxt "empire_ware"
 msgid ""
 "Therefore the forester and the vine farmer use them. They are produced by "
 "the toolsmith."
 msgstr "Sen vuoksi metsänhoitaja ja viinitarhuri käyttää niitä. Niitä tuottaa työkaluseppä."
+
+# (pofilter) doublewords: The word 'savea' is repeated
+#. TRANSLATORS: Purpose helptext for a frisian production site: Clay Pit
+#: ../../data/tribes/initialization/frisians/units.lua:1617
+msgctxt "building"
+msgid ""
+"Digs up mud from the ground and uses water to turn it into clay. Clay is "
+"used to make bricks, reinforce the charcoal kiln and to build ships."
+msgstr "Kaivaa mutaa maasta ja käyttää vettä tehdäkseen siitä savea. Savea käytetään tiilien teossa, miilun vahvistamiseen ja laivojen rakentamisessa."

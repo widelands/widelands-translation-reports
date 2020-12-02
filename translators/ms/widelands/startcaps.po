@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Malay (http://www.transifex.com/widelands/widelands/language/"
 "ms/)\n"
 "Language: ms\n"
@@ -12,18 +12,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:170
-#: ../../src/ui_fsmenu/launch_mpg.cc:608
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:427
 #, c-format
 msgid "%u Player"
 msgid_plural "%u Players"
 msgstr[0] "Pemain %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:1951
+#: ../../src/logic/map_objects/tribes/worker.cc:2046
 #, c-format
 msgid "Your %s can't find a way home and will likely die."
 msgstr "%s anda telah sesat dan berkemungkinan akan mati bila-bila masa."

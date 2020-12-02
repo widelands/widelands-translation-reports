@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-02 09:33+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-17 19:43+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,18 +12,79 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/blacksmithy/helptexts.lua:3
+#. TRANSLATORS: Helptext for an amazon ware: Bread
+#: ../../data/tribes/initialization/amazons/units.lua:188
+msgctxt "amazons_ware"
+msgid ""
+"This tasty bread is made in cookeries out of cassava root and water. It is "
+"the basic ingredient of a ration that is made by a food preserver. Soldiers "
+"like it too."
+msgstr "Dieses geschmackvolle Brot wird in Cassavawurzelküchen aus Cassavawurzeln und Wasser gebacken. Es ist die Grundzutat einer Ration die in der Nahrungsdarre haltbar gemacht wird. Kriegerinnen mögen es auch"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an amazon ware: Padded Vest
+#: ../../data/tribes/initialization/amazons/units.lua:477
+msgctxt "amazons_ware"
+msgid ""
+"Padded vests are light but durable armor. They are produced by the "
+"dressmaker and used to train soldiers’ defence from level 0 to level 1."
+msgstr "Gepolsterte Westen sind leichte aber widerstandsfähige Rüstungen. Sie werden in der Schneiderei gefertigt und dienen dazu die Verteidigung einer Kriegerin von Stufe 0 auf Stufe 1 auszubilden"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an amazon ware: Padded Protector
+#: ../../data/tribes/initialization/amazons/units.lua:488
+msgctxt "amazons_ware"
+msgid ""
+"Padded protectors are strong and durable armor. They are produced by the "
+"dressmaker and used to train soldiers’ defence from level 1 to level 2."
+msgstr "Gepolsterte Protektoren sind starke und widerstandsfähige Rüstungen. Sie werden in der Schneiderei gefertigt und dienen dazu die Verteidigung einer Kriegerin von Stufe 1 auf Stufe 2 auszubilden"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an amazon production site: Furnace
+#: ../../data/tribes/initialization/amazons/units.lua:1341
+msgctxt "amazons_building"
+msgid "Smelts gold dust into gold ingots using charcoal."
+msgstr "Schmilzt Goldstaub mit Holzkohle zu Goldbarren ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an amazon production site: Rare Tree
+#. Plantation
+#: ../../data/tribes/initialization/amazons/units.lua:1350
+msgctxt "amazons_building"
+msgid ""
+"Plants rare trees which are needed by the amazons, like balsa, rubber and "
+"ironwood."
+msgstr "Pflanzt seltene Bäume die von den Amazonen benötigt werden, wie Balsa-, Kautschuk- oder Eisenholzbäume"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:446
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Jagdspeere werden in der Schmiede produziert."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a frisian production site: Blacksmithy
+#: ../../data/tribes/initialization/frisians/units.lua:1747
 msgctxt "frisians_building"
 msgid "If you don’t have iron, change your name from blacksmith to lacksmith!"
 msgstr "Wenn du kein Eisen hast, ändere deinen Namen von „Schmied“ nach „Luftklopfer“."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/farm/helptexts.lua:11
+#. TRANSLATORS: Lore author helptext for a frisian production site: Reindeer
+#. Farm
+#: ../../data/tribes/initialization/frisians/units.lua:1921
+msgctxt "frisians_building"
+msgid ""
+"The reindeer breeder who first proposed using reindeer fur for clothing"
+msgstr "Der Rentierzüchter, der zuerst die Verwendung von Rentierfell für Gewänder vorgeschlagen hatte."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Farm
+#: ../../data/tribes/initialization/frisians/units.lua:1934
 msgctxt "frisians_building"
 msgid ""
 "A farmer’s reply when asked by his chieftain why he was planting such a "
@@ -31,17 +92,8 @@ msgid ""
 msgstr "Die Antwort eines Bauern, als sein Häuptling ihn fragte, warum er ein so langsam wachsendes Getreide anpflanzt"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/reindeer_farm/helptexts.lua:11
-msgctxt "frisians_building"
-msgid ""
-"The reindeer breeder who first proposed using reindeer fur for clothing"
-msgstr "Der Rentierzüchter, der zuerst die Verwendung von Rentierfell für Gewänder vorgeschlagen hatte."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building. "Yard" is a wordplay with the
-#. measurement unit
-#: ../../data/tribes/buildings/productionsites/frisians/shipyard/helptexts.lua:6
+#. TRANSLATORS: Lore helptext for a frisian production site: Shipyard
+#: ../../data/tribes/initialization/frisians/units.lua:2114
 msgctxt "frisians_building"
 msgid ""
 "This house may be called a shipyard, but my ships are rather longer than one"
@@ -49,13 +101,6 @@ msgid ""
 msgstr "Dieses Haus mag Werft genannt werden, aber die Schiffe hier kann mit Sicherheit keiner werfen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/immovable_help.lua:48
+#: ../../data/tribes/scripting/help/immovable_help.lua:51
 msgid "Requirements"
 msgstr "Voraussetzungen:"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Hunting Spear
-#: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
-msgctxt "frisians_ware"
-msgid "Hunting spears are produced by the blacksmithy"
-msgstr "Jagdspeere werden in der Schmiede produziert."

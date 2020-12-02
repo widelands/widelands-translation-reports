@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
@@ -34,15 +34,15 @@ msgstr "op geen enkele plaats in de bestandsnaam: %s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:506
+#: ../../src/logic/map_objects/tribes/production_program.cc:728
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s uitgevoerd want %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:512
-#: ../../src/logic/map_objects/tribes/production_program.cc:518
+#: ../../src/logic/map_objects/tribes/production_program.cc:734
+#: ../../src/logic/map_objects/tribes/production_program.cc:740
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s overgeslagen want %2$s"
@@ -51,7 +51,7 @@ msgstr "%1$s overgeslagen want %2$s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:874
+#: ../../src/logic/map_objects/tribes/production_program.cc:1325
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -62,7 +62,7 @@ msgstr[1] "%s geproduceerd"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:925
+#: ../../src/logic/map_objects/tribes/production_program.cc:1408
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -71,12 +71,12 @@ msgstr[1] "%s gerekruteerd"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Column title for number of players in map list
-#: ../../src/wui/maptable.cc:30
+#: ../../src/wui/maptable.cc:32
 msgid "Pl."
 msgstr "#S"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/savegamedeleter.cc:96
+#: ../../src/wui/savegamedeleter.cc:97
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
@@ -84,9 +84,7 @@ msgstr[0] "Kon %d opgeslagen spel niet verwijderen."
 msgstr[1] "Kon %d opgeslagen spellen niet verwijderen."
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate
-#. string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:127
+#: ../../src/wui/savegamedeleter.cc:128
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."

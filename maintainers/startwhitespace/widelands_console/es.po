@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2019-12-30 08:11+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-25 18:49+0000\n"
+"Last-Translator: Madkat Here\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:45
@@ -23,3 +23,21 @@ msgstr "Nota: Nuevos valores serán escritos en el archivo de configuración"
 #: ../../src/wlapplication_messages.cc:54
 msgid "                      Default is ~/.widelands"
 msgstr "Por defecto es ~/.widelands"
+
+# (pofilter) startwhitespace: Different whitespace at the start
+#: ../../src/wlapplication_messages.cc:56
+msgid "                      Default is %USERPROFILE%\\.widelands"
+msgstr "Por defecto es %USERPROFILE%/.widelands"
+
+# (pofilter) startwhitespace: Different whitespace at the start
+#: ../../src/wlapplication_messages.cc:58
+msgid ""
+" --localedir=DIRNAME  Use specified directory for the widelands\n"
+"                      locale files"
+msgstr "--localedir=DIRNAME Utiliza el directorio especificado para los archivos de idioma"
+
+# (pofilter) startwhitespace: Different whitespace at the start
+#: ../../src/wlapplication_messages.cc:94
+msgid ""
+" --fail-on-lua-error  Force Widelands to crash when a Lua error occurs."
+msgstr "--fail-on-lua-error Obliga a Widelands a cerrarse cuando se produce un error de Lua."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
@@ -12,70 +12,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/atlanteans/mill/helptexts.lua:21
-msgctxt "atlanteans_building"
-msgid ""
-"When no cornmeal is required, the mill will try to produce blackroot flour "
-"even when there is no demand for it."
-msgstr "Quand la farine de maïs n'est plus nécessaire, le moulin essaiera de   de produire de la farine de racine noire même si il n'y a pas de demande pour."
+#. TRANSLATORS: Lore helptext for a frisian building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an amazon building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an empire building: Dismantle Site
+#. TRANSLATORS: Lore helptext for a barbarian building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an atlantean building: Dismantle Site
+#: ../../data/tribes/initialization/amazons/units.lua:1584
+#: ../../data/tribes/initialization/atlanteans/units.lua:1702
+#: ../../data/tribes/initialization/barbarians/units.lua:1785
+#: ../../data/tribes/initialization/empire/units.lua:1562
+#: ../../data/tribes/initialization/frisians/units.lua:2151
+msgctxt "building"
+msgid "‘New paths will appear when you are willing to tear down the old.’"
+msgstr "De nouveaux chemins apparaîtrons  quand vous voudrez détruire l'ancien."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "«&nbsp;Il aime les animaux et les élève<br>\ncomme nous aimons les cuisiner et les manger.&nbsp;»"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore author helptext for a granite mine building, part 2
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/helptexts.lua:12
-msgctxt "barbarians_building"
-msgid ""
-"The same man had all the 244 granite blocks ready only a week later, and "
-"they still fortify the city’s levee."
-msgstr "Ce même homme avait les 244 blocs de granite prêt une semaine seulement, et ils fortifient encore  la digue de la citée."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/helptexts.lua:6
-msgctxt "frisians_building"
-msgid ""
-"Of course I could still forge short and long swords, but it is beneath my "
-"honor to bother with such basic equipment now."
-msgstr "Naturellement, je peux encore forger des épées courtes et longues, mais ce serai me déshonorer  que de m’embêter avec de l'équipement si basique désormais."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:121
-msgid "Jump to the location corresponding to the current message"
-msgstr "Saute vers la location correspondante  au message actuel"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Granite
-#: ../../data/tribes/wares/granite/helptexts.lua:10
-msgctxt "frisians_ware"
-msgid ""
-"The Frisians produce granite blocks in quarries and rock mines. They can be "
-"refined in a brick kiln."
-msgstr "Les Frisons produisent des blocs de granit dans les carrières et les mines de granit. Ils peuvent être raffinés dans un four à  brique."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Hammer
-#: ../../data/tribes/wares/hammer/helptexts.lua:10
-msgctxt "empire_ware"
-msgid ""
-"Geologists, builders, weaponsmiths and armorsmiths all need a hammer. Make "
-"sure you’ve always got some in reserve! They are produced by the toolsmith."
-msgstr "Les géologues, les bâtisseurs, et les forgerons ont tous besoin d'un marteau.  Tâchez de toujours en avoir en réserve&nbsp;! Ils sont produits dans les forges d'outils."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Log
-#: ../../data/tribes/wares/log/helptexts.lua:6
+#. TRANSLATORS: Helptext for an atlantean ware: Log, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:350
 msgctxt "atlanteans_ware"
 msgid ""
 "Atlanteans use logs also as the base for planks, which are used in nearly "
@@ -84,18 +40,18 @@ msgid ""
 msgstr "Les Atlantes utilisent également les troncs comme base pour fabriquer les  planches, qui sont utilisées dans presque tous les bâtiments. La scierie, le four à charbon, le forgeron d'outils et le fumoir ont aussi besoin de bois pour leur travail."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Log
-#: ../../data/tribes/wares/log/helptexts.lua:12
-msgctxt "empire_ware"
+#. TRANSLATORS: Helptext for an atlantean ware: Spidercloth
+#: ../../data/tribes/initialization/atlanteans/units.lua:384
+msgctxt "atlanteans_ware"
 msgid ""
-"Imperial lumberjacks fell the trees; foresters take care of the supply of "
-"trees. Logs are also used by the charcoal kiln, the toolsmithy and the "
-"sawmill."
-msgstr "Les bûcherons impériaux abattent les arbres&nbsp;  les sylviculteurs en plantent de nouveaux. Les troncs sont également utilisés par le four à charbon, la forge d'outils et le moulin de guerre."
+"Spidercloth is made out of spider silk in a weaving mill. It is used in the "
+"toolsmithy and the shipyard. Also some higher developed buildings need "
+"spidercloth for their construction."
+msgstr "L'étoffe en soie d'araignée est fabriquée à partir de soie d'araignée dans un atelier de tissage. Certains bâtiments plus avancés ont aussi besoin d'étoffe en soie  d'araignée pour leur construction."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Smoked Meat
-#: ../../data/tribes/wares/smoked_meat/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Smoked Meat
+#: ../../data/tribes/initialization/atlanteans/units.lua:425
 msgctxt "atlanteans_ware"
 msgid ""
 "Smoked meat is made out of meat in a smokery. It is delivered to the mines "
@@ -104,11 +60,64 @@ msgid ""
 msgstr "La viande fumée est faite à base de viande dans une fumerie. Elle est délivrée dans les mines et sites d'entraînement (labyrinthe et  dongeon) où les mineurs et soldats se préparent des déjeuners nutritifs."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Spidercloth
-#: ../../data/tribes/wares/spidercloth/helptexts.lua:4
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Note helptext for an atlantean production site: Mill
+#: ../../data/tribes/initialization/atlanteans/units.lua:1464
+msgctxt "atlanteans_building"
 msgid ""
-"Spidercloth is made out of spider silk in a weaving mill. It is used in the "
-"toolsmithy and the shipyard. Also some higher developed buildings need "
-"spidercloth for their construction."
-msgstr "L'étoffe en soie d'araignée est fabriquée à partir de soie d'araignée dans un atelier de tissage. Certains bâtiments plus avancés ont aussi besoin d'étoffe en soie  d'araignée pour leur construction."
+"When no cornmeal is required, the mill will try to produce blackroot flour "
+"even when there is no demand for it."
+msgstr "Quand la farine de maïs n'est plus nécessaire, le moulin essaiera de   de produire de la farine de racine noire même si il n'y a pas de demande pour."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Lore author helptext for a barbarian production site: Granite
+#. Mine, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:1490
+msgctxt "barbarians_building"
+msgid ""
+"The same man had all the 244 granite blocks ready only a week later, and "
+"they still fortify the city’s levee."
+msgstr "Ce même homme avait les 244 blocs de granite prêt une semaine seulement, et ils fortifient encore  la digue de la citée."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for an empire ware: Log, part 2
+#: ../../data/tribes/initialization/empire/units.lua:94
+msgctxt "empire_ware"
+msgid ""
+"Imperial lumberjacks fell the trees; foresters take care of the supply of "
+"trees. Logs are also used by the charcoal kiln, the toolsmithy and the "
+"sawmill."
+msgstr "Les bûcherons de l'Empire abattent les arbres&nbsp;  les sylviculteurs en plantent de nouveaux. Les troncs sont également utilisés par le four à charbon, la forge d'outils et le moulin de guerre."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for an empire ware: Hammer, part 2
+#: ../../data/tribes/initialization/empire/units.lua:386
+msgctxt "empire_ware"
+msgid ""
+"Geologists, builders, weaponsmiths and armorsmiths all need a hammer. Make "
+"sure you’ve always got some in reserve! They are produced by the toolsmith."
+msgstr "Les géologues, les bâtisseurs, et les forgerons ont tous besoin d'un marteau.  Tâchez de toujours en avoir en réserve&nbsp;! Ils sont produits dans les forges d'outils."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for a frisian ware: Granite, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:101
+msgctxt "frisians_ware"
+msgid ""
+"The Frisians produce granite blocks in quarries and rock mines. They can be "
+"refined in a brick kiln."
+msgstr "Les Frisons produisent des blocs de granit dans les carrières et les mines de granit. Ils peuvent être raffinés dans un four à  brique."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Lore helptext for a frisian production site: Large Armor
+#. Smithy
+#: ../../data/tribes/initialization/frisians/units.lua:1771
+msgctxt "frisians_building"
+msgid ""
+"Of course I could still forge short and long swords, but it is beneath my "
+"honor to bother with such basic equipment now."
+msgstr "Naturellement, je peux encore forger des épées courtes et longues, mais ce serai me déshonorer  que de m’embêter avec de l'équipement si basique désormais."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: This is the helptext for an access key combination.
+#: ../../data/tribes/scripting/help/controls.lua:125
+msgid "Jump to the location corresponding to the current message"
+msgstr "Saute vers la location correspondante  au message actuel"

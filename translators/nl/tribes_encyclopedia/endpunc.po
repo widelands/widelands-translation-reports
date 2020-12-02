@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
@@ -12,21 +12,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Smoked Meat
-#: ../../data/tribes/wares/smoked_meat/helptexts.lua:4
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Helptext for a frisian immovable: Ashes
+#. TRANSLATORS: Helptext for a frisian immovable: Destroyed Building
+#. TRANSLATORS: Helptext for an amazon immovable: Ashes
+#. TRANSLATORS: Helptext for an amazon immovable: Destroyed Building
+#. TRANSLATORS: Helptext for an empire immovable: Ashes
+#. TRANSLATORS: Helptext for an empire immovable: Destroyed Building
+#. TRANSLATORS: Helptext for a barbarian immovable: Ashes
+#. TRANSLATORS: Helptext for a barbarian immovable: Destroyed Building
+#. TRANSLATORS: Helptext for an atlantean immovable: Ashes
+#. TRANSLATORS: Helptext for an atlantean immovable: Destroyed Building
+#: ../../data/tribes/initialization/amazons/units.lua:743
+#: ../../data/tribes/initialization/amazons/units.lua:750
+#: ../../data/tribes/initialization/atlanteans/units.lua:1047
+#: ../../data/tribes/initialization/atlanteans/units.lua:1124
+#: ../../data/tribes/initialization/barbarians/units.lua:790
+#: ../../data/tribes/initialization/barbarians/units.lua:797
+#: ../../data/tribes/initialization/empire/units.lua:831
+#: ../../data/tribes/initialization/empire/units.lua:838
+#: ../../data/tribes/initialization/frisians/units.lua:885
+#: ../../data/tribes/initialization/frisians/units.lua:892
+msgid "The remains of a destroyed building."
+msgstr "De restanten van een gesloopt gebouw"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for a barbarian training site: Battle
+#. Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1643
+msgctxt "barbarians_building"
 msgid ""
-"Smoked meat is made out of meat in a smokery. It is delivered to the mines "
-"and training sites (labyrinth and dungeon) where the miners and soldiers "
-"prepare a nutritious lunch for themselves."
-msgstr "Gerookt vlees word gemaakt van vlees in een Rookerij. het word geleverd aan mijnen en trainings complexen (labyrinth and kerker (dungeon))"
+"If all needed wares are delivered in time, a battle arena can train evade "
+"for one soldier from 0 to the highest level in %1$s and %2$s on average."
+msgstr "Als alle benodigde waren op tijd worden geleverd, kan een gevechtsarena gemiddeld in %1$s en %2$s één soldaat van 0 tot het hoogste niveau trainen in ontwijken"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Carpenter
-#: ../../data/tribes/workers/empire/carpenter/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Carpenter
+#: ../../data/tribes/initialization/empire/units.lua:609
 msgctxt "empire_worker"
 msgid "Works in the sawmill."
 msgstr "Werkt in de houtzagerij"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Large
+#. Armor Smithy
+#: ../../data/tribes/initialization/frisians/units.lua:1773
+msgctxt "frisians_building"
+msgid ""
+"A master blacksmith refusing to forge anything but the most sophisticated "
+"helmets and weapons"
+msgstr "Een meestersmid die weigert alles behalve de meest geavanceerde helmen en wapens te smeden."

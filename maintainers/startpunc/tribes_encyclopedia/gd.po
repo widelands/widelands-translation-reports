@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-12 15:13+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
@@ -13,99 +13,276 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ax_workshop/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/warmill/helptexts.lua:3
+#. TRANSLATORS: Helptext for a frisian ware: Log, part 1
+#. TRANSLATORS: Helptext for an amazon ware: Log, part 1
+#. TRANSLATORS: Helptext for an empire ware: Log, part 1
+#. TRANSLATORS: Helptext for a barbarian ware: Log, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Log, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:74
+#: ../../data/tribes/initialization/atlanteans/units.lua:348
+#: ../../data/tribes/initialization/barbarians/units.lua:99
+#: ../../data/tribes/initialization/empire/units.lua:92
+#: ../../data/tribes/initialization/frisians/units.lua:86
+msgctxt "ware"
+msgid ""
+"Logs are an important basic building material. They are produced by felling "
+"trees."
+msgstr "’S e stuth togail bunasach a tha san fhiodh. Leagaidh tu craobhan gus fhaighinn."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a frisian ware: Granite, part 1
+#. TRANSLATORS: Helptext for an amazon ware: Granite, part 1
+#. TRANSLATORS: Helptext for an empire ware: Granite, part 1
+#. TRANSLATORS: Helptext for a barbarian ware: Granite, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Granite, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:87
+#: ../../data/tribes/initialization/atlanteans/units.lua:336
+#: ../../data/tribes/initialization/barbarians/units.lua:87
+#: ../../data/tribes/initialization/empire/units.lua:80
+#: ../../data/tribes/initialization/frisians/units.lua:99
+msgctxt "ware"
+msgid "Granite is a basic building material."
+msgstr "’S e stuth togail bunasach a th’ anns a’ ghaireal."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an amazon ware: Balsa
+#: ../../data/tribes/initialization/amazons/units.lua:100
+msgctxt "amazons_ware"
+msgid ""
+"Balsa wood is an important building material. It is also used to make light "
+"armor. Balsa trees are cut by an experienced woodcutter."
+msgstr "’S e stuth togail cudromach ’s a th’ anns an fhiodh-bhalsa. Thèid a chleachdadh airson armachd aotrom cuideachd. Leagaidh sàr-bhuaineadair-fiodha craobhan-balsa."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an amazon ware: Rubber
+#: ../../data/tribes/initialization/amazons/units.lua:122
+msgctxt "amazons_ware"
+msgid ""
+"Rubber is important for making warriors’ armor and shoes. Rubber trees are "
+"collected by experienced woodcutters."
+msgstr "’S e stuth cudromach a th’ anns an rubair airson armachd is brògan a dhèanamh dha na bana-ghaisgich. Cruinnichidh sàr-bhuaineadairean-fiodha na craobhan-rubair."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a frisian ware: Felling Ax, part 1
+#. TRANSLATORS: Helptext for an amazon ware: Felling Ax, part 1
+#. TRANSLATORS: Helptext for an empire ware: Felling Ax, part 1
+#. TRANSLATORS: Helptext for a barbarian ware: Felling Ax, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:299
+#: ../../data/tribes/initialization/barbarians/units.lua:332
+#: ../../data/tribes/initialization/empire/units.lua:349
+#: ../../data/tribes/initialization/frisians/units.lua:396
+msgctxt "ware"
+msgid "The felling ax is the tool to chop down trees."
+msgstr "’S e acainn a th’ anns an tuagh leagail gus craobhan a leagail."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a frisian ware: Hammer, part 1
+#. TRANSLATORS: Helptext for an amazon ware: Hammer, part 1
+#. TRANSLATORS: Helptext for an empire ware: Hammer, part 1
+#. TRANSLATORS: Helptext for a barbarian ware: Hammer, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Hammer, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:325
+#: ../../data/tribes/initialization/atlanteans/units.lua:610
+#: ../../data/tribes/initialization/barbarians/units.lua:358
+#: ../../data/tribes/initialization/empire/units.lua:384
+#: ../../data/tribes/initialization/frisians/units.lua:422
+msgctxt "ware"
+msgid "The hammer is an essential tool."
+msgstr "’S e acainn riatanach a th’ anns an òrd."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a frisian building: Construction Site
+#. TRANSLATORS: Lore helptext for an amazon building: Construction Site
+#. TRANSLATORS: Lore helptext for an empire building: Construction Site
+#. TRANSLATORS: Lore helptext for a barbarian building: Construction Site
+#. TRANSLATORS: Lore helptext for an atlantean building: Construction Site
+#: ../../data/tribes/initialization/amazons/units.lua:1573
+#: ../../data/tribes/initialization/atlanteans/units.lua:1691
+#: ../../data/tribes/initialization/barbarians/units.lua:1774
+#: ../../data/tribes/initialization/empire/units.lua:1551
+#: ../../data/tribes/initialization/frisians/units.lua:2140
+msgctxt "building"
+msgid "‘Don’t swear at the builder who is short of building materials.’"
+msgstr "“Na càin am fear-togail air a bheil dìth stuthan togail.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a frisian building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an amazon building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an empire building: Dismantle Site
+#. TRANSLATORS: Lore helptext for a barbarian building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an atlantean building: Dismantle Site
+#: ../../data/tribes/initialization/amazons/units.lua:1584
+#: ../../data/tribes/initialization/atlanteans/units.lua:1702
+#: ../../data/tribes/initialization/barbarians/units.lua:1785
+#: ../../data/tribes/initialization/empire/units.lua:1562
+#: ../../data/tribes/initialization/frisians/units.lua:2151
+msgctxt "building"
+msgid "‘New paths will appear when you are willing to tear down the old.’"
+msgstr "“Nochdaidh slighean ùra dhut le milleadh na seann-fheadhna.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an empire ware: Planks, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Planks, part 1
+#: ../../data/tribes/initialization/atlanteans/units.lua:361
+#: ../../data/tribes/initialization/empire/units.lua:105
+msgctxt "ware"
+msgid "Planks are an important building material."
+msgstr "’S e stuth togail cudromach a th’ anns na maidean."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an atlantean ware: Fish
+#: ../../data/tribes/initialization/atlanteans/units.lua:395
+msgctxt "atlanteans_ware"
+msgid ""
+"Fish is one of the biggest food resources of the Atlanteans. It has to be "
+"smoked in a smokery before being delivered to mines, training sites and "
+"scouts."
+msgstr "’S e aon dhe na stòrasan bìdh as motha aig na h-Atlantaich a th’ anns na h-èisg. Feumaidh tu an toiteadh ann an taigh-toitidh mus lìbhrig thu dha na mèinnean, ionadan-oideachaidh is rabhadairean iad."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a frisian ware: Fire Tongs, part 1
+#. TRANSLATORS: Helptext for an empire ware: Fire Tongs, part 1
+#. TRANSLATORS: Helptext for a barbarian ware: Fire Tongs, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Fire Tongs, part 1
+#: ../../data/tribes/initialization/atlanteans/units.lua:694
+#: ../../data/tribes/initialization/barbarians/units.lua:432
+#: ../../data/tribes/initialization/empire/units.lua:467
+#: ../../data/tribes/initialization/frisians/units.lua:492
+msgctxt "ware"
+msgid "Fire tongs are the tools for smelting ores."
+msgstr "’S e acainn airson clach-mhèinneir a leaghadh a tha sa chlobha teine."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an atlantean ware: Long Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:718
+msgctxt "atlanteans_ware"
+msgid ""
+"The long trident is the first trident in the training of soldiers. It is "
+"produced in the weapon smithy and used in the dungeon – together with food –"
+" to train soldiers from attack level 0 to level 1."
+msgstr "’S e a’ chiad mhuirgheadh a thèid a chleachdadh gus saighdearan oideachadh th’ anns a mhuirgheadh fhada. Saothraichidh tu sa cheàrdach arm i is thèid a cleachdadh san toll-dubh – le biadh – gus ionnsaigh nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an atlantean ware: Double Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:736
+msgctxt "atlanteans_ware"
+msgid ""
+"The double trident is one of the best tridents produced by the Atlantean "
+"weapon smithy. It is used in a dungeon – together with food – to train "
+"soldiers from attack level 2 to level 3."
+msgstr "’S e aon dhe na muirgheadhan as fheàrr a nì ceàrdach arm nan Atlantach a th’ anns a mhuirgheadh dhùbailte. Thèid a cleachdadh san toll-dubh – le biadh – gus ionnsaigh nan saighdearan oideachadh o leibheil 2 gu leibheil 3."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an atlantean ware: Tabard
+#: ../../data/tribes/initialization/atlanteans/units.lua:772
+msgctxt "atlanteans_ware"
+msgid ""
+"A tabard and a light trident are the basic equipment for young soldiers. "
+"Tabards are produced in the weaving mill."
+msgstr "’S e acainn bhunasach nan saighdearan òga a th’ anns an lèine is muirgheadh aotrom. Nì thu lèintean ann an taigh nam beart."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Note helptext for an atlantean warehouse: Headquarters
+#: ../../data/tribes/initialization/atlanteans/units.lua:1339
+msgctxt "atlanteans_building"
+msgid "The headquarters is your main building."
+msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for an atlantean production site: Fish Breeder's
+#. House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1402
+msgctxt "atlanteans_building"
+msgid ""
+"‘Only after the last duck has been shot down<br>Only after the last deer has"
+" been put to death<br>Only after the last fish has been caught<br>Then will "
+"you find that spiders are not to be eaten.’"
+msgstr "“Ma bhios an guga mu dheireadh air a ghlacadh<br>Ma bhios an damh mu dheireadh air a mharbhadh<br>Nuair a bhios an t-iasg mu dheireadh air a thoiteadh<br>’S ann an uairsin gun tuig thu nach bù chòir damhan-allaidh ithe.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a barbarian ware: Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:447
+msgctxt "barbarians_ware"
+msgid ""
+"The ax is the basic weapon of the Barbarians. All young soldiers are "
+"equipped with it."
+msgstr "’S e an t-arm bunasach aig na Tùsanaich a th’ anns an tuagh. Beiridh gach saighdear òg tè."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a barbarian ware: Helmet
+#: ../../data/tribes/initialization/barbarians/units.lua:501
+msgctxt "barbarians_ware"
+msgid ""
+"A helmet is a basic tool to protect soldiers. It is produced in the helm "
+"smithy and used in the training camp – together with food – to train "
+"soldiers from health level 0 to level 1."
+msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus saighdearan a dhìon. Saothraichidh tu ann an ceàrdach chlogaidean i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a barbarian ware: Mask
+#: ../../data/tribes/initialization/barbarians/units.lua:510
+msgctxt "barbarians_ware"
+msgid ""
+"A mask is an enhanced armor for Barbarian soldiers. It is produced in the "
+"helm smithy and used in the training camp – together with food – to train "
+"soldiers from health level 1 to level 2."
+msgstr "’S e armachd leasaichte a th’ anns an aghaidh-choimheach gus saighdearan nan Tùsanach a dhìon. Saothraichidh tu ann an ceàrdach chlogaidean i is thèid a cleachdadh ann an campa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 1 gu leibheil 2."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a Barbarian resource indicator: Stones, part 1
+#: ../../data/tribes/initialization/barbarians/units.lua:915
+#: ../../data/tribes/initialization/barbarians/units.lua:959
+msgid ""
+"Granite is a basic building material and can be dug up by a granite mine."
+msgstr "’S e stuth togail bunasach a tha sa ghaireal agus tochlaidh mèinn gaireil e."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian warehouse: Headquarters
+#: ../../data/tribes/initialization/barbarians/units.lua:1073
 msgctxt "barbarians_building"
 msgid ""
-"‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
-"its maker.’"
-msgstr "“Nì tuagh as fheàrr an gaisgeach a bhuaileas.”"
+"‘Steep like the slopes of Kal’mavrath, shiny like the most delicate armor "
+"and strong like our ancestors, that’s how the headquarters of Chat’Karuth "
+"presented itself to us.’"
+msgstr "“Cas mar sliabh Chal’mabhraid, gleansach mar an armachd as snasaile agus treun mar ur sinnsearan, seo an coltas a bha air prìomh-àras Chat’Charuid dhuinn.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ax_workshop/helptexts.lua:18
+#. TRANSLATORS: Note helptext for a barbarian warehouse: Headquarters
+#: ../../data/tribes/initialization/barbarians/units.lua:1079
+#: ../../data/tribes/initialization/barbarians/units.lua:1088
+msgctxt "barbarians_building"
+msgid "The headquarters is your main building."
+msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian warehouse: Warehouse
+#: ../../data/tribes/initialization/barbarians/units.lua:1095
+msgctxt "barbarians_building"
+msgid "‘Who still owns a warehouse is not yet defeated!’"
+msgstr "“Chan fhulaing am fear aig a bheil taigh-stòrais ruaig!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian warehouse: Port
+#: ../../data/tribes/initialization/barbarians/units.lua:1106
 msgctxt "barbarians_building"
 msgid ""
-"The Barbarian ax workshop is the intermediate production site in a series of"
-" three buildings. It is enhanced from the metal workshop but doesn’t require"
-" additional qualification for the worker."
-msgstr "’S e an togalach air ìre meadhanach ann an sreath de thrì togalaichean a th’ ann an ceàrdach thuaghan nan Tùsanach. Thèid a leasachadh on cheàrdach meatailt ach chan eil eòlas sònraichte a dhìth air a’ ghobha."
+"‘I prefer the planks of a ship to any fortress, no matter how strong it is.’"
+msgstr "“’S fheàrr leam long seach dùn is coma leat dè cho daingean ’s a tha e.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian production site: Quarry
+#: ../../data/tribes/initialization/barbarians/units.lua:1119
 msgctxt "barbarians_building"
-msgid "‘What do you mean, my fish ain’t fresh?!’"
-msgstr "“B’ àill leat, nach eil an t-iasg agam ùr?!”"
+msgid "‘We open up roads and make houses from mountains.’"
+msgstr "“Fosglaidh sin rathaidean is nì sinn taighean às na beanntan.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "“Is esan a bhrideas<br>is sinne a dh’itheas.”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
-"sun, wrought into eternity…’"
-msgstr "“Sùbailte bog.<br>Ach slàn on t-àm is aimsir.<br>Gathan na grèine ceàrdail gu sìorraidh…”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
-msgstr "“’S urrainn dhomh tòrr gaireil fhulang, a dhuine, ach nach ist thu a-nis.”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
-"arrow,<br> as deadly as a viper.’"
-msgstr "“Cho sàmhach ri cat,<br> cho tapaidh ri neas,<br> cho luath ri saighead,<br> cho marbhtach ri nathair.”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/helptexts.lua:8
-msgctxt "barbarians_building"
-msgid "‘The Art of Hunting’"
-msgstr "“Ealan an t-seilg”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘I look at my own pick wearing away day by day and I realize why my work is "
-"important.’"
-msgstr "“Bheir mi sùil air a’ phiocaid agam a chaitheas mi beag air bheag gach latha is mothaichidh mi carson a tha an obair agam cudromach.”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/lime_kiln/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid "‘Forming new stone from old with fire and water.’"
-msgstr "“A’ dèanamh clach ùr o sheann tè le teine is uisge.”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian production site: Lumberjack_s
+#. Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1134
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -114,15 +291,179 @@ msgid ""
 msgstr "“Thoir 200 bhuille gus craobh a leagail is nach tusa an leanabh. Thoir 100 dhiubh is tu ’nad shaighdear. Thoir 50 dhiubh is nach tusa an gaisgeach. Thoir 20 is chan fhada gus am bi thu nad choilltear.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/metal_workshop/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian production site: Ranger's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1150
+msgctxt "barbarians_building"
+msgid ""
+"‘He who can grow two trees where normally only one will grow exceeds the "
+"most important general!’"
+msgstr "“Is am fear a dh’fhàsas dà chraobh far nach fhàsadh ach aon nas cudromaiche na ceannard!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Fisher's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1165
+msgctxt "barbarians_building"
+msgid "‘What do you mean, my fish ain’t fresh?!’"
+msgstr "“B’ àill leat, nach eil an t-iasg agam ùr?!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1180
+msgctxt "barbarians_building"
+msgid ""
+"‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
+"arrow,<br> as deadly as a viper.’"
+msgstr "“Cho sàmhach ri cat,<br> cho tapaidh ri neas,<br> cho luath ri saighead,<br> cho marbhtach ri nathair.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore author helptext for a barbarian production site: Hunter's
+#. Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1182
+msgctxt "barbarians_building"
+msgid "‘The Art of Hunting’"
+msgstr "“Ealan an t-seilg”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Gamekeeper's
+#. Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1195
+msgctxt "barbarians_building"
+msgid ""
+"‘He loves the animals and to breed them<br>as we love to cook and eat them.’"
+msgstr "“Is esan a bhrideas<br>is sinne a dh’itheas.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Well
+#: ../../data/tribes/initialization/barbarians/units.lua:1208
+msgctxt "barbarians_building"
+msgid ""
+"‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
+"and lets the earth drink.’"
+msgstr "“Nach àlainn tobar nam beò<br>a bheir òl don ùir<br>a’ tùirling on iarmailt.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Scout's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1221
+msgctxt "barbarians_building"
+msgid ""
+"‘Behind the next hill there might be wealth and happiness but also hostility"
+" and doom.<br>He who will not explore it commits the crime of stupidity.’"
+msgstr "“Dh’fhaoidte gun lorg sinn saoibhreas is sìth taobh thall a’ chnuic no dh’fhaoidte gun lorg sinn nàimhdeas is bàs.<br>Is gòrach am fear nach dèan rùrachadh.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Wood Hardener
+#: ../../data/tribes/initialization/barbarians/units.lua:1234
+msgctxt "barbarians_building"
+msgid ""
+"‘Then he hit the door with his ax and, behold,<br>the door only trembled, "
+"but the shaft of the ax burst into a thousand pieces.’"
+msgstr "“Bhuail e ris an doras leis an tuagh aige agus gu sealladh sealbh ort!<br>Cha do chuir seo ach crith air an doras ach bhris làmh na tuaighe ’na mhìle mìrean.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Reed Yard
+#: ../../data/tribes/initialization/barbarians/units.lua:1246
+msgctxt "barbarians_building"
+msgid "‘We grow roofs’"
+msgstr "“Fàsaidh sinn mullaich”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Note helptext for a barbarian production site: Reed Yard
+#: ../../data/tribes/initialization/barbarians/units.lua:1252
+msgctxt "barbarians_building"
+msgid ""
+"Reed is the traditional material for roofing, and it is woven into the "
+"extremely durable cloth that they use for their ships’ sails."
+msgstr "’S e an stuth tradaiseanta gus mullaichean a thogail a th’ anns an fheur agus thèid an clò buan a dhèanamh dheth a chleachdar gus siùil nan longan fhighe."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Lime Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1261
+msgctxt "barbarians_building"
+msgid "‘Forming new stone from old with fire and water.’"
+msgstr "“A’ dèanamh clach ùr o sheann tè le teine is uisge.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Bakery
+#: ../../data/tribes/initialization/barbarians/units.lua:1276
+msgctxt "barbarians_building"
+msgid ""
+"‘He who has enough bread will never be too tired to dig the ore and wield "
+"the ax.’"
+msgstr "“Am fear aig a bheil aran gu leòr, cha bhi e ro sgìth airson an clach a thochladh no an tuagh iomairt.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Micro Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1289
+msgctxt "barbarians_building"
+msgid ""
+"‘Let the first one drive away the hunger, the second one put you at ease; "
+"when you have swallowed up your third one, it’s time for the next shift!’"
+msgstr "“Falbhaidh an t-acras leis a’ chiad fhear is bidh thu air do shocair leis an dàrna fear; nuair a bhios tu air trì dhiubh òl, thig an t-àm gus tilleadh dhan obair!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1302
+msgctxt "barbarians_building"
+msgid ""
+"‘When the Barbarian was created,<br>this was the first thing that he "
+"stated:<br>“You want me fighting without fear?<br>Then you should create "
+"some beer!”’"
+msgstr "“Nuair a chruthaicheadh an Tùsanach<br>seo a’ chiad rud a thuirt e ann:<br>‘An dèan mi sabaid gun eagal dhut?<br>Nì ma chuireas tu leann ’nam bhrù!’”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Tavern
+#: ../../data/tribes/initialization/barbarians/units.lua:1316
+msgctxt "barbarians_building"
+msgid "‘Fresh from the countryside: Bread, fish or game to go.’"
+msgstr "“Ùr ’s ionadail: aran, iasg no sitheann blasta.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Inn
+#: ../../data/tribes/initialization/barbarians/units.lua:1327
+msgctxt "barbarians_building"
+msgid "‘Miner’s Delight: Pitta bread with fish or meat, comes with one beer.’"
+msgstr "“Sòlas a’ mhèinneir: aran tur le iasg no sitheann agus leann.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Big Inn
+#: ../../data/tribes/initialization/barbarians/units.lua:1338
+msgctxt "barbarians_building"
+msgid ""
+"‘Seasonal fish and game specialties served with pitta bread.<br>Choose from "
+"a prime selection of regional craft beer brands.’"
+msgstr "“Iasg agus sitheann na ràithe le aran tur.<br>Tagh o shàr-roghainn de leann ionadail.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Charcoal Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1349
+msgctxt "barbarians_building"
+msgid ""
+"‘What’s the work of a charcoal burner?<br>He’s the tribe’s most plodding "
+"earner!<br>Logs on logs he piles up high,<br>Until the kiln will reach the "
+"sky.<br>He sets the fire, sees it smolder<br>The logs he carried on his "
+"shoulder.<br>Burnt down to just one single coal<br>This troubles much a "
+"burner’s soul.’"
+msgstr "“Dè obair an loisgeadair fiodha?<br>’S e seo an saothrachadh<br>as foighidinniche dhan treubh!<br><br>’S ann gu treun a chuireas e fiodh<br>os cionn fiodha dhuilich<br>gus an ruig an cruach an speur!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Smelting Works
+#: ../../data/tribes/initialization/barbarians/units.lua:1367
+msgctxt "barbarians_building"
+msgid ""
+"‘From inferior looking rubble they form shiny gold and gleaming iron.<br>The"
+" smelters are real magicians among our craftsmen.’"
+msgstr "“Thèid creagan garbha ’nan òr dealrach is iarann gleansach for an làmhan.<br>’S e draoidhean am measg ar luchd-ciùird a th’ anns na leaghadairean.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Metal Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1379
 msgctxt "barbarians_building"
 msgid "‘We make it work!’"
 msgstr "“Obraichidh e leinne!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/metal_workshop/helptexts.lua:18
+#. TRANSLATORS: Note helptext for a barbarian production site: Metal Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1385
 msgctxt "barbarians_building"
 msgid ""
 "The Barbarian metal workshop is the basic production site in a series of "
@@ -131,33 +472,19 @@ msgid ""
 msgstr "’S e an togalach saothrachaidh bunasach ann an sreath de thrì togalaichean a th’ ann an ceàrdach meatailt nan Tùsanach is cruthaichidh i na h-uile acainn air a bheil na Tùsanaich feumach. Nì an dà chuid eile airm."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/micro_brewery/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
+#. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1394
+#: ../../data/tribes/initialization/barbarians/units.lua:1413
 msgctxt "barbarians_building"
 msgid ""
-"‘Let the first one drive away the hunger, the second one put you at ease; "
-"when you have swallowed up your third one, it’s time for the next shift!’"
-msgstr "“Falbhaidh an t-acras leis a’ chiad fhear is bidh thu air do shocair leis an dàrna fear; nuair a bhios tu air trì dhiubh òl, thig an t-àm gus tilleadh dhan obair!”"
+"‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
+"its maker.’"
+msgstr "“Nì tuagh as fheàrr an gaisgeach a bhuaileas.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/rangers_hut/helptexts.lua:4
-msgctxt "barbarians_building"
-msgid ""
-"‘He who can grow two trees where normally only one will grow exceeds the "
-"most important general!’"
-msgstr "“Is am fear a dh’fhàsas dà chraobh far nach fhàsadh ach aon nas cudromaiche na ceannard!”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid "‘We grow roofs’"
-msgstr "“Fàsaidh sinn mullaich”"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/warmill/helptexts.lua:18
+#. TRANSLATORS: Note helptext for a barbarian production site: Warmill
+#: ../../data/tribes/initialization/barbarians/units.lua:1400
 msgctxt "barbarians_building"
 msgid ""
 "The Barbarian war mill is their most advanced production site for weapons. "
@@ -165,33 +492,88 @@ msgid ""
 msgstr "’S e an togalach saothrachaidh as adhartaiche airson airm nan Tùsanach a th’ anns a’ cheàrdach-chogaidh. Feumaidh tu ceàrdach thuaghan a leasachadh gus tè fhaighinn."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/well/helptexts.lua:3
+#. TRANSLATORS: Note helptext for a barbarian production site: Ax Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1419
 msgctxt "barbarians_building"
 msgid ""
-"‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
-"and lets the earth drink.’"
-msgstr "“Nach àlainn tobar nam beò<br>a bheir òl don ùir<br>a’ tùirling on iarmailt.”"
+"The Barbarian ax workshop is the intermediate production site in a series of"
+" three buildings. It is enhanced from the metal workshop but doesn’t require"
+" additional qualification for the worker."
+msgstr "’S e an togalach air ìre meadhanach ann an sreath de thrì togalaichean a th’ ann an ceàrdach thuaghan nan Tùsanach. Thèid a leasachadh on cheàrdach meatailt ach chan eil eòlas sònraichte a dhìth air a’ ghobha."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/sewing_room/helptexts.lua:3
-msgctxt "frisians_building"
+#. TRANSLATORS: Lore helptext for a barbarian production site: Cattle Farm
+#: ../../data/tribes/initialization/barbarians/units.lua:1445
+msgctxt "barbarians_building"
 msgid ""
-"You soldiers think a good sword is everything, but where would you be if you"
-" had no garments?"
-msgstr "’S ann gu bheil na saighdearan uabhasach measail air na claidheamhan aca, ach dè rinneadh sibh às aonais aodaich?"
+"‘The smart leader builds roads, while the really wise leader breeds cattle.’"
+msgstr "“Togaidh an rìgh glic rathad agus an rìgh eòlach damh.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian production site: Farm
+#: ../../data/tribes/initialization/barbarians/units.lua:1458
+msgctxt "barbarians_building"
+msgid ""
+"‘See the crop fields from here to the horizons. They are a huge, heaving, "
+"golden sea.<br>Oh wheat, source of wealth, soul of beer, strength of our "
+"warriors!’"
+msgstr "“Siud cuan òr-bhuidhe bòidheach na h-achaidhean mòra.<br>A  chruithneachd, a shaoibhreas torraich, anam an leanna, neart ar gaisgich!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Helm Smithy
+#: ../../data/tribes/initialization/barbarians/units.lua:1472
+msgctxt "barbarians_building"
+msgid ""
+"‘The helmets forgéd by this smithy<br>Are widely known for looking pithy.’"
+msgstr "“Clogaidean dhan fhoghainteach”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Granite Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1485
+msgctxt "barbarians_building"
+msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
+msgstr "“’S urrainn dhomh tòrr gaireil fhulang, a dhuine, ach nach ist thu a-nis.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Iron Mine
+#. TRANSLATORS: Lore helptext for a barbarian production site: Deep Iron Mine
+#. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Iron
+#. Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1551
+#: ../../data/tribes/initialization/barbarians/units.lua:1564
+#: ../../data/tribes/initialization/barbarians/units.lua:1577
+msgctxt "barbarians_building"
+msgid ""
+"‘I look at my own pick wearing away day by day and I realize why my work is "
+"important.’"
+msgstr "“Bheir mi sùil air a’ phiocaid agam a chaitheas mi beag air bheag gach latha is mothaichidh mi carson a tha an obair agam cudromach.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Gold Mine
+#. TRANSLATORS: Lore helptext for a barbarian production site: Deep Gold Mine
+#. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Gold
+#. Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1590
+#: ../../data/tribes/initialization/barbarians/units.lua:1603
+#: ../../data/tribes/initialization/barbarians/units.lua:1616
+msgctxt "barbarians_building"
+msgid ""
+"‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
+"sun, wrought into eternity…’"
+msgstr "“Sùbailte bog.<br>Ach slàn on t-àm is aimsir.<br>Gathan na grèine ceàrdail gu sìorraidh…”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1631
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
 msgstr "“Chan eil caraid as fheàrr agad air a’ bhlàr ach buille an nàmhad nach buail.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:16
+#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -199,8 +581,8 @@ msgid ""
 msgstr "Nuair a bhios “Teàrnadh” aig saighdear, cha bhi e cho buailteach gun dèid a bhualadh leis an nàmhaid agus dh’fhaoidte nach dèid a leònadh."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian training site: Training Camp
+#: ../../data/tribes/initialization/barbarians/units.lua:1650
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -208,97 +590,102 @@ msgid ""
 msgstr "“Cha mhaith no dìochuimhnich am fear a tha treun ach nì e dìoghaltas air ana-cheartas a dh’fhulaing e – san t-àm a dh’fhalbh is gu sìorraidh bràth.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/buildings/trainingsites/empire/arena/helptexts.lua:19
-#: ../../data/tribes/buildings/trainingsites/empire/colosseum/helptexts.lua:19
-msgctxt "empire_building"
-msgid ""
-"‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
-"remain totally unaffected."
-msgstr "Nuair a bhios “Teàrnadh” aig saighdear, cha bhi e cho buailteach gun dèid a bhualadh leis an nàmhaid agus dh’fhaoidte nach dèid a leònadh."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/warehouses/atlanteans/headquarters/helptexts.lua:22
-msgctxt "atlanteans_building"
-msgid "The headquarters is your main building."
-msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/warehouses/barbarians/headquarters/helptexts.lua:19
-#: ../../data/tribes/buildings/warehouses/barbarians/headquarters_interim/helptexts.lua:22
+#. TRANSLATORS: Lore helptext for a barbarian military site: Sentry
+#: ../../data/tribes/initialization/barbarians/units.lua:1671
 msgctxt "barbarians_building"
-msgid "The headquarters is your main building."
-msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/warehouses/empire/headquarters/helptexts.lua:22
-msgctxt "empire_building"
-msgid "The headquarters is your main building."
-msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/warehouses/empire/headquarters_shipwreck/helptexts.lua:22
-msgctxt "empire_building"
-msgid "The headquarters shipwreck is your main building."
-msgstr "’S e am prìomh thogalach agad a th’ anns an long bhriste seo."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note helptext for a building
-#: ../../data/tribes/buildings/warehouses/frisians/headquarters/helptexts.lua:21
-msgctxt "frisians_building"
-msgid "The headquarters is your main building."
-msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a Barbarian resource: Stones
-#: ../../data/tribes/immovables/resi/helptexts/stones_1.lua:10
-#: ../../data/tribes/immovables/resi/helptexts/stones_2.lua:10
 msgid ""
-"Granite is a basic building material and can be dug up by a granite mine."
-msgstr "’S e stuth togail bunasach a tha sa ghaireal agus tochlaidh mèinn gaireil e."
+"‘The log cabin was so small that two men could hardly live there. But we "
+"were young and carefree. We just relished our freedom and the responsibility"
+" as an outpost.’"
+msgstr "“’S ann gun robh am bothan cho beag nach fhuiricheadh dithis ann ach air èiginn. Ach bha sinn òg is gun dragh oirnn. ’S ann gun robh sinn toilichte mun t-saorsa ’s mun dleastanas a thug an gearastan dhuinn.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for an Empire resource: Stones
-#: ../../data/tribes/immovables/resi/helptexts/stones_1.lua:15
-#: ../../data/tribes/immovables/resi/helptexts/stones_2.lua:15
+#. TRANSLATORS: Lore helptext for a barbarian military site: Barrier
+#: ../../data/tribes/initialization/barbarians/units.lua:1684
+msgctxt "barbarians_building"
 msgid ""
-"Marble is a basic building material and can be dug up by a marble mine. You "
-"will also get granite from the mine."
-msgstr "’S e stuth togail bunasach a tha sa mharmor agus tochlaidh mèinn marmoir e. Gheibh thu gaireal on mhèinn cuideachd."
+"‘When we looked down to the valley from our newly established barrier, we "
+"felt that the spirit of our fathers was with us.’"
+msgstr "“Nuair a choimhead sinn sìos dhan ghleann on taigh-fhaire ùr againn, dh’fhairich sinn gun robh anman ur sinnsearan còmhla rinn.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a Frisian resource: Stones
-#: ../../data/tribes/immovables/resi/helptexts/stones_1.lua:20
-#: ../../data/tribes/immovables/resi/helptexts/stones_2.lua:20
-msgid "Granite is a basic building material and can be dug up by a rock mine."
-msgstr "’S e stuth togail bunasach a tha sa ghaireal agus tochlaidh mèinn cloiche e."
+#. TRANSLATORS: Lore helptext for a barbarian military site: Tower
+#: ../../data/tribes/initialization/barbarians/units.lua:1698
+msgctxt "barbarians_building"
+msgid ""
+"‘From the height of our tower we could see far into enemy territory. The "
+"enemy was well prepared, but we also noticed some weak points in their "
+"defense.’"
+msgstr "“Chunnaic sinn raointean farsaing an nàmhad o àirde an tùir againn. Bha an nàmhaid air a h-ullachadh gu math ach mhothaich sinn do dh’uireasbhaidh no dhà ’na dìon.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Chain Armor
-#: ../../data/tribes/wares/armor_chain/helptexts.lua:4
+#. TRANSLATORS: Lore helptext for a barbarian military site: Fortress
+#: ../../data/tribes/initialization/barbarians/units.lua:1711
+msgctxt "barbarians_building"
+msgid ""
+"‘This stronghold made from blackwood and stones will be a hard nut to crack "
+"for them.’"
+msgstr "“’S cinnteach nach bris iad a-steach dhan daingeann seo de dh’fhiodh cruaidhichte is clachan.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian military site: Citadel
+#: ../../data/tribes/initialization/barbarians/units.lua:1724
+msgctxt "barbarians_building"
+msgid ""
+"‘The Citadel of Adlen surely is the finest masterpiece of Barbarian "
+"craftsmanship. Nothing as strong and big and beautiful has ever been built "
+"in such a short time.’"
+msgstr "“Chìthear sàr-cheàrd nan Tùsanach ann am baile daingeann Adlain. Cha deach càil cho mòr treun bòidheach a thogail is cho luath a-riamh.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Shipyard
+#: ../../data/tribes/initialization/barbarians/units.lua:1748
+msgctxt "barbarians_building"
+msgid ""
+"‘When I saw the Saxnot for the first time, her majestic dragon head already "
+"looked up to the skies and the master was about to install the square "
+"sail.<br>It was the most noble ship I ever saw.’"
+msgstr "“Nuair a chunnaic mi an Saxnot a’ chiad turas, bha a ceann-dràgoin mòrail a’ coimhead nan speuran mu thràth agus an sgiobair a’ togail a siùil cheàrnagaich.<br>B’ ise an long as uaisle a chunnaic mi a-riamh.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Weaving Mill
+#: ../../data/tribes/initialization/barbarians/units.lua:1760
+msgctxt "barbarians_building"
+msgid ""
+"‘Fine cloth and jewelry mean nothing to a true Barbarian.<br>But a noble "
+"sail in the wind will please his eyes.’"
+msgstr "“Is coma le fìor-Thùsanach aodach no usgar ach is fìor thoigh leis seòl uasail sa ghaoth.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an empire ware: Wool
+#: ../../data/tribes/initialization/empire/units.lua:119
+msgctxt "empire_ware"
+msgid "Wool is the hair of sheep. Weaving mills use it to make cloth."
+msgstr "’S e gaoisid nan caora a th’ anns a’ chlòimh. Cleachdaidh taighean nam beart i gus clò a dhèanamh."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an empire ware: Marble
+#: ../../data/tribes/initialization/empire/units.lua:253
 msgctxt "empire_ware"
 msgid ""
-"The chain armor is a medium armor for Empire soldiers. It is produced in an "
-"armor smithy and used in a training camp – together with food – to train "
-"soldiers from health level 2 to level 3."
-msgstr "’S e armachd mheadhanach aig saighdearan na h-Impireachd a th’ anns a mhàilleach. Saothraichidh tu ann an ceàrdach armachd i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 2 gu leibheil 3."
+"Marble is the beautiful stone which is cut out of the mountains or produced "
+"in a quarry. Marble is used as a building material and gets chiseled into "
+"marble columns in the stonemason’s house."
+msgstr "’S e clach àlainn a th’ anns a’ mharmor a thèid a ghearradh às na beanntan no a shaothrachadh ann an cuaraidh. Cleachdaidh tu e mar stuth togail is nì thu colbhan marmoir dheth ann an taigh clachair."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Gilded Armor
-#: ../../data/tribes/wares/armor_gilded/helptexts.lua:4
+#. TRANSLATORS: Helptext for an empire ware: Wooden Spear
+#: ../../data/tribes/initialization/empire/units.lua:482
 msgctxt "empire_ware"
 msgid ""
-"The gilded armor is the strongest armor an Empire soldier can have. It is "
-"produced in the armor smithy and used in the training camp – together with "
-"food – to train soldiers from health level 3 to level 4."
-msgstr "’S e an armachd as treasa aig saighdearan na h-Impireachd a th’ anns an lùireach òraichte. Saothraichidh tu ann an ceàrdach armachd i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 3 gu leibheil 4."
+"This wooden spear is the basic weapon in the Empire military system. It is "
+"produced in the weapon smithy. In combination with a helmet, it is the "
+"equipment to fit out young soldiers."
+msgstr "’S e an t-arm bunasach ann an siostam arm na h-Ìmpireachd a th’ anns an t-sleagh fiodha. Thèid a shaothrachadh ann an ceàrdach arm. Beiridh gach saighdear òg tè is clogaid."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Helmet
-#: ../../data/tribes/wares/armor_helmet/helptexts.lua:4
+#. TRANSLATORS: Helptext for an empire ware: Helmet
+#: ../../data/tribes/initialization/empire/units.lua:527
 msgctxt "empire_ware"
 msgid ""
 "The helmet is the basic defense of a warrior. It is produced in an armor "
@@ -308,17 +695,72 @@ msgid ""
 msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus gaisgeach a dhìon. Saothraichidh tu ann an ceàrdach armachd i is thèid a cleachdadh le sleagh fiodha gus saighdearan òga uidheamachadh. Thèid clogaidean a chleachdadh sa champa oideachaidh cuideachd – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Ax
-#: ../../data/tribes/wares/ax/helptexts.lua:4
-msgctxt "barbarians_ware"
+#. TRANSLATORS: Helptext for an empire ware: Chain Armor
+#: ../../data/tribes/initialization/empire/units.lua:545
+msgctxt "empire_ware"
 msgid ""
-"The ax is the basic weapon of the Barbarians. All young soldiers are "
-"equipped with it."
-msgstr "’S e an t-arm bunasach aig na Tùsanaich a th’ anns an tuagh. Beiridh gach saighdear òg tè."
+"The chain armor is a medium armor for Empire soldiers. It is produced in an "
+"armor smithy and used in a training camp – together with food – to train "
+"soldiers from health level 2 to level 3."
+msgstr "’S e armachd mheadhanach aig saighdearan na h-Ìmpireachd a th’ anns a mhàilleach. Saothraichidh tu ann an ceàrdach armachd i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 2 gu leibheil 3."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Barley
-#: ../../data/tribes/wares/barley/helptexts.lua:4
+#. TRANSLATORS: Helptext for an empire ware: Gilded Armor
+#: ../../data/tribes/initialization/empire/units.lua:554
+msgctxt "empire_ware"
+msgid ""
+"The gilded armor is the strongest armor an Empire soldier can have. It is "
+"produced in the armor smithy and used in the training camp – together with "
+"food – to train soldiers from health level 3 to level 4."
+msgstr "’S e an armachd as treasa aig saighdearan na h-Ìmpireachd a th’ anns an lùireach òraichte. Saothraichidh tu ann an ceàrdach armachd i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 3 gu leibheil 4."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for an Empire resource indicator: Stones, part 1
+#: ../../data/tribes/initialization/empire/units.lua:956
+#: ../../data/tribes/initialization/empire/units.lua:1000
+msgid ""
+"Marble is a basic building material and can be dug up by a marble mine. You "
+"will also get granite from the mine."
+msgstr "’S e stuth togail bunasach a tha sa mharmor agus tochlaidh mèinn marmoir e. Gheibh thu gaireal on mhèinn cuideachd."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Note helptext for an empire warehouse: Headquarters
+#: ../../data/tribes/initialization/empire/units.lua:1116
+msgctxt "empire_building"
+msgid "The headquarters is your main building."
+msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Note helptext for an empire warehouse: Headquarters Shipwreck
+#: ../../data/tribes/initialization/empire/units.lua:1125
+msgctxt "empire_building"
+msgid "The headquarters shipwreck is your main building."
+msgstr "’S e am prìomh thogalach agad a th’ anns an long bhriste seo."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
+#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. 2
+#: ../../data/tribes/initialization/empire/units.lua:1430
+#: ../../data/tribes/initialization/empire/units.lua:1443
+msgctxt "empire_building"
+msgid ""
+"‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
+"remain totally unaffected."
+msgstr "Nuair a bhios “Teàrnadh” aig saighdear, cha bhi e cho buailteach gun dèid a bhualadh leis an nàmhaid agus dh’fhaoidte nach dèid a leònadh."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a frisian ware: Brick
+#: ../../data/tribes/initialization/frisians/units.lua:120
+msgctxt "frisians_ware"
+msgid ""
+"Bricks are the best and most important building material. They are made out "
+"of a mix of clay and granite dried in a coal fire."
+msgstr "’S e an stuth-togail as fheàrr is as cudromaiche a tha sna breigichean. Thèid am measgachadh à criadh is gaireal ’s an tiormachadh ann an teine guail."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Helptext for a frisian ware: Barley
+#: ../../data/tribes/initialization/frisians/units.lua:177
 msgctxt "frisians_ware"
 msgid ""
 "Barley is a slow-growing grain that is used for baking bread and brewing "
@@ -326,18 +768,8 @@ msgid ""
 msgstr "’S e gràin a dh’fhàsas gu slaodach a tha san eòrna ’s thèid a chleachdadh a chùm arain is leanna. Ithidh na rèin-fhèidh e cuideachd."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Fish
-#: ../../data/tribes/wares/fish/helptexts.lua:4
-msgctxt "atlanteans_ware"
-msgid ""
-"Fish is one of the biggest food resources of the Atlanteans. It has to be "
-"smoked in a smokery before being delivered to mines, training sites and "
-"scouts."
-msgstr "’S e aon dhe na stòrasan bìdh as motha aig na h-Atlantaich a th’ anns na h-èisg. Feumaidh tu an toiteadh ann an taigh-toitidh mus lìbhrig thu dha na mèinnean, ionadan-oideachaidh is rabhadairean iad."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Fish
-#: ../../data/tribes/wares/fish/helptexts.lua:10
+#. TRANSLATORS: Helptext for a frisian ware: Fish
+#: ../../data/tribes/initialization/frisians/units.lua:230
 msgctxt "frisians_ware"
 msgid ""
 "Fish is a very important food resource for the Frisians. It is fished from "
@@ -345,105 +777,8 @@ msgid ""
 msgstr "’S e stòras bìdh cudromach dha na Frìoslannaich a tha san iasg. Thèid iasgach on chladach no a thogail ann an tuathanas-uisge."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Granite
-#: ../../data/tribes/wares/granite/helptexts.lua:4
-msgctxt "ware"
-msgid "Granite is a basic building material."
-msgstr "’S e stuth togail bunasach a th’ anns a’ ghaireal."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Hammer
-#: ../../data/tribes/wares/hammer/helptexts.lua:4
-msgctxt "ware"
-msgid "The hammer is an essential tool."
-msgstr "’S e acainn riatanach a th’ anns an òrd."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Helmet
-#: ../../data/tribes/wares/helmet/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"A helmet is a basic tool to protect soldiers. It is produced in the helm "
-"smithy and used in the training camp – together with food – to train "
-"soldiers from health level 0 to level 1."
-msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus saighdearan a dhìon. Saothraichidh tu ann an ceàrdach chlogaidean i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Helmet
-#: ../../data/tribes/wares/helmet/helptexts.lua:6
-msgctxt "frisians_ware"
-msgid ""
-"A helmet is a basic tool to protect soldiers. It is produced in the small "
-"armor smithy and used to train soldiers from health level 0 to level 1."
-msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus saighdearan a dhìon. Saothraichidh tu ann an ceàrdach armachd bheag i is thèid a cleachdadh sa champa oideachaidh gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Warhelm
-#: ../../data/tribes/wares/helmet_warhelm/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"A warhelm is an enhanced armor for Barbarian soldiers. It is produced in a "
-"helm smithy and used in a training camp – together with food – to train "
-"soldiers from health level 1 to level 2."
-msgstr "’S e armachd leasaichte a th’ anns a’ chlogaid cogaidh gus saighdearan nan Tùsanach a dhìon. Saothraichidh tu ann an ceàrdach chlogaidean i is thèid a cleachdadh sa champa oideachaidh – le biadh – gus slàinte nan saighdearan oideachadh o leibheil 1 gu leibheil 2."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Log
-#: ../../data/tribes/wares/log/helptexts.lua:4
-msgctxt "ware"
-msgid ""
-"Logs are an important basic building material. They are produced by felling "
-"trees."
-msgstr "’S e stuth togail bunasach a tha san fhiodh. Leagaidh tu craobhan gus fhaighinn."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Marble
-#: ../../data/tribes/wares/marble/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"Marble is the beautiful stone which is cut out of the mountains or produced "
-"in a quarry. Marble is used as a building material and gets chiseled into "
-"marble columns in the stonemason’s house."
-msgstr "’S e clach àlainn a th’ anns a’ mharmor a thèid a ghearradh às na beanntan no a shaothrachadh ann an cuaraidh. Cleachdaidh tu e mar stuth togail is nì thu colbhan marmoir dheth ann an taigh clachair."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Planks
-#: ../../data/tribes/wares/planks/helptexts.lua:4
-msgctxt "ware"
-msgid "Planks are an important building material."
-msgstr "’S e stuth togail cudromach a th’ anns na maidean."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Wooden Spear
-#: ../../data/tribes/wares/spear_wooden/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"This wooden spear is the basic weapon in the Empire military system. It is "
-"produced in the weapon smithy. In combination with a helmet, it is the "
-"equipment to fit out young soldiers."
-msgstr "’S e an t-arm bunasach ann an siostam arm na h-Impireachd a th’ anns an t-sleagh fiodha. Thèid a shaothrachadh ann an ceàrdach arm. Beiridh gach saighdear òg tè is clogaid."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Broadsword
-#: ../../data/tribes/wares/sword_broad/helptexts.lua:4
-msgctxt "frisians_ware"
-msgid ""
-"The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
-"equipped with a broadsword and a double-edged sword."
-msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 2 a tha sa chlaidheamh-leathann. Gheibh saighdearan air leibheil 5 an dà chuid claidheamh-leathann agus claidheamh dà-fhaobharach."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Double-edged Sword
-#: ../../data/tribes/wares/sword_double/helptexts.lua:4
-msgctxt "frisians_ware"
-msgid ""
-"The double-edged sword is the weapon used by level 3 soldiers. Level 6 "
-"soldiers are equipped with two of these ferocious swords."
-msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 3 a tha sa chlaidheamh dà-fhaobharach. Gheibh saighdearan air leibheil 6 dà fhear dhen chlaidheamh ana-bhiorach seo."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Long Sword
-#: ../../data/tribes/wares/sword_long/helptexts.lua:4
+#. TRANSLATORS: Helptext for a frisian ware: Long Sword
+#: ../../data/tribes/initialization/frisians/units.lua:534
 msgctxt "frisians_ware"
 msgid ""
 "The long sword is the weapon used by level 1 soldiers. Level 4 soldiers are "
@@ -451,37 +786,65 @@ msgid ""
 msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 1 a tha sa chlaidheamh-mhòr. Gheibh saighdearan air leibheil 4 an dà chuid claidheamh-mòr agus claidheamh dà-fhaobharach."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Tabard
-#: ../../data/tribes/wares/tabard/helptexts.lua:4
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Helptext for a frisian ware: Broadsword
+#: ../../data/tribes/initialization/frisians/units.lua:543
+msgctxt "frisians_ware"
 msgid ""
-"A tabard and a light trident are the basic equipment for young soldiers. "
-"Tabards are produced in the weaving mill."
-msgstr "’S e acainn bhunasach nan saighdearan òga a th’ anns an lèine is muirgheadh aotrom. Nì thu lèintean ann an taigh nam beart."
+"The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
+"equipped with a broadsword and a double-edged sword."
+msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 2 a tha sa chlaidheamh-leathann. Gheibh saighdearan air leibheil 5 an dà chuid claidheamh-leathann agus claidheamh dà-fhaobharach."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Double Trident
-#: ../../data/tribes/wares/trident_double/helptexts.lua:4
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Helptext for a frisian ware: Double-edged Sword
+#: ../../data/tribes/initialization/frisians/units.lua:552
+msgctxt "frisians_ware"
 msgid ""
-"The double trident is one of the best tridents produced by the Atlantean "
-"weapon smithy. It is used in a dungeon – together with food – to train "
-"soldiers from attack level 2 to level 3."
-msgstr "’S e aon dhe na muirgheadhan as fheàrr a nì ceàrdach arm nan Atlantach a th’ anns a mhuirgheadh dhùbailte. Thèid a cleachdadh san toll-dubh – le biadh – gus ionnsaigh nan saighdearan oideachadh o leibheil 2 gu leibheil 3."
+"The double-edged sword is the weapon used by level 3 soldiers. Level 6 "
+"soldiers are equipped with two of these ferocious swords."
+msgstr "’S e an t-arm a chleachdas na saighdearan air leibheil 3 a tha sa chlaidheamh dà-fhaobharach. Gheibh saighdearan air leibheil 6 dà fhear dhen chlaidheamh ana-bhiorach seo."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Long Trident
-#: ../../data/tribes/wares/trident_long/helptexts.lua:4
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Helptext for a frisian ware: Helmet
+#: ../../data/tribes/initialization/frisians/units.lua:588
+msgctxt "frisians_ware"
 msgid ""
-"The long trident is the first trident in the training of soldiers. It is "
-"produced in the weapon smithy and used in the dungeon – together with food –"
-" to train soldiers from attack level 0 to level 1."
-msgstr "’S e a’ chiad mhuirgheadh a thèid a chleachdadh gus saighdearan oideachadh th’ anns a mhuirgheadh fhada. Saothraichidh tu sa cheàrdach arm i is thèid a cleachdadh san toll-dubh – le biadh – gus ionnsaigh nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
+"A helmet is a basic tool to protect soldiers. It is produced in the small "
+"armor smithy and used to train soldiers from health level 0 to level 1."
+msgstr "’S e acainn bhunasach a th’ anns a’ chlogaid gus saighdearan a dhìon. Saothraichidh tu ann an ceàrdach armachd bheag i is thèid a cleachdadh sa champa oideachaidh gus slàinte nan saighdearan oideachadh o leibheil 0 gu leibheil 1."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Helptext for a ware: Wool
-#: ../../data/tribes/wares/wool/helptexts.lua:4
-msgctxt "empire_ware"
-msgid "Wool is the hair of sheep. Weaving mills use it to make cloth."
-msgstr "’S e gaoisid nan caora a th’ anns a’ chlòimh. Cleachdaidh taighean nam beart i gus clò a dhèanamh."
+#. TRANSLATORS: Helptext for a Frisian resource indicator: Stones, part 1
+#: ../../data/tribes/initialization/frisians/units.lua:1297
+#: ../../data/tribes/initialization/frisians/units.lua:1341
+msgid "Granite is a basic building material and can be dug up by a rock mine."
+msgstr "’S e stuth togail bunasach a tha sa ghaireal agus tochlaidh mèinn cloiche e."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Note helptext for a frisian warehouse: Headquarters
+#: ../../data/tribes/initialization/frisians/units.lua:1495
+msgctxt "frisians_building"
+msgid "The headquarters is your main building."
+msgstr "’S e am prìomh thogalach agad a th’ anns a’ phrìomh-àras."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a frisian production site: Sewing Room
+#: ../../data/tribes/initialization/frisians/units.lua:1782
+msgctxt "frisians_building"
+msgid ""
+"You soldiers think a good sword is everything, but where would you be if you"
+" had no garments?"
+msgstr "’S ann gu bheil na saighdearan uabhasach measail air na claidheamhan aca, ach dè rinneadh sibh às aonais aodaich?"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: You can also translate this as 'additional workplace'
+#: ../../data/tribes/scripting/help/worker_help.lua:132
+msgctxt "workerhelp_one_building"
+msgid "Can also work at"
+msgstr "’S urrainn dha obair cuideachd aig"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: You can also translate this as 'additional workplaces'
+#: ../../data/tribes/scripting/help/worker_help.lua:136
+msgctxt "workerhelp_multiple_buildings"
+msgid "Can also work at"
+msgstr "’S urrainn dha obair cuideachd aig"

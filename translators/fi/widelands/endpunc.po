@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,13 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map size tool in the editor
-#: ../../src/editor/editorinteractive.cc:312
+#: ../../src/editor/editorinteractive.cc:309
 msgid "Set number of players and their names, tribes and starting positions"
 msgstr "Aseta pelaajien määrä, nimet, heimot ja aloituspaikat."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:1027
+msgid "Loading world…"
+msgstr "Lataan maailmaa..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/game_io/game_saver.cc:54
@@ -26,58 +31,68 @@ msgid "Autosaving game…"
 msgstr "Välitallennus meneillään."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:298
-msgid "Postloading world and tribes…"
-msgstr "Jälkilataan maailman ja heimot."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:216 ../../src/logic/game.cc:273
-#: ../../src/logic/game.cc:358 ../../src/logic/game.cc:390
+#: ../../src/logic/game.cc:230 ../../src/logic/game.cc:277
+#: ../../src/logic/game.cc:367 ../../src/logic/game.cc:412
 msgid "Preloading map…"
 msgstr "Esilataan karttaa.."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:220 ../../src/logic/game.cc:280
-msgid "Loading world…"
-msgstr "Lataan maailmaa..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:222 ../../src/logic/game.cc:283
-msgid "Loading tribes…"
-msgstr "Lataan heimoja..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:232 ../../src/logic/game.cc:286
-msgid "Creating players…"
-msgstr "Lataan pelaajia..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:469
+#. * TRANSLATORS: All players (plural)
+#: ../../src/logic/game.cc:528
 msgid "Creating player infrastructure…"
 msgstr "Lataan pelaajainfrastruktuuria..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:249
+#: ../../src/logic/generic_save_handler.cc:244
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Tiedostoa ‘%s’ ei voitu poistaa."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:127
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Tallennan peliä..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:90
+#: ../../src/map_io/map_saver.cc:89
 msgid "Autosaving map…"
 msgstr "Kartan välitallennus..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:689
+#: ../../src/network/internet_gaming.cc:694
 msgid "Command could not be executed."
 msgstr "Komennon suoritus epäonnistui"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:553
+#: ../../src/ui_fsmenu/login_box.cc:50
+msgid "Log in to a registered account."
+msgstr "Kirjaudu rekisteröidylle tilille"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_box.cc:229
+msgid "Attackers:"
+msgstr "Hyökkääjät"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/economy_options_window.cc:600
 msgid "Overwrite?"
 msgstr "Ylikirjoita"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button tooltip in in a building's wares input queue
+#: ../../src/wui/inputqueuedisplay.cc:124
+msgid "Increase the number of wares you want to be stored here"
+msgstr "Kasvata tänne varastoitavien tarvikkeide määrää."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button tooltip in in a building's wares input queue
+#: ../../src/wui/inputqueuedisplay.cc:126
+msgid "Decrease the number of wares you want to be stored here"
+msgstr "Vähennä tänne varastoitavien tuotteiden määrää."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button tooltip in in a building's wares input queue -
+#. option explanation
+#: ../../src/wui/inputqueuedisplay.cc:133
+msgid "Hold down Shift to decrease all ware types at the same time"
+msgstr "pidä SHIFT-painike pohjassa pienentääksesi kaikkien tarvikkeiden määrää saman aikaisesti."

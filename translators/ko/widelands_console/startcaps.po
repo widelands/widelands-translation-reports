@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-01 04:47+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-27 04:56+0000\n"
 "Last-Translator: ks k\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
@@ -12,47 +12,59 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: %s = version information
+#: ../../src/wlapplication_messages.cc:37
+#, c-format
+msgid "This is Widelands Build %s"
+msgstr "이것은 와이드랜드 빌드 %s 입니다"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wlapplication_messages.cc:42
 msgid "Usage: widelands <option0>=<value0> ... <optionN>=<valueN>"
-msgstr "使い方: widelands <option0>=<value0> ... <optionN>=<valueN>"
+msgstr "사용방법: widelands <option0>=<value0> ... <optionN>=<valueN>"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wlapplication_messages.cc:43
 msgid "Options:"
-msgstr "オプション:"
+msgstr "선택사항:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wlapplication_messages.cc:45
 msgid "                      Note: New value will be written to config file"
-msgstr "                      メモ: 新しい値は設定ファイルに書き込まれます"
+msgstr "                      참고: 새로운 값은 구성 파일에 기록됩니다"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wlapplication_messages.cc:54
 msgid "                      Default is ~/.widelands"
-msgstr "                      デフォルトは ~/.widelands"
+msgstr "                      기본값은 ~/.widelands 입니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:120
+#: ../../src/wlapplication_messages.cc:56
+msgid "                      Default is %USERPROFILE%\\.widelands"
+msgstr "                      기본값은 %USERPROFILE%\\.widelands 입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_messages.cc:127
 msgid "Graphic options:"
-msgstr "グラフィックオプション:"
+msgstr "그래픽 선택사항:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:135
+#: ../../src/wlapplication_messages.cc:143
 msgid "Options for the internal window manager:"
-msgstr "内部ウィンドウマネージャーのオプション:"
+msgstr "내부 창 관리자 선택사항:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:165
+#: ../../src/wlapplication_messages.cc:173
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"
 "\n"
 "Hope you enjoy this game!"
-msgstr "버그 보고를 하거나 제안이 있습니까? 프로젝트의 웹 사이트를 확인하십시오.\n        https://www.widelands.org/\n\n그럼 게임을 즐기시길 바랍니다!"
+msgstr "버그 보고를 하거나 제안이 있습니까? 프로젝트의 누리집을 확인하십시오.\n        https://www.widelands.org/\n\n그럼 게임을 즐기시길 바랍니다!"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
@@ -12,29 +12,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
+#. TRANSLATORS: Helptext for an atlantean ware: Golden Tabard
+#: ../../data/tribes/initialization/atlanteans/units.lua:790
+msgctxt "atlanteans_ware"
 msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "„Annyira szereti az állatokat és a tenyésztésüket,<br>\nmint ahogy mi szeretjük megsütni és megenni őket.”"
+"Golden tabards are produced in Atlantean weaving mills out of gold thread. "
+"They are used in the labyrinth – together with food – to train soldiers from"
+" health level 0 to level 1."
+msgstr "Az aranyköntösök aranyfonálból készülnek az atlantiszi szövőmalmokban. A labirintusban  – élelemmel együtt –  a katonák védekezését fejlesztik vele 0.-ról 1. szintre."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/empire/donkeyfarm/helptexts.lua:16
-msgctxt "empire_building"
-msgid ""
-"Breeds cute and helpful donkeys for adding them to the transportation "
-"system."
-msgstr "Aranyos és segítőkész szamarakat tenyészt, hogy aztán részei  legyenek a szállítási rendszernek."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Strong Beer
-#: ../../data/tribes/wares/beer_strong/helptexts.lua:4
+#. TRANSLATORS: Helptext for a barbarian ware: Strong Beer
+#: ../../data/tribes/initialization/barbarians/units.lua:211
 msgctxt "barbarians_ware"
 msgid ""
 "Only this beer is acceptable for the soldiers in a battle arena. Some say "
@@ -44,19 +36,18 @@ msgid ""
 msgstr "Csak ez a sör  elfogadható a katonák számára a harci arénában. Vannak akik azt tartják, hogy ebben a sörben rejlik a barbárok ereje. Segíti a katonák védekezésének szintjét 0-ról 1-re, majd 2-re fejleszteni. Az erős sört a nagy fogadókban is használják az ebédek elkészítéséhez."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Golden Tabard
-#: ../../data/tribes/wares/tabard_golden/helptexts.lua:4
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Helptext for an empire worker: Donkey Breeder
+#: ../../data/tribes/initialization/empire/units.lua:592
+msgctxt "empire_worker"
 msgid ""
-"Golden tabards are produced in Atlantean weaving mills out of gold thread. "
-"They are used in the labyrinth – together with food – to train soldiers from"
-" health level 0 to level 1."
-msgstr "Az aranyköntösök aranyfonálból készülnek az atlantiszi szövőmalmokban. A labirintusban  – élelemmel együtt –  a katonák védekezését fejlesztik vele 0.-ról 1. szintre."
+"Breeds cute and helpful donkeys for adding them to the transportation "
+"system."
+msgstr "Aranyos és segítőkész szamarakat tenyészt, hogy aztán részei  legyenek a szállítási rendszernek."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a worker: Donkey Breeder
-#: ../../data/tribes/workers/empire/donkeybreeder/helptexts.lua:3
-msgctxt "empire_worker"
+#. TRANSLATORS: Purpose helptext for an empire production site: Donkey Farm
+#: ../../data/tribes/initialization/empire/units.lua:1319
+msgctxt "empire_building"
 msgid ""
 "Breeds cute and helpful donkeys for adding them to the transportation "
 "system."

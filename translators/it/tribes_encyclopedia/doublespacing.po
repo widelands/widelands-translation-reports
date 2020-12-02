@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
@@ -12,25 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "«Lui ama gli animali e ama allevarli<br>\nalmeno quanto noi amiamo cucinarli e mangiarli.»"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/scripting/help/controls.lua:102
-msgid "Show the debug console (only in debug-builds)"
-msgstr "Mostra la console di elimina errori (solo  nella struttura dell'elimina errori)"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Bronze Ax
-#: ../../data/tribes/wares/ax_bronze/helptexts.lua:4
+#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:474
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -40,11 +26,16 @@ msgid ""
 msgstr "L'ascia di bronzo è considerata un'arma difficile da maneggiare. Solo soldati abili sono in grado di usarla.  È prodotta dalla fucina da guerra ed è usata nel campo di addestramento - insieme al cibo - per addestrare i soldati dal livello 2 al livello 3."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Advanced Spear
-#: ../../data/tribes/wares/spear_advanced/helptexts.lua:4
+#. TRANSLATORS: Helptext for an empire ware: Advanced Spear
+#: ../../data/tribes/initialization/empire/units.lua:500
 msgctxt "empire_ware"
 msgid ""
 "This is an advanced spear with a steel tip. It is produced in a weapon "
 "smithy and used in a training camp – together with food – to train soldiers "
 "from attack level 1 to level 2."
 msgstr "Questa è una lancia avanzata con una punta in acciaio. È prodotta in una fucina di armi  ed è usata nel campo di addestramento - insieme al cibo - per addestrare i soldati in attacco dal livello 1 al livelllo 2."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/tribes/scripting/help/controls.lua:106
+msgid "Show the debug console (only in debug-builds)"
+msgstr "Mostra la console di elimina errori (solo  nella struttura dell'elimina errori)"

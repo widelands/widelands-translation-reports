@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
@@ -12,50 +12,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/helptexts.lua:11
-msgctxt "frisians_building"
+#. TRANSLATORS: Lore author helptext for a barbarian warehouse: Warehouse
+#: ../../data/tribes/initialization/barbarians/units.lua:1097
+msgctxt "barbarians_building"
 msgid ""
-"A master blacksmith refusing to forge anything but the most sophisticated "
-"helmets and weapons"
-msgstr "Mestariseppä kieltäytyy takomasta mitään muuta paitsi kaikkein hienostuneimpia kypäriä ja aseita."
+"Berthron, chief military adviser of Chat’Karuth,<br>when they lost the "
+"headquarters in the battle around the heights of Kal’Megarath"
+msgstr "Berthron, Chat’Karuthin johtava sotilasneuvonantaja,<br>kun he menettivät päämajansa taistelussa Kal’Megarath ympärillä."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/armor_smithy_small/helptexts.lua:11
+#. TRANSLATORS: Purpose helptext for a barbarian production site: Weaving Mill
+#: ../../data/tribes/initialization/barbarians/units.lua:1765
+msgctxt "barbarians_building"
+msgid "Weaves cloth out of reed."
+msgstr "Kutoo kangasta ruoikosta"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:446
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Metsästyskeihäitä tuotaa seppä."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a frisian production site: Quarry
+#: ../../data/tribes/initialization/frisians/units.lua:1518
 msgctxt "frisians_building"
-msgid "A blacksmith pointing out his influence on soldier training"
-msgstr "Seppä painottaa osuuttaan sotilaiden kouluttamisessa."
+msgid "When I swing my pick, whole mountains fall before me!"
+msgstr "Kun heilautan hakkuani, kokonainen vuori sortuu eteeni."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/berry_farm/helptexts.lua:3
-msgctxt "frisians_building"
-msgid ""
-"My bushes may not be as tall as your trees, but I don’t know anybody who "
-"likes to eat bark!"
-msgstr "Pensaani eivät ehkä ole niin korkeita kuin puusi, mutta en tiedä ketään, joka tykkäisi syödä pettua."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/brewery/helptexts.lua:13
-msgctxt "building"
-msgid "Brews beer for miners and soldier training."
-msgstr "Panee olutta kaivostyöläislille ja sotilaiden harjoitteluun"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/helptexts.lua:13
-msgctxt "building"
-msgid "Collects berries from nearby bushes."
-msgstr "Korjaa marjoja lähialueen pensaista"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/foresters_house/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a frisian production site: Forester's House
+#: ../../data/tribes/initialization/frisians/units.lua:1546
 msgctxt "frisians_building"
 msgid ""
 "What can ever be more beautiful than the brilliant sun’s beams shining "
@@ -63,16 +54,41 @@ msgid ""
 msgstr "Mikä olisikaan kauniimpaa kuin lehvästön läpi kimaltelevat kirkkaat auringonsäteet."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a frisian production site: Well
+#: ../../data/tribes/initialization/frisians/units.lua:1600
 msgctxt "frisians_building"
-msgid "When I swing my pick, whole mountains fall before me!"
-msgstr "Kun heilautan hakkuani, kokonainen vuori sortuu eteeni."
+msgid "We love the sea so much that we don’t want to drink it empty!"
+msgstr "Rakastamme merta niin paljon ettemme halua juoda sitä tyhjäksi."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building. Reference to frequent
-#. discussions about good scouting algorithms
-#: ../../data/tribes/buildings/productionsites/frisians/scouts_house/helptexts.lua:3
+#. TRANSLATORS: Lore author helptext for a frisian production site: Well
+#: ../../data/tribes/initialization/frisians/units.lua:1602
+msgctxt "frisians_building"
+msgid ""
+"Chieftain Arldor’s retort when he was asked why his tribe can’t drink salt "
+"water"
+msgstr "Päällikkö Arldorin tiuskaisu, kun häneltä kysyttiin miksi hänen heimonsa ei voi juoda suolavettä."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a frisian production site: Berry Farm
+#: ../../data/tribes/initialization/frisians/units.lua:1639
+msgctxt "frisians_building"
+msgid ""
+"My bushes may not be as tall as your trees, but I don’t know anybody who "
+"likes to eat bark!"
+msgstr "Pensaani eivät ehkä ole niin korkeita kuin puusi, mutta en tiedä ketään, joka tykkäisi syödä pettua."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a frisian production site: Fruit
+#. Collector's House
+#: ../../data/tribes/initialization/frisians/units.lua:1658
+msgctxt "building"
+msgid "Collects berries from nearby bushes."
+msgstr "Korjaa marjoja lähialueen pensaista"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a frisian production site: Scout's House
+#: ../../data/tribes/initialization/frisians/units.lua:1697
 msgctxt "frisians_building"
 msgid ""
 "Everyone has their own ideas on how exactly we should explore the enemy’s "
@@ -81,8 +97,33 @@ msgid ""
 msgstr "Jokaisella on omat näkemykset miten meidän tulisi tutkia vihollisen aluetta… Vielä yksi ‘parannus’ ehdotus ja me vaadimme aterioita ruoka-annoksien sijaan."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/shipyard/helptexts.lua:11
+#. TRANSLATORS: Lore author helptext for a frisian production site: Small
+#. Armor Smithy
+#: ../../data/tribes/initialization/frisians/units.lua:1762
+msgctxt "frisians_building"
+msgid "A blacksmith pointing out his influence on soldier training"
+msgstr "Seppä painottaa osuuttaan sotilaiden kouluttamisessa."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Large
+#. Armor Smithy
+#: ../../data/tribes/initialization/frisians/units.lua:1773
+msgctxt "frisians_building"
+msgid ""
+"A master blacksmith refusing to forge anything but the most sophisticated "
+"helmets and weapons"
+msgstr "Mestariseppä kieltäytyy takomasta mitään muuta paitsi kaikkein hienostuneimpia kypäriä ja aseita."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Tavern
+#: ../../data/tribes/initialization/frisians/units.lua:1882
+msgctxt "frisians_building"
+msgid "Hungry customers in times of a shortage of smoked fish and meat"
+msgstr "Nälkäinen asiakas aikana kun savukala ja -liha on vähissä."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Shipyard
+#: ../../data/tribes/initialization/frisians/units.lua:2116
 msgctxt "frisians_building"
 msgid ""
 "A shipwright who only constructed toy ships after being chid that his ships "
@@ -90,40 +131,17 @@ msgid ""
 msgstr "Veneseppä joka rakensi lapsuutensa jälkeen vain leikkiveneitä, jotka olivat liian pieniä."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/tavern/helptexts.lua:8
-msgctxt "frisians_building"
-msgid "Hungry customers in times of a shortage of smoked fish and meat"
-msgstr "Nälkäinen asiakas aikana kun savukala ja -liha on vähissä."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/well/helptexts.lua:3
-msgctxt "frisians_building"
-msgid "We love the sea so much that we don’t want to drink it empty!"
-msgstr "Rakastamme merta niin paljon ettemme halua juoda sitä tyhjäksi."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/well/helptexts.lua:8
-msgctxt "frisians_building"
-msgid ""
-"Chieftain Arldor’s retort when he was asked why his tribe can’t drink salt "
-"water"
-msgstr "Päällikkö Arldorin tiuskaisu, kun häneltä kysyttiin miksi hänen heimonsa ei voi juoda suolavettä."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:482
+#: ../../data/tribes/scripting/help/building_help.lua:676
 msgid "Or enhanced from:"
 msgstr "Tai paranneltu rakennuksesta"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:484
+#: ../../data/tribes/scripting/help/building_help.lua:678
 msgid "Enhanced from:"
 msgstr "Laajennettu rakennuksesta"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:601
+#: ../../data/tribes/scripting/help/building_help.lua:795
 msgid "Can be enhanced to:"
 msgstr "Voidaan laajentaa rakennukseksi"
 
@@ -131,10 +149,3 @@ msgstr "Voidaan laajentaa rakennukseksi"
 #: ../../data/tribes/scripting/help/format_help.lua:147
 msgid "Experience levels"
 msgstr "Taitotaso:"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Hunting Spear
-#: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
-msgctxt "frisians_ware"
-msgid "Hunting spears are produced by the blacksmithy"
-msgstr "Metsästyskeihäitä tuotaa seppä."

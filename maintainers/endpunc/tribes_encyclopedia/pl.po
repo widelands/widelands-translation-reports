@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
 "pl/)\n"
@@ -14,10 +14,32 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
 "12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
 " (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:446
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Dzidy produkowane są w kuźni."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for a frisian production site: Tavern
+#: ../../data/tribes/initialization/frisians/units.lua:1886
+#, lua-format
+msgctxt "frisians_building"
+msgid ""
+"The tavern can produce one ration in %s on average if the supply is steady; "
+"otherwise, it will take 50%% longer."
+msgstr "Tawerna może wyprodukować jedną rację średnio co %s jeśli dostawy są stabilne; w innym przypadku zajmie to o 50%% dłużej"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/controls.lua:144
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "Pokaż ekspedycje, które znalazły miejsce na postawienie portu lub zakładają kolonię."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Tribal Encyclopedia: Heading for which tool a worker uses
-#: ../../data/tribes/scripting/help/worker_help.lua:177
+#: ../../data/tribes/scripting/help/worker_help.lua:181
 msgid "Worker uses"
 msgstr "Pracownik używa:"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-29 16:13+0000\n"
+"Last-Translator: Ondřej Itřech <vasa5@centrum.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,31 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
 " 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:958
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
-msgid "Creating empty map…"
-msgstr "Vytvoř prázdnou mapu"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:972
-#, c-format
-msgid "Loading map “%s”…"
-msgstr "Načítám mapu \"%s\"..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:184
-#, c-format
-msgid "Current: %s …"
-msgstr "Aktuálně: %s"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
-msgid "Generating random map…"
-msgstr "Generování náhodné mapy..."
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change height access keys. *
@@ -50,7 +26,7 @@ msgstr "Klik v mapě zvýší, Shift + Klik v mapě sníží úroveň terénu."
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor set height access key. *
 #: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:82
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:80
 msgid "Ctrl + Click on the map to set terrain height"
 msgstr "Ctrl + Klik v mapě nastaví úroveň terénu."
 
@@ -64,30 +40,38 @@ msgstr "Klik v mapě zvýší, Shift + Klik v mapě sníží možství vybrané 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor random height access key. *
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:76
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:74
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:77
 msgid ""
 "Click on the map to set terrain height to a random value within the "
 "specified range"
 msgstr "Klik v mapě nastaví úroveň terénu na náhodnou hodnotu z definovaného rozsahu."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
-msgid "Loading map…"
-msgstr "Nahrávání mapy..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
-#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
+#: ../../src/ui_basic/progresswindow.cc:62
 msgid "Loading…"
 msgstr "Nahrávání..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:670
-msgid "Port Lost!"
-msgstr "Přístav ztracen"
+#: ../../src/ui_fsmenu/launch_game.cc:128
+msgid "The selected win condition does not allow peaceful matches"
+msgstr "Zvolená výherní podmínka nedovoluje mírové nastavení."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/intro.cc:33
-msgid "Press any key or click to continue…"
-msgstr "Pro pokračování stikni klávesu nebo klikni..."
+#: ../../src/wui/actionconfirm.cc:250
+msgid ""
+"Any wares left in the building will be dropped out by the builder, "
+"increasing the dismantling time"
+msgstr "Veškeré zboží, které bylo uloženo v budově, bude stavařem vyneseno. Prodlouží se tím doba rozebrání stavby."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/actionconfirm.cc:311
+msgid ""
+"Any wares left in the building will be dropped out by the builder, "
+"increasing the enhancing time"
+msgstr "Veškeré zboží, které bylo uloženo v budově, bude stavařem vyneseno. Prodlouží se tím doba na vylepšení stavby."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_box.cc:196
+msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
+msgstr "Poslat méně vojáků. Při současném přidržení Ctrl budou odebráni všichni vojáci."

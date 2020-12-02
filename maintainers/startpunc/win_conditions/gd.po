@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-03 09:10+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-11 07:09+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: e.g. Team 1 owns 5 artifacts.
-#: ../../data/scripting/win_conditions/artifacts.lua:179
+#: ../../data/scripting/win_conditions/artifacts.lua:182
 msgid "%1$s owns %2$s."
 msgstr "Tha %2$s aig %1$s."
 
@@ -32,19 +32,19 @@ msgid "%1$s had %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "Bha %2$3.0f%% dhen tìr aig %1$s (%3$i de %4$i)."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:238
+#: ../../data/scripting/win_conditions/territorial_functions.lua:248
 #, lua-format
 msgid "%s owns more than half of the map’s area."
 msgstr "Tha barrachd air an dàrna leth de roinn a’ mhapa aig %s."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:63
+#: ../../data/scripting/win_conditions/wood_gnome.lua:66
 msgid "%1$s has %2$s at the moment."
 msgstr "Tha %2$s aig %1$s an-dràsta."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:82
+#: ../../data/scripting/win_conditions/wood_gnome.lua:85
 msgid "%1$s had %2$s."
 msgstr "Bha %2$s aig %1$s."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
@@ -12,430 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/castle/init.lua:92
-#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:40
-msgid "Your soldiers have occupied your castle."
-msgstr "兵士達が城に入りました"
+#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:52
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:57
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:59
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:56
+#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:66
+msgid "Out of Water"
+msgstr "水が枯渇しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/castle/init.lua:93
-#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:41
-msgid "Your castle discovered an aggressor."
-msgstr "城が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/castle/init.lua:94
-#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:42
-msgid "Your castle is under attack."
-msgstr "城が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/castle/init.lua:95
-#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:43
-msgid "The enemy defeated your soldiers at the castle."
-msgstr "城であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/castle/init.lua:96
-#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:44
-msgid "Your soldiers defeated the enemy at the castle."
-msgstr "あなたの兵士達が城で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhall/init.lua:41
-msgid "Your soldiers have occupied your guardhall."
-msgstr "兵士達が防衛砦に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhall/init.lua:42
-msgid "Your guardhall discovered an aggressor."
-msgstr "防衛砦が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhall/init.lua:43
-msgid "Your guardhall is under attack."
-msgstr "防衛砦が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhall/init.lua:44
-msgid "The enemy defeated your soldiers at the guardhall."
-msgstr "防衛砦であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhall/init.lua:45
-msgid "Your soldiers defeated the enemy at the guardhall."
-msgstr "あなたの兵士達が防衛砦で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhouse/init.lua:39
-msgid "Your soldiers have occupied your guardhouse."
-msgstr "兵士達が警備小屋に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhouse/init.lua:40
-msgid "Your guardhouse discovered an aggressor."
-msgstr "警備小屋が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhouse/init.lua:41
-msgid "Your guardhouse is under attack."
-msgstr "警備小屋が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhouse/init.lua:42
-msgid "The enemy defeated your soldiers at the guardhouse."
-msgstr "警備小屋であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhouse/init.lua:43
-msgid "Your soldiers defeated the enemy at the guardhouse."
-msgstr "あなたの兵士達が警備小屋で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower/init.lua:45
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/init.lua:52
-#: ../../data/tribes/buildings/militarysites/empire/tower/init.lua:47
-#: ../../data/tribes/buildings/militarysites/frisians/tower/init.lua:58
-msgid "Your soldiers have occupied your tower."
-msgstr "兵士達が監視塔に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower/init.lua:46
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/init.lua:53
-#: ../../data/tribes/buildings/militarysites/empire/tower/init.lua:48
-#: ../../data/tribes/buildings/militarysites/frisians/tower/init.lua:59
-msgid "Your tower discovered an aggressor."
-msgstr "監視塔が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower/init.lua:47
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/init.lua:54
-#: ../../data/tribes/buildings/militarysites/empire/tower/init.lua:49
-#: ../../data/tribes/buildings/militarysites/frisians/tower/init.lua:60
-msgid "Your tower is under attack."
-msgstr "監視塔が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower/init.lua:48
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/init.lua:55
-#: ../../data/tribes/buildings/militarysites/empire/tower/init.lua:50
-#: ../../data/tribes/buildings/militarysites/frisians/tower/init.lua:61
-msgid "The enemy defeated your soldiers at the tower."
-msgstr "監視塔であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower/init.lua:49
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/init.lua:56
-#: ../../data/tribes/buildings/militarysites/empire/tower/init.lua:51
-#: ../../data/tribes/buildings/militarysites/frisians/tower/init.lua:62
-msgid "Your soldiers defeated the enemy at the tower."
-msgstr "あなたの兵士が監視塔で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/init.lua:37
-msgid "Your soldiers have occupied your high tower."
-msgstr "兵士達が監視高塔に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/init.lua:38
-msgid "Your high tower discovered an aggressor."
-msgstr "監視高塔が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/init.lua:39
-msgid "Your high tower is under attack."
-msgstr "監視高塔が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/init.lua:40
-msgid "The enemy defeated your soldiers at the high tower."
-msgstr "高監視塔であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/init.lua:41
-msgid "Your soldiers defeated the enemy at the high tower."
-msgstr "あなたの兵士が高監視塔で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/init.lua:40
-msgid "Your soldiers have occupied your small tower."
-msgstr "兵士達が小監視塔に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/init.lua:41
-msgid "Your small tower discovered an aggressor."
-msgstr "小監視塔が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/init.lua:42
-msgid "Your small tower is under attack."
-msgstr "小監視塔が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/init.lua:43
-msgid "The enemy defeated your soldiers at the small tower."
-msgstr "小監視塔であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/init.lua:44
-msgid "Your soldiers defeated the enemy at the small tower."
-msgstr "あなたの兵士が小監視塔で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/init.lua:45
-#: ../../data/tribes/buildings/militarysites/empire/barrier/init.lua:51
-msgid "Your soldiers have occupied your barrier."
-msgstr "兵士達が防塞に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/init.lua:46
-#: ../../data/tribes/buildings/militarysites/empire/barrier/init.lua:52
-msgid "Your barrier discovered an aggressor."
-msgstr "防塞が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/init.lua:47
-#: ../../data/tribes/buildings/militarysites/empire/barrier/init.lua:53
-msgid "Your barrier is under attack."
-msgstr "防塞が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/init.lua:48
-#: ../../data/tribes/buildings/militarysites/empire/barrier/init.lua:54
-msgid "The enemy defeated your soldiers at the barrier."
-msgstr "防塞であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/init.lua:49
-#: ../../data/tribes/buildings/militarysites/empire/barrier/init.lua:55
-msgid "Your soldiers defeated the enemy at the barrier."
-msgstr "あなたの兵士が防塞で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/init.lua:49
-msgid "Your soldiers have occupied your citadel."
-msgstr "兵士達が城塞に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/init.lua:50
-msgid "Your citadel discovered an aggressor."
-msgstr "城塞が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/init.lua:51
-msgid "Your citadel is under attack."
-msgstr "城塞が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/init.lua:52
-msgid "The enemy defeated your soldiers at the citadel."
-msgstr "城塞であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/init.lua:53
-msgid "Your soldiers defeated the enemy at the citadel."
-msgstr "あなたの兵士が城塞で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/init.lua:55
-#: ../../data/tribes/buildings/militarysites/empire/fortress/init.lua:52
-#: ../../data/tribes/buildings/militarysites/frisians/fortress/init.lua:57
-msgid "Your soldiers have occupied your fortress."
-msgstr "兵士達が要塞に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/init.lua:56
-#: ../../data/tribes/buildings/militarysites/empire/fortress/init.lua:53
-#: ../../data/tribes/buildings/militarysites/frisians/fortress/init.lua:58
-msgid "Your fortress discovered an aggressor."
-msgstr "要塞が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/init.lua:57
-#: ../../data/tribes/buildings/militarysites/empire/fortress/init.lua:54
-#: ../../data/tribes/buildings/militarysites/frisians/fortress/init.lua:59
-msgid "Your fortress is under attack."
-msgstr "要塞が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/init.lua:58
-#: ../../data/tribes/buildings/militarysites/empire/fortress/init.lua:55
-#: ../../data/tribes/buildings/militarysites/frisians/fortress/init.lua:60
-msgid "The enemy defeated your soldiers at the fortress."
-msgstr "要塞であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/init.lua:59
-#: ../../data/tribes/buildings/militarysites/empire/fortress/init.lua:56
-#: ../../data/tribes/buildings/militarysites/frisians/fortress/init.lua:61
-msgid "Your soldiers defeated the enemy at the fortress."
-msgstr "あなたの兵士が要塞で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/init.lua:47
-#: ../../data/tribes/buildings/militarysites/empire/sentry/init.lua:48
-msgid "Your soldiers have occupied your sentry."
-msgstr "兵士達が詰所に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/init.lua:48
-#: ../../data/tribes/buildings/militarysites/empire/sentry/init.lua:49
-msgid "Your sentry discovered an aggressor."
-msgstr "詰所が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/init.lua:49
-#: ../../data/tribes/buildings/militarysites/empire/sentry/init.lua:50
-msgid "Your sentry is under attack."
-msgstr "詰所が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/init.lua:50
-#: ../../data/tribes/buildings/militarysites/empire/sentry/init.lua:51
-msgid "The enemy defeated your soldiers at the sentry."
-msgstr "詰所であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/init.lua:51
-#: ../../data/tribes/buildings/militarysites/empire/sentry/init.lua:52
-msgid "Your soldiers defeated the enemy at the sentry."
-msgstr "あなたの兵士が詰所で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/blockhouse/init.lua:36
-msgid "Your soldiers have occupied your blockhouse."
-msgstr "兵士が兵屋に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/blockhouse/init.lua:37
-msgid "Your blockhouse discovered an aggressor."
-msgstr "兵屋が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/blockhouse/init.lua:38
-msgid "Your blockhouse is under attack."
-msgstr "兵屋が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/blockhouse/init.lua:39
-msgid "The enemy defeated your soldiers at the blockhouse."
-msgstr "兵屋であなたの兵士が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/blockhouse/init.lua:40
-msgid "Your soldiers defeated the enemy at the blockhouse."
-msgstr "あなたの兵士達が兵屋で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/outpost/init.lua:42
-#: ../../data/tribes/buildings/militarysites/frisians/outpost/init.lua:55
-msgid "Your soldiers have occupied your outpost."
-msgstr "兵士達が前線基地に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/outpost/init.lua:43
-#: ../../data/tribes/buildings/militarysites/frisians/outpost/init.lua:56
-msgid "Your outpost discovered an aggressor."
-msgstr "前線基地が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/outpost/init.lua:44
-#: ../../data/tribes/buildings/militarysites/frisians/outpost/init.lua:57
-msgid "Your outpost is under attack."
-msgstr "前線基地が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/outpost/init.lua:45
-#: ../../data/tribes/buildings/militarysites/frisians/outpost/init.lua:58
-msgid "The enemy defeated your soldiers at the outpost."
-msgstr "前線基地であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/empire/outpost/init.lua:46
-#: ../../data/tribes/buildings/militarysites/frisians/outpost/init.lua:59
-msgid "Your soldiers defeated the enemy at the outpost."
-msgstr "あなたの兵士達が前線基地で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/sentinel/init.lua:53
-msgid "Your soldiers have occupied your sentinel."
-msgstr "兵士達が監視所に入りました"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/sentinel/init.lua:54
-msgid "Your sentinel discovered an aggressor."
-msgstr "監視所が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/sentinel/init.lua:55
-msgid "Your sentinel is under attack."
-msgstr "監視所が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/sentinel/init.lua:56
-msgid "The enemy defeated your soldiers at the sentinel."
-msgstr "監視所であなたの兵士達が敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/sentinel/init.lua:57
-msgid "Your soldiers defeated the enemy at the sentinel."
-msgstr "あなたの兵士達が監視所で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower/init.lua:52
-msgid "Your soldiers have occupied your wooden tower."
-msgstr "兵士達が木製塔に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower/init.lua:53
-msgid "Your wooden tower discovered an aggressor."
-msgstr "木製塔が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower/init.lua:54
-msgid "Your wooden tower is under attack."
-msgstr "木製塔が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower/init.lua:55
-msgid "The enemy defeated your soldiers at the wooden tower."
-msgstr "木製塔であなたの兵士達が敵に敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower/init.lua:56
-msgid "Your soldiers defeated the enemy at the wooden tower."
-msgstr "あなたの兵士達が木製塔で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower_high/init.lua:50
-msgid "Your soldiers have occupied your high wooden tower."
-msgstr "兵士達が木製高塔に入りました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower_high/init.lua:51
-msgid "Your high wooden tower discovered an aggressor."
-msgstr "木製高塔が侵略者を発見しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower_high/init.lua:52
-msgid "Your high wooden tower is under attack."
-msgstr "木製高塔が攻撃を受けています。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower_high/init.lua:53
-msgid "The enemy defeated your soldiers at the high wooden tower."
-msgstr "木製高塔であなたの兵士達が敵に敗れました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower_high/init.lua:54
-msgid "Your soldiers defeated the enemy at the high wooden tower."
-msgstr "あなたの兵士達が木製高塔で敵を倒しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/blackroot_farm/init.lua:82
+#: ../../data/tribes/buildings/productionsites/atlanteans/blackroot_farm/init.lua:71
 msgctxt "atlanteans_building"
 msgid ""
 "The blackroot farmer working at this blackroot farm has no cleared soil to "
@@ -443,7 +32,7 @@ msgid ""
 msgstr "この畑にはこれ以上黒根を植えられる場所がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/coalmine/init.lua:107
+#: ../../data/tribes/buildings/productionsites/atlanteans/coalmine/init.lua:98
 msgctxt "atlanteans_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -451,7 +40,7 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:171
+#: ../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:157
 msgctxt "atlanteans_building"
 msgid ""
 "This crystal mine’s main vein is exhausted. Expect strongly diminished "
@@ -459,14 +48,14 @@ msgid ""
 msgstr "この水晶鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/farm/init.lua:86
+#: ../../data/tribes/buildings/productionsites/atlanteans/farm/init.lua:75
 msgctxt "atlanteans_building"
 msgid ""
 "The farmer working at this farm has no cleared soil to plant his seeds."
 msgstr "この畑にはこれ以上種を植えられる場所がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:59
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:54
 msgctxt "atlanteans_building"
 msgid ""
 "The fish breeder working out of this fish breeder’s house can’t find any "
@@ -475,7 +64,7 @@ msgid ""
 msgstr "この養魚番は作業範囲に魚を見つけることができません。魚がいなければ育てることもできません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:64
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:55
 msgctxt "atlanteans_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -484,7 +73,7 @@ msgid ""
 msgstr "この漁師は作業エリア内に魚を見つけられません。養魚番小屋を建てれば残っている魚を増やすことができるかもしれません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:95
+#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:86
 msgctxt "atlanteans_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -493,7 +82,7 @@ msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:61
+#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:53
 msgctxt "atlanteans_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -501,7 +90,7 @@ msgid ""
 msgstr "ここの狩人は作業エリア内に獲物を見つけられません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:99
+#: ../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:90
 msgctxt "atlanteans_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -509,7 +98,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:69
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:49
 msgctxt "atlanteans_building"
 msgid ""
 "The stonecutter working at this quarry can’t find any rocks in his work "
@@ -517,21 +106,13 @@ msgid ""
 msgstr "この採石場で働く石切りは作業エリア何に岩を見つけられません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:65
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:67
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:64
-#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:74
-msgid "Out of Water"
-msgstr "水が枯渇しました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:66
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:58
 msgctxt "atlanteans_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸には水がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:59
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:50
 msgctxt "atlanteans_building"
 msgid ""
 "The woodcutter working at this woodcutter’s house can’t find any trees in "
@@ -540,8 +121,8 @@ msgid ""
 msgstr "木こりは作業エリア内に木を見つけられません。この建物を解体、破壊するか、さもなくば植樹番小屋を建てることを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:99
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:101
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:98
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:90
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -549,7 +130,7 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:101
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:80
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -558,14 +139,14 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/farm/init.lua:96
+#: ../../data/tribes/buildings/productionsites/barbarians/farm/init.lua:85
 msgctxt "barbarians_building"
 msgid ""
 "The farmer working at this farm has no cleared soil to plant his seeds."
 msgstr "この畑にはこれ以上種をまける場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:68
+#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:60
 msgctxt "barbarians_building"
 msgid ""
 "The fisher working out of this fisher’s hut can’t find any fish in his work "
@@ -574,7 +155,7 @@ msgstr "ここの漁師は作業エリア内に魚を見つけられません"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:83
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:101
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:90
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -582,7 +163,7 @@ msgid ""
 msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:100
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:79
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -591,7 +172,7 @@ msgid ""
 msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:95
+#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:86
 msgctxt "barbarians_building"
 msgid ""
 "This granite mine’s main vein is exhausted. Expect strongly diminished "
@@ -601,7 +182,7 @@ msgstr "この花崗岩鉱の主要鉱脈は枯渇しました。もう投資に
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:73
+#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:64
 msgctxt "barbarians_building"
 msgid ""
 "The hunter working out of this hunter’s hut can’t find any game in his work "
@@ -611,7 +192,7 @@ msgstr "この狩人は作業エリア内に獲物を見つけられません。
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:83
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:101
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:90
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -619,7 +200,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:101
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:80
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -628,7 +209,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:66
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:57
 msgctxt "barbarians_building"
 msgid ""
 "The lumberjack working at this lumberjack’s hut can’t find any trees in his "
@@ -637,14 +218,14 @@ msgid ""
 msgstr "木こりは作業エリアに木を見つけられません。この建物を解体、破壊するか、さもなくば植樹番の庵を建てることを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:76
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:56
 msgctxt "barbarians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
 msgstr "石工が作業エリア内に岩を見つけられません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:78
+#: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:67
 msgctxt "barbarians_building"
 msgid ""
 "The gardener working at this reed yard has no cleared soil to plant his "
@@ -652,7 +233,7 @@ msgid ""
 msgstr "このカヤ園にはあらたにカヤを植えられる場所が残っていません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:68
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:60
 msgctxt "barbarians_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸にはもう水が無いようです。"
@@ -666,7 +247,7 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:77
 msgctxt "empire_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -675,14 +256,14 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/farm/init.lua:85
+#: ../../data/tribes/buildings/productionsites/empire/farm/init.lua:74
 msgctxt "empire_building"
 msgid ""
 "The farmer working at this farm has no cleared soil to plant his seeds."
 msgstr "この畑にはこれ以上種をまける場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:60
+#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:52
 msgctxt "empire_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -698,7 +279,7 @@ msgid ""
 msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:95
+#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:75
 msgctxt "empire_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -708,7 +289,7 @@ msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:61
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:53
 msgctxt "empire_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -724,7 +305,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:96
+#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:76
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -733,7 +314,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:59
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:50
 msgctxt "empire_building"
 msgid ""
 "The lumberjack working at this lumberjack’s house can’t find any trees in "
@@ -742,7 +323,7 @@ msgid ""
 msgstr "ここの木こりは作業エリアに木を見つけられません。この建物を解体、破壊するか、さもなくば植樹番小屋を建てることを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:139
+#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:136
 msgctxt "empire_building"
 msgid ""
 "This marble mine’s main vein is exhausted. Expect strongly diminished "
@@ -751,7 +332,7 @@ msgid ""
 msgstr "この大理石鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:106
+#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:85
 msgctxt "empire_building"
 msgid ""
 "This marble mine’s main vein is exhausted. Expect strongly diminished "
@@ -760,14 +341,14 @@ msgid ""
 msgstr "この大理石鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:84
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:70
 msgctxt "empire_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
 msgstr "石工は作業エリア内に岩を見つけられません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:84
+#: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:73
 msgctxt "empire_building"
 msgid ""
 "The vine farmer working at this vineyard has no cleared soil to plant his "
@@ -775,13 +356,13 @@ msgid ""
 msgstr "このブドウ園にはこれ以上ブドウを植える場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:65
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:57
 msgctxt "empire_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸には水がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:103
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:92
 msgctxt "frisians_building"
 msgid ""
 "The fisher working at this aqua farm can’t find any fish ponds in his work "
@@ -791,7 +372,7 @@ msgid ""
 msgstr "作業エリア内にこれ以上養殖池がありません。近くに穴掘りを配置し、養殖場には物資をきちんと供給しましょう。それができないのであれば、建物を解体、破壊することを考えましょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:77
+#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:66
 msgctxt "frisians_building"
 msgid ""
 "The beekeeper working at this beekeepers’s house can’t find any flowering "
@@ -800,7 +381,7 @@ msgid ""
 msgstr "ここの養蜂家は作業エリア内に花がある畑を見つけられません。近くに農場やベリー農場を作るか、さもなくばこの建物を解体、破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:99
+#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:86
 msgctxt "frisians_building"
 msgid ""
 "The clay digger working at this clay pit can’t find any level ground in his "
@@ -809,7 +390,7 @@ msgid ""
 msgstr "ここの穴掘り小屋の粘土掘削人の作業エリア内に平らな地面がありません。小屋を解体し、別の場所に建てることを考えましょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:118
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:120
 msgctxt "frisians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -817,7 +398,7 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:122
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:99
 msgctxt "frisians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -826,7 +407,7 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:75
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:66
 msgctxt "frisians_building"
 msgid ""
 "The fruit collector working at this fruit collector’s house can’t find any "
@@ -835,14 +416,14 @@ msgid ""
 msgstr "フルーツ採取人の作業エリア内にベリー畑がありません。ベリー農場を建てるか、さもなくば採取人小屋の解体、破壊を考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:117
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:103
 msgctxt "frisians_building"
 msgid ""
 "The farmer working at this farm has no cleared soil to plant his seeds."
 msgstr "この畑にはこれ以上種をまける場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:73
+#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:65
 msgctxt "frisians_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -850,7 +431,7 @@ msgid ""
 msgstr "漁師は作業エリア内に魚を見つけられません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:103
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:107
 msgctxt "frisians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -858,7 +439,7 @@ msgid ""
 msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:120
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:97
 msgctxt "frisians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -868,7 +449,7 @@ msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:84
+#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:75
 msgctxt "frisians_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -876,7 +457,7 @@ msgid ""
 msgstr "ここの狩人は作業エリア内に獲物を見つけられません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:103
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:107
 msgctxt "frisians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -884,7 +465,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:122
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:99
 msgctxt "frisians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -893,14 +474,14 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:83
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:63
 msgctxt "frisians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
 msgstr "石工が作業エリア内に岩を見つけられません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:97
+#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:83
 msgctxt "frisians_building"
 msgid ""
 "The reed farmer working at this reed farm has no cleared soil to plant his "
@@ -908,7 +489,7 @@ msgid ""
 msgstr "このカヤ農場にはあらたにカヤを植えられる場所が残っていません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:120
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:123
 msgctxt "frisians_building"
 msgid ""
 "This rock mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -916,7 +497,7 @@ msgid ""
 msgstr "この岩石鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。拡張、解体、さもなくば破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:123
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:100
 msgctxt "frisians_building"
 msgid ""
 "This rock mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -925,13 +506,13 @@ msgid ""
 msgstr "この岩石鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:75
+#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:67
 msgctxt "frisians_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸にはもう水が無いようです。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:72
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:63
 msgctxt "frisians_building"
 msgid ""
 "The woodcutter working at this woodcutter’s house can’t find any trees in "
@@ -940,18 +521,18 @@ msgid ""
 msgstr "木こりは作業エリア内に木を見つけられません。この建物を解体、破壊するか、さもなくば植樹番小屋を建てることを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/preload.lua:18
-msgid "The mighty tribes of the east-lands."
-msgstr "東方の強力な部族"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/preload.lua:39
-msgid "This is the culture of the Roman Empire."
-msgstr "ローマ帝国の文化圏"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/preload.lua:60
+#: ../../data/tribes/initialization/atlanteans/init.lua:14
 msgid ""
 "This tribe is known from the oldest tales. The sons and daughters of "
 "Atlantis."
 msgstr "アトラス神の子孫である伝説に謳われる部族です。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/initialization/barbarians/init.lua:13
+msgid "The mighty tribes of the east-lands."
+msgstr "東方の強力な部族"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/initialization/empire/init.lua:13
+msgid "This is the culture of the Roman Empire."
+msgstr "ローマ帝国の文化圏"

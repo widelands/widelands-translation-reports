@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,15 +12,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:293
+#: ../../src/logic/generic_save_handler.cc:288
 msgid "An unexpected error occurred:"
 msgstr "Une erreur inattendue  s'est produite :"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/multiplayersetupgroup.cc:525
-#: ../../src/wui/playerdescrgroup.cc:290
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:445
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:277
 msgid "Start type is set via the scenario"
 msgstr "Type  de début déterminé dans le scénario"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication.cc:1431
+msgid ""
+"The random map generator was unable to generate a suitable map. This happens"
+" occasionally because the generator is still in beta stage. Please try again"
+" with slightly different settings."
+msgstr "Le générateur de carte aléatoire n'a pas été capable de générer une carte adaptée. Cela peut survenir occasionnellement car le générateur est  encore en version beta. Merci d'essayer à nouveau avec des paramètres légèrement différents."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: %1% = number of selected directories, %2% = number of
+#. selected files
+#: ../../src/wui/gamedetails.cc:120
+msgid "Selected %1% directory and %2%:"
+msgid_plural "Selected %1% directories and %2%:"
+msgstr[0] " %1% répertoire et %2% sélectionnés:"
+msgstr[1] "%1% répertoires  et %2% sélectionnés:"

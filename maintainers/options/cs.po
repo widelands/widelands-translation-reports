@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2019-12-30 08:11+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-23 07:56+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
 " 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--datadir'
 #: ../../src/wlapplication_messages.cc:47
@@ -30,14 +30,14 @@ msgid ""
 msgstr "--homedir=DIRNAME Použij určený adresář pro Widelands config,\nuložené hry a záznamy"
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--script'
-#: ../../src/wlapplication_messages.cc:108
+#: ../../src/wlapplication_messages.cc:115
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr "--script=FILENAME Spusti uvedený Lua skript po inicializaci.\nPlatné pouze s volbami --scenario, --loadgame nebo --editor."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:139
+#: ../../src/wlapplication_messages.cc:147
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -46,7 +46,7 @@ msgid ""
 msgstr "--border_snap_distance=[0 ...]\nPřichytit okno k okraji obrazovky jakmile\nse okraj okna dostane do této vzdálenosti\nod okraje obrazovky."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:152
+#: ../../src/wlapplication_messages.cc:160
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

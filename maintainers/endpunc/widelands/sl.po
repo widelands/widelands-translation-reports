@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Slovenian (http://www.transifex.com/widelands/widelands/"
 "language/sl/)\n"
 "Language: sl\n"
@@ -13,36 +13,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:958
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
-msgid "Creating empty map…"
-msgstr "Ustvarjam prazen zemljevid ..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:972
+#: ../../src/editor/editorinteractive.cc:977
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Nalaganje zemljevida “%s” ..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:994
+msgid "Postloading editor…"
+msgstr "Zaključevanje nalaganja urejevalnika ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:1027
+msgid "Loading world…"
+msgstr "Nalaganje sveta ..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:184
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:176
 #, c-format
 msgid "Current: %s …"
 msgstr "Trenutno: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:177
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:101
+msgid "Creating empty map…"
+msgstr "Ustvarjam prazen zemljevid ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:190
 msgid "Map ID:"
 msgstr "ID zemljevida"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:485
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
 msgid "Generating random map…"
 msgstr "Ustvarjanje naključnega zemljevida ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:339
+msgid "Saving the map…"
+msgstr "Shranjevanje zemljevida ..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/game_io/game_saver.cc:54
@@ -50,122 +64,119 @@ msgid "Autosaving game…"
 msgstr "Samodejno shranjevanje..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:298
-msgid "Postloading world and tribes…"
-msgstr "Ponalaganje sveta in plemen ..."
+#: ../../src/logic/editor_game_base.cc:226
+#, c-format
+msgid "Creating player %d…"
+msgstr "Ustvarjam igralca %d ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:216 ../../src/logic/game.cc:273
-#: ../../src/logic/game.cc:358 ../../src/logic/game.cc:390
+#: ../../src/logic/game.cc:230 ../../src/logic/game.cc:277
+#: ../../src/logic/game.cc:367 ../../src/logic/game.cc:412
 msgid "Preloading map…"
 msgstr "Prednalaganje zemljevida ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:220 ../../src/logic/game.cc:280
-msgid "Loading world…"
-msgstr "Nalaganje sveta ..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:222 ../../src/logic/game.cc:283
-msgid "Loading tribes…"
-msgstr "Nalaganje plemen ..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:232 ../../src/logic/game.cc:286
-msgid "Creating players…"
-msgstr "Ustvarjanje igralcev ..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:249 ../../src/logic/game.cc:314
-msgid "Loading map…"
-msgstr "Nalaganje zemljevida ..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:321
+#: ../../src/logic/game.cc:325
 msgid "Initializing game…"
 msgstr "Inicializacija igre ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:372 ../../src/logic/game.cc:408
-#: ../../src/ui_basic/progresswindow.cc:52 ../../src/wlapplication.cc:1489
-msgid "Loading…"
-msgstr "Nalaganje ..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:469
+#. * TRANSLATORS: All players (plural)
+#: ../../src/logic/game.cc:528
 msgid "Creating player infrastructure…"
 msgstr "Ustvarjanje infrastrukture igralca ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:245
+#: ../../src/logic/generic_save_handler.cc:240
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "Mape '%s' ni bilo mogoče ustvariti!!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:556
+#: ../../src/logic/map_objects/tribes/warehouse.cc:557
 msgid "A new port was added to your economy."
 msgstr "Novo pristanišče dodano vašemu gospodarstvu"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:127
+#: ../../src/logic/save_handler.cc:130
 msgid "Saving game…"
 msgstr "Shranjevanje ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:90
+#: ../../src/map_io/map_saver.cc:89
 msgid "Autosaving map…"
 msgstr "Samodejno shranjevanje zemljevida ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/intro.cc:33
-msgid "Press any key or click to continue…"
-msgstr "Za nadaljevanje pritisnite tipko ali kliknite ..."
+#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+msgid "Loading map…"
+msgstr "Nalaganje zemljevida ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/scenario_select.cc:109
+#: ../../src/network/gameclient.cc:154 ../../src/network/gamehost.cc:693
+#: ../../src/wlapplication.cc:1501
+msgid "Preparing game…"
+msgstr "Pripravljam igro ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/progresswindow.cc:62
+msgid "Loading…"
+msgstr "Nalaganje ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/login_box.cc:209
+msgid "Please enter your password!"
+msgstr "Vnesite svoje geslo."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:360
+msgid "Single Player…"
+msgstr "En igralec ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:361
+msgid "Multiplayer…"
+msgstr "Več igralcev ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:362
+msgid "Editor…"
+msgstr "Urejevalnik ..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/scenario_select.cc:102
 msgid "Return to campaign selection"
 msgstr "Nazaj na izbiro kampanje."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:187
-#: ../../src/wui/constructionsitewindow.cc:234
-#: ../../src/wui/soldiercapacitycontrol.cc:71
+#: ../../src/wui/constructionsitewindow.cc:192
+#: ../../src/wui/constructionsitewindow.cc:254
+#: ../../src/wui/soldiercapacitycontrol.cc:68
 msgid ""
 "Decrease capacity. Hold down Ctrl to set the capacity to the lowest value"
 msgstr "Zmanjšaj zmogljivost. Držite Ctrl, da nastavite najnižjo možno zmogljivost."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:191
-#: ../../src/wui/constructionsitewindow.cc:238
-#: ../../src/wui/soldiercapacitycontrol.cc:80
+#: ../../src/wui/constructionsitewindow.cc:196
+#: ../../src/wui/constructionsitewindow.cc:258
+#: ../../src/wui/soldiercapacitycontrol.cc:77
 msgid ""
 "Increase capacity. Hold down Ctrl to set the capacity to the highest value"
 msgstr "Povečaj zmogljivost. Držite Ctrl, da nastavite najvišjo možno zmogljivost."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/login_box.cc:172
-msgid "Please enter your password!"
-msgstr "Vnesite svoje geslo."
-
-# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Column title for number of players in map list
-#: ../../src/wui/maptable.cc:30
+#: ../../src/wui/maptable.cc:32
 msgid "Pl."
 msgstr "IG"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/playerdescrgroup.cc:167
-msgid "The tribe will be set at random."
-msgstr "Pleme bo nastavljeno naključno"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:106
+#: ../../src/wui/productionsitewindow.cc:114
 msgid "Exp"
 msgstr "Izk."
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:96
+#: ../../src/wui/savegamedeleter.cc:97
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."

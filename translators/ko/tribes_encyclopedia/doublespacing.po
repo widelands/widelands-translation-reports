@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
@@ -12,33 +12,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/helptexts.lua:11
-msgctxt "frisians_building"
-msgid ""
-"A master blacksmith refusing to forge anything but the most sophisticated "
-"helmets and weapons"
-msgstr "가장 정교한 투구와 무기 외에 어떤 것도 거절하지 않는 달인  대장장이"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Bread
-#: ../../data/tribes/wares/bread_empire/helptexts.lua:4
+#. TRANSLATORS: Helptext for an empire ware: Bread
+#: ../../data/tribes/initialization/empire/units.lua:194
 msgctxt "empire_ware"
 msgid ""
 "The bakers of the Empire make really tasty bread out of flour and water. It "
 "is used in taverns and inns to prepare rations and meals. Bread is also "
 "consumed at the training sites (arena, colosseum, training camp)."
-msgstr "제국의 제빵사들은 정말 맛있는 빵을 밀가루와 물을 이용해서 만듭니다. 선술집과 여관에서 배급과 식사를 준비하는데 사용됩니다.  빵은 또한 훈련장 (경기장, 원형경기장, 훈련소) 에서 소비됩니다."
+msgstr "제국의 제빵사들은 정말 맛있는 빵을 밀가루와 물을 이용해서 만듭니다. 선술집과 여관에서 야전식량과 식사를 준비하는데 사용됩니다.  빵은 또한 훈련장 (경기장, 원형경기장, 훈련소) 에서 소비됩니다."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Mask
-#: ../../data/tribes/wares/helmet_mask/helptexts.lua:4
-msgctxt "barbarians_ware"
+#. TRANSLATORS: Lore helptext for a frisian production site: Barracks
+#: ../../data/tribes/initialization/frisians/units.lua:1904
+msgctxt "frisians_building"
 msgid ""
-"This is the most enhanced Barbarian armor. It is produced in the helm smithy"
-" and used in the training camp – together with food – to train soldiers from"
-" health level 2 to level 3."
-msgstr "이것은 가장 향상된 야만족 갑옷입니다. 투구 제작소에서 생산하며 훈련소에서 군인들의 체력 수준을 2 →  3으로 훈련하는데 - 음식과 함께 - 사용합니다."
+"You have thirty seconds to learn the basics of swordfighting and how to stay"
+" alive in battle. A third of that time has gone by for the introduction "
+"alone! You’d better pay close attention to me in order to make the most of "
+"it. Now here is your new short sword, forged just for you by our best "
+"blacksmiths. Time’s up everyone, now go occupy your sentinels!"
+msgstr "칼싸움의 기본 사항과 전투에서 살아남는 방법을 배우려면 30 초가 걸립니다.  그 시간의 3 분의 1은 소개만으로 끝났습니다! 최대한 활용하기 위해  저에게 주의를 기울이는 것이 좋을것입니다. 이제 가장 좋은 대장장이가 당신을 위해 만들어 낸 새로운 짧은 검이 있습니다. 시간이 다되었으니 이제 보초들을 점령하십시오!"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Lore helptext for a frisian production site: Shipyard
+#: ../../data/tribes/initialization/frisians/units.lua:2114
+msgctxt "frisians_building"
+msgid ""
+"This house may be called a shipyard, but my ships are rather longer than one"
+" yard!"
+msgstr "이 집은 조선소라고 불릴 수도 있지만 내 배는 1 야드(약 1 미터)보다  더 길어요!"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-13 09:59+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-08-01 01:21+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,17 +12,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:255
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:258
 msgid ""
 "You need to build the ferry yard close to the shore, otherwise it won’t be "
 "able to build ferries there."
 msgstr "Du musst eine Fährenwerft nah am Ufer bauen, sonst kann sie keine Fähren dort bauen. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:264
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:267
 msgid ""
 "Unlike ships which travel to any port where they’re needed, ferries have "
 "fixed transport routes called waterways. A waterway is built just like a "
@@ -31,30 +31,30 @@ msgid ""
 msgstr "Anders als Schiffe, die zu jedem Hafen fahren können, wo sie gebraucht werden, haben Fähren feste Transport routen die man Wasserweg nennt. Ein Wasserweg wird genau wie eine Straße gebaut : man klickt auf eine Flagge am Strand, wählt \"Baue Wasserweg\", und wählt den Pfad des Wasserwegs genau wie man es bei einer Straße macht. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:265
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:268
 msgid ""
 "Waterways can be built on the open sea as well as close to the shore where "
 "the water is too shallow for big ships. The only rule is that the two "
 "triangles directly adjacent to each segment of the waterway have to be "
 "water, and the entire path needs to be within your territory."
-msgstr "Wasserwege können über offenes Gewässer gebaut werden, aber auch am Strand entlang, wo das Wasser zu flach für große Schiffe ist. Die einzige Regel ist, dass mindestens zwei Dreieckfelder, die an ein Wasserwegsegment angrenzen Wasser sein müssen, und der gesamte Pfad innerhalb deines Territoriums liegen muss. "
+msgstr "Wasserwege können über offenes Gewässer gebaut werden, aber auch am Strand entlang, wo das Wasser zu flach für große Schiffe ist. Die einzige Regel ist, dass mindestens zwei Dreieckfelder, die an ein Wasserwegsegment angrenzen Wasser sein müssen, und der gesamte Pfad innerhalb deines Gebiets liegen muss. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:289
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:292
 msgid ""
 "Now it’s your turn: Build a gold mine on the mountain in the south and "
 "connect it to the main land by building waterways over the streams."
 msgstr "Jetzt bist du am Zug: Baue eine Goldmine an dem Berg im Süden, und verbinde sie mit dem Hauptland durch Wasserwege über die Wasserströme. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:298
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:301
 msgid ""
 "Build a gold mine on the mountain in the south, and connect it to the "
 "mainland by building waterways over the streams."
 msgstr "Baue eine Goldmine an dem Berg im Süden, und verbinde sie mit dem Hauptland durch Wasserwege über die Wasserströme. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:299
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:302
 msgid ""
 "A waterway is built just like a road: You click on a flag near the shore, "
 "choose ‘Build a waterway’, and select the path for the waterway just as you "
@@ -62,7 +62,7 @@ msgid ""
 msgstr "Ein Wasserweg wird genau wie eine Straße gebaut : man klickt auf eine Flagge am Strand, wählt \"Baue Wasserweg\", und wählt den Pfad des Wasserwegs genau wie man es bei einer Straße macht. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:311
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:314
 msgid ""
 "And if your waterways present a significant shortcut between your road "
 "networks, your economy will tend to send many wares over the waterway. As a "
@@ -75,7 +75,7 @@ msgid ""
 msgstr "Wenn deine Wasserwege eine erhebliche Abkürzung darstellen, wird deine Wirtschaft versuchen viele Waren darüber zu transportieren. Da aber deine Wasserwege im Gegensatz zu Straßen – welche durch ein Tragetier verstärkt werden wenn sie stark benutzt sind – nur eine Fähre beschäftigen, und weil sie öfters etwas länger als 2 bis 3 Felder sind, wie für Straßen empfohlen, gibt es immer die Gefahr, dass sie zu engen Flaschenhälsen in deiner Wirtschaft werden. Versuche immer mehrere parallel zu bauen, um die Last zu verteilen. Wenn das nicht möglich ist, kann es sogar effizienter sein keine Waserwege zu bauen. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:321
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:324
 msgid ""
 "Do remember to stop your ferry yard when you don’t need any new ferries to "
 "be produced. As long as a ferry services a waterway, its lifetime is "

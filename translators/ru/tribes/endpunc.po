@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:84
+#: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:73
 msgctxt "empire_building"
 msgid ""
 "The vine farmer working at this vineyard has no cleared soil to plant his "
@@ -25,7 +25,7 @@ msgid ""
 msgstr "У фермера с этого виноградника нет почвы пригодной для выращивания винограда"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:75
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:66
 msgctxt "frisians_building"
 msgid ""
 "The fruit collector working at this fruit collector’s house can’t find any "
@@ -34,7 +34,7 @@ msgid ""
 msgstr "Сборщик ягод, работающий в этом домике сборщика ягод, не может найти ягодные кусты в своей рабочей области. Рассмотрите вопрос строительства другой ягодной фермы, либо разобрать или разрушить это здание"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:97
+#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:83
 msgctxt "frisians_building"
 msgid ""
 "The reed farmer working at this reed farm has no cleared soil to plant his "
@@ -43,9 +43,10 @@ msgstr "Заготовщик тростника не может найти св�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Headquarters" starting condition
-#: ../../data/tribes/scripting/starting_conditions/atlanteans/headquarters.lua:13
-#: ../../data/tribes/scripting/starting_conditions/barbarians/headquarters.lua:13
-#: ../../data/tribes/scripting/starting_conditions/empire/headquarters.lua:13
-#: ../../data/tribes/scripting/starting_conditions/frisians/headquarters.lua:13
+#: ../../data/tribes/initialization/amazons/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/headquarters.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/headquarters.lua:13
 msgid "Start the game with your headquarters only"
 msgstr "Начать игру только со штабом в собственности."

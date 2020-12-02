@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-01-07 08:53+0000\n"
-"Last-Translator: Viktor S <awsswa59@gmail.com>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-23 07:56+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:44
@@ -27,14 +27,14 @@ msgid "                      Note: New value will be written to config file"
 msgstr "Примечание: Новое значение будет записано в файл конфигурации"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:77
+#: ../../src/wlapplication_messages.cc:82
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr "--rolling_autosave=[...]\nИспользовать это множество файлов для перезаписи по кругу"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:91
+#: ../../src/wlapplication_messages.cc:98
 msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"

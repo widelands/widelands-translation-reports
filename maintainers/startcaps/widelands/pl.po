@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
 "pl/)\n"
 "Language: pl\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<"
 "12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) ||"
 " (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -136,30 +136,25 @@ msgid "Dec"
 msgstr "gru"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/immovable.cc:471
-#: ../../src/logic/map_objects/tribes/constructionsite.cc:152
+#: ../../src/game_io/game_saver.cc:105
+msgid "Interactive player"
+msgstr "gracz interaktywny"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/map_objects/immovable.cc:488
+#: ../../src/logic/map_objects/tribes/constructionsite.cc:173
 #, c-format
 msgid "%i%% built"
 msgstr "Zbudowano %i%%"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/dismantlesite.cc:117
+#: ../../src/logic/map_objects/tribes/dismantlesite.cc:118
 #, c-format
 msgid "%u%% dismantled"
 msgstr "Rozebrano %u%%"
 
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:346
-msgid "kick acknowledgement cancelled: No name given!"
-msgstr "Potwierdzenie wyrzucenia anulowane: Brak podanego imienia!"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:354
-msgid "kick acknowledgement cancelled: Wrong name given!"
-msgstr "Potwierdzenie wyrzucenia anulowane: Podano złe imię!"
-
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/wui/savegamedeleter.cc:96
+#: ../../src/wui/savegamedeleter.cc:97
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
@@ -169,9 +164,7 @@ msgstr[2] "Nie dało się usunąć %d gier."
 msgstr[3] "Nie dało się usunąć %d gry."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate
-#. string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:127
+#: ../../src/wui/savegamedeleter.cc:128
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."

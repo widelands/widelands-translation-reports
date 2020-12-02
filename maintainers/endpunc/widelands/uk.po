@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Ukrainian (http://www.transifex.com/widelands/widelands/"
 "language/uk/)\n"
 "Language: uk\n"
@@ -15,37 +15,37 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:189
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:207
 msgid "Generate Map"
 msgstr "Згенерувати мапу:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/replay_game_controller.cc:100
+#: ../../src/logic/replay_game_controller.cc:102
 msgid ""
 "The end of the replay has been reached and the game has been paused. You may"
 " unpause the game and continue watching if you want to."
 msgstr "Повтор закінчено і гра зупанена. Якщо бажаєте, Ви можете знову запустити гру і продовжити перегляд,"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:145
+#: ../../src/network/network_gaming_messages.cc:144
 msgid "Server uses a different protocol version"
 msgstr "Сервер використовує іншу версію протоколу."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:288
-msgid "Off"
-msgstr "Викл."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/login_box.cc:162
+#: ../../src/ui_fsmenu/login_box.cc:199
 msgid "Please enter a nickname!"
 msgstr "Будь ласка введіть псевдонім"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:106
+#. * TRANSLATORS: Options: Save game automatically every:
+#: ../../src/ui_fsmenu/options.cc:391
+msgid "Off"
+msgstr "Викл."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/productionsitewindow.cc:114
 msgid "Exp"
 msgstr "Досв."

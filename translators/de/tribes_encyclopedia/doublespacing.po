@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-02 09:33+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-17 19:43+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,13 +12,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
+#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:474
+msgctxt "barbarians_ware"
 msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "„Er mag Tiere und sie zu züchten,<br>\nso wie wir es mögen, sie zu kochen und zu essen.“"
+"The bronze ax is considered a weapon that is hard to handle. Only skilled "
+"soldiers can use it. It is produced at the war mill and used in the training"
+" camp – together with food – to train soldiers from attack level 2 to level "
+"3."
+msgstr "Die Bronzeaxt ist als schwer zu führende Waffe bekannt. Nur begabte Krieger nutzen sie erfolgreich. Die Bronzeaxt wird in der Waffenschmiede hergestellt. Im Ausbildungslager wird sie – bei entsprechender Verpflegung – zur Ausbildung der Angriffsstärke eines Kriegers  von Stufe 2 zu Stufe 3 benutzt."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Note helptext for a mine.
+#: ../../data/tribes/scripting/help/building_help.lua:428
+msgid ""
+"This mine will exploit all of its resources down to the deepest level. But "
+"even after having done so, it will still have a %1%%% chance of finding some"
+" more of them."
+msgstr "Diese Mine baut alle Rohstoffe bis zur tiefsten Schicht ab. Aber auch danach besteht eine Chance von %1%%%,  noch mehr davon zu finden."

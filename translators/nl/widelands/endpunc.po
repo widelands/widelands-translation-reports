@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -124,46 +124,51 @@ msgid "Dec"
 msgstr "dec."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:75
-msgid "Loading tribes"
-msgstr "Stammen laden…"
+#: ../../src/editor/editorinteractive.cc:1027
+msgid "Loading world…"
+msgstr "Wereld laden..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:459
-msgid "Creating players"
-msgstr "Spelers aanmaken…"
+#: ../../src/game_io/game_saver.cc:54
+msgid "Autosaving game…"
+msgstr "Spel automatisch opslaan..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:331
-msgid "Loading graphics"
-msgstr "Beelden laden…"
+#: ../../src/logic/game.cc:230 ../../src/logic/game.cc:277
+#: ../../src/logic/game.cc:367 ../../src/logic/game.cc:412
+msgid "Preloading map…"
+msgstr "Kaart vooraf laden..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:245
+#: ../../src/logic/generic_save_handler.cc:240
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "Kon bestandsmap ‘%s’ niet aanmaken."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:249
+#: ../../src/logic/generic_save_handler.cc:244
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Kon bestand ‘%s’ niet verwijderen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:151 ../../src/network/gamehost.cc:663
-#: ../../src/wlapplication.cc:1380
-msgid "Preparing game"
-msgstr "Spel voorbereiden…"
+#: ../../src/logic/save_handler.cc:130
+msgid "Saving game…"
+msgstr "Spel wordt opgeslagen..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/map_io/map_saver.cc:89
+msgid "Autosaving map…"
+msgstr "Kaart wordt automatisch opgeslagen..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign difficulty table header
-#: ../../src/ui_fsmenu/campaign_select.cc:60
+#: ../../src/ui_fsmenu/campaign_select.cc:47
 msgid "Diff."
 msgstr "M"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Column title for number of players in map list
-#: ../../src/wui/maptable.cc:30
+#: ../../src/wui/maptable.cc:32
 msgid "Pl."
 msgstr "#S"

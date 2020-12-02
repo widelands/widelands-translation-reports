@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:14+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
@@ -12,72 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: 'It' is a mine
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/helptexts.lua:26
-msgctxt "barbarians_building"
-msgid "It cannot be enhanced."
-msgstr "'t kann nich utbaut worden."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Gold
-#: ../../data/tribes/wares/gold/helptexts.lua:6
+#. TRANSLATORS: Helptext for an atlantean ware: Iron Ore, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:526
 msgctxt "atlanteans_ware"
-msgid ""
-"It is produced by the smelting works and used by the armor smithy, the "
-"weapon smithy and the gold spinning mill."
-msgstr "'t word vun de Smeltwark produzeert un in Panzersmeden, Wapensmeden un de Goldspinneree bruukt."
+msgid "It is smelted in a smelting works to retrieve the iron."
+msgstr "'t word in Smeltwarken smelt, um dat Iesen to winnen."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Gold
-#: ../../data/tribes/wares/gold/helptexts.lua:12
-msgctxt "empire_ware"
-msgid ""
-"It is produced by the smelting works. Armor and weapons are embellished with"
-" gold in the armor smithy and the weapon smithy."
-msgstr "'t word vun de Smeltwark produzeert. Wapenrocken un Wapens worden in de Panzersmee un Wapensmee mit Gold utrüst."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Gold Ore
-#: ../../data/tribes/wares/gold_ore/helptexts.lua:6
-msgctxt "atlanteans_ware"
-msgid ""
-"Smelted in a smelting works, it turns into gold which is used as a precious "
-"building material and to produce weapons and armor."
-msgstr "'t word in Smeltwarken smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Gold Ore
-#: ../../data/tribes/wares/gold_ore/helptexts.lua:8
-msgctxt "barbarians_ware"
-msgid ""
-"Smelted in a smelting works, it turns into gold which is used as a precious "
-"building material and to produce weapons and armor."
-msgstr "'t word in Smeltwarken smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Gold Ore
-#: ../../data/tribes/wares/gold_ore/helptexts.lua:10
-msgctxt "frisians_ware"
-msgid ""
-"Smelted in a furnace, it turns into gold which is used as a precious "
-"building material and to produce weapons and armor."
-msgstr "'t word in Smeltereen smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Gold Ore
-#: ../../data/tribes/wares/gold_ore/helptexts.lua:12
-msgctxt "empire_ware"
-msgid ""
-"Smelted in a smelting works, it turns into gold which is used as a precious "
-"building material and to produce weapons and armor."
-msgstr "'t word in Smeltwarken smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron
-#: ../../data/tribes/wares/iron/helptexts.lua:6
+#. TRANSLATORS: Helptext for an atlantean ware: Iron, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:539
 msgctxt "atlanteans_ware"
 msgid ""
 "It is produced by the smelting works and used in the toolsmithy, armor "
@@ -85,8 +31,33 @@ msgid ""
 msgstr "'t word vun de Smeltwark produzeert un in de Warktüügsmee, Panzersmee un Wapensmee bruukt."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron
-#: ../../data/tribes/wares/iron/helptexts.lua:8
+#. TRANSLATORS: Helptext for an atlantean ware: Gold Ore, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:552
+msgctxt "atlanteans_ware"
+msgid ""
+"Smelted in a smelting works, it turns into gold which is used as a precious "
+"building material and to produce weapons and armor."
+msgstr "'t word in Smeltwarken smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for an atlantean ware: Gold, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:565
+msgctxt "atlanteans_ware"
+msgid ""
+"It is produced by the smelting works and used by the armor smithy, the "
+"weapon smithy and the gold spinning mill."
+msgstr "'t word vun de Smeltwark produzeert un in Panzersmeden, Wapensmeden un de Goldspinneree bruukt."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for a barbarian ware: Iron Ore, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:270
+msgctxt "barbarians_ware"
+msgid "It is smelted in a smelting works to retrieve the iron."
+msgstr "'t word in Smeltwarken smelt, um dat Iesen to winnen."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for a barbarian ware: Iron, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:283
 msgctxt "barbarians_ware"
 msgid ""
 "It is produced by the smelting works and used to produce weapons and tools "
@@ -94,8 +65,31 @@ msgid ""
 msgstr "'t word vun de Smeltwark produzeert un word bruukt, um Wapens un Warktüüg in de Metalldreihbank, Extensmede, Oorlogs-Smee un Helmsmee to produzeren."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron
-#: ../../data/tribes/wares/iron/helptexts.lua:10
+#. TRANSLATORS: Helptext for a barbarian ware: Gold Ore, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:296
+msgctxt "barbarians_ware"
+msgid ""
+"Smelted in a smelting works, it turns into gold which is used as a precious "
+"building material and to produce weapons and armor."
+msgstr "'t word in Smeltwarken smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: 'It' is a mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1496
+msgctxt "barbarians_building"
+msgid "It cannot be enhanced."
+msgstr "'t kann nich utbaut worden."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for an empire ware: Iron Ore, part 2
+#: ../../data/tribes/initialization/empire/units.lua:287
+msgctxt "empire_ware"
+msgid "It is smelted in a smelting works to retrieve the iron."
+msgstr "'t word in Smeltwarken smelt, um dat Iesen to winnen."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for an empire ware: Iron, part 2
+#: ../../data/tribes/initialization/empire/units.lua:300
 msgctxt "empire_ware"
 msgid ""
 "It is produced by the smelting works. Weapons, armor and tools are made of "
@@ -103,8 +97,33 @@ msgid ""
 msgstr "'t word vun de Smeltwark produzeert. Wapens, Wapenrocken un Warktüüg sünd ut Iesen."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron
-#: ../../data/tribes/wares/iron/helptexts.lua:12
+#. TRANSLATORS: Helptext for an empire ware: Gold Ore, part 2
+#: ../../data/tribes/initialization/empire/units.lua:313
+msgctxt "empire_ware"
+msgid ""
+"Smelted in a smelting works, it turns into gold which is used as a precious "
+"building material and to produce weapons and armor."
+msgstr "'t word in Smeltwarken smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for an empire ware: Gold, part 2
+#: ../../data/tribes/initialization/empire/units.lua:326
+msgctxt "empire_ware"
+msgid ""
+"It is produced by the smelting works. Armor and weapons are embellished with"
+" gold in the armor smithy and the weapon smithy."
+msgstr "'t word vun de Smeltwark produzeert. Wapenrocken un Wapens worden in de Panzersmee un Wapensmee mit Gold utrüst."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for a frisian ware: Iron Ore, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:310
+msgctxt "frisians_ware"
+msgid "It is smelted in a furnace to retrieve the iron."
+msgstr "'t word in Smeltereen smelt, um dat Iesen to winnen."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Helptext for a frisian ware: Iron, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:323
 msgctxt "frisians_ware"
 msgid ""
 "It is produced by the furnace. Tools and weapons are made of iron. It is "
@@ -112,29 +131,10 @@ msgid ""
 msgstr "'t word vun de Smelteree produzeert. Warktüüg un Wapens worden ut Iesen maakt. 't word ok bruukt, um Fellkluften to verbetern."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron Ore
-#: ../../data/tribes/wares/iron_ore/helptexts.lua:6
-msgctxt "atlanteans_ware"
-msgid "It is smelted in a smelting works to retrieve the iron."
-msgstr "'t word in Smeltwarken smelt, um dat Iesen to winnen."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron Ore
-#: ../../data/tribes/wares/iron_ore/helptexts.lua:8
-msgctxt "barbarians_ware"
-msgid "It is smelted in a smelting works to retrieve the iron."
-msgstr "'t word in Smeltwarken smelt, um dat Iesen to winnen."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron Ore
-#: ../../data/tribes/wares/iron_ore/helptexts.lua:10
+#. TRANSLATORS: Helptext for a frisian ware: Gold Ore, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:336
 msgctxt "frisians_ware"
-msgid "It is smelted in a furnace to retrieve the iron."
-msgstr "'t word in Smeltereen smelt, um dat Iesen to winnen."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for a ware: Iron Ore
-#: ../../data/tribes/wares/iron_ore/helptexts.lua:12
-msgctxt "empire_ware"
-msgid "It is smelted in a smelting works to retrieve the iron."
-msgstr "'t word in Smeltwarken smelt, um dat Iesen to winnen."
+msgid ""
+"Smelted in a furnace, it turns into gold which is used as a precious "
+"building material and to produce weapons and armor."
+msgstr "'t word in Smeltereen smelt. Dann word daarut Gold, wat een düres Baumaterial is un för Wapens un Wapenrocken bruukt word."

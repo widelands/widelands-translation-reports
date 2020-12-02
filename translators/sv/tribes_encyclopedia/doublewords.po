@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
 "language/sv/)\n"
@@ -12,22 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublewords: The word 'den' is repeated
-#. TRANSLATORS: Helptext for a ware: Bronze Ax
-#: ../../data/tribes/wares/ax_bronze/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"The bronze ax is considered a weapon that is hard to handle. Only skilled "
-"soldiers can use it. It is produced at the war mill and used in the training"
-" camp – together with food – to train soldiers from attack level 2 to level "
-"3."
-msgstr "Bronsyxan ses som ett svårbemästrat vapen. Bara skickliga soldater kan använda den. Den tillverkas i vapenverkstaden och används i träningslägret – tillsammans med mat – för att träna soldater från attacknivå 2 till nivå 3."
-
-# (pofilter) doublewords: The word 'den' is repeated
-#. TRANSLATORS: Helptext for a ware: Heavy Double Trident
-#: ../../data/tribes/wares/trident_heavy_double/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Heavy Double Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:745
 msgctxt "atlanteans_ware"
 msgid ""
 "This is the most dangerous weapon of the Atlantean military. Only the best "
@@ -35,3 +24,14 @@ msgid ""
 "used in the dungeon – together with food – to train soldiers from attack "
 "level 3 to level 4."
 msgstr "Det här är det farligaste vapnet som den atlantiska militären har. Bara de absolut främsta soldaterna får använda den. Den produceras i vapensmedjan och används i fängelsehålan – tillsammans med mat – för att träna soldater från attacknivå 3 till nivå 4."
+
+# (pofilter) doublewords: The word 'den' is repeated
+#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:474
+msgctxt "barbarians_ware"
+msgid ""
+"The bronze ax is considered a weapon that is hard to handle. Only skilled "
+"soldiers can use it. It is produced at the war mill and used in the training"
+" camp – together with food – to train soldiers from attack level 2 to level "
+"3."
+msgstr "Bronsyxan ses som ett svårbemästrat vapen. Bara skickliga soldater kan använda den. Den tillverkas i vapenverkstaden och används i träningslägret – tillsammans med mat – för att träna soldater från attacknivå 2 till nivå 3."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-01-10 21:56+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-23 10:55+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) options: Missing or translated option '--<config-entry-name>'
 #: ../../src/wlapplication_messages.cc:44
@@ -20,19 +20,19 @@ msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<config-Eintrag>=Wert überschreibt den bisherigen Wert des config-Eintrags"
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--script'
-#: ../../src/wlapplication_messages.cc:108
+#: ../../src/wlapplication_messages.cc:115
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr " --script=FILENAME    Führt ein Lua-Skript nach der Initialisierung aus.\n                      Nur gültig mit --scenario, --loadgame oder --editor."
 
 # (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
-#: ../../src/wlapplication_messages.cc:130
+#: ../../src/wlapplication_messages.cc:138
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr "--maxfps=[5 …]\nMaximale optische Bildwiederholrate des Spiels."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:139
+#: ../../src/wlapplication_messages.cc:147
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -41,7 +41,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 …]\n                      Fenster in eine Bildschirmecke verschieben,\n                      wenn die Fensterecke in diese Entfernung\n                      von der Bildschirmecke kommt."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:152
+#: ../../src/wlapplication_messages.cc:160
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

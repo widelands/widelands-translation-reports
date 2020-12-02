@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
+"Language-Team: Lithuanian (http://www.transifex.com/widelands/widelands/"
+"language/lt/)\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
+" n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Tooltip for the map size tool in the editor
+#: ../../src/editor/editorinteractive.cc:309
+msgid "Set number of players and their names, tribes and starting positions"
+msgstr "Nustatyti žaidėjų skaičių ir jų vardus, gentis ir pradines padėtis "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Tooltip for the map origin tool in the editor
+#: ../../src/editor/editorinteractive.cc:315
+msgid ""
+"Set the position that will have the coordinates (0, 0). This will be the "
+"top-left corner of a generated minimap."
+msgstr "Nustatyti poziciją, kurios koordinatės bus (0,0). Tai bus sugeneruoto minižemėlapio viršutinis kairysis kampas.  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/editor/editorinteractive.cc:515
+msgid "The map has not been saved, do you really want to quit?"
+msgstr "Žemėlapis nebuvo išsaugotas. Ar tikrai norite išeiti? "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Help text in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:179
+msgid "Click to select an item. Use the Ctrl key to select multiple items."
+msgstr "Norėdamas pažymėti spustelėk elementą. Naudok Ctrl klavišą norėdamas pažymėti keletą elementų. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Editor change height access keys. *
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
+msgid ""
+"Click on the map to increase, Shift + Click on the map to decrease terrain "
+"height"
+msgstr "Norėdamas padidinti reljefo aukštį spustelėk ant žemėlapio. Norėdamas sumažinti reljefo aukštį paspausk Shift klavišą ir spustelėk ant žemėlapio.  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Editor set height access key. *
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:80
+msgid "Ctrl + Click on the map to set terrain height"
+msgstr "Norėdamas nustatyti reljefo aukštį paspausk Ctrl klavišą ir spustelėk ant žemėlapio. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: A variant of the commandline parameter "false" value
+#. * TRANSLATORS: Needs to be consistent with the translations in widelands-
+#. console
+#: ../../src/io/profile.cc:55
+msgid "no"
+msgstr "Kuriami žaidėjai...  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/generic_save_handler.cc:236
+#, c-format
+msgid "Backup file ‘%s’ could not be deleted."
+msgstr "Atsarginės failo ‘%s’ kopijos nepavyko ištrinti. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/generic_save_handler.cc:269
+#, c-format
+msgid "Backup file ‘%s’ will be available for some time."
+msgstr "Atsarginė failo ‘%s’  kopija bus prieinama kurį laiką. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/internet_gaming.cc:932
+msgid "/kick <user|game> - Remove the given user or game from the metaserver"
+msgstr "/kick < naudotojas | žaidimas > - Atitinkamo naudotojo ar žaidimo pašalinimas iš metaserverio.  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/network_gaming_messages.cc:143
+msgid "Server sent a user update for a user that does not exist."
+msgstr "Serveris išsiuntė naudotojo atnaujinimą naudotojui, kurio nėra. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/network_gaming_messages.cc:166
+#, c-format
+msgid "Completed transfer of file %1$s to %2$s"
+msgstr "Failo %1$s siuntimas %2$s baigtas "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Tooltip in the messages window
+#: ../../src/wui/game_message_menu.cc:573
+msgid "Show all messages"
+msgstr "Rodyti visas žinutes. "

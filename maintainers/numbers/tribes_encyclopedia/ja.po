@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
@@ -12,279 +12,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:26
-msgctxt "barbarians_building"
-msgid ""
-"If all needed wares are delivered in time, a battle arena can train evade "
-"for one soldier from 0 to the highest level in %1$s and %2$s on average."
-msgstr "全ての物資が安定に供給されている場合、闘技場は一人の兵士の回避を平均 %1$s %2$sでレベル０から最大レベルまで訓練できます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/trainingsites/frisians/training_camp/helptexts.lua:16
-msgctxt "frisians_building"
-msgid ""
-"Trains soldiers in Attack up to level 3 as well as in Defense and Health to "
-"level 1. Equips the soldiers with all necessary weapons and armor parts."
-msgstr "兵士の攻撃をレベル３まで、そして防御と体力をレベル１まで訓練します。そして必要となる全ての種類の武器と鎧の全てを兵士に装備させます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Armor
-#: ../../data/tribes/wares/armor/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"Basic armor for Empire soldiers. It is produced in the armor smithy and used"
-" in the training camp – together with food – to train soldiers from health "
-"level 1 to level 2."
-msgstr "帝国兵の基本となる防具です。防具工房で製造されて訓練場で食物とともに使用され、兵士の体力レベルを０から１に訓練するために使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Chain Armor
-#: ../../data/tribes/wares/armor_chain/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"The chain armor is a medium armor for Empire soldiers. It is produced in an "
-"armor smithy and used in a training camp – together with food – to train "
-"soldiers from health level 2 to level 3."
-msgstr "チェインアーマーは、中級の帝国兵の鎧です。防具工房で製造されて訓練場で食物とともに使用され、兵士の体力レベルを２から３に訓練するために使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Gilded Armor
-#: ../../data/tribes/wares/armor_gilded/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"The gilded armor is the strongest armor an Empire soldier can have. It is "
-"produced in the armor smithy and used in the training camp – together with "
-"food – to train soldiers from health level 3 to level 4."
-msgstr "ゴールドアーマーは帝国兵の最高の鎧です。防具工房で製造されて訓練場で食物とともに使用され、兵士の体力レベルを３から４に訓練するために使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Helmet
-#: ../../data/tribes/wares/armor_helmet/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"The helmet is the basic defense of a warrior. It is produced in an armor "
-"smithy. In combination with a wooden spear, it is the equipment to fit out "
-"young soldiers. Helmets are also used in training camps – together with food"
-" – to train soldiers from health level 0 to level 1."
-msgstr "ヘルムは戦士の基本防具です。防具工房で製造され、木槍と合わせて若い兵士に使用されます。また、このヘルムは訓練場で兵士の体力レベルを０から１に訓練するためにも使われます。その訓練の際には食物も必要になります。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Battle Ax
-#: ../../data/tribes/wares/ax_battle/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"This is a dangerous weapon the Barbarians are able to produce. It is "
-"produced in the war mill. Only trained soldiers are able to wield such a "
-"weapon. It is used – together with food – in the training camp to train "
-"soldiers from attack level 3 to 4."
-msgstr "戦斧は野蛮人の扱う危険な武器で、戦鍛冶で製造されます。訓練された兵士のみがこのような武器を扱うことができます。戦斧は訓練場で兵士の攻撃レベルを３から４に訓練するために使われます。その訓練の際には食物も必要です。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Broad Ax
-#: ../../data/tribes/wares/ax_broad/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"The broad ax is produced by the ax workshop and the war mill. It is used in "
-"the training camp – together with food – to train soldiers with a "
-"fundamental fighting knowledge from attack level 1 to attack level 2."
-msgstr "幅広斧は斧工房か戦鍛冶で製造されます。これは訓練場で基本的な戦闘の知識を教える際、兵士の攻撃レベルを１から２に訓練する際に食物とともに用いられます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Bronze Ax
-#: ../../data/tribes/wares/ax_bronze/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"The bronze ax is considered a weapon that is hard to handle. Only skilled "
-"soldiers can use it. It is produced at the war mill and used in the training"
-" camp – together with food – to train soldiers from attack level 2 to level "
-"3."
-msgstr "青銅斧は扱いの難しい武器だと考えられています。経験を積んだ兵士だけが扱えるでしょう。これは戦鍛冶で作られ、訓練場で兵士の攻撃レベルを２から３に訓練する際に使われます。この訓練の時には別に食物も必要になります。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Sharp Ax
-#: ../../data/tribes/wares/ax_sharp/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"Young soldiers are proud to learn to fight with this powerful weapon. It is "
-"heavier and sharper than the ordinary ax. It is produced in ax workshops and"
-" war mills. In training camps, it is used – together with food – to train "
-"soldiers from attack level 0 to level 1."
-msgstr "若い兵士にとって、この強力な武器を扱うようになるのは一つの目標です。これは斧工房か戦鍛冶で作られ、通常の斧よりも鋭く、そして重い作りになっています。これは訓練場で兵士の攻撃レベルを０から１に訓練する際に食物とともに用いられます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Warrior’s Ax
-#: ../../data/tribes/wares/ax_warriors/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"The warrior’s ax is the most dangerous of all Barbarian weapons. Only a few "
-"soldiers ever were able to handle this huge and powerful ax. It is produced "
-"in a war mill and used – together with food – in a training camp to train "
-"soldiers from attack level 4 to level 5."
-msgstr "大戦斧は野蛮人の扱うもっとも危険な武器です。この巨大で強力な斧を扱える者はほとんどおりません。これは戦鍛冶で作られ、訓練場で兵士の攻撃レベルを４から５に訓練する際に食物と合わせて使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Strong Beer
-#: ../../data/tribes/wares/beer_strong/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"Only this beer is acceptable for the soldiers in a battle arena. Some say "
-"that the whole power of the Barbarians lies in this ale. It helps to train "
-"the soldiers’ evade level from 0 to 1 to 2. Strong beer is also used in big "
-"inns to prepare meals."
-msgstr "闘技場の兵士はこの強いビールしか受け付けません。野蛮人の力の源がこのエールにあると言う人すらいるそうです。これは兵士の回避訓練の全ての段階で使われます。また、大食堂で食事を生産する際にも用いられます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Helmet
-#: ../../data/tribes/wares/helmet/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"A helmet is a basic tool to protect soldiers. It is produced in the helm "
-"smithy and used in the training camp – together with food – to train "
-"soldiers from health level 0 to level 1."
-msgstr "ヘルムは兵士を守る基本となる防具です。兜工房で製造され、訓練場で兵士の体力レベルを０から１に訓練する際に食物と合わせて消費されます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Helmet
-#: ../../data/tribes/wares/helmet/helptexts.lua:6
-msgctxt "frisians_ware"
-msgid ""
-"A helmet is a basic tool to protect soldiers. It is produced in the small "
-"armor smithy and used to train soldiers from health level 0 to level 1."
-msgstr "ヘルムは兵士を守る防具です。武具製作所で生産され、兵士の体力レベルを０から１に訓練する際に用いられます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Golden Helmet
-#: ../../data/tribes/wares/helmet_golden/helptexts.lua:4
-msgctxt "frisians_ware"
-msgid ""
-"A golden helmet protects soldiers. It is produced in the large armor smithy "
-"and used to train soldiers from health level 1 to level 2."
-msgstr "ゴールデンヘルムは兵士の防具です。武具工房で製作され、兵士の体力レベルを１から２に訓練する際に使用されます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Mask
-#: ../../data/tribes/wares/helmet_mask/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"This is the most enhanced Barbarian armor. It is produced in the helm smithy"
-" and used in the training camp – together with food – to train soldiers from"
-" health level 2 to level 3."
-msgstr "マスクは野蛮人の最高の防具です。兜工房で製造され、訓練場で兵士の体力レベルを２から３に訓練する際に食物と合わせて使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Warhelm
-#: ../../data/tribes/wares/helmet_warhelm/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"A warhelm is an enhanced armor for Barbarian soldiers. It is produced in a "
-"helm smithy and used in a training camp – together with food – to train "
-"soldiers from health level 1 to level 2."
-msgstr "ウォーヘルムは改良された野蛮人兵士の防具です。兜工房で製造され、訓練場で兵士の体力レベルを１から２に訓練する際に食物と合わせて使用されます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Advanced Shield
-#: ../../data/tribes/wares/shield_advanced/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Long Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:718
 msgctxt "atlanteans_ware"
 msgid ""
-"These advanced shields are used by the best soldiers of the Atlanteans. They"
-" are produced in the armor smithy and used in the labyrinth – together with "
-"food – to train soldiers from defense level 1 to level 2."
-msgstr "アドバンストシールドはアトランティスの最高の兵士達の防具です。防具工房で製作され、迷宮で兵士の防御レベルを１から２に訓練する際に食物とともに用いられます。"
+"The long trident is the first trident in the training of soldiers. It is "
+"produced in the weapon smithy and used in the dungeon – together with food –"
+" to train soldiers from attack level 0 to level 1."
+msgstr "ロングトライデントは訓練場で兵士の扱う最初のトライデントです。武器工房で製造され、訓練場で兵士の攻撃レベルを０から１に訓練するために食物とともに使用されます。"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Steel Shield
-#: ../../data/tribes/wares/shield_steel/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Steel Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:727
 msgctxt "atlanteans_ware"
 msgid ""
-"This steel shield is produced in the armor smithy and used in the labyrinth "
-"– together with food – to train soldiers from defense level 0 to level 1."
-msgstr "スティールシールドは、防具工房で製作され、迷宮で兵士の防御レベルを０から１に訓練する際に食物とともに使われます。"
+"This is the medium trident. It is produced in the weapon smithy and used by "
+"advanced soldiers in the dungeon – together with food – to train from attack"
+" level 1 to level 2."
+msgstr "スティールトライデントは中級の槍です。武器工房で作られ、ダンジョンで兵士の攻撃レベルを１から２に訓練する際に食料とともに用いられます。"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Spear
-#: ../../data/tribes/wares/spear/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"This spear has an iron spike. It is produced in a weapon smithy and used in "
-"a training camp – together with food – to train soldiers from attack level 0"
-" to attack level 1."
-msgstr "鉄の槍です。武器工房で作られ、訓練場で兵士の攻撃レベルを０から１に訓練する際に食物とともに使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Advanced Spear
-#: ../../data/tribes/wares/spear_advanced/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"This is an advanced spear with a steel tip. It is produced in a weapon "
-"smithy and used in a training camp – together with food – to train soldiers "
-"from attack level 1 to level 2."
-msgstr "鋼槍は鋼の穂先を持つ上質な槍です。武器工房で作られ、訓練場で兵士の攻撃レベルを１から２に訓練する際に食物と一緒に用いられます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Heavy Spear
-#: ../../data/tribes/wares/spear_heavy/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"This is a strong spear with a steel-tip and a little blade. It is produced "
-"in the weapon smithy and used in the training camp – together with food – "
-"train soldiers from attack level 2 to level 3."
-msgstr "重鋼槍は鋼の穂先と小さな刃を持つ強力な槍です。武器工房で作られ、訓練場で兵士の攻撃レベルを２から３に訓練する際に食物と一緒に用いられます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: War Spear
-#: ../../data/tribes/wares/spear_war/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"This is the best and sharpest weapon the Empire weaponsmith creates for the "
-"soldiers. It is used in the training camp – together with food – to train "
-"soldiers from attack level 3 to level 4."
-msgstr "戦槍は帝国の武器工房が誇る最高の一品です。訓練場で兵士の攻撃レベルを３から４に訓練する際に食料とあわせて使われます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Broadsword
-#: ../../data/tribes/wares/sword_broad/helptexts.lua:4
-msgctxt "frisians_ware"
-msgid ""
-"The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
-"equipped with a broadsword and a double-edged sword."
-msgstr "幅広剣は攻撃レベル２の兵士が用います。また、攻撃レベル５の兵士は両刃剣と曲剣を一本ずつ装備します。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Double-edged Sword
-#: ../../data/tribes/wares/sword_double/helptexts.lua:4
-msgctxt "frisians_ware"
-msgid ""
-"The double-edged sword is the weapon used by level 3 soldiers. Level 6 "
-"soldiers are equipped with two of these ferocious swords."
-msgstr "両刃剣は攻撃レベル３の兵士が使います。また、攻撃レベル６の兵士はこの凶悪な武器を二本同時に操ります。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Long Sword
-#: ../../data/tribes/wares/sword_long/helptexts.lua:4
-msgctxt "frisians_ware"
-msgid ""
-"The long sword is the weapon used by level 1 soldiers. Level 4 soldiers are "
-"equipped with a long and a double-edged sword."
-msgstr "長剣は攻撃レベル１の兵士の扱う武器です。また、攻撃レベル４の兵士は両刃剣と長剣を一本ずつ使います。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Golden Tabard
-#: ../../data/tribes/wares/tabard_golden/helptexts.lua:4
-msgctxt "atlanteans_ware"
-msgid ""
-"Golden tabards are produced in Atlantean weaving mills out of gold thread. "
-"They are used in the labyrinth – together with food – to train soldiers from"
-" health level 0 to level 1."
-msgstr "ゴールデンタバードは、織物工房で金糸を使用して製造されます。訓練場で兵士の体力レベルを０から１に訓練するために食物とともに使用されます。"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Double Trident
-#: ../../data/tribes/wares/trident_double/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Double Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:736
 msgctxt "atlanteans_ware"
 msgid ""
 "The double trident is one of the best tridents produced by the Atlantean "
@@ -293,8 +45,8 @@ msgid ""
 msgstr "ダブルトライデントは、武器工房でつくられる上質の槍です。ダンジョンで兵士の攻撃レベルを２から３へ訓練するために食物とともに使用されます。"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Heavy Double Trident
-#: ../../data/tribes/wares/trident_heavy_double/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Heavy Double Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:745
 msgctxt "atlanteans_ware"
 msgid ""
 "This is the most dangerous weapon of the Atlantean military. Only the best "
@@ -304,21 +56,250 @@ msgid ""
 msgstr "これは、アトランティス軍のもっとも危険な武器です。兵士の中の兵士、最強の兵士のみが使用します。武器工房で製造され、ダンジョンで兵士の攻撃レベルを３から４に訓練する際に食物とともに使用されます。"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Long Trident
-#: ../../data/tribes/wares/trident_long/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Steel Shield
+#: ../../data/tribes/initialization/atlanteans/units.lua:754
 msgctxt "atlanteans_ware"
 msgid ""
-"The long trident is the first trident in the training of soldiers. It is "
-"produced in the weapon smithy and used in the dungeon – together with food –"
-" to train soldiers from attack level 0 to level 1."
-msgstr "ロングトライデントは訓練場で兵士の扱う最初のトライデントです。武器工房で製造され、訓練場で兵士の攻撃レベルを０から１に訓練するために食物とともに使用されます。"
+"This steel shield is produced in the armor smithy and used in the labyrinth "
+"– together with food – to train soldiers from defense level 0 to level 1."
+msgstr "スティールシールドは、防具工房で製作され、迷宮で兵士の防御レベルを０から１に訓練する際に食物とともに使われます。"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for a ware: Steel Trident
-#: ../../data/tribes/wares/trident_steel/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Advanced Shield
+#: ../../data/tribes/initialization/atlanteans/units.lua:763
 msgctxt "atlanteans_ware"
 msgid ""
-"This is the medium trident. It is produced in the weapon smithy and used by "
-"advanced soldiers in the dungeon – together with food – to train from attack"
-" level 1 to level 2."
-msgstr "スティールトライデントは中級の槍です。武器工房で作られ、ダンジョンで兵士の攻撃レベルを１から２に訓練する際に食料とともに用いられます。"
+"These advanced shields are used by the best soldiers of the Atlanteans. They"
+" are produced in the armor smithy and used in the labyrinth – together with "
+"food – to train soldiers from defense level 1 to level 2."
+msgstr "アドバンストシールドはアトランティスの最高の兵士達の防具です。防具工房で製作され、迷宮で兵士の防御レベルを１から２に訓練する際に食物とともに用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an atlantean ware: Golden Tabard
+#: ../../data/tribes/initialization/atlanteans/units.lua:790
+msgctxt "atlanteans_ware"
+msgid ""
+"Golden tabards are produced in Atlantean weaving mills out of gold thread. "
+"They are used in the labyrinth – together with food – to train soldiers from"
+" health level 0 to level 1."
+msgstr "ゴールデンタバードは、織物工房で金糸を使用して製造されます。訓練場で兵士の体力レベルを０から１に訓練するために食物とともに使用されます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Strong Beer
+#: ../../data/tribes/initialization/barbarians/units.lua:211
+msgctxt "barbarians_ware"
+msgid ""
+"Only this beer is acceptable for the soldiers in a battle arena. Some say "
+"that the whole power of the Barbarians lies in this ale. It helps to train "
+"the soldiers’ evade level from 0 to 1 to 2. Strong beer is also used in big "
+"inns to prepare meals."
+msgstr "闘技場の兵士はこの強いビールしか受け付けません。野蛮人の力の源がこのエールにあると言う人すらいるそうです。これは兵士の回避訓練の全ての段階で使われます。また、大食堂で食事を生産する際にも用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Sharp Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:456
+msgctxt "barbarians_ware"
+msgid ""
+"Young soldiers are proud to learn to fight with this powerful weapon. It is "
+"heavier and sharper than the ordinary ax. It is produced in ax workshops and"
+" war mills. In training camps, it is used – together with food – to train "
+"soldiers from attack level 0 to level 1."
+msgstr "若い兵士にとって、この強力な武器を扱うようになるのは一つの目標です。これは斧工房か戦鍛冶で作られ、通常の斧よりも鋭く、そして重い作りになっています。これは訓練場で兵士の攻撃レベルを０から１に訓練する際に食物とともに用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Broad Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:465
+msgctxt "barbarians_ware"
+msgid ""
+"The broad ax is produced by the ax workshop and the war mill. It is used in "
+"the training camp – together with food – to train soldiers with a "
+"fundamental fighting knowledge from attack level 1 to attack level 2."
+msgstr "幅広斧は斧工房か戦鍛冶で製造されます。これは訓練場で基本的な戦闘の知識を教える際、兵士の攻撃レベルを１から２に訓練する際に食物とともに用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:474
+msgctxt "barbarians_ware"
+msgid ""
+"The bronze ax is considered a weapon that is hard to handle. Only skilled "
+"soldiers can use it. It is produced at the war mill and used in the training"
+" camp – together with food – to train soldiers from attack level 2 to level "
+"3."
+msgstr "青銅斧は扱いの難しい武器だと考えられています。経験を積んだ兵士だけが扱えるでしょう。これは戦鍛冶で作られ、訓練場で兵士の攻撃レベルを２から３に訓練する際に使われます。この訓練の時には別に食物も必要になります。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Battle Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:483
+msgctxt "barbarians_ware"
+msgid ""
+"This is a dangerous weapon the Barbarians are able to produce. It is "
+"produced in the war mill. Only trained soldiers are able to wield such a "
+"weapon. It is used – together with food – in the training camp to train "
+"soldiers from attack level 3 to 4."
+msgstr "戦斧は野蛮人の扱う危険な武器で、戦鍛冶で製造されます。訓練された兵士のみがこのような武器を扱うことができます。戦斧は訓練場で兵士の攻撃レベルを３から４に訓練するために使われます。その訓練の際には食物も必要です。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Warrior’s Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:492
+msgctxt "barbarians_ware"
+msgid ""
+"The warrior’s ax is the most dangerous of all Barbarian weapons. Only a few "
+"soldiers ever were able to handle this huge and powerful ax. It is produced "
+"in a war mill and used – together with food – in a training camp to train "
+"soldiers from attack level 4 to level 5."
+msgstr "大戦斧は野蛮人の扱うもっとも危険な武器です。この巨大で強力な斧を扱える者はほとんどおりません。これは戦鍛冶で作られ、訓練場で兵士の攻撃レベルを４から５に訓練する際に食物と合わせて使われます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a barbarian ware: Helmet
+#: ../../data/tribes/initialization/barbarians/units.lua:501
+msgctxt "barbarians_ware"
+msgid ""
+"A helmet is a basic tool to protect soldiers. It is produced in the helm "
+"smithy and used in the training camp – together with food – to train "
+"soldiers from health level 0 to level 1."
+msgstr "ヘルムは兵士を守る基本となる防具です。兜工房で製造され、訓練場で兵士の体力レベルを０から１に訓練する際に食物と合わせて消費されます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for a barbarian training site: Battle
+#. Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1643
+msgctxt "barbarians_building"
+msgid ""
+"If all needed wares are delivered in time, a battle arena can train evade "
+"for one soldier from 0 to the highest level in %1$s and %2$s on average."
+msgstr "全ての物資が安定に供給されている場合、闘技場は一人の兵士の回避を平均 %1$s %2$sでレベル０から最大レベルまで訓練できます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Spear
+#: ../../data/tribes/initialization/empire/units.lua:491
+msgctxt "empire_ware"
+msgid ""
+"This spear has an iron spike. It is produced in a weapon smithy and used in "
+"a training camp – together with food – to train soldiers from attack level 0"
+" to attack level 1."
+msgstr "鉄の槍です。武器工房で作られ、訓練場で兵士の攻撃レベルを０から１に訓練する際に食物とともに使われます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Advanced Spear
+#: ../../data/tribes/initialization/empire/units.lua:500
+msgctxt "empire_ware"
+msgid ""
+"This is an advanced spear with a steel tip. It is produced in a weapon "
+"smithy and used in a training camp – together with food – to train soldiers "
+"from attack level 1 to level 2."
+msgstr "鋼槍は鋼の穂先を持つ上質な槍です。武器工房で作られ、訓練場で兵士の攻撃レベルを１から２に訓練する際に食物と一緒に用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Heavy Spear
+#: ../../data/tribes/initialization/empire/units.lua:509
+msgctxt "empire_ware"
+msgid ""
+"This is a strong spear with a steel-tip and a little blade. It is produced "
+"in the weapon smithy and used in the training camp – together with food – "
+"train soldiers from attack level 2 to level 3."
+msgstr "重鋼槍は鋼の穂先と小さな刃を持つ強力な槍です。武器工房で作られ、訓練場で兵士の攻撃レベルを２から３に訓練する際に食物と一緒に用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: War Spear
+#: ../../data/tribes/initialization/empire/units.lua:518
+msgctxt "empire_ware"
+msgid ""
+"This is the best and sharpest weapon the Empire weaponsmith creates for the "
+"soldiers. It is used in the training camp – together with food – to train "
+"soldiers from attack level 3 to level 4."
+msgstr "戦槍は帝国の武器工房が誇る最高の一品です。訓練場で兵士の攻撃レベルを３から４に訓練する際に食料とあわせて使われます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Helmet
+#: ../../data/tribes/initialization/empire/units.lua:527
+msgctxt "empire_ware"
+msgid ""
+"The helmet is the basic defense of a warrior. It is produced in an armor "
+"smithy. In combination with a wooden spear, it is the equipment to fit out "
+"young soldiers. Helmets are also used in training camps – together with food"
+" – to train soldiers from health level 0 to level 1."
+msgstr "ヘルムは戦士の基本防具です。防具工房で製造され、木槍と合わせて若い兵士に使用されます。また、このヘルムは訓練場で兵士の体力レベルを０から１に訓練するためにも使われます。その訓練の際には食物も必要になります。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Armor
+#: ../../data/tribes/initialization/empire/units.lua:536
+msgctxt "empire_ware"
+msgid ""
+"Basic armor for Empire soldiers. It is produced in the armor smithy and used"
+" in the training camp – together with food – to train soldiers from health "
+"level 1 to level 2."
+msgstr "帝国兵の基本となる防具です。防具工房で製造されて訓練場で食物とともに使用され、兵士の体力レベルを０から１に訓練するために使われます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Chain Armor
+#: ../../data/tribes/initialization/empire/units.lua:545
+msgctxt "empire_ware"
+msgid ""
+"The chain armor is a medium armor for Empire soldiers. It is produced in an "
+"armor smithy and used in a training camp – together with food – to train "
+"soldiers from health level 2 to level 3."
+msgstr "チェインアーマーは、中級の帝国兵の鎧です。防具工房で製造されて訓練場で食物とともに使用され、兵士の体力レベルを２から３に訓練するために使われます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for an empire ware: Gilded Armor
+#: ../../data/tribes/initialization/empire/units.lua:554
+msgctxt "empire_ware"
+msgid ""
+"The gilded armor is the strongest armor an Empire soldier can have. It is "
+"produced in the armor smithy and used in the training camp – together with "
+"food – to train soldiers from health level 3 to level 4."
+msgstr "ゴールドアーマーは帝国兵の最高の鎧です。防具工房で製造されて訓練場で食物とともに使用され、兵士の体力レベルを３から４に訓練するために使われます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a frisian ware: Long Sword
+#: ../../data/tribes/initialization/frisians/units.lua:534
+msgctxt "frisians_ware"
+msgid ""
+"The long sword is the weapon used by level 1 soldiers. Level 4 soldiers are "
+"equipped with a long and a double-edged sword."
+msgstr "長剣は攻撃レベル１の兵士の扱う武器です。また、攻撃レベル４の兵士は両刃剣と長剣を一本ずつ使います。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a frisian ware: Broadsword
+#: ../../data/tribes/initialization/frisians/units.lua:543
+msgctxt "frisians_ware"
+msgid ""
+"The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
+"equipped with a broadsword and a double-edged sword."
+msgstr "幅広剣は攻撃レベル２の兵士が用います。また、攻撃レベル５の兵士は両刃剣と曲剣を一本ずつ装備します。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a frisian ware: Double-edged Sword
+#: ../../data/tribes/initialization/frisians/units.lua:552
+msgctxt "frisians_ware"
+msgid ""
+"The double-edged sword is the weapon used by level 3 soldiers. Level 6 "
+"soldiers are equipped with two of these ferocious swords."
+msgstr "両刃剣は攻撃レベル３の兵士が使います。また、攻撃レベル６の兵士はこの凶悪な武器を二本同時に操ります。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a frisian ware: Helmet
+#: ../../data/tribes/initialization/frisians/units.lua:588
+msgctxt "frisians_ware"
+msgid ""
+"A helmet is a basic tool to protect soldiers. It is produced in the small "
+"armor smithy and used to train soldiers from health level 0 to level 1."
+msgstr "ヘルムは兵士を守る防具です。武具製作所で生産され、兵士の体力レベルを０から１に訓練する際に用いられます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Helptext for a frisian ware: Golden Helmet
+#: ../../data/tribes/initialization/frisians/units.lua:597
+msgctxt "frisians_ware"
+msgid ""
+"A golden helmet protects soldiers. It is produced in the large armor smithy "
+"and used to train soldiers from health level 1 to level 2."
+msgstr "ゴールデンヘルムは兵士の防具です。武具工房で製作され、兵士の体力レベルを１から２に訓練する際に使用されます。"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Purpose helptext for a frisian training site: Training Camp
+#: ../../data/tribes/initialization/frisians/units.lua:2025
+msgctxt "frisians_building"
+msgid ""
+"Trains soldiers in Attack up to level 3 as well as in Defense and Health to "
+"level 1. Equips the soldiers with all necessary weapons and armor parts."
+msgstr "兵士の攻撃をレベル３まで、そして防御と体力をレベル１まで訓練します。そして必要となる全ての種類の武器と鎧の全てを兵士に装備させます。"

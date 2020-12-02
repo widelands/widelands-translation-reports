@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Portuguese (http://www.transifex.com/widelands/widelands/"
 "language/pt/)\n"
@@ -12,156 +12,128 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/militarysites/atlanteans/castle/helptexts.lua:19
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhall/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/atlanteans/guardhouse/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_high/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/atlanteans/tower_small/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/barbarians/barrier/helptexts.lua:13
-#: ../../data/tribes/buildings/militarysites/barbarians/citadel/helptexts.lua:14
-#: ../../data/tribes/buildings/militarysites/barbarians/fortress/helptexts.lua:13
-#: ../../data/tribes/buildings/militarysites/barbarians/sentry/helptexts.lua:14
-#: ../../data/tribes/buildings/militarysites/barbarians/tower/helptexts.lua:14
-#: ../../data/tribes/buildings/militarysites/empire/barrier/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/empire/blockhouse/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/empire/castle/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/empire/fortress/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/empire/outpost/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/empire/sentry/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/empire/tower/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/frisians/fortress/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/frisians/outpost/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/frisians/sentinel/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/frisians/tower/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower/helptexts.lua:16
-#: ../../data/tribes/buildings/militarysites/frisians/wooden_tower_high/helptexts.lua:16
-msgctxt "building"
-msgid "Garrisons soldiers to expand your territory."
-msgstr "Envia soldados para expandir o seu território"
+#. TRANSLATORS: Helptext for an atlantean worker: Woodcutter
+#: ../../data/tribes/initialization/atlanteans/units.lua:846
+msgctxt "atlanteans_worker"
+msgid "Fells trees."
+msgstr "Corta árvores"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/helptexts.lua:16
+#. TRANSLATORS: Helptext for an atlantean worker: Forester
+#: ../../data/tribes/initialization/atlanteans/units.lua:860
+msgctxt "atlanteans_worker"
+msgid "Plants trees."
+msgstr "Planta árvores"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an atlantean worker: Shipwright
+#: ../../data/tribes/initialization/atlanteans/units.lua:888
+msgctxt "atlanteans_worker"
+msgid "Works at the shipyard and constructs new ships."
+msgstr "Trabalha no estaleiro naval onde constrói as novas embarcações"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an atlantean worker: Baker
+#: ../../data/tribes/initialization/atlanteans/units.lua:947
+msgctxt "atlanteans_worker"
+msgid "Bakes bread for workers."
+msgstr "Produz pão para os trabalhadores"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Fisher's
+#. House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1389
 msgctxt "atlanteans_building"
 msgid "Fishes on the coast near the fisher’s house."
 msgstr "Pesca na costa perto da casa do pescador"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/mead_brewery/helptexts.lua:11
-msgctxt "frisians_building"
-msgid "Slogan over a mead brewery"
-msgstr "Slogan numa fábrica de hidromel."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:380
-msgid "Health Training"
-msgstr "Treino de saúde:"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:393
-msgid "Attack Training"
-msgstr "Treino de Ataque:"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Baker
-#: ../../data/tribes/workers/atlanteans/baker/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Bakes bread for workers."
-msgstr "Produz pão para os trabalhadores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Forester
-#: ../../data/tribes/workers/atlanteans/forester/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Plants trees."
-msgstr "Planta árvores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Shipwright
-#: ../../data/tribes/workers/atlanteans/shipwright/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Works at the shipyard and constructs new ships."
-msgstr "Trabalha no estaleiro naval onde constrói as novas embarcações"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Woodcutter
-#: ../../data/tribes/workers/atlanteans/woodcutter/helptexts.lua:3
-msgctxt "atlanteans_worker"
+#. TRANSLATORS: Helptext for a barbarian worker: Lumberjack
+#: ../../data/tribes/initialization/barbarians/units.lua:575
+msgctxt "barbarians_worker"
 msgid "Fells trees."
 msgstr "Corta árvores"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Farmer
-#: ../../data/tribes/workers/barbarians/farmer/helptexts.lua:3
+#. TRANSLATORS: Helptext for a barbarian worker: Ranger
+#: ../../data/tribes/initialization/barbarians/units.lua:582
+msgctxt "barbarians_worker"
+msgid "Plants trees."
+msgstr "Planta árvores"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a barbarian worker: Shipwright
+#: ../../data/tribes/initialization/barbarians/units.lua:617
+msgctxt "barbarians_worker"
+msgid "Works at the shipyard and constructs new ships."
+msgstr "Trabalha no estaleiro naval onde constrói as novas embarcações"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a barbarian worker: Farmer
+#: ../../data/tribes/initialization/barbarians/units.lua:648
 msgctxt "barbarians_worker"
 msgid "Plants fields."
 msgstr "Cultiva campos"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Helmsmith
-#: ../../data/tribes/workers/barbarians/lumberjack/helptexts.lua:3
-msgctxt "barbarians_worker"
-msgid "Fells trees."
-msgstr "Corta árvores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Ranger
-#: ../../data/tribes/workers/barbarians/ranger/helptexts.lua:3
-msgctxt "barbarians_worker"
-msgid "Plants trees."
-msgstr "Planta árvores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Shipwright
-#: ../../data/tribes/workers/barbarians/shipwright/helptexts.lua:3
-msgctxt "barbarians_worker"
-msgid "Works at the shipyard and constructs new ships."
-msgstr "Trabalha no estaleiro naval onde constrói as novas embarcações"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Baker
-#: ../../data/tribes/workers/empire/baker/helptexts.lua:3
-msgctxt "empire_worker"
-msgid "Bakes bread for workers."
-msgstr "Produz pão para os trabalhadores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Carpenter
-#: ../../data/tribes/workers/empire/carpenter/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Carpenter
+#: ../../data/tribes/initialization/empire/units.lua:609
 msgctxt "empire_worker"
 msgid "Works in the sawmill."
 msgstr "Trabalha na serração"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Farmer
-#: ../../data/tribes/workers/empire/farmer/helptexts.lua:3
-msgctxt "empire_worker"
-msgid "Plants fields."
-msgstr "Cultiva campos"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Forester
-#: ../../data/tribes/workers/empire/forester/helptexts.lua:3
-msgctxt "empire_worker"
-msgid "Plants trees."
-msgstr "Planta árvores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Lumberjack
-#: ../../data/tribes/workers/empire/lumberjack/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Lumberjack
+#: ../../data/tribes/initialization/empire/units.lua:616
 msgctxt "empire_worker"
 msgid "Fells trees."
 msgstr "Corta árvores"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Shipwright
-#: ../../data/tribes/workers/empire/shipwright/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Forester
+#: ../../data/tribes/initialization/empire/units.lua:623
+msgctxt "empire_worker"
+msgid "Plants trees."
+msgstr "Planta árvores"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Shipwright
+#: ../../data/tribes/initialization/empire/units.lua:651
 msgctxt "empire_worker"
 msgid "Works at the shipyard and constructs new ships."
 msgstr "Trabalha no estaleiro naval onde constrói as novas embarcações"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Farmer
+#: ../../data/tribes/initialization/empire/units.lua:675
+msgctxt "empire_worker"
+msgid "Plants fields."
+msgstr "Cultiva campos"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Baker
+#: ../../data/tribes/initialization/empire/units.lua:689
+msgctxt "empire_worker"
+msgid "Bakes bread for workers."
+msgstr "Produz pão para os trabalhadores"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Mead
+#. Brewery
+#: ../../data/tribes/initialization/frisians/units.lua:1871
+msgctxt "frisians_building"
+msgid "Slogan over a mead brewery"
+msgstr "Slogan numa fábrica de hidromel."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:574
+msgid "Health Training"
+msgstr "Treino de saúde:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:587
+msgid "Attack Training"
+msgstr "Treino de Ataque:"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-12 15:13+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
@@ -13,11 +13,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/furnace/helptexts.lua:6
+#. TRANSLATORS: Lore author helptext for a barbarian production site: Fisher's
+#. Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1167
+msgctxt "barbarians_building"
+msgid ""
+"Frequent response of a barbarian fisherman,<br>often followed by an "
+"enjoyable brawl"
+msgstr "Freagairt chumanta aig iasgair nan Tùsanach agus bi ’n dùil air dol a-mach ’na cois!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:446
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Thèid sleaghan seilg a shaothrachadh leis a’ cheàrdach gobhainn."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a frisian production site: Furnace
+#: ../../data/tribes/initialization/frisians/units.lua:1725
 msgctxt "frisians_building"
 msgid ""
 "Miners get ores from the depths of the hills; but without our work, their "
@@ -25,26 +42,10 @@ msgid ""
 msgstr "Dè feum air obair nam mèinnearan às aonais ar obair-ne?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/smokery/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a frisian production site: Smokery
+#: ../../data/tribes/initialization/frisians/units.lua:1819
 msgctxt "frisians_building"
 msgid ""
 "Miners and soldiers are so picky… But who am I to complain, as I make my "
 "living from it?"
 msgstr "Abair thusa gu bheil mèinnearan is saighdearan miarraideach… ach chan eil adhbhar gearain agam on a gheibh mi beòshlaint às!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/weaving_mill/helptexts.lua:3
-msgctxt "frisians_building"
-msgid ""
-"Reindeer’s fur and roofing reed<br>These items two make up the seed<br>For "
-"ships of wood to chain the gales<br>In sturdy, beautious, blowing sails!"
-msgstr "Is bian rèin-fhèidh is feur-tughaidh<br>a nì siùil fìor sheasmhach eireachdail<br>nuair shèideas a’ ghailleann oirnn<br>seasaidh ar longan fiodha na h-aghaidh"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Hunting Spear
-#: ../../data/tribes/wares/hunting_spear/helptexts.lua:8
-msgctxt "frisians_ware"
-msgid "Hunting spears are produced by the blacksmithy"
-msgstr "Thèid sleaghan seilg a shaothrachadh leis a’ cheàrdach gobhainn."

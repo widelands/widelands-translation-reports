@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 15:42+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
 "Language: gd\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/infrastructure.lua:174
@@ -24,7 +24,7 @@ msgid ""
 msgstr "Cha robh rùm gu leòr ann airson cuid dhe na togalaichean tòiseachaidh agad is cha deach an togail. Cuiridh seo èis ort; saoil an tòisich thu air a’ mhapa seo a-rithist le cumhan tòiseachaidh cothromach?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:513
+#: ../../src/network/gamehost.cc:539
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."
@@ -33,7 +33,7 @@ msgstr "Cha b’ urrainn dha Widelands tòiseachadh air frithealaiche òstadh.\n
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Geeky message from the metaserver
 #. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
-#: ../../src/network/internet_gaming.cc:1008
+#: ../../src/network/internet_gaming.cc:1013
 #, c-format
 msgid "Unable to determine truth value for \"%s\""
 msgstr "Cha b’ urrainn dhuinn faighinn a-mach a bheil “%s” fìor no fallsa."
@@ -42,13 +42,13 @@ msgstr "Cha b’ urrainn dhuinn faighinn a-mach a bheil “%s” fìor no fallsa
 #. * TRANSLATORS: Dialog box title for selecting between map or saved game for
 #. new
 #. multiplayer game
-#: ../../src/ui_fsmenu/launch_mpg.cc:51
+#: ../../src/ui_fsmenu/launch_mpg.cc:57
 msgid "Please select"
 msgstr "An dèan thu taghadh?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:144
+#: ../../src/ui_fsmenu/scenario_select.cc:132
 msgid "#"
 msgstr "Àir."
 
@@ -58,16 +58,21 @@ msgid "Destroy building?"
 msgstr "Dearbh milleadh an togalaich"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:244
+#: ../../src/wui/actionconfirm.cc:245
 msgid "Dismantle building?"
 msgstr "Dearbh an toirt às a chèile"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:298
+#: ../../src/wui/actionconfirm.cc:299
 msgid "Enhance building?"
 msgstr "Dearbh an leasachadh"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:398
+#: ../../src/wui/actionconfirm.cc:400
 msgid "Cancel expedition?"
 msgstr "Dearbh sgur dhen triall"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_box.cc:264
+msgid "Destroy the target building instead of conquering it"
+msgstr "Mill an togalach-amais seach còmhnaidh a ghabhail ann."

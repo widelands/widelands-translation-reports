@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
@@ -14,49 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ax_workshop/helptexts.lua:3
-#: ../../data/tribes/buildings/productionsites/barbarians/warmill/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
-"its maker.’"
-msgstr "\"Новый топор воина взывает к лучшему его обладателя -  или печалит его создателя.\""
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "\"Он любит животных и откармливает их<br>\nтакже как мы любим готовить и есть их\"."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/lime_kiln/helptexts.lua:13
-msgctxt "barbarians_building"
-msgid ""
-"Processes granite to make ‘grout’, a substance that solidifies and so "
-"reinforces masonry."
-msgstr "Переработайте гранит, чтобы сделать цемент,  вещество, которое застывает и, таким образом, укрепляет кладку."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Armor
-#: ../../data/tribes/wares/armor/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"Basic armor for Empire soldiers. It is produced in the armor smithy and used"
-" in the training camp – together with food – to train soldiers from health "
-"level 1 to level 2."
-msgstr "Основной доспех имперских солдат. Он изготавливается в бронной и используется, вместе с едой, в тренировочном лагере  для тренировки солдат Здоровью с 1 до 2 уровня."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Log
-#: ../../data/tribes/wares/log/helptexts.lua:8
+#. TRANSLATORS: Helptext for a barbarian ware: Log, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:101
 msgctxt "barbarians_ware"
 msgid ""
 "Barbarian lumberjacks fell the trees; rangers take care of the supply of "
@@ -64,3 +26,33 @@ msgid ""
 " the charcoal kiln for the production of coal. The wood hardener refines "
 "logs into blackwood by hardening them with fire."
 msgstr "Варварские дровосеки валят деревья; егери сохраняют деревья. Брёвна также используются в кузнице для  создания основных инструментов и в печи углежога для производства угля. Балочная мастерская улучшает бревна в балки путем обжига огнем."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Purpose helptext for a barbarian production site: Lime Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1265
+msgctxt "barbarians_building"
+msgid ""
+"Processes granite to make ‘grout’, a substance that solidifies and so "
+"reinforces masonry."
+msgstr "Переработайте гранит, чтобы сделать цемент,  вещество, которое застывает и, таким образом, укрепляет кладку."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
+#. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1394
+#: ../../data/tribes/initialization/barbarians/units.lua:1413
+msgctxt "barbarians_building"
+msgid ""
+"‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
+"its maker.’"
+msgstr "\"Новый топор воина взывает к лучшему его обладателя -  или печалит его создателя.\""
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for an empire ware: Armor
+#: ../../data/tribes/initialization/empire/units.lua:536
+msgctxt "empire_ware"
+msgid ""
+"Basic armor for Empire soldiers. It is produced in the armor smithy and used"
+" in the training camp – together with food – to train soldiers from health "
+"level 1 to level 2."
+msgstr "Основной доспех имперских солдат. Он изготавливается в бронной и используется, вместе с едой, в тренировочном лагере  для тренировки солдат Здоровью с 1 до 2 уровня."

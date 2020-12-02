@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
@@ -12,18 +12,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/armor_smithy_small/helptexts.lua:11
-msgctxt "frisians_building"
-msgid "A blacksmith pointing out his influence on soldier training"
-msgstr "??한 대장장이가 군인 훈련에 영향력을 행사하고 있다고 지적합니다"
+#. TRANSLATORS: Lore author helptext for a barbarian production site: Tavern
+#: ../../data/tribes/initialization/barbarians/units.lua:1318
+msgctxt "barbarians_building"
+msgid "Menu of the tavern ‘Ye Ol’ Bronze Axe’"
+msgstr "‘예 올의 청동 도끼’ 라는 선술집의 차림표"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/helptexts.lua:26
+#. TRANSLATORS: Lore author helptext for a barbarian production site: Inn
+#: ../../data/tribes/initialization/barbarians/units.lua:1329
+msgctxt "barbarians_building"
+msgid "Chef’s recommendation in ‘The Singing Master Miner’"
+msgstr "‘노래하는 숙련 광부’에 나오는 요리사의 추천곡"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore author helptext for a barbarian production site: Big Inn
+#: ../../data/tribes/initialization/barbarians/units.lua:1340
+msgctxt "barbarians_building"
+msgid "Menu of ‘The Laughing Barbarian’"
+msgstr "'웃는 야만인'의 차림표"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Performance helptext for a frisian production site: Gold Mine
+#: ../../data/tribes/initialization/frisians/units.lua:2003
 #, lua-format
 msgctxt "frisians_building"
 msgid ""
@@ -33,42 +47,42 @@ msgstr "??만약 식량 공급이 중단된다면, 금광은 평균 %s 개의 �
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: This is a verb (The miner mines)
-#: ../../data/tribes/scripting/help/building_help.lua:299
+#: ../../data/tribes/scripting/help/building_help.lua:498
 msgid "Mines:"
 msgstr "??광산 채굴:"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/scripting/help/building_help.lua:381
+#: ../../data/tribes/scripting/help/building_help.lua:575
 msgid "Trains ‘Health’ from %1% up to %2%"
 msgstr "‘체력’ 수준을 %1% → %2% 로 훈련"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = Health, Evade, Attack or Defense. %2$s and %3$s are
 #. numbers.
-#: ../../data/tribes/scripting/help/building_help.lua:395
+#: ../../data/tribes/scripting/help/building_help.lua:589
 msgid "Trains ‘Attack’ from %1% up to %2%"
 msgstr "‘공격력’ 을 %1% → %2% 로 훈련"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/scripting/help/building_help.lua:407
+#: ../../data/tribes/scripting/help/building_help.lua:601
 msgid "Trains ‘Defense’ from %1% up to %2%"
 msgstr "‘방어력’ 을 %1% → %2% 로 훈련"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/scripting/help/building_help.lua:420
+#: ../../data/tribes/scripting/help/building_help.lua:614
 msgid "Trains ‘Evade’ from %1% up to %2%"
 msgstr "‘회피력’ 을 %1% → %2% 로 훈련"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Soldier health / defense / evade points. A 5 digit number.
-#: ../../data/tribes/scripting/help/worker_help.lua:200
+#: ../../data/tribes/scripting/help/worker_help.lua:204
 msgid "Starts at %1% points."
 msgstr "%1% 포인트에서 시작합니다."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/scripting/help/worker_help.lua:222
-#: ../../data/tribes/scripting/help/worker_help.lua:230
-#: ../../data/tribes/scripting/help/worker_help.lua:237
+#: ../../data/tribes/scripting/help/worker_help.lua:226
+#: ../../data/tribes/scripting/help/worker_help.lua:234
+#: ../../data/tribes/scripting/help/worker_help.lua:241
 #, lua-format
 msgid "Starts at %d%%."
 msgstr "%d%% 에서 시작합니다."

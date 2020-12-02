@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Esperanto (http://www.transifex.com/widelands/widelands/"
 "language/eo/)\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1180
 msgctxt "barbarians_building"
 msgid ""
 "‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
@@ -24,15 +24,17 @@ msgid ""
 msgstr "“Tiel mallaŭa kiel pantero, tiel vigla kiel mustelo, tiel rapida kiel sago, tiel mortiga kiel serpento.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1631
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
 msgstr "“Dum batalo ne ekzistas pli bona amiko ol malamika frapo maltrafanta.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:16
+#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -40,8 +42,11 @@ msgid ""
 msgstr "“Eviti” plibonigas ŝanzon de militisto por ne esti frapata de malamiko kaj por tiele postresti sen damaĝo."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/buildings/trainingsites/empire/arena/helptexts.lua:19
-#: ../../data/tribes/buildings/trainingsites/empire/colosseum/helptexts.lua:19
+#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
+#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. 2
+#: ../../data/tribes/initialization/empire/units.lua:1430
+#: ../../data/tribes/initialization/empire/units.lua:1443
 msgctxt "empire_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "

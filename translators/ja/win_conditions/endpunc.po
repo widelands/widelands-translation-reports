@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-03 09:10+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-07-23 07:48+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/win_conditions/artifacts.lua:17
@@ -22,7 +22,7 @@ msgid ""
 msgstr "古代のアーティファクトを探しましょう。全てのアーティファクトが見つかった時、一番多く所有しているチームがゲームに勝利します。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:73
+#: ../../data/scripting/win_conditions/artifacts.lua:76
 #, lua-format
 msgid ""
 "There are no artifacts on this map. This should not happen. Please file a "
@@ -31,30 +31,30 @@ msgid ""
 msgstr "マップにアーティファクトが存在しません。これはあってはならないことです。%s にバグ報告をお願いします。その際には、Widelandsのバージョンと読み込もうとしたマップ名の記載を忘れないでください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:81
+#: ../../data/scripting/win_conditions/artifacts.lua:84
 msgid "Your team found a new artifact."
 msgstr "あなたのチームがアーティファクトを発見しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:86
+#: ../../data/scripting/win_conditions/artifacts.lua:89
 msgid "One of your team’s artifacts was stolen by an enemy."
 msgstr "あなたのチームが所有していたアーティファクトの一つが敵に奪われました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:91
+#: ../../data/scripting/win_conditions/artifacts.lua:94
 msgid "Your team stole an artifact from an enemy."
 msgstr "あなたのチームが敵からアーティファクトを奪いました。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: e.g. Team 1 owns 5 artifacts.
-#: ../../data/scripting/win_conditions/artifacts.lua:179
+#: ../../data/scripting/win_conditions/artifacts.lua:182
 msgid "%1$s owns %2$s."
 msgstr "%1$s は %2$s つ所有"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$i is the team's number; %2$s is a list of team members
 #. (e.g. "Steve, Robert, David"), %3$s is something like "x artifact(s)"
-#: ../../data/scripting/win_conditions/artifacts.lua:192
+#: ../../data/scripting/win_conditions/artifacts.lua:195
 msgid "Team %1$i (%2$s) owns %3$s."
 msgstr "チーム %1$i (%2$s) は %3$s つ所有。"
 
@@ -91,25 +91,25 @@ msgid "%1$s had %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "%1$sは土地の%2$3.0f%%を所有していました。(%3$i of %4$i)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:211
+#: ../../data/scripting/win_conditions/territorial_functions.lua:220
 msgid "You own more than half of the map’s area."
 msgstr "あなたはマップ面積の半分以上を所有しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:212
+#: ../../data/scripting/win_conditions/territorial_functions.lua:221
 #, lua-format
 msgid "Keep it for %i more minute to win the game."
 msgid_plural "Keep it for %i more minutes to win the game."
 msgstr[0] "%i分以上維持すれば勝利です。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:238
+#: ../../data/scripting/win_conditions/territorial_functions.lua:248
 #, lua-format
 msgid "%s owns more than half of the map’s area."
 msgstr "%sがマップ面積の半分以上を所有しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:239
+#: ../../data/scripting/win_conditions/territorial_functions.lua:249
 #, lua-format
 msgid "You’ve still got %i minute to prevent a victory."
 msgid_plural "You’ve still got %i minutes to prevent a victory."
@@ -164,18 +164,18 @@ msgstr "木の妖精であるあなたは森が大好きです。あなたの使
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:63
+#: ../../data/scripting/win_conditions/wood_gnome.lua:66
 msgid "%1$s has %2$s at the moment."
 msgstr "%1$sは現在%2$sを所有しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:82
+#: ../../data/scripting/win_conditions/wood_gnome.lua:85
 msgid "%1$s had %2$s."
 msgstr "%1$sは%2$sを所有していました。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:88
+#: ../../data/scripting/win_conditions/wood_gnome.lua:91
 msgid "The winner is %1$s with %2$s."
 msgstr "勝者は%2$sを所有している%1$sです。"

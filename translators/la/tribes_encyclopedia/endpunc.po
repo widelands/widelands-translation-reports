@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Latin (http://www.transifex.com/widelands/widelands/language/"
 "la/)\n"
@@ -12,27 +12,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Meal
-#: ../../data/tribes/wares/meal/helptexts.lua:4
-msgctxt "barbarians_ware"
-msgid ""
-"A meal is made out of pitta bread, strong beer and fish/meat in a big inn. "
-"This substantial food is exactly what workers in a deeper mine need."
-msgstr "Cena in caupone fit e pita, e cervisia bona, e pane vel pisce. Ea ab operarii altissimorum metallorum amatur!"
+#. TRANSLATORS: Helptext for an atlantean worker: Farmer
+#: ../../data/tribes/initialization/atlanteans/units.lua:926
+msgctxt "atlanteans_worker"
+msgid "Plants and harvests cornfields."
+msgstr "Radices nigras serit metitque"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Blackroot Farmer
-#: ../../data/tribes/workers/atlanteans/blackroot_farmer/helptexts.lua:3
+#. TRANSLATORS: Helptext for an atlantean worker: Blackroot Farmer
+#: ../../data/tribes/initialization/atlanteans/units.lua:933
 msgctxt "atlanteans_worker"
 msgid "Plants and harvests blackroot."
 msgstr "Radices nigras serit metitque"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Farmer
-#: ../../data/tribes/workers/atlanteans/farmer/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Plants and harvests cornfields."
-msgstr "Radices nigras serit metitque"
+#. TRANSLATORS: Helptext for a barbarian ware: Meal
+#: ../../data/tribes/initialization/barbarians/units.lua:242
+msgctxt "barbarians_ware"
+msgid ""
+"A meal is made out of pitta bread, strong beer and fish/meat in a big inn. "
+"This substantial food is exactly what workers in a deeper mine need."
+msgstr "Cena in caupone fit e pita, e cervisia bona, e pane vel pisce. Ea ab operarii altissimorum metallorum amatur!"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1194
+#: ../../src/logic/map_objects/tribes/production_program.cc:1868
 #, c-format
 msgid "Completed %s"
 msgstr "%svalmis"
@@ -27,13 +27,38 @@ msgstr "%svalmis"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is shown for multiplayer games when no host
 #. * TRANSLATORS: server to connect to has been specified yet.
-#: ../../src/ui_fsmenu/internet_lobby.cc:447
+#: ../../src/ui_fsmenu/internet_lobby.cc:461
 #, c-format
 msgid "unnamed %u"
 msgstr "Nimetön %u"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/attack_box.cc:238
+msgid ""
+"Hold down Shift to remove all soldiers up to the one you’re pointing at"
+msgstr "pidä SHIFT-painike pohjassa poistaaksesi kaikki myöhäisemmät sotilaat"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/attack_box.cc:254
+msgid "Hold down Shift to add all soldiers up to the one you’re pointing at"
+msgstr "pidä SHIFT-painike pohjassa lisätäksesi kaikki aiemmat sotilaat"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Button tooltip in in a building's wares input queue -
+#. option explanation
+#: ../../src/wui/inputqueuedisplay.cc:130
+msgid "Hold down Shift to increase all ware types at the same time"
+msgstr "pidä SHIFT-painike pohjassa lisätäksesi kaikkien tarvikkeiden määrää"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Button tooltip in in a building's wares input queue -
+#. option explanation
+#: ../../src/wui/inputqueuedisplay.cc:133
+msgid "Hold down Shift to decrease all ware types at the same time"
+msgstr "pidä SHIFT-painike pohjassa pienentääksesi kaikkien tarvikkeiden määrää saman aikaisesti."
+
+# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the map view menu button in the game
-#: ../../src/wui/interactive_base.cc:172
+#: ../../src/wui/interactive_base.cc:180
 msgid "Map View"
 msgstr "karttanäkymä"

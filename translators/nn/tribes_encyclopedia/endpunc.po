@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Norwegian Nynorsk (http://www.transifex.com/widelands/"
 "widelands/language/nn/)\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Bread
-#: ../../data/tribes/wares/bread_atlanteans/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Bread
+#: ../../data/tribes/initialization/atlanteans/units.lua:480
 msgctxt "atlanteans_ware"
 msgid ""
 "This tasty bread is made in bakeries out of cornmeal, blackroot flour and "
@@ -25,8 +25,8 @@ msgid ""
 msgstr "Dette gode brødet lagast i bakeri av maismjøl, svartrotmjøl og vatn.  Det blir nytt som enkel mat til gruvegravarar, speidarar og soldatar i treneområde (labyrint og kjellar)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Smoker
-#: ../../data/tribes/workers/atlanteans/smoker/helptexts.lua:3
+#. TRANSLATORS: Helptext for an atlantean worker: Smoker
+#: ../../data/tribes/initialization/atlanteans/units.lua:919
 msgctxt "atlanteans_worker"
 msgid "Smokes meat and fish."
 msgstr "Røykar kjøt og fisk"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
@@ -12,50 +12,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/atlanteans/smokery/helptexts.lua:16
-msgctxt "atlanteans_building"
+#. TRANSLATORS: Helptext for an atlantean ware: Iron, part 2
+#: ../../data/tribes/initialization/atlanteans/units.lua:539
+msgctxt "atlanteans_ware"
 msgid ""
-"Smokes meat and fish to feed the scouts and miners and to train soldiers in "
-"the dungeon."
-msgstr "Ahúma  carne y pescado para alimentar a los exploradores y mineros y para entrenar soldados en el calabozo."
+"It is produced by the smelting works and used in the toolsmithy, armor "
+"smithy and weapon smithy."
+msgstr "Es producido por las forjas y utilizado en los talleres de herramientas y de armaduras, y en la  armería."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a coal mine building, part 1
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/helptexts.lua:4
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/helptexts.lua:4
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/helptexts.lua:4
-msgctxt "barbarians_building"
-msgid ""
-"Ages ago, the Barbarians learned to delve into mountainsides for that black "
-"material that feeds their furnaces."
-msgstr "Años atrás, los Bárbaros aprendieron a cavar en  laderas de las montañas por ese material negro que alimenta sus hornos."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:3
-msgctxt "barbarians_building"
-msgid ""
-"‘He loves the animals and to breed them<br>\n"
-"         as we love to cook and eat them.’"
-msgstr "«El ama los animales y criarlos también<br>\ncomo amamos cocinarlos y comerlos.»"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Bread Paddle
-#: ../../data/tribes/wares/bread_paddle/helptexts.lua:8
-msgctxt "barbarians_ware"
-msgid ""
-"Bread paddles are produced in the metal workshop like all other tools (but "
-"cease to be produced by the building if it is enhanced to an ax workshop and"
-" war mill)."
-msgstr "Las palas de horno son producidas en el taller del metal como las demás herramientas  (pero dejará de ser producido por el edificio si se ha mejorado a taller de hachas o taller de guerra)."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a ware: Heavy Double Trident
-#: ../../data/tribes/wares/trident_heavy_double/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Heavy Double Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:745
 msgctxt "atlanteans_ware"
 msgid ""
 "This is the most dangerous weapon of the Atlantean military. Only the best "
@@ -63,3 +33,22 @@ msgid ""
 "used in the dungeon – together with food – to train soldiers from attack "
 "level 3 to level 4."
 msgstr "Esta es el arma más peligrosa del arsenal militar Atlante. Solo los mejores de entre los mejores soldados pueden usarla. Se produce en la armería y se usa en el calabozo – junto con comida –  para entrenar soldados en ataque del nivel 3 al nivel 4."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Smokery
+#: ../../data/tribes/initialization/atlanteans/units.lua:1455
+msgctxt "atlanteans_building"
+msgid ""
+"Smokes meat and fish to feed the scouts and miners and to train soldiers in "
+"the dungeon."
+msgstr "Ahúma  carne y pescado para alimentar a los exploradores y mineros y para entrenar soldados en el calabozo."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for a barbarian ware: Bread Paddle, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:412
+msgctxt "barbarians_ware"
+msgid ""
+"Bread paddles are produced in the metal workshop like all other tools (but "
+"cease to be produced by the building if it is enhanced to an ax workshop and"
+" war mill)."
+msgstr "Las palas de horno son producidas en el taller del metal como las demás herramientas  (pero dejará de ser producido por el edificio si se ha mejorado a taller de hachas o taller de guerra)."

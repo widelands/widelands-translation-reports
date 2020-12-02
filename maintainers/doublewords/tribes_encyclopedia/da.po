@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Danish (http://www.transifex.com/widelands/widelands/language/"
 "da/)\n"
@@ -12,30 +12,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
-
-# (pofilter) doublewords: The word 'ler' is repeated
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/helptexts.lua:16
-msgctxt "building"
-msgid ""
-"Digs up mud from the ground and uses water to turn it into clay. Clay is "
-"used to make bricks, reinforce the charcoal kiln and to build ships."
-msgstr "Graver mudder op fra jorden og bruger vand til at omdanne det til ler. Ler bruges til mursten, forstærkning af trækulsovnen og til at bygge skibe."
-
-# (pofilter) doublewords: The word 'for' is repeated
-#. TRANSLATORS: Helptext for a ware: Gilded Armor
-#: ../../data/tribes/wares/armor_gilded/helptexts.lua:4
-msgctxt "empire_ware"
-msgid ""
-"The gilded armor is the strongest armor an Empire soldier can have. It is "
-"produced in the armor smithy and used in the training camp – together with "
-"food – to train soldiers from health level 3 to level 4."
-msgstr "Den forgyldte rustning er den stærkeste rustning for for imperiets soldater. Den fremstilles i rustningsmedjen og bruges i træningslejren - sammen med mad - til at træne soldater fra helbredsniveau 3 til niveau 4."
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublewords: The word 'den' is repeated
-#. TRANSLATORS: Helptext for a ware: Bronze Ax
-#: ../../data/tribes/wares/ax_bronze/helptexts.lua:4
+#. TRANSLATORS: Helptext for an atlantean ware: Heavy Double Trident
+#: ../../data/tribes/initialization/atlanteans/units.lua:745
+msgctxt "atlanteans_ware"
+msgid ""
+"This is the most dangerous weapon of the Atlantean military. Only the best "
+"of the best soldiers may use it. It is produced in the weapon smithy and "
+"used in the dungeon – together with food – to train soldiers from attack "
+"level 3 to level 4."
+msgstr "Dette er det mest farlige våben i atlanternes militær. Kun den bedste af de bedste soldater kan bruge den. Den fremstilles i våbensmedjen og bruges i fangekælderen - sammen med mad - til at træne soldater fra angrebsniveau 3 til niveau 4."
+
+# (pofilter) doublewords: The word 'den' is repeated
+#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:474
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -44,13 +36,21 @@ msgid ""
 "3."
 msgstr "Bronzeøksen anses som et svært våben at håndtere. Kun erfarne krigere kan bruge den. Den fremstilles af våbenfabrikken og bruges i træningslejren - sammen med mad - til at træne soldater fra angrebsniveau 2 til niveau 3."
 
-# (pofilter) doublewords: The word 'den' is repeated
-#. TRANSLATORS: Helptext for a ware: Heavy Double Trident
-#: ../../data/tribes/wares/trident_heavy_double/helptexts.lua:4
-msgctxt "atlanteans_ware"
+# (pofilter) doublewords: The word 'for' is repeated
+#. TRANSLATORS: Helptext for an empire ware: Gilded Armor
+#: ../../data/tribes/initialization/empire/units.lua:554
+msgctxt "empire_ware"
 msgid ""
-"This is the most dangerous weapon of the Atlantean military. Only the best "
-"of the best soldiers may use it. It is produced in the weapon smithy and "
-"used in the dungeon – together with food – to train soldiers from attack "
-"level 3 to level 4."
-msgstr "Dette er det mest farlige våben i atlanternes militær. Kun den bedste af de bedste soldater kan bruge den. Den fremstilles i våbensmedjen og bruges i fangekælderen - sammen med mad - til at træne soldater fra angrebsniveau 3 til niveau 4."
+"The gilded armor is the strongest armor an Empire soldier can have. It is "
+"produced in the armor smithy and used in the training camp – together with "
+"food – to train soldiers from health level 3 to level 4."
+msgstr "Den forgyldte rustning er den stærkeste rustning for for imperiets soldater. Den fremstilles i rustningsmedjen og bruges i træningslejren - sammen med mad - til at træne soldater fra helbredsniveau 3 til niveau 4."
+
+# (pofilter) doublewords: The word 'ler' is repeated
+#. TRANSLATORS: Purpose helptext for a frisian production site: Clay Pit
+#: ../../data/tribes/initialization/frisians/units.lua:1617
+msgctxt "building"
+msgid ""
+"Digs up mud from the ground and uses water to turn it into clay. Clay is "
+"used to make bricks, reinforce the charcoal kiln and to build ships."
+msgstr "Graver mudder op fra jorden og bruger vand til at omdanne det til ler. Ler bruges til mursten, forstærkning af trækulsovnen og til at bygge skibe."

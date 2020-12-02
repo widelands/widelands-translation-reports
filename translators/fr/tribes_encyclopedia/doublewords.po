@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
@@ -12,10 +12,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublewords: The word 'de' is repeated
-#: ../../data/tribes/buildings/productionsites/atlanteans/mill/helptexts.lua:21
+#. TRANSLATORS: Helptext for an atlantean ware: Diamond
+#: ../../data/tribes/initialization/atlanteans/units.lua:501
+msgctxt "atlanteans_ware"
+msgid ""
+"These wonderful diamonds are used to build some exclusive buildings. They "
+"are mined in a crystal mine."
+msgstr "Ces merveilleux diamants sont utilisés pour construire des bâtiments exclusifs. Ils sont produits dans une mine de de diamants."
+
+# (pofilter) doublewords: The word 'de' is repeated
+#. TRANSLATORS: Note helptext for an atlantean production site: Mill
+#: ../../data/tribes/initialization/atlanteans/units.lua:1464
 msgctxt "atlanteans_building"
 msgid ""
 "When no cornmeal is required, the mill will try to produce blackroot flour "
@@ -23,20 +33,11 @@ msgid ""
 msgstr "Quand la farine de maïs n'est plus nécessaire, le moulin essaiera de   de produire de la farine de racine noire même si il n'y a pas de demande pour."
 
 # (pofilter) doublewords: The word 'vous' is repeated
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/trainingsites/frisians/training_arena/helptexts.lua:6
+#. TRANSLATORS: Lore helptext for a frisian training site: Training Arena
+#: ../../data/tribes/initialization/frisians/units.lua:2034
 msgctxt "frisians_building"
 msgid ""
-"Now that you have two swords, there’s more of a risk you’ll accidently stab "
-"yourself, but if you got this far, you’ll likely master this challenge as "
-"well."
+"Now that you have two swords, there’s more of a risk you’ll accidentally "
+"stab yourself, but if you got this far, you’ll likely master this challenge "
+"as well."
 msgstr "Maintenant que vous avez deux épées, il y a plus de risque que vous vous poignardiez accidentellement, mais si vous êtes allé aussi loin, vous maîtriserez probablement ce défi."
-
-# (pofilter) doublewords: The word 'de' is repeated
-#. TRANSLATORS: Helptext for a ware: Diamond
-#: ../../data/tribes/wares/diamond/helptexts.lua:4
-msgctxt "atlanteans_ware"
-msgid ""
-"These wonderful diamonds are used to build some exclusive buildings. They "
-"are mined in a crystal mine."
-msgstr "Ces merveilleux diamants sont utilisés pour construire des bâtiments exclusifs. Ils sont produits dans une mine de de diamants."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
@@ -12,89 +12,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/empire/tavern/helptexts.lua:26
-msgctxt "empire_building"
-msgid "The innkeeper needs %1% on average to prepare a ration."
-msgstr "El posadero necesita %1% de rendimiento para preparar una ración"
+#. TRANSLATORS: Helptext for an atlantean worker: Baker
+#: ../../data/tribes/initialization/atlanteans/units.lua:947
+msgctxt "atlanteans_worker"
+msgid "Bakes bread for workers."
+msgstr "Hornea pan para los trabajadores"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:14
-msgctxt "barbarians_building"
-msgid "Trains soldiers in ‘Evade’."
-msgstr "Entrena soldados en \"Evasión\""
+#. TRANSLATORS: Helptext for an atlantean worker: Toolsmith
+#: ../../data/tribes/initialization/atlanteans/units.lua:988
+msgctxt "atlanteans_worker"
+msgid "Produces tools for the workers."
+msgstr "Produce herramientas para los obreros"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/helptexts.lua:16
-msgctxt "barbarians_building"
-msgid ""
-"‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
-"remain totally unaffected."
-msgstr "«Evasión» aumenta la posibilidad del soldado de no ser golpeado por el enemigo y no ser afectado»"
+#. TRANSLATORS: Helptext for an atlantean worker: Trainer
+#: ../../data/tribes/initialization/atlanteans/units.lua:1014
+msgctxt "atlanteans_worker"
+msgid "Trains the soldiers."
+msgstr "Entrena a los soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/helptexts.lua:14
-msgctxt "barbarians_building"
-msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
-msgstr "Entrena soldados en \"Evasión\""
+#. TRANSLATORS: Helptext for an atlantean worker: Weaponsmith
+#: ../../data/tribes/initialization/atlanteans/units.lua:1021
+msgctxt "atlanteans_worker"
+msgid "Produces weapons for the soldiers."
+msgstr "Produce armas para los soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/trainingsites/empire/arena/helptexts.lua:17
-#: ../../data/tribes/buildings/trainingsites/empire/colosseum/helptexts.lua:17
-msgctxt "empire_building"
-msgid "Trains soldiers in ‘Evade’."
-msgstr "Entrena soldados en \"Evasión\""
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/helptexts.lua:17
-msgctxt "empire_building"
-msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
-msgstr "Entrena soldados en \"Evasión\""
-
-# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:241
-#: ../../data/tribes/scripting/help/building_help.lua:246
-#, lua-format
-msgid "Garrisoned soldiers heal %d health point per second."
-msgid_plural "Garrisoned soldiers heal %d health points per second."
-msgstr[0] "Los soldados guarnecidos se curan %d punto de vida por segundo"
-msgstr[1] "Los soldados guarnecidos se curan %d puntos de vida por segundo"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:44
-msgctxt "hotkey"
-msgid "Page Up"
-msgstr "Re. Pág."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:46
-msgctxt "hotkey"
-msgid "Page Down"
-msgstr "Av. Pág."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Soldier health / attack defense / evade points
-#: ../../data/tribes/scripting/help/worker_help.lua:203
-#: ../../data/tribes/scripting/help/worker_help.lua:214
-msgid "Increased by %1% point for each level."
-msgid_plural "Increased by %1% points for each level."
-msgstr[0] "Incrementado en %1% punto por cada nivel"
-msgstr[1] "Incrementado en %1% puntos por cada nivel."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a ware: Pitta Bread
-#: ../../data/tribes/wares/bread_barbarians/helptexts.lua:4
+#. TRANSLATORS: Helptext for a barbarian ware: Pitta Bread
+#: ../../data/tribes/initialization/barbarians/units.lua:193
 msgctxt "barbarians_ware"
 msgid ""
 "The Barbarian bakers are best in making this flat and tasty pitta bread. It "
@@ -104,64 +54,175 @@ msgid ""
 msgstr "Los panaderos Bárbaros son mejores haciendo este plano y sabroso pan de pita. Se hace a partir de trigo y agua siguiendo una receta secreta. El pan de pita es usado en tabernas, posadas y grandes posadas para preparar raciones, bocadillos y comidas. Es además consumido en zonas de entrenamiento (campo de entrenamiento y arena de batalla),"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Baker
-#: ../../data/tribes/workers/atlanteans/baker/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Bakes bread for workers."
-msgstr "Hornea pan para los trabajadores"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Toolsmith
-#: ../../data/tribes/workers/atlanteans/toolsmith/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Produces tools for the workers."
-msgstr "Produce herramientas para los obreros"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Trainer
-#: ../../data/tribes/workers/atlanteans/trainer/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Trains the soldiers."
-msgstr "Entrena a los soldados"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Weaponsmith
-#: ../../data/tribes/workers/atlanteans/weaponsmith/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid "Produces weapons for the soldiers."
-msgstr "Produce armas para los soldados"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Trainer
-#: ../../data/tribes/workers/barbarians/trainer/helptexts.lua:3
+#. TRANSLATORS: Helptext for a barbarian worker: Trainer
+#: ../../data/tribes/initialization/barbarians/units.lua:764
 msgctxt "barbarians_worker"
 msgid "Trains the soldiers."
 msgstr "Entrena a los soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Baker
-#: ../../data/tribes/workers/empire/baker/helptexts.lua:3
+#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. part 1
+#: ../../data/tribes/initialization/barbarians/units.lua:1636
+msgctxt "barbarians_building"
+msgid "Trains soldiers in ‘Evade’."
+msgstr "Entrena soldados en \"Evasión\""
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
+msgctxt "barbarians_building"
+msgid ""
+"‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
+"remain totally unaffected."
+msgstr "«Evasión» aumenta la posibilidad del soldado de no ser golpeado por el enemigo y no ser afectado»"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a barbarian training site: Training Camp,
+#. part 1
+#: ../../data/tribes/initialization/barbarians/units.lua:1655
+msgctxt "barbarians_building"
+msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
+msgstr "Entrena soldados en \"Ataque\" y \"Vida\" ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for a barbarian military site: Sentry
+#: ../../data/tribes/initialization/barbarians/units.lua:1671
+msgctxt "barbarians_building"
+msgid ""
+"‘The log cabin was so small that two men could hardly live there. But we "
+"were young and carefree. We just relished our freedom and the responsibility"
+" as an outpost.’"
+msgstr "'La cabaña de troncos era tan pequeña que apenas podían vivir dos hombres en ella. Pero éramos jóvenes y despreocupados. Sólo gozábamos de nuestra libertad y de la responsabilidad de un puesto de avanzada."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Baker
+#: ../../data/tribes/initialization/empire/units.lua:689
 msgctxt "empire_worker"
 msgid "Bakes bread for workers."
 msgstr "Hornea pan para los trabajadores"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Toolsmith
-#: ../../data/tribes/workers/empire/toolsmith/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Toolsmith
+#: ../../data/tribes/initialization/empire/units.lua:772
 msgctxt "empire_worker"
 msgid "Produces tools for the workers."
 msgstr "Produce herramientas para los obreros"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Trainer
-#: ../../data/tribes/workers/empire/trainer/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Trainer
+#: ../../data/tribes/initialization/empire/units.lua:798
 msgctxt "empire_worker"
 msgid "Trains the soldiers."
 msgstr "Entrena a los soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Weaponsmith
-#: ../../data/tribes/workers/empire/weaponsmith/helptexts.lua:3
+#. TRANSLATORS: Helptext for an empire worker: Weaponsmith
+#: ../../data/tribes/initialization/empire/units.lua:805
 msgctxt "empire_worker"
 msgid "Produces weapons for the soldiers."
 msgstr "Produce armas para los soldados"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for an empire production site: Tavern
+#: ../../data/tribes/initialization/empire/units.lua:1266
+msgctxt "empire_building"
+msgid "The innkeeper needs %1% on average to prepare a ration."
+msgstr "El posadero necesita %1% de rendimiento para preparar una ración"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 1
+#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. 1
+#: ../../data/tribes/initialization/empire/units.lua:1428
+#: ../../data/tribes/initialization/empire/units.lua:1441
+msgctxt "empire_building"
+msgid "Trains soldiers in ‘Evade’."
+msgstr "Entrena soldados en \"Evasión\""
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an empire training site: Training Camp,
+#. part 1
+#: ../../data/tribes/initialization/empire/units.lua:1454
+msgctxt "empire_building"
+msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
+msgstr "Entrena soldados en \"Ataque\" y \"Vida\" ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:446
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "Las lanzas de caza son producidas por la herrería."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for a frisian worker: Trainer
+#: ../../data/tribes/initialization/frisians/units.lua:867
+msgctxt "frisians_worker"
+msgid "Trains the soldiers."
+msgstr "Entrena a los soldados"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a frisian production site: Reed Farm
+#: ../../data/tribes/initialization/frisians/units.lua:1591
+msgctxt "frisians_building"
+msgid "Cultivates reed that serves three different purposes for the Frisians."
+msgstr "Cultiva caña que para los Frisios cumple tres propósitos distintos"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for a frisian production site: Sewing Room
+#: ../../data/tribes/initialization/frisians/units.lua:1786
+msgctxt "building"
+msgid "Sews fur garments out of reindeer fur."
+msgstr "Cose prendas de piel de reno"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:446
+#: ../../data/tribes/scripting/help/building_help.lua:451
+#, lua-format
+msgid "Garrisoned soldiers heal %d health point per second."
+msgid_plural "Garrisoned soldiers heal %d health points per second."
+msgstr[0] "Los soldados guarnecidos se curan %d punto de vida por segundo"
+msgstr[1] "Los soldados guarnecidos se curan %d puntos de vida por segundo"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/tribes/scripting/help/controls.lua:42
+msgctxt "hotkey"
+msgid "Page Up"
+msgstr "Re. Pág."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/tribes/scripting/help/controls.lua:44
+msgctxt "hotkey"
+msgid "Page Down"
+msgstr "Av. Pág."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/tribes/scripting/help/controls.lua:46
+msgctxt "hotkey"
+msgid "Ctrl + Page Up"
+msgstr "Ctrl + Re. Pág."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/tribes/scripting/help/controls.lua:48
+msgctxt "hotkey"
+msgid "Ctrl + Page Down"
+msgstr "Ctrl + Av. Pág."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Soldier health / attack defense / evade points
+#: ../../data/tribes/scripting/help/worker_help.lua:207
+#: ../../data/tribes/scripting/help/worker_help.lua:218
+msgid "Increased by %1% point for each level."
+msgid_plural "Increased by %1% points for each level."
+msgstr[0] "Incrementado en %1% punto por cada nivel"
+msgstr[1] "Incrementado en %1% puntos por cada nivel."

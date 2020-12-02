@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-01 04:47+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-27 04:56+0000\n"
 "Last-Translator: ks k\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
@@ -12,12 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:44
-msgid " --<config-entry-name>=value overwrites any config file setting"
-msgstr " --<config-entry-name>=value  設定ファイルで定義された設定を上書きします。"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
@@ -29,70 +24,44 @@ msgstr " --<config-entry-name>=value  設定ファイルで定義された設定
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:73
+#: ../../src/wlapplication_messages.cc:78
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
-msgstr " --write_syncstreams=[true|false]\n                      ネットワークゲームのデバッグのため同期ログファイルを\n                      作ります"
+msgstr " --write_syncstreams=[true|false]\n                      함께 놀기를 디버깅하는 데 도움이 되는\n                      동기화 스트림 로그 파일을 만듭니다"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:99
-msgid ""
-" --auto_speed         In multiplayer games only, this will keep\n"
-"                      adjusting the game speed automatically,\n"
-"                      depending on FPS. Useful in conjunction with\n"
-"                      --ai_training."
-msgstr " --auto_speed         マルチプレイ限定。ゲームスピードをFPS\n                      に応じて自動的に調整します。--ai_training指定時\n                      にこれを指定すると便利です。"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:107
-msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
-msgstr " --loadgame=FILENAME    セーブデータFILENAMEを直接読み込みます。"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:108
+#: ../../src/wlapplication_messages.cc:115
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
-msgstr " --script=FILENAME 初期化後に指定したLuaスクリプトを実行します。\n                      --scenario、--loadgame、--editorでのみ有効です。"
+msgstr " --script=FILENAME 초기화 후 지정된 루아 스크립트를 실행합니다.\n                      --scenario, --loadgame, --editor 에서만 유효합니다."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:124
-msgid ""
-" --fullscreen=[true|false]\n"
-"                      Whether to use the whole display for the\n"
-"                      game screen."
-msgstr " --fullscreen=[true|false]\n                      フルスクリーンモードの利用を設定します。"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:136
+#: ../../src/wlapplication_messages.cc:144
 msgid ""
 " --animate_map_panning=[yes|no]\n"
 "                      Should automatic map movements be animated."
-msgstr " --animate_map_panning=[yes|no]\n                      マップ上での自動移動をアニメーションさせるか\n                      どうかを設定します。"
+msgstr " --animate_map_panning=[yes|no]\n                      지도에서 자동 이동을 애니메이션 시킬지\n                      여부를 설정합니다."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:147
+#: ../../src/wlapplication_messages.cc:155
 msgid ""
 " --dock_windows_to_edges=[true|false]\n"
 "                      Eliminate a window's border towards the\n"
 "                      edge of the screen when the edge of the\n"
 "                      window is next to the edge of the screen."
-msgstr " --dock_windows_to_edges=[true|false]\n                      ウィンドウの端がスクリーンの端に接した\n                      時、ウィンドウの端を消します。"
+msgstr " --dock_windows_to_edges=[true|false]\n                      창의 가장자리가 화면 가장자리에 닿았을 때\n                      창 테두리를 지웁니다."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:157
+#: ../../src/wlapplication_messages.cc:165
 msgid ""
 " --snap_windows_only_when_overlapping=[yes|no]\n"
 "                      Only move a window to the edge of a panel\n"
 "                      if the window is overlapping with the\n"
 "                      panel."
-msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                      ウィンドウがパネルと重なっているときに、\n                      ウィンドウだけをパネル端へ移動させます。"
+msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                      창이 패널과 겹쳐 있을 때 창만\n                      패널 가장자리로 이동시킵니다."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Hebrew (http://www.transifex.com/widelands/widelands/language/"
 "he/)\n"
@@ -13,115 +13,116 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:9
+#. TRANSLATORS: Lore author helptext for a barbarian production site:
+#. Gamekeeper's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1197
 msgctxt "barbarians_building"
 msgid "Barbarian nursery rhyme"
 msgstr "ברברימ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:202
+#: ../../data/tribes/scripting/help/building_help.lua:343
 #: ../../data/tribes/scripting/help/init.lua:59
 #: ../../data/tribes/scripting/help/tips.lua:49
 msgid "General"
 msgstr "גנרל"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:203
+#: ../../data/tribes/scripting/help/building_help.lua:344
 msgid "Purpose:"
 msgstr "מטרה:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:231
-#: ../../data/tribes/scripting/help/building_help.lua:462
+#: ../../data/tribes/scripting/help/building_help.lua:436
+#: ../../data/tribes/scripting/help/building_help.lua:656
 msgid "Note:"
 msgstr "הודעה:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:236
+#: ../../data/tribes/scripting/help/building_help.lua:441
 msgid "Work area radius:"
 msgstr "אזור עבודה"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:240
-#: ../../data/tribes/scripting/help/building_help.lua:245
+#: ../../data/tribes/scripting/help/building_help.lua:445
+#: ../../data/tribes/scripting/help/building_help.lua:450
 msgid "Healing:"
 msgstr "ריפוי:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:247
-#: ../../data/tribes/scripting/help/building_help.lua:251
+#: ../../data/tribes/scripting/help/building_help.lua:452
+#: ../../data/tribes/scripting/help/building_help.lua:456
 msgid "Capacity:"
 msgstr "כמות:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:253
+#: ../../data/tribes/scripting/help/building_help.lua:458
 msgid "Vision range:"
 msgstr "טווח ראיה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Heading in the building help for wares that a building accepts
 #. (e.g. wheat for a mill).
-#: ../../data/tribes/scripting/help/building_help.lua:283
+#: ../../data/tribes/scripting/help/building_help.lua:489
 msgid "Incoming:"
 msgstr "מגיע"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:287
-msgid "Collects:"
-msgstr "אוסף:"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a verb (The miner mines)
-#: ../../data/tribes/scripting/help/building_help.lua:299
+#: ../../data/tribes/scripting/help/building_help.lua:498
 msgid "Mines:"
 msgstr "מכרות:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:319
+#: ../../data/tribes/scripting/help/building_help.lua:500
+msgid "Collects:"
+msgstr "אוסף:"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/tribes/scripting/help/building_help.lua:514
 msgid "Produces:"
 msgstr "מוצרים:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:363
+#: ../../data/tribes/scripting/help/building_help.lua:557
 msgid "None"
 msgstr "אף אחד"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is the header for the "Building" section in the building
 #. help, containing size info, buildcost etc.
-#: ../../data/tribes/scripting/help/building_help.lua:447
+#: ../../data/tribes/scripting/help/building_help.lua:641
 msgid "Building"
 msgstr "בניין"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:471
-#: ../../data/tribes/scripting/help/immovable_help.lua:50
+#: ../../data/tribes/scripting/help/building_help.lua:665
+#: ../../data/tribes/scripting/help/immovable_help.lua:53
 msgid "Build cost:"
 msgstr "עלות בנייה:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:538
-#: ../../data/tribes/scripting/help/building_help.lua:587
+#: ../../data/tribes/scripting/help/building_help.lua:732
+#: ../../data/tribes/scripting/help/building_help.lua:781
 msgid "Unknown"
 msgstr "לא ידוע"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:631
+#: ../../data/tribes/scripting/help/building_help.lua:825
 msgid "Crew required:"
 msgstr "צוות דרוש:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:631
+#: ../../data/tribes/scripting/help/building_help.lua:825
 #: ../../data/tribes/scripting/help/init.lua:92
 msgid "Workers"
 msgstr "עובדים"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:695
+#: ../../data/tribes/scripting/help/building_help.lua:898
 msgid "Production"
 msgstr "ייצור"
 

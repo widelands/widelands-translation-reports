@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
 "widelands/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/infrastructure.lua:175
@@ -20,34 +20,28 @@ msgid "Not enough space"
 msgstr "Espaço insuficiente."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:958
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:99
-msgid "Creating empty map…"
-msgstr "Criando mapa vazio..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:972
+#: ../../src/editor/editorinteractive.cc:977
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Carregando mapa “%s”..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:1108
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:101
+msgid "Creating empty map…"
+msgstr "Criando mapa vazio..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gameclient.cc:1144
 msgid "Disconnected from Host"
 msgstr "Desconectando do Host."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:329
+#: ../../src/network/gamehost.cc:340
 msgid "You can not kick yourself!"
 msgstr "Não se pode expulsar a você próprio !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:354
-msgid "kick acknowledgement cancelled: Wrong name given!"
-msgstr "reconhecimento da expulsão cancelado: Nome errado !"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:114
+#: ../../src/network/internet_gaming.cc:117
 msgid ""
 "Widelands could not establish a connection to the given address.\n"
 "Either there was no metaserver running at the supposed port or\n"
@@ -60,48 +54,48 @@ msgid "Metaserver did not answer"
 msgstr "Metaserver não responde."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:139
+#: ../../src/network/network_gaming_messages.cc:138
 msgid "Received a PLAYERCOMMAND even though no game is running."
 msgstr "Recebeu um PLAYERCOMMAND apesar de o jogo não estar sendo executado"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:153
+#: ../../src/network/network_gaming_messages.cc:152
 msgid "The game has already started."
 msgstr "O jogo já começou"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:162
+#: ../../src/network/network_gaming_messages.cc:161
 #, c-format
 msgid "Host sent player %s to the lobby!"
 msgstr "O anfitrião enviou o jogador %s para o lóbi !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:139
-msgid "Maximum FPS:"
-msgstr "FPS máximo :"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:309
-#: ../../src/wui/warehousewindow.cc:149
-msgid "Remove selected wares from here"
-msgstr "Remover os bens selecionados daqui."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:83
-msgid "Decrease target"
-msgstr "Diminuir o alvo."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:100
-msgid "Increase target"
-msgstr "Aumentar o alvo."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/login_box.cc:162
+#: ../../src/ui_fsmenu/login_box.cc:199
 msgid "Please enter a nickname!"
 msgstr "Por favor escolha um Apelido"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/login_box.cc:172
+#: ../../src/ui_fsmenu/login_box.cc:209
 msgid "Please enter your password!"
 msgstr "Por favor escreva sua senha !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:147
+msgid "Maximum FPS:"
+msgstr "FPS máximo :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/constructionsitewindow.cc:345
+#: ../../src/wui/warehousewindow.cc:150
+msgid "Remove selected wares from here"
+msgstr "Remover os bens selecionados daqui."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/economy_options_window.cc:84
+msgid "Decrease target"
+msgstr "Diminuir o alvo."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/economy_options_window.cc:101
+msgid "Increase target"
+msgstr "Aumentar o alvo."

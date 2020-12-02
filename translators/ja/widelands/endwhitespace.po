@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,98 +12,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:110
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:352
 msgid "Map name:"
 msgstr "マップ名: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:114
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:357
 msgid "Authors:"
 msgstr "作者: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:118
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:362
 msgid "Description:"
 msgstr "説明: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:122
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:367
 msgid "Hint (optional):"
 msgstr "ヒント (オプション): "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:129
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:375
 msgid "Tags:"
 msgstr "タグ: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:160
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:430
 msgid "Suggested Teams:"
 msgstr "お勧めチーム構成: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:73
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:75
 msgid "Terrain:"
 msgstr "地形: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:70
-#: ../../src/wui/gamedetails.cc:166
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:69
+#: ../../src/wui/gamedetails.cc:173
 msgid "Players:"
 msgstr "人数: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:96
-msgid "Climate:"
-msgstr "気候: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:97
-msgid "Resources:"
-msgstr "資源: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:128
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:134
 msgid "Water:"
 msgstr "水: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:141
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:147
 msgid "Land:"
 msgstr "陸地: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:154
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
 msgid "Wasteland:"
 msgstr "荒地: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:159
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:165
 msgid "Mountains:"
 msgstr "山地: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:170
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:183
 msgid "Random number:"
 msgstr "乱数: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:177
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:190
 msgid "Map ID:"
 msgstr "マップID: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:60
-#: ../../src/wui/game_main_menu_save_game.cc:66
-#: ../../src/wui/gamedetails.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:68
+#: ../../src/wui/game_main_menu_save_game.cc:75
+#: ../../src/wui/gamedetails.cc:190
 msgid "Filename:"
 msgstr "ファイル名: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:43
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:52
 msgid "Enter Directory Name:"
 msgstr "ディレクトリ名を入力してください: "
 
@@ -114,149 +104,118 @@ msgstr "高さの増減値: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:56
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:71
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:69
 msgid "Set height to:"
 msgstr "高さをこの値に設定する: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:54
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:53
 msgid "Increase/Decrease amount by:"
 msgstr "資源量の増減値: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:66
+#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:65
 msgid "Set amount to:"
 msgstr "資源量をこの値に設定する: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/logic/generic_save_handler.cc:293
+#: ../../src/logic/generic_save_handler.cc:288
 msgid "An unexpected error occurred:"
 msgstr "予期せぬエラー: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/network/gamehost.cc:272
+#: ../../src/network/gamehost.cc:283
 msgid "Available host commands are:"
 msgstr "利用可能なホストコマンド: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/internet_lobby.cc:68
+#: ../../src/ui_fsmenu/internet_lobby.cc:62
 msgid "Clients online:"
 msgstr "オンラインのクライアント: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/internet_lobby.cc:70
+#: ../../src/ui_fsmenu/internet_lobby.cc:91
 msgid "Name of your server:"
 msgstr "あなたのサーバー名: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:603
-msgid "Map details:"
-msgstr "マップ詳細: "
+#: ../../src/ui_fsmenu/login_box.cc:51
+msgid "Nickname:"
+msgstr "ニックネーム: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/options.cc:139
+#: ../../src/ui_fsmenu/login_box.cc:52
+msgid "Password:"
+msgstr "パスワード: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/options.cc:147
 msgid "Maximum FPS:"
 msgstr "最大FPS: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/options.cc:186
+#: ../../src/ui_fsmenu/options.cc:207
 msgid "Save game automatically every:"
 msgstr "ゲームの自動保存頻度:  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/options.cc:199
+#: ../../src/ui_fsmenu/options.cc:220
 msgid "Maximum number of autosave files:"
 msgstr "自動保存ファイルの最大数: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/building_statistics_menu.cc:59
+#: ../../src/wui/building_statistics_menu.cc:72
 msgid "Owned:"
 msgstr "所有: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/building_statistics_menu.cc:67
-msgid "Under Construction:"
-msgstr "建設中: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. * TRANSLATORS: This is the first part of productivity with input field
-#. * TRANSLATORS: Building statistics window - 'Low Productivity <input>%:'
-#: ../../src/wui/building_statistics_menu.cc:75
-#: ../../src/wui/building_statistics_menu.cc:690
-msgid "Low Productivity"
-msgstr "低生産率 "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. * TRANSLATORS: This is the second part of productivity with input field
-#. * TRANSLATORS: Building statistics window -  'Low Productivity <input>%:'
-#: ../../src/wui/building_statistics_menu.cc:82
-msgid "%:"
-msgstr "%: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. * TRANSLATORS: Label for number of buildings that are waiting for soldiers
-#: ../../src/wui/building_statistics_menu.cc:719
-msgid "Lacking Soldiers:"
-msgstr "兵士不在: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/buildingwindow.cc:260 ../../src/wui/fieldaction.cc:100
+#: ../../src/wui/buildingwindow.cc:296 ../../src/wui/fieldaction.cc:101
 msgid "Construction costs:"
 msgstr "建設コスト: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/buildingwindow.cc:293 ../../src/wui/buildingwindow.cc:303
+#: ../../src/wui/buildingwindow.cc:332
 msgid "Returns:"
 msgstr "回収物資: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/game_summary.cc:63
+#: ../../src/wui/game_summary.cc:56
 msgid "Player Info:"
 msgstr "プレイヤー情報: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/game_summary.cc:79
+#: ../../src/wui/game_summary.cc:88
 msgid "Elapsed time:"
 msgstr "経過時間: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/gamedetails.cc:140
+#: ../../src/wui/gamedetails.cc:147
 msgid "Error:"
 msgstr "エラー: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/gamedetails.cc:146
+#: ../../src/wui/gamedetails.cc:153
 msgid "Map Name:"
 msgstr "マップ名: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: The time a replay starts. Shown in the replay loading screen
-#: ../../src/wui/gamedetails.cc:159
+#: ../../src/wui/gamedetails.cc:166
 msgid "Start of Replay:"
 msgstr "リプレイを開始: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/gamedetails.cc:170
+#: ../../src/wui/gamedetails.cc:177
 msgid "Widelands Version:"
 msgstr "Widelandsバージョン: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/gamedetails.cc:174
+#: ../../src/wui/gamedetails.cc:181
 msgid "Win Condition:"
 msgstr "勝利条件: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/login_box.cc:37
-msgid "Nickname:"
-msgstr "ニックネーム: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/login_box.cc:38
-msgid "Password:"
-msgstr "パスワード: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/savegameloader.cc:107
+#: ../../src/wui/savegameloader.cc:106
 msgid "Error message:"
 msgstr "エラーメッセージ: "

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-01 04:54+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-09-05 19:08+0000\n"
 "Last-Translator: ks k\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_controls.lua:11
@@ -144,7 +144,7 @@ msgstr "개요"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_help.lua:59
-#: ../../data/scripting/editor/editor_introduction.lua:11
+#: ../../data/scripting/editor/editor_introduction.lua:10
 msgid "Introduction"
 msgstr "소개"
 
@@ -165,26 +165,26 @@ msgid "Trees"
 msgstr "나무"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/editor_introduction.lua:9
+#: ../../data/scripting/editor/editor_introduction.lua:8
 msgid "The Widelands Editor"
 msgstr "와이드랜드 편집기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/editor_introduction.lua:13
+#: ../../data/scripting/editor/editor_introduction.lua:12
 msgid ""
 "This editor is intended for players who would like to design their own maps "
 "to use with Widelands."
 msgstr "이 편집기는 와이드랜드에서 사용할 자신만의 지도를 설계하려는 사람을 위한것입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/editor_introduction.lua:14
+#: ../../data/scripting/editor/editor_introduction.lua:13
 msgid ""
 "As you can see, this editor is heavy work in progress and as the editor "
 "becomes better and better, this text will also get longer and more complete."
 msgstr "[번역확인]보다시피, 편집기는 점점 나아지고 있지만 아직 개발이 필요합니다. 글자도 더 길게 하면서 여러 요소를 제대로 설명해야 합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/editor_introduction.lua:17
+#: ../../data/scripting/editor/editor_introduction.lua:16
 msgid "The wiki also includes a short tutorial on how to build a map."
 msgstr "위키에는 맵을 만드는 방법에대한 간단한 자습서도 포함되어 있습니다."
 
@@ -213,18 +213,21 @@ msgstr "기본:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: A header in the editor help
-#: ../../data/scripting/editor/terrain_help.lua:72
+#: ../../data/scripting/editor/terrain_help.lua:55
+#: ../../data/scripting/editor/terrain_tooltip.lua:35
 msgid "Probability of trees growing"
 msgstr "나무가 자랄 확률"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/editor/terrain_help.lua:77
+#: ../../data/scripting/editor/terrain_help.lua:60
+#: ../../data/scripting/editor/terrain_tooltip.lua:37
 msgid "No trees will grow here."
 msgstr "여기는 나무가 자랄 수 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: A header in the editor help. Terrains preferred by a type of
 #. tree.
-#: ../../data/scripting/editor/tree_help.lua:19
+#: ../../data/scripting/editor/tree_help.lua:18
+#: ../../data/scripting/editor/tree_tooltip.lua:31
 msgid "Preferred terrains"
 msgstr "좋아하는 지형"

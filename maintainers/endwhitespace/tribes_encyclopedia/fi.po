@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
@@ -12,18 +12,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/scouts_house/helptexts.lua:8
+#. TRANSLATORS: Helptext for a barbarian ware: Felling Ax, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:334
+msgctxt "barbarians_ware"
+msgid ""
+"Felling axes are used by lumberjacks and produced in the metal workshop (but"
+" cease to be produced by the building if it is enhanced to an ax workshop "
+"and war mill)."
+msgstr "Katokirveitä käyttää puunhakkaajat ja niitä tuotetaan metallipajassa (mutta tuotanto loppuu rakennuksessa, jos se laajennetaan kirvespajaksi ja asetehtaaksi). "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for a barbarian ware: Fire Tongs, part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:434
+msgctxt "barbarians_ware"
+msgid ""
+"They are used in the smelting works and produced by the metal workshop (but "
+"they cease to be produced by the building if it is enhanced to an ax "
+"workshop and war mill)."
+msgstr "Niitä käytetään sulattamoissa ja tuottetaan metallipajassa  (mutta tuotanto loppuu rakennuksessa, jos se laajennetaan kirvespajaksi ja asetehtaaksi). "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for a frisian ware: Mead
+#: ../../data/tribes/initialization/frisians/units.lua:221
+msgctxt "frisians_ware"
+msgid ""
+"Mead is produced by mead breweries. Soldiers drink mead during advanced "
+"training."
+msgstr "Simaa valmistetaan simapanimossa. Sotilaat juovat simaa edistyksellisen harjoittelun aikana. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for a frisian ware: Iron, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:323
+msgctxt "frisians_ware"
+msgid ""
+"It is produced by the furnace. Tools and weapons are made of iron. It is "
+"also used as jewellery for fur garment armor to give it a silver shine."
+msgstr "Sitä tuotetaan sulatusuunissa. Työkalut ja aseet tehdään raudasta. Sitä käytetään myös koruihin turkisvaatehaarniskassa antamaan sille hopeisen kiillon. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Scout's
+#. House
+#: ../../data/tribes/initialization/frisians/units.lua:1699
 msgctxt "frisians_building"
 msgid "The spokesman of the scouts’ labor union"
 msgstr "Tiedustelijoiden ammattiyhdistyksen tiedottaja "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/tavern/helptexts.lua:23
+#. TRANSLATORS: Performance helptext for a frisian production site: Tavern
+#: ../../data/tribes/initialization/frisians/units.lua:1886
 #, lua-format
 msgctxt "frisians_building"
 msgid ""

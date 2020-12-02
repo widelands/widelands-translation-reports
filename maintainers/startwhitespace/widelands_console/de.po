@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-01-10 21:56+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-23 10:55+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #: ../../src/wlapplication_messages.cc:45
@@ -29,35 +29,35 @@ msgstr "Hinweis: Der neue Wert wird in die config-Datei geschrieben"
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:73
+#: ../../src/wlapplication_messages.cc:78
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr "--write_syncstream=[true|false]\nErstelle Syncstream-Speicherauszüge zum Debuggen von Netzwerkspielen."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:77
+#: ../../src/wlapplication_messages.cc:82
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr "--rolling_autosave=[…]\nVerwendet diese Anzahl an Dateien für fortlaufende automatisch gespeicherte Spielstände"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:80
+#: ../../src/wlapplication_messages.cc:85
 msgid ""
 " --metaserver=[...]\n"
 "                      Connect to a different metaserver for internet gaming."
 msgstr "--metaserver=[…]\nVerbindet zu einem alternativen Metaserver für ein Internetspiel."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:83
+#: ../../src/wlapplication_messages.cc:88
 msgid ""
 " --metaserverport=[...]\n"
 "                      Port number of the metaserver for internet gaming."
 msgstr "--metaserverport=[…]\nPortnummer des Metaservers für das Internetspiel."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:95
+#: ../../src/wlapplication_messages.cc:102
 msgid ""
 " --ai_training        Enables AI training mode. See\n"
 "                      https://www.widelands.org/wiki/Ai%20Training/\n"
@@ -65,7 +65,7 @@ msgid ""
 msgstr "--ai_training        Aktiviert den KI-Trainingsmodus. Siehe\n                        https://www.widelands.org/wiki/Ai%20Training/\n                        für eine ausführliche Beschreibung der KI-Trainingslogik."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:99
+#: ../../src/wlapplication_messages.cc:106
 msgid ""
 " --auto_speed         In multiplayer games only, this will keep\n"
 "                      adjusting the game speed automatically,\n"
@@ -74,12 +74,12 @@ msgid ""
 msgstr "--auto_speed        Nur im Mehrspielermodus verfügbar,\n                        wird diese Option die Spielgeschwindigkeit\n                        automatisch an die FPS anpassen. Sinnvoll\n                        in Benutzung mit --ai_training."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:130
+#: ../../src/wlapplication_messages.cc:138
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr "--maxfps=[5 …]\nMaximale optische Bildwiederholrate des Spiels."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:136
+#: ../../src/wlapplication_messages.cc:144
 msgid ""
 " --animate_map_panning=[yes|no]\n"
 "                      Should automatic map movements be animated."

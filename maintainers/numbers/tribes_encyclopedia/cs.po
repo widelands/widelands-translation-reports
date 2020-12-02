@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-29 08:55+0000\n"
+"Last-Translator: Ondřej Itřech <vasa5@centrum.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,11 +13,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
 " 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/helptexts.lua:27
+#. TRANSLATORS: Performance helptext for production site: Gamekeeper's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1201
+msgctxt "barbarians_building"
+msgid "The gamekeeper pauses 52.5 seconds before going to work again."
+msgstr "Hajný si odpočine 52,5 sekundy než půjde znovu pracovat."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for production site: Coal Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1514
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 32.5 seconds on "
@@ -25,8 +32,8 @@ msgid ""
 msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jedno uhlí za 32,5 sekundy."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/helptexts.lua:27
+#. TRANSLATORS: Performance helptext for production site: Deep Coal Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1529
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 19.5 seconds on "
@@ -34,8 +41,8 @@ msgid ""
 msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jedno uhlí za 19,5 sekundy."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/helptexts.lua:27
+#. TRANSLATORS: Performance helptext for production site: Deeper Coal Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1544
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 14.4 seconds on "
@@ -43,33 +50,9 @@ msgid ""
 msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jedno uhlí za 14,4 sekundy."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/helptexts.lua:24
-msgctxt "barbarians_building"
-msgid "The gamekeeper pauses 52.5 seconds before going to work again."
-msgstr "Hajný si odpočine 52,5 sekundy než půjde znovu pracovat."
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/helptexts.lua:23
-msgctxt "barbarians_building"
-msgid ""
-"If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
-" on average."
-msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jednu zlatou rudu za 19,5 sekundy."
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/helptexts.lua:23
-msgctxt "barbarians_building"
-msgid ""
-"If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
-" on average."
-msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jednu zlatou rudu za 18,5 sekundy."
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/helptexts.lua:23
+#. TRANSLATORS: Performance helptext for a barbarian production site: Deep
+#. Iron Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1570
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 39.5 seconds"
@@ -77,10 +60,39 @@ msgid ""
 msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jednu železnou rudu za 39,5 sekundy."
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/helptexts.lua:23
+#. TRANSLATORS: Performance helptext for a barbarian production site: Deeper
+#. Iron Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1583
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 17.6 seconds"
 " on average."
 msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jednu železnou rudu za 17,6 sekundy."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for production site: Deep Gold Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1609
+msgctxt "barbarians_building"
+msgid ""
+"If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
+" on average."
+msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jednu zlatou rudu za 19,5 sekundy."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: Performance helptext for production site: Deeper Gold Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1622
+msgctxt "barbarians_building"
+msgid ""
+"If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
+" on average."
+msgstr "Pokud je stabilní přísun jídla, může tento důl vytěžit v průmeru jednu zlatou rudu za 18,5 sekundy."
+
+# (pofilter) numbers: Different numbers
+#: ../../data/tribes/scripting/help/controls.lua:50
+msgid "Increase game speed by 0.25x"
+msgstr "Zvýšení násobku rychlosti hry o 0,25"
+
+# (pofilter) numbers: Different numbers
+#: ../../data/tribes/scripting/help/controls.lua:52
+msgid "Decrease game speed by 0.25x"
+msgstr "Snížení násobku rychlosti hry o 0,25"

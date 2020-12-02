@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,46 +12,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:274
+#: ../../src/network/gamehost.cc:285
 msgid "/help  -  Shows this help"
 msgstr "/help - Näyttää tämän ohjeen"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:276
+#: ../../src/network/gamehost.cc:287
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <viesti> - Lähettää viestin tiedotteena kaikille"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:278
+#: ../../src/network/gamehost.cc:289
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <nimi> <aihe> - Varoittaa käyttäjää <nimi> aiheesta <aihe>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:280
+#: ../../src/network/gamehost.cc:291
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <nimi> <syy> - Potkaisee käyttäjän <nimi> ulos aiheesta <aihe>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:282
+#: ../../src/network/gamehost.cc:293
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Pakottaa pelin pysähtymään."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:284
+#: ../../src/network/gamehost.cc:295
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Palauttaa pelin normaaliin pelinopeuteen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:114
+#: ../../src/network/internet_gaming.cc:117
 msgid ""
 "Widelands could not establish a connection to the given address.\n"
 "Either there was no metaserver running at the supposed port or\n"
@@ -59,13 +59,22 @@ msgid ""
 msgstr "Widelands ei saanut verkkoyhteyttä annettuun osoitteeseen.\nJoko  palvelin ei kuuntele oikeaa porttia tai\nverkkoasetuksissasi on jotain vikaa."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:520
+#: ../../src/network/internet_gaming.cc:525
 #, c-format
 msgid "Invalid chat message type \"%s\"."
 msgstr "Virheellinen viestityyppi  \"%s\"."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication.cc:1185
+#: ../../src/ui_fsmenu/login_box.cc:59
+#, c-format
+msgid ""
+"In order to use a registered account, you need an account on the Widelands "
+"website. Please log in at %s and set an online gaming password on your "
+"profile page."
+msgstr "Rekisteröidyn tunnuksen käyttäminen edellyttää  Widelandsin verkkosivujen tunnusta. Kirjaudu sisään %s ja aseta verkkopelaamisen salasana profiilisivultasi."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication.cc:1281
 #, c-format
 msgid ""
 "Please report this problem to help us improve Widelands. You will find "
@@ -75,14 +84,14 @@ msgstr "Ole hyvä ja raportoi tämä ongelma auttaaksesi meitä parantamaan Wide
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Health, Attack, Defense, Evade
-#: ../../src/wui/attack_box.cc:339 ../../src/wui/soldierlist.cc:394
-#: ../../src/wui/soldierlist.cc:464
+#: ../../src/wui/attack_box.cc:353 ../../src/wui/soldierlist.cc:403
+#: ../../src/wui/soldierlist.cc:472
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "HP: %1$u/%2$u AT: %3$u/%4$u DE: %5$u/%6$u EV: %7$u/%8$u"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:553
+#: ../../src/wui/seafaring_statistics_menu.cc:571
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Näytä tutkimusmatkat, jotka ovat löytäneet satamapaikan tai löytämässä  yhdyskunnan"

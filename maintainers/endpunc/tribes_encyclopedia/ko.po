@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
@@ -12,20 +12,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/well/helptexts.lua:8
-msgctxt "barbarians_building"
+#. TRANSLATORS: Helptext for an atlantean worker: Scout
+#: ../../data/tribes/initialization/atlanteans/units.lua:1035
+msgctxt "atlanteans_worker"
 msgid ""
-"Song written by Sigurd the Bard when the first rain fell after the Great "
-"Drought in the 21st year of Chat’Karuth’s reign."
-msgstr "찻’카루스의 치세 21년째의 대가뭄 뒤 첫 비가 내렸을 때 음유시인 시구르드가 쓴 노래"
+"Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
+msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a building
-#: ../../data/tribes/buildings/productionsites/empire/weaponsmithy/helptexts.lua:16
+#. TRANSLATORS: Helptext for a barbarian worker: Scout
+#: ../../data/tribes/initialization/barbarians/units.lua:778
+msgctxt "barbarians_worker"
+msgid ""
+"Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
+msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an empire worker: Scout
+#: ../../data/tribes/initialization/empire/units.lua:819
+msgctxt "empire_worker"
+msgid ""
+"Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
+msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an empire production site: Weapon Smithy
+#: ../../data/tribes/initialization/empire/units.lua:1358
 msgctxt "empire_building"
 msgid ""
 "Forges spears to equip the soldiers and to train their attack in the "
@@ -33,45 +48,44 @@ msgid ""
 msgstr "군인들을 무장시키고 훈련소에서 공격을 훈련시킬 창을 단조하십시오"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Performance helptext for a building
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/helptexts.lua:26
+#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:446
+msgctxt "frisians_ware"
+msgid "Hunting spears are produced by the blacksmithy"
+msgstr "사냥용 창은 대장간에서 만듭니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for a frisian production site: Quarry
+#: ../../data/tribes/initialization/frisians/units.lua:1526
+#, lua-format
+msgctxt "frisians_building"
+msgid "The stonemason pauses %s before going to work again."
+msgstr "번역확인:쉽니다 멈춥니다 -> 석공은 다시 일하기 전에 %s 초간 쉽니다. 멈춥니다"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Charcoal
+#. Burner's House
+#. TRANSLATORS: Lore author helptext for a frisian production site: Charcoal
+#. Kiln
+#: ../../data/tribes/initialization/frisians/units.lua:1626
+#: ../../data/tribes/initialization/frisians/units.lua:1808
+msgctxt "frisians_building"
+msgid "The inventor of the Frisian charcoal kiln"
+msgstr "프리지아인은 숯 가마를 처음 발명한 사람들입니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for a frisian production site: Brick Kiln
+#: ../../data/tribes/initialization/frisians/units.lua:1714
+msgctxt "frisians_building"
+msgid "A brickmaker arguing with his chieftain who was doing just that"
+msgstr "벽돌공 한 명이 바로 그 일을 하고 있던 그의 족장과 말다툼을 하고 있습니다."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for a frisian production site: Gold Mine
+#: ../../data/tribes/initialization/frisians/units.lua:2003
 #, lua-format
 msgctxt "frisians_building"
 msgid ""
 "If the food supply is steady, the gold mine can produce one piece of gold "
 "ore in %s on average."
 msgstr "??만약 식량 공급이 중단된다면, 금광은 평균 %s 개의 금광석을 금광석을 생산할 수 있다.?? 숫자가 개수인가???"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/controls.lua:134
-msgid "Show ships shipping wares and workers"
-msgstr "배송 물품 및 노동자를 표시합니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/controls.lua:140
-msgid "Show expeditions that have found a port space or are founding a colony"
-msgstr "항구 자리를 찾았거나 식민지를 세우고있는 탐험대를 표시합니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Scout
-#: ../../data/tribes/workers/atlanteans/scout/helptexts.lua:3
-msgctxt "atlanteans_worker"
-msgid ""
-"Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
-msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Scout
-#: ../../data/tribes/workers/barbarians/scout/helptexts.lua:3
-msgctxt "barbarians_worker"
-msgid ""
-"Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
-msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a worker: Scout
-#: ../../data/tribes/workers/empire/scout/helptexts.lua:3
-msgctxt "empire_worker"
-msgid ""
-"Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
-msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."

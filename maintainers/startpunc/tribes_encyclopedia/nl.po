@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-03-29 19:01+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-10 19:01+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
@@ -12,11 +12,151 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a building
-#: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/helptexts.lua:3
+#. TRANSLATORS: Lore helptext for a barbarian warehouse: Warehouse
+#: ../../data/tribes/initialization/barbarians/units.lua:1095
+msgctxt "barbarians_building"
+msgid "‘Who still owns a warehouse is not yet defeated!’"
+msgstr "'Wie nog eigenaar is van een magazijn is nog niet verslagen!'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Quarry
+#: ../../data/tribes/initialization/barbarians/units.lua:1119
+msgctxt "barbarians_building"
+msgid "‘We open up roads and make houses from mountains.’"
+msgstr "'We openen wegen en maken huizen van bergen.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1180
+msgctxt "barbarians_building"
+msgid ""
+"‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
+"arrow,<br> as deadly as a viper.’"
+msgstr "'Zo stil als een panter,<br> zo vaardig als een wezel,<br> zo snel als een pijl,<br> zo dodelijk als een adder.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Well
+#: ../../data/tribes/initialization/barbarians/units.lua:1208
+msgctxt "barbarians_building"
+msgid ""
+"‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
+"and lets the earth drink.’"
+msgstr "'Oh, hoe zoet is de bron van leven,<br> die neerdaalt uit de hemel <br> en de aarde laat drinken.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Wood Hardener
+#: ../../data/tribes/initialization/barbarians/units.lua:1234
+msgctxt "barbarians_building"
+msgid ""
+"‘Then he hit the door with his ax and, behold,<br>the door only trembled, "
+"but the shaft of the ax burst into a thousand pieces.’"
+msgstr "'Toen sloeg hij met zijn bijl op de deur en zie,<br>de deur trilde alleen, maar de steel van de bijl barstte in duizend stukken uiteen.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Reed Yard
+#: ../../data/tribes/initialization/barbarians/units.lua:1246
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "'Wij groeien daken'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Lime Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1261
+msgctxt "barbarians_building"
+msgid "‘Forming new stone from old with fire and water.’"
+msgstr "'Nieuwe stenen vormen uit oude met vuur en water.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Micro Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1289
+msgctxt "barbarians_building"
+msgid ""
+"‘Let the first one drive away the hunger, the second one put you at ease; "
+"when you have swallowed up your third one, it’s time for the next shift!’"
+msgstr "'Laat de eerste de honger verdrijven, de tweede je tevreden stellen; zodra je de derde hebt verslonden, is het tijd voor de volgende dienst!'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Smelting Works
+#: ../../data/tribes/initialization/barbarians/units.lua:1367
+msgctxt "barbarians_building"
+msgid ""
+"‘From inferior looking rubble they form shiny gold and gleaming iron.<br>The"
+" smelters are real magicians among our craftsmen.’"
+msgstr "'Van inferieur ogend puin vormen ze glanzend goud en blinkend ijzer.<br>De smelterijen zijn echte magiërs onder onze vakmensen.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Metal Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1379
+msgctxt "barbarians_building"
+msgid "‘We make it work!’"
+msgstr "'Wij laten het werken!'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1631
+msgctxt "barbarians_building"
+msgid ""
+"‘No better friend you have in battle than the enemy’s blow that misses.’"
+msgstr "'Er is geen betere vriend in de strijd dan de slag van de vijand die mist.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. part 2
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
+msgctxt "barbarians_building"
+msgid ""
+"‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
+"remain totally unaffected."
+msgstr "'Ontwijken' verhoogt de kans dat de soldaat niet wordt geraakt door de vijand en zo geheel onaangetast blijft."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian military site: Barrier
+#: ../../data/tribes/initialization/barbarians/units.lua:1684
+msgctxt "barbarians_building"
+msgid ""
+"‘When we looked down to the valley from our newly established barrier, we "
+"felt that the spirit of our fathers was with us.’"
+msgstr "'Toen we vanaf onze nieuw opgerichte barrière naar de vallei keken, voelden we dat de geest van onze vaders bij ons was.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian military site: Fortress
+#: ../../data/tribes/initialization/barbarians/units.lua:1711
+msgctxt "barbarians_building"
+msgid ""
+"‘This stronghold made from blackwood and stones will be a hard nut to crack "
+"for them.’"
+msgstr "'Deze burcht van rozenhout en stenen zal voor hen een harde noot zijn om te kraken.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Shipyard
+#: ../../data/tribes/initialization/barbarians/units.lua:1748
+msgctxt "barbarians_building"
+msgid ""
+"‘When I saw the Saxnot for the first time, her majestic dragon head already "
+"looked up to the skies and the master was about to install the square "
+"sail.<br>It was the most noble ship I ever saw.’"
+msgstr "'Toen ik de Saxnot voor het eerst zag, keek haar majestueuze drakenkop al op naar de lucht en stond de meester op het punt het vierkante zeil te installeren.<br>Het was het meest nobele schip dat ik ooit heb gezien.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Weaving Mill
+#: ../../data/tribes/initialization/barbarians/units.lua:1760
+msgctxt "barbarians_building"
+msgid ""
+"‘Fine cloth and jewelry mean nothing to a true Barbarian.<br>But a noble "
+"sail in the wind will please his eyes.’"
+msgstr "'Fijne stoffen en juwelen betekenen niets voor een echte Barbaar.<br>Maar een nobel zeil in de wind zal zijn ogen behagen.'"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
+#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. 2
+#: ../../data/tribes/initialization/empire/units.lua:1430
+#: ../../data/tribes/initialization/empire/units.lua:1443
+msgctxt "empire_building"
+msgid ""
+"‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
+"remain totally unaffected."
+msgstr "'Ontwijken' verhoogt de kans dat de soldaat niet wordt geraakt door de vijand en zo geheel onaangetast blijft."

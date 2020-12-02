@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2020-04-22 20:03+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-11-13 09:19+0000\n"
+"Last-Translator: GunChleoc\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -134,50 +134,35 @@ msgid "Dec"
 msgstr "dec"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:653
+#: ../../src/network/gamehost.cc:1716
+#, c-format
+msgid "Computer %u"
+msgstr "%u. számítógép"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
-#: ../../src/editor/ui_menus/player_menu.cc:148
-#: ../../src/editor/ui_menus/player_menu.cc:274
-#: ../../src/logic/single_player_game_settings_provider.cc:96
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:69
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:101
-#: ../../src/ui_fsmenu/launch_mpg.cc:523
-#: ../../src/wui/multiplayersetupgroup.cc:140
-#: ../../src/wui/multiplayersetupgroup.cc:194
+#: ../../src/editor/ui_menus/player_menu.cc:158
+#: ../../src/editor/ui_menus/player_menu.cc:286
+#: ../../src/logic/single_player_game_settings_provider.cc:109
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:66
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:98
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:110
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:159
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:46
 #, c-format
 msgid "Player %u"
 msgstr "%u. játékos"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:114
-#, c-format
-msgid ""
-"should mine resource %s, which does not exist in world; tribe is not "
-"compatible with world"
-msgstr "Ez a törzs nem kompatibilis ezzel a térképpel, mert itt nem bányázható %s, pedig szüksége lenne rá"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:217
-#, c-format
-msgid ""
-"should breed resource type %s, which does not exist in world; tribe is not "
-"compatible with world"
-msgstr "Ez a törzs nem kompatibilis ezzel a térképpel, mert nem létezik a térképen %s erőforrás, pedig szüksége lenne rá"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/player.cc:1523
+#: ../../src/logic/player.cc:1860
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
 msgstr "%d. hajó"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:1605
-#, c-format
-msgid "Computer %u"
-msgstr "%u. számítógép"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:431
+#: ../../src/network/internet_gaming.cc:434
 #, c-format
 msgid ""
 "You have been logged in as '%s' since your requested name is already in use "
@@ -185,20 +170,21 @@ msgid ""
 msgstr "„%s” néven jelentkeztél be, mivel a kért név már használatban van, vagy foglalt."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/network_gaming_messages.cc:146
+#: ../../src/network/network_gaming_messages.cc:145
 #, c-format
 msgid "Received command number %s, which is not allowed in this state."
 msgstr "%s sorszámú parancs érkezett, amely nem engedélyezett ebben az állapotban."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:204
-msgid "Team %|1$u| won!"
-msgstr "%|1$u| csapat nyert!"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is an option in multiplayer setup for sharing
 #. another player's starting position.
-#: ../../src/wui/multiplayersetupgroup.cc:463
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:385
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:83
 #, c-format
 msgid "Shared in Player %u"
 msgstr "%u. játékosként megosztva"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/game_summary.cc:254
+msgid "Team %|1$u| won!"
+msgstr "%|1$u| csapat nyert!"

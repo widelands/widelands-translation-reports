@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-04-22 20:01+0000\n"
-"PO-Revision-Date: 2019-12-30 08:11+0000\n"
+"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"PO-Revision-Date: 2020-10-23 07:56+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
 "language/sv/)\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.4.0\n"
+"X-Generator: Translate Toolkit 2.5.0\n"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:60
+#: ../../src/wlapplication_messages.cc:65
 msgid ""
 " --coredump=[true|false]\n"
 "                      Generates a core dump on segfaults instead of\n"
@@ -36,26 +36,26 @@ msgstr "--coredump=[ja|nej]\nGenererar en minnesutskrift av segmenteringsfel ist
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:73
+#: ../../src/wlapplication_messages.cc:78
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr "--write_syncstreams=[ja|nej]\nSkapa synkströmdumpfiler för att hjälpa till att felsöka nätverksspel."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:76
+#: ../../src/wlapplication_messages.cc:81
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr "--autosave=[...] Spara spelet automatiskt var n:te minut"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:77
+#: ../../src/wlapplication_messages.cc:82
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr "--rolling_autosave=[...]\nAnvänd de här filerna för rullande automatsparningar"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:108
+#: ../../src/wlapplication_messages.cc:115
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
@@ -66,7 +66,7 @@ msgstr "--script=FILNAMN  Kör det angivna Lua scriptet efter initialisering\nBa
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:114
+#: ../../src/wlapplication_messages.cc:121
 msgid ""
 " --auto_roadbuild_mode=[true|false]\n"
 "                      Whether to enter roadbuilding mode\n"
@@ -79,7 +79,7 @@ msgstr "--auto_roadbuild_mode=[ja|nej]\nStäll in om vägbyggarläge ska startas
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:124
+#: ../../src/wlapplication_messages.cc:132
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
@@ -87,12 +87,12 @@ msgid ""
 msgstr "--fullscreen=[ja|nej]\nOm hela skärmen ska användas\nför spelet."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:128
+#: ../../src/wlapplication_messages.cc:136
 msgid " --xres=[...]         Width of the window in pixel."
 msgstr "--xres=[...] Fönstrets bredd i pixlar."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:129
+#: ../../src/wlapplication_messages.cc:137
 msgid " --yres=[...]         Height of the window in pixel."
 msgstr "--yres=[...] Fönstrets höjd i pixlar."
 
@@ -101,7 +101,7 @@ msgstr "--yres=[...] Fönstrets höjd i pixlar."
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:147
+#: ../../src/wlapplication_messages.cc:155
 msgid ""
 " --dock_windows_to_edges=[true|false]\n"
 "                      Eliminate a window's border towards the\n"
