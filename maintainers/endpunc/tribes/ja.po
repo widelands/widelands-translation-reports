@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:52
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:57
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:59
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:56
-#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:66
+#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:51
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:56
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:58
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:54
+#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:65
 msgid "Out of Water"
 msgstr "水が枯渇しました。"
 
@@ -55,7 +55,7 @@ msgid ""
 msgstr "この畑にはこれ以上種を植えられる場所がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:53
 msgctxt "atlanteans_building"
 msgid ""
 "The fish breeder working out of this fish breeder’s house can’t find any "
@@ -64,7 +64,7 @@ msgid ""
 msgstr "この養魚番は作業範囲に魚を見つけることができません。魚がいなければ育てることもできません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:55
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:54
 msgctxt "atlanteans_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -82,7 +82,7 @@ msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:52
 msgctxt "atlanteans_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -98,7 +98,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:49
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:47
 msgctxt "atlanteans_building"
 msgid ""
 "The stonecutter working at this quarry can’t find any rocks in his work "
@@ -106,13 +106,13 @@ msgid ""
 msgstr "この採石場で働く石切りは作業エリア何に岩を見つけられません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:58
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:57
 msgctxt "atlanteans_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸には水がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:50
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:48
 msgctxt "atlanteans_building"
 msgid ""
 "The woodcutter working at this woodcutter’s house can’t find any trees in "
@@ -146,7 +146,7 @@ msgid ""
 msgstr "この畑にはこれ以上種をまける場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:60
+#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:59
 msgctxt "barbarians_building"
 msgid ""
 "The fisher working out of this fisher’s hut can’t find any fish in his work "
@@ -182,7 +182,7 @@ msgstr "この花崗岩鉱の主要鉱脈は枯渇しました。もう投資に
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:64
+#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:63
 msgctxt "barbarians_building"
 msgid ""
 "The hunter working out of this hunter’s hut can’t find any game in his work "
@@ -209,7 +209,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:57
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:56
 msgctxt "barbarians_building"
 msgid ""
 "The lumberjack working at this lumberjack’s hut can’t find any trees in his "
@@ -218,7 +218,7 @@ msgid ""
 msgstr "木こりは作業エリアに木を見つけられません。この建物を解体、破壊するか、さもなくば植樹番の庵を建てることを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:56
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:54
 msgctxt "barbarians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -233,7 +233,7 @@ msgid ""
 msgstr "このカヤ園にはあらたにカヤを植えられる場所が残っていません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:60
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:59
 msgctxt "barbarians_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸にはもう水が無いようです。"
@@ -263,7 +263,7 @@ msgid ""
 msgstr "この畑にはこれ以上種をまける場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:52
+#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:51
 msgctxt "empire_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -289,7 +289,7 @@ msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:52
 msgctxt "empire_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -314,7 +314,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:50
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:48
 msgctxt "empire_building"
 msgid ""
 "The lumberjack working at this lumberjack’s house can’t find any trees in "
@@ -341,7 +341,7 @@ msgid ""
 msgstr "この大理石鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:70
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:68
 msgctxt "empire_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -356,13 +356,13 @@ msgid ""
 msgstr "このブドウ園にはこれ以上ブドウを植える場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:57
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:55
 msgctxt "empire_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸には水がありません"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:92
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:91
 msgctxt "frisians_building"
 msgid ""
 "The fisher working at this aqua farm can’t find any fish ponds in his work "
@@ -372,7 +372,7 @@ msgid ""
 msgstr "作業エリア内にこれ以上養殖池がありません。近くに穴掘りを配置し、養殖場には物資をきちんと供給しましょう。それができないのであれば、建物を解体、破壊することを考えましょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:66
+#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:65
 msgctxt "frisians_building"
 msgid ""
 "The beekeeper working at this beekeepers’s house can’t find any flowering "
@@ -381,7 +381,7 @@ msgid ""
 msgstr "ここの養蜂家は作業エリア内に花がある畑を見つけられません。近くに農場やベリー農場を作るか、さもなくばこの建物を解体、破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:86
+#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:85
 msgctxt "frisians_building"
 msgid ""
 "The clay digger working at this clay pit can’t find any level ground in his "
@@ -407,7 +407,7 @@ msgid ""
 msgstr "この炭鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:66
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:65
 msgctxt "frisians_building"
 msgid ""
 "The fruit collector working at this fruit collector’s house can’t find any "
@@ -416,14 +416,14 @@ msgid ""
 msgstr "フルーツ採取人の作業エリア内にベリー畑がありません。ベリー農場を建てるか、さもなくば採取人小屋の解体、破壊を考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:103
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:102
 msgctxt "frisians_building"
 msgid ""
 "The farmer working at this farm has no cleared soil to plant his seeds."
 msgstr "この畑にはこれ以上種をまける場所がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:65
+#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:64
 msgctxt "frisians_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -449,7 +449,7 @@ msgstr "この金鉱の主要鉱脈は枯渇しました。もう投資に見合
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:75
+#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:74
 msgctxt "frisians_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -474,7 +474,7 @@ msgid ""
 msgstr "この鉄鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:63
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:61
 msgctxt "frisians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -506,13 +506,13 @@ msgid ""
 msgstr "この岩石鉱の主要鉱脈は枯渇しました。もう投資に見合った成果は上がらないでしょう。これ以上拡張することもできないので、解体、もしくは破壊することを考えるべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:67
+#: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:66
 msgctxt "frisians_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸にはもう水が無いようです。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:63
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:61
 msgctxt "frisians_building"
 msgid ""
 "The woodcutter working at this woodcutter’s house can’t find any trees in "

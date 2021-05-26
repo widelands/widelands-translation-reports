@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-11 21:13+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,61 +12,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a frisian ware: Water, part 1
-#. TRANSLATORS: Helptext for an amazon ware: Water, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Water, part 1
 #. TRANSLATORS: Helptext for an empire ware: Water, part 1
 #. TRANSLATORS: Helptext for a barbarian ware: Water, part 1
-#. TRANSLATORS: Helptext for an atlantean ware: Water, part 1
-#: ../../data/tribes/initialization/amazons/units.lua:155
-#: ../../data/tribes/initialization/atlanteans/units.lua:434
-#: ../../data/tribes/initialization/barbarians/units.lua:169
-#: ../../data/tribes/initialization/empire/units.lua:161
-#: ../../data/tribes/initialization/frisians/units.lua:166
+#. TRANSLATORS: Helptext for an amazon ware: Water, part 1
+#. TRANSLATORS: Helptext for a frisian ware: Water, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:169
+#: ../../data/tribes/initialization/atlanteans/units.lua:454
+#: ../../data/tribes/initialization/barbarians/units.lua:182
+#: ../../data/tribes/initialization/empire/units.lua:174
+#: ../../data/tribes/initialization/frisians/units.lua:179
 msgctxt "ware"
 msgid "Water is the essence of life!"
 msgstr "L'eau est l'essence de la vie !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian building: Dismantle Site
-#. TRANSLATORS: Lore helptext for an amazon building: Dismantle Site
+#. TRANSLATORS: Helptext for an amazon worker: Soldier
+#: ../../data/tribes/initialization/amazons/units.lua:725
+msgctxt "amazons_worker"
+msgid "Defend and Conquer!"
+msgstr "Défendre et conquérir !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an amazon production site: Scout's Hut
+#: ../../data/tribes/initialization/amazons/units.lua:1340
+msgctxt "amazons_building"
+msgid "Explores unknown territory."
+msgstr "Explorez des territoires inconnus"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for an atlantean building: Dismantle Site
 #. TRANSLATORS: Lore helptext for an empire building: Dismantle Site
 #. TRANSLATORS: Lore helptext for a barbarian building: Dismantle Site
-#. TRANSLATORS: Lore helptext for an atlantean building: Dismantle Site
-#: ../../data/tribes/initialization/amazons/units.lua:1584
-#: ../../data/tribes/initialization/atlanteans/units.lua:1702
-#: ../../data/tribes/initialization/barbarians/units.lua:1785
-#: ../../data/tribes/initialization/empire/units.lua:1562
-#: ../../data/tribes/initialization/frisians/units.lua:2151
+#. TRANSLATORS: Lore helptext for an amazon building: Dismantle Site
+#. TRANSLATORS: Lore helptext for a frisian building: Dismantle Site
+#: ../../data/tribes/initialization/amazons/units.lua:1601
+#: ../../data/tribes/initialization/atlanteans/units.lua:1725
+#: ../../data/tribes/initialization/barbarians/units.lua:1801
+#: ../../data/tribes/initialization/empire/units.lua:1578
+#: ../../data/tribes/initialization/frisians/units.lua:2174
 msgctxt "building"
 msgid "‘New paths will appear when you are willing to tear down the old.’"
 msgstr "De nouveaux chemins apparaîtrons  quand vous voudrez détruire l'ancien."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a frisian ware: Iron Ore, part 1
+#. TRANSLATORS: Helptext for an atlantean ware: Iron Ore, part 1
 #. TRANSLATORS: Helptext for an empire ware: Iron Ore, part 1
 #. TRANSLATORS: Helptext for a barbarian ware: Iron Ore, part 1
-#. TRANSLATORS: Helptext for an atlantean ware: Iron Ore, part 1
-#: ../../data/tribes/initialization/atlanteans/units.lua:524
-#: ../../data/tribes/initialization/barbarians/units.lua:268
-#: ../../data/tribes/initialization/empire/units.lua:285
-#: ../../data/tribes/initialization/frisians/units.lua:308
+#. TRANSLATORS: Helptext for a frisian ware: Iron Ore, part 1
+#: ../../data/tribes/initialization/atlanteans/units.lua:544
+#: ../../data/tribes/initialization/barbarians/units.lua:281
+#: ../../data/tribes/initialization/empire/units.lua:298
+#: ../../data/tribes/initialization/frisians/units.lua:321
 msgctxt "default_ware"
 msgid "Iron ore is mined in iron mines."
 msgstr "Le minerai de fer est miné dans les mines de fer"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Recruit
-#: ../../data/tribes/initialization/atlanteans/units.lua:998
+#: ../../data/tribes/initialization/atlanteans/units.lua:1018
 msgctxt "atlanteans_worker"
 msgid "Eager to become a soldier and defend his tribe!"
 msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Soldier
-#: ../../data/tribes/initialization/atlanteans/units.lua:1007
+#: ../../data/tribes/initialization/atlanteans/units.lua:1027
 msgctxt "atlanteans_worker"
 msgid "Defend and Conquer!"
 msgstr "Défendre et conquérir !"
@@ -74,75 +88,75 @@ msgstr "Défendre et conquérir !"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Gold
 #. Spinning Mill
-#: ../../data/tribes/initialization/atlanteans/units.lua:1432
+#: ../../data/tribes/initialization/atlanteans/units.lua:1454
 msgctxt "atlanteans_building"
 msgid "Spins gold thread out of gold."
 msgstr "Filez l'or en fil d'or"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Scout's House
-#. TRANSLATORS: Purpose helptext for an empire production site: Scout's House
-#. TRANSLATORS: Purpose helptext for a barbarian production site: Scout's Hut
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Scout's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1439
-#: ../../data/tribes/initialization/barbarians/units.lua:1225
-#: ../../data/tribes/initialization/empire/units.lua:1200
-#: ../../data/tribes/initialization/frisians/units.lua:1701
+#. TRANSLATORS: Purpose helptext for an empire production site: Scout's House
+#. TRANSLATORS: Purpose helptext for a barbarian production site: Scout's Hut
+#. TRANSLATORS: Purpose helptext for a frisian production site: Scout's House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1462
+#: ../../data/tribes/initialization/barbarians/units.lua:1241
+#: ../../data/tribes/initialization/empire/units.lua:1216
+#: ../../data/tribes/initialization/frisians/units.lua:1724
 msgctxt "building"
 msgid "Explores unknown territory."
 msgstr "Explorez les territoires inconnus"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Ferry Yard
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Ferry Yard
 #. TRANSLATORS: Purpose helptext for an empire production site: Ferry Yard
 #. TRANSLATORS: Purpose helptext for production site: Ferry Yard
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Ferry Yard
-#: ../../data/tribes/initialization/atlanteans/units.lua:1673
-#: ../../data/tribes/initialization/barbarians/units.lua:1739
-#: ../../data/tribes/initialization/empire/units.lua:1533
-#: ../../data/tribes/initialization/frisians/units.lua:2105
+#. TRANSLATORS: Purpose helptext for a frisian production site: Ferry Yard
+#: ../../data/tribes/initialization/atlanteans/units.lua:1696
+#: ../../data/tribes/initialization/barbarians/units.lua:1755
+#: ../../data/tribes/initialization/empire/units.lua:1549
+#: ../../data/tribes/initialization/frisians/units.lua:2128
 msgctxt "building"
 msgid "Builds ferries."
 msgstr "Construit des ferrys"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for a frisian production site: Ferry Yard
+#. TRANSLATORS: Note helptext for an atlantean production site: Ferry Yard
 #. TRANSLATORS: Note helptext for an empire production site: Ferry Yard
 #. TRANSLATORS: Note helptext for production site: Ferry Yard
-#. TRANSLATORS: Note helptext for an atlantean production site: Ferry Yard
-#: ../../data/tribes/initialization/atlanteans/units.lua:1675
-#: ../../data/tribes/initialization/barbarians/units.lua:1741
-#: ../../data/tribes/initialization/empire/units.lua:1535
-#: ../../data/tribes/initialization/frisians/units.lua:2107
+#. TRANSLATORS: Note helptext for a frisian production site: Ferry Yard
+#: ../../data/tribes/initialization/atlanteans/units.lua:1698
+#: ../../data/tribes/initialization/barbarians/units.lua:1757
+#: ../../data/tribes/initialization/empire/units.lua:1551
+#: ../../data/tribes/initialization/frisians/units.lua:2130
 msgctxt "building"
 msgid "Needs water nearby."
 msgstr "A besoin d'eau au alentours"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian ware: Iron Ore, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:270
+#: ../../data/tribes/initialization/barbarians/units.lua:283
 msgctxt "barbarians_ware"
 msgid "It is smelted in a smelting works to retrieve the iron."
 msgstr "Il est fondu dans une fonderie pour récupérer le fer"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Farmer
-#: ../../data/tribes/initialization/barbarians/units.lua:648
+#: ../../data/tribes/initialization/barbarians/units.lua:661
 msgctxt "barbarians_worker"
 msgid "Plants fields."
 msgstr "Ensemence des champs"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Recruit
-#: ../../data/tribes/initialization/barbarians/units.lua:748
+#: ../../data/tribes/initialization/barbarians/units.lua:761
 msgctxt "barbarians_worker"
 msgid "Eager to become a soldier and defend his tribe!"
 msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Soldier
-#: ../../data/tribes/initialization/barbarians/units.lua:757
+#: ../../data/tribes/initialization/barbarians/units.lua:770
 msgctxt "barbarians_worker"
 msgid "Defend and Conquer!"
 msgstr "Défendre et conquérir !"
@@ -150,14 +164,14 @@ msgstr "Défendre et conquérir !"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Ranger's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1152
+#: ../../data/tribes/initialization/barbarians/units.lua:1167
 msgctxt "barbarians_building"
 msgid "Chat’Karuth in a conversation with a Ranger"
 msgstr "Chat’Karuth dans une conversation avec un sylviculteur."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian production site: Charcoal Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1349
+#: ../../data/tribes/initialization/barbarians/units.lua:1365
 msgctxt "barbarians_building"
 msgid ""
 "‘What’s the work of a charcoal burner?<br>He’s the tribe’s most plodding "
@@ -170,14 +184,14 @@ msgstr "'Quel est le travail d'un brûleur de charbon de bois ?<br>Il est le plu
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Training Camp,
 #. part 1
-#: ../../data/tribes/initialization/barbarians/units.lua:1655
+#: ../../data/tribes/initialization/barbarians/units.lua:1671
 msgctxt "barbarians_building"
 msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
 msgstr "Entraîne les soldats en «&nbsp;Attaque&nbsp;» et en «&nbsp;Santé&nbsp;»"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian military site: Citadel
-#: ../../data/tribes/initialization/barbarians/units.lua:1724
+#: ../../data/tribes/initialization/barbarians/units.lua:1740
 msgctxt "barbarians_building"
 msgid ""
 "‘The Citadel of Adlen surely is the finest masterpiece of Barbarian "
@@ -187,21 +201,21 @@ msgstr "La Citadelle d'Adlen est certainement le plus beau chef-d'œuvre de l'ar
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Farmer
-#: ../../data/tribes/initialization/empire/units.lua:675
+#: ../../data/tribes/initialization/empire/units.lua:688
 msgctxt "empire_worker"
 msgid "Plants fields."
 msgstr "Ensemence des champs"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Recruit
-#: ../../data/tribes/initialization/empire/units.lua:782
+#: ../../data/tribes/initialization/empire/units.lua:795
 msgctxt "empire_worker"
 msgid "Eager to become a soldier and defend his tribe!"
 msgstr "Impatient de devenir un soldat et défendre sa tribu !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Soldier
-#: ../../data/tribes/initialization/empire/units.lua:791
+#: ../../data/tribes/initialization/empire/units.lua:804
 msgctxt "empire_worker"
 msgid "Defend and Conquer!"
 msgstr "Défendre et conquérir !"
@@ -209,21 +223,21 @@ msgstr "Défendre et conquérir !"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an empire training site: Training Camp,
 #. part 1
-#: ../../data/tribes/initialization/empire/units.lua:1454
+#: ../../data/tribes/initialization/empire/units.lua:1470
 msgctxt "empire_building"
 msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
 msgstr "Entraîne les soldats en «&nbsp;Attaque&nbsp;» et en «&nbsp;Santé&nbsp;»"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:446
+#: ../../data/tribes/initialization/frisians/units.lua:459
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Les lances de chasse sont produites par le forgeron."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Long Sword
-#: ../../data/tribes/initialization/frisians/units.lua:534
+#: ../../data/tribes/initialization/frisians/units.lua:547
 msgctxt "frisians_ware"
 msgid ""
 "The long sword is the weapon used by level 1 soldiers. Level 4 soldiers are "
@@ -232,7 +246,7 @@ msgstr "L'épée longue est l'arme utilisée par les soldats de niveau 1. Les so
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Broadsword
-#: ../../data/tribes/initialization/frisians/units.lua:543
+#: ../../data/tribes/initialization/frisians/units.lua:556
 msgctxt "frisians_ware"
 msgid ""
 "The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
@@ -241,35 +255,35 @@ msgstr "Le glaive est l'arme utilisée par les soldats de niveau 2. Les soldats 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian worker: Gardener
-#: ../../data/tribes/initialization/frisians/units.lua:688
+#: ../../data/tribes/initialization/frisians/units.lua:701
 msgctxt "frisians_worker"
 msgid "Plants and harvests reed fields."
 msgstr "Plantez et récoltez des champs de roseaux"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian worker: Soldier
-#: ../../data/tribes/initialization/frisians/units.lua:860
+#: ../../data/tribes/initialization/frisians/units.lua:873
 msgctxt "frisians_worker"
 msgid "Defend and Conquer!"
 msgstr "Défendre et Conquérir !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian worker: Scout
-#: ../../data/tribes/initialization/frisians/units.lua:874
+#: ../../data/tribes/initialization/frisians/units.lua:887
 msgctxt "frisians_worker"
 msgid "Explores unknown territory."
 msgstr "Explore des territoires inconnus"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Quarry
-#: ../../data/tribes/initialization/frisians/units.lua:1518
+#: ../../data/tribes/initialization/frisians/units.lua:1540
 msgctxt "frisians_building"
 msgid "When I swing my pick, whole mountains fall before me!"
 msgstr "Quand je frappe avec ma pioche, des montagnes entières tombent devant moi !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Forester's House
-#: ../../data/tribes/initialization/frisians/units.lua:1546
+#: ../../data/tribes/initialization/frisians/units.lua:1568
 msgctxt "frisians_building"
 msgid ""
 "What can ever be more beautiful than the brilliant sun’s beams shining "
@@ -278,14 +292,14 @@ msgstr "Quoi de plus beau que les rayons brillants du soleil qui brillent à tra
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Well
-#: ../../data/tribes/initialization/frisians/units.lua:1600
+#: ../../data/tribes/initialization/frisians/units.lua:1622
 msgctxt "frisians_building"
 msgid "We love the sea so much that we don’t want to drink it empty!"
 msgstr "Nous aimons tellement la mer que nous ne voulons pas la boire vide !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Well
-#: ../../data/tribes/initialization/frisians/units.lua:1602
+#: ../../data/tribes/initialization/frisians/units.lua:1624
 msgctxt "frisians_building"
 msgid ""
 "Chieftain Arldor’s retort when he was asked why his tribe can’t drink salt "
@@ -294,7 +308,7 @@ msgstr "La réplique du chef de tribu Arldor quand on lui a demandé pourquoi sa
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Clay Pit
-#: ../../data/tribes/initialization/frisians/units.lua:1613
+#: ../../data/tribes/initialization/frisians/units.lua:1635
 msgctxt "frisians_building"
 msgid "You think you can build a house without my help?"
 msgstr "Tu crois que tu peux construire une maison sans mon aide ?"
@@ -303,8 +317,8 @@ msgstr "Tu crois que tu peux construire une maison sans mon aide ?"
 #. TRANSLATORS: Lore helptext for a frisian production site: Charcoal Burner's
 #. House
 #. TRANSLATORS: Lore helptext for a frisian production site: Charcoal Kiln
-#: ../../data/tribes/initialization/frisians/units.lua:1624
-#: ../../data/tribes/initialization/frisians/units.lua:1806
+#: ../../data/tribes/initialization/frisians/units.lua:1646
+#: ../../data/tribes/initialization/frisians/units.lua:1829
 msgctxt "frisians_building"
 msgid ""
 "No other tribe has ever mastered the art of charcoal burning as we have!"
@@ -312,7 +326,7 @@ msgstr "Aucune autre tribu n'a jamais maîtrisé l'art de la combustion du charb
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Berry Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1639
+#: ../../data/tribes/initialization/frisians/units.lua:1661
 msgctxt "frisians_building"
 msgid ""
 "My bushes may not be as tall as your trees, but I don’t know anybody who "
@@ -322,21 +336,21 @@ msgstr "Mes buissons ne sont peut-être pas aussi grands que vos arbres, mais je
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site:
 #. Beekeeper's House
-#: ../../data/tribes/initialization/frisians/units.lua:1671
+#: ../../data/tribes/initialization/frisians/units.lua:1693
 msgctxt "frisians_building"
 msgid "A beekeeper ignoring a customer’s complaint"
 msgstr "Un apiculteur qui ignore la plainte d'un client."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Aqua Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1684
+#: ../../data/tribes/initialization/frisians/units.lua:1706
 msgctxt "frisians_building"
 msgid "Why on earth shouldn’t we be able to catch fish even in the desert?"
 msgstr "Pourquoi diable ne serions-nous pas capables d'attraper des poissons, même dans le désert ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Scout's House
-#: ../../data/tribes/initialization/frisians/units.lua:1697
+#: ../../data/tribes/initialization/frisians/units.lua:1719
 msgctxt "frisians_building"
 msgid ""
 "Everyone has their own ideas on how exactly we should explore the enemy’s "
@@ -347,7 +361,7 @@ msgstr "Chacun a ses propres idées sur la façon d'explorer le territoire de l'
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Scout's
 #. House
-#: ../../data/tribes/initialization/frisians/units.lua:1699
+#: ../../data/tribes/initialization/frisians/units.lua:1721
 msgctxt "frisians_building"
 msgid "The spokesman of the scouts’ labor union"
 msgstr "Le porte-parole du syndicat des éclaireurs."
@@ -355,14 +369,14 @@ msgstr "Le porte-parole du syndicat des éclaireurs."
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Recycling
 #. Center
-#: ../../data/tribes/initialization/frisians/units.lua:1738
+#: ../../data/tribes/initialization/frisians/units.lua:1761
 msgctxt "frisians_building"
 msgid "A smelter explaining the need for recycling to his impatient chieftain"
 msgstr "Un forgeron expliquant la nécessité du recyclage à son chef impatient."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Blacksmithy
-#: ../../data/tribes/initialization/frisians/units.lua:1747
+#: ../../data/tribes/initialization/frisians/units.lua:1770
 msgctxt "frisians_building"
 msgid "If you don’t have iron, change your name from blacksmith to lacksmith!"
 msgstr "Si vous n'avez pas de fer, changez votre nom de forgeron en forgetronc !"
@@ -370,7 +384,7 @@ msgstr "Si vous n'avez pas de fer, changez votre nom de forgeron en forgetronc !
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Small
 #. Armor Smithy
-#: ../../data/tribes/initialization/frisians/units.lua:1762
+#: ../../data/tribes/initialization/frisians/units.lua:1785
 msgctxt "frisians_building"
 msgid "A blacksmith pointing out his influence on soldier training"
 msgstr "Un forgeron soulignant son influence sur l'entraînement des soldats."
@@ -378,7 +392,7 @@ msgstr "Un forgeron soulignant son influence sur l'entraînement des soldats."
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Large
 #. Armor Smithy
-#: ../../data/tribes/initialization/frisians/units.lua:1773
+#: ../../data/tribes/initialization/frisians/units.lua:1796
 msgctxt "frisians_building"
 msgid ""
 "A master blacksmith refusing to forge anything but the most sophisticated "
@@ -387,7 +401,7 @@ msgstr "Un maître forgeron refusant de forger quoi que ce soit d'autre que les 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Sewing Room
-#: ../../data/tribes/initialization/frisians/units.lua:1782
+#: ../../data/tribes/initialization/frisians/units.lua:1805
 msgctxt "frisians_building"
 msgid ""
 "You soldiers think a good sword is everything, but where would you be if you"
@@ -397,14 +411,14 @@ msgstr "Vous les soldats, vous pensez qu'une bonne épée est tout, mais où ser
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Sewing
 #. Room
-#: ../../data/tribes/initialization/frisians/units.lua:1784
+#: ../../data/tribes/initialization/frisians/units.lua:1807
 msgctxt "frisians_building"
 msgid "A seamstress scolding a soldier for disrespecting her profession"
 msgstr "Une couturière qui réprimande un soldat pour avoir manqué de respect à sa profession."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Tailor's Shop
-#: ../../data/tribes/initialization/frisians/units.lua:1795
+#: ../../data/tribes/initialization/frisians/units.lua:1818
 msgctxt "frisians_building"
 msgid ""
 "Don’t complain if these garments are too heavy – they’re not supposed to be "
@@ -414,14 +428,14 @@ msgstr "Ne vous plaignez pas si ces vêtements sont trop lourds – ils ne sont 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Tailor's
 #. Shop
-#: ../../data/tribes/initialization/frisians/units.lua:1797
+#: ../../data/tribes/initialization/frisians/units.lua:1820
 msgctxt "frisians_building"
 msgid "A trainer scolding a soldier"
 msgstr "Un entraîneur qui gronde un soldat."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Smokery
-#: ../../data/tribes/initialization/frisians/units.lua:1819
+#: ../../data/tribes/initialization/frisians/units.lua:1842
 msgctxt "frisians_building"
 msgid ""
 "Miners and soldiers are so picky… But who am I to complain, as I make my "
@@ -430,7 +444,7 @@ msgstr "Les mineurs et les soldats sont si difficiles.... Mais qui suis-je pour 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Bakery
-#: ../../data/tribes/initialization/frisians/units.lua:1832
+#: ../../data/tribes/initialization/frisians/units.lua:1855
 msgctxt "frisians_building"
 msgid "Why shouldn’t my bread taste good? It’s only barley and water!"
 msgstr "Pourquoi mon pain ne serait-il pas bon ? Ce n'est que de l'orge et de l'eau !"
@@ -438,14 +452,14 @@ msgstr "Pourquoi mon pain ne serait-il pas bon ? Ce n'est que de l'orge et de l'
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Honey
 #. Bread Bakery
-#: ../../data/tribes/initialization/frisians/units.lua:1847
+#: ../../data/tribes/initialization/frisians/units.lua:1870
 msgctxt "frisians_building"
 msgid "A trainer in conversation with a baker"
 msgstr "De plus, construisez un puits - personne n'aime boire de l'eau salée, et ce n'est pas bon pour faire de l'argile."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Brewery
-#: ../../data/tribes/initialization/frisians/units.lua:1856
+#: ../../data/tribes/initialization/frisians/units.lua:1879
 msgctxt "frisians_building"
 msgid ""
 "I know no single master miner who’ll ever work without a nice pint of beer!"
@@ -453,21 +467,21 @@ msgstr "Je ne connais pas un seul maître mineur qui ne travaillera pas sans une
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Tavern
-#: ../../data/tribes/initialization/frisians/units.lua:1880
+#: ../../data/tribes/initialization/frisians/units.lua:1903
 msgctxt "frisians_building"
 msgid "Nothing but fruit all day… Couldn’t you hurry up a bit?"
 msgstr "Rien que des fruits toute la journée.... Tu ne peux pas te dépêcher un peu ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Tavern
-#: ../../data/tribes/initialization/frisians/units.lua:1882
+#: ../../data/tribes/initialization/frisians/units.lua:1905
 msgctxt "frisians_building"
 msgid "Hungry customers in times of a shortage of smoked fish and meat"
 msgstr "Des clients affamés en période de pénurie de poisson et de viande fumée."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Barracks
-#: ../../data/tribes/initialization/frisians/units.lua:1904
+#: ../../data/tribes/initialization/frisians/units.lua:1927
 msgctxt "frisians_building"
 msgid ""
 "You have thirty seconds to learn the basics of swordfighting and how to stay"
@@ -479,21 +493,21 @@ msgstr "Vous avez trente secondes pour apprendre les bases du combat à l'épée
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Barracks
-#: ../../data/tribes/initialization/frisians/units.lua:1906
+#: ../../data/tribes/initialization/frisians/units.lua:1929
 msgctxt "frisians_building"
 msgid "A trainer greeting the new recruits"
 msgstr "Un formateur accueillant les nouvelles recrues."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a frisian production site: Barracks
-#: ../../data/tribes/initialization/frisians/units.lua:1908
+#: ../../data/tribes/initialization/frisians/units.lua:1931
 msgctxt "frisians_building"
 msgid "Equips recruits and trains them as soldiers."
 msgstr "Équipe les recrues et les forme en soldats"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Reindeer Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1919
+#: ../../data/tribes/initialization/frisians/units.lua:1942
 msgctxt "frisians_building"
 msgid ""
 "Who says a beast of burden cannot be useful for other things than transport?"
@@ -502,7 +516,7 @@ msgstr "Qui dit qu'une bête de somme ne peut pas être utile pour autres choses
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Reindeer
 #. Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1921
+#: ../../data/tribes/initialization/frisians/units.lua:1944
 msgctxt "frisians_building"
 msgid ""
 "The reindeer breeder who first proposed using reindeer fur for clothing"
@@ -510,7 +524,7 @@ msgstr "L'éleveur de rennes a été le premier à proposer l'utilisation de la 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Shipyard
-#: ../../data/tribes/initialization/frisians/units.lua:2114
+#: ../../data/tribes/initialization/frisians/units.lua:2137
 msgctxt "frisians_building"
 msgid ""
 "This house may be called a shipyard, but my ships are rather longer than one"
@@ -519,7 +533,7 @@ msgstr "Cette bâtisse s'appelle peut-être un chantier naval, mais mes navires 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Shipyard
-#: ../../data/tribes/initialization/frisians/units.lua:2116
+#: ../../data/tribes/initialization/frisians/units.lua:2139
 msgctxt "frisians_building"
 msgid ""
 "A shipwright who only constructed toy ships after being chid that his ships "
@@ -528,7 +542,7 @@ msgstr "Un ouvrier de chantier naval qui n'a construit des navires-jouets qu'apr
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Weaving Mill
-#: ../../data/tribes/initialization/frisians/units.lua:2125
+#: ../../data/tribes/initialization/frisians/units.lua:2148
 msgctxt "frisians_building"
 msgid ""
 "Reindeer’s fur and roofing reed<br>These items two make up the seed<br>For "
@@ -641,11 +655,13 @@ msgid "Cumulative cost:"
 msgstr "Coût cumulatif :"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the helptext for an access key combination.
 #: ../../data/tribes/scripting/help/controls.lua:138
 msgid "Show ships shipping wares and workers"
 msgstr "Afficher les navires transportant des marchandises et des ouvriers."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the helptext for an access key combination.
 #: ../../data/tribes/scripting/help/controls.lua:144
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Afficher les expéditions qui ont trouvé un espace portuaire ou qui fondent une colonie."

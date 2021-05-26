@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-07-23 07:48+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-21 13:12+0000\n"
+"PO-Revision-Date: 2021-03-02 12:22+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Arabic (http://www.transifex.com/widelands/widelands/language/"
 "ar/)\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/artifacts.lua:15
@@ -55,35 +55,35 @@ msgstr "فريقك وَجَد آثار جديدة."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible.
-#: ../../data/scripting/win_conditions/artifacts.lua:88
+#: ../../data/scripting/win_conditions/artifacts.lua:89
 msgid "Artifact Lost"
 msgstr "أثار فُقِدت"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:89
+#: ../../data/scripting/win_conditions/artifacts.lua:90
 msgid "One of your team’s artifacts was stolen by an enemy."
 msgstr "واحد من آثار فريقك سُرق من قِبل الأعداء."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible.
-#: ../../data/scripting/win_conditions/artifacts.lua:93
+#: ../../data/scripting/win_conditions/artifacts.lua:95
 msgid "Artifact Conquered"
 msgstr "آثار أُحتُلت"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:94
+#: ../../data/scripting/win_conditions/artifacts.lua:96
 msgid "Your team stole an artifact from an enemy."
 msgstr "فريقك سَرق آثار من الأعداء."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:177
+#: ../../data/scripting/win_conditions/artifacts.lua:180
 msgid "Overview:"
 msgstr "نظرة عامة:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %1$i is the team's number; %2$s is a list of team members
 #. (e.g. "Steve, Robert, David"), %3$s is something like "x artifact(s)"
-#: ../../data/scripting/win_conditions/artifacts.lua:195
+#: ../../data/scripting/win_conditions/artifacts.lua:198
 msgid "Team %1$i (%2$s) owns %3$s."
 msgstr "فريق %1$i (%2$s) يَمُلك %3$s."
 
@@ -105,13 +105,13 @@ msgid "Points"
 msgstr "نقاط"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:154
+#: ../../data/scripting/win_conditions/collectors.lua:65
 #, lua-format
 msgid "Status for %s"
 msgstr "الوضع لــ %s"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:171
+#: ../../data/scripting/win_conditions/collectors.lua:81
 #, lua-format
 msgid "Total: %i point"
 msgid_plural "Total: %i points"
@@ -123,13 +123,13 @@ msgstr[4] "المجموع: %i نقاط"
 msgstr[5] "المجموع: %i نقاط"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:193
+#: ../../data/scripting/win_conditions/collectors.lua:104
 #, lua-format
 msgid "Status for Team %d"
 msgstr "وضع الفريق  %d"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:195
+#: ../../data/scripting/win_conditions/collectors.lua:106
 #, lua-format
 msgid "Team Total: %i point"
 msgid_plural "Team Total: %i points"
@@ -146,43 +146,38 @@ msgid "Autocrat"
 msgstr "حَاكم مُطلق"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/defeat_all.lua:17
-msgid "The tribe or team that can defeat all others wins the game!"
-msgstr "القبيلة أو الفريق الذى يمكنة هزيمة كل الآخرين يفوز باللعبة!"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/endless_game.lua:15
+#: ../../data/scripting/win_conditions/endless_game.lua:14
 msgid "Endless Game"
 msgstr "لعبة لانهائية"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/endless_game.lua:17
+#: ../../data/scripting/win_conditions/endless_game.lua:16
 msgid "This is an endless game without rules."
 msgstr "هذه لعبة لانهائية من غير قواعد."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/endless_game_fogless.lua:15
+#: ../../data/scripting/win_conditions/endless_game_fogless.lua:14
 msgid "Endless Game (no fog)"
 msgstr "لعبة لانهائية (لا ضباب)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/endless_game_fogless.lua:16
+#: ../../data/scripting/win_conditions/endless_game_fogless.lua:15
 msgid "This is an endless game without rules. Fog of war is disabled."
 msgstr "هذه لعبة لانهائية من غير قواعد. ضباب الحرب معطل."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:13
+#: ../../data/scripting/win_conditions/territorial_functions.lua:21
 #, lua-format
 msgid "Team %i"
 msgstr "فريق %i"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:220
+#: ../../data/scripting/win_conditions/territorial_functions.lua:235
 msgid "You own more than half of the map’s area."
 msgstr "انت تملك أكثر من نصف مساحة الخريطة."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:221
+#: ../../data/scripting/win_conditions/territorial_functions.lua:236
 #, lua-format
 msgid "Keep it for %i more minute to win the game."
 msgid_plural "Keep it for %i more minutes to win the game."
@@ -194,7 +189,7 @@ msgstr[4] "أحتفظ بها لمدة %i دقائق إضافية لكي تفوز
 msgstr[5] "أحتفظ بها لمدة %i دقائق إضافية لكي تفوز باللعبة."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:249
+#: ../../data/scripting/win_conditions/territorial_functions.lua:265
 #, lua-format
 msgid "You’ve still got %i minute to prevent a victory."
 msgid_plural "You’ve still got %i minutes to prevent a victory."
@@ -217,61 +212,61 @@ msgstr "الوقت الإقليمي"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Context: 'The game will end in (2 hours and) 30 minutes.'
-#: ../../data/scripting/win_conditions/win_condition_functions.lua:311
+#: ../../data/scripting/win_conditions/win_condition_functions.lua:372
 #, lua-format
 msgid "The game will end in %s."
 msgstr "اللعبة سوف تنتهي في %s."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:4
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:33
 msgid "Congratulations!"
 msgstr "تهانينا!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:5
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:34
 msgid "You have won this game!"
 msgstr "لقد فزت فى اللعبة!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:9
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:45
 msgid "You are defeated!"
 msgstr "لقد هُزمت!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:10
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:46
 msgid ""
 "You lost your last warehouse and are therefore defeated. You may continue as"
 " spectator if you want."
 msgstr "لقد خَسرت مخزنك الأخير وقبل أن تُهزم. يُمكنك الإكمال كمشاهد إذا أردت."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:14
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:57
 msgid "You won"
 msgstr "لقد فزت"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:15
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:58
 msgid "You are the winner!"
 msgstr "انت الفائز!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:19
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:69
 msgid "You lost"
 msgstr "لقد خسرت"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:20
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:70
 msgid "You’ve lost this game!"
 msgstr "لقد خسرت اللعبة!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:24
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:81
 msgid "Status"
 msgstr "الوضع"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an overview for all players.
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:26
+#: ../../data/scripting/win_conditions/win_condition_texts.lua:83
 msgid "Player overview:"
 msgstr "نظرة عامة للاعب:"
 
@@ -295,6 +290,6 @@ msgstr "شجرة أصبحت ملكك"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:91
+#: ../../data/scripting/win_conditions/wood_gnome.lua:94
 msgid "The winner is %1$s with %2$s."
 msgstr "الفائز هو %1$s مع %2$s."

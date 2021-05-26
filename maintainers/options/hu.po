@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-23 07:56+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"PO-Revision-Date: 2021-03-25 12:49+0000\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,20 +12,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) options: Missing or translated option '--<config-entry-name>'
-#: ../../src/wlapplication_messages.cc:44
+#: ../../src/wlapplication_messages.cc:45
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<beállítás-neve>=érték felülírja bármelyik beállítást a beállítási fájlból"
 
+# (pofilter) options: Consider translating parameter 'DIRNAME' of option '--localedir'
+#: ../../src/wlapplication_messages.cc:59
+msgid ""
+" --localedir=DIRNAME  Use specified directory for the widelands\n"
+"                      locale files"
+msgstr " --localedir=DIRNAME  A megadott könyvtár használata a  widelands\n                      nyelvi fájlokhoz"
+
 # (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
-#: ../../src/wlapplication_messages.cc:138
+#: ../../src/wlapplication_messages.cc:150
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr " --maxfps=[5 …]     A játék legmagasabb képfrissítési sebessége."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:147
+#: ../../src/wlapplication_messages.cc:159
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -34,7 +41,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                      Az ablak ragadjon a képernyő széléhez,\n                      ha az ablak széle ilyen távolságon belülre\n                      kerül a képernyő széléhez képest."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:160
+#: ../../src/wlapplication_messages.cc:172
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

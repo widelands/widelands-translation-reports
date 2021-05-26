@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1134
+#: ../../data/tribes/initialization/barbarians/units.lua:1149
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -27,7 +27,7 @@ msgstr "'Fäll ett träd med 200 hugg och du är en bebis. Fäll det med 100 hug
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Ranger's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1150
+#: ../../data/tribes/initialization/barbarians/units.lua:1165
 msgctxt "barbarians_building"
 msgid ""
 "‘He who can grow two trees where normally only one will grow exceeds the "
@@ -36,14 +36,14 @@ msgstr "'Han som kan få två träd att växa där normalt bara ett träd kan le
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1165
+#: ../../data/tribes/initialization/barbarians/units.lua:1180
 msgctxt "barbarians_building"
 msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "'Vad menar du, är inte min fisk färsk?!'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1180
+#: ../../data/tribes/initialization/barbarians/units.lua:1195
 msgctxt "barbarians_building"
 msgid ""
 "‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
@@ -53,14 +53,14 @@ msgstr "'Tyst som en panter,\nkvick som en vessla,\nsnabb som en pil,\ndödlig s
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Hunter's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1182
+#: ../../data/tribes/initialization/barbarians/units.lua:1197
 msgctxt "barbarians_building"
 msgid "‘The Art of Hunting’"
 msgstr "'Jaktens konst'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1208
+#: ../../data/tribes/initialization/barbarians/units.lua:1223
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -69,21 +69,21 @@ msgstr "'Åh så ljuv är livets källa,\nkommen utifrån himlens sky\nför att 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Reed Yard
-#: ../../data/tribes/initialization/barbarians/units.lua:1246
+#: ../../data/tribes/initialization/barbarians/units.lua:1262
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "'Vi odlar tak'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1261
+#: ../../data/tribes/initialization/barbarians/units.lua:1277
 msgctxt "barbarians_building"
 msgid "‘Forming new stone from old with fire and water.’"
 msgstr "'Formar ny sten av gammal, med eld och vatten.'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Micro Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1289
+#: ../../data/tribes/initialization/barbarians/units.lua:1305
 msgctxt "barbarians_building"
 msgid ""
 "‘Let the first one drive away the hunger, the second one put you at ease; "
@@ -92,7 +92,7 @@ msgstr "'Låt den första jaga iväg hungern och den andra få dig avslappnad. N
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1379
+#: ../../data/tribes/initialization/barbarians/units.lua:1395
 msgctxt "barbarians_building"
 msgid "‘We make it work!’"
 msgstr "'Vi får det att fungera!'"
@@ -100,8 +100,8 @@ msgstr "'Vi får det att fungera!'"
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
 #. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1394
-#: ../../data/tribes/initialization/barbarians/units.lua:1413
+#: ../../data/tribes/initialization/barbarians/units.lua:1410
+#: ../../data/tribes/initialization/barbarians/units.lua:1429
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -110,7 +110,7 @@ msgstr "'En ny krigaryxa frambringar det bästa i den som bemästrar den – ell
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1485
+#: ../../data/tribes/initialization/barbarians/units.lua:1501
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "'Jag kan hantera ton av granit, men inte mer av ditt fåfänga pladder.'"
@@ -120,9 +120,9 @@ msgstr "'Jag kan hantera ton av granit, men inte mer av ditt fåfänga pladder.'
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deep Iron Mine
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Iron
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1551
-#: ../../data/tribes/initialization/barbarians/units.lua:1564
-#: ../../data/tribes/initialization/barbarians/units.lua:1577
+#: ../../data/tribes/initialization/barbarians/units.lua:1567
+#: ../../data/tribes/initialization/barbarians/units.lua:1580
+#: ../../data/tribes/initialization/barbarians/units.lua:1593
 msgctxt "barbarians_building"
 msgid ""
 "‘I look at my own pick wearing away day by day and I realize why my work is "
@@ -134,9 +134,9 @@ msgstr "'Jag ser på min hacka som nöts mer och mer för varje dag som går och
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deep Gold Mine
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Gold
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1590
-#: ../../data/tribes/initialization/barbarians/units.lua:1603
-#: ../../data/tribes/initialization/barbarians/units.lua:1616
+#: ../../data/tribes/initialization/barbarians/units.lua:1606
+#: ../../data/tribes/initialization/barbarians/units.lua:1619
+#: ../../data/tribes/initialization/barbarians/units.lua:1632
 msgctxt "barbarians_building"
 msgid ""
 "‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
@@ -145,7 +145,7 @@ msgstr "'Mjuk och smidig.\nÄndå oberörd av tid och väder.\nAv solens stråla
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1631
+#: ../../data/tribes/initialization/barbarians/units.lua:1647
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
@@ -154,7 +154,7 @@ msgstr "'Du har ingen bättre vän i strid än fiendens slag som missar.'"
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1638
+#: ../../data/tribes/initialization/barbarians/units.lua:1654
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -163,7 +163,7 @@ msgstr "'Undvika' ökar soldatens chans att inte träffas av fienden och därmed
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1650
+#: ../../data/tribes/initialization/barbarians/units.lua:1666
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -174,8 +174,8 @@ msgstr "'Han som är stark ska varken förlåta eller glömma, utan hämnas alla
 #. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
 #. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
 #. 2
-#: ../../data/tribes/initialization/empire/units.lua:1430
-#: ../../data/tribes/initialization/empire/units.lua:1443
+#: ../../data/tribes/initialization/empire/units.lua:1446
+#: ../../data/tribes/initialization/empire/units.lua:1459
 msgctxt "empire_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -209,157 +209,8 @@ msgstr "'Shift' + klicka"
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: This is an access key combination. Localize, but do not change
 #. the key.
-#: ../../data/tribes/scripting/help/controls.lua:30
-msgctxt "hotkey"
-msgid "Ctrl + A"
-msgstr "'Ctrl' + 'A'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
 #: ../../data/tribes/scripting/help/controls.lua:35
 #: ../../data/tribes/scripting/help/controls.lua:37
 msgctxt "hotkey"
 msgid "Ctrl + Left-click"
 msgstr "'Ctrl' + vänsterklicka"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:42
-msgctxt "hotkey"
-msgid "Page Up"
-msgstr "'pgup'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:44
-msgctxt "hotkey"
-msgid "Page Down"
-msgstr "'pgdn'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:54
-msgctxt "hotkey"
-msgid "Pause"
-msgstr "'pause'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:88
-msgctxt "hotkey"
-msgid "Home"
-msgstr "'home'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:90
-msgctxt "hotkey"
-msgid "Ctrl + 1-9"
-msgstr "'Ctrl' + '(1-9)'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../data/tribes/scripting/help/controls.lua:91
-msgctxt "hotkey"
-msgid "1-9"
-msgstr "'1'-'9'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:97
-msgctxt "hotkey"
-msgid "Ctrl + +"
-msgstr "'Ctrl' + '+'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:99
-msgctxt "hotkey"
-msgid "Ctrl + -"
-msgstr "'Ctrl' +  ' - '"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:101
-msgctxt "hotkey"
-msgid "Ctrl + 0"
-msgstr "'Ctrl' + '0'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:103
-msgctxt "hotkey"
-msgid "Ctrl + F11"
-msgstr "'Ctrl' + 'F11'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:106
-msgctxt "hotkey"
-msgid "F6"
-msgstr "'F6'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:113
-#: ../../data/tribes/scripting/help/controls.lua:134
-msgctxt "hotkey"
-msgid "Alt + 0"
-msgstr "'Alt' + '0'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:115
-#: ../../data/tribes/scripting/help/controls.lua:136
-msgctxt "hotkey"
-msgid "Alt + 1"
-msgstr "'Alt' + '1'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:117
-#: ../../data/tribes/scripting/help/controls.lua:138
-msgctxt "hotkey"
-msgid "Alt + 2"
-msgstr "'Alt' + '2'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:119
-#: ../../data/tribes/scripting/help/controls.lua:140
-msgctxt "hotkey"
-msgid "Alt + 3"
-msgstr "'Alt' + '3'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:121
-#: ../../data/tribes/scripting/help/controls.lua:142
-msgctxt "hotkey"
-msgid "Alt + 4"
-msgstr "'Alt' + '4'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:123
-#: ../../data/tribes/scripting/help/controls.lua:144
-msgctxt "hotkey"
-msgid "Alt + 5"
-msgstr "'Alt' + '5'"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:127
-msgctxt "hotkey"
-msgid "Delete"
-msgstr "'delete'"

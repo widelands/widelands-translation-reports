@@ -2,21 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Romanian (http://www.transifex.com/widelands/widelands/"
 "language/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; "
-"plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n"
+"%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:453
+#: ../../src/editor/editorinteractive.cc:476 ../../src/wlapplication.cc:686
 #, c-format
 msgid ""
 "Widelands could not load the file \"%s\". The file format seems to be "
@@ -42,23 +42,23 @@ msgid "Creating empty map…"
 msgstr "Construire hartă goală..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:147
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:142
 msgid "Land:"
 msgstr "Teren"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:155
 msgid "Wasteland:"
 msgstr "Teren necultivat"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "Construiește hartă aleatoare..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:364
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:310
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:365
 msgid "Error Saving Map!"
 msgstr "Eroare la salvarea hărții"
 
@@ -72,7 +72,7 @@ msgid ""
 msgstr "Dă click pe hartă pentru a seta înălțimea terenului la o valoare aleatoare dintr-o plajă specifică."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1827
+#: ../../src/logic/map_objects/tribes/production_program.cc:1834
 msgid "No soldier found for this training level!"
 msgstr "Nu a fost găsit nici un soldat pentru acest nivel de antrenare"
 
@@ -88,12 +88,12 @@ msgstr "O navă de expediție a navigat în jurul insulei fără nici un eventim
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:620
 msgid "Land Ahoy!"
 msgstr "Țărm la orizont"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:857
+#: ../../src/logic/map_objects/tribes/ship.cc:853
 msgid "An expedition ship is waiting for your commands."
 msgstr "O navă de expediție îți așteaptă comenzile"
 
@@ -113,11 +113,11 @@ msgid "A new warehouse was added to your economy."
 msgstr "Un nou depozit a fost adăugat economiei tale"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "Încărcare hartă..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "Încărcare"

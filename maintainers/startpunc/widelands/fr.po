@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-05 08:44+0000\n"
+"Last-Translator: Atanase Albaran\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,13 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1325
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -29,9 +29,22 @@ msgstr[1] "%s Produit"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "recruté %s"
 msgstr[1] "%s recruté"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "Module complémentaire %u inadéquat détecté:\n"
+msgstr[1] "Modules complémentaires %u inadéquats détecté:\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/gameclient.cc:903
+msgid "/me ’s file failed md5 checksumming."
+msgstr "Le contrôle de la somme md5 du fichier /me a échoué."

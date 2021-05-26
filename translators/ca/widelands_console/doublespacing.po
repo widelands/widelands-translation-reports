@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-23 18:37+0000\n"
+"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"PO-Revision-Date: 2021-05-25 19:57+0000\n"
 "Last-Translator: Juanjo\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
@@ -12,31 +12,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:50
+#: ../../src/wlapplication_messages.cc:51
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
-msgstr " --homedir=DIRNAME    Usa el directori indicat per desar\n                      fitxers del Widelands de configuració,\n                      partides desades i repeticions"
+msgstr " --homedir=DIRNAME    Usa la carpeta indicada per desar\n                      fitxers del Widelands de configuració,\n                      partides desades i repeticions"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:58
+#: ../../src/wlapplication_messages.cc:59
 msgid ""
 " --localedir=DIRNAME  Use specified directory for the widelands\n"
 "                      locale files"
-msgstr " --dirlocal=DIRNAME    Usa el directori indicat per als fitxers\n                      locals del Widelands"
+msgstr " --dirlocal=DIRNAME    Usa la carpeta indicada per als fitxers\n                      locals del Widelands"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:82
+#: ../../src/wlapplication_messages.cc:83
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr " --rolling_autosave=[…]\n                      Usa aquests fitxers per a les partides\n                      desades automàticament"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:102
+#: ../../src/wlapplication_messages.cc:107
 msgid ""
 " --ai_training        Enables AI training mode. See\n"
 "                      https://www.widelands.org/wiki/Ai%20Training/\n"
@@ -44,26 +44,26 @@ msgid ""
 msgstr " --ai_training        Activa el mode entrenament de la IA. Vegeu\n                      https://www.widelands.org/wiki/Ai%20Training/\n                      per una explicació completa de la lògica\n                      d'entrenament de la IA."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:115
+#: ../../src/wlapplication_messages.cc:127
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr " --script=ARXSCRIPT    Executa l'script Lua donat\n                      després de l'inici. Només vàlid amb\n                      --scenario, --loadgame o --editor."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:156
 msgid ""
 " --animate_map_panning=[yes|no]\n"
 "                      Should automatic map movements be animated."
 msgstr "--animate_map_panning=[yes|no]\nAnima els moviments automàtics del mapa."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:171
+#: ../../src/wlapplication_messages.cc:183
 msgid " --verbose            Enable verbose debug messages"
 msgstr " --verbose            Habilita els missatges de\n                      depuració descriptius"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:173
+#: ../../src/wlapplication_messages.cc:192
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"

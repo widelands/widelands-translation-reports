@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-07 09:03+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,13 +12,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/graphic/gl/initialize.cc:310
+msgid "Shading Language"
+msgstr "lenguaje de sombreado"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+#: ../../src/logic/addons.cc:197
+#, c-format
+msgid "%u missing add-on"
+msgid_plural "%u missing add-ons"
+msgstr[0] "Falta %u complemento"
+msgstr[1] "Faltan %u complementos"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -27,7 +40,7 @@ msgstr[1] "%s reclutados"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Placeholders are the copyright years
-#: ../../src/ui_fsmenu/main.cc:393
+#: ../../src/ui_fsmenu/main.cc:463
 msgid ""
 "(C) %1%-%2% by the Widelands Development Team · Licensed under the GNU "
 "General Public License V2.0"

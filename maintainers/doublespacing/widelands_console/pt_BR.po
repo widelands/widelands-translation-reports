@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-23 07:56+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-22 20:16+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
 "widelands/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -12,17 +12,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:47
+#: ../../src/wlapplication_messages.cc:48
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAME Usa diretório específico para o Widelands\n                      arquivo de dados"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:50
+#: ../../src/wlapplication_messages.cc:51
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
@@ -38,29 +38,29 @@ msgstr " --homedir=DIRNAME Usa diretório específico para configuração de Wid
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:78
+#: ../../src/wlapplication_messages.cc:79
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr "--write_syncstreams=[true|false]\nCria arquivos syncstream dump para ajudar a depurar jogos em rede."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:81
+#: ../../src/wlapplication_messages.cc:82
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr " --autosave=[...] Automaticamente salva o jogo a cada n minutos"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:92
+#: ../../src/wlapplication_messages.cc:97
 msgid " --nosound            Starts the game with sound disabled."
 msgstr " --nosound Inicia o jogo com o som desativado."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:96
+#: ../../src/wlapplication_messages.cc:101
 msgid " --nozip              Do not save files as binary zip archives."
 msgstr " --nozip Não salva arquivos como binários zipados."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:98
+#: ../../src/wlapplication_messages.cc:103
 msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"
@@ -68,40 +68,40 @@ msgid ""
 msgstr " --editor Inicia diretamento o editor de Widelands.\n                      Você pode adicionar um =FILENAME para carregar diretamente\n                      o mapa FILENAME no editor."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:111
+#: ../../src/wlapplication_messages.cc:122
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=FILENAME Diretamente inicia o mapa FILENAME como mapa\n                      de cenário."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:114
+#: ../../src/wlapplication_messages.cc:125
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=FILENAME Diretamente carrega o jogo salvo FILENAME."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:115
+#: ../../src/wlapplication_messages.cc:127
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr " --script=FILENAME Carrega o Lua script dado depois da inicialização.\n                      Só é válido com --scenario, --loadgame, ou --editor."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:136
+#: ../../src/wlapplication_messages.cc:148
 msgid " --xres=[...]         Width of the window in pixel."
 msgstr " --xres=[...] Largura da janela em pixel."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:137
+#: ../../src/wlapplication_messages.cc:149
 msgid " --yres=[...]         Height of the window in pixel."
 msgstr " --yres=[...] Altura da janela em pixel."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:171
+#: ../../src/wlapplication_messages.cc:183
 msgid " --verbose            Enable verbose debug messages"
 msgstr " --verbose Ativa mensagens de depuração detalhadas"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:172
+#: ../../src/wlapplication_messages.cc:184
 msgid " --help               Show this help"
 msgstr " --help Mostra esta ajuda"

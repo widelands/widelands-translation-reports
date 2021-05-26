@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Danish (http://www.transifex.com/widelands/widelands/language/"
 "da/)\n"
 "Language: da\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:977
+#: ../../src/editor/editorinteractive.cc:920
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Indlæser kort »%s« ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1027
+#: ../../src/editor/editorinteractive.cc:971
 msgid "Loading world…"
 msgstr "Indlæser verden ..."
 
@@ -33,13 +33,18 @@ msgid "Current: %s …"
 msgstr "Aktuel: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:77
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:80
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:248
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:61
 #: ../../src/editor/ui_menus/player_menu.cc:78
-#: ../../src/ui_basic/messagebox.cc:99 ../../src/ui_fsmenu/helpwindow.cc:57
-#: ../../src/ui_fsmenu/menu.cc:153 ../../src/ui_fsmenu/options.cc:92
-#: ../../src/ui_fsmenu/training_wheel_options.cc:152
+#: ../../src/ui_basic/color_chooser.cc:262
+#: ../../src/ui_basic/messagebox.cc:102 ../../src/ui_basic/text_prompt.cc:47
+#: ../../src/ui_fsmenu/addons.cc:202 ../../src/ui_fsmenu/addons.cc:1656
+#: ../../src/ui_fsmenu/addons_packager.cc:109
+#: ../../src/ui_fsmenu/helpwindow.cc:57
+#: ../../src/ui_fsmenu/keyboard_options.cc:132 ../../src/ui_fsmenu/menu.cc:145
+#: ../../src/ui_fsmenu/options.cc:96
+#: ../../src/ui_fsmenu/training_wheel_options.cc:155
 #: ../../src/wui/game_main_menu_save_game.cc:85
 #: ../../src/wui/story_message_box.cc:47
 msgid "OK"
@@ -51,7 +56,7 @@ msgid "Creating empty map…"
 msgstr "Opretter tomt kort..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "Danner tilfældigt kort..."
 
@@ -61,29 +66,29 @@ msgid "Autosaving game…"
 msgstr "Gemmer automatisk spil ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:230 ../../src/logic/game.cc:277
-#: ../../src/logic/game.cc:367 ../../src/logic/game.cc:412
+#: ../../src/logic/game.cc:281 ../../src/logic/game.cc:328
+#: ../../src/logic/game.cc:423 ../../src/logic/game.cc:478
 msgid "Preloading map…"
 msgstr "Forudindlæser kort ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:325
+#: ../../src/logic/game.cc:377
 msgid "Initializing game…"
 msgstr "Starter spil ..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:528
+#: ../../src/logic/game.cc:628
 msgid "Creating player infrastructure…"
 msgstr "Opretter spillerinfrastruktur ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:999
+#: ../../src/logic/game.cc:1117
 msgid "This market has received a new trade offer."
 msgstr "Dette marked har modtaget et nyt handelstilbud"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
+#: ../../src/logic/save_handler.cc:131
 msgid "Saving game…"
 msgstr "Gemmer spillet ..."
 
@@ -93,25 +98,17 @@ msgid "Autosaving map…"
 msgstr "Gemmer automatisk kort ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "Indlæser kort..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "Indlæser..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:224
-#, c-format
-msgid ""
-"Unable to determine valid win conditions because the map '%s' could not be "
-"loaded."
-msgstr "Kunne ikke bestemme gyldige betingelser for sejr da kortet »%s« ikke kunne indlæses"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:203
+#: ../../src/ui_fsmenu/login_box.cc:208
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
@@ -119,7 +116,7 @@ msgstr "Indtast et gyldigt navn. Denne værdi må kun indeholde engelske bogstav
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:132
+#: ../../src/ui_fsmenu/scenario_select.cc:135
 msgid "#"
 msgstr "Nr."
 
@@ -136,12 +133,12 @@ msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Send færre soldater. Hold Ctrl nede for ikke at sende soldater."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:114
+#: ../../src/wui/productionsitewindow.cc:115
 msgid "Exp"
 msgstr "Erf."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:571
+#: ../../src/wui/seafaring_statistics_menu.cc:527
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Vis ekspeditioner der har fundet en havneplads eller grundlægger en koloni."

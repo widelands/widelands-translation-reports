@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Short for "Not enough space"
-#: ../../data/scripting/infrastructure.lua:173
+#: ../../data/scripting/infrastructure.lua:187
 msgid "No Space"
 msgstr "공간 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:174
+#: ../../data/scripting/infrastructure.lua:188
 msgid ""
 "Some of your starting buildings didn’t have enough room and weren’t built. "
 "You are at a disadvantage with this; consider restarting this map with a "
@@ -29,47 +29,47 @@ msgid ""
 msgstr "몇 가지 시작 건물이 공간 부족으로 건설되지 않았습니다. 불이익이 있을 것입니다; 이 지도를 공정한 시작 조건으로 다시 시작하기를 고려해 보십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:175
+#: ../../data/scripting/infrastructure.lua:189
 msgid "Not enough space"
 msgstr "충분하지 않은 공간"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:247
+#: ../../data/scripting/infrastructure.lua:281
 msgid "No rocks nearby"
 msgstr "근처에 바위가 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:247
+#: ../../data/scripting/infrastructure.lua:281
 msgid ""
 "There are no rocks near to your starting position. Therefore, you receive "
 "extra resources for bootstrapping your economy."
 msgstr "시작 위치에 가까운 바위가 없습니다. 따라서 경제 성장을 위한 추가 자원을 받게 됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:252
+#: ../../data/scripting/infrastructure.lua:286
 msgid "No trees nearby"
 msgstr "근처에 나무가 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:252
+#: ../../data/scripting/infrastructure.lua:286
 msgid ""
 "There are no trees near to your starting position. Therefore, you receive "
 "extra resources for bootstrapping your economy."
 msgstr "당신의 출발 위치 근처에 나무가 없습니다. 따라서 경제 성장하는데 필요한 추가 자원이 제공됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/messages.lua:53 ../../data/scripting/messages.lua:55
-#: ../../src/wui/game_message_menu.cc:71 ../../src/wui/game_summary.cc:114
+#: ../../data/scripting/messages.lua:66 ../../data/scripting/messages.lua:68
+#: ../../src/wui/game_message_menu.cc:72 ../../src/wui/game_summary.cc:114
 msgid "Status"
 msgstr "상태"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/messages.lua:227
+#: ../../data/scripting/messages.lua:254
 msgid "New Objective"
 msgstr "새로운 목표"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/messages.lua:229
+#: ../../data/scripting/messages.lua:256
 msgid "New Objectives"
 msgstr "새로운 목표들"
 
@@ -92,215 +92,220 @@ msgid "Very Weak AI"
 msgstr "매우 약한 AI"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Title for the main menu button in the editor
 #. * TRANSLATORS: Title for the main menu button in the game
-#: ../../src/editor/editorinteractive.cc:85
-#: ../../src/wui/interactive_gamebase.cc:86
+#. * TRANSLATORS: Title for the main menu button in the editor
+#: ../../src/editor/editorinteractive.cc:92
+#: ../../src/ui_fsmenu/keyboard_options.cc:184
+#: ../../src/wui/interactive_gamebase.cc:89
 msgid "Main Menu"
 msgstr "주 메뉴"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the tool menu button in the editor
-#: ../../src/editor/editorinteractive.cc:99
+#: ../../src/editor/editorinteractive.cc:107
+#: ../../src/wlapplication_options.cc:355
 msgid "Tools"
 msgstr "도구"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Title for a menu button in the editor. This menu will
-#. show/hide
-#. building spaces, animals, immovables, resources
 #. * TRANSLATORS: Title for a menu button in the game. This menu will
 #. show/hide
 #. building spaces, census, statistics
-#: ../../src/editor/editorinteractive.cc:112
-#: ../../src/wui/interactive_gamebase.cc:73
+#. * TRANSLATORS: Title for a menu button in the editor. This menu will
+#. show/hide
+#. building spaces, animals, immovables, resources
+#: ../../src/editor/editorinteractive.cc:122
+#: ../../src/wui/interactive_gamebase.cc:76
 msgid "Show / Hide"
 msgstr "표시 / 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:125
+#: ../../src/editor/editorinteractive.cc:135
 msgid "Tool size"
 msgstr "도구 크기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:137
+#: ../../src/editor/editorinteractive.cc:150
+#: ../../src/wlapplication_options.cc:347
 msgid "Undo"
 msgstr "되돌리기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:138
+#: ../../src/editor/editorinteractive.cc:154
+#: ../../src/wlapplication_options.cc:351
 msgid "Redo"
 msgstr "재실행하기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:147
-#: ../../src/wui/buildingwindow.cc:403 ../../src/wui/interactive_player.cc:208
+#: ../../src/editor/editorinteractive.cc:165
+#: ../../src/wui/buildingwindow.cc:413 ../../src/wui/interactive_player.cc:224
 msgid "Help"
 msgstr "도움말"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:170
+#: ../../src/editor/editorinteractive.cc:190
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:41
-#: ../../src/ui_fsmenu/main.cc:311
+#: ../../src/ui_fsmenu/main.cc:372
 msgid "New Map"
 msgstr "새로운 지도"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:181
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:49
+#: ../../src/editor/editorinteractive.cc:198
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:738
 msgid "New Random Map"
 msgstr "새로운 무작위 지도"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:188
+#: ../../src/editor/editorinteractive.cc:205
 #: ../../src/editor/ui_menus/main_menu_load_map.cc:33
-#: ../../src/ui_fsmenu/main.cc:315
+#: ../../src/ui_fsmenu/main.cc:377 ../../src/wlapplication_options.cc:343
 msgid "Load Map"
 msgstr "지도 불러오기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:196
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:51
+#: ../../src/editor/editorinteractive.cc:213
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:52
+#: ../../src/wlapplication_options.cc:339
 msgid "Save Map"
 msgstr "지도 저장"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:204
+#: ../../src/editor/editorinteractive.cc:221
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:225
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:60
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:61
 msgid "Map Options"
 msgstr "지도 선택사항"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:208
+#: ../../src/editor/editorinteractive.cc:225
 msgid "Exit Editor"
 msgstr "편집기 종료"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:244
+#: ../../src/editor/editorinteractive.cc:261
 msgid "Change height"
 msgstr "높이 변화"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the change height tool in the editor
-#: ../../src/editor/editorinteractive.cc:247
+#: ../../src/editor/editorinteractive.cc:264
 msgid "Change the terrain height"
 msgstr "지형 높이 바꾸기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:253
+#: ../../src/editor/editorinteractive.cc:270
 #: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:87
 msgid "Random height"
 msgstr "무작위 높이"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the random height tool in the editor
-#: ../../src/editor/editorinteractive.cc:256
+#: ../../src/editor/editorinteractive.cc:273
 msgid "Set the terrain height to random values"
 msgstr "지형 높이를 아무런 값으로 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:262
+#: ../../src/editor/editorinteractive.cc:279
 #: ../../src/editor/tools/info_tool.cc:112
 #: ../../src/editor/ui_menus/tool_set_terrain_options_menu.cc:92
-#: ../../src/wui/minimap.cc:148
+#: ../../src/wui/minimap.cc:151
 msgid "Terrain"
 msgstr "지형"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the terrain tool in the editor
-#: ../../src/editor/editorinteractive.cc:265
+#: ../../src/editor/editorinteractive.cc:282
 msgid "Change the map’s terrain"
 msgstr "지도의 지형 바꾸기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:272
+#: ../../src/editor/editorinteractive.cc:289
 #: ../../src/editor/ui_menus/tool_place_immovable_options_menu.cc:62
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:182
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:181
 msgid "Immovables"
 msgstr "고정물"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the immovables tool in the editor
-#: ../../src/editor/editorinteractive.cc:275
+#: ../../src/editor/editorinteractive.cc:292
 msgid "Add or remove immovables"
 msgstr "변경되지 않는 항목 추가 또는 제거"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:281
+#: ../../src/editor/editorinteractive.cc:298
 #: ../../src/editor/ui_menus/tool_place_critter_options_menu.cc:47
 msgid "Animals"
 msgstr "동물"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the animals tool in the editor
-#: ../../src/editor/editorinteractive.cc:284
+#: ../../src/editor/editorinteractive.cc:301
 msgid "Add or remove animals"
 msgstr "동물 추가 또는 제거"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:291
+#: ../../src/editor/editorinteractive.cc:308
 #: ../../src/editor/tools/info_tool.cc:195
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:102
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:97
 #: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:41
 #: ../../src/map_io/map_saver.cc:156
-#: ../../src/map_io/widelands_map_loader.cc:224
+#: ../../src/map_io/widelands_map_loader.cc:265
 msgid "Resources"
 msgstr "자원"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the resources tool in the editor
-#: ../../src/editor/editorinteractive.cc:294
+#: ../../src/editor/editorinteractive.cc:311
 msgid "Set or change resources"
 msgstr "자원을 설정하거나 바꿈"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:297
+#: ../../src/editor/editorinteractive.cc:314
 msgid "Port spaces"
 msgstr "항구 공간"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the port spaces tool in the editor
-#: ../../src/editor/editorinteractive.cc:300
+#: ../../src/editor/editorinteractive.cc:317
 msgid "Add or remove port spaces"
 msgstr "항구 공간을 추가하거나 제거"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:306
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:615
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:139
+#: ../../src/editor/editorinteractive.cc:323
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:654
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:171
 msgid "Players"
 msgstr "선수"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the map size tool in the editor
-#: ../../src/editor/editorinteractive.cc:309
+#: ../../src/editor/editorinteractive.cc:326
 msgid "Set number of players and their names, tribes and starting positions"
 msgstr "선수의 수, 이름, 부족, 시작 위치 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:312
+#: ../../src/editor/editorinteractive.cc:330
 msgid "Map origin"
 msgstr "번역확인 -> 지도 출발지?"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:315
+#: ../../src/editor/editorinteractive.cc:333
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
@@ -308,63 +313,56 @@ msgstr "좌표 (0,0) 위치를 설정하세요. 생성된 약도의 가장 좌�
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:322
+#: ../../src/editor/editorinteractive.cc:340
 msgid "Map size"
 msgstr "지도 크기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the map size tool in the editor
-#: ../../src/editor/editorinteractive.cc:325
+#: ../../src/editor/editorinteractive.cc:343
 msgid "Change the map’s size"
 msgstr "지도 크기 바꿈"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:328
+#: ../../src/editor/editorinteractive.cc:346
 msgid "Information"
 msgstr "정보"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the map information tool in the editor
-#: ../../src/editor/editorinteractive.cc:331
+#: ../../src/editor/editorinteractive.cc:349
 msgid "Click on a field to show information about it"
 msgstr "필드에 대한 정보를 표시하려면 필드를 클릭하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the editor's show/hide menu to toggle whether
-#. building spaces are
-#. * shown
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. building spaces are
 #. * shown
-#: ../../src/editor/editorinteractive.cc:392
-#: ../../src/wui/interactive_gamebase.cc:183
+#. * TRANSLATORS: An entry in the editor's show/hide menu to toggle whether
+#. building spaces are
+#. * shown
+#: ../../src/editor/editorinteractive.cc:411
+#: ../../src/wui/interactive_gamebase.cc:187
 msgid "Hide Building Spaces"
 msgstr "건물 공간 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:392
-#: ../../src/ui_fsmenu/options.cc:238
-#: ../../src/wui/interactive_gamebase.cc:183
+#: ../../src/editor/editorinteractive.cc:411
+#: ../../src/ui_fsmenu/options.cc:258
+#: ../../src/wui/interactive_gamebase.cc:187
 msgid "Show Building Spaces"
 msgstr "건물 공간 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:395
-#: ../../src/wui/interactive_gamebase.cc:186
-msgctxt "hotkey"
-msgid "Space"
-msgstr "스페이스"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's show/hide menu to toggle whether
 #. the map grid is shown
-#: ../../src/editor/editorinteractive.cc:399
+#: ../../src/editor/editorinteractive.cc:418
 msgid "Hide Grid"
 msgstr "격자 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:399
+#: ../../src/editor/editorinteractive.cc:418
 msgid "Show Grid"
 msgstr "격자 표시"
 
@@ -372,46 +370,46 @@ msgstr "격자 표시"
 #. * TRANSLATORS: An entry in the editor's show/hide menu to toggle whether
 #. immovables (trees,
 #. * rocks etc.) are shown
-#: ../../src/editor/editorinteractive.cc:404
+#: ../../src/editor/editorinteractive.cc:424
 msgid "Hide Immovables"
 msgstr "부동산 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:404
+#: ../../src/editor/editorinteractive.cc:424
 msgid "Show Immovables"
 msgstr "부동산 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's show/hide menu to toggle whether
 #. animals are shown
-#: ../../src/editor/editorinteractive.cc:409
+#: ../../src/editor/editorinteractive.cc:430
 msgid "Hide Animals"
 msgstr "동물 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:409
+#: ../../src/editor/editorinteractive.cc:430
 msgid "Show Animals"
 msgstr "동물 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's show/hide menu to toggle whether
 #. resources are shown
-#: ../../src/editor/editorinteractive.cc:413
+#: ../../src/editor/editorinteractive.cc:435
 msgid "Hide Resources"
 msgstr "자원 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:413
+#: ../../src/editor/editorinteractive.cc:435
 msgid "Show Resources"
 msgstr "자원 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:452
+#: ../../src/editor/editorinteractive.cc:475
 msgid "Unsupported Format"
 msgstr "지원되지 않는 형식"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:453
+#: ../../src/editor/editorinteractive.cc:476 ../../src/wlapplication.cc:686
 #, c-format
 msgid ""
 "Widelands could not load the file \"%s\". The file format seems to be "
@@ -419,48 +417,43 @@ msgid ""
 msgstr "와이드랜드는 파일 \"%s\"를 불러올 수 없습니다. 파일 형식이 적합하지 않습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:514
+#: ../../src/editor/editorinteractive.cc:543
 msgid "Unsaved Map"
 msgstr "저장되지 않은 지도"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:515
+#: ../../src/editor/editorinteractive.cc:544
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "지도가 저장되지 않았는데, 종료하기를 원하십니까?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:977
+#: ../../src/editor/editorinteractive.cc:920
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "지도 “%s”를 불러오는 중…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:994
-msgid "Postloading editor…"
-msgstr "편집기를 사후 불러오는고 있음"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default name for new map
-#: ../../src/editor/editorinteractive.cc:1000
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:578
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:139
-#: ../../src/logic/map.h:232 ../../src/wui/mapdata.cc:47
+#: ../../src/editor/editorinteractive.cc:944
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:109
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:538
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:140
+#: ../../src/logic/map.h:233 ../../src/wui/mapdata.cc:51
 msgid "No Name"
 msgstr "이름 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Map author name when it hasn't been set yet
-#: ../../src/editor/editorinteractive.cc:1003
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:107
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:579
-#: ../../src/logic/map.h:233
+#: ../../src/editor/editorinteractive.cc:947
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:110
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:539
+#: ../../src/logic/map.h:234 ../../src/ui_fsmenu/addons_packager.cc:363
 msgctxt "author_name"
 msgid "Unknown"
 msgstr "알 수 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:1027
+#: ../../src/editor/editorinteractive.cc:971
 msgid "Loading world…"
 msgstr "세계를 불러오고 있음…"
 
@@ -541,10 +534,9 @@ msgstr "배들: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/tools/info_tool.cc:204
-#: ../../src/ui_fsmenu/launch_mpg.cc:67
 #: ../../src/ui_fsmenu/mapdetailsbox.cc:140
-#: ../../src/ui_fsmenu/netsetup_lan.cc:124 ../../src/wui/mapdetails.cc:139
-#: ../../src/wui/minimap.cc:137
+#: ../../src/ui_fsmenu/netsetup_lan.cc:130 ../../src/wui/mapdetails.cc:141
+#: ../../src/wui/minimap.cc:140
 msgid "Map"
 msgstr "지도"
 
@@ -579,8 +571,9 @@ msgid "Author: %s"
 msgstr "제작자: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:223 ../../src/ui_fsmenu/main.cc:351
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:111
+#: ../../src/editor/tools/info_tool.cc:223
+#: ../../src/ui_fsmenu/addons_packager_box.cc:151
+#: ../../src/ui_fsmenu/main.cc:414 ../../src/ui_fsmenu/mapdetailsbox.cc:112
 #, c-format
 msgid "Description: %s"
 msgstr "설명: %s"
@@ -607,92 +600,99 @@ msgid "Current: %s"
 msgstr "현재: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:234
-#: ../../src/ui_fsmenu/main.cc:741 ../../src/wui/encyclopedia_window.cc:143
+#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
+#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "오류!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Directory name for user maps in map selection
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:71
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:275
-#: ../../src/wui/mapdata.cc:169
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:75
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:276
+#: ../../src/ui_fsmenu/addons_packager_box.cc:95 ../../src/wui/mapdata.cc:185
 msgid "My Maps"
 msgstr "내 지도"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Directory name for MP Scenarios in map selection
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:73
-#: ../../src/wui/mapdata.cc:166
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:77
+#: ../../src/wui/mapdata.cc:182
 msgid "Multiplayer Scenarios"
 msgstr "여러 선수 시나리오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Directory name for downloaded maps in map selection
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:75
-#: ../../src/wui/mapdata.cc:172
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:79
+#: ../../src/wui/mapdata.cc:188
 msgid "Downloaded Maps"
 msgstr "내려받은 지도들"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The folder that a file will be saved to.
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:78
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:275
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:82
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:276
 #, c-format
 msgid "Current directory: %s"
 msgstr "현재 디렉토리: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: "Display: Original/Localized map/file names"
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:66
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:69
 msgid "Display"
 msgstr "표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:77
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:80
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:248
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:61
 #: ../../src/editor/ui_menus/player_menu.cc:78
-#: ../../src/ui_basic/messagebox.cc:99 ../../src/ui_fsmenu/helpwindow.cc:57
-#: ../../src/ui_fsmenu/menu.cc:153 ../../src/ui_fsmenu/options.cc:92
-#: ../../src/ui_fsmenu/training_wheel_options.cc:152
+#: ../../src/ui_basic/color_chooser.cc:262
+#: ../../src/ui_basic/messagebox.cc:102 ../../src/ui_basic/text_prompt.cc:47
+#: ../../src/ui_fsmenu/addons.cc:202 ../../src/ui_fsmenu/addons.cc:1656
+#: ../../src/ui_fsmenu/addons_packager.cc:109
+#: ../../src/ui_fsmenu/helpwindow.cc:57
+#: ../../src/ui_fsmenu/keyboard_options.cc:132 ../../src/ui_fsmenu/menu.cc:145
+#: ../../src/ui_fsmenu/options.cc:96
+#: ../../src/ui_fsmenu/training_wheel_options.cc:155
 #: ../../src/wui/game_main_menu_save_game.cc:85
 #: ../../src/wui/story_message_box.cc:47
 msgid "OK"
 msgstr "확인"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:78
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:81
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:256
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:69
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:216
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:757
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:69
-#: ../../src/ui_basic/messagebox.cc:108 ../../src/ui_fsmenu/launch_mpg.cc:78
-#: ../../src/ui_fsmenu/login_box.cc:46 ../../src/ui_fsmenu/options.cc:90
-#: ../../src/ui_fsmenu/training_wheel_options.cc:106
-#: ../../src/wui/economy_options_window.cc:659
+#: ../../src/ui_basic/color_chooser.cc:271
+#: ../../src/ui_basic/messagebox.cc:111 ../../src/ui_basic/text_prompt.cc:56
+#: ../../src/ui_fsmenu/keyboard_options.cc:49
+#: ../../src/ui_fsmenu/login_box.cc:47 ../../src/ui_fsmenu/options.cc:94
+#: ../../src/ui_fsmenu/training_wheel_options.cc:109
+#: ../../src/wui/economy_options_window.cc:662
 #: ../../src/wui/game_main_menu_save_game.cc:84
 msgid "Cancel"
 msgstr "취소"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:105
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:109
 msgid "File names"
 msgstr "파일 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:106
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:110
 msgid "Map names"
 msgstr "지도 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:106
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:110
 msgid "Original map names"
 msgstr "원래 지도 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:110
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:114
 msgid "Translated map names"
 msgstr "번역한 지도 이름"
 
@@ -703,7 +703,8 @@ msgstr "제거할 선수를 누르십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:61
-#: ../../src/wui/economy_options_window.cc:660
+#: ../../src/ui_fsmenu/addons_packager_box.cc:271
+#: ../../src/wui/economy_options_window.cc:663
 #: ../../src/wui/load_or_save_game.cc:52
 msgid "Delete"
 msgstr "삭제"
@@ -720,6 +721,7 @@ msgstr "이 팀에 선수를 추가"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:320
+#: ../../src/logic/addons.cc:63
 msgid "Theme"
 msgstr "테마"
 
@@ -745,6 +747,7 @@ msgstr "제작자:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:362
+#: ../../src/ui_fsmenu/addons_packager.cc:148
 msgid "Description:"
 msgstr "설명:"
 
@@ -781,7 +784,7 @@ msgstr "주 옵션"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:453
-#: ../../src/wui/mapdetails.cc:182
+#: ../../src/wui/mapdetails.cc:184
 msgid "Tags"
 msgstr "태그"
 
@@ -807,99 +810,94 @@ msgid "Creating empty map…"
 msgstr "빈 지도를 만들고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:69
-#: ../../src/wui/gamedetails.cc:173
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:64
+#: ../../src/wui/gamedetails.cc:179
 msgid "Players:"
 msgstr "선수:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:76
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:71
 msgid "Low"
 msgstr "저지대"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:78
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:73
 msgid "Medium"
 msgstr "중간"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:80
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:75
 msgid "High"
 msgstr "고지대"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:90
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:85
 msgid "Climate"
 msgstr "기후"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:134
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:129
 msgid "Water:"
 msgstr "물:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:147
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:142
 msgid "Land:"
 msgstr "땅:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:155
 msgid "Wasteland:"
 msgstr "황무지:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:165
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
 msgid "Mountains:"
 msgstr "산맥:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:175
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:170
 msgid "Island mode"
 msgstr "섬 유무"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:178
 msgid "Random number:"
 msgstr "아무런 숫자:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:190
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:185
 msgid "Map ID:"
 msgstr "지도 ID:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:207
-msgid "Generate Map"
-msgstr "지도 생성"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:234
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:268
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:210
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:244
 msgid "Random"
 msgstr "아무거나"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A campaign difficulty
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:264
-#: ../../src/ui_fsmenu/campaigns.cc:53
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:240
+#: ../../src/ui_fsmenu/campaigns.cc:54 ../../src/ui_fsmenu/options.cc:494
 msgid "Default"
 msgstr "기본값"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A world name for the random map generator in the editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:267
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:243
 #: ../../src/logic/map.cc:61
 msgid "Wasteland"
 msgstr "황무지"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "무작위 지도 생성 중…"
 
@@ -907,9 +905,9 @@ msgstr "무작위 지도 생성 중…"
 #. * TRANSLATORS: Window title. This is shown after a random map has been
 #. created in the
 #. editor.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:638
-#: ../../src/ui_fsmenu/main.cc:312
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:608
+#: ../../src/ui_fsmenu/main.cc:374
 msgid "Random Map"
 msgstr "무작위 지도"
 
@@ -920,7 +918,7 @@ msgstr "무작위 지도"
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:626
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:586
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -928,79 +926,84 @@ msgid ""
 msgstr "지도가 생성되었습니다. 짐꾼들이 익사하거나, 혹은 섬 또는 산꼭대기에 갖히지 않도록 주의하면서 선수 시작 위치를 다시 확인하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:639
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:609
 msgid "The Widelands Random Map Generator"
 msgstr "와이드랜드 아무런 지도 생성기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:641
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:611
 msgid ""
 "This map was generated automatically by the Widelands Random Map Generator."
 msgstr "이 지도는 와이드랜드 아무런 지도 생성기에 의해 자동으로 생성되었습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:652
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:622
 #: ../../src/wui/game_summary.cc:112
 msgid "Player"
 msgstr "선수"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:653
-#: ../../src/network/gamehost.cc:1716
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:623
+#: ../../src/network/gamehost.cc:1743
 #, c-format
 msgid "Computer %u"
 msgstr "컴퓨터 %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:68
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:749
+msgid "Generate Map"
+msgstr "지도 생성"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:69
 #: ../../src/wui/game_main_menu_save_game.cc:75
-#: ../../src/wui/gamedetails.cc:190
+#: ../../src/wui/gamedetails.cc:203
 msgid "Filename:"
 msgstr "파일 이름:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:77
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:78
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:32
 msgid "Make Directory"
 msgstr "디렉토리 생성"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:167
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
 msgid "A file or directory with that name already exists."
 msgstr "해당 이름의 파일 또는 디렉토리가 이미 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:169
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:184
 msgid "Error Creating Directory!"
 msgstr "디렉토리를 만드는 중 오류가 발생했습니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:182
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "‘%s’ 디렉토리를 만드는 중 오류가 발생했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:306
-#: ../../src/wui/game_main_menu_save_game.cc:248
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:307
+#: ../../src/wui/game_main_menu_save_game.cc:249
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "파일 이름 '%s'가 이미 존재합니다. 덮어쓸까요?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:364
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:310
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:365
 msgid "Error Saving Map!"
 msgstr "지도 저장 오류!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:339
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
 msgid "Saving the map…"
 msgstr "지도를 저장하고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:357
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:358
 msgid "Map saved"
 msgstr "저장된 지도"
 
@@ -1068,46 +1071,47 @@ msgstr "선수의 수"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
 #: ../../src/editor/ui_menus/player_menu.cc:158
-#: ../../src/editor/ui_menus/player_menu.cc:286
-#: ../../src/logic/single_player_game_settings_provider.cc:109
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:66
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:98
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:110
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:159
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:46
+#: ../../src/editor/ui_menus/player_menu.cc:285
+#: ../../src/logic/single_player_game_settings_provider.cc:110
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:67
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:100
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:111
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:162
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:50
 #, c-format
 msgid "Player %u"
 msgstr "선수 %u"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign tribe
-#: ../../src/editor/ui_menus/player_menu.cc:185
-#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/editor/ui_menus/player_menu.cc:183
+#: ../../src/ui_fsmenu/addons_packager_box.cc:314
+#: ../../src/ui_fsmenu/campaign_select.cc:49
 #: ../../src/ui_fsmenu/campaigndetails.cc:58
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:179
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:52
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:181
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:57
 msgid "Tribe"
 msgstr "부족"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/player_menu.cc:193
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:399
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:95
+#: ../../src/editor/ui_menus/player_menu.cc:191
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:421
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:102
 msgctxt "tribe"
 msgid "Random"
 msgstr "무작위"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/player_menu.cc:195
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:401
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:97
+#: ../../src/editor/ui_menus/player_menu.cc:193
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:423
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:104
 msgid "The tribe will be selected at random"
 msgstr "부족은 무작위로 선택됨"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Button tooltip in the editor for using a player's starting
 #. position tool
-#: ../../src/editor/ui_menus/player_menu.cc:212
+#: ../../src/editor/ui_menus/player_menu.cc:211
 msgid "Set this player’s starting position"
 msgstr "이 선수의 시작 위치 설정"
 
@@ -1216,44 +1220,45 @@ msgid "Current Size: %u"
 msgstr "현재 크기: %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:69
+#: ../../src/game_io/game_loader.cc:70
 #, c-format
 msgid "Loading game: %1$s (%2$u/%3$d)"
 msgstr "놀이를 불러오고 있음: %1$s (%2$u/%3$d)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:71 ../../src/game_io/game_saver.cc:59
+#: ../../src/game_io/game_loader.cc:72 ../../src/game_io/game_saver.cc:59
 #: ../../src/map_io/map_saver.cc:102
-#: ../../src/map_io/widelands_map_loader.cc:161
+#: ../../src/map_io/widelands_map_loader.cc:202
 msgid "Elemental data"
 msgstr "원소 자료"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:109 ../../src/game_io/game_saver.cc:84
+#: ../../src/game_io/game_loader.cc:152 ../../src/game_io/game_saver.cc:84
 msgid "Economies"
 msgstr "경제"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:116 ../../src/game_io/game_saver.cc:91
+#: ../../src/game_io/game_loader.cc:159 ../../src/game_io/game_saver.cc:91
 msgid "AI"
 msgstr "인공지능"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:123 ../../src/game_io/game_saver.cc:98
+#: ../../src/game_io/game_loader.cc:166 ../../src/game_io/game_saver.cc:98
 msgid "Command queue"
 msgstr "명령 대기열"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:131 ../../src/map_io/map_saver.cc:148
-#: ../../src/map_io/widelands_map_loader.cc:350
-#: ../../src/wui/interactive_player.cc:203
-#: ../../src/wui/interactive_player.cc:428
+#: ../../src/game_io/game_loader.cc:174 ../../src/map_io/map_saver.cc:148
+#: ../../src/map_io/widelands_map_loader.cc:391
+#: ../../src/wlapplication_options.cc:466
+#: ../../src/wui/interactive_player.cc:215
+#: ../../src/wui/interactive_player.cc:449
 msgid "Messages"
 msgstr "메시지"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:148
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:206
+#: ../../src/game_io/game_loader.cc:191
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:205
 msgid "Finishing"
 msgstr "마무리"
 
@@ -1277,7 +1282,7 @@ msgstr "대화형 선수"
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:221
+#: ../../src/graphic/gl/initialize.cc:173
 msgid ""
 "Widelands won't work because we were unable to detect the shading language "
 "version."
@@ -1287,7 +1292,8 @@ msgstr "우리는 음영 언어 버전을 감지할 수 없었기 때문에 와�
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:225
+#: ../../src/graphic/gl/initialize.cc:177
+#: ../../src/graphic/gl/initialize.cc:191
 msgid ""
 "There is an unknown problem with reading the information from the graphics "
 "driver."
@@ -1297,19 +1303,13 @@ msgstr "그래픽 드라이버에서 정보를 읽는 데 알 수 없는 문제�
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:253
-#: ../../src/graphic/gl/initialize.cc:273
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver.
+#. Font support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:220
+#: ../../src/graphic/gl/initialize.cc:242
 msgid "Widelands won’t work because your graphics driver is too old."
 msgstr "그래픽 드라이버가 너무 오래되었기 때문에 와이드랜드가 작동하지 않습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Basic error message when we can't handle the graphics
-#. driver. Font
-#. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:256
-#: ../../src/graphic/gl/initialize.cc:276
-msgid "The shading language needs to be version 1.20 or newer."
-msgstr "음영 언어는 버전 1.20 이상이어야 합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip header for characters in illegal filenames.
@@ -1320,56 +1320,71 @@ msgid "The following characters are not allowed:"
 msgstr "다음 문자는 허용되지 않습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/editor_game_base.cc:226
+#: ../../src/logic/addons.cc:45 ../../src/ui_basic/dropdown.cc:351
+#: ../../src/ui_basic/dropdown.cc:353 ../../src/ui_fsmenu/addons.cc:1173
+#: ../../src/ui_fsmenu/addons.cc:1229 ../../src/ui_fsmenu/addons.cc:1352
+#: ../../src/ui_fsmenu/addons.cc:2062 ../../src/ui_fsmenu/launch_mpg.cc:294
+#: ../../src/wlapplication.cc:1451
+msgid "Error"
+msgstr "오류"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Header for campaign name
+#: ../../src/logic/addons.cc:54 ../../src/ui_fsmenu/campaigndetails.cc:49
+msgid "Campaign"
+msgstr "작전 수행"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/editor_game_base.cc:252
 #, c-format
 msgid "Creating player %d…"
 msgstr "%d 선수를 만들고 있음..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/editor_game_base.cc:492
+#: ../../src/logic/editor_game_base.cc:560
 msgid "Cleaning up for loading: Map objects (1/3)"
 msgstr "불러오기 위해 정리작업: 지도 객체 (1/3)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/editor_game_base.cc:495
+#: ../../src/logic/editor_game_base.cc:563
 msgid "Cleaning up for loading: Players (2/3)"
 msgstr "불러오기 위해 정리작업: 선수들 (2/3)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/editor_game_base.cc:498
+#: ../../src/logic/editor_game_base.cc:566
 msgid "Cleaning up for loading: Map (3/3)"
 msgstr "불러오기 위해 정리작업: 지도 (3/3)"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Win condition for this game has not been set.
-#: ../../src/logic/game.cc:148
+#: ../../src/logic/game.cc:153
 msgid "Not set"
 msgstr "설정되지 않음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:230 ../../src/logic/game.cc:277
-#: ../../src/logic/game.cc:367 ../../src/logic/game.cc:412
+#: ../../src/logic/game.cc:281 ../../src/logic/game.cc:328
+#: ../../src/logic/game.cc:423 ../../src/logic/game.cc:478
 msgid "Preloading map…"
 msgstr "지도를 먼저 불러오고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:325
+#: ../../src/logic/game.cc:377
 msgid "Initializing game…"
 msgstr "놀이를 초기화하고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:528
+#: ../../src/logic/game.cc:628
 msgid "Creating player infrastructure…"
 msgstr "선수의 사회 기반 시설을 만들고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:541 ../../src/logic/player.cc:233
+#: ../../src/logic/game.cc:645 ../../src/logic/player.cc:236
 msgid "Missing starting position"
 msgstr "시작 위치를 찾을 수 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:542 ../../src/logic/player.cc:234
+#: ../../src/logic/game.cc:646 ../../src/logic/player.cc:237
 #, c-format
 msgid ""
 "Widelands could not start the game, because player %u has no starting position.\n"
@@ -1377,21 +1392,14 @@ msgid ""
 msgstr "와이드랜드는 선수 %u의 시작 위치가 없어서 게임을 시작할 수가 없습니다.\n이 문제를 해결하려면 와이드랜드 편집기에서 시작 위치를 수동으로 추가해야 합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:997
+#: ../../src/logic/game.cc:1115
 msgid "Trade Offer"
 msgstr "거래 제안"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:999
+#: ../../src/logic/game.cc:1117
 msgid "This market has received a new trade offer."
 msgstr "이 시장은 새로운 무역 제안을 받았습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game_data_error.cc:47
-msgid ""
-"This game was saved using an older version of Widelands and cannot be loaded"
-" anymore, or it's a new version that can't be handled yet."
-msgstr "이 게임은 더 오래된 Widelands 버전에서 저장되어서 더 이상 불러올 수 없거나, 다룰 수 없는 새로운 버전에서 저장되었습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/logic/generic_save_handler.cc:231
@@ -1475,19 +1483,19 @@ msgid "Desert"
 msgstr "사막"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map.h:234
+#: ../../src/logic/map.h:235
 msgid "No description defined"
 msgstr "정의된 설명이 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
-#: ../../src/logic/map_objects/tribes/militarysite.cc:249
+#: ../../src/logic/map_objects/tribes/militarysite.cc:250
 msgctxt "building"
 msgid "Lost!"
 msgstr "손실!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:250
+#: ../../src/logic/map_objects/tribes/militarysite.cc:251
 msgid "Militarysite lost!"
 msgstr "군사시설 손실!"
 
@@ -1495,24 +1503,24 @@ msgstr "군사시설 손실!"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy Defeated!"
 msgstr "적이 패배하였습니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy at site defeated!"
 msgstr "해당 적이 패배하였습니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Militarysite is being attacked
-#: ../../src/logic/map_objects/tribes/militarysite.cc:948
+#: ../../src/logic/map_objects/tribes/militarysite.cc:952
 msgctxt "building"
 msgid "Attack!"
 msgstr "적습!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:948
+#: ../../src/logic/map_objects/tribes/militarysite.cc:952
 msgid "You are under attack"
 msgstr "공격 받는 중"
 
@@ -1520,7 +1528,7 @@ msgstr "공격 받는 중"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1325
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -1530,14 +1538,14 @@ msgstr[0] "%s 생산됨"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "%s 선발됨"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/production_program.cc:1827
+#: ../../src/logic/map_objects/tribes/production_program.cc:1834
 msgid "No soldier found for this training level!"
 msgstr "훈련 수준에 걸맞는 군인이 없습니다!"
 
@@ -1546,7 +1554,7 @@ msgstr "훈련 수준에 걸맞는 군인이 없습니다!"
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1868
+#: ../../src/logic/map_objects/tribes/production_program.cc:1875
 #, c-format
 msgid "Completed %s"
 msgstr "%s를 완료했습니다"
@@ -1554,7 +1562,7 @@ msgstr "%s를 완료했습니다"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Productivity label on a building if there is 1 worker
 #. missing
-#: ../../src/logic/map_objects/tribes/productionsite.cc:358
+#: ../../src/logic/map_objects/tribes/productionsite.cc:338
 msgid "Worker missing"
 msgstr "일꾼이 없습니다"
 
@@ -1562,14 +1570,14 @@ msgstr "일꾼이 없습니다"
 #. * TRANSLATORS: Productivity label on a building if there is more than 1
 #. worker
 #. missing. If you need plural forms here, please let us know.
-#: ../../src/logic/map_objects/tribes/productionsite.cc:361
+#: ../../src/logic/map_objects/tribes/productionsite.cc:341
 msgid "Workers missing"
 msgstr "일꾼들이 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Productivity label on a building if there is 1 worker
 #. missing
-#: ../../src/logic/map_objects/tribes/productionsite.cc:370
+#: ../../src/logic/map_objects/tribes/productionsite.cc:350
 msgid "Worker is coming"
 msgstr "일꾼이 오고 있습니다"
 
@@ -1577,12 +1585,12 @@ msgstr "일꾼이 오고 있습니다"
 #. * TRANSLATORS: Productivity label on a building if there is more than 1
 #. worker
 #. missing. If you need plural forms here, please let us know.
-#: ../../src/logic/map_objects/tribes/productionsite.cc:373
+#: ../../src/logic/map_objects/tribes/productionsite.cc:353
 msgid "Workers are coming"
 msgstr "일꾼들이 오고 있습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1090
+#: ../../src/logic/map_objects/tribes/productionsite.cc:1095
 msgid "Can’t find any more resources!"
 msgstr "더 이상 자원이 없어요!"
 
@@ -1620,59 +1628,59 @@ msgid "An expedition ship sailed around its island without any events."
 msgstr "탐험선이 별 일 없이 섬을 일주했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:620
 msgid "Coast Reached"
 msgstr "해안 도착"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:620
 msgid "Land Ahoy!"
 msgstr "육지 발견!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:622
+#: ../../src/logic/map_objects/tribes/ship.cc:621
 msgid ""
 "An expedition ship reached a coast and is waiting for further commands."
 msgstr "탐헌선이 해안에 도착해서 향후 명령을 기다리는 중입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:670
 msgid "New port construction site is gone"
 msgstr "새로운 항구 건설 위치가 사라졌습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:670
 msgid "Port Lost!"
 msgstr "항구 손실!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:672
+#: ../../src/logic/map_objects/tribes/ship.cc:671
 msgid "Unloading of wares failed, expedition is cancelled now."
 msgstr "물품을 하적하는데 실패해서 탐험을 취소합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Ship expedition ready
-#: ../../src/logic/map_objects/tribes/ship.cc:856
+#: ../../src/logic/map_objects/tribes/ship.cc:852
 msgctxt "ship"
 msgid "Expedition"
 msgstr "탐험"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:856
+#: ../../src/logic/map_objects/tribes/ship.cc:852
 msgid "Expedition Ready"
 msgstr "탐험 준비 완료"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:857
+#: ../../src/logic/map_objects/tribes/ship.cc:853
 msgid "An expedition ship is waiting for your commands."
 msgstr "탐험선이 당신의 명령을 기다리는 중입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. The ship is currently transporting
 #. wares.
-#: ../../src/logic/map_objects/tribes/ship.cc:1017
-#: ../../src/wui/seafaring_statistics_menu.cc:234
+#: ../../src/logic/map_objects/tribes/ship.cc:1013
+#: ../../src/wui/seafaring_statistics_menu.cc:237
 msgctxt "ship_state"
 msgid "Shipping"
 msgstr "선적하는 중"
@@ -1681,8 +1689,8 @@ msgstr "선적하는 중"
 #. * TRANSLATORS: This is a ship state. The ship is ready to transport wares,
 #. but has
 #. * nothing to do.
-#: ../../src/logic/map_objects/tribes/ship.cc:1020
-#: ../../src/wui/seafaring_statistics_menu.cc:232
+#: ../../src/logic/map_objects/tribes/ship.cc:1016
+#: ../../src/wui/seafaring_statistics_menu.cc:235
 msgctxt "ship_state"
 msgid "Empty"
 msgstr "비어있음"
@@ -1690,8 +1698,8 @@ msgstr "비어있음"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. An expedition is waiting for your
 #. commands.
-#: ../../src/logic/map_objects/tribes/ship.cc:1024
-#: ../../src/wui/seafaring_statistics_menu.cc:236
+#: ../../src/logic/map_objects/tribes/ship.cc:1020
+#: ../../src/wui/seafaring_statistics_menu.cc:239
 msgctxt "ship_state"
 msgid "Waiting"
 msgstr "대기하는 중"
@@ -1699,16 +1707,16 @@ msgstr "대기하는 중"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. An expedition is scouting for port
 #. spaces.
-#: ../../src/logic/map_objects/tribes/ship.cc:1028
-#: ../../src/wui/seafaring_statistics_menu.cc:238
+#: ../../src/logic/map_objects/tribes/ship.cc:1024
+#: ../../src/wui/seafaring_statistics_menu.cc:241
 msgctxt "ship_state"
 msgid "Scouting"
 msgstr "정찰하는 중"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. An expedition has found a port space.
-#: ../../src/logic/map_objects/tribes/ship.cc:1032
-#: ../../src/wui/seafaring_statistics_menu.cc:240
+#: ../../src/logic/map_objects/tribes/ship.cc:1028
+#: ../../src/wui/seafaring_statistics_menu.cc:243
 msgctxt "ship_state"
 msgid "Port Space Found"
 msgstr "항구 공간 발견"
@@ -1717,36 +1725,36 @@ msgstr "항구 공간 발견"
 #. * TRANSLATORS: This is a ship state. An expedition is unloading
 #. wares/workers to build a
 #. * port.
-#: ../../src/logic/map_objects/tribes/ship.cc:1037
+#: ../../src/logic/map_objects/tribes/ship.cc:1033
 msgctxt "ship_state"
 msgid "Founding a Colony"
 msgstr "식민지 건설 중"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/soldier.cc:1521
-#: ../../src/logic/map_objects/tribes/soldier.cc:1525
+#: ../../src/logic/map_objects/tribes/soldier.cc:1516
+#: ../../src/logic/map_objects/tribes/soldier.cc:1520
 msgid "Logic error"
 msgstr "논리 오류"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Example: Loading Barbarians: Buildings (2/6)
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:173
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:172
 msgid "Loading %1%: %2% (%3%/%4%)"
 msgstr "다음을 불러오고 있음 %1%: %2% (%3%/%4%) "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:178
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:177
 msgid "Ships"
 msgstr "배들"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:186
-#: ../../src/wui/economy_options_window.cc:70
-#: ../../src/wui/general_statistics_menu.cc:154
-#: ../../src/wui/interactive_player.cc:301
-#: ../../src/wui/productionsitewindow.cc:94
-#: ../../src/wui/warehousewindow.cc:260
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:185
+#: ../../src/wui/economy_options_window.cc:72
+#: ../../src/wui/general_statistics_menu.cc:151
+#: ../../src/wui/interactive_player.cc:320
+#: ../../src/wui/productionsitewindow.cc:95
+#: ../../src/wui/warehousewindow.cc:261
 msgid "Wares"
 msgstr "물품"
 
@@ -1754,21 +1762,21 @@ msgstr "물품"
 #. * TRANSLATORS: Header in production site window if there is more than 1
 #. worker. If you
 #. need plural forms here, please let us know.
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:193
-#: ../../src/wui/economy_options_window.cc:71
-#: ../../src/wui/general_statistics_menu.cc:145
-#: ../../src/wui/productionsitewindow.cc:111
-#: ../../src/wui/warehousewindow.cc:264
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:192
+#: ../../src/wui/economy_options_window.cc:73
+#: ../../src/wui/general_statistics_menu.cc:142
+#: ../../src/wui/productionsitewindow.cc:112
+#: ../../src/wui/warehousewindow.cc:265
 msgid "Workers"
 msgstr "일꾼들"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:200
-#: ../../src/map_io/map_saver.cc:220
-#: ../../src/map_io/widelands_map_loader.cc:285
-#: ../../src/wui/general_statistics_menu.cc:150
-#: ../../src/wui/interactive_player.cc:296 ../../src/wui/minimap.cc:192
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:199
+#: ../../src/map_io/map_saver.cc:221
+#: ../../src/map_io/widelands_map_loader.cc:326
+#: ../../src/wui/general_statistics_menu.cc:147
+#: ../../src/wui/interactive_player.cc:315 ../../src/wui/minimap.cc:195
 msgid "Buildings"
 msgstr "건물"
 
@@ -1791,41 +1799,35 @@ msgstr "새로운 창고가 경제에 추가되었습니다."
 #. * TRANSLATORS: Message header, short for "Waterway Destroyed" (not much
 #. space
 #. * available)
-#: ../../src/logic/map_objects/tribes/warehouse.cc:643
+#: ../../src/logic/map_objects/tribes/warehouse.cc:644
 msgid "Waterway"
 msgstr "물길"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/warehouse.cc:644
+#: ../../src/logic/map_objects/tribes/warehouse.cc:645
 msgid "Waterway destroyed"
 msgstr "물길이 파괴됨"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/warehouse.cc:645
+#: ../../src/logic/map_objects/tribes/warehouse.cc:646
 msgid "A waterway had to be destroyed to make room for your new port dock."
 msgstr "새로운 항구 부두를 위한 공간을 마련하기 위해 수로를 파괴해야 했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:1097
+#: ../../src/logic/map_objects/tribes/worker.cc:1109
 msgid "A geologist found resources."
 msgstr "지질학자가 자원을 발견했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2046
-#, c-format
-msgid "Your %s can't find a way home and will likely die."
-msgstr "당신의 %s이 집으로 가는 길을 찾을 수 없어서 죽을 것 같습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header in production site window if there is 1 worker
-#: ../../src/logic/map_objects/tribes/worker.cc:2053
-#: ../../src/wui/productionsitewindow.cc:108
-#: ../../src/wui/productionsitewindow.cc:125
+#: ../../src/logic/map_objects/tribes/worker.cc:2073
+#: ../../src/wui/productionsitewindow.cc:109
+#: ../../src/wui/productionsitewindow.cc:126
 msgid "Worker"
 msgstr "일꾼"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2054
+#: ../../src/logic/map_objects/tribes/worker.cc:2074
 msgid "Worker got lost!"
 msgstr "일꾼이 길을 잃었네요!"
 
@@ -1835,7 +1837,7 @@ msgid "This objective has no description."
 msgstr "이 목표는 설명이 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/player.cc:1860
+#: ../../src/logic/player.cc:1917
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
@@ -1854,19 +1856,19 @@ msgid ""
 msgstr "리플레이 끝에 도달해서 게임이 일시정지했습니다. 원한다면 게임을 다시 재생할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:130
+#: ../../src/logic/save_handler.cc:131
 msgid "Saving game…"
 msgstr "놀이를 저장하고 있습니다…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:176
-#: ../../src/wui/game_main_menu_save_game.cc:297
+#: ../../src/logic/save_handler.cc:178
+#: ../../src/wui/game_main_menu_save_game.cc:298
 msgid "Saving failed!"
 msgstr "저장 실패!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:189
-#: ../../src/wui/game_main_menu_save_game.cc:280
+#: ../../src/logic/save_handler.cc:192
+#: ../../src/wui/game_main_menu_save_game.cc:281
 msgid "Game saved"
 msgstr "게임 저장됨"
 
@@ -1883,106 +1885,107 @@ msgstr "지도를 자동으로 저장하고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/map_io/map_saver.cc:122
-#: ../../src/map_io/widelands_map_loader.cc:186
+#: ../../src/map_io/widelands_map_loader.cc:227
 msgid "Heights"
 msgstr "높이"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/map_io/map_saver.cc:129
-#: ../../src/map_io/widelands_map_loader.cc:193
+#: ../../src/map_io/widelands_map_loader.cc:234
 msgid "Terrains"
 msgstr "지형"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/map_io/map_saver.cc:136
-#: ../../src/map_io/widelands_map_loader.cc:206
+#: ../../src/map_io/widelands_map_loader.cc:247
 msgid "Starting positions"
 msgstr "시작 위치"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/map_io/map_saver.cc:164
-#: ../../src/map_io/widelands_map_loader.cc:234
+#: ../../src/map_io/widelands_map_loader.cc:275
 msgid "Map version"
 msgstr "지도 버전"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/map_io/map_saver.cc:176
-#: ../../src/map_io/widelands_map_loader.cc:240
+#: ../../src/map_io/widelands_map_loader.cc:281
 msgid "Building restrictions"
 msgstr "건물 구역"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:200
-#: ../../src/map_io/widelands_map_loader.cc:265 ../../src/wui/minimap.cc:170
+#: ../../src/map_io/map_saver.cc:201
+#: ../../src/map_io/widelands_map_loader.cc:306 ../../src/wui/minimap.cc:173
 msgid "Flags"
 msgstr "깃발"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:207
-#: ../../src/map_io/widelands_map_loader.cc:272
+#: ../../src/map_io/map_saver.cc:208
+#: ../../src/map_io/widelands_map_loader.cc:313
 msgid "Roads and waterways"
 msgstr "땅길 및 물길"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:229
-#: ../../src/map_io/widelands_map_loader.cc:202
+#: ../../src/map_io/map_saver.cc:230
+#: ../../src/map_io/widelands_map_loader.cc:243
 msgid "Map objects"
 msgstr "지도 객체"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:238
-#: ../../src/map_io/widelands_map_loader.cc:358
+#: ../../src/map_io/map_saver.cc:239
+#: ../../src/map_io/widelands_map_loader.cc:399
 msgid "Win condition"
 msgstr "승리 조건"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:247
+#: ../../src/map_io/map_saver.cc:248
 msgid "Flag details"
 msgstr "깃발 상세 정보"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:256
+#: ../../src/map_io/map_saver.cc:257
 msgid "Road and waterway details"
 msgstr "길과 물길 상세 정보"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:273
+#: ../../src/map_io/map_saver.cc:274
 msgid "Building details"
 msgstr "건물 상세 정보"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:281
+#: ../../src/map_io/map_saver.cc:282
 msgid "Territory"
 msgstr "영토"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:288
-#: ../../src/map_io/widelands_map_loader.cc:340
+#: ../../src/map_io/map_saver.cc:289
+#: ../../src/map_io/widelands_map_loader.cc:381
 msgid "Vision"
 msgstr "전망"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:297
-#: ../../src/map_io/widelands_map_loader.cc:375
+#: ../../src/map_io/map_saver.cc:298
+#: ../../src/map_io/widelands_map_loader.cc:416
 msgid "Scripting"
 msgstr "스크립트를 하고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:304
-#: ../../src/map_io/widelands_map_loader.cc:368
+#: ../../src/map_io/map_saver.cc:305
+#: ../../src/map_io/widelands_map_loader.cc:409
+#: ../../src/wlapplication_options.cc:462
 #: ../../src/wui/game_objectives_menu.cc:41
-#: ../../src/wui/interactive_player.cc:199
+#: ../../src/wui/interactive_player.cc:207
 msgid "Objectives"
 msgstr "목표"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:308
-#: ../../src/map_io/widelands_map_loader.cc:382
+#: ../../src/map_io/map_saver.cc:309
+#: ../../src/map_io/widelands_map_loader.cc:423
 msgid "Images"
 msgstr "그림"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:319
+#: ../../src/map_io/map_saver.cc:320
 msgid "Minimap"
 msgstr "작은 지도"
 
@@ -1995,161 +1998,156 @@ msgid ""
 msgstr "엔진이 SIGABRT 신호를 받았는데, 이 신호는 손상된 저장 게임에 의해 트리거되었을 가능성이 가장 높습니다. 이 버그에 대한 해결책은 아직 구현되지 않았습니다. 죄송하지만, 이번 저장 놀이는 복구 할 수 없을 정도로 깨진 것 같습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "지도 불러오는 중…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:157
+#: ../../src/map_io/widelands_map_loader.cc:198
 #, c-format
 msgid "Loading map: %1$s (%2$u/%3$d)"
 msgstr "지도를 불러오고 있음: %1$s (%2$u/%3$d)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:253
+#: ../../src/map_io/widelands_map_loader.cc:294
 msgid "Territories"
 msgstr "영토"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:293
+#: ../../src/map_io/widelands_map_loader.cc:334
 msgid "Initializing flags"
 msgstr "깃발들을 초기화하고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:300
+#: ../../src/map_io/widelands_map_loader.cc:341
 msgid "Initializing roads and waterways"
 msgstr "땅길과 물길을 초기화하고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:313
+#: ../../src/map_io/widelands_map_loader.cc:354
 msgid "Initializing buildings"
 msgstr "건물을 초기화하고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:320
+#: ../../src/map_io/widelands_map_loader.cc:361
 msgid "Initializing map objects"
 msgstr "지도 객체를 초기화하고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/widelands_map_loader.cc:385
+#: ../../src/map_io/widelands_map_loader.cc:426
 msgid "Checking map"
 msgstr "지도를 검사하고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:154 ../../src/network/gamehost.cc:693
-#: ../../src/wlapplication.cc:1501
+#: ../../src/network/gameclient.cc:137 ../../src/network/gamehost.cc:705
+#: ../../src/ui_fsmenu/launch_spg.cc:167 ../../src/wlapplication.cc:637
 msgid "Preparing game…"
 msgstr "놀이를 준비하고 있음…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:224
+#: ../../src/network/gameclient.cc:208
 #: ../../src/network/internet_gaming.cc:116
 msgid "Could not establish connection to host"
 msgstr "호스트에 연결할 수 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:1144
-msgid "Disconnected from Host"
-msgstr "호스트로부터의 접속 중단"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:283
+#: ../../src/network/gamehost.cc:291
 msgid "Available host commands are:"
 msgstr "가능한 호스트 명령들:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:302
+#: ../../src/network/gamehost.cc:310
 msgid "Wrong use, should be: /announce <message>"
 msgstr "잘못된 명령, 사용법: /announce <message>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:314
+#: ../../src/network/gamehost.cc:322
 msgid "Wrong use, should be: /warn <name> <reason>"
 msgstr "잘못된 명령, 사용법: /warn <name> <reason>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:318 ../../src/network/gamehost.cc:342
+#: ../../src/network/gamehost.cc:326 ../../src/network/gamehost.cc:350
 #, c-format
 msgid "The client %s could not be found."
 msgstr "클라이언트 %s 를 찾을 수 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:329
+#: ../../src/network/gamehost.cc:337
 msgid "Wrong use, should be: /kick <name> <reason>"
 msgstr "잘못된 명령, 사용법: /kick <name> <reason>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:340
+#: ../../src/network/gamehost.cc:348
 msgid "You can not kick yourself!"
 msgstr "당신은 스스로를 쫓아낼 수 없어요!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:346
+#: ../../src/network/gamehost.cc:354
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "%s를 정말 쫓아내길 원하십니까?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:348
+#: ../../src/network/gamehost.cc:356
 #, c-format
 msgid "The stated reason was: %s"
 msgstr "진술된 이유 : %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:349
+#: ../../src/network/gamehost.cc:357
 #, c-format
 msgid "If yes, type: /ack_kick %s"
 msgstr "알고 싶다면, 입력: /ack_kick %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:357
+#: ../../src/network/gamehost.cc:365
 msgid "Kick acknowledgement cancelled: No name given!"
 msgstr "추방이 취소됨: 이름이 주어지지 않음!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:359
+#: ../../src/network/gamehost.cc:367
 msgid "Wrong use, should be: /ack_kick <name>"
 msgstr "잘못된 명령, 사용법: /ack_kick <name>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:365
+#: ../../src/network/gamehost.cc:373
 msgid "Kick acknowledgement cancelled: Wrong name given!"
 msgstr "추방이 취소됨: 잘못된 이름이 주어짐!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:375
+#: ../../src/network/gamehost.cc:383
 msgid "Pause was already forced - game should be paused."
 msgstr "일시정지가 이미 강제되었습니다 - 게임은 일시정지되어야 합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:385
+#: ../../src/network/gamehost.cc:393
 msgid "There is no forced pause - nothing to end."
 msgstr "강제된 일시정지가 없습니다 - 끝이 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:394
+#: ../../src/network/gamehost.cc:402
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "잘못된 명령입니다! 명령 목록을 위해 /help 를 입력하세요."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:538
+#: ../../src/network/gamehost.cc:547
 msgid "Failed to host the server!"
 msgstr "서버를 주최하지 못 했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:539
+#: ../../src/network/gamehost.cc:548
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."
 msgstr "와이드랜드가 서버 주최를 시작할 수 없습니다.\n이런 일은 일어나서는 안 됩니다. 당신이 할 수있는 일이 거의 없을 것입니다. 버그를 보고하여 주십시요."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:547
+#: ../../src/network/gamehost.cc:556
 msgid "Failed to start the server!"
 msgstr "서버를 시작하는데 실패했습니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:548
+#: ../../src/network/gamehost.cc:557
 msgid ""
 "Widelands could not start a server.\n"
 "Probably some other process is already running a server on our port."
@@ -2181,14 +2179,6 @@ msgid "Welcome to the Widelands Metaserver!"
 msgstr "와이드랜드 메타서버에 온 것을 환영합니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:434
-#, c-format
-msgid ""
-"You have been logged in as '%s' since your requested name is already in use "
-"or reserved."
-msgstr "요청하신 이름이 이미 사용 중이거나 예약되어 있으므로 '%s' (으)로 로그인 됩니다."
-
-# (pofilter) startcaps: Different capitalization at the start
 #: ../../src/network/internet_gaming.cc:447
 msgid "Our forums can be found at:"
 msgstr "우리의 게시판은 다음에서 찾을 수 있습니다:"
@@ -2199,22 +2189,22 @@ msgid "For reporting bugs, visit:"
 msgstr "버그를 신고하려면 다음 누리집을 방문하십시오:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:471
+#: ../../src/network/internet_gaming.cc:472
 msgid "Mixed up"
 msgstr "혼성"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:471
+#: ../../src/network/internet_gaming.cc:472
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "메타서버가 연결 도중에 이상한 오류를 전송했습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:486
+#: ../../src/network/internet_gaming.cc:487
 msgid "Unexpected packet"
 msgstr "기대치 않은 패킷"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:487
+#: ../../src/network/internet_gaming.cc:488
 msgid ""
 "Received an unexpected network packet from the metaserver. The metaserver "
 "could be using a different protocol version. If the error persists, try "
@@ -2222,100 +2212,100 @@ msgid ""
 msgstr "메타 서버에서 예기치 않은 네트워크 패킷을 받았습니다. 메타 서버가 다른 프로토콜 버전을 사용하고 있을 수 있습니다. 오류가 계속되면 게임을 판올림 해 보십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:499
+#: ../../src/network/internet_gaming.cc:500
 #, c-format
 msgid ""
 "WARNING: Received a %s command although we are not in CONNECTING state."
 msgstr "경고: 비록 우리가 연결된 상태가 아니어도 명령 %s를 수신함."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:510
+#: ../../src/network/internet_gaming.cc:511
 #, c-format
 msgid "Server time offset is %d second."
 msgid_plural "Server time offset is %d seconds."
 msgstr[0] "서버 시간 오프셋은 %d 초입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:525
+#: ../../src/network/internet_gaming.cc:526
 #, c-format
 msgid "Invalid chat message type \"%s\"."
 msgstr "잘못된 채팅 메시지 타입 \"%s\""
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:525
+#: ../../src/network/internet_gaming.cc:526
 msgid "Invalid message type"
 msgstr "잘못된 메시지 타입"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:566
+#: ../../src/network/internet_gaming.cc:567
 #, c-format
 msgid "The game %s is now available"
 msgstr "게임 %s 는 지금 이용가능함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:577
+#: ../../src/network/internet_gaming.cc:578
 #, c-format
 msgid "The game %s has been closed"
 msgstr "게임 %s 는 닫혔음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:684
+#: ../../src/network/internet_gaming.cc:687
 msgid "Chat message could not be sent."
 msgstr "채팅 메시지가 전송되지 않습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:694
+#: ../../src/network/internet_gaming.cc:697
 msgid "Command could not be executed."
 msgstr "사용자쪽 명령을 실행할 수 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:714
+#: ../../src/network/internet_gaming.cc:717
 #, c-format
 msgid "ERROR: %s"
 msgstr "오류: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:717
+#: ../../src/network/internet_gaming.cc:720
 msgid "An unexpected error message has been received about command %1%: %2%"
 msgstr "명령 %1%:%2%에 대한 예기치 않은 오류 메시지가 수신되었습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:730
+#: ../../src/network/internet_gaming.cc:733
 #, c-format
 msgid "Received an unknown command from the metaserver: %s"
 msgstr "메타서버에서 알 수 없는 명령을 수신함: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:883
+#: ../../src/network/internet_gaming.cc:886
 msgid "Message could not be sent: You are not connected to the metaserver!"
 msgstr "메시지가 전송되지 않습니다: 메타서버에 연결되지 않았습니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:902
-#: ../../src/network/internet_gaming.cc:909
+#: ../../src/network/internet_gaming.cc:905
+#: ../../src/network/internet_gaming.cc:912
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "메시지가 전송되지 않습니다. 개인 메시지인가요?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:924
+#: ../../src/network/internet_gaming.cc:927
 msgid "Supported admin commands:"
 msgstr "지원되는 관리 사용자쪽 명령:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:1010
+#: ../../src/network/internet_gaming.cc:1013
 msgid "Conversion error"
 msgstr "전환 오류"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Geeky message from the metaserver
 #. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
-#: ../../src/network/internet_gaming.cc:1013
+#: ../../src/network/internet_gaming.cc:1016
 #, c-format
 msgid "Unable to determine truth value for \"%s\""
 msgstr "\"%s\"의 참값을 얻지 못함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:1038
+#: ../../src/network/internet_gaming.cc:1041
 msgctxt "chat_sender"
 msgid "Unknown"
 msgstr "알 수 없음"
@@ -2543,13 +2533,13 @@ msgid "Client %1$s did not answer for more than %2$s."
 msgstr "클라이언트 %1$s 는 %2$s 이상으로 대응하지 못합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/network_lan_promotion.cc:364
+#: ../../src/network/network_lan_promotion.cc:362
 msgid "Failed to use the local network!"
 msgstr "로컬 네트워크를 사용하는데 실패했습니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s is a list of alternative ports with "or"
-#: ../../src/network/network_lan_promotion.cc:366
+#: ../../src/network/network_lan_promotion.cc:364
 #, c-format
 msgid ""
 "Widelands was unable to use the local network. Maybe some other process is "
@@ -2563,110 +2553,121 @@ msgid "Select Item"
 msgstr "아이템 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/dropdown.cc:341 ../../src/ui_basic/dropdown.cc:343
-#: ../../src/ui_fsmenu/launch_mpg.cc:358
-msgid "Error"
-msgstr "오류"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Selection in Dropdown menus.
-#: ../../src/ui_basic/dropdown.cc:401
+#: ../../src/ui_basic/dropdown.cc:411
 msgctxt "dropdown"
 msgid "Not Selected"
 msgstr "선택 안됨"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "불러오는 중…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/window.cc:111 ../../src/ui_fsmenu/about.cc:42
+#: ../../src/ui_basic/window.cc:108 ../../src/ui_fsmenu/about.cc:41
 #: ../../src/wui/watchwindow.cc:74
 msgid "Close"
 msgstr "종료"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/window.cc:166
+#: ../../src/ui_basic/window.cc:173
 msgid "Minimize"
 msgstr "최소화"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/window.cc:166
+#: ../../src/ui_basic/window.cc:173
 msgid "Restore"
 msgstr "복원"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/window.cc:171
+#: ../../src/ui_basic/window.cc:178 ../../src/wui/info_panel.cc:196
 msgid "Pin"
 msgstr "고정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/window.cc:171
+#: ../../src/ui_basic/window.cc:178
 msgid "Unpin"
 msgstr "고정 해제"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/about.cc:39 ../../src/ui_fsmenu/main.cc:381
+#: ../../src/ui_fsmenu/about.cc:38 ../../src/ui_fsmenu/main.cc:449
 msgid "About Widelands"
 msgstr "와이드랜드에 대하여"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/about.cc:50 ../../src/ui_fsmenu/about.cc:55
+#: ../../src/ui_fsmenu/about.cc:49 ../../src/ui_fsmenu/about.cc:54
 msgid "Lua Error"
 msgstr "루아 오류"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:32
+#: ../../src/ui_fsmenu/addons_packager_box.cc:138
+#: ../../src/ui_fsmenu/main.cc:400
+#, c-format
+msgid "Name: %s"
+msgstr "이름: %s"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/addons_packager_box.cc:142
+#: ../../src/ui_fsmenu/main.cc:404 ../../src/ui_fsmenu/mapdetailsbox.cc:101
+#, c-format
+msgid "Size: %s"
+msgstr "크기: %s"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/addons_packager_box.cc:147
+#: ../../src/ui_fsmenu/main.cc:344 ../../src/ui_fsmenu/main.cc:410
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:107
+#, c-format
+msgid "Players: %s"
+msgstr "선수들: %s"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Header for campaign difficulty
+#: ../../src/ui_fsmenu/addons_packager_box.cc:325
+#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/ui_fsmenu/campaigndetails.cc:63
+#: ../../src/ui_fsmenu/scenario_select.cc:68
+msgid "Difficulty"
+msgstr "난이도"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/campaign_select.cc:34
 msgid "Choose Campaign"
 msgstr "캠페인을 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:38
-#: ../../src/ui_fsmenu/loadgame.cc:66
-#: ../../src/ui_fsmenu/scenario_select.cc:101
+#: ../../src/ui_fsmenu/campaign_select.cc:39
+#: ../../src/ui_fsmenu/loadgame.cc:80
+#: ../../src/ui_fsmenu/scenario_select.cc:104
 msgid "Return to the main menu"
 msgstr "기본 차림표로 복귀"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:39
+#: ../../src/ui_fsmenu/campaign_select.cc:40
 msgid "Play this campaign"
 msgstr "해당 캠페인 플레이"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Campaign difficulty table header
-#: ../../src/ui_fsmenu/campaign_select.cc:47
+#: ../../src/ui_fsmenu/campaign_select.cc:48
 msgid "Diff."
 msgstr "번역확인->난이도 차이점."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Header for campaign difficulty
-#: ../../src/ui_fsmenu/campaign_select.cc:47
-#: ../../src/ui_fsmenu/campaigndetails.cc:63
-#: ../../src/ui_fsmenu/scenario_select.cc:65
-msgid "Difficulty"
-msgstr "난이도"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/ui_fsmenu/campaign_select.cc:49
 msgid "Tribe Name"
 msgstr "부족 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:50
+#: ../../src/ui_fsmenu/campaign_select.cc:51
 msgid "Campaign Name"
 msgstr "캠페인 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Header for campaign name
-#: ../../src/ui_fsmenu/campaigndetails.cc:49
-msgid "Campaign"
-msgstr "작전 수행"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign description
 #: ../../src/ui_fsmenu/campaigndetails.cc:71
-#: ../../src/ui_fsmenu/scenariodetails.cc:67 ../../src/wui/mapdetails.cc:188
+#: ../../src/ui_fsmenu/scenariodetails.cc:67 ../../src/wui/mapdetails.cc:197
 #: ../../src/wui/savegametable.cc:132 ../../src/wui/savegametable.cc:184
 #: ../../src/wui/savegametable.cc:244
 msgid "Description"
@@ -2679,87 +2680,89 @@ msgid "Help: %s"
 msgstr "도움말: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:53
+#: ../../src/ui_fsmenu/internet_lobby.cc:55
+#: ../../src/wlapplication_options.cc:244
 msgid "Metaserver Lobby"
 msgstr "메타서버 앞마당"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:62
+#: ../../src/ui_fsmenu/internet_lobby.cc:64
 msgid "Clients online:"
 msgstr "접속 중인 클라이언트:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:74
+#: ../../src/ui_fsmenu/internet_lobby.cc:76
 msgid "Open Games:"
 msgstr "놀이 열기:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:83
-#: ../../src/ui_fsmenu/netsetup_lan.cc:81
+#: ../../src/ui_fsmenu/internet_lobby.cc:85
+#: ../../src/ui_fsmenu/netsetup_lan.cc:87
 msgid "Join this game"
 msgstr "해당 게임 참가"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:91
+#: ../../src/ui_fsmenu/internet_lobby.cc:93
 msgid "Name of your server:"
 msgstr "당신의 서버 이름:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:100
+#: ../../src/ui_fsmenu/internet_lobby.cc:102
 msgid "Open a new game"
 msgstr "새로운 게임 열기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:109
+#: ../../src/ui_fsmenu/internet_lobby.cc:111
 msgid "Leave Lobby"
 msgstr "앞마당 떠나기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:159
+#: ../../src/ui_fsmenu/internet_lobby.cc:161
 msgid "User Status"
 msgstr "사용자 상태"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:160
+#: ../../src/ui_fsmenu/internet_lobby.cc:162
 msgid "Administrator"
 msgstr "관리자"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:161
+#: ../../src/ui_fsmenu/internet_lobby.cc:163
 msgid "Registered"
 msgstr "등록 유저"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:162
+#: ../../src/ui_fsmenu/internet_lobby.cc:164
 msgid "Unregistered"
 msgstr "미등록 유저"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Player Name
-#: ../../src/ui_fsmenu/internet_lobby.cc:166
+#: ../../src/ui_fsmenu/internet_lobby.cc:168
 msgctxt "player"
 msgid "Name"
 msgstr "이름"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Widelands version
-#: ../../src/ui_fsmenu/internet_lobby.cc:168
+#: ../../src/ui_fsmenu/internet_lobby.cc:170
 msgid "Version"
 msgstr "버전"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:170
+#: ../../src/ui_fsmenu/internet_lobby.cc:172
+#: ../../src/ui_fsmenu/keyboard_options.cc:185
 msgid "Game"
 msgstr "게임"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:403
+#: ../../src/ui_fsmenu/internet_lobby.cc:417
 #, c-format
 msgid "The game %s is already running. Please choose a different name."
 msgstr "%s 놀이가 이미 실행 중입니다. 다른 이름을 선택하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:417
+#: ../../src/ui_fsmenu/internet_lobby.cc:431
 msgid ""
 "Widelands was unable to get the IP address of the server in time. There "
 "seems to be a network problem, either on your side or on the side of the "
@@ -2767,67 +2770,74 @@ msgid ""
 msgstr "와이드랜드가 제 시간에 서버의 IP 주소를 가져올 수 없습니다. 사용자 쪽이나 서버 쪽에 네트워크 문제가 있는 것 같습니다.\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:420
+#: ../../src/ui_fsmenu/internet_lobby.cc:434
 msgid "Connection Timed Out"
 msgstr "연결 시간 초과"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:40
+#. * TRANSLATORS: An entry in the game's statistics menu
+#: ../../src/ui_fsmenu/keyboard_options.cc:183
+#: ../../src/wui/interactive_player.cc:325
+msgid "General"
+msgstr "일반"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/launch_game.cc:43
 msgid "Launch Game"
 msgstr "놀이를 실행"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:50
+#: ../../src/ui_fsmenu/launch_game.cc:53
 msgid "Configure this game"
 msgstr "이 놀이를 구성"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:64
+#: ../../src/ui_fsmenu/launch_game.cc:81
 msgid "Peaceful mode"
 msgstr "평화 모드"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:68
+#: ../../src/ui_fsmenu/launch_game.cc:85
 msgid "Custom starting positions"
 msgstr "사용자 정의 시작 위치"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:77
+#: ../../src/ui_fsmenu/launch_game.cc:121
 msgid "Start game"
 msgstr "게임 시작"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:124
+#: ../../src/ui_fsmenu/launch_game.cc:186
 msgid "The relations between players are set by the scenario"
 msgstr "선수 간의 관계는 시나리오에 의해 설정됩니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:126
+#: ../../src/ui_fsmenu/launch_game.cc:188
 msgid "The relations between players are set by the saved game"
 msgstr "선수 간의 관계는 저장된 놀이에 의해 설정됩니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:128
+#: ../../src/ui_fsmenu/launch_game.cc:190
 msgid "The selected win condition does not allow peaceful matches"
 msgstr "선택한 승리 조건은 평화로운 경기를 허용하지 않습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:130
+#: ../../src/ui_fsmenu/launch_game.cc:192
 msgid "Forbid fighting between players"
 msgstr "선수들 간의 싸움을 금지합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:141
+#: ../../src/ui_fsmenu/launch_game.cc:224
 msgid "The starting positions are set by the scenario"
 msgstr "시작 위치는 시나리오에 의해 설정됩니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:143
+#: ../../src/ui_fsmenu/launch_game.cc:226
 msgid "The starting positions are set by the saved game"
 msgstr "시작 위치는 저장된 놀이에 의해 설정됩니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:146
+#: ../../src/ui_fsmenu/launch_game.cc:229
 msgid ""
 "Allow the players to choose their own starting positions at the beginning of"
 " the game"
@@ -2835,84 +2845,53 @@ msgstr "선수가 게임을 시작할 때 자신의 시작 위치를 선택할 �
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a map tag
-#: ../../src/ui_fsmenu/launch_game.cc:153
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:444
+#: ../../src/ui_fsmenu/launch_game.cc:236
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:466
 #: ../../src/ui_fsmenu/scenariodetails.cc:48
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:276
-#: ../../src/wui/map_tags.cc:44 ../../src/wui/mapdetails.cc:139
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:289
+#: ../../src/wui/map_tags.cc:44 ../../src/wui/mapdetails.cc:141
 msgid "Scenario"
 msgstr "시나리오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:154
+#: ../../src/ui_fsmenu/launch_game.cc:237
 msgid "Win condition is set through the scenario"
 msgstr "승리 조건이 시나리오에 설정됨"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:160 ../../src/ui_fsmenu/launch_mpg.cc:73
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:448
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:280
+#: ../../src/ui_fsmenu/launch_game.cc:243
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:470
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:293
 msgid "Saved Game"
 msgstr "저장된 게임"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:162
+#: ../../src/ui_fsmenu/launch_game.cc:245
 msgid "The game is a saved game – the win condition was set before."
 msgstr "이 게임은 저장된 게임입니다 - 승리 조건이 이전에 설정되었습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:224
-#, c-format
-msgid ""
-"Unable to determine valid win conditions because the map '%s' could not be "
-"loaded."
-msgstr "지도 '%s\"를 불러올 수가 없어서 적합한 승리 조건을 설정할 수 없습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Dialog box title for selecting between map or saved game for
-#. new
-#. multiplayer game
-#: ../../src/ui_fsmenu/launch_mpg.cc:57
-msgid "Please select"
-msgstr "선택해 주세요"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:67
-msgid "Select a map"
-msgstr "지도 선택"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:73
-msgid "Select a saved game"
-msgstr "저장된 게임 선택"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:78
-msgid "Cancel selection"
-msgstr "선택 취소"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:111
+#: ../../src/ui_fsmenu/launch_mpg.cc:69
 msgid "Show the help window"
 msgstr "도움말 창 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:121
+#: ../../src/ui_fsmenu/launch_mpg.cc:80
 msgid "Please select a map or saved game."
 msgstr "지도 또는 저장된 놀이를 선택하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:123
+#: ../../src/ui_fsmenu/launch_mpg.cc:83
 msgid "The host has not yet selected a map or saved game."
 msgstr "호스트가 아직 지도나 저장된 게임을 선택하지 않았습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:265
+#: ../../src/ui_fsmenu/launch_mpg.cc:192
 msgid "Saved Game is Directory"
 msgstr "저장된 게임은 디렉토리"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:266
+#: ../../src/ui_fsmenu/launch_mpg.cc:193
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
@@ -2920,12 +2899,12 @@ msgid ""
 msgstr "경고:\n당신이 선택한 저장된 게임은 디렉토리입니다. 이 상황은 당신이 옵션 'nozip'을 참으로 설정하거나 수동으로 저장된 게임을 압축 해제할 때 발생합니다.\n와이드랜드는 디렉토리 구조를 클라이언트에게 전달하지 못하므로, 다른 저장된 게임을 선택하거나 디렉토리의 내용물을 압축해주세요."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:283 ../../src/ui_fsmenu/launch_spg.cc:163
+#: ../../src/ui_fsmenu/launch_mpg.cc:212 ../../src/ui_fsmenu/launch_spg.cc:126
 msgid "File not found"
 msgstr "파일이 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:284 ../../src/ui_fsmenu/launch_spg.cc:164
+#: ../../src/ui_fsmenu/launch_mpg.cc:213 ../../src/ui_fsmenu/launch_spg.cc:127
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -2934,87 +2913,81 @@ msgid ""
 msgstr "와이드랜드 주어진 경로에 존재하지 않는 파일로 게임을 시작하려 시도했습니다.\n파일: %s\n네트워크 게임에서 이 상황이 발생한다면, 호스트는 당신이 갖지 않은 파일을 선택했을 겁니다. 일반적으로, 그런 파일은 호스트에서 당신께 전송되어야 하지만, 아마 전송이 아직 완료가 안됐을 겁니다!?!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:317
+#: ../../src/ui_fsmenu/launch_mpg.cc:253
 msgid ""
 "The selected file can not be found. If it is not automatically transferred "
 "to you, please write to the host about this problem."
 msgstr "선택한 파일을 찾을 수 없습니다. 파일이 자동으로 전송되지 않는다면, 호스트에게 이 문제에 대해 보고하세요."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:360
-#, c-format
-msgid "Unable to load the win condition script file '%s'."
-msgstr "승리 조건 스크립트 파일 '%s'를 불러오는 데 실패했습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a heading for a help window
-#: ../../src/ui_fsmenu/launch_mpg.cc:482
+#: ../../src/ui_fsmenu/launch_mpg.cc:419
 msgid "Multiplayer Game Setup"
 msgstr "멀티선수 게임 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:33
+#: ../../src/ui_fsmenu/loadgame.cc:43
 msgid "Choose Game"
 msgstr "놀이를 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:33
+#: ../../src/ui_fsmenu/loadgame.cc:43
 msgid "Choose Replay"
 msgstr "다시 놀기를 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:52
+#: ../../src/ui_fsmenu/loadgame.cc:66
 msgid "Show Filenames"
 msgstr "파일 이름 확인"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:67
+#: ../../src/ui_fsmenu/loadgame.cc:81
 msgid "Load this replay"
 msgstr "해당 리플레이 불러오기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:69 ../../src/ui_fsmenu/mapselect.cc:59
+#: ../../src/ui_fsmenu/loadgame.cc:83 ../../src/ui_fsmenu/mapselect.cc:67
 msgid "Return to the multiplayer game setup"
 msgstr "함꼐 놀기 놀이 설정으로 복귀"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:70 ../../src/ui_fsmenu/mapselect.cc:61
+#: ../../src/ui_fsmenu/loadgame.cc:84 ../../src/ui_fsmenu/mapselect.cc:69
 msgid "Return to the single player menu"
 msgstr "혼자 놀기 차림표로 복귀"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:71
+#: ../../src/ui_fsmenu/loadgame.cc:85
 msgid "Load this game"
 msgstr "해당 놀이를 불러오기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:37 ../../src/ui_fsmenu/main.cc:305
+#: ../../src/ui_fsmenu/login_box.cc:38 ../../src/ui_fsmenu/main.cc:365
 msgid "Online Game Settings"
 msgstr "통신 놀이 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:44
-#: ../../src/wui/economy_options_window.cc:658
+#: ../../src/ui_fsmenu/login_box.cc:45
+#: ../../src/wui/economy_options_window.cc:661
 msgid "Save"
 msgstr "저장"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:50
+#: ../../src/ui_fsmenu/login_box.cc:51
 msgid "Log in to a registered account."
 msgstr "등록된 계정으로 로그인하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:51
+#: ../../src/ui_fsmenu/login_box.cc:52
 msgid "Nickname:"
 msgstr "별명:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:52
+#: ../../src/ui_fsmenu/login_box.cc:53
 msgid "Password:"
 msgstr "암호:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:59
+#: ../../src/ui_fsmenu/login_box.cc:60
 #, c-format
 msgid ""
 "In order to use a registered account, you need an account on the Widelands "
@@ -3023,98 +2996,92 @@ msgid ""
 msgstr "등록 된 계정을 사용하려면 와이드랜드 누리집의 계정이 있어야 합니다. %s 에 로그인하여 프로필 페이지에서 온라인 게임 암호를 설정하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:199
+#: ../../src/ui_fsmenu/login_box.cc:204
 msgid "Please enter a nickname!"
 msgstr "별명을 입력하십시오!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:203
+#: ../../src/ui_fsmenu/login_box.cc:208
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
 msgstr "올바른 대화명을 입력하십시오. 이 값에는 영문자, 숫자 및 @ . + - _ 문자만 포함할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:209
+#: ../../src/ui_fsmenu/login_box.cc:214
 msgid "Please enter your password!"
 msgstr "암호를 입력하십시오!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:241
+#: ../../src/ui_fsmenu/main.cc:296
 msgid "Begin a new game"
 msgstr "새로운 놀이 시작"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:241
+#: ../../src/ui_fsmenu/main.cc:296 ../../src/wlapplication_options.cc:162
 msgid "New Game"
 msgstr "새로운 놀이"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:242
+#: ../../src/ui_fsmenu/main.cc:298 ../../src/ui_fsmenu/random_game.cc:30
+#: ../../src/wlapplication_options.cc:176
 msgid "New Random Game"
 msgstr "새로운 아무런 놀이"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:243
+#: ../../src/ui_fsmenu/main.cc:299
 msgid "Create a new random match"
 msgstr "새로운 아무 경기를 만듬"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:245
+#: ../../src/ui_fsmenu/main.cc:301 ../../src/wlapplication_options.cc:186
 msgid "Campaigns"
 msgstr "캠페인"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:245
+#: ../../src/ui_fsmenu/main.cc:301
 msgid "Play a campaign"
 msgstr "켐페인을 시작"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:246
+#: ../../src/ui_fsmenu/main.cc:303 ../../src/wlapplication_options.cc:181
 msgid "Tutorials"
 msgstr "자습서"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:247
+#: ../../src/ui_fsmenu/main.cc:304
 msgid "Play one of our beginners’ tutorials"
 msgstr "초보자의 자습서의 하나를 시작"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:249
-msgid "Continue a saved game"
-msgstr "저장된 놀이 계속하기"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:249
+#: ../../src/ui_fsmenu/main.cc:306 ../../src/wlapplication_options.cc:166
 msgid "Load Game"
 msgstr "게임 불러오기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:268
+#: ../../src/ui_fsmenu/main.cc:307
+msgid "Continue a saved game"
+msgstr "저장된 놀이 계속하기"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/main.cc:327 ../../src/wlapplication_options.cc:223
 msgid "Continue Playing"
 msgstr "계속 놀고 있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:277
+#: ../../src/ui_fsmenu/main.cc:336
 #, c-format
 msgid "Map: %s"
 msgstr "지도: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:281
+#: ../../src/ui_fsmenu/main.cc:340
 #, c-format
 msgid "Win Condition: %s"
 msgstr "승리 조건: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:285 ../../src/ui_fsmenu/main.cc:347
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:106
-#, c-format
-msgid "Players: %s"
-msgstr "선수들: %s"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:289
+#: ../../src/ui_fsmenu/main.cc:348
 #, c-format
 msgid "Gametime: %s"
 msgstr "놀이시간: %s"
@@ -3122,175 +3089,174 @@ msgstr "놀이시간: %s"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Information about when a game was saved, e.g. 'Saved: Today,
 #. 10:30'
-#: ../../src/ui_fsmenu/main.cc:294
+#: ../../src/ui_fsmenu/main.cc:353
 #, c-format
 msgid "Saved: %s"
 msgstr "저장됨: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:303
+#: ../../src/ui_fsmenu/main.cc:362
 msgid "Online Game"
 msgstr "통신 놀이"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:304
+#: ../../src/ui_fsmenu/main.cc:363
 msgid "Join the Widelands lobby"
 msgstr "와이드랜드 앞마당 들어가기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:306
+#: ../../src/ui_fsmenu/main.cc:366
 msgid "Log in as a registered user"
 msgstr "등록된 사용자로 로그인"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:308
+#: ../../src/ui_fsmenu/main.cc:368 ../../src/wlapplication_options.cc:240
 msgid "LAN / Direct IP"
 msgstr "랜 / 다이렉트 IP"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:308
+#: ../../src/ui_fsmenu/main.cc:369
 msgid "Play a private online game"
 msgstr "개인 공동 전산망 놀이 하기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:311
+#: ../../src/ui_fsmenu/main.cc:372
 msgid "Create a new empty map"
 msgstr "새로운 빈 지도를 만듬"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:313
+#: ../../src/ui_fsmenu/main.cc:375
 msgid "Create a new random map"
 msgstr "새로운 아무런 지도를 만듬"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:315
+#: ../../src/ui_fsmenu/main.cc:377
 msgid "Edit an existing map"
 msgstr "있는 지도를 편집"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:330
+#: ../../src/ui_fsmenu/main.cc:393 ../../src/wlapplication_options.cc:218
 msgid "Continue Editing"
 msgstr "계속 편집"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:337
-#, c-format
-msgid "Name: %s"
-msgstr "이름: %s"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:341 ../../src/ui_fsmenu/mapdetailsbox.cc:100
-#, c-format
-msgid "Size: %s"
-msgstr "크기: %s"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:360
+#: ../../src/ui_fsmenu/main.cc:423
 msgid "Single Player…"
 msgstr "단일 선수..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:361
+#: ../../src/ui_fsmenu/main.cc:424
 msgid "Multiplayer…"
 msgstr "함께 놀기..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:362
+#: ../../src/ui_fsmenu/main.cc:425
 msgid "Editor…"
 msgstr "편집기..."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:364
+#: ../../src/ui_fsmenu/main.cc:427
 msgid "Begin or load a single-player campaign or free game"
 msgstr "혼자 놀기 캠페인 또는 자유롭게 놀기를 시작하거나 불러오기를 하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:366
+#: ../../src/ui_fsmenu/main.cc:430
 msgid "Play with your friends over the internet"
 msgstr "인터넷을 통해 친구들과 놀기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:368
+#: ../../src/ui_fsmenu/main.cc:433
 msgid "Launch the map editor"
 msgstr "지도 편집기를 실행"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:370
+#: ../../src/ui_fsmenu/main.cc:436 ../../src/wlapplication_options.cc:171
 msgid "Watch Replay"
 msgstr "다시보기 감상"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:372
+#: ../../src/ui_fsmenu/main.cc:438
 msgid "Watch the replay of an old game"
 msgstr "오래된 놀이의 다시놀기를 보기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:374
+#: ../../src/ui_fsmenu/main.cc:441 ../../src/wlapplication_options.cc:236
 msgid "Add-Ons"
 msgstr "추가기능"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:378 ../../src/ui_fsmenu/options.cc:86
+#: ../../src/ui_fsmenu/main.cc:445 ../../src/ui_fsmenu/options.cc:90
+#: ../../src/wlapplication_options.cc:253
 msgid "Options"
 msgstr "선택사항"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:380
+#: ../../src/ui_fsmenu/main.cc:447
 msgid "Technical and game-related settings"
 msgstr "기술 및 놀이 관련 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:383
+#: ../../src/ui_fsmenu/main.cc:451
 msgid "Readme, License, and Credits"
 msgstr "읽어보기, 허가서 및 크레딧"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:384
+#: ../../src/ui_fsmenu/main.cc:453 ../../src/wlapplication_options.cc:227
 msgid "Exit Widelands"
 msgstr "와이드랜드 종료"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:386
+#: ../../src/ui_fsmenu/main.cc:455
 msgid "Quit the game"
 msgstr "놀이를 끝냅니다"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %1$s = version string, %2%s = "Debug" or "Release"
-#: ../../src/ui_fsmenu/main.cc:390
+#: ../../src/ui_fsmenu/main.cc:460
 #, c-format
 msgid "Version %1$s (%2$s)"
 msgstr "버전 %1$s (%2$s)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:47
+#: ../../src/ui_fsmenu/main.cc:892 ../../src/ui_fsmenu/netsetup_lan.cc:321
+msgid "No tribes found!"
+msgstr "부족을 찾을 수 없습니다!"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/main.cc:893 ../../src/ui_fsmenu/netsetup_lan.cc:322
+msgid "No tribes found in data/tribes/initialization/[tribename]/init.lua."
+msgstr "data/tribes/initialization/[tribename]/init.lua 에서 부족을 찾을 수 없습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:48
 msgid "Saved Players"
 msgstr "저장된 선수"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:54
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:55
 #, c-format
 msgid "Player %u: –"
 msgstr "선수 %u: –"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: "Player 1 (Barbarians): Playername"
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:77
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:78
 #, c-format
 msgid "Player %1$u (%2$s): %3$s"
 msgstr "선수 %1$u (%2$s): %3$s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:96
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:97
 msgid "Map Details"
 msgstr "지도 상세정보"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:96
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:97
 msgid "Scenario Details"
 msgstr "시나리오 상세정보"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:118
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:119
 #, c-format
 msgid "Hint: %s"
 msgstr "도움말: %s"
@@ -3301,27 +3267,22 @@ msgid "No map selected"
 msgstr "선택된 지도가 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:161
-msgid "Change map or saved game"
-msgstr "지도 또는 저장된 게임 바꾸기"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:44
+#: ../../src/ui_fsmenu/mapselect.cc:50
 msgid "Choose Map"
 msgstr "지도를 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:74
+#: ../../src/ui_fsmenu/mapselect.cc:82
 msgid "Show all maps"
 msgstr "모든 지도 보기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:76
+#: ../../src/ui_fsmenu/mapselect.cc:84
 msgid "Show original map names"
 msgstr "기존 지도 이름 확인"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:94
+#: ../../src/ui_fsmenu/mapselect.cc:102
 msgid "Official & Unofficial"
 msgstr "공식 & 비공식"
 
@@ -3329,250 +3290,260 @@ msgstr "공식 & 비공식"
 #. * TRANSLATORS: Filter entry in map selection. Other entries are "Free for
 #. all"", "Teams of 2"
 #. * etc.
-#: ../../src/ui_fsmenu/mapselect.cc:108
+#: ../../src/ui_fsmenu/mapselect.cc:116
 msgid "Any Teams"
 msgstr "아무런 팀"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:426
+#: ../../src/ui_fsmenu/mapselect.cc:459
 msgid "Balanced & Unbalanced"
 msgstr "균형 & 불균형"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:431
+#: ../../src/ui_fsmenu/mapselect.cc:464
 msgctxt "balancing"
 msgid "Unspecified"
 msgstr "불특정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/menu.cc:112
+#: ../../src/ui_fsmenu/menu.cc:108
 msgid "Back"
 msgstr "뒤로"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:57
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:58
 msgid "Role"
 msgstr "역할"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:115
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:117
 msgid "Spectator"
 msgstr "관전자"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:168
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:308
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:149
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:192
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:170
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:158
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
 msgid "Type"
 msgstr "유형"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is the name of an AI used in the game setup screens
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:283
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:284
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:174
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:175
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:302
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:303
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:184
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:185
 msgid "Random AI"
 msgstr "무작위 AI"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:288
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:290
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:308
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:310
 msgid "Shared in"
 msgstr "공유함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:295
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:296
-#: ../../src/ui_fsmenu/netsetup_lan.cc:215
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:183
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:315
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:316
+#: ../../src/ui_fsmenu/netsetup_lan.cc:224
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:194
 msgid "Closed"
 msgstr "닫힘"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:300
-#: ../../src/ui_fsmenu/netsetup_lan.cc:212
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:320
+#: ../../src/ui_fsmenu/netsetup_lan.cc:221
 msgid "Open"
 msgstr "열기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:308
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:192
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
 msgid "Human"
 msgstr "인간"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is an option in multiplayer setup for sharing
 #. another player's starting position.
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:385
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:83
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:404
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:88
 #, c-format
 msgid "Shared in Player %u"
 msgstr "선수 %u와 공유함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:445
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:277
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:467
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:290
 msgid "Start type is set via the scenario"
 msgstr "시작 유형은 시나리오를 통해 설정됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:504
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:364
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:539
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:384
 msgid "No Team"
 msgstr "편 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:510
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:370
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:545
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:390
 #, c-format
 msgid "Team %d"
 msgstr "편 %d"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:606
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:645
 msgid "Clients"
 msgstr "클라이언트"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:30
+#: ../../src/ui_fsmenu/netsetup_lan.cc:36
 msgid "Begin LAN Game"
 msgstr "랜 놀이 시작"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:40
+#: ../../src/ui_fsmenu/netsetup_lan.cc:46
 msgid "List of games in your local network:"
 msgstr "당신의 지역 네트워크 게임 목록:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:51
+#: ../../src/ui_fsmenu/netsetup_lan.cc:57
 msgid "Your nickname:"
 msgstr "별명:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:60
+#: ../../src/ui_fsmenu/netsetup_lan.cc:66
 msgid "Host to connect:"
 msgstr "접속할 호스트:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:72
+#: ../../src/ui_fsmenu/netsetup_lan.cc:78
 msgid "Load previous host"
 msgstr "이전 호스트 불러오기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:89
+#: ../../src/ui_fsmenu/netsetup_lan.cc:95
 msgid "Host a new game"
 msgstr "새로운 게임 호스트"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:123
+#: ../../src/ui_fsmenu/netsetup_lan.cc:129
 msgid "Host"
 msgstr "호스트"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:125
+#: ../../src/ui_fsmenu/netsetup_lan.cc:131
 msgid "State"
 msgstr "상태"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The state of a LAN game can be open, closed or unknown
-#: ../../src/ui_fsmenu/netsetup_lan.cc:219
+#: ../../src/ui_fsmenu/netsetup_lan.cc:228
 msgctxt "game_state"
 msgid "Unknown"
 msgstr "알 수 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:91
+#: ../../src/ui_fsmenu/netsetup_lan.cc:298
+msgid "Invalid Address"
+msgstr "잘못된 주소"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/netsetup_lan.cc:299
+msgid "The entered hostname or address is invalid and can’t be connected to."
+msgstr "입력한 호스트 이름 또는 주소가 잘못되어 연결할 수 없습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/options.cc:95
 msgid "Apply"
 msgstr "적용"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:114
+#: ../../src/ui_fsmenu/options.cc:119
 msgid "Language"
 msgstr "언어"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:125
+#: ../../src/ui_fsmenu/options.cc:130
 msgid "Window Size"
 msgstr "창 크기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:131
+#: ../../src/ui_fsmenu/options.cc:146
 msgid "Grab Input"
 msgstr "입력 고정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:135
+#: ../../src/ui_fsmenu/options.cc:150
 msgid "Use system mouse cursor"
 msgstr "시스템 마우스 커서 사용"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:147
+#: ../../src/ui_fsmenu/options.cc:154
 msgid "Maximum FPS:"
 msgstr "최대 FPS:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:154
+#: ../../src/ui_fsmenu/options.cc:165
 msgid "Snap windows only when overlapping"
 msgstr "창을 오버랩할때만 밀착"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:160
+#: ../../src/ui_fsmenu/options.cc:171
 msgid "Dock windows to edges"
 msgstr "창을 구석에 고정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:166
+#: ../../src/ui_fsmenu/options.cc:177
 msgid "Animate automatic map movements"
 msgstr "자동으로 지도 움직임 애니메이션하기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:179
+#: ../../src/ui_fsmenu/options.cc:190
 msgid "Distance for windows to snap to other panels:"
 msgstr "창을 다른 패널에 밀착하는 거리:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:191
+#: ../../src/ui_fsmenu/options.cc:202
 msgid "Distance for windows to snap to borders:"
 msgstr "창을 경계에 밀착하는 거리:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:207
+#: ../../src/ui_fsmenu/options.cc:227
 msgid "Save game automatically every:"
 msgstr "매 순간 자동으로 게임 저장:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:220
+#: ../../src/ui_fsmenu/options.cc:240
 msgid "Maximum number of autosave files:"
 msgstr "최대 자동 저장 파일 숫자:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:233
+#: ../../src/ui_fsmenu/options.cc:253
 msgid "Write syncstreams in network games to debug desyncs"
 msgstr "비동기를 디버그하기 위해 네트워크 게임의 동기흐름을 기록"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:239
-#: ../../src/wui/interactive_gamebase.cc:190
+#: ../../src/ui_fsmenu/options.cc:259
+#: ../../src/wui/interactive_gamebase.cc:194
 msgid "Show Census"
 msgstr "인구조사 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:241
-#: ../../src/wui/interactive_gamebase.cc:198
+#: ../../src/ui_fsmenu/options.cc:261
+#: ../../src/wui/interactive_gamebase.cc:203
 msgid "Show Statistics"
 msgstr "통계 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:243
-#: ../../src/wui/interactive_gamebase.cc:206
+#: ../../src/ui_fsmenu/options.cc:263
+#: ../../src/wui/interactive_gamebase.cc:212
 msgid "Show Soldier Levels"
 msgstr "군인 수준 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:244
-#: ../../src/wui/interactive_gamebase.cc:215
+#: ../../src/ui_fsmenu/options.cc:264
+#: ../../src/wui/interactive_gamebase.cc:221
 msgid "Show Buildings"
 msgstr "건물 표시"
 
@@ -3580,17 +3551,17 @@ msgstr "건물 표시"
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. workarea overlaps
 #. * are highlighted
-#: ../../src/ui_fsmenu/options.cc:246 ../../src/wui/interactive_player.cc:351
+#: ../../src/ui_fsmenu/options.cc:266 ../../src/wui/interactive_player.cc:371
 msgid "Show Workarea Overlaps"
 msgstr "작업 영역 겹침을 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:252
+#: ../../src/ui_fsmenu/options.cc:272
 msgid "Start building road after placing a flag"
 msgstr "깃발 설치 후에 땅길 건설"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:256
+#: ../../src/ui_fsmenu/options.cc:276
 msgid "Show in-game chat with transparent background"
 msgstr "투명한 배경에 인게임 채팅 표시"
 
@@ -3598,144 +3569,152 @@ msgstr "투명한 배경에 인게임 채팅 표시"
 #. * TRANSLATORS: A watchwindow is a window where you keep watching an object
 #. or a map region,
 #. * TRANSLATORS: and it also lets you jump to it on the map.
-#: ../../src/ui_fsmenu/options.cc:266
+#: ../../src/ui_fsmenu/options.cc:286
 msgid "Use single watchwindow mode"
 msgstr "단일 주시화면 모드 사용"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:275
-msgid "Display game time in the top left corner"
-msgstr "왼쪽 상단 모서리에 게임 시간을 표시"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:279
+#: ../../src/ui_fsmenu/options.cc:299
 msgid "Allow diagonal scrolling with the numeric keypad"
 msgstr "숫자 키패드로 대각선 스크롤을 허용"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:284
+#: ../../src/ui_fsmenu/options.cc:309
 msgid "Teach me how to play"
 msgstr "놀이 방법을 가르쳐주십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:309
+#: ../../src/ui_fsmenu/options.cc:335
 msgid "Interface"
 msgstr "인터페이스"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:311
+#: ../../src/ui_fsmenu/options.cc:336
 msgid "Sound"
 msgstr "소리"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:312
+#: ../../src/ui_fsmenu/options.cc:337
 msgid "Saving"
 msgstr "저장 중"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:313
+#: ../../src/ui_fsmenu/options.cc:338
 msgid "New Games"
 msgstr "새로운 놀이"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:314
+#: ../../src/ui_fsmenu/options.cc:339
 msgid "In-Game"
 msgstr "놀이 내"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:391
+#: ../../src/ui_fsmenu/options.cc:438
 msgid "Off"
 msgstr "비활성"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Entry in the window size dropdown
-#: ../../src/ui_fsmenu/options.cc:416
+#: ../../src/ui_fsmenu/options.cc:463
 msgid "Fullscreen"
 msgstr "전체화면"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Entry in the window size dropdown
-#: ../../src/ui_fsmenu/options.cc:419
+#: ../../src/ui_fsmenu/options.cc:466
 msgid "Maximized"
 msgstr "최대화됨"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:522
+#: ../../src/ui_fsmenu/options.cc:588
 msgid "Try system language"
 msgstr "시스템 언어 적용"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:626
+#: ../../src/ui_fsmenu/options.cc:692
 #, c-format
 msgid "The translation into %s is complete."
 msgstr "%s (으)로의 번역이 완료되었습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:643
+#: ../../src/ui_fsmenu/options.cc:709
 #, c-format
 msgid "If you wish to help us translate, please visit %s"
 msgstr "번역을 돕고 싶다면, 다음을 방문해주세요: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:44
+#: ../../src/ui_fsmenu/random_game.cc:117
+msgid "Map Generation Error"
+msgstr "지도 생성 오류"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/random_game.cc:118
+msgid ""
+"The random map generator was unable to generate a suitable map. This happens"
+" occasionally because the generator is still in beta stage. Please try again"
+" with slightly different settings."
+msgstr "아무런 지도 생성기에서 적절한 지도를 생성할 수 없습니다. 생성기가 아직 베타 단계에 있기 때문에 이 문제가 가끔 발생합니다. 약간 다른 설정으로 다시 시도하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/scenario_select.cc:47
 msgid "Choose Scenario"
 msgstr "시나리오를 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:44
+#: ../../src/ui_fsmenu/scenario_select.cc:47
 msgid "Choose Tutorial"
 msgstr "자습서를 선택"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:82
+#: ../../src/ui_fsmenu/scenario_select.cc:85
 msgid "Pick a tutorial from the list, then hit “OK”."
 msgstr "목록에서 자습서를 선택한 다음 “확인” 을 누르십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:84
+#: ../../src/ui_fsmenu/scenario_select.cc:87
 msgid ""
 "You can see a description of the currently selected tutorial on the right."
 msgstr "현재 선택된 자습서에 대한 설명을 오른쪽에서 볼 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:102
+#: ../../src/ui_fsmenu/scenario_select.cc:105
 msgid "Return to campaign selection"
 msgstr "군사 작전 선택으로 돌아가기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:103
+#: ../../src/ui_fsmenu/scenario_select.cc:106
 msgid "Play this scenario"
 msgstr "해당 시나리오 플레이"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:103
+#: ../../src/ui_fsmenu/scenario_select.cc:106
 msgid "Play this tutorial"
 msgstr "해당 자습서 플레이"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:124
+#: ../../src/ui_fsmenu/scenario_select.cc:127
 msgid "The order in which the tutorials should be played"
 msgstr "자습서 플레이 순서"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:125
+#: ../../src/ui_fsmenu/scenario_select.cc:128
 msgid "Tutorial Name"
 msgstr "자습서 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:127
+#: ../../src/ui_fsmenu/scenario_select.cc:130
 msgid "The number of this scenario in the campaign"
 msgstr "캠페인 내 시나리오 숫자"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:128
+#: ../../src/ui_fsmenu/scenario_select.cc:131
 msgid "Scenario Name"
 msgstr "시나리오 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:224
+#: ../../src/ui_fsmenu/scenario_select.cc:242
 #, c-format
 msgid "Invalid path to file in campaigns.lua of tutorials.lua: %s"
 msgstr "tutorials.lua의 campaigns.lua에서 파일에 대한 경로가 잘못되었습니다: %s"
@@ -3746,83 +3725,90 @@ msgid "Tutorial"
 msgstr "자습서"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Label in map details if there is 1 author
 #. * TRANSLATORS: Label in campaign scenario details if there is 1 author
-#: ../../src/ui_fsmenu/scenariodetails.cc:57 ../../src/wui/mapdetails.cc:168
+#. * TRANSLATORS: Label in map details if there is 1 author
+#: ../../src/ui_fsmenu/scenariodetails.cc:57 ../../src/wui/mapdetails.cc:170
 msgid "Author"
 msgstr "제작자"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Label in map details if there is more than 1 author. If you
-#. need plural
-#. forms here, please let us know.
 #. * TRANSLATORS: Label in campaign scenario details if there is more than 1
 #. author. If
 #. you need plural forms here, please let us know.
-#: ../../src/ui_fsmenu/scenariodetails.cc:60 ../../src/wui/mapdetails.cc:171
+#. * TRANSLATORS: Label in map details if there is more than 1 author. If you
+#. need plural
+#. forms here, please let us know.
+#: ../../src/ui_fsmenu/scenariodetails.cc:60 ../../src/wui/mapdetails.cc:173
 msgid "Authors"
 msgstr "제작자들"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is the "name" of the single player
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:178
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:189
 msgid "You"
 msgstr "당신"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1272 ../../src/wui/mapdetails.cc:222
+#. * TRANSLATORS: This text is on a separate line with an error message below
+#: ../../src/wlapplication.cc:690 ../../src/wlapplication.cc:696
+#: ../../src/wlapplication.cc:701 ../../src/wui/savegameloader.cc:107
+msgid "Error message:"
+msgstr "오류 메시지:"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication.cc:691 ../../src/wui/mapdetails.cc:231
 msgid "Game data error"
 msgstr "게임 데이터 오류"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1281
-#, c-format
-msgid ""
-"Please report this problem to help us improve Widelands. You will find "
-"related messages in the standard output (stdout.txt on Windows). You are "
-"using build %1$s (%2$s)."
-msgstr "와이드랜드가 더 좋아질수 있도록 이 문제를 보고해 주세요. 당신은 관련된 메시지를 표준 결과물 (Windows에서 stdout.txt) 에서 찾을 수 있습니다. 당신은 build %1$s (%2$s) 를 사용하고 있습니다."
+#: ../../src/wlapplication_options.cc:433
+#: ../../src/wui/general_statistics_menu.cc:47
+msgid "General Statistics"
+msgstr "일반 통계"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1288
-msgid ""
-"Please add this information to your report.\n"
-"\n"
-"Widelands attempts to create a savegame when errors occur during the game. It is often – though not always – possible to load it and continue playing."
-msgstr "이 정보를 당신의 보고서에 추가해 주세요.\n\n와이드랜드는 게임 중에 오류가 발생할 때 저장된 게임을 만들려고 시도합니다. 게임은 보통 – 언제나는 아니지만 – 불러와서 계속 플레이하는 것이 가능합니다."
+#: ../../src/wlapplication_options.cc:438
+#: ../../src/wui/ware_statistics_menu.cc:104
+msgid "Ware Statistics"
+msgstr "물품 통계"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1331 ../../src/wlapplication.cc:1459
-msgid "No tribes found!"
-msgstr "부족을 찾을 수 없습니다!"
+#: ../../src/wlapplication_options.cc:443
+#: ../../src/wui/building_statistics_menu.cc:54
+msgid "Building Statistics"
+msgstr "건물 통계"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1332 ../../src/wlapplication.cc:1460
-msgid "No tribes found in data/tribes/initialization/[tribename]/init.lua."
-msgstr "data/tribes/initialization/[tribename]/init.lua 에서 부족을 찾을 수 없습니다."
+#: ../../src/wlapplication_options.cc:453
+#: ../../src/wui/soldier_statistics_menu.cc:35
+msgid "Soldier Statistics"
+msgstr "군인 통계"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1380
-msgid "Invalid Address"
-msgstr "잘못된 주소"
+#: ../../src/wlapplication_options.cc:458
+#: ../../src/wui/seafaring_statistics_menu.cc:49
+msgid "Seafaring Statistics"
+msgstr "항해 통계"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1381
-msgid "The entered hostname or address is invalid and can’t be connected to."
-msgstr "입력한 호스트 이름 또는 주소가 잘못되어 연결할 수 없습니다."
+#: ../../src/wlapplication_options.cc:505
+#: ../../src/wui/interactive_gamebase.cc:287
+msgid "Pause"
+msgstr "일시정지"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1430
-msgid "Map Generation Error"
-msgstr "지도 생성 오류"
+#: ../../src/wlapplication_options.cc:514 ../../src/wui/game_chat_menu.cc:53
+#: ../../src/wui/interactive_gamebase.cc:327
+msgid "Chat"
+msgstr "채팅"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1431
-msgid ""
-"The random map generator was unable to generate a suitable map. This happens"
-" occasionally because the generator is still in beta stage. Please try again"
-" with slightly different settings."
-msgstr "아무런 지도 생성기에서 적절한 지도를 생성할 수 없습니다. 생성기가 아직 베타 단계에 있기 때문에 이 문제가 가끔 발생합니다. 약간 다른 설정으로 다시 시도하십시오."
+#. * TRANSLATORS: An entry in the game's main menu
+#: ../../src/wlapplication_options.cc:518
+#: ../../src/wui/game_main_menu_save_game.cc:53
+#: ../../src/wui/interactive_gamebase.cc:138
+msgid "Save Game"
+msgstr "게임 저장"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/actionconfirm.cc:186
@@ -3962,15 +3948,10 @@ msgstr "모든 군인을 목록에 추가하려면 Ctrl 키를 누르고 선택�
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Health, Attack, Defense, Evade
 #: ../../src/wui/attack_box.cc:353 ../../src/wui/soldierlist.cc:403
-#: ../../src/wui/soldierlist.cc:472
+#: ../../src/wui/soldierlist.cc:466
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "체력: %1$u/%2$u 공격: %3$u/%4$u 방어: %5$u/%6$u 회피: %7$u/%8$u"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/building_statistics_menu.cc:54
-msgid "Building Statistics"
-msgstr "건물 통계"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/building_statistics_menu.cc:72
@@ -4034,92 +4015,92 @@ msgid "Ports"
 msgstr "항구"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:194
+#: ../../src/wui/buildingwindow.cc:195
 msgid "Muted – click to unmute"
 msgstr "음소거됨 - 음소거를 해제하려면 클릭하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:195
+#: ../../src/wui/buildingwindow.cc:196
 msgid "Mute this building’s messages"
 msgstr "이 건물의 메시지를 음소거"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:200
+#: ../../src/wui/buildingwindow.cc:201
 msgid "All buildings of this type are muted – click to unmute"
 msgstr "이 유형의 모든 건물이 음소거됩니다 – 음소거를 해제하려면 클릭하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:204
+#: ../../src/wui/buildingwindow.cc:205
 msgid "Mute all buildings of this type"
 msgstr "이 유형의 모든 건물을 음소거"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:268
+#: ../../src/wui/buildingwindow.cc:269
 msgid "Continue"
 msgstr "계속하기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:270
+#: ../../src/wui/buildingwindow.cc:271
 msgid "Stop"
 msgstr "중지"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:292
+#: ../../src/wui/buildingwindow.cc:293
 #, c-format
 msgid "Enhance to %s"
 msgstr "%s 로 향상"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:296 ../../src/wui/fieldaction.cc:101
+#: ../../src/wui/buildingwindow.cc:297 ../../src/wui/fieldaction.cc:101
 msgid "Construction costs:"
 msgstr "건설 비용:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:314
+#: ../../src/wui/buildingwindow.cc:315
 msgid "Destroy"
 msgstr "파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:329
+#: ../../src/wui/buildingwindow.cc:330
 msgid "Dismantle"
 msgstr "해체"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:332
+#: ../../src/wui/buildingwindow.cc:333
 msgid "Returns:"
 msgstr "반납:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:384 ../../src/wui/fieldaction.cc:488
+#: ../../src/wui/buildingwindow.cc:385 ../../src/wui/fieldaction.cc:522
 #: ../../src/wui/shipwindow.cc:141
 msgid "Show Debug Window"
 msgstr "디버그 창 확인"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:391
+#: ../../src/wui/buildingwindow.cc:401
 msgid "Center view on this"
 msgstr "중앙 시야로 이동"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:620
+#: ../../src/wui/buildingwindow.cc:632
 msgid "Hide work area"
 msgstr "작업 범위 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:623
+#: ../../src/wui/buildingwindow.cc:635
 msgid "Show work area"
 msgstr "작업 범위 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:648
+#: ../../src/wui/buildingwindow.cc:660
 #: ../../src/wui/constructionsitewindow.cc:374
 msgid "Start an expedition"
 msgstr "탐험 시작"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:652
+#: ../../src/wui/buildingwindow.cc:664
 msgid "Cancel the expedition"
 msgstr "탐험 취소"
 
@@ -4212,235 +4193,229 @@ msgid "Settings to apply after construction"
 msgstr "시공 후 적용할 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:44
+#: ../../src/wui/economy_options_window.cc:45
 msgid "Economy options"
 msgstr "경제 옵션"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:76
+#: ../../src/wui/economy_options_window.cc:78
 msgid "Decrease target by 10"
 msgstr "목표를 10으로 줄입니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:84
+#: ../../src/wui/economy_options_window.cc:86
 msgid "Decrease target"
 msgstr "목표 감소"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:93
+#: ../../src/wui/economy_options_window.cc:95
 msgid "Toggle infinite target"
 msgstr "무한 대상으로 전환합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:101
+#: ../../src/wui/economy_options_window.cc:103
 msgid "Increase target"
 msgstr "목표 증가"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:109
+#: ../../src/wui/economy_options_window.cc:111
 msgid "Increase target by 10"
 msgstr "목표를 10으로 늘립니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:115
+#: ../../src/wui/economy_options_window.cc:117
 msgid "Profile to apply to the selected items"
 msgstr "선택한 항목에 적용할 프로파일입니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:126
+#: ../../src/wui/economy_options_window.cc:128
 msgid "Save target settings"
 msgstr "대상 설정을 저장"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:559
+#: ../../src/wui/economy_options_window.cc:562
 msgid "The profile name cannot be empty"
 msgstr "프로필 이름은 비워 둘 수 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:560
+#: ../../src/wui/economy_options_window.cc:563
 msgid "The default profile cannot be overwritten"
 msgstr "기본 프로필을 덮어 쓸 수 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:563
+#: ../../src/wui/economy_options_window.cc:566
 msgid "Save the profile under this name"
 msgstr "이 이름으로 프로필을 저장하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:575
+#: ../../src/wui/economy_options_window.cc:578
 msgid "The predefined profiles cannot be deleted"
 msgstr "미리 정의된 프로파일은 삭제할 수 없습니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:578
+#: ../../src/wui/economy_options_window.cc:581
 msgid "Delete the selected profiles"
 msgstr "선택한 프로파일을 삭제합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:600
+#: ../../src/wui/economy_options_window.cc:603
 msgid "Overwrite?"
 msgstr "덮어쓰겠습니까?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:601
+#: ../../src/wui/economy_options_window.cc:604
 msgid "A profile with this name already exists. Do you wish to replace it?"
 msgstr "이 이름을 가진 프로파일이 이미 있습니다. 교체하겠습니까?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:651
+#: ../../src/wui/economy_options_window.cc:654
 msgid "Save Profile"
 msgstr "프로필 저장"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:661
+#: ../../src/wui/economy_options_window.cc:664
 msgid "Existing Profiles"
 msgstr "이미 있는 프로필"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:232
+#: ../../src/wui/fieldaction.cc:234
 msgid "Build small building"
 msgstr "작은 건물 짓기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:233
+#: ../../src/wui/fieldaction.cc:235
 msgid "Build big building"
 msgstr "큰 건물 짓기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:233
+#: ../../src/wui/fieldaction.cc:235
 msgid "Build medium building"
 msgstr "중간 건물 짓기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:234
+#: ../../src/wui/fieldaction.cc:236
 msgid "Build port building"
 msgstr "항구 건물 짓기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:264
+#: ../../src/wui/fieldaction.cc:267
 msgid "Action"
 msgstr "행동"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:390
+#: ../../src/wui/fieldaction.cc:393
 msgid "Marked for removal by a worker – click to unmark"
 msgstr "작업자가 제거하도록 표시했습니다 – 표시를 해제하려면 클릭하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:391 ../../src/wui/fieldaction.cc:398
+#: ../../src/wui/fieldaction.cc:394 ../../src/wui/fieldaction.cc:401
 msgid "Immovable Actions"
 msgstr "부동산 행동"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:397
+#: ../../src/wui/fieldaction.cc:400
 msgid "Mark this immovable for timely removal by a suited worker"
 msgstr "적합한 작업자가 적시에 제거할 수 있도록 이 부동 상태를 표시하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:418 ../../src/wui/fieldaction.cc:493
+#: ../../src/wui/fieldaction.cc:421 ../../src/wui/fieldaction.cc:527
 msgid "Build road"
 msgstr "땅길 건설"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:422
+#: ../../src/wui/fieldaction.cc:425
 msgid "Build waterway"
 msgstr "물길 만들기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:429
+#: ../../src/wui/fieldaction.cc:432
 msgid "Destroy this flag"
 msgstr "깃발 파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:436
+#: ../../src/wui/fieldaction.cc:439
 msgid "Configure this flag’s economy"
 msgstr "이 깃발의 경제를 구성"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:439
+#: ../../src/wui/fieldaction.cc:442
 msgid "Send geologist to explore site"
 msgstr "지질학자를 탐사 장소로 파견"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:455
+#: ../../src/wui/fieldaction.cc:489
 msgid "Place a flag"
 msgstr "깃발 건설"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:460
+#: ../../src/wui/fieldaction.cc:494
 msgid "Destroy a road"
 msgstr "땅길 파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:465
+#: ../../src/wui/fieldaction.cc:499
 msgid "Destroy a waterway"
 msgstr "물길 파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:483
+#: ../../src/wui/fieldaction.cc:517
 msgid "Watch field in a separate window"
 msgstr "분리된 창에 지역 주시하기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:496 ../../src/wui/watchwindow.cc:49
+#: ../../src/wui/fieldaction.cc:530 ../../src/wui/watchwindow.cc:49
 msgid "Watch"
 msgstr "주시하기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:517
+#: ../../src/wui/fieldaction.cc:551
 msgid "Attack"
 msgstr "공격"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:635
+#: ../../src/wui/fieldaction.cc:668
 msgid "Build mines"
 msgstr "광산 건설"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:649 ../../src/wui/fieldaction.cc:672
+#: ../../src/wui/fieldaction.cc:682 ../../src/wui/fieldaction.cc:705
 msgid "Build flag"
 msgstr "깃발 건설"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:653
+#: ../../src/wui/fieldaction.cc:686
 msgid "Cancel road"
 msgstr "땅길 취소"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:660
+#: ../../src/wui/fieldaction.cc:693
 msgid "Cancel road and start building waterway"
 msgstr "땅길을 취소하고 물길을 만들기 시작합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:664
+#: ../../src/wui/fieldaction.cc:697
 msgid "Build roads"
 msgstr "땅길 건설"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:676
+#: ../../src/wui/fieldaction.cc:709
 msgid "Cancel waterway"
 msgstr "물길을 취소"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:679
+#: ../../src/wui/fieldaction.cc:712
 msgid "Cancel waterway and start building road"
 msgstr "물길을 취소하고 땅길을 만들기 시작합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:682
+#: ../../src/wui/fieldaction.cc:715
 msgid "Build waterways"
 msgstr "물길 만들기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_chat_menu.cc:53
-#: ../../src/wui/interactive_gamebase.cc:314
-msgid "Chat"
-msgstr "채팅"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's main menu
 #: ../../src/wui/game_chat_menu.cc:60
-#: ../../src/wui/interactive_gamebase.cc:116
+#: ../../src/wui/interactive_gamebase.cc:119
 msgid "Script Console"
 msgstr "스크립트 콘솔"
 
@@ -4479,17 +4454,17 @@ msgid "AI for the disconnected player"
 msgstr "연결이 끊어진 선수의 인공지능"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the game's main menu
 #. * TRANSLATORS: Button tooltip
+#. * TRANSLATORS: An entry in the game's main menu
 #: ../../src/wui/game_client_disconnected.cc:103
-#: ../../src/wui/game_summary.cc:103 ../../src/wui/interactive_gamebase.cc:140
+#: ../../src/wui/game_summary.cc:103 ../../src/wui/interactive_gamebase.cc:144
 msgid "Exit Game"
 msgstr "게임 종료"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Dropdown selection. Parameter is the name of the AI that
 #. will be used as replacement for a disconnected player
-#: ../../src/wui/game_client_disconnected.cc:122
+#: ../../src/wui/game_client_disconnected.cc:123
 #, c-format
 msgid "Replace player with %s"
 msgstr "놀 사람을 %s (으)로 바꿉니다."
@@ -4513,31 +4488,24 @@ msgid "Are you sure you wish to exit this game?"
 msgstr "정말 해당 게임을 종료합니까?"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the game's main menu
-#: ../../src/wui/game_main_menu_save_game.cc:53
-#: ../../src/wui/interactive_gamebase.cc:135
-msgid "Save Game"
-msgstr "게임 저장"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_main_menu_save_game.cc:251
-#: ../../src/wui/game_main_menu_save_game.cc:287
+#: ../../src/wui/game_main_menu_save_game.cc:252
+#: ../../src/wui/game_main_menu_save_game.cc:288
 msgid "Error Saving Game!"
 msgstr "놀이를 저장하다 오류 발생!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:52
-#: ../../src/wui/game_message_menu.cc:639
+#: ../../src/wui/game_message_menu.cc:53
+#: ../../src/wui/game_message_menu.cc:599
 msgid "Messages: Inbox"
 msgstr "메시지: 수신함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:69
+#: ../../src/wui/game_message_menu.cc:70
 msgid "Title"
 msgstr "제목"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:70
+#: ../../src/wui/game_message_menu.cc:71
 msgctxt "message"
 msgid "Type"
 msgstr "유형"
@@ -4549,66 +4517,60 @@ msgstr "유형"
 #. * TRANSLATORS: This is used in the game messages menu - please open an
 #. issue if you need more
 #. * space.
-#: ../../src/wui/game_message_menu.cc:76
+#: ../../src/wui/game_message_menu.cc:77
 msgctxt "message"
 msgid "Sent"
 msgstr "시간"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:126
-#: ../../src/wui/game_message_menu.cc:642
+#: ../../src/wui/game_message_menu.cc:127
+#: ../../src/wui/game_message_menu.cc:602
 msgid "Show Archive"
 msgstr "기록 보기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:135
+#: ../../src/wui/game_message_menu.cc:136
 msgid "Center main mapview on location"
 msgstr "해당 위치의 주 지도시야를 중앙으로"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:573
+#: ../../src/wui/game_message_menu.cc:526
 msgid "Show all messages"
 msgstr "모든 메시지 확인"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:583
-msgid "Show geologists' messages only"
-msgstr "지질학자의 메시지만 표기"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:586
+#: ../../src/wui/game_message_menu.cc:542
 msgid "Show economy messages only"
 msgstr "경제 메시지만 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:589
+#: ../../src/wui/game_message_menu.cc:546
 msgid "Show seafaring messages only"
 msgstr "항해 메시지만 표기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:592
+#: ../../src/wui/game_message_menu.cc:550
 msgid "Show warfare messages only"
 msgstr "전투 메시지만 표기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:595
+#: ../../src/wui/game_message_menu.cc:554
 msgid "Show scenario messages only"
 msgstr "시나리오 메시지만 표기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:632
+#: ../../src/wui/game_message_menu.cc:592
 msgid "Messages: Archive"
 msgstr "메시지: 보관함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:635
+#: ../../src/wui/game_message_menu.cc:595
 msgid "Show Inbox"
 msgstr "수신함 확인"
 
@@ -4617,7 +4579,7 @@ msgstr "수신함 확인"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:665
+#: ../../src/wui/game_message_menu.cc:625
 #, c-format
 msgid "Restore the selected %d message"
 msgid_plural "Restore the selected %d messages"
@@ -4625,7 +4587,7 @@ msgstr[0] "선택된 %d 메시지 회복"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:671
+#: ../../src/wui/game_message_menu.cc:631
 msgid "Restore selected message"
 msgstr "선택된 메시지 회복"
 
@@ -4634,7 +4596,7 @@ msgstr "선택된 메시지 회복"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:681
+#: ../../src/wui/game_message_menu.cc:641
 #, c-format
 msgid "Archive the selected %d message"
 msgid_plural "Archive the selected %d messages"
@@ -4642,14 +4604,14 @@ msgstr[0] "선택된 %d 메시지 보관"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:687
+#: ../../src/wui/game_message_menu.cc:647
 msgid "Archive selected message"
 msgstr "선택된 메시지 보관"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's main menu
 #: ../../src/wui/game_options_sound_menu.cc:35
-#: ../../src/wui/interactive_gamebase.cc:126
+#: ../../src/wui/interactive_gamebase.cc:129
 msgid "Sound Options"
 msgstr "소리 선택사항"
 
@@ -4733,80 +4695,75 @@ msgid "Team Score"
 msgstr "편 점수"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:139
+#: ../../src/wui/gamedetails.cc:145
 msgid "Directory Name:"
 msgstr "디렉토리 이름:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:147
+#: ../../src/wui/gamedetails.cc:153
 msgid "Error:"
 msgstr "오류:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:153
+#: ../../src/wui/gamedetails.cc:159
 msgid "Map Name:"
 msgstr "지도 이름:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The time a replay starts. Shown in the replay loading screen
-#: ../../src/wui/gamedetails.cc:166
+#: ../../src/wui/gamedetails.cc:172
 msgid "Start of Replay:"
 msgstr "다시보기 시작:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The current time of a savegame. Shown in the game saving and
 #. loading screens.
-#: ../../src/wui/gamedetails.cc:169
+#: ../../src/wui/gamedetails.cc:175
 msgid "Game Time:"
 msgstr "게임 시간:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:177
+#: ../../src/wui/gamedetails.cc:183
 msgid "Widelands Version:"
 msgstr "와이드랜드 버전:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:181
+#: ../../src/wui/gamedetails.cc:187
 msgid "Win Condition:"
 msgstr "승리 조건:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:48
-msgid "General Statistics"
-msgstr "일반 통계"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:160
+#: ../../src/wui/general_statistics_menu.cc:157
 msgid "Productivity"
 msgstr "생산성"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:165
+#: ../../src/wui/general_statistics_menu.cc:162
 msgid "Casualties"
 msgstr "피해"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:169
+#: ../../src/wui/general_statistics_menu.cc:166
 msgid "Kills"
 msgstr "살해"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:175
+#: ../../src/wui/general_statistics_menu.cc:172
 msgid "Military buildings lost"
 msgstr "군사 건물 잃음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:180
+#: ../../src/wui/general_statistics_menu.cc:177
 msgid "Military buildings defeated"
 msgstr "군사 건물 파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:185
+#: ../../src/wui/general_statistics_menu.cc:182
 msgid "Civilian buildings lost"
 msgstr "민간 건물 잃음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:190
+#: ../../src/wui/general_statistics_menu.cc:187
 msgid "Military"
 msgstr "군사"
 
@@ -4862,179 +4819,133 @@ msgstr "물품을 추가"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the map view menu button in the game
-#: ../../src/wui/interactive_base.cc:180
+#: ../../src/wui/interactive_base.cc:118
 msgid "Map View"
 msgstr "지도 보기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's map view menu
-#: ../../src/wui/interactive_base.cc:316
+#: ../../src/wui/interactive_base.cc:260
 msgid "Hide Minimap"
 msgstr "작은 지도 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_base.cc:316
+#: ../../src/wui/interactive_base.cc:260
 msgid "Show Minimap"
 msgstr "작은 지도 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's map view menu
-#: ../../src/wui/interactive_base.cc:321
+#: ../../src/wui/interactive_base.cc:266
 msgid "Zoom +"
 msgstr "확대"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's map view menu
-#: ../../src/wui/interactive_base.cc:326
+#: ../../src/wui/interactive_base.cc:271
 msgid "Reset zoom"
 msgstr "기본 배율 전환"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the game's map view menu
-#: ../../src/wui/interactive_base.cc:331
-msgid "Zoom -"
-msgstr "축소"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_base.cc:759
+#: ../../src/wui/interactive_base.cc:709
 #, c-format
 msgid "Road length: %u"
 msgstr "땅길 길이: %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_base.cc:760
+#: ../../src/wui/interactive_base.cc:710
 #, c-format
 msgid "Waterway length: %1$u/%2$u"
 msgstr "물길 길이: %1$u/%2$u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: This is a chat message which is automatically sent to all
-#. players
-#. * when a player enables cheating mode
-#: ../../src/wui/interactive_base.cc:1473
-msgid "This player has enabled the cheating mode!"
-msgstr "이 선수는 치팅(부정행위) 모드를 사용설정했습니다!"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: This is a chat message which is automatically sent to all
-#. players when a
-#. * player uses the debug console
-#: ../../src/wui/interactive_base.cc:1503
-msgid "This player has just used the cheating console!"
-msgstr "이 선수는 치팅(부정행위) 콘솔을 방금 사용했습니다!"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:50
+#: ../../src/wui/interactive_gamebase.cc:53
 msgid "PAUSE"
 msgstr "일시정지"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for a menu button in the game. This menu will show
 #. options o increase/decrease the gamespeed, and to pause the game
-#: ../../src/wui/interactive_gamebase.cc:101
+#: ../../src/wui/interactive_gamebase.cc:104
 msgid "Game Speed"
 msgstr "놀이 속도"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for Sound Options in the game's main menu
-#: ../../src/wui/interactive_gamebase.cc:129
+#: ../../src/wui/interactive_gamebase.cc:132
 msgid "Set sound effect and music options"
 msgstr "소리 효과와 음악 옵션 설정"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. building names are shown
-#: ../../src/wui/interactive_gamebase.cc:190
+#: ../../src/wui/interactive_gamebase.cc:194
 msgid "Hide Census"
 msgstr "인구조사 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. * building statistics are shown
-#: ../../src/wui/interactive_gamebase.cc:197
+#: ../../src/wui/interactive_gamebase.cc:202
 msgid "Hide Statistics"
 msgstr "통계 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. * level information is shown above soldiers' heads
-#: ../../src/wui/interactive_gamebase.cc:205
+#: ../../src/wui/interactive_gamebase.cc:211
 msgid "Hide Soldier Levels"
 msgstr "군인 수준 감춤"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. * buildings are greyed out
-#: ../../src/wui/interactive_gamebase.cc:214
+#: ../../src/wui/interactive_gamebase.cc:220
 msgid "Hide Buildings"
 msgstr "건물 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:261
+#: ../../src/wui/interactive_gamebase.cc:267
 msgid "Speed +"
 msgstr "속도 +"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for Speed + in the game's game speed menu
-#: ../../src/wui/interactive_gamebase.cc:264
+#: ../../src/wui/interactive_gamebase.cc:270
 msgid "Increase the game speed"
 msgstr "놀이 속도 당김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:264
-msgctxt "hotkey"
-msgid "Page Up"
-msgstr "페이지 업"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:266
+#: ../../src/wui/interactive_gamebase.cc:273
 msgid "Speed -"
 msgstr "속도 -"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for Speed - in the game's game speed menu
-#: ../../src/wui/interactive_gamebase.cc:269
+#: ../../src/wui/interactive_gamebase.cc:276
 msgid "Decrease the game speed"
 msgstr "놀이 속도 늦춤"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:269
-msgctxt "hotkey"
-msgid "Page Down"
-msgstr "페이지 다운"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:273
+#: ../../src/wui/interactive_gamebase.cc:281
 msgid "Resume"
 msgstr "재게"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:276
-#: ../../src/wui/interactive_gamebase.cc:281
-msgctxt "hotkey"
-msgid "Pause"
-msgstr "일시정지"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for Pause in the game's game speed menu
-#: ../../src/wui/interactive_gamebase.cc:276
+#: ../../src/wui/interactive_gamebase.cc:284
 msgid "Resume the Game"
 msgstr "놀이를 재게"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_gamebase.cc:278
-msgid "Pause"
-msgstr "일시정지"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for Pause in the game's game speed menu
-#: ../../src/wui/interactive_gamebase.cc:281
+#: ../../src/wui/interactive_gamebase.cc:290
 msgid "Pause the Game"
 msgstr "놀이를 일시정지"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the statistics menu button in the game
-#: ../../src/wui/interactive_player.cc:176
+#: ../../src/wui/interactive_player.cc:179
 #: ../../src/wui/interactive_spectator.cc:45
 msgid "Statistics"
 msgstr "통계"
@@ -5042,40 +4953,34 @@ msgstr "통계"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
 #. * TRANSLATORS: This is a map tag
-#: ../../src/wui/interactive_player.cc:281 ../../src/wui/map_tags.cc:38
+#: ../../src/wui/interactive_player.cc:299 ../../src/wui/map_tags.cc:38
 msgid "Seafaring"
 msgstr "항해"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/wui/interactive_player.cc:287
+#: ../../src/wui/interactive_player.cc:305
 #: ../../src/wui/militarysitewindow.cc:41
 msgid "Soldiers"
 msgstr "군인"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/wui/interactive_player.cc:292 ../../src/wui/stock_menu.cc:35
-#: ../../src/wui/ware_statistics_menu.cc:154 ../../src/wui/waresdisplay.cc:81
+#: ../../src/wui/interactive_player.cc:310 ../../src/wui/stock_menu.cc:40
+#: ../../src/wui/ware_statistics_menu.cc:153 ../../src/wui/waresdisplay.cc:82
 msgid "Stock"
 msgstr "재고"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/wui/interactive_player.cc:305
-msgid "General"
-msgstr "일반"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's show/hide menu to toggle whether
 #. workarea overlaps
 #. * are highlighted
-#: ../../src/wui/interactive_player.cc:348
+#: ../../src/wui/interactive_player.cc:368
 msgid "Hide Workarea Overlaps"
 msgstr "작업 영역 겹침을 숨김"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/interactive_player.cc:354
+#: ../../src/wui/interactive_player.cc:374
 msgid ""
 "Toggle whether overlapping workareas are indicated when placing a "
 "constructionsite"
@@ -5150,12 +5055,12 @@ msgid "Free for all"
 msgstr "누구나 자유롭게 참가하는 경기"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/mapdata.cc:48 ../../src/wui/mapdata.cc:75
+#: ../../src/wui/mapdata.cc:52 ../../src/wui/mapdata.cc:80
 msgid "No Author"
 msgstr "저자 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/mapdetails.cc:131
+#: ../../src/wui/mapdetails.cc:133
 msgid "Directory"
 msgstr "디렉토리"
 
@@ -5164,7 +5069,7 @@ msgstr "디렉토리"
 #. being
 #. displayed.
 #. * TRANSLATORS: %s is the English name of the map.
-#: ../../src/wui/mapdetails.cc:150
+#: ../../src/wui/mapdetails.cc:152
 #, c-format
 msgid "The original name of this map: %s"
 msgstr "지도의 원래 이름: %s"
@@ -5174,14 +5079,14 @@ msgstr "지도의 원래 이름: %s"
 #. displayed in
 #. English.
 #. * TRANSLATORS: %s is the localized name of the map.
-#: ../../src/wui/mapdetails.cc:156
+#: ../../src/wui/mapdetails.cc:158
 #, c-format
 msgid "The name of this map in your language: %s"
 msgstr "지도의 번역된 이름 : %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Map hint header when selecting a map.
-#: ../../src/wui/mapdetails.cc:194
+#: ../../src/wui/mapdetails.cc:203
 msgid "Hint"
 msgstr "힌트"
 
@@ -5211,17 +5116,17 @@ msgid "Map Name"
 msgstr "지도 이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/minimap.cc:159
+#: ../../src/wui/minimap.cc:162
 msgid "Owner"
 msgstr "소유자"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/minimap.cc:181
+#: ../../src/wui/minimap.cc:184
 msgid "Roads"
 msgstr "땅길"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/minimap.cc:203
+#: ../../src/wui/minimap.cc:206
 msgid "Zoom"
 msgstr "배율"
 
@@ -5256,27 +5161,27 @@ msgid "Coming"
 msgstr "오고있음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:114
+#: ../../src/wui/productionsitewindow.cc:115
 msgid "Exp"
 msgstr "경험치"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:115
+#: ../../src/wui/productionsitewindow.cc:116
 msgid "Next Level"
 msgstr "다음 단계"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:130
+#: ../../src/wui/productionsitewindow.cc:131
 msgid "Decrease experience by 1"
 msgstr "경험치를 -1  줄임"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:133
+#: ../../src/wui/productionsitewindow.cc:134
 msgid "Increase experience by 1"
 msgstr "경험치를 +1 늘림"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:151
+#: ../../src/wui/productionsitewindow.cc:152
 msgid "Terminate the employment of the selected worker"
 msgstr "선택된 일꾼을 해고합니다"
 
@@ -5341,23 +5246,17 @@ msgstr "녹화 파일을 삭제할 수 없습니다."
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/savegameloader.cc:103
+#: ../../src/wui/savegameloader.cc:104
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
 msgstr "이 파일은 잘못된 형식이고 불러올 수 없습니다. 아마 오래된 버전의 Widelands에서 만들어졌을지 모릅니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/savegameloader.cc:106
-msgid "Error message:"
-msgstr "오류 메시지:"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute
-#: ../../src/wui/savegameloader.cc:136
+#: ../../src/wui/savegameloader.cc:137
 msgid "Today, %1%:%2%"
 msgstr "오늘, %1%:%2%"
 
@@ -5365,7 +5264,7 @@ msgstr "오늘, %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute
-#: ../../src/wui/savegameloader.cc:154
+#: ../../src/wui/savegameloader.cc:155
 msgid "Yesterday, %1%:%2%"
 msgstr "어제, %1%:%2%"
 
@@ -5439,11 +5338,6 @@ msgid "Map name (start of replay)"
 msgstr "지도 이름 (리플레이 시작)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/seafaring_statistics_menu.cc:49
-msgid "Seafaring Statistics"
-msgstr "항해 통계"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
 #: ../../src/wui/seafaring_statistics_menu.cc:125
 msgid "Watch the selected ship"
@@ -5451,67 +5345,67 @@ msgstr "선택한 배를 감시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:137
+#: ../../src/wui/seafaring_statistics_menu.cc:140
 msgid "Open the selected ship’s window"
 msgstr "선택한 배의 창 열기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:142
+#: ../../src/wui/seafaring_statistics_menu.cc:145
 msgid "Go to the selected ship and open its window"
 msgstr "선택한 배으로 이동하여 해당 창을 열기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:156
+#: ../../src/wui/seafaring_statistics_menu.cc:159
 msgid "Center the map on the selected ship"
 msgstr "선택한 배를 지도 가운데에 배치"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/seafaring_statistics_menu.cc:199
+#: ../../src/wui/seafaring_statistics_menu.cc:202
 msgctxt "ship"
 msgid "Name"
 msgstr "이름"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/seafaring_statistics_menu.cc:200
+#: ../../src/wui/seafaring_statistics_menu.cc:203
 msgctxt "ship"
 msgid "Status"
 msgstr "상태"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:550
+#: ../../src/wui/seafaring_statistics_menu.cc:499
 msgid "Show all ships"
 msgstr "모든 배 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:558
+#: ../../src/wui/seafaring_statistics_menu.cc:508
 msgid "Show empty ships"
 msgstr "빈 배 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:561
+#: ../../src/wui/seafaring_statistics_menu.cc:512
 msgid "Show ships shipping wares and workers"
 msgstr "배송 물품들과 일꾼들을 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:565
+#: ../../src/wui/seafaring_statistics_menu.cc:517
 msgid "Show waiting expeditions"
 msgstr "대기중인 탐험 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:568
+#: ../../src/wui/seafaring_statistics_menu.cc:522
 msgid "Show scouting expeditions"
 msgstr "정찰중인 탐험 표시"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:571
+#: ../../src/wui/seafaring_statistics_menu.cc:527
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "항구 자리를 찾았거나 식민지를 세우고있는 탐험대를 표시"
 
@@ -5594,11 +5488,6 @@ msgid ""
 msgstr "배가 돌아올 항구가 없기 때문에 탐험은 취소될 수 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/soldier_statistics_menu.cc:35
-msgid "Soldier Statistics"
-msgstr "군인 통계"
-
-# (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/soldier_statistics_menu.cc:84
 #: ../../src/wui/soldier_statistics_menu.cc:127
 #, c-format
@@ -5643,7 +5532,7 @@ msgstr "주둔 수"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/soldierlist.cc:387 ../../src/wui/soldierlist.cc:409
-#: ../../src/wui/soldierlist.cc:467
+#: ../../src/wui/soldierlist.cc:461
 msgid "Click soldier to send away"
 msgstr "발령낼 군인을 클릭"
 
@@ -5691,22 +5580,22 @@ msgid ""
 msgstr "소리 드라이버에 문제가 있거나 명령줄에서 스위치가 꺼졌기 때문에 소리를 사용할 수 없습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:41
+#: ../../src/wui/stock_menu.cc:71
 msgid "Wares (total)"
 msgstr "물품들 (전체)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:45
+#: ../../src/wui/stock_menu.cc:75
 msgid "Workers (total)"
 msgstr "일꾼들 (전체)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:49
+#: ../../src/wui/stock_menu.cc:79
 msgid "Wares in warehouses"
 msgstr "창고에 있는 물품들"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:54
+#: ../../src/wui/stock_menu.cc:83
 msgid "Workers in warehouses"
 msgstr "창고에 있는 일꾼들"
 
@@ -5722,22 +5611,17 @@ msgid "Soldiers in training"
 msgstr "훈련중인 군인들"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:106
-msgid "Ware Statistics"
-msgstr "물품 통계"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:134
+#: ../../src/wui/ware_statistics_menu.cc:133
 msgid "Production"
 msgstr "생산"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:141
+#: ../../src/wui/ware_statistics_menu.cc:140
 msgid "Consumption"
 msgstr "소모"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:148
+#: ../../src/wui/ware_statistics_menu.cc:147
 msgid "Economy health"
 msgstr "경제 활력"
 
@@ -5757,17 +5641,17 @@ msgid "Configure this building’s economy"
 msgstr "이 건물의 경제를 구성"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/warehousewindow.cc:269
+#: ../../src/wui/warehousewindow.cc:270
 msgid "Wares waiting to be shipped"
 msgstr "선적을 기다리는 물품들"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/warehousewindow.cc:272
+#: ../../src/wui/warehousewindow.cc:273
 msgid "Workers waiting to embark"
 msgstr "배타기를 기다리는 일꾼들"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/warehousewindow.cc:277
+#: ../../src/wui/warehousewindow.cc:278
 msgid "Expedition"
 msgstr "탐험"
 

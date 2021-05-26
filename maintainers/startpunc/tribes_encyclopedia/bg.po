@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/widelands/widelands/"
 "language/bg/)\n"
 "Language: bg\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1134
+#: ../../data/tribes/initialization/barbarians/units.lua:1149
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -27,7 +27,7 @@ msgstr "„Ако отсечеш дърво с 200 удара, ти си беб�
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Ranger's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1150
+#: ../../data/tribes/initialization/barbarians/units.lua:1165
 msgctxt "barbarians_building"
 msgid ""
 "‘He who can grow two trees where normally only one will grow exceeds the "
@@ -36,14 +36,14 @@ msgstr "„Този, който може да отгледа две дървет
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1165
+#: ../../data/tribes/initialization/barbarians/units.lua:1180
 msgctxt "barbarians_building"
 msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "„Какво искаш да кажеш с това, че рибата ми не е прясна?!“"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1180
+#: ../../data/tribes/initialization/barbarians/units.lua:1195
 msgctxt "barbarians_building"
 msgid ""
 "‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
@@ -53,14 +53,14 @@ msgstr "„Тих като пантера,<br> пъргав като невес�
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Hunter's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1182
+#: ../../data/tribes/initialization/barbarians/units.lua:1197
 msgctxt "barbarians_building"
 msgid "‘The Art of Hunting’"
 msgstr "„Изкуството на лова“"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1208
+#: ../../data/tribes/initialization/barbarians/units.lua:1223
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -69,21 +69,21 @@ msgstr "„О, колко е сладък този източник на жив�
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Reed Yard
-#: ../../data/tribes/initialization/barbarians/units.lua:1246
+#: ../../data/tribes/initialization/barbarians/units.lua:1262
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "„Ние отглеждаме покриви“"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1261
+#: ../../data/tribes/initialization/barbarians/units.lua:1277
 msgctxt "barbarians_building"
 msgid "‘Forming new stone from old with fire and water.’"
 msgstr "„Правя нов камък от стар такъв с огън и вода.“"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Micro Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1289
+#: ../../data/tribes/initialization/barbarians/units.lua:1305
 msgctxt "barbarians_building"
 msgid ""
 "‘Let the first one drive away the hunger, the second one put you at ease; "
@@ -92,7 +92,7 @@ msgstr "„Нека първото прогони глада, а второто 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1379
+#: ../../data/tribes/initialization/barbarians/units.lua:1395
 msgctxt "barbarians_building"
 msgid "‘We make it work!’"
 msgstr "„Ние го караме да работи!“"
@@ -100,8 +100,8 @@ msgstr "„Ние го караме да работи!“"
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
 #. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1394
-#: ../../data/tribes/initialization/barbarians/units.lua:1413
+#: ../../data/tribes/initialization/barbarians/units.lua:1410
+#: ../../data/tribes/initialization/barbarians/units.lua:1429
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -110,7 +110,7 @@ msgstr "„Новата военна брадва изважда на показ
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1485
+#: ../../data/tribes/initialization/barbarians/units.lua:1501
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "„Мога да понеса тонове гранит, човече, но не и още от твоето безсмислено бърборене.“"
@@ -120,9 +120,9 @@ msgstr "„Мога да понеса тонове гранит, човече, �
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deep Iron Mine
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Iron
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1551
-#: ../../data/tribes/initialization/barbarians/units.lua:1564
-#: ../../data/tribes/initialization/barbarians/units.lua:1577
+#: ../../data/tribes/initialization/barbarians/units.lua:1567
+#: ../../data/tribes/initialization/barbarians/units.lua:1580
+#: ../../data/tribes/initialization/barbarians/units.lua:1593
 msgctxt "barbarians_building"
 msgid ""
 "‘I look at my own pick wearing away day by day and I realize why my work is "
@@ -134,9 +134,9 @@ msgstr "„Гледам как кирката ми се износва ден с
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deep Gold Mine
 #. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Gold
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1590
-#: ../../data/tribes/initialization/barbarians/units.lua:1603
-#: ../../data/tribes/initialization/barbarians/units.lua:1616
+#: ../../data/tribes/initialization/barbarians/units.lua:1606
+#: ../../data/tribes/initialization/barbarians/units.lua:1619
+#: ../../data/tribes/initialization/barbarians/units.lua:1632
 msgctxt "barbarians_building"
 msgid ""
 "‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
@@ -145,7 +145,7 @@ msgstr "„Меко и гъвкаво.<br> И все пак недокоснат
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1631
+#: ../../data/tribes/initialization/barbarians/units.lua:1647
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
@@ -154,7 +154,7 @@ msgstr "„Няма по-добро нещо, което може да ти се
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1638
+#: ../../data/tribes/initialization/barbarians/units.lua:1654
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -163,7 +163,7 @@ msgstr "„Ловкостта“ увеличава шанса на войник
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1650
+#: ../../data/tribes/initialization/barbarians/units.lua:1666
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -174,8 +174,8 @@ msgstr "„Този, който е силен, не трябва да проща
 #. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
 #. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
 #. 2
-#: ../../data/tribes/initialization/empire/units.lua:1430
-#: ../../data/tribes/initialization/empire/units.lua:1443
+#: ../../data/tribes/initialization/empire/units.lua:1446
+#: ../../data/tribes/initialization/empire/units.lua:1459
 msgctxt "empire_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "

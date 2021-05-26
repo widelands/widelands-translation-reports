@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
@@ -36,7 +36,7 @@ msgstr "ファイル名のどこかに%s"
 #. * TRANSLATORS: %1% is the number of soldiers the plural refers to. %2% is
 #. the maximum
 #. * number of soldier slots in the building
-#: ../../src/logic/map_objects/tribes/militarysite.cc:418
+#: ../../src/logic/map_objects/tribes/militarysite.cc:420
 msgid "%1% soldier (+%2%)"
 msgid_plural "%1% soldiers (+%2%)"
 msgstr[0] "兵士数 %1% (空%2%)"
@@ -45,7 +45,7 @@ msgstr[0] "兵士数 %1% (空%2%)"
 #. * TRANSLATORS: %1% is the number of soldiers the plural refers to. %2% are
 #. currently open soldier slots in the building. %3% is the maximum number of
 #. soldier slots in the building
-#: ../../src/logic/map_objects/tribes/militarysite.cc:438
+#: ../../src/logic/map_objects/tribes/militarysite.cc:440
 msgid "%1%(+%2%) soldier (+%3%)"
 msgid_plural "%1%(+%2%) soldiers (+%3%)"
 msgstr[0] "兵士数 %1%[+%2%] (空%3%)"
@@ -54,7 +54,7 @@ msgstr[0] "兵士数 %1%[+%2%] (空%3%)"
 #. * TRANSLATORS: %1% is the number of soldiers the plural refers to. %2% are
 #. currently
 #. * open soldier slots in the building
-#: ../../src/logic/map_objects/tribes/militarysite.cc:447
+#: ../../src/logic/map_objects/tribes/militarysite.cc:449
 msgid "%1%(+%2%) soldier"
 msgid_plural "%1%(+%2%) soldiers"
 msgstr[0] "兵士数 %1%[+%2%]"
@@ -73,23 +73,23 @@ msgstr[0] "兵士数 %1%[+%2%]"
 #. * TRANSLATORS: on a development build if you can, and let us know if there
 #. are any issues
 #. * TRANSLATORS: we need to address for your language.
-#: ../../src/logic/map_objects/tribes/production_program.cc:722
-#: ../../src/logic/map_objects/tribes/production_program.cc:1231
+#: ../../src/logic/map_objects/tribes/production_program.cc:724
+#: ../../src/logic/map_objects/tribes/production_program.cc:1238
 #, c-format
 msgid "Did not start %1$s because %2$s"
 msgstr "%2$sで、%1$sを中止しました"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:728
+#: ../../src/logic/map_objects/tribes/production_program.cc:730
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%2$sで、%1$sを完了しました"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:734
-#: ../../src/logic/map_objects/tribes/production_program.cc:740
+#: ../../src/logic/map_objects/tribes/production_program.cc:736
+#: ../../src/logic/map_objects/tribes/production_program.cc:742
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%2$sで、%1$sをスキップしました"
@@ -98,7 +98,7 @@ msgstr "%2$sで、%1$sをスキップしました"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1325
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -108,21 +108,21 @@ msgstr[0] "%sを生産"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "%sを登用"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/player.cc:1860
+#: ../../src/logic/player.cc:1917
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
 msgstr "%d 号"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:346
+#: ../../src/network/gamehost.cc:354
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "%sを本当に追い出しても良いですか？"
@@ -130,26 +130,26 @@ msgstr "%sを本当に追い出しても良いですか？"
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Geeky message from the metaserver
 #. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
-#: ../../src/network/internet_gaming.cc:1013
+#: ../../src/network/internet_gaming.cc:1016
 #, c-format
 msgid "Unable to determine truth value for \"%s\""
 msgstr "「%s」を真偽値に変換できません"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/options.cc:233
+#: ../../src/ui_fsmenu/options.cc:253
 msgid "Write syncstreams in network games to debug desyncs"
 msgstr "(デバッグ用) 非同期発生の発見や検証のため、マルチプレイゲーム時に同期情報を書き出す"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:626
+#: ../../src/ui_fsmenu/options.cc:692
 #, c-format
 msgid "The translation into %s is complete."
 msgstr "%sへの翻訳は完了しています。"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %1% = language name, %2% = percentage
-#: ../../src/ui_fsmenu/options.cc:629
+#: ../../src/ui_fsmenu/options.cc:695
 msgid "The translation into %1% is %2%%% complete."
 msgstr "%1%への翻訳は%2%%%完了しています。"
 
@@ -163,16 +163,7 @@ msgid_plural "%u soldiers"
 msgstr[0] "兵士数 %u"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/buildingwindow.cc:292
+#: ../../src/wui/buildingwindow.cc:293
 #, c-format
 msgid "Enhance to %s"
 msgstr "%sに拡張"
-
-# (pofilter) startpunc: Different punctuation at the start
-#. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
-#. are:
-#. month (short name) day (number),
-#. year (number). This is part of a list.
-#: ../../src/wui/savegameloader.cc:171
-msgid "saved on %1% %2%, %3%"
-msgstr "%3%年%1%月%2%日 保存"

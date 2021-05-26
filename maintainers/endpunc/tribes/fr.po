@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-11 21:14+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,7 +12,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Amazon military site
+#: ../../data/tribes/buildings/militarysites/amazons/warriors_dwelling/init.lua:46
+msgctxt "amazons_building"
+msgid "Your warriors’ dwelling is under attack."
+msgstr "Votre demeure de guerriers est attaquée"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Amazon military site
+#: ../../data/tribes/buildings/militarysites/amazons/warriors_dwelling/init.lua:50
+msgctxt "amazons_building"
+msgid "Your soldiers defeated the enemy at the warriors’ dwelling."
+msgstr "Vos soldats ont vaincu l'ennemi à la demeure des guerriers"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/buildings/productionsites/amazons/gold_digger_dwelling/init.lua:66
@@ -28,11 +42,11 @@ msgid "Main Gold Vein Exhausted"
 msgstr "Veine d'Or principale épuisée."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:61
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:49
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:56
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:49
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:62
+#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:58
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:47
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:55
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:47
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:60
 msgid "Out of Trees"
 msgstr "Plus d'arbres."
 
@@ -43,11 +57,107 @@ msgid "Main Marble Vein Exhausted"
 msgstr "Veine de marbre principale épuisée."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Amazon training site tooltip when it has no soldiers assigned
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:236
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:122
+msgctxt "amazons_building"
+msgid "No soldier to train!"
+msgstr "Pas de soldat à entraîner !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Amazon training site tooltip when none of the present soldiers
+#. match the current training program
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:238
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:124
+msgctxt "amazons_building"
+msgid "No soldier found for this training level!"
+msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Atlantean training site tooltip when it has no soldiers
+#. assigned
+#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:340
+#: ../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:163
+msgctxt "atlanteans_building"
+msgid "No soldier to train!"
+msgstr "Pas de soldat à entraîner !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Atlantean training site tooltip when none of the present
+#. soldiers match the current training program
+#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:342
+#: ../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:165
+msgctxt "atlanteans_building"
+msgid "No soldier found for this training level!"
+msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Barbarian training site tooltip when it has no soldiers
+#. assigned
+#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:120
+#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:218
+msgctxt "barbarians_building"
+msgid "No soldier to train!"
+msgstr "Pas de soldat à entraîner !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Barbarian training site tooltip when none of the present
+#. soldiers match the current training program
+#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:122
+#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:220
+msgctxt "barbarians_building"
+msgid "No soldier found for this training level!"
+msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Empire training site tooltip when it has no soldiers assigned
+#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:111
+#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:85
+#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:212
+msgctxt "empire_building"
+msgid "No soldier to train!"
+msgstr "Pas de soldat à entraîner !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Empire training site tooltip when none of the present soldiers
+#. match the current training program
+#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:113
+#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:87
+#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:214
+msgctxt "empire_building"
+msgid "No soldier found for this training level!"
+msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Frisian training site tooltip when it has no soldiers assigned
+#: ../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:205
+#: ../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:202
+msgctxt "frisians_building"
+msgid "No soldier to train!"
+msgstr "Pas de soldat à entraîner !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Frisian training site tooltip when none of the present
+#. soldiers match the current training program
+#: ../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:207
+#: ../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:204
+msgctxt "frisians_building"
+msgid "No soldier found for this training level!"
+msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is an immovable name used in lists of immovables
 #: ../../data/tribes/immovables/blackrootfield/harvested/init.lua:8
 msgctxt "immovable"
 msgid "Blackroot Field (harvested)"
 msgstr "Champ de racines noires (récolté)."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is an immovable name used in lists of immovables
+#: ../../data/tribes/immovables/cassavafield/harvested/init.lua:8
+msgctxt "immovable"
+msgid "Cassava Field (harvested)"
+msgstr "Champ de manioc (récolté)."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is a ware name used in lists of wares

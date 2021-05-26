@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-23 07:56+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-22 20:16+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
@@ -12,52 +12,52 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:45
+#: ../../src/wlapplication_messages.cc:46
 msgid "                      Note: New value will be written to config file"
 msgstr "Nota bene: I nuovi valori saranno scritti nel file di configurazione"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:81
+#: ../../src/wlapplication_messages.cc:82
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr "--autosave=[...] Salva automaticamente ogni n minuti"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:82
+#: ../../src/wlapplication_messages.cc:83
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr "--rolling_autosave=[...]\nUtilizza tutti questi file per avere dei salvataggi automatici continui"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:85
+#: ../../src/wlapplication_messages.cc:86
 msgid ""
 " --metaserver=[...]\n"
 "                      Connect to a different metaserver for internet gaming."
 msgstr "--metaserver=[...]\nConnetti a un metaserver differente per giocare su Internet."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:88
+#: ../../src/wlapplication_messages.cc:89
 msgid ""
 " --metaserverport=[...]\n"
 "                      Port number of the metaserver for internet gaming."
 msgstr "--metaserverport=[...]\nPorta del metaserver per giocare su Internet."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:115
+#: ../../src/wlapplication_messages.cc:127
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr "--script=FILENAME Eseguire il dato script Lua dopo l'inizializzazione.\nValido solo con --scenario, --loadgame o --editor."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:136
+#: ../../src/wlapplication_messages.cc:148
 msgid " --xres=[...]         Width of the window in pixel."
 msgstr "--xres=[...] Larghezza della finestra in pixel."
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/wlapplication_messages.cc:137
+#: ../../src/wlapplication_messages.cc:149
 msgid " --yres=[...]         Height of the window in pixel."
 msgstr "--yres=[...] Altezza della finestra in pixel."

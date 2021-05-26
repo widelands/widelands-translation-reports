@@ -2,60 +2,73 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-29 16:13+0000\n"
-"Last-Translator: Ondřej Itřech <vasa5@centrum.cz>\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
-" 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
+#. * TRANSLATORS: %s are the currently selected items in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:176
+#, c-format
+msgid "Current: %s …"
+msgstr "Vybráno: %s"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:319
+msgid "Postloading world and tribes…"
+msgstr "Donačítání světa a kmenů"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/network_gaming_messages.cc:169
+#, c-format
+msgid "Client %s is cheating!"
+msgstr "%s obchází pravidla použitím cheatu."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons.cc:895
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
+msgstr "· „%1$s“ vyžaduje rozšíření „%2$s“, které je vypnuto."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons.cc:1661
+msgid "No comments yet."
+msgstr "Zatím bez komentáře"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:237
+msgid "Win condition is set through the scenario"
+msgstr "Výherní podmínka je definována prostřednictvím scénáře."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:213 ../../src/ui_fsmenu/launch_spg.cc:127
+#, c-format
 msgid ""
-"Click on the map to increase, Shift + Click on the map to decrease terrain "
-"height"
-msgstr "Klik v mapě zvýší, Shift + Klik v mapě sníží úroveň terénu."
+"Widelands tried to start a game with a file that could not be found at the given path.\n"
+"The file was: %s\n"
+"If this happens in a network game, the host might have selected a file that you do not own. Normally, such a file should be sent from the host to you, but perhaps the transfer was not yet finished!?!"
+msgstr "Widelands se pokouší zahájit hru se souborem, který nebylo možné nalézt v očekávaném umístění.\nJde o soubor: %s\nPokud k tomu došlo při zahájení hry po síti, hostitel zřejmě zvolil soubor, který nemáš k dispozici. Za normálních okolností by ti takový soubor měl být poslán hostitelem, ale třeba stahování ještě nedoběhlo do konce?!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Editor set height access key. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:80
-msgid "Ctrl + Click on the map to set terrain height"
-msgstr "Ctrl + Klik v mapě nastaví úroveň terénu."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Editor change rseources access keys. *
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:74
+#: ../../src/ui_fsmenu/login_box.cc:208
 msgid ""
-"Click on the map to increase, Shift + Click on the map to decrease the "
-"amount of the selected resource"
-msgstr "Klik v mapě zvýší, Shift + Klik v mapě sníží možství vybrané suroviny."
+"Enter a valid nickname. This value may contain only English letters, "
+"numbers, and @ . + - _ characters."
+msgstr "Zadej platnou přezdívku. Musí obsahovat pouze písmena anglické abecedy, čísla a znaky @ . + - _ ."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Editor random height access key. *
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:74
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:77
-msgid ""
-"Click on the map to set terrain height to a random value within the "
-"specified range"
-msgstr "Klik v mapě nastaví úroveň terénu na náhodnou hodnotu z definovaného rozsahu."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:62
-msgid "Loading…"
-msgstr "Nahrávání..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:128
-msgid "The selected win condition does not allow peaceful matches"
-msgstr "Zvolená výherní podmínka nedovoluje mírové nastavení."
+#: ../../src/ui_fsmenu/main.cc:427
+msgid "Begin or load a single-player campaign or free game"
+msgstr "Začít nebo načíst kampaň nebo hru jednoho hráče."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/actionconfirm.cc:250
@@ -75,3 +88,13 @@ msgstr "Veškeré zboží, které bylo uloženo v budově, bude stavařem vynese
 #: ../../src/wui/attack_box.cc:196
 msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Poslat méně vojáků. Při současném přidržení Ctrl budou odebráni všichni vojáci."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/fieldaction.cc:400
+msgid "Mark this immovable for timely removal by a suited worker"
+msgstr "Označ tento pevný předmět, aby byl příslušným dělníkem odstraněn ihned, jak situace dovolí."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/productionsitewindow.cc:115
+msgid "Exp"
+msgstr "Zkuš."

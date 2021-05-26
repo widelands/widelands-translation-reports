@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
@@ -12,26 +12,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian building: Construction Site
-#. TRANSLATORS: Purpose helptext for an amazon building: Construction Site
+#. TRANSLATORS: Purpose helptext for an atlantean building: Construction Site
 #. TRANSLATORS: Purpose helptext for an empire building: Construction Site
 #. TRANSLATORS: Purpose helptext for a barbarian building: Construction Site
-#. TRANSLATORS: Purpose helptext for an atlantean building: Construction Site
-#: ../../data/tribes/initialization/amazons/units.lua:1577
-#: ../../data/tribes/initialization/atlanteans/units.lua:1695
-#: ../../data/tribes/initialization/barbarians/units.lua:1778
-#: ../../data/tribes/initialization/empire/units.lua:1555
-#: ../../data/tribes/initialization/frisians/units.lua:2144
+#. TRANSLATORS: Purpose helptext for an amazon building: Construction Site
+#. TRANSLATORS: Purpose helptext for a frisian building: Construction Site
+#: ../../data/tribes/initialization/amazons/units.lua:1594
+#: ../../data/tribes/initialization/atlanteans/units.lua:1718
+#: ../../data/tribes/initialization/barbarians/units.lua:1794
+#: ../../data/tribes/initialization/empire/units.lua:1571
+#: ../../data/tribes/initialization/frisians/units.lua:2167
 msgctxt "building"
 msgid "A new building is being built at this construction site."
 msgstr "Un nuovo edificio sta venendo costruito in questo cantiere"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean ware: Cornmeal
-#: ../../data/tribes/initialization/atlanteans/units.lua:454
+#: ../../data/tribes/initialization/atlanteans/units.lua:474
 msgctxt "atlanteans_ware"
 msgid ""
 "Cornmeal is produced in a mill out of corn and is one of three parts of the "
@@ -40,7 +40,7 @@ msgstr "La farina di mais è prodotta in un mulino a partire dal mais ed è una 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Horse Breeder
-#: ../../data/tribes/initialization/atlanteans/units.lua:829
+#: ../../data/tribes/initialization/atlanteans/units.lua:849
 msgctxt "atlanteans_worker"
 msgid ""
 "Breeds the strong Atlantean horses for adding them to the transportation "
@@ -49,61 +49,61 @@ msgstr "Alleva i cavalli atlantidei per aiutare il trasporto di merci"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Stonecutter
-#: ../../data/tribes/initialization/atlanteans/units.lua:839
+#: ../../data/tribes/initialization/atlanteans/units.lua:859
 msgctxt "atlanteans_worker"
 msgid "Cuts blocks of granite out of rocks in the vicinity."
 msgstr "Taglia blocchi di granito dalle pietre nelle vicinanze"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Spider Breeder
-#: ../../data/tribes/initialization/atlanteans/units.lua:874
+#: ../../data/tribes/initialization/atlanteans/units.lua:894
 msgctxt "atlanteans_worker"
 msgid "Breeds spiders for silk."
-msgstr "Alleva i ragni per la loro tela"
+msgstr "Alleva i ragni per la loro seta"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Quarry
-#: ../../data/tribes/initialization/atlanteans/units.lua:1362
+#: ../../data/tribes/initialization/atlanteans/units.lua:1384
 msgctxt "atlanteans_building"
 msgid "Cuts blocks of granite out of rocks in the vicinity."
 msgstr "Taglia blocchi di granito dalle pietre nelle vicinanze"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an atlantean production site: Quarry
-#: ../../data/tribes/initialization/atlanteans/units.lua:1364
+#: ../../data/tribes/initialization/atlanteans/units.lua:1386
 msgctxt "atlanteans_building"
 msgid "The quarry needs rocks to cut within the work area."
 msgstr "La cava necessita di pietre da tagliare nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Woodcutter's
-#. House
+#. TRANSLATORS: Purpose helptext for an atlantean production site:
+#. Woodcutter's House
 #. TRANSLATORS: Purpose helptext for an empire production site: Lumberjack's
 #. House
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Lumberjack_s
 #. Hut
-#. TRANSLATORS: Purpose helptext for an atlantean production site:
-#. Woodcutter's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1371
-#: ../../data/tribes/initialization/barbarians/units.lua:1138
-#: ../../data/tribes/initialization/empire/units.lua:1157
-#: ../../data/tribes/initialization/frisians/units.lua:1537
+#. TRANSLATORS: Purpose helptext for a frisian production site: Woodcutter's
+#. House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1393
+#: ../../data/tribes/initialization/barbarians/units.lua:1153
+#: ../../data/tribes/initialization/empire/units.lua:1172
+#: ../../data/tribes/initialization/frisians/units.lua:1559
 msgctxt "building"
 msgid "Fells trees in the surrounding area and processes them into logs."
 msgstr "Taglia gli alberi nell'area circostante e li processa in tronchi"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Forester's
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Forester's
 #. House
 #. TRANSLATORS: Purpose helptext for an empire production site: Forester's
 #. House
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Ranger's Hut
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Forester's
+#. TRANSLATORS: Purpose helptext for a frisian production site: Forester's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1380
-#: ../../data/tribes/initialization/barbarians/units.lua:1154
-#: ../../data/tribes/initialization/empire/units.lua:1166
-#: ../../data/tribes/initialization/frisians/units.lua:1550
+#: ../../data/tribes/initialization/atlanteans/units.lua:1402
+#: ../../data/tribes/initialization/barbarians/units.lua:1169
+#: ../../data/tribes/initialization/empire/units.lua:1181
+#: ../../data/tribes/initialization/frisians/units.lua:1572
 msgctxt "building"
 msgid "Plants trees in the surrounding area."
 msgstr "Pianta alberi nelll'area circostante"
@@ -111,7 +111,7 @@ msgstr "Pianta alberi nelll'area circostante"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an atlantean production site: Forester's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1382
+#: ../../data/tribes/initialization/atlanteans/units.lua:1404
 msgctxt "atlanteans_building"
 msgid ""
 "The forester’s house needs free space within the work area to plant the "
@@ -121,7 +121,7 @@ msgstr "La casa della guardia forestale necessita di spazio libero nella sua are
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Fisher's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1389
+#: ../../data/tribes/initialization/atlanteans/units.lua:1411
 msgctxt "atlanteans_building"
 msgid "Fishes on the coast near the fisher’s house."
 msgstr "Pesca lungo la costa vicino alla casa del pescatore"
@@ -129,7 +129,7 @@ msgstr "Pesca lungo la costa vicino alla casa del pescatore"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an atlantean production site: Fisher's
 #. House, part 1
-#: ../../data/tribes/initialization/atlanteans/units.lua:1392
+#: ../../data/tribes/initialization/atlanteans/units.lua:1414
 msgctxt "atlanteans_building"
 msgid "The fisher’s house needs water full of fish within the work area."
 msgstr "La casa del pescatore ha bisogno di acqua con pesci nella sua area di lavoro"
@@ -137,7 +137,7 @@ msgstr "La casa del pescatore ha bisogno di acqua con pesci nella sua area di la
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an atlantean production site: Fisher's
 #. House, part 2
-#: ../../data/tribes/initialization/atlanteans/units.lua:1394
+#: ../../data/tribes/initialization/atlanteans/units.lua:1416
 msgctxt "atlanteans_building"
 msgid ""
 "Build a fish breeder’s house close to the fisher’s house to make sure that "
@@ -147,100 +147,100 @@ msgstr "Costruisci una casa dell'allevatore di peci vicino alla casa del pescato
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Fish
 #. Breeder's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1409
+#: ../../data/tribes/initialization/atlanteans/units.lua:1431
 msgctxt "building"
 msgid "Breeds fish."
 msgstr "Fa riprodurre i pesci"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an atlantean production site: Hunter's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1418
+#: ../../data/tribes/initialization/atlanteans/units.lua:1440
 msgctxt "atlanteans_building"
 msgid "The hunter’s house needs animals to hunt within the work area."
 msgstr "La casa del cacciatore necessita di animali da cacciare entro la sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Well
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Well
 #. TRANSLATORS: Purpose helptext for an empire production site: Well
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Well
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Well
-#: ../../data/tribes/initialization/atlanteans/units.lua:1425
-#: ../../data/tribes/initialization/barbarians/units.lua:1212
-#: ../../data/tribes/initialization/empire/units.lua:1193
-#: ../../data/tribes/initialization/frisians/units.lua:1604
+#. TRANSLATORS: Purpose helptext for a frisian production site: Well
+#: ../../data/tribes/initialization/atlanteans/units.lua:1447
+#: ../../data/tribes/initialization/barbarians/units.lua:1227
+#: ../../data/tribes/initialization/empire/units.lua:1208
+#: ../../data/tribes/initialization/frisians/units.lua:1626
 msgctxt "building"
 msgid "Draws water out of the deep."
 msgstr "Estrae acqua dal pozzo"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Scout's House
-#. TRANSLATORS: Purpose helptext for an empire production site: Scout's House
-#. TRANSLATORS: Purpose helptext for a barbarian production site: Scout's Hut
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Scout's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1439
-#: ../../data/tribes/initialization/barbarians/units.lua:1225
-#: ../../data/tribes/initialization/empire/units.lua:1200
-#: ../../data/tribes/initialization/frisians/units.lua:1701
+#. TRANSLATORS: Purpose helptext for an empire production site: Scout's House
+#. TRANSLATORS: Purpose helptext for a barbarian production site: Scout's Hut
+#. TRANSLATORS: Purpose helptext for a frisian production site: Scout's House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1462
+#: ../../data/tribes/initialization/barbarians/units.lua:1241
+#: ../../data/tribes/initialization/empire/units.lua:1216
+#: ../../data/tribes/initialization/frisians/units.lua:1724
 msgctxt "building"
 msgid "Explores unknown territory."
 msgstr "Esplora territorio ignoto"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an empire production site: Sawmill
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Sawmill
-#: ../../data/tribes/initialization/atlanteans/units.lua:1448
-#: ../../data/tribes/initialization/empire/units.lua:1216
+#. TRANSLATORS: Purpose helptext for an empire production site: Sawmill
+#: ../../data/tribes/initialization/atlanteans/units.lua:1471
+#: ../../data/tribes/initialization/empire/units.lua:1232
 msgctxt "building"
 msgid "Saws logs to produce planks."
 msgstr "Sega i tronchi per produrre tavole"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Bakery
-#: ../../data/tribes/initialization/atlanteans/units.lua:1471
+#: ../../data/tribes/initialization/atlanteans/units.lua:1494
 msgctxt "atlanteans_building"
 msgid "Bakes bread to feed the scouts and miners and to train soldiers."
 msgstr "Inforna il pane per nutrire gli esploratori, i minatori, e i soldati in addestramento"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Charcoal
-#. Burner's House
-#. TRANSLATORS: Purpose helptext for a frisian production site: Charcoal Kiln
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Charcoal
+#. Kiln
 #. TRANSLATORS: Purpose helptext for an empire production site: Charcoal Kiln
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Charcoal
 #. Kiln
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Charcoal
-#. Kiln
-#: ../../data/tribes/initialization/atlanteans/units.lua:1478
-#: ../../data/tribes/initialization/barbarians/units.lua:1360
-#: ../../data/tribes/initialization/empire/units.lua:1282
-#: ../../data/tribes/initialization/frisians/units.lua:1628
-#: ../../data/tribes/initialization/frisians/units.lua:1810
+#. TRANSLATORS: Purpose helptext for a frisian production site: Charcoal
+#. Burner's House
+#. TRANSLATORS: Purpose helptext for a frisian production site: Charcoal Kiln
+#: ../../data/tribes/initialization/atlanteans/units.lua:1501
+#: ../../data/tribes/initialization/barbarians/units.lua:1376
+#: ../../data/tribes/initialization/empire/units.lua:1298
+#: ../../data/tribes/initialization/frisians/units.lua:1650
+#: ../../data/tribes/initialization/frisians/units.lua:1833
 msgctxt "building"
 msgid "Burns logs into charcoal."
 msgstr "Brucia tronchi per ricavare carbone"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Smelting
+#. Works
 #. TRANSLATORS: Purpose helptext for an empire production site: Smelting Works
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Smelting
 #. Works
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Smelting
-#. Works
-#: ../../data/tribes/initialization/atlanteans/units.lua:1485
-#: ../../data/tribes/initialization/barbarians/units.lua:1372
-#: ../../data/tribes/initialization/empire/units.lua:1289
+#: ../../data/tribes/initialization/atlanteans/units.lua:1508
+#: ../../data/tribes/initialization/barbarians/units.lua:1388
+#: ../../data/tribes/initialization/empire/units.lua:1305
 msgctxt "building"
 msgid "Smelts iron ore into iron and gold ore into gold."
 msgstr "Forgia ferro dal ferro grezzo e oro dal minerale aurifero"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Toolsmithy
 #. TRANSLATORS: Purpose helptext for an empire production site: Toolsmithy
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Metal
 #. Workshop
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Toolsmithy
-#: ../../data/tribes/initialization/atlanteans/units.lua:1492
-#: ../../data/tribes/initialization/barbarians/units.lua:1383
-#: ../../data/tribes/initialization/empire/units.lua:1296
+#: ../../data/tribes/initialization/atlanteans/units.lua:1515
+#: ../../data/tribes/initialization/barbarians/units.lua:1399
+#: ../../data/tribes/initialization/empire/units.lua:1312
 msgctxt "building"
 msgid "Forges all the tools that your workers need."
 msgstr "Forgia tutti gli attrezzi necessari ai tuoi lavoratori"
@@ -248,7 +248,7 @@ msgstr "Forgia tutti gli attrezzi necessari ai tuoi lavoratori"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Armor
 #. Smithy
-#: ../../data/tribes/initialization/atlanteans/units.lua:1506
+#: ../../data/tribes/initialization/atlanteans/units.lua:1529
 msgctxt "atlanteans_building"
 msgid ""
 "Forges shields that are used for training soldiers’ defense in the "
@@ -257,7 +257,7 @@ msgstr "Forgia gli scudi che sono usati per addestrare la difesa dei soldati nel
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Horse Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1522
+#: ../../data/tribes/initialization/atlanteans/units.lua:1545
 msgctxt "atlanteans_building"
 msgid ""
 "Breeds the strong Atlantean horses for adding them to the transportation "
@@ -266,14 +266,14 @@ msgstr "Alleva i cavalli atlantidei per aiutare il trasporto di merci"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1529
+#: ../../data/tribes/initialization/atlanteans/units.lua:1552
 msgctxt "atlanteans_building"
 msgid "Sows and harvests corn."
 msgstr "Semina e raccoglie mais"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an atlantean production site: Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1531
+#: ../../data/tribes/initialization/atlanteans/units.lua:1554
 msgctxt "atlanteans_building"
 msgid "The farmer needs %1% on average to sow and harvest a sheaf of corn."
 msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio di mais"
@@ -281,7 +281,7 @@ msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio d
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Blackroot
 #. Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1538
+#: ../../data/tribes/initialization/atlanteans/units.lua:1561
 msgctxt "atlanteans_building"
 msgid "Sows and harvests blackroot."
 msgstr "Semina e raccoglie radici nere"
@@ -289,7 +289,7 @@ msgstr "Semina e raccoglie radici nere"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an atlantean production site:
 #. Blackroot Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1540
+#: ../../data/tribes/initialization/atlanteans/units.lua:1563
 msgctxt "atlanteans_building"
 msgid ""
 "The blackroot farmer needs %1% on average to sow and harvest a bundle of "
@@ -298,15 +298,15 @@ msgstr "Il coltivatore di radici nere impiega in media %1% per seminare e raccog
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Spider Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1547
+#: ../../data/tribes/initialization/atlanteans/units.lua:1570
 msgctxt "building"
 msgid "Breeds spiders for silk."
-msgstr "Alleva i ragni per la loro tela"
+msgstr "Alleva i ragni per la loro seta"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Weaving
 #. Mill
-#: ../../data/tribes/initialization/atlanteans/units.lua:1554
+#: ../../data/tribes/initialization/atlanteans/units.lua:1577
 msgctxt "atlanteans_building"
 msgid ""
 "Weaves spidercloth for buildings and ships’ sails, and tabards to equip and "
@@ -316,35 +316,34 @@ msgstr "Tesse il tessuto di ragno per gli edifici e per le vele delle navi, e i 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an atlantean production site: Crystal
 #. Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1563
+#: ../../data/tribes/initialization/atlanteans/units.lua:1586
 msgctxt "atlanteans_building"
 msgid "Carves precious stones out of the rock in mountain terrain."
 msgstr "Scava pietre preziose dal terreno delle montagne"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Coal Mine
-#. TRANSLATORS: Purpose helptext for a frisian production site: Deep Coal Mine
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Coal Mine
 #. TRANSLATORS: Purpose helptext for an empire production site: Coal Mine
 #. TRANSLATORS: Purpose helptext for an empire production site: Deep Coal Mine
 #. TRANSLATORS: Purpose helptext for production site: Coal Mine
 #. TRANSLATORS: Purpose helptext for production site: Deep Coal Mine
 #. TRANSLATORS: Purpose helptext for production site: Deeper Coal Mine
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Coal Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1570
-#: ../../data/tribes/initialization/barbarians/units.lua:1512
-#: ../../data/tribes/initialization/barbarians/units.lua:1527
-#: ../../data/tribes/initialization/barbarians/units.lua:1542
-#: ../../data/tribes/initialization/empire/units.lua:1383
-#: ../../data/tribes/initialization/empire/units.lua:1390
-#: ../../data/tribes/initialization/frisians/units.lua:1965
-#: ../../data/tribes/initialization/frisians/units.lua:1974
+#. TRANSLATORS: Purpose helptext for a frisian production site: Coal Mine
+#. TRANSLATORS: Purpose helptext for a frisian production site: Deep Coal Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1593
+#: ../../data/tribes/initialization/barbarians/units.lua:1528
+#: ../../data/tribes/initialization/barbarians/units.lua:1543
+#: ../../data/tribes/initialization/barbarians/units.lua:1558
+#: ../../data/tribes/initialization/empire/units.lua:1399
+#: ../../data/tribes/initialization/empire/units.lua:1406
+#: ../../data/tribes/initialization/frisians/units.lua:1988
+#: ../../data/tribes/initialization/frisians/units.lua:1997
 msgctxt "building"
 msgid "Digs coal out of the ground in mountain terrain."
 msgstr "Estrae carbone dalle montagne"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Iron Mine
-#. TRANSLATORS: Purpose helptext for a frisian production site: Deep Iron Mine
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Iron Mine
 #. TRANSLATORS: Purpose helptext for an empire production site: Iron Mine
 #. TRANSLATORS: Purpose helptext for an empire production site: Deep Iron Mine
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Iron Mine
@@ -352,49 +351,50 @@ msgstr "Estrae carbone dalle montagne"
 #. Mine
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Deeper Iron
 #. Mine
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Iron Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1577
-#: ../../data/tribes/initialization/barbarians/units.lua:1555
-#: ../../data/tribes/initialization/barbarians/units.lua:1568
-#: ../../data/tribes/initialization/barbarians/units.lua:1581
-#: ../../data/tribes/initialization/empire/units.lua:1397
-#: ../../data/tribes/initialization/empire/units.lua:1404
-#: ../../data/tribes/initialization/frisians/units.lua:1983
-#: ../../data/tribes/initialization/frisians/units.lua:1992
+#. TRANSLATORS: Purpose helptext for a frisian production site: Iron Mine
+#. TRANSLATORS: Purpose helptext for a frisian production site: Deep Iron Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1600
+#: ../../data/tribes/initialization/barbarians/units.lua:1571
+#: ../../data/tribes/initialization/barbarians/units.lua:1584
+#: ../../data/tribes/initialization/barbarians/units.lua:1597
+#: ../../data/tribes/initialization/empire/units.lua:1413
+#: ../../data/tribes/initialization/empire/units.lua:1420
+#: ../../data/tribes/initialization/frisians/units.lua:2006
+#: ../../data/tribes/initialization/frisians/units.lua:2015
 msgctxt "building"
 msgid "Digs iron ore out of the ground in mountain terrain."
 msgstr "Scava ferro grezzo dal terreno delle montagne"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Gold Mine
-#. TRANSLATORS: Purpose helptext for a frisian production site: Deep Gold Mine
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Gold Mine
 #. TRANSLATORS: Purpose helptext for an empire production site: Gold Mine
 #. TRANSLATORS: Purpose helptext for an empire production site: Deep Gold Mine
 #. TRANSLATORS: Purpose helptext for production site: Gold Mine
 #. TRANSLATORS: Purpose helptext for production site: Deep Gold Mine
 #. TRANSLATORS: Purpose helptext for production site: Deeper Gold Mine
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Gold Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1584
-#: ../../data/tribes/initialization/barbarians/units.lua:1594
-#: ../../data/tribes/initialization/barbarians/units.lua:1607
-#: ../../data/tribes/initialization/barbarians/units.lua:1620
-#: ../../data/tribes/initialization/empire/units.lua:1411
-#: ../../data/tribes/initialization/empire/units.lua:1418
-#: ../../data/tribes/initialization/frisians/units.lua:2001
-#: ../../data/tribes/initialization/frisians/units.lua:2010
+#. TRANSLATORS: Purpose helptext for a frisian production site: Gold Mine
+#. TRANSLATORS: Purpose helptext for a frisian production site: Deep Gold Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1607
+#: ../../data/tribes/initialization/barbarians/units.lua:1610
+#: ../../data/tribes/initialization/barbarians/units.lua:1623
+#: ../../data/tribes/initialization/barbarians/units.lua:1636
+#: ../../data/tribes/initialization/empire/units.lua:1427
+#: ../../data/tribes/initialization/empire/units.lua:1434
+#: ../../data/tribes/initialization/frisians/units.lua:2024
+#: ../../data/tribes/initialization/frisians/units.lua:2033
 msgctxt "building"
 msgid "Digs gold ore out of the ground in mountain terrain."
 msgstr "Scava minerale aurifero dal terreno nelle montagne"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Shipyard
+#. TRANSLATORS: Purpose helptext for an atlantean production site: Shipyard
 #. TRANSLATORS: Purpose helptext for an empire production site: Shipyard
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Shipyard
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Shipyard
-#: ../../data/tribes/initialization/atlanteans/units.lua:1682
-#: ../../data/tribes/initialization/barbarians/units.lua:1753
-#: ../../data/tribes/initialization/empire/units.lua:1542
-#: ../../data/tribes/initialization/frisians/units.lua:2118
+#. TRANSLATORS: Purpose helptext for a frisian production site: Shipyard
+#: ../../data/tribes/initialization/atlanteans/units.lua:1705
+#: ../../data/tribes/initialization/barbarians/units.lua:1769
+#: ../../data/tribes/initialization/empire/units.lua:1558
+#: ../../data/tribes/initialization/frisians/units.lua:2141
 msgctxt "building"
 msgid ""
 "Constructs ships that are used for overseas colonization and for trading "
@@ -402,19 +402,8 @@ msgid ""
 msgstr "Costruisce navi che sono usate per stabilire colonie e per trasportare risorse fra i porti"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a barbarian ware: Strong Beer
-#: ../../data/tribes/initialization/barbarians/units.lua:211
-msgctxt "barbarians_ware"
-msgid ""
-"Only this beer is acceptable for the soldiers in a battle arena. Some say "
-"that the whole power of the Barbarians lies in this ale. It helps to train "
-"the soldiers’ evade level from 0 to 1 to 2. Strong beer is also used in big "
-"inns to prepare meals."
-msgstr "Solo questa birra è considerata accettabile per i soldati nell' Arena di Battaglia. In molti dicono che l'intera potenza dei Barbari risale in questa birra. Aiuta a allenare il livello di evasione dei soldati da 0 a 1 a 2. La birra forte e anche usata nelle grandi locande per preparare le pasti"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:386
+#: ../../data/tribes/initialization/barbarians/units.lua:399
 msgctxt "barbarians_ware"
 msgid ""
 "Hunting spears are produced in the metal workshop (but cease to be produced "
@@ -423,7 +412,7 @@ msgstr "Le lance da caccia sono prodotte nell'officina metallica (ma smettono di
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian ware: Battle Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:483
+#: ../../data/tribes/initialization/barbarians/units.lua:496
 msgctxt "barbarians_ware"
 msgid ""
 "This is a dangerous weapon the Barbarians are able to produce. It is "
@@ -435,22 +424,22 @@ msgstr "Questa è una pericolosa arma che i Barbari sono abili nel produrre. È 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Blacksmith
 #. TRANSLATORS: Helptext for a barbarian worker: Master Blacksmith
-#: ../../data/tribes/initialization/barbarians/units.lua:731
-#: ../../data/tribes/initialization/barbarians/units.lua:738
+#: ../../data/tribes/initialization/barbarians/units.lua:744
+#: ../../data/tribes/initialization/barbarians/units.lua:751
 msgctxt "barbarians_worker"
 msgid "Produces weapons for soldiers and tools for workers."
 msgstr "Produce armi per i soldati e strumenti per i lavoratori"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for a barbarian production site: Quarry
-#: ../../data/tribes/initialization/barbarians/units.lua:1125
+#: ../../data/tribes/initialization/barbarians/units.lua:1140
 msgctxt "barbarians_building"
 msgid "The quarry needs rocks to cut within the work area."
 msgstr "La cava necessita di pietre da tagliare nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for a barbarian production site: Ranger's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1156
+#: ../../data/tribes/initialization/barbarians/units.lua:1171
 msgctxt "barbarians_building"
 msgid ""
 "The ranger’s hut needs free space within the work area to plant the trees."
@@ -458,14 +447,14 @@ msgstr "La casa della guardia forestale necessita di spazio libero nella sua are
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1169
+#: ../../data/tribes/initialization/barbarians/units.lua:1184
 msgctxt "barbarians_building"
 msgid "Fishes on the coast near the fisher’s hut."
 msgstr "Pesca lungo la costa vicino alla capanna del pescatore"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1171
+#: ../../data/tribes/initialization/barbarians/units.lua:1186
 msgctxt "barbarians_building"
 msgid "The fisher’s hut needs water full of fish within the work area."
 msgstr "La capanna del pescatore ha bisogno di acqua con pesci entro il suo raggio di azione"
@@ -473,7 +462,7 @@ msgstr "La capanna del pescatore ha bisogno di acqua con pesci entro il suo ragg
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Lime
 #. Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1263
+#: ../../data/tribes/initialization/barbarians/units.lua:1279
 msgctxt "barbarians_building"
 msgid ""
 "Ragnald the Child’s answer to the question, what he’s doing in the dirt. His"
@@ -482,7 +471,7 @@ msgstr "Ragnald il Bambino risponde alla domanda su cosa stesse facendo per terr
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1265
+#: ../../data/tribes/initialization/barbarians/units.lua:1281
 msgctxt "barbarians_building"
 msgid ""
 "Processes granite to make ‘grout’, a substance that solidifies and so "
@@ -491,7 +480,7 @@ msgstr "Processa il granito in calce, una sostanza che solidifica e rinforza le 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1267
+#: ../../data/tribes/initialization/barbarians/units.lua:1283
 msgctxt "barbarians_building"
 msgid ""
 "The lime kiln’s output will only go to construction sites that need it. "
@@ -499,19 +488,19 @@ msgid ""
 msgstr "Il prodotto della calchera va solo a cantieri che ne hanno bisogno. Principalmente si tratta di edifici che lavorano col fuoco, e alcuni edifici militari"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a frisian production site: Tavern
 #. TRANSLATORS: Purpose helptext for an empire production site: Tavern
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Tavern
-#: ../../data/tribes/initialization/barbarians/units.lua:1320
-#: ../../data/tribes/initialization/empire/units.lua:1264
-#: ../../data/tribes/initialization/frisians/units.lua:1884
+#. TRANSLATORS: Purpose helptext for a frisian production site: Tavern
+#: ../../data/tribes/initialization/barbarians/units.lua:1336
+#: ../../data/tribes/initialization/empire/units.lua:1280
+#: ../../data/tribes/initialization/frisians/units.lua:1907
 msgctxt "building"
 msgid "Prepares rations to feed the scouts and miners."
 msgstr "Prepara razioni per nutrire esploratori e minatori"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Big Inn
-#: ../../data/tribes/initialization/barbarians/units.lua:1342
+#: ../../data/tribes/initialization/barbarians/units.lua:1358
 msgctxt "barbarians_building"
 msgid ""
 "Prepares rations for scouts and rations, snacks and meals to feed all "
@@ -521,22 +510,22 @@ msgstr "Prepara razioni, spuntini e pasti per nutrire esploratori e minatori"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an empire production site: Farm
 #. TRANSLATORS: Purpose helptext for production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1463
-#: ../../data/tribes/initialization/empire/units.lua:1326
+#: ../../data/tribes/initialization/barbarians/units.lua:1479
+#: ../../data/tribes/initialization/empire/units.lua:1342
 msgctxt "building"
 msgid "Sows and harvests wheat."
 msgstr "Semina e raccoglie grano"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1465
+#: ../../data/tribes/initialization/barbarians/units.lua:1481
 msgctxt "barbarians_building"
 msgid "The farmer needs %1% on average to sow and harvest a sheaf of wheat."
 msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio di grano"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1493
+#: ../../data/tribes/initialization/barbarians/units.lua:1509
 msgctxt "barbarians_building"
 msgid "Carves granite out of the rock in mountain terrain."
 msgstr "Scava granito dalla roccia nei terreni montuosi"
@@ -544,7 +533,7 @@ msgstr "Scava granito dalla roccia nei terreni montuosi"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a barbarian production site: Granite
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1499
+#: ../../data/tribes/initialization/barbarians/units.lua:1515
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -554,7 +543,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre granito 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1514
+#: ../../data/tribes/initialization/barbarians/units.lua:1530
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 32.5 seconds on "
@@ -563,7 +552,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre carbone 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Deep Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1529
+#: ../../data/tribes/initialization/barbarians/units.lua:1545
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 19.5 seconds on "
@@ -572,7 +561,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre carbone 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Deeper Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1544
+#: ../../data/tribes/initialization/barbarians/units.lua:1560
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 14.4 seconds on "
@@ -582,7 +571,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre carbone 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a barbarian production site: Iron
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1557
+#: ../../data/tribes/initialization/barbarians/units.lua:1573
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -593,7 +582,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre ferro gr
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a barbarian production site: Deep
 #. Iron Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1570
+#: ../../data/tribes/initialization/barbarians/units.lua:1586
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 39.5 seconds"
@@ -603,7 +592,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre ferro gr
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a barbarian production site: Deeper
 #. Iron Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1583
+#: ../../data/tribes/initialization/barbarians/units.lua:1599
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 17.6 seconds"
@@ -612,7 +601,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre ferro gr
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1596
+#: ../../data/tribes/initialization/barbarians/units.lua:1612
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -622,7 +611,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre minerale
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Deep Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1609
+#: ../../data/tribes/initialization/barbarians/units.lua:1625
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
@@ -631,7 +620,7 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre oro in 1
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for production site: Deeper Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1622
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
@@ -641,14 +630,14 @@ msgstr "Se l'afflusso di cibo è regolare, questa miniera può produrre oro in 1
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Training Camp,
 #. part 1
-#: ../../data/tribes/initialization/barbarians/units.lua:1655
+#: ../../data/tribes/initialization/barbarians/units.lua:1671
 msgctxt "barbarians_building"
 msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
 msgstr "Addestra i soldati in \"attacco\" e \"salute\""
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire ware: Helmet
-#: ../../data/tribes/initialization/empire/units.lua:527
+#: ../../data/tribes/initialization/empire/units.lua:540
 msgctxt "empire_ware"
 msgid ""
 "The helmet is the basic defense of a warrior. It is produced in an armor "
@@ -659,7 +648,7 @@ msgstr "L' elmo offre la difesa base per un guerriero. È prodotto nella fucina 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire ware: Armor
-#: ../../data/tribes/initialization/empire/units.lua:536
+#: ../../data/tribes/initialization/empire/units.lua:549
 msgctxt "empire_ware"
 msgid ""
 "Basic armor for Empire soldiers. It is produced in the armor smithy and used"
@@ -669,28 +658,28 @@ msgstr "Armatura di base per i soldati imperiali. È prodotta nella fucina di ar
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Shepherd
-#: ../../data/tribes/initialization/empire/units.lua:637
+#: ../../data/tribes/initialization/empire/units.lua:650
 msgctxt "empire_worker"
 msgid "Keeping sheep."
 msgstr "Pascolare il gregge"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Brewer
-#: ../../data/tribes/initialization/empire/units.lua:696
+#: ../../data/tribes/initialization/empire/units.lua:709
 msgctxt "empire_worker"
 msgid "Produces beer."
 msgstr "Produce birra"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an empire production site: Quarry
-#: ../../data/tribes/initialization/empire/units.lua:1150
+#: ../../data/tribes/initialization/empire/units.lua:1165
 msgctxt "empire_building"
 msgid "The quarry needs rocks to cut within the work area."
 msgstr "La cava necessita di pietre da tagliare nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an empire production site: Forester's House
-#: ../../data/tribes/initialization/empire/units.lua:1168
+#: ../../data/tribes/initialization/empire/units.lua:1183
 msgctxt "empire_building"
 msgid ""
 "The forester’s house needs free space within the work area to plant the "
@@ -699,28 +688,28 @@ msgstr "La casa della guardia forestale necessita di spazio libero nella sua are
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an empire production site: Fisher's House
-#: ../../data/tribes/initialization/empire/units.lua:1175
+#: ../../data/tribes/initialization/empire/units.lua:1190
 msgctxt "empire_building"
 msgid "Fishes on the coast near the fisher’s house."
 msgstr "Pesca lungo la costa vicino alla casa del pescatore"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an empire production site: Fisher's House
-#: ../../data/tribes/initialization/empire/units.lua:1177
+#: ../../data/tribes/initialization/empire/units.lua:1192
 msgctxt "empire_building"
 msgid "The fisher’s house needs water full of fish within the work area."
 msgstr "La casa del pescatore ha bisogno di acqua con pesci entro il suo raggio di azione"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an empire production site: Hunter's House
-#: ../../data/tribes/initialization/empire/units.lua:1186
+#: ../../data/tribes/initialization/empire/units.lua:1201
 msgctxt "empire_building"
 msgid "The hunter’s house needs animals to hunt within the work area."
 msgstr "La casa del cacciatore necessita di animali da cacciare entro la sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an empire production site: Farm
-#: ../../data/tribes/initialization/empire/units.lua:1328
+#: ../../data/tribes/initialization/empire/units.lua:1344
 msgctxt "empire_building"
 msgid "The farmer needs %1% on average to sow and harvest a sheaf of wheat."
 msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio di grano"
@@ -728,7 +717,7 @@ msgstr "Il contadino impiega in media %1% per seminare e raccogliere un fascio d
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an empire training site: Training Camp,
 #. part 1
-#: ../../data/tribes/initialization/empire/units.lua:1454
+#: ../../data/tribes/initialization/empire/units.lua:1470
 msgctxt "empire_building"
 msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
 msgstr "Addestra i soldati in \"attacco\" e \"salute\""

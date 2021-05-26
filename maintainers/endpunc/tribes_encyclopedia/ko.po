@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Scout
-#: ../../data/tribes/initialization/atlanteans/units.lua:1035
+#: ../../data/tribes/initialization/atlanteans/units.lua:1055
 msgctxt "atlanteans_worker"
 msgid ""
 "Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
@@ -24,7 +24,7 @@ msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Scout
-#: ../../data/tribes/initialization/barbarians/units.lua:778
+#: ../../data/tribes/initialization/barbarians/units.lua:791
 msgctxt "barbarians_worker"
 msgid ""
 "Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
@@ -32,7 +32,7 @@ msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Scout
-#: ../../data/tribes/initialization/empire/units.lua:819
+#: ../../data/tribes/initialization/empire/units.lua:832
 msgctxt "empire_worker"
 msgid ""
 "Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
@@ -40,7 +40,7 @@ msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an empire production site: Weapon Smithy
-#: ../../data/tribes/initialization/empire/units.lua:1358
+#: ../../data/tribes/initialization/empire/units.lua:1374
 msgctxt "empire_building"
 msgid ""
 "Forges spears to equip the soldiers and to train their attack in the "
@@ -49,14 +49,14 @@ msgstr "군인들을 무장시키고 훈련소에서 공격을 훈련시킬 창�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:446
+#: ../../data/tribes/initialization/frisians/units.lua:459
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "사냥용 창은 대장간에서 만듭니다."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a frisian production site: Quarry
-#: ../../data/tribes/initialization/frisians/units.lua:1526
+#: ../../data/tribes/initialization/frisians/units.lua:1548
 #, lua-format
 msgctxt "frisians_building"
 msgid "The stonemason pauses %s before going to work again."
@@ -67,22 +67,22 @@ msgstr "번역확인:쉽니다 멈춥니다 -> 석공은 다시 일하기 전에
 #. Burner's House
 #. TRANSLATORS: Lore author helptext for a frisian production site: Charcoal
 #. Kiln
-#: ../../data/tribes/initialization/frisians/units.lua:1626
-#: ../../data/tribes/initialization/frisians/units.lua:1808
+#: ../../data/tribes/initialization/frisians/units.lua:1648
+#: ../../data/tribes/initialization/frisians/units.lua:1831
 msgctxt "frisians_building"
 msgid "The inventor of the Frisian charcoal kiln"
 msgstr "프리지아인은 숯 가마를 처음 발명한 사람들입니다."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Brick Kiln
-#: ../../data/tribes/initialization/frisians/units.lua:1714
+#: ../../data/tribes/initialization/frisians/units.lua:1737
 msgctxt "frisians_building"
 msgid "A brickmaker arguing with his chieftain who was doing just that"
 msgstr "벽돌공 한 명이 바로 그 일을 하고 있던 그의 족장과 말다툼을 하고 있습니다."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a frisian production site: Gold Mine
-#: ../../data/tribes/initialization/frisians/units.lua:2003
+#: ../../data/tribes/initialization/frisians/units.lua:2026
 #, lua-format
 msgctxt "frisians_building"
 msgid ""

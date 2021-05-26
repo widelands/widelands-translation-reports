@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-16 23:58+0000\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -32,7 +32,7 @@ msgstr "jan"
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
 #: ../../src/base/time_string.cc:99
 msgid "Feb"
-msgstr "febr"
+msgstr "feb"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: March. Keep this to 4 letters maximum.
@@ -42,7 +42,7 @@ msgstr "febr"
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
 #: ../../src/base/time_string.cc:105
 msgid "Mar"
-msgstr "márc"
+msgstr "már"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: April. Keep this to 4 letters maximum.
@@ -102,7 +102,7 @@ msgstr "aug"
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
 #: ../../src/base/time_string.cc:141
 msgid "Sep"
-msgstr "szept"
+msgstr "sze"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: October. Keep this to 4 letters maximum.
@@ -134,8 +134,8 @@ msgid "Dec"
 msgstr "dec"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:653
-#: ../../src/network/gamehost.cc:1716
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:623
+#: ../../src/network/gamehost.cc:1743
 #, c-format
 msgid "Computer %u"
 msgstr "%u. számítógép"
@@ -143,19 +143,62 @@ msgstr "%u. számítógép"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
 #: ../../src/editor/ui_menus/player_menu.cc:158
-#: ../../src/editor/ui_menus/player_menu.cc:286
-#: ../../src/logic/single_player_game_settings_provider.cc:109
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:66
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:98
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:110
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:159
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:46
+#: ../../src/editor/ui_menus/player_menu.cc:285
+#: ../../src/logic/single_player_game_settings_provider.cc:110
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:67
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:100
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:111
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:162
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:50
 #, c-format
 msgid "Player %u"
 msgstr "%u. játékos"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/player.cc:1860
+#: ../../src/graphic/gl/initialize.cc:310
+msgid "Shading Language"
+msgstr "árnyaló nyelv"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/editor_game_base.cc:252
+#, c-format
+msgid "Creating player %d…"
+msgstr "%d. játékos létrehozása…"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+#. * TRANSLATORS: %s is a list of wares. String is fetched according to total
+#. amount of
+#. wares.
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
+#, c-format
+msgid "Produced %s"
+msgid_plural "Produced %s"
+msgstr[0] "%s elkészült"
+msgstr[1] "%s elkészült"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+#. * TRANSLATORS: %s is a list of workers. String is fetched according to
+#. total amount of
+#. workers.
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
+#, c-format
+msgid "Recruited %s"
+msgid_plural "Recruited %s"
+msgstr[0] "%s toborozva"
+msgstr[1] "%s toborozva"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
+#. description of the
+#. * training program, e.g. Completed upgrading soldier evade from level 0 to
+#. level 1
+#: ../../src/logic/map_objects/tribes/production_program.cc:1875
+#, c-format
+msgid "Completed %s"
+msgstr "%s befejeződött"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/player.cc:1917
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
@@ -165,7 +208,7 @@ msgstr "%d. hajó"
 #: ../../src/network/internet_gaming.cc:434
 #, c-format
 msgid ""
-"You have been logged in as '%s' since your requested name is already in use "
+"You have been logged in as ‘%s’ since your requested name is already in use "
 "or reserved."
 msgstr "„%s” néven jelentkeztél be, mivel a kért név már használatban van, vagy foglalt."
 
@@ -176,15 +219,49 @@ msgid "Received command number %s, which is not allowed in this state."
 msgstr "%s sorszámú parancs érkezett, amely nem engedélyezett ebben az állapotban."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/addons.cc:385
+#, c-format
+msgid "Toggle category ‘%s’"
+msgstr "%s kategória ki/bekapcsolása"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:55
+#, c-format
+msgid "Player %u: –"
+msgstr "%u. játékos: –"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is an option in multiplayer setup for sharing
 #. another player's starting position.
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:385
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:83
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:404
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:88
 #, c-format
 msgid "Shared in Player %u"
 msgstr "%u. játékosként megosztva"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:608
+#, c-format
+msgid "Set Landmark #%d"
+msgstr "#%d. helyszín rögzítése"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:613
+#, c-format
+msgid "Go To Landmark #%d"
+msgstr "#%d. helyszínre ugrás"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/game_chat_panel.cc:437
+msgid "All"
+msgstr "mindenki"
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/game_summary.cc:254
 msgid "Team %|1$u| won!"
 msgstr "%|1$u| csapat nyert!"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/portdockwaresdisplay.cc:100
+msgid "(Empty)"
+msgstr "(nincs)"

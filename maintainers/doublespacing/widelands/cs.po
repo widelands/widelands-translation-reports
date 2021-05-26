@@ -2,50 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-29 16:13+0000\n"
-"Last-Translator: Ondřej Itřech <vasa5@centrum.cz>\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
-" 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/editor/ui_menus/tool_resize_options_menu.cc:51
+#: ../../src/network/gamehost.cc:548
 msgid ""
-"Select the new map size, then click the map to split it at the desired "
-"location. When increasing the map size, new columns/rows will be inserted to"
-" the east/south of the selected point. When shrinking the map, the desired "
-"number of columns/rows will be removed from the east/south of the splitting "
-"location."
-msgstr "Zvolte nový rozměr mapy, pak klikněte na mapu do místa, kde má být mapa rozdělena. Pokud se rozměr zvětšuje, nové sloupce/řádky budou vloženy do prava a dolů od místa rozdělení, tzn. na jih a východ od místa rozdělení. Pokud se mapa zmenšuje bude odebrán požadovaný počet  sloupců/řádků, které jsou taktéž ve směru v pravo a dolů od místa rozdělení."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:236
-#, c-format
-msgid "Backup file ‘%s’ could not be deleted."
-msgstr "Zálohovací soubor  ‘%s’ se nepodařilo odstranit."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:240
-#, c-format
-msgid "Directory ‘%s’ could not be created!"
-msgstr "Adresář  ‘%s’ se nepodařilo vytvořit!"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:244
-#, c-format
-msgid "File ‘%s’ could not be removed!"
-msgstr "Soubor  ‘%s’ nelze přesunout!"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/netsetup_lan.cc:268
-msgid ""
-"Enter a valid nickname. This value may contain only English letters, "
-"numbers, and @ . + - _ characters and must not be \"team\"."
-msgstr "Volba platné přezdívky. Musí obsahovat pouze písmena anglické abecedy, čísla a znaky @ . + - _  a nesmí být \"team\"."
+"Widelands could not start hosting a server.\n"
+"This should not happen and there is most likely nothing you can do about it. Please report a bug."
+msgstr "Widelands se nepodařilo spustit server.\nToto by se nemělo stávat. Pravděpodobně není v tuto chvíli nic, co  by se s tím dalo dělat. Chybu prosím nahlas."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-30 04:15+0000\n"
-"Last-Translator: ks k\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-04-13 10:18+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/ABOUT.lua:7
@@ -426,16 +426,11 @@ msgstr "다시보기는 게임 논리에서 버그를 찾는 데 매우 유용�
 #. TRANSLATORS: This is an access key combination. Localize, but do not change
 #. the key.
 #: ../../data/txts/help/common_helptexts.lua:48
-msgctxt "hotkey"
-msgid "Space"
-msgstr "스페이스"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/help/common_helptexts.lua:48
 msgid "Toggle building spaces"
 msgstr "건물공간 켜기/끄기"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is an access key combination. The hotkey is 'Ctrl + f'
 #: ../../data/txts/help/common_helptexts.lua:57
 msgid "Toggle fullscreen (if supported by the OS)"
 msgstr "전체화면 켜기/끄기 (운영체제가 지원하는 경우)"
@@ -593,7 +588,7 @@ msgstr "대부분의 고급 건물들에는 숙련된 일꾼들 필요합니다.
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/editor.lua:7
+#: ../../data/txts/tips/editor.lua:8
 #, lua-format
 msgid ""
 "You can find general help for the editor as well as a short tutorial on our "
@@ -601,14 +596,14 @@ msgid ""
 msgstr "%s에 있는 위키에서 편집자를 위한 일반 도움말과 간단한 자습서를 찾을 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:15
+#: ../../data/txts/tips/editor.lua:16
 msgid ""
 "Just like with animals, you can also select multiple immovables or ground "
 "textures with Ctrl + mouse click."
 msgstr "동물과 마찬가지로 Ctrl + 마우스 클릭으로 여러개의 움직이지 않는 벽이나 텍스처를 선택할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:19
+#: ../../data/txts/tips/editor.lua:20
 msgid ""
 "Holding down Shift switches the first alternative tool on. This tool is in "
 "most cases the complete opposite of the normal tool (for example deletion of"
@@ -616,40 +611,26 @@ msgid ""
 msgstr "쉬프트키를 계속 누르면 첫 번째 대체 도구가 켜집니다. 이 도구는 대부분의 경우 일반 도구와 완전히 반대입니다 (예: 개체를 배치하는 대신 개체를 삭제하는 경우)."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:23
+#: ../../data/txts/tips/editor.lua:24
 msgid ""
 "Holding down Alt switches the second alternative tool on (if it exists)."
 msgstr "알트키를 누르면 두 번째 대체 도구가 켜집니다 (있는 경우)."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:27
-msgid ""
-"The number keys (0 - 9) allow you to directly set the size of the selected "
-"area around your mouse cursor."
-msgstr "숫자 키 (0 - 9)를 사용하여 마우스 커서 주변의 선택된 영역의 크기를 직접 설정할 수 있습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:31
-msgid ""
-"Space key behaves like in normal game. It switches if building spaces are "
-"shown on or off."
-msgstr "스페이스키는 정상적인 게임에서처럼 작동합니다. 건물 공간이 켜져 있거나 꺼져있는 경우 전환됩니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:35
+#: ../../data/txts/tips/editor.lua:36
 msgid ""
 "When placing trees, use the help button to see which trees are more likely "
 "to survive on which terrain."
 msgstr "나무를 심어 놓으려면 도움말 버튼을 사용하여 어느 지형에서 어떤 나무가 생존 할 가능성이 더 높은지 확인하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:39
+#: ../../data/txts/tips/editor.lua:40
 msgid ""
 "If you do not set water and fish resources, a default amount will be used."
 msgstr "물이나 물고기 자원을 설정하지 않으면 기본량으로 설정되어 사용됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:43
+#: ../../data/txts/tips/editor.lua:44
 msgid ""
 "You can place a medium building on any node where there is a slope no "
 "greater than 1 in the south-east direction and its height difference to all "
@@ -657,7 +638,7 @@ msgid ""
 msgstr "남동쪽 방향에서 1 이하의 경사가 있고 반지름 2의 모든 노드에 대한 높이 차이가 2 이하인 노드에 중간 건물을 배치할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:47
+#: ../../data/txts/tips/editor.lua:48
 msgid ""
 "You can place a big building on any node where you could place a medium "
 "building if there is no obstacle or non-arable terrain towards the west, "
@@ -688,33 +669,33 @@ msgid "Always build a forester’s house, so you will not run out of logs."
 msgstr "항상 통나무가 고갈되지 않도록 숲꾼의 집을 지으십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:6
+#: ../../data/txts/tips/general_game.lua:7
 msgid ""
 "The building process will only start after a road is built to the "
 "construction site."
 msgstr "건설 과정은 건설 현장까지 땅길이 건설된 후 시작됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:10
+#: ../../data/txts/tips/general_game.lua:11
 msgid ""
 "Be sure to send a geologist to survey sites before building a well or a "
 "mine."
 msgstr "우물이나 광산을 짓기 전에 반드시 지질학자를 조사 장소로 보내십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:14
+#: ../../data/txts/tips/general_game.lua:15
 msgid ""
 "Your territory can be expanded by building various military buildings – "
 "Sentry, Fortress, Blockhouse, etc."
 msgstr "초소, 큰 요새, 사각 요새 등 다양한 군사 건물을 건설하여 영토를 확장 할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:18
+#: ../../data/txts/tips/general_game.lua:19
 msgid "Miners will work only if supplied with food."
 msgstr "광부는 식량이 공급 될 때만 일합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:22
+#: ../../data/txts/tips/general_game.lua:23
 msgid ""
 "Split your roads into shorter sections by planting some flags. This will "
 "speed up transportation of your wares."
@@ -722,7 +703,7 @@ msgstr "몇개의 깃발을 세움으로서 짧은 구역으로 길을 나누십
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/general_game.lua:27
+#: ../../data/txts/tips/general_game.lua:28
 #, lua-format
 msgid ""
 "Any further questions? Our FAQ, the wiki and of course our community forums "
@@ -730,135 +711,67 @@ msgid ""
 msgstr "더 궁금한 점이 있습니까? FAQ, 위키 및 커뮤니티 포럼은 %s 에서 찾을 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:31
-msgid ""
-"Use the priority buttons in building windows to adjust delivery of a "
-"specific ware. Pressing Ctrl while clicking will adjust all wares at once."
-msgstr "특정 물건의 배달을 조정하려면 건물 창에서 우선 순위 버튼을 사용하십시오. Ctrl키를 누른 상태에서 클릭하면 모든 제품이 한번에 조정됩니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:35
+#: ../../data/txts/tips/general_game.lua:36
 msgid ""
 "Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
 "can be accessed via the flag menu."
 msgstr "'경제 구성'메뉴를 사용하여 목표 수량을 조정하십시오. 깃발 메뉴를 통해 접근 할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:39
-msgid ""
-"Manage your messages more efficiently: press ‘N’ for News to access the "
-"messages window, then use ‘G’ for Go To, and the Delete key to archive "
-"messages."
-msgstr "메시지를 보다 효율적으로 관리하십시오: 메시지 창에 접근하려면 새소식의 ‘N’ 을 누르고, 이동을 위해 ‘G’ 를 누르고, 메시지를 보관하려면 딜리트키를 누르십시오."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:43
-msgctxt "hotkey"
-msgid "Ctrl + (1-9)"
-msgstr "컨트롤 + (1-9)"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:47
+#: ../../data/txts/tips/general_game.lua:49
 msgid ""
 "Removing a road while holding Ctrl lets you remove all flags up to the first"
 " junction."
 msgstr "컨트롤 키를 누른 상태에서 길을 제거하면 첫 번째 교차점까지의 모든 깃발을 제거할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:51
+#: ../../data/txts/tips/general_game.lua:53
 msgid ""
 "New soldiers are recruited in a barracks. Their abilities can then be "
 "improved in training sites."
 msgstr "신병들이 병영에 모집되었습니다. 그들의 능력은 훈련소에서 향상 될 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:55
+#: ../../data/txts/tips/general_game.lua:57
 msgid ""
 "If you like to live dangerously, pressing Ctrl while clicking the enhance, "
 "dismantle or destroy building buttons will skip the confirmation."
 msgstr "위험하게 살고 싶다면, 컨트롤 키를 누른 상태에서 건물 강화나 건물 해체나 파괴 버튼을 클릭하면 확인을 건너 뜁니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:59
-msgid "Press I to quickly toggle the display of your stock inventory."
-msgstr "재고 목록을 빨리 전환하려면  ‘I’ 를 누르십시오."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:63
+#: ../../data/txts/tips/general_game.lua:65
 msgid ""
 "An economy consists of all buildings and flags connected by roads. The "
 "supplies and demands of buildings are handled in its economy."
 msgstr "경제는 길로 연결된 모든 건물과 깃발로 이루어져 있습니다. 건물의 공급과 수요는 경제에서 처리됩니다.[쉬운번역으로수정바람 내용어려움]"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:67
+#: ../../data/txts/tips/general_game.lua:69
 msgid ""
 "Some buildings, such as the farm, have a very small work area. If the "
 "building is surrounded with trees or roads, production will stop."
 msgstr "농장과 같은 몇몇 건물은 작업 공간이 매우 작습니다. 만약 그 건물이 나무나 땅길로 둘러싸버리면, 생산은 중단될 것입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:71
-msgctxt "hotkey"
-msgid "Ctrl + (+/-)"
-msgstr "컨트롤 + (+/-)"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:71
-msgctxt "hotkey"
-msgid "Ctrl + 0"
-msgstr "컨트롤 + 0"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:71
-msgid "Zoom in/out with the mouse wheel or %1%. Press %2% to reset the zoom."
-msgstr "마우스 휠 또는 %1% (으)로 확대/축소합니다. %2% (을)를 눌러 확대/축소를 다시 설정하십시오."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:75
-msgid ""
-"Use the ‘,’ (comma) and ‘.’ (period) keys to quickly jump between recently "
-"visited locations."
-msgstr "‘,’(쉼표) 와 ‘.’(마침표) 키를 사용하여 최근에 방문한 위치 사이를 빠르게 이동할 수 있습니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:79
-msgctxt "hotkey"
-msgid "Ctrl + (Page Up/Page Down)"
-msgstr "컨트롤 + (페이지 업/페이지 다운)"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:79
-msgctxt "hotkey"
-msgid "Page Up/Page Down"
-msgstr "페이지 업/페이지 다운"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:79
-msgctxt "hotkey"
-msgid "Shift + (Page Up/Page Down)"
-msgstr "쉬프트 + (페이지 업/페이지 다운)"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:83
+#: ../../data/txts/tips/general_game.lua:94
 msgctxt "hotkey"
 msgid "Arrow keys"
 msgstr "화살키"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:83
+#: ../../data/txts/tips/general_game.lua:94
 msgctxt "hotkey"
 msgid "Ctrl + Arrow keys"
 msgstr "컨트롤 + 화살키"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:83
+#: ../../data/txts/tips/general_game.lua:94
 msgctxt "hotkey"
 msgid "Shift + Arrow keys"
 msgstr "쉬프트 + 화살키"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:87
+#: ../../data/txts/tips/general_game.lua:98
 msgid ""
 "When a building is destroyed, its workers will start looking for a nearby "
 "flag from which they can move by road to a connected warehouse. If there are"
@@ -886,13 +799,6 @@ msgid ""
 "Use ‘@name’ at the beginning of a chat message to send it to only one "
 "player."
 msgstr "채팅 메시지가 시작될 때 '@name'을 사용하여 한 명에게만 메시지를 보냅니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/multiplayer.lua:16
-msgid ""
-"If the game should crash, don't worry! The game will be saved automatically "
-"so that you can reload it afterwards."
-msgstr "만약 게임이 중단되어도, 걱정하지 마십시오! 게임은 자동으로 저장되므로 나중에 다시 불러올 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website

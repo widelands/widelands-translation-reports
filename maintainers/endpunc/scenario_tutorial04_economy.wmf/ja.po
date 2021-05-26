@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-08-01 01:21+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-01 09:35+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:13
@@ -62,11 +62,6 @@ msgid ""
 "accidentally dropped a torch. She is fine, but we could not extinguish the "
 "fire in time."
 msgstr "ああ、これを見てください、酒場が燃えています！慌てていたのか、料理人が誤って松明を落としてしまったようです。彼女は無事ですが、火はすぐには消せそうにありません。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:53
-msgid "You can also use the hotkey ‘b’."
-msgstr "ホットキー「b」でも開くことができます。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:61
@@ -183,13 +178,6 @@ msgid "Please reopen it and choose the second tab (medium buildings)."
 msgstr "もう一度開いて２個目のタブ（中サイズの建物）を選びましょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:127
-msgid ""
-"You can also use the hotkey ‘i’ (as in ‘inventory’) to access this window "
-"quickly."
-msgstr "ホットキー「i」(\"inventory\"から来ています)から素早くアクセスすることも可能です。"
-
-# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:136
 msgid ""
 "OK. In the list, you’ve seen that you have no more taverns or inns. That "
@@ -262,11 +250,6 @@ msgstr "部族事典ウィンドウからはゲーム内ヘルプと、現在プ
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:248
 msgid "Open it. You can access it via the button at the bottom of the screen."
 msgstr "開きましょう。画面下部、右端のボタンからアクセスできます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:249
-msgid "Alternatively, you can access it directly with the ‘F1’ key."
-msgstr "もしくは、「F1」キーを押すことで直接開くこともできます。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:257
@@ -391,23 +374,6 @@ msgstr "そういうわけではないのなら、もう一度事典ウィンド
 msgid ""
 "Great. Our taverns have now been built up and are supplying us with rations."
 msgstr "良くできました。酒場が完成し、レーションの供給が再開されました。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:320
-msgid ""
-"At the moment, all mines are supplied with rations. If you want to "
-"prioritize a special mine, you simply have to open its window. In the wares "
-"tab, behind every ware, you can see ‘traffic lights’."
-msgstr "今、レーションは全ての鉱山に送られています。それを少し変えて、特定の鉱山を優先させたい時もあるでしょう。そのような操作が建物のウィンドウからできるようになっています。物資のタブで、全ての物資について信号のような「優先度ライト」があるでしょう。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:321
-msgid ""
-"When you click on the red dot (low priority), the corresponding ware gets "
-"delivered less frequently. Green means that as many wares as possible should"
-" be delivered to this building, maybe because it produces something "
-"important."
-msgstr "赤の点(低優先度)をクリックすると、物資がなかなか届かないようになります。緑ならば、逆に最優先でその場所に届けられるようになります。何か重要なものを急に生産した場合にはそうするべきでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:326

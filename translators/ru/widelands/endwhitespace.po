@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-18 08:25+0000\n"
+"Last-Translator: nskdmitry\n"
+"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
+"language/ru/)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/addons.cc:200
+#, c-format
+msgid "%u add-on with wrong version"
+msgid_plural "%u add-ons with wrong version"
+msgstr[0] "У %u дополнения не та версия "
+msgstr[1] "У %u дополнений не та версия"
+msgstr[2] "У %u дополнений не та версия"
+msgstr[3] "У %u дополнений не та версия"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:2075
+#, c-format
+msgid "%u download"
+msgid_plural "%u downloads"
+msgstr[0] "Загружено %uраз"
+msgstr[1] "Загружено %uраза "
+msgstr[2] "Загружено %uраз"
+msgstr[3] "Загружено %uраз"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:2084
+#, c-format
+msgid "%u comment"
+msgid_plural "%u comments"
+msgstr[0] "%u комментарий"
+msgstr[1] "%uкомментария "
+msgstr[2] "%uкомментариев"
+msgstr[3] "%u комментариев"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons_packager.cc:133
+msgid "Name:"
+msgstr "Название: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons_packager.cc:138
+msgid "Author:"
+msgstr "Автор: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons_packager.cc:143
+msgid "Version:"
+msgstr "Версия игры: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons_packager_box.cc:334
+msgid "Difficulty:"
+msgstr "Сложность: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wlapplication_options.cc:528
+msgid "Messages: Show "
+msgstr "Показать сообщения"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/building_statistics_menu.cc:93
+msgid "Low productivity threshold:"
+msgstr "Порог неэффективности: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/building_statistics_menu.cc:701
+msgid "Low productivity:"
+msgstr "Неэффективно: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/gamedetails.cc:194 ../../src/wui/mapdetails.cc:193
+msgid "Add-Ons:"
+msgstr "Дополнения: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: An entry in the game's map view menu
+#: ../../src/wui/interactive_base.cc:276
+msgid "Zoom –"
+msgstr "Масштаб – "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
+#. are:
+#. month (short name) day (number),
+#. year (number). This is part of a list.
+#: ../../src/wui/savegameloader.cc:172
+#, c-format
+msgid "saved on %1$s %2$u, %3$u"
+msgstr "сохранение от %2$u %1$s %3$u "

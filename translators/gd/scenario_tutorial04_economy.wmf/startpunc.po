@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-08-01 01:21+0000\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-13 10:04+0000\n"
 "Last-Translator: GunChleoc\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:14
@@ -25,8 +25,9 @@ msgstr "’S e am prìomh amas aig Widelands a th’ ann gun tog thu eaconamaidh
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:53
-msgid "You can also use the hotkey ‘b’."
-msgstr "’S urrainn dhut a’ ghrad-iuchair “b” a chleachdadh cuideachd."
+#, lua-format
+msgid "You can also use the hotkey ‘%s’."
+msgstr "’S urrainn dhut a’ ghrad-iuchair “%s” a chleachdadh cuideachd."
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:85
@@ -54,7 +55,6 @@ msgstr "“2/4” fon fhreiceadan agad: Airson togalaichean an airm, thèid na s
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:127
-msgid ""
-"You can also use the hotkey ‘i’ (as in ‘inventory’) to access this window "
-"quickly."
-msgstr "’S urrainn dhut a’ ghrad-iuchair “i” (mar “iomlan”) a chleachdadh cuideachd gus an uinneag seo inntrigeadh gu luath."
+#, lua-format
+msgid "You can also use the hotkey ‘%s’ to access this window quickly."
+msgstr "’S urrainn dhut a’ ghrad-iuchair “%s” a chleachdadh cuideachd gus an uinneag seo inntrigeadh gu luath."

@@ -2,18 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Slovenian (http://www.transifex.com/widelands/widelands/"
 "language/sl/)\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver.
+#. Font support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:245
+#, c-format
+msgid "The %1$s needs to be version %2$u.%3$u or newer."
+msgstr "%1$s mora biti vsaj %2$u.%3$u ali novejša."
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../src/wui/soldier_statistics_menu.cc:216

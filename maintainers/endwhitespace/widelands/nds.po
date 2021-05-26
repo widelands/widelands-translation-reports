@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 11:23+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:43+0000\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
@@ -12,27 +12,40 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:289
+#: ../../src/network/gamehost.cc:297
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <name> <reason> – Warnt de Bruker <name>um <reason> "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:291
+#: ../../src/network/gamehost.cc:299
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <name> <reason> – Treddt de Bruker <name>um <reason> "
 
 # (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:325
+#, c-format
+msgid ""
+"For more information regarding how to develop and package your own add-ons, "
+"please visit %s."
+msgstr "För mehr Informationen, wo du diene eegenen Verwiederns entwickelst un packst, besöök bidde %s. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Placeholders are the copyright years
-#: ../../src/ui_fsmenu/main.cc:393
+#: ../../src/ui_fsmenu/main.cc:463
 msgid ""
 "(C) %1%-%2% by the Widelands Development Team · Licensed under the GNU "
 "General Public License V2.0"
 msgstr "(C) %1%-%2% vun de Widelands Entwickeln-Klottje · Vergünnt unner de GNU General Public License V2.0 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wlapplication_options.cc:528
+msgid "Messages: Show "
+msgstr "Narichten: Wies op"
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../src/wui/savegamedeleter.cc:97

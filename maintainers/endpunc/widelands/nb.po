@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/widelands/"
 "widelands/language/nb/)\n"
 "Language: nb\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -94,6 +94,28 @@ msgid "Dec"
 msgstr "des."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:60
+#: ../../src/ui_fsmenu/main.cc:423
+msgid "Single Player…"
+msgstr "Enspiller"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:424
+msgid "Multiplayer…"
+msgstr "Flerspiller"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:66
 msgid "Host to connect:"
 msgstr "Koble til vert"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
+#. Options
+#: ../../src/ui_fsmenu/options.cc:319
+msgid "Progress…"
+msgstr "Progresjon..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/gamedetails.cc:187
+msgid "Win Condition:"
+msgstr "Vinnertilstand"

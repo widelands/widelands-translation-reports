@@ -1,0 +1,76 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
+"language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/logic/generic_save_handler.cc:252
+#, c-format
+msgid "Error writing data to file ‘%s’!"
+msgstr "将数据写入文件时出现错误  ‘%s’！"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/logic/generic_save_handler.cc:280
+#, c-format
+msgid "File ‘%s’ was restored from backup."
+msgstr "文件 ‘%s’  已从备份还原。"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/gamehost.cc:402
+msgid "Invalid command! Type /help for a list of commands."
+msgstr "无效命令！ 输入 /help  获取命令列表。"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/addons.cc:922
+#, c-format
+msgid ""
+"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
+"wrong order"
+msgstr "· ‘%1$s’ 首先需要  ‘%2$s’ 然后需要  ‘%3$s’, 但它们排列顺序不对 "
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Filesize · Download count · Average rating · Number of
+#. comments ·
+#. Number of screenshots
+#: ../../src/ui_fsmenu/addons.cc:1949
+#, c-format
+msgid "%1$s   ⬇ %2$u   ★ %3$s   “” %4$u   ▣ %5$u"
+msgstr "%1$s ⬇%2$u  ★ %3$s  “” %4$u ▣ %5$u"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Placeholders are the copyright years
+#: ../../src/ui_fsmenu/main.cc:463
+msgid ""
+"(C) %1%-%2% by the Widelands Development Team · Licensed under the GNU "
+"General Public License V2.0"
+msgstr "(C)%1%-%2% Widelands 开发团队。基于GNU  General Public License V2.0 许可。"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/options.cc:247
+msgid "Compress widelands data files (maps, replays and savegames)"
+msgstr "压缩widelands数据文件  (地图， 回放以及存档文件)"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/scenario_select.cc:242
+#, c-format
+msgid "Invalid path to file in campaigns.lua of tutorials.lua: %s"
+msgstr "campaigns.lua 中的文件路径无效 在  tutorials.lua：%s"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Health, Attack, Defense, Evade
+#: ../../src/wui/attack_box.cc:353 ../../src/wui/soldierlist.cc:403
+#: ../../src/wui/soldierlist.cc:466
+#, c-format
+msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
+msgstr "健康：%1$u/%2$u 攻击：%3$u/%4$u 防御：%5$u/%6$u  闪避：%7$u/%8$u"

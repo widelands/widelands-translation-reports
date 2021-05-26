@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 15:42+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
 "Language: gd\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/infrastructure.lua:174
+#: ../../data/scripting/infrastructure.lua:188
 msgid ""
 "Some of your starting buildings didn’t have enough room and weren’t built. "
 "You are at a disadvantage with this; consider restarting this map with a "
@@ -24,7 +24,7 @@ msgid ""
 msgstr "Cha robh rùm gu leòr ann airson cuid dhe na togalaichean tòiseachaidh agad is cha deach an togail. Cuiridh seo èis ort; saoil an tòisich thu air a’ mhapa seo a-rithist le cumhan tòiseachaidh cothromach?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:539
+#: ../../src/network/gamehost.cc:548
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."
@@ -33,22 +33,14 @@ msgstr "Cha b’ urrainn dha Widelands tòiseachadh air frithealaiche òstadh.\n
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Geeky message from the metaserver
 #. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
-#: ../../src/network/internet_gaming.cc:1013
+#: ../../src/network/internet_gaming.cc:1016
 #, c-format
 msgid "Unable to determine truth value for \"%s\""
 msgstr "Cha b’ urrainn dhuinn faighinn a-mach a bheil “%s” fìor no fallsa."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Dialog box title for selecting between map or saved game for
-#. new
-#. multiplayer game
-#: ../../src/ui_fsmenu/launch_mpg.cc:57
-msgid "Please select"
-msgstr "An dèan thu taghadh?"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:132
+#: ../../src/ui_fsmenu/scenario_select.cc:135
 msgid "#"
 msgstr "Àir."
 
@@ -71,8 +63,3 @@ msgstr "Dearbh an leasachadh"
 #: ../../src/wui/actionconfirm.cc:400
 msgid "Cancel expedition?"
 msgstr "Dearbh sgur dhen triall"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_box.cc:264
-msgid "Destroy the target building instead of conquering it"
-msgstr "Mill an togalach-amais seach còmhnaidh a ghabhail ann."

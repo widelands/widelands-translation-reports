@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/scripting/infrastructure.lua:174
+#: ../../data/scripting/infrastructure.lua:188
 msgid ""
 "Some of your starting buildings didn’t have enough room and weren’t built. "
 "You are at a disadvantage with this; consider restarting this map with a "
@@ -35,7 +35,7 @@ msgstr "Klik om een gereedschap te selecteren.  Ctrl + klik om meerdere gereedsc
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:626
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:586
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -54,49 +54,49 @@ msgstr "We raden aan om niet meer dan 8 spelers in te stellen, behalve voor test
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:285
+#: ../../src/network/gamehost.cc:293
 msgid "/help  -  Shows this help"
 msgstr "/help - Toont deze hulp"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:287
+#: ../../src/network/gamehost.cc:295
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <bericht> - Stuur een chatbericht als aankondiging (system chat)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:289
+#: ../../src/network/gamehost.cc:297
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <naam> <reden> - Waarschuw de gebruiker <naam> vanwege <reden>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:291
+#: ../../src/network/gamehost.cc:299
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <naam> <reden> - Verwijder de gebruiker <naam> vanwege >reden>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:293
+#: ../../src/network/gamehost.cc:301
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Dwing het spel tot pauzeren."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:295
+#: ../../src/network/gamehost.cc:303
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Ga terug naar normale spelsnelheid."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gamehost.cc:539
+#: ../../src/network/gamehost.cc:548
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."
 msgstr "Widelands kon geen server instellen om te hosten.\nDit zou niet mogen gebeuren, waarschijnlijk kan je hier zelf niets aan doen.  Gelieve deze fout te rapporteren."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:487
+#: ../../src/network/internet_gaming.cc:488
 msgid ""
 "Received an unexpected network packet from the metaserver. The metaserver "
 "could be using a different protocol version. If the error persists, try "
@@ -106,7 +106,7 @@ msgstr "Onverwacht netwerkpakket ontvangen van de metaserver.  De metaserver geb
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Health, Attack, Defense, Evade
 #: ../../src/wui/attack_box.cc:353 ../../src/wui/soldierlist.cc:403
-#: ../../src/wui/soldierlist.cc:472
+#: ../../src/wui/soldierlist.cc:466
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "L: %1$u/%2$u A: %3$u/%4$u V: %5$u/%6$u O: %7$u/%8$u"
@@ -121,7 +121,7 @@ msgstr "De verbinding met één van de spelers is verbroken.  Het spel is automa
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/savegameloader.cc:103
+#: ../../src/wui/savegameloader.cc:104
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
@@ -131,7 +131,7 @@ msgstr "Dit bestand heeft het verkeerde formaat en kan niet geladen worden.  Mis
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/savegameloader.cc:141
+#: ../../src/wui/savegameloader.cc:142
 msgid "saved today at %1%:%2%"
 msgstr "vandaag opgeslagen om  %1%:%2%"
 
@@ -139,6 +139,6 @@ msgstr "vandaag opgeslagen om  %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/savegameloader.cc:159
+#: ../../src/wui/savegameloader.cc:160
 msgid "saved yesterday at %1%:%2%"
 msgstr "gisteren opgeslagen om  %1%:%2%"

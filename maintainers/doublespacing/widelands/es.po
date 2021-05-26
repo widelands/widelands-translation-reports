@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-07 09:03+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,29 +12,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "%u  discrepancia de complementos detectado:\n"
+msgstr[1] "%u discrepancias de complementos detectado:\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:293
+#: ../../src/network/gamehost.cc:301
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Forzar pausa en el juego."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:295
+#: ../../src/network/gamehost.cc:303
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Regresar el juego a su velocidad normal."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:926
+#: ../../src/network/internet_gaming.cc:929
 msgid "/announce <msg> - Send a one time system message"
 msgstr "/announce <msg>  -  Envía un mensaje del sistema una sola vez"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Health, Attack, Defense, Evade
 #: ../../src/wui/attack_box.cc:353 ../../src/wui/soldierlist.cc:403
-#: ../../src/wui/soldierlist.cc:472
+#: ../../src/wui/soldierlist.cc:466
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "PV: %1$u/%2$u AT: %3$u/%4$u DE: %5$u/%6$u EV: %7$u/%8$u"

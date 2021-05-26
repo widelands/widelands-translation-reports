@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map size tool in the editor
-#: ../../src/editor/editorinteractive.cc:309
+#: ../../src/editor/editorinteractive.cc:326
 msgid "Set number of players and their names, tribes and starting positions"
 msgstr "Aseta pelaajien määrä, nimet, heimot ja aloituspaikat."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1027
+#: ../../src/editor/editorinteractive.cc:971
 msgid "Loading world…"
 msgstr "Lataan maailmaa..."
 
@@ -31,14 +31,14 @@ msgid "Autosaving game…"
 msgstr "Välitallennus meneillään."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:230 ../../src/logic/game.cc:277
-#: ../../src/logic/game.cc:367 ../../src/logic/game.cc:412
+#: ../../src/logic/game.cc:281 ../../src/logic/game.cc:328
+#: ../../src/logic/game.cc:423 ../../src/logic/game.cc:478
 msgid "Preloading map…"
 msgstr "Esilataan karttaa.."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:528
+#: ../../src/logic/game.cc:628
 msgid "Creating player infrastructure…"
 msgstr "Lataan pelaajainfrastruktuuria..."
 
@@ -49,7 +49,7 @@ msgid "File ‘%s’ could not be removed!"
 msgstr "Tiedostoa ‘%s’ ei voitu poistaa."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
+#: ../../src/logic/save_handler.cc:131
 msgid "Saving game…"
 msgstr "Tallennan peliä..."
 
@@ -59,12 +59,12 @@ msgid "Autosaving map…"
 msgstr "Kartan välitallennus..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:694
+#: ../../src/network/internet_gaming.cc:697
 msgid "Command could not be executed."
 msgstr "Komennon suoritus epäonnistui"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:50
+#: ../../src/ui_fsmenu/login_box.cc:51
 msgid "Log in to a registered account."
 msgstr "Kirjaudu rekisteröidylle tilille"
 
@@ -74,7 +74,7 @@ msgid "Attackers:"
 msgstr "Hyökkääjät"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:600
+#: ../../src/wui/economy_options_window.cc:603
 msgid "Overwrite?"
 msgstr "Ylikirjoita"
 

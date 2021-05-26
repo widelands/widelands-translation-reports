@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
+"POT-Creation-Date: 2021-05-10 10:43+0000\n"
 "PO-Revision-Date: 2017-12-27 17:17+0000\n"
-"Last-Translator: Juanjo, 2020\n"
+"Last-Translator: Juanjo, 2021\n"
 "Language-Team: Catalan (https://www.transifex.com/widelands/teams/35159/ca/)"
 "\n"
 "Language: ca\n"
@@ -12,19 +12,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp04.wmf/scripting/texts.lua:62
+#: ../../data/campaigns/emp04.wmf/scripting/texts.lua:67
 msgid "Click on one of the farms"
 msgstr "Feu clic en una de les masoveries."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp04.wmf/scripting/texts.lua:183
+#: ../../data/campaigns/emp04.wmf/scripting/texts.lua:190
 msgid "Build a training camp and enhance the arena"
 msgstr "Construïu un camp d'entrenament i milloreu la palestra."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp04.wmf/scripting/texts.lua:224
+#: ../../data/campaigns/emp04.wmf/scripting/texts.lua:231
 msgid "The Battle is Won"
 msgstr "La victòria és nostra!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Empire training site tooltip when it has no soldiers assigned
+#: ../../data/campaigns/emp04.wmf/scripting/tribes/trainingcamp1/init.lua:177
+msgctxt "empire_building"
+msgid "No soldier to train!"
+msgstr "Sense soldats per entrenar"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Empire training site tooltip when none of the present soldiers
+#. match the current training program
+#: ../../data/campaigns/emp04.wmf/scripting/tribes/trainingcamp1/init.lua:179
+msgctxt "empire_building"
+msgid "No soldier found for this training level!"
+msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-27 04:56+0000\n"
-"Last-Translator: ks k\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-22 20:16+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,60 +12,60 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) options: Consider translating parameter 'value' of option '--<config-entry-name>'
-#: ../../src/wlapplication_messages.cc:44
+#: ../../src/wlapplication_messages.cc:45
 msgid " --<config-entry-name>=value overwrites any config file setting"
 msgstr " --<config-entry-name>=value 모든 구성 파일 설정을 덮어씁니다"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--datadir'
-#: ../../src/wlapplication_messages.cc:47
+#: ../../src/wlapplication_messages.cc:48
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=DIRNAME    와이드랜드 자료 파일로서\n                      지정한 디렉토리를 사용합니다"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--homedir'
-#: ../../src/wlapplication_messages.cc:50
+#: ../../src/wlapplication_messages.cc:51
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=DIRNAME    와이드랜드의 구성 파일, 놀이 저장, 재생용으로\n                      지정된 디렉토리를 사용합니다"
 
 # (pofilter) options: Consider translating parameter 'DIRNAME' of option '--localedir'
-#: ../../src/wlapplication_messages.cc:58
+#: ../../src/wlapplication_messages.cc:59
 msgid ""
 " --localedir=DIRNAME  Use specified directory for the widelands\n"
 "                      locale files"
 msgstr " --localedir=DIRNAME  와이드랜드 로케일 파일로 지정된 디렉토리를\n                      사용합니다"
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--scenario'
-#: ../../src/wlapplication_messages.cc:111
+#: ../../src/wlapplication_messages.cc:122
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=FILENAME  시나리오 지도로 지도 파일이름을\n                      직접 시작합니다."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--loadgame'
-#: ../../src/wlapplication_messages.cc:114
+#: ../../src/wlapplication_messages.cc:125
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=FILENAME  저장 자료 파일 이름을 직접 불러옵니다."
 
 # (pofilter) options: Consider translating parameter 'FILENAME' of option '--script'
-#: ../../src/wlapplication_messages.cc:115
+#: ../../src/wlapplication_messages.cc:127
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
 msgstr " --script=FILENAME 초기화 후 지정된 루아 스크립트를 실행합니다.\n                      --scenario, --loadgame, --editor 에서만 유효합니다."
 
 # (pofilter) options: Consider translating parameter '[5' of option '--maxfps'
-#: ../../src/wlapplication_messages.cc:138
+#: ../../src/wlapplication_messages.cc:150
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr " --maxfps=[5 ...]     프레임 속도의 최대 값을 지정합니다."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--border_snap_distance'
-#: ../../src/wlapplication_messages.cc:147
+#: ../../src/wlapplication_messages.cc:159
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -74,7 +74,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                      창의 가장자리가 화면 가장자리에서\n                      이 거리 내에 오면 창을\n                      화면 가장자리로 이동합니다."
 
 # (pofilter) options: Consider translating parameter '[0' of option '--panel_snap_distance'
-#: ../../src/wlapplication_messages.cc:160
+#: ../../src/wlapplication_messages.cc:172
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"

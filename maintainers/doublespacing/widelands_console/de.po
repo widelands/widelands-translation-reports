@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-23 10:55+0000\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-22 20:46+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,29 +12,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:45
+#: ../../src/wlapplication_messages.cc:46
 msgid "                      Note: New value will be written to config file"
 msgstr "Hinweis: Der neue Wert wird in die config-Datei geschrieben"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:47
+#: ../../src/wlapplication_messages.cc:48
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=VERZEICHNISNAME Verwendet ein angepasstes Verzeichnis für die\n                      Widelands-Daten"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:50
+#: ../../src/wlapplication_messages.cc:51
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=VERZEICHNISNAME Verwendet das angegebene Verzeichnis für die Widelands-Config-Dateien, Spielstände und Aufzeichnungen"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:58
+#: ../../src/wlapplication_messages.cc:59
 msgid ""
 " --localedir=DIRNAME  Use specified directory for the widelands\n"
 "                      locale files"
@@ -45,7 +45,7 @@ msgstr " --localedir=VERZEICHNISNAME Verwendet ein angepasstes Verzeichnis für 
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:65
+#: ../../src/wlapplication_messages.cc:66
 msgid ""
 " --coredump=[true|false]\n"
 "                      Generates a core dump on segfaults instead of\n"
@@ -62,40 +62,40 @@ msgstr " --coredump=[true|false]\n                     Erzeugt ein Speicherabbil
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:78
+#: ../../src/wlapplication_messages.cc:79
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr "--write_syncstream=[true|false]\nErstelle Syncstream-Speicherauszüge zum Debuggen von Netzwerkspielen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:81
+#: ../../src/wlapplication_messages.cc:82
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr " --autosave=[…] Speichert automatisch alle n Minuten"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:82
+#: ../../src/wlapplication_messages.cc:83
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
 msgstr "--rolling_autosave=[…]\nVerwendet diese Anzahl an Dateien für fortlaufende automatisch gespeicherte Spielstände"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:85
+#: ../../src/wlapplication_messages.cc:86
 msgid ""
 " --metaserver=[...]\n"
 "                      Connect to a different metaserver for internet gaming."
 msgstr "--metaserver=[…]\nVerbindet zu einem alternativen Metaserver für ein Internetspiel."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:88
+#: ../../src/wlapplication_messages.cc:89
 msgid ""
 " --metaserverport=[...]\n"
 "                      Port number of the metaserver for internet gaming."
 msgstr "--metaserverport=[…]\nPortnummer des Metaservers für das Internetspiel."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:102
+#: ../../src/wlapplication_messages.cc:107
 msgid ""
 " --ai_training        Enables AI training mode. See\n"
 "                      https://www.widelands.org/wiki/Ai%20Training/\n"
@@ -103,7 +103,7 @@ msgid ""
 msgstr "--ai_training        Aktiviert den KI-Trainingsmodus. Siehe\n                        https://www.widelands.org/wiki/Ai%20Training/\n                        für eine ausführliche Beschreibung der KI-Trainingslogik."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:106
+#: ../../src/wlapplication_messages.cc:111
 msgid ""
 " --auto_speed         In multiplayer games only, this will keep\n"
 "                      adjusting the game speed automatically,\n"
@@ -112,25 +112,39 @@ msgid ""
 msgstr "--auto_speed        Nur im Mehrspielermodus verfügbar,\n                        wird diese Option die Spielgeschwindigkeit\n                        automatisch an die FPS anpassen. Sinnvoll\n                        in Benutzung mit --ai_training."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:111
+#: ../../src/wlapplication_messages.cc:122
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=DATEINAME Startet sofort die Karte DATEINAME als Szenario."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:114
+#: ../../src/wlapplication_messages.cc:125
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=DATEINAME Lädt direkt den Spielstand DATEINAME."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:138
+#: ../../src/wlapplication_messages.cc:126
+msgid " --replay=FILENAME    Directly loads the replay FILENAME."
+msgstr " --replay=DATEINAME Lädt direkt die Aufzeichnung DATEINAME."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:150
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr "--maxfps=[5 …]\nMaximale optische Bildwiederholrate des Spiels."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:156
 msgid ""
 " --animate_map_panning=[yes|no]\n"
 "                      Should automatic map movements be animated."
 msgstr "--animate_map_panning=[yes|no]\n                     Animation von automatischen Kartenbewegungen an|aus."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:186
+msgid ""
+" <save.wgf>/<replay.wrpl> \n"
+"                      Directly loads the given savegame or replay. Useful for\n"
+"                      .wgf/.wrpl file extension association. Does not work with\n"
+"                      other options. Also see --loadgame/--replay."
+msgstr " <save.wgf>/<replay.wrpl> \n                     Lädt direkt das gegebene gespeicherte Spiel oder die gegebene Aufzeichnung . nützlich für die Zuordnung der .wgf/.wrpl Dateinamenerweiterung. Funktioniert nicht mit anderen Optionen. siehe auch --loadgame/--replay."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-29 17:00+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-23 09:41+0000\n"
 "Last-Translator: Juanjo\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Helptext for a barbarian ware: Strong Beer
-#: ../../data/tribes/initialization/barbarians/units.lua:211
+#: ../../data/tribes/initialization/barbarians/units.lua:224
 msgctxt "barbarians_ware"
 msgid ""
 "Only this beer is acceptable for the soldiers in a battle arena. Some say "
@@ -27,14 +27,14 @@ msgstr "Els guerrers a les palestres d'entrenament només volen cervesa negra. A
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Gamekeeper's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1201
+#: ../../data/tribes/initialization/barbarians/units.lua:1216
 msgctxt "barbarians_building"
 msgid "The gamekeeper pauses 52.5 seconds before going to work again."
 msgstr "El guarda de peces de caça fa una pausa de 52,5 segons abans de treballar de nou."
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1514
+#: ../../data/tribes/initialization/barbarians/units.lua:1530
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 32.5 seconds on "
@@ -43,7 +43,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deep Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1529
+#: ../../data/tribes/initialization/barbarians/units.lua:1545
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 19.5 seconds on "
@@ -52,7 +52,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deeper Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1544
+#: ../../data/tribes/initialization/barbarians/units.lua:1560
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 14.4 seconds on "
@@ -62,7 +62,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for a barbarian production site: Deep
 #. Iron Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1570
+#: ../../data/tribes/initialization/barbarians/units.lua:1586
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 39.5 seconds"
@@ -72,7 +72,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for a barbarian production site: Deeper
 #. Iron Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1583
+#: ../../data/tribes/initialization/barbarians/units.lua:1599
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 17.6 seconds"
@@ -81,7 +81,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deep Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1609
+#: ../../data/tribes/initialization/barbarians/units.lua:1625
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
@@ -90,7 +90,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deeper Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1622
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
@@ -99,7 +99,7 @@ msgstr "Si se li subministren els aliments necessaris adequadament, aquesta mina
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Purpose helptext for a frisian training site: Training Camp
-#: ../../data/tribes/initialization/frisians/units.lua:2025
+#: ../../data/tribes/initialization/frisians/units.lua:2048
 msgctxt "frisians_building"
 msgid ""
 "Trains soldiers in Attack up to level 3 as well as in Defense and Health to "
@@ -107,11 +107,15 @@ msgid ""
 msgstr "Entrena els soldats en atac fins al tercer nivell i en defensa i salut fins al nivell 1. Equipa els soldats amb les armes i armadures que necessitin."
 
 # (pofilter) numbers: Different numbers
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
 #: ../../data/tribes/scripting/help/controls.lua:50
 msgid "Increase game speed by 0.25x"
 msgstr "Augmenta la velocitat de la partida en 0,25"
 
 # (pofilter) numbers: Different numbers
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
 #: ../../data/tribes/scripting/help/controls.lua:52
 msgid "Decrease game speed by 0.25x"
 msgstr "Redueix la velocitat de la partida en 0,25"

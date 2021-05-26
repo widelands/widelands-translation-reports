@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1868
+#: ../../src/logic/map_objects/tribes/production_program.cc:1875
 #, c-format
 msgid "Completed %s"
 msgstr "%svalmis"
@@ -27,7 +27,7 @@ msgstr "%svalmis"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is shown for multiplayer games when no host
 #. * TRANSLATORS: server to connect to has been specified yet.
-#: ../../src/ui_fsmenu/internet_lobby.cc:461
+#: ../../src/ui_fsmenu/internet_lobby.cc:475
 #, c-format
 msgid "unnamed %u"
 msgstr "Nimetön %u"
@@ -59,6 +59,6 @@ msgstr "pidä SHIFT-painike pohjassa pienentääksesi kaikkien tarvikkeiden mä�
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the map view menu button in the game
-#: ../../src/wui/interactive_base.cc:180
+#: ../../src/wui/interactive_base.cc:118
 msgid "Map View"
 msgstr "karttanäkymä"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an atlantean ware: Fish
-#: ../../data/tribes/initialization/atlanteans/units.lua:395
+#: ../../data/tribes/initialization/atlanteans/units.lua:415
 msgctxt "atlanteans_ware"
 msgid ""
 "Fish is one of the biggest food resources of the Atlanteans. It has to be "
@@ -26,7 +26,7 @@ msgstr "Kala on yksi suurimmista Atlansilaisten ruuan lähteistä. Se täytyy sa
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an atlantean ware: Light Trident
-#: ../../data/tribes/initialization/atlanteans/units.lua:709
+#: ../../data/tribes/initialization/atlanteans/units.lua:729
 msgctxt "atlanteans_ware"
 msgid ""
 "This is the basic weapon of the Atlantean soldiers. Together with a tabard, "
@@ -37,7 +37,7 @@ msgstr "Tämä on Atlansiksen sotilaiden perusase. Yhdessä taisteluasun kanssa 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for an atlantean production site:
 #. Blackroot Farm
-#: ../../data/tribes/initialization/atlanteans/units.lua:1540
+#: ../../data/tribes/initialization/atlanteans/units.lua:1563
 msgctxt "atlanteans_building"
 msgid ""
 "The blackroot farmer needs %1% on average to sow and harvest a bundle of "
@@ -46,7 +46,7 @@ msgstr "Mustajuuriviljelijät tarvitsevat keskimäärin  %1% kylvämiseen ja mus
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a barbarian ware: Fire Tongs, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:434
+#: ../../data/tribes/initialization/barbarians/units.lua:447
 msgctxt "barbarians_ware"
 msgid ""
 "They are used in the smelting works and produced by the metal workshop (but "
@@ -56,7 +56,7 @@ msgstr "Niitä käytetään sulattamoissa ja tuottetaan metallipajassa  (mutta t
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a barbarian ware: Sharp Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:456
+#: ../../data/tribes/initialization/barbarians/units.lua:469
 msgctxt "barbarians_ware"
 msgid ""
 "Young soldiers are proud to learn to fight with this powerful weapon. It is "
@@ -67,14 +67,14 @@ msgstr "Nuoret sotilaat on ylpeitä oppiessaan taistelemaan tällä voimakkaalla
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a barbarian warehouse: Warehouse
-#: ../../data/tribes/initialization/barbarians/units.lua:1095
+#: ../../data/tribes/initialization/barbarians/units.lua:1108
 msgctxt "barbarians_building"
 msgid "‘Who still owns a warehouse is not yet defeated!’"
 msgstr "‘Se joka omistaa vielä varaston  ei ole vielä kukistettu!’"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a barbarian production site: Bakery
-#: ../../data/tribes/initialization/barbarians/units.lua:1282
+#: ../../data/tribes/initialization/barbarians/units.lua:1298
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -84,7 +84,7 @@ msgstr "Jos kaikki tarvittavat tuotteet toimitetaan ajallaa, tämä rakennus voi
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a barbarian production site: Big Inn
-#: ../../data/tribes/initialization/barbarians/units.lua:1338
+#: ../../data/tribes/initialization/barbarians/units.lua:1354
 msgctxt "barbarians_building"
 msgid ""
 "‘Seasonal fish and game specialties served with pitta bread.<br>Choose from "
@@ -94,7 +94,7 @@ msgstr "‘Sesonkikala ja  pelin erikoisuudet tarjotaan pitaleivän kanssa.<br>V
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a barbarian production site: Cattle
 #. Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1451
+#: ../../data/tribes/initialization/barbarians/units.lua:1467
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -104,7 +104,7 @@ msgstr "Jos kaikki tarvittavat tuotteet toimitetaan ajallaa, tämä rakennus voi
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a barbarian production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1458
+#: ../../data/tribes/initialization/barbarians/units.lua:1474
 msgctxt "barbarians_building"
 msgid ""
 "‘See the crop fields from here to the horizons. They are a huge, heaving, "
@@ -114,7 +114,7 @@ msgstr "‘Näe satoisat pellot täältä horisonttiin. Ne ovat valtavia, runsai
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a barbarian military site: Barrier
-#: ../../data/tribes/initialization/barbarians/units.lua:1684
+#: ../../data/tribes/initialization/barbarians/units.lua:1700
 msgctxt "barbarians_building"
 msgid ""
 "‘When we looked down to the valley from our newly established barrier, we "
@@ -123,7 +123,7 @@ msgstr "‘Katsoessamme alas laaksoon uudesta rajalinnakkeestamme, tunsimme isie
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a barbarian production site: Shipyard
-#: ../../data/tribes/initialization/barbarians/units.lua:1748
+#: ../../data/tribes/initialization/barbarians/units.lua:1764
 msgctxt "barbarians_building"
 msgid ""
 "‘When I saw the Saxnot for the first time, her majestic dragon head already "
@@ -133,7 +133,7 @@ msgstr "‘Kun näin ensimmäistä kertaa Saxnotin, hänen majesteettinen lohik�
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an empire ware: Bread
-#: ../../data/tribes/initialization/empire/units.lua:194
+#: ../../data/tribes/initialization/empire/units.lua:207
 msgctxt "empire_ware"
 msgid ""
 "The bakers of the Empire make really tasty bread out of flour and water. It "
@@ -143,7 +143,7 @@ msgstr "Keisarikunnan maittavan leivän voivat leipurit tehdä jauhoista ja vede
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a frisian ware: Gold, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:349
+#: ../../data/tribes/initialization/frisians/units.lua:362
 msgctxt "frisians_ware"
 msgid ""
 "Only very important things are embellished with gold. It is produced by the "
@@ -153,7 +153,7 @@ msgstr "Vain kaikkein tärkeimmät asiat koristellaan kullalla. Sitä tuotetaan 
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a frisian ware: Broadsword
-#: ../../data/tribes/initialization/frisians/units.lua:543
+#: ../../data/tribes/initialization/frisians/units.lua:556
 msgctxt "frisians_ware"
 msgid ""
 "The broadsword is the weapon used by level 2 soldiers. Level 5 soldiers are "
@@ -178,6 +178,7 @@ msgid "Trains ‘Defense’ from %1% up to %2%"
 msgstr "Kouluttaa 'Puolustus' tasolta  %1% tasolle %2%"
 
 # (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: This is the helptext for an access key combination.
 #: ../../data/tribes/scripting/help/controls.lua:144
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Näytä tutkimusmatkat, jotka ovat löytäneet satamapaikan tai löytämässä  yhdyskunnan"

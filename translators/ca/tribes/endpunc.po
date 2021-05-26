@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-28 12:48+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-23 09:22+0000\n"
 "Last-Translator: Juanjo\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/amazons/liana_cutters_hut/init.lua:52
+#: ../../data/tribes/buildings/productionsites/amazons/liana_cutters_hut/init.lua:50
 msgid "No Tree to Cut Lianas"
 msgstr "No hi ha arbres per tallar-ne lianes."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:53
 msgctxt "atlanteans_building"
 msgid ""
 "The fish breeder working out of this fish breeder’s house can’t find any "
@@ -29,7 +29,7 @@ msgid ""
 msgstr "El criador de peixos d'aquesta casa no pot obtenir peixos vius en aquesta àrea. Recordeu que per generar més cries de peix, cal tenir-ne alguns de vius!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:58
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:57
 msgid "The fishing grounds are full"
 msgstr "Les zones de pesca estan plenes."
 
@@ -123,6 +123,17 @@ msgid "No soldier found for this training level!"
 msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
+#: ../../data/tribes/initialization/amazons/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:129
+#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
+msgid ""
+"Start the game with three ships on the ocean and only a handful of supplies"
+msgstr "Comenceu la partida amb tres vaixells amb uns quants recursos enmig de l'oceà."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Fortified Village" starting
 #. condition
 #: ../../data/tribes/initialization/amazons/starting_conditions/fortified_village.lua:13
@@ -142,6 +153,16 @@ msgstr "Comença la partida amb una instal·lació militar fortificada."
 #: ../../data/tribes/initialization/frisians/starting_conditions/headquarters.lua:13
 msgid "Start the game with your headquarters only"
 msgstr "Comença la partida només amb el quarter general."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the tooltip for the "New World" starting condition
+#: ../../data/tribes/initialization/amazons/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/new_world.lua:13
+msgid "Start the game with seven ships full of wares on the ocean"
+msgstr "Comenceu la partida amb set vaixells plens de béns enmig l'oceà."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Trading Outpost" starting
@@ -165,22 +186,3 @@ msgstr "Si aquest jugador es queda sense béns importants, n'aconseguirà uns qu
 #: ../../data/tribes/initialization/frisians/starting_conditions/village.lua:13
 msgid "Start the game with a peaceful village"
 msgstr "Inicia la partida amb una pacífica vila."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
-#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
-msgid ""
-"Start the game with three ships on the ocean and only a handful of supplies"
-msgstr "Comenceu la partida amb tres vaixells amb uns quants recursos enmig de l'oceà."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "New World" starting condition
-#: ../../data/tribes/initialization/atlanteans/starting_conditions/new_world.lua:13
-#: ../../data/tribes/initialization/barbarians/starting_conditions/new_world.lua:13
-#: ../../data/tribes/initialization/empire/starting_conditions/new_world.lua:13
-#: ../../data/tribes/initialization/frisians/starting_conditions/new_world.lua:13
-msgid "Start the game with seven ships full of wares on the ocean"
-msgstr "Comenceu la partida amb set vaixells plens de béns enmig l'oceà."

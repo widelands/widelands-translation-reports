@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-17 19:43+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 20:47+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,21 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
-
-# (pofilter) doublewords: The word 'sie' is repeated
-#. TRANSLATORS: Helptext for an amazon ware: Log, part 2
-#: ../../data/tribes/initialization/amazons/units.lua:76
-msgctxt "amazons_ware"
-msgid ""
-"Amazon woodcutters fell trees and jungle preservers will plant them. They "
-"are used by the stone carver. The charcoal kiln also needs logs to produce "
-"charcoal."
-msgstr "Die Holzfällerinnen der Amazonen fällen die Bäume und Dschungelbewahrerinnen pflanzen sie. Sie werden von der Steinschnitzerin verwendet. Auch die Köhlerei braucht Stämme um Holzkohle zu produzieren."
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublewords: The word 'die' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Smoked Meat
-#: ../../data/tribes/initialization/atlanteans/units.lua:425
+#: ../../data/tribes/initialization/atlanteans/units.lua:445
 msgctxt "atlanteans_ware"
 msgid ""
 "Smoked meat is made out of meat in a smokery. It is delivered to the mines "
@@ -36,7 +26,7 @@ msgstr "Räucherfleisch wird aus Fleisch in einer Räucherei hergestellt. Es wir
 
 # (pofilter) doublewords: The word 'das' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Hook Pole
-#: ../../data/tribes/initialization/atlanteans/units.lua:658
+#: ../../data/tribes/initialization/atlanteans/units.lua:678
 msgctxt "atlanteans_ware"
 msgid ""
 "This hook pole is used by the smoker to suspend all the meat and fish from "
@@ -45,7 +35,7 @@ msgstr "Diese Hakenstange wird vom Räucherer verwendet, um das das Fleisch und 
 
 # (pofilter) doublewords: The word 'die' is repeated
 #. TRANSLATORS: Note helptext for a barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1385
+#: ../../data/tribes/initialization/barbarians/units.lua:1401
 msgctxt "barbarians_building"
 msgid ""
 "The Barbarian metal workshop is the basic production site in a series of "
@@ -55,24 +45,16 @@ msgstr "Die Werkzeugschmiede der Barbaren ist die erste Produktionsstätte in ei
 
 # (pofilter) doublewords: The word 'die' is repeated
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Warmill
-#: ../../data/tribes/initialization/barbarians/units.lua:1398
+#: ../../data/tribes/initialization/barbarians/units.lua:1414
 msgctxt "barbarians_building"
 msgid "Produces all the axes that the Barbarians use for warfare."
 msgstr "Stellt alle Äxte her, die die Barbaren für die Kriegsführung brauchen."
 
 # (pofilter) doublewords: The word 'lehm' is repeated
 #. TRANSLATORS: Purpose helptext for a frisian production site: Clay Pit
-#: ../../data/tribes/initialization/frisians/units.lua:1617
+#: ../../data/tribes/initialization/frisians/units.lua:1639
 msgctxt "building"
 msgid ""
 "Digs up mud from the ground and uses water to turn it into clay. Clay is "
 "used to make bricks, reinforce the charcoal kiln and to build ships."
 msgstr "Gräbt Tonerde aus und mischt sie mit Wasser zu Lehm. Lehm wird zum Ziegelbrennen und beim Schiffsbau benutzt und verstärkt die Köhlereien."
-
-# (pofilter) doublewords: The word '+' is repeated
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:97
-msgctxt "hotkey"
-msgid "Ctrl + +"
-msgstr "STRG + +"

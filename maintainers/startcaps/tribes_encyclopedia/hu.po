@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-12 08:25+0000\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,12 +12,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore helptext for a barbarian production site: Wood Hardener
+#: ../../data/tribes/initialization/barbarians/units.lua:1250
+msgctxt "barbarians_building"
+msgid ""
+"‘Then he hit the door with his ax and, behold,<br>the door only trembled, "
+"but the shaft of the ax burst into a thousand pieces.’"
+msgstr "„… és akkor a fejszéjét az ajtóba vágta, és láss csodát,<br>az ajtó csak megrázkódott, de a fejsze nyele ezer darabra hasadt.”"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Lime
 #. Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1263
+#: ../../data/tribes/initialization/barbarians/units.lua:1279
 msgctxt "barbarians_building"
 msgid ""
 "Ragnald the Child’s answer to the question, what he’s doing in the dirt. His"

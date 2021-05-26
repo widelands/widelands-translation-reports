@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Short for "Not enough space"
-#: ../../data/scripting/infrastructure.lua:173
+#: ../../data/scripting/infrastructure.lua:187
 msgid "No Space"
 msgstr "空き地不足"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:174
+#: ../../data/scripting/infrastructure.lua:188
 msgid ""
 "Some of your starting buildings didn’t have enough room and weren’t built. "
 "You are at a disadvantage with this; consider restarting this map with a "
@@ -29,13 +29,13 @@ msgid ""
 msgstr "初期配置されるはずだった建物のいくつかが空き地不足のために建設されませんでした。それによりあなたは不利を受けることになります。予定通りの初期条件を得るため、リスタートすることを検討してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/infrastructure.lua:175
+#: ../../data/scripting/infrastructure.lua:189
 msgid "Not enough space"
 msgstr "土地が足りません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/messages.lua:53 ../../data/scripting/messages.lua:55
-#: ../../src/wui/game_message_menu.cc:71 ../../src/wui/game_summary.cc:114
+#: ../../data/scripting/messages.lua:66 ../../data/scripting/messages.lua:68
+#: ../../src/wui/game_message_menu.cc:72 ../../src/wui/game_summary.cc:114
 msgid "Status"
 msgstr "状態"
 
@@ -58,185 +58,190 @@ msgid "Very Weak AI"
 msgstr "とても弱いAI"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Title for the main menu button in the editor
 #. * TRANSLATORS: Title for the main menu button in the game
-#: ../../src/editor/editorinteractive.cc:85
-#: ../../src/wui/interactive_gamebase.cc:86
+#. * TRANSLATORS: Title for the main menu button in the editor
+#: ../../src/editor/editorinteractive.cc:92
+#: ../../src/ui_fsmenu/keyboard_options.cc:184
+#: ../../src/wui/interactive_gamebase.cc:89
 msgid "Main Menu"
 msgstr "メインメニュー"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the tool menu button in the editor
-#: ../../src/editor/editorinteractive.cc:99
+#: ../../src/editor/editorinteractive.cc:107
+#: ../../src/wlapplication_options.cc:355
 msgid "Tools"
 msgstr "ツール"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:125
+#: ../../src/editor/editorinteractive.cc:135
 msgid "Tool size"
 msgstr "ツールサイズ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:137
+#: ../../src/editor/editorinteractive.cc:150
+#: ../../src/wlapplication_options.cc:347
 msgid "Undo"
 msgstr "元に戻す"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:138
+#: ../../src/editor/editorinteractive.cc:154
+#: ../../src/wlapplication_options.cc:351
 msgid "Redo"
 msgstr "やり直し"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:147
-#: ../../src/wui/buildingwindow.cc:403 ../../src/wui/interactive_player.cc:208
+#: ../../src/editor/editorinteractive.cc:165
+#: ../../src/wui/buildingwindow.cc:413 ../../src/wui/interactive_player.cc:224
 msgid "Help"
 msgstr "ヘルプ"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:170
+#: ../../src/editor/editorinteractive.cc:190
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:41
-#: ../../src/ui_fsmenu/main.cc:311
+#: ../../src/ui_fsmenu/main.cc:372
 msgid "New Map"
 msgstr "新規マップ"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:181
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:49
+#: ../../src/editor/editorinteractive.cc:198
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:738
 msgid "New Random Map"
 msgstr "新規ランダムマップ"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:188
+#: ../../src/editor/editorinteractive.cc:205
 #: ../../src/editor/ui_menus/main_menu_load_map.cc:33
-#: ../../src/ui_fsmenu/main.cc:315
+#: ../../src/ui_fsmenu/main.cc:377 ../../src/wlapplication_options.cc:343
 msgid "Load Map"
 msgstr "マップ読込"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:196
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:51
+#: ../../src/editor/editorinteractive.cc:213
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:52
+#: ../../src/wlapplication_options.cc:339
 msgid "Save Map"
 msgstr "マップ保存"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:204
+#: ../../src/editor/editorinteractive.cc:221
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:225
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:60
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:61
 msgid "Map Options"
 msgstr "マップオプション"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:208
+#: ../../src/editor/editorinteractive.cc:225
 msgid "Exit Editor"
 msgstr "エディタ終了"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:244
+#: ../../src/editor/editorinteractive.cc:261
 msgid "Change height"
 msgstr "高さの変更"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:253
+#: ../../src/editor/editorinteractive.cc:270
 #: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:87
 msgid "Random height"
 msgstr "高さをランダムに設定する"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:262
+#: ../../src/editor/editorinteractive.cc:279
 #: ../../src/editor/tools/info_tool.cc:112
 #: ../../src/editor/ui_menus/tool_set_terrain_options_menu.cc:92
-#: ../../src/wui/minimap.cc:148
+#: ../../src/wui/minimap.cc:151
 msgid "Terrain"
 msgstr "地形"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:272
+#: ../../src/editor/editorinteractive.cc:289
 #: ../../src/editor/ui_menus/tool_place_immovable_options_menu.cc:62
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:182
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:181
 msgid "Immovables"
 msgstr "障害物"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:281
+#: ../../src/editor/editorinteractive.cc:298
 #: ../../src/editor/ui_menus/tool_place_critter_options_menu.cc:47
 msgid "Animals"
 msgstr "動物"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:291
+#: ../../src/editor/editorinteractive.cc:308
 #: ../../src/editor/tools/info_tool.cc:195
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:102
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:97
 #: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:41
 #: ../../src/map_io/map_saver.cc:156
-#: ../../src/map_io/widelands_map_loader.cc:224
+#: ../../src/map_io/widelands_map_loader.cc:265
 msgid "Resources"
 msgstr "資源"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:306
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:615
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:139
+#: ../../src/editor/editorinteractive.cc:323
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:654
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:171
 msgid "Players"
 msgstr "プレイヤー"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:315
+#: ../../src/editor/editorinteractive.cc:333
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "原点(0,0)の位置を設定します。これが生成されるミニマップの左上隅になります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:452
+#: ../../src/editor/editorinteractive.cc:475
 msgid "Unsupported Format"
 msgstr "未サポートのフォーマット"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:514
+#: ../../src/editor/editorinteractive.cc:543
 msgid "Unsaved Map"
 msgstr "マップが未保存です"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:515
+#: ../../src/editor/editorinteractive.cc:544
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "このマップは保存されていません。本当に終了しますか？"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:977
+#: ../../src/editor/editorinteractive.cc:920
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "マップ %s を読み込んでいます"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default name for new map
-#: ../../src/editor/editorinteractive.cc:1000
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:578
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:139
-#: ../../src/logic/map.h:232 ../../src/wui/mapdata.cc:47
+#: ../../src/editor/editorinteractive.cc:944
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:109
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:538
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:140
+#: ../../src/logic/map.h:233 ../../src/wui/mapdata.cc:51
 msgid "No Name"
 msgstr "無名"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Map author name when it hasn't been set yet
-#: ../../src/editor/editorinteractive.cc:1003
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:107
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:579
-#: ../../src/logic/map.h:233
+#: ../../src/editor/editorinteractive.cc:947
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:110
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:539
+#: ../../src/logic/map.h:234 ../../src/ui_fsmenu/addons_packager.cc:363
 msgctxt "author_name"
 msgid "Unknown"
 msgstr "不明"
@@ -328,10 +333,9 @@ msgstr "船: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/tools/info_tool.cc:204
-#: ../../src/ui_fsmenu/launch_mpg.cc:67
 #: ../../src/ui_fsmenu/mapdetailsbox.cc:140
-#: ../../src/ui_fsmenu/netsetup_lan.cc:124 ../../src/wui/mapdetails.cc:139
-#: ../../src/wui/minimap.cc:137
+#: ../../src/ui_fsmenu/netsetup_lan.cc:130 ../../src/wui/mapdetails.cc:141
+#: ../../src/wui/minimap.cc:140
 msgid "Map"
 msgstr "マップ"
 
@@ -366,8 +370,9 @@ msgid "Author: %s"
 msgstr "作者: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:223 ../../src/ui_fsmenu/main.cc:351
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:111
+#: ../../src/editor/tools/info_tool.cc:223
+#: ../../src/ui_fsmenu/addons_packager_box.cc:151
+#: ../../src/ui_fsmenu/main.cc:414 ../../src/ui_fsmenu/mapdetailsbox.cc:112
 #, c-format
 msgid "Description: %s"
 msgstr "説明: %s"
@@ -394,52 +399,55 @@ msgid "Current: %s"
 msgstr "選択中: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:234
-#: ../../src/ui_fsmenu/main.cc:741 ../../src/wui/encyclopedia_window.cc:143
+#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
+#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "エラー！"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Directory name for user maps in map selection
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:71
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:275
-#: ../../src/wui/mapdata.cc:169
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:75
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:276
+#: ../../src/ui_fsmenu/addons_packager_box.cc:95 ../../src/wui/mapdata.cc:185
 msgid "My Maps"
 msgstr "マイマップ"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Directory name for MP Scenarios in map selection
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:73
-#: ../../src/wui/mapdata.cc:166
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:77
+#: ../../src/wui/mapdata.cc:182
 msgid "Multiplayer Scenarios"
 msgstr "マルチプレイシナリオ"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The folder that a file will be saved to.
-#: ../../src/editor/ui_menus/main_menu_load_map.cc:78
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:275
+#: ../../src/editor/ui_menus/main_menu_load_map.cc:82
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:276
 #, c-format
 msgid "Current directory: %s"
 msgstr "現在のディレクトリ: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:78
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:81
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:256
 #: ../../src/editor/ui_menus/main_menu_new_map.cc:69
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:216
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:757
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:69
-#: ../../src/ui_basic/messagebox.cc:108 ../../src/ui_fsmenu/launch_mpg.cc:78
-#: ../../src/ui_fsmenu/login_box.cc:46 ../../src/ui_fsmenu/options.cc:90
-#: ../../src/ui_fsmenu/training_wheel_options.cc:106
-#: ../../src/wui/economy_options_window.cc:659
+#: ../../src/ui_basic/color_chooser.cc:271
+#: ../../src/ui_basic/messagebox.cc:111 ../../src/ui_basic/text_prompt.cc:56
+#: ../../src/ui_fsmenu/keyboard_options.cc:49
+#: ../../src/ui_fsmenu/login_box.cc:47 ../../src/ui_fsmenu/options.cc:94
+#: ../../src/ui_fsmenu/training_wheel_options.cc:109
+#: ../../src/wui/economy_options_window.cc:662
 #: ../../src/wui/game_main_menu_save_game.cc:84
 msgid "Cancel"
 msgstr "キャンセル"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:61
-#: ../../src/wui/economy_options_window.cc:660
+#: ../../src/ui_fsmenu/addons_packager_box.cc:271
+#: ../../src/wui/economy_options_window.cc:663
 #: ../../src/wui/load_or_save_game.cc:52
 msgid "Delete"
 msgstr "削除"
@@ -456,6 +464,7 @@ msgstr "作者: "
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:362
+#: ../../src/ui_fsmenu/addons_packager.cc:148
 msgid "Description:"
 msgstr "説明: "
 
@@ -481,7 +490,7 @@ msgstr "メインオプション"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:453
-#: ../../src/wui/mapdetails.cc:182
+#: ../../src/wui/mapdetails.cc:184
 msgid "Tags"
 msgstr "タグ"
 
@@ -506,55 +515,50 @@ msgid "Creating empty map…"
 msgstr "空のマップを作成しています……"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:69
-#: ../../src/wui/gamedetails.cc:173
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:64
+#: ../../src/wui/gamedetails.cc:179
 msgid "Players:"
 msgstr "人数: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:134
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:129
 msgid "Water:"
 msgstr "水: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:155
 msgid "Wasteland:"
 msgstr "荒地: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:165
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
 msgid "Mountains:"
 msgstr "山地: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:175
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:170
 msgid "Island mode"
 msgstr "島モード"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:178
 msgid "Random number:"
 msgstr "乱数: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:190
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:185
 msgid "Map ID:"
 msgstr "マップID: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:207
-msgid "Generate Map"
-msgstr "マップ生成"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A world name for the random map generator in the editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:267
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:243
 #: ../../src/logic/map.cc:61
 msgid "Wasteland"
 msgstr "荒地"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "ランダムマップを生成しています……"
 
@@ -562,9 +566,9 @@ msgstr "ランダムマップを生成しています……"
 #. * TRANSLATORS: Window title. This is shown after a random map has been
 #. created in the
 #. editor.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:638
-#: ../../src/ui_fsmenu/main.cc:312
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:608
+#: ../../src/ui_fsmenu/main.cc:374
 msgid "Random Map"
 msgstr "ランダムマップ"
 
@@ -575,7 +579,7 @@ msgstr "ランダムマップ"
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:626
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:586
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -583,63 +587,68 @@ msgid ""
 msgstr "マップが生成されました。プレイヤーの初期位置をダブルクリックし、海に囲まれていたり、山の頂上に取り残されたりしていないことをチェックしてください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:652
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:622
 #: ../../src/wui/game_summary.cc:112
 msgid "Player"
 msgstr "プレイヤー"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:653
-#: ../../src/network/gamehost.cc:1716
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:623
+#: ../../src/network/gamehost.cc:1743
 #, c-format
 msgid "Computer %u"
 msgstr "コンピュータ%u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:68
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:749
+msgid "Generate Map"
+msgstr "マップ生成"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:69
 #: ../../src/wui/game_main_menu_save_game.cc:75
-#: ../../src/wui/gamedetails.cc:190
+#: ../../src/wui/gamedetails.cc:203
 msgid "Filename:"
 msgstr "ファイル名: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:77
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:78
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:32
 msgid "Make Directory"
 msgstr "ディレクトリ作成"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:167
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
 msgid "A file or directory with that name already exists."
 msgstr "同じ名前のファイルかディレクトリが既に存在します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:169
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:184
 msgid "Error Creating Directory!"
 msgstr "ディレクトリ作成エラー！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:182
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "ディレクトリ %s 作成中にエラー"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:306
-#: ../../src/wui/game_main_menu_save_game.cc:248
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:307
+#: ../../src/wui/game_main_menu_save_game.cc:249
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "ファイル「%s」は既に存在します。上書きしますか？"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:364
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:310
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:365
 msgid "Error Saving Map!"
 msgstr "マップ保存エラー！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:357
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:358
 msgid "Map saved"
 msgstr "マップが保存されました"
 
@@ -697,46 +706,47 @@ msgstr "プレイヤー数"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
 #: ../../src/editor/ui_menus/player_menu.cc:158
-#: ../../src/editor/ui_menus/player_menu.cc:286
-#: ../../src/logic/single_player_game_settings_provider.cc:109
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:66
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:98
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:110
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:159
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:46
+#: ../../src/editor/ui_menus/player_menu.cc:285
+#: ../../src/logic/single_player_game_settings_provider.cc:110
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:67
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:100
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:111
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:162
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:50
 #, c-format
 msgid "Player %u"
 msgstr "プレイヤー%u"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign tribe
-#: ../../src/editor/ui_menus/player_menu.cc:185
-#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/editor/ui_menus/player_menu.cc:183
+#: ../../src/ui_fsmenu/addons_packager_box.cc:314
+#: ../../src/ui_fsmenu/campaign_select.cc:49
 #: ../../src/ui_fsmenu/campaigndetails.cc:58
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:179
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:52
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:181
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:57
 msgid "Tribe"
 msgstr "部族"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/player_menu.cc:193
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:399
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:95
+#: ../../src/editor/ui_menus/player_menu.cc:191
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:421
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:102
 msgctxt "tribe"
 msgid "Random"
 msgstr "ランダム"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/player_menu.cc:195
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:401
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:97
+#: ../../src/editor/ui_menus/player_menu.cc:193
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:423
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:104
 msgid "The tribe will be selected at random"
 msgstr "部族はランダムに選択されます"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Button tooltip in the editor for using a player's starting
 #. position tool
-#: ../../src/editor/ui_menus/player_menu.cc:212
+#: ../../src/editor/ui_menus/player_menu.cc:211
 msgid "Set this player’s starting position"
 msgstr "このプレイヤーの開始位置を設定する"
 
@@ -823,10 +833,11 @@ msgid "Current Size: %u"
 msgstr "現在のサイズ: %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_loader.cc:131 ../../src/map_io/map_saver.cc:148
-#: ../../src/map_io/widelands_map_loader.cc:350
-#: ../../src/wui/interactive_player.cc:203
-#: ../../src/wui/interactive_player.cc:428
+#: ../../src/game_io/game_loader.cc:174 ../../src/map_io/map_saver.cc:148
+#: ../../src/map_io/widelands_map_loader.cc:391
+#: ../../src/wlapplication_options.cc:466
+#: ../../src/wui/interactive_player.cc:215
+#: ../../src/wui/interactive_player.cc:449
 msgid "Messages"
 msgstr "メッセージ"
 
@@ -839,23 +850,32 @@ msgid "The following characters are not allowed:"
 msgstr "以下の文字は使用できません："
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/addons.cc:45 ../../src/ui_basic/dropdown.cc:351
+#: ../../src/ui_basic/dropdown.cc:353 ../../src/ui_fsmenu/addons.cc:1173
+#: ../../src/ui_fsmenu/addons.cc:1229 ../../src/ui_fsmenu/addons.cc:1352
+#: ../../src/ui_fsmenu/addons.cc:2062 ../../src/ui_fsmenu/launch_mpg.cc:294
+#: ../../src/wlapplication.cc:1451
+msgid "Error"
+msgstr "エラー"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Win condition for this game has not been set.
-#: ../../src/logic/game.cc:148
+#: ../../src/logic/game.cc:153
 msgid "Not set"
 msgstr "設定なし"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:325
+#: ../../src/logic/game.cc:377
 msgid "Initializing game…"
 msgstr "ゲームを初期化中……"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:541 ../../src/logic/player.cc:233
+#: ../../src/logic/game.cc:645 ../../src/logic/player.cc:236
 msgid "Missing starting position"
 msgstr "開始位置が見つかりません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:542 ../../src/logic/player.cc:234
+#: ../../src/logic/game.cc:646 ../../src/logic/player.cc:237
 #, c-format
 msgid ""
 "Widelands could not start the game, because player %u has no starting position.\n"
@@ -863,21 +883,14 @@ msgid ""
 msgstr "プレイヤー %u の開始位置が存在しないため、Widelandsはゲームを開始できませんでした。\nWidelandsエディタ上で手動で開始位置を追加すれば、問題を解決できます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:997
+#: ../../src/logic/game.cc:1115
 msgid "Trade Offer"
 msgstr "トレードの提案"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game.cc:999
+#: ../../src/logic/game.cc:1117
 msgid "This market has received a new trade offer."
 msgstr "このマーケットは新たなトレードの提案を受け取りました。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/game_data_error.cc:47
-msgid ""
-"This game was saved using an older version of Widelands and cannot be loaded"
-" anymore, or it's a new version that can't be handled yet."
-msgstr "このゲームは異なるバージョンのWidelandsに作られたデータで、読み込むことができません。"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/logic/generic_save_handler.cc:231
@@ -949,19 +962,19 @@ msgid "Desert"
 msgstr "砂漠"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map.h:234
+#: ../../src/logic/map.h:235
 msgid "No description defined"
 msgstr "説明はありません"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
-#: ../../src/logic/map_objects/tribes/militarysite.cc:249
+#: ../../src/logic/map_objects/tribes/militarysite.cc:250
 msgctxt "building"
 msgid "Lost!"
 msgstr "敗北！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:250
+#: ../../src/logic/map_objects/tribes/militarysite.cc:251
 msgid "Militarysite lost!"
 msgstr "軍事施設を失いました！"
 
@@ -969,24 +982,24 @@ msgstr "軍事施設を失いました！"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy Defeated!"
 msgstr "敵を倒しました！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy at site defeated!"
 msgstr "建物の敵を倒しました！"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Militarysite is being attacked
-#: ../../src/logic/map_objects/tribes/militarysite.cc:948
+#: ../../src/logic/map_objects/tribes/militarysite.cc:952
 msgctxt "building"
 msgid "Attack!"
 msgstr "襲撃！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:948
+#: ../../src/logic/map_objects/tribes/militarysite.cc:952
 msgid "You are under attack"
 msgstr "襲撃を受けています。"
 
@@ -994,7 +1007,7 @@ msgstr "襲撃を受けています。"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1325
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -1004,19 +1017,19 @@ msgstr[0] "%sを生産"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "%sを登用"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/production_program.cc:1827
+#: ../../src/logic/map_objects/tribes/production_program.cc:1834
 msgid "No soldier found for this training level!"
 msgstr "このレベルのトレーニングを必要とする兵士はいません！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1090
+#: ../../src/logic/map_objects/tribes/productionsite.cc:1095
 msgid "Can’t find any more resources!"
 msgstr "これ以上資源を見つけられません！"
 
@@ -1054,59 +1067,59 @@ msgid "An expedition ship sailed around its island without any events."
 msgstr "探検船は何事も無く島を一周してしまいました。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:620
 msgid "Coast Reached"
 msgstr "岸に到達"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:620
 msgid "Land Ahoy!"
 msgstr "おーい陸だぞー！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:622
+#: ../../src/logic/map_objects/tribes/ship.cc:621
 msgid ""
 "An expedition ship reached a coast and is waiting for further commands."
 msgstr "探検船は陸地に到達し、次の指示を待っています。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:670
 msgid "New port construction site is gone"
 msgstr "新たな港の建設現場が無くなりました"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:670
 msgid "Port Lost!"
 msgstr "港消失！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:672
+#: ../../src/logic/map_objects/tribes/ship.cc:671
 msgid "Unloading of wares failed, expedition is cancelled now."
 msgstr "物資の回収はできず、探検も中止されます。"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Ship expedition ready
-#: ../../src/logic/map_objects/tribes/ship.cc:856
+#: ../../src/logic/map_objects/tribes/ship.cc:852
 msgctxt "ship"
 msgid "Expedition"
 msgstr "探検"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:856
+#: ../../src/logic/map_objects/tribes/ship.cc:852
 msgid "Expedition Ready"
 msgstr "探検準備完了"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:857
+#: ../../src/logic/map_objects/tribes/ship.cc:853
 msgid "An expedition ship is waiting for your commands."
 msgstr "探検船はあなたの命令を待っています。"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. The ship is currently transporting
 #. wares.
-#: ../../src/logic/map_objects/tribes/ship.cc:1017
-#: ../../src/wui/seafaring_statistics_menu.cc:234
+#: ../../src/logic/map_objects/tribes/ship.cc:1013
+#: ../../src/wui/seafaring_statistics_menu.cc:237
 msgctxt "ship_state"
 msgid "Shipping"
 msgstr "輸送中"
@@ -1114,8 +1127,8 @@ msgstr "輸送中"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. An expedition is waiting for your
 #. commands.
-#: ../../src/logic/map_objects/tribes/ship.cc:1024
-#: ../../src/wui/seafaring_statistics_menu.cc:236
+#: ../../src/logic/map_objects/tribes/ship.cc:1020
+#: ../../src/wui/seafaring_statistics_menu.cc:239
 msgctxt "ship_state"
 msgid "Waiting"
 msgstr "待機中"
@@ -1123,16 +1136,16 @@ msgstr "待機中"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. An expedition is scouting for port
 #. spaces.
-#: ../../src/logic/map_objects/tribes/ship.cc:1028
-#: ../../src/wui/seafaring_statistics_menu.cc:238
+#: ../../src/logic/map_objects/tribes/ship.cc:1024
+#: ../../src/wui/seafaring_statistics_menu.cc:241
 msgctxt "ship_state"
 msgid "Scouting"
 msgstr "偵察中"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a ship state. An expedition has found a port space.
-#: ../../src/logic/map_objects/tribes/ship.cc:1032
-#: ../../src/wui/seafaring_statistics_menu.cc:240
+#: ../../src/logic/map_objects/tribes/ship.cc:1028
+#: ../../src/wui/seafaring_statistics_menu.cc:243
 msgctxt "ship_state"
 msgid "Port Space Found"
 msgstr "港の候補地を発見"
@@ -1141,25 +1154,25 @@ msgstr "港の候補地を発見"
 #. * TRANSLATORS: This is a ship state. An expedition is unloading
 #. wares/workers to build a
 #. * port.
-#: ../../src/logic/map_objects/tribes/ship.cc:1037
+#: ../../src/logic/map_objects/tribes/ship.cc:1033
 msgctxt "ship_state"
 msgid "Founding a Colony"
 msgstr "居留地を設立中"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/soldier.cc:1521
-#: ../../src/logic/map_objects/tribes/soldier.cc:1525
+#: ../../src/logic/map_objects/tribes/soldier.cc:1516
+#: ../../src/logic/map_objects/tribes/soldier.cc:1520
 msgid "Logic error"
 msgstr "ロジックエラー"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:186
-#: ../../src/wui/economy_options_window.cc:70
-#: ../../src/wui/general_statistics_menu.cc:154
-#: ../../src/wui/interactive_player.cc:301
-#: ../../src/wui/productionsitewindow.cc:94
-#: ../../src/wui/warehousewindow.cc:260
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:185
+#: ../../src/wui/economy_options_window.cc:72
+#: ../../src/wui/general_statistics_menu.cc:151
+#: ../../src/wui/interactive_player.cc:320
+#: ../../src/wui/productionsitewindow.cc:95
+#: ../../src/wui/warehousewindow.cc:261
 msgid "Wares"
 msgstr "物資"
 
@@ -1167,21 +1180,21 @@ msgstr "物資"
 #. * TRANSLATORS: Header in production site window if there is more than 1
 #. worker. If you
 #. need plural forms here, please let us know.
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:193
-#: ../../src/wui/economy_options_window.cc:71
-#: ../../src/wui/general_statistics_menu.cc:145
-#: ../../src/wui/productionsitewindow.cc:111
-#: ../../src/wui/warehousewindow.cc:264
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:192
+#: ../../src/wui/economy_options_window.cc:73
+#: ../../src/wui/general_statistics_menu.cc:142
+#: ../../src/wui/productionsitewindow.cc:112
+#: ../../src/wui/warehousewindow.cc:265
 msgid "Workers"
 msgstr "労働者"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:200
-#: ../../src/map_io/map_saver.cc:220
-#: ../../src/map_io/widelands_map_loader.cc:285
-#: ../../src/wui/general_statistics_menu.cc:150
-#: ../../src/wui/interactive_player.cc:296 ../../src/wui/minimap.cc:192
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:199
+#: ../../src/map_io/map_saver.cc:221
+#: ../../src/map_io/widelands_map_loader.cc:326
+#: ../../src/wui/general_statistics_menu.cc:147
+#: ../../src/wui/interactive_player.cc:315 ../../src/wui/minimap.cc:195
 msgid "Buildings"
 msgstr "建物"
 
@@ -1201,18 +1214,12 @@ msgid "A new warehouse was added to your economy."
 msgstr "倉庫が新たにあなたの経済に加えられました。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:1097
+#: ../../src/logic/map_objects/tribes/worker.cc:1109
 msgid "A geologist found resources."
 msgstr "地質学者が資源を発見しました。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2046
-#, c-format
-msgid "Your %s can't find a way home and will likely die."
-msgstr "あなたの%sは帰り道を見つけられず、死んでしまったようです。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2054
+#: ../../src/logic/map_objects/tribes/worker.cc:2074
 msgid "Worker got lost!"
 msgstr "労働者失踪！"
 
@@ -1222,7 +1229,7 @@ msgid "This objective has no description."
 msgstr "この目的には説明がありません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/player.cc:1860
+#: ../../src/logic/player.cc:1917
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
@@ -1241,117 +1248,113 @@ msgid ""
 msgstr "リプレイの終わりに達したため、ゲームを一時停止しています。もし続きを見たいのであれば、手動で一時停止を解除してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:176
-#: ../../src/wui/game_main_menu_save_game.cc:297
+#: ../../src/logic/save_handler.cc:178
+#: ../../src/wui/game_main_menu_save_game.cc:298
 msgid "Saving failed!"
 msgstr "保存に失敗！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/save_handler.cc:189
-#: ../../src/wui/game_main_menu_save_game.cc:280
+#: ../../src/logic/save_handler.cc:192
+#: ../../src/wui/game_main_menu_save_game.cc:281
 msgid "Game saved"
 msgstr "ゲームを保存"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:304
-#: ../../src/map_io/widelands_map_loader.cc:368
+#: ../../src/map_io/map_saver.cc:305
+#: ../../src/map_io/widelands_map_loader.cc:409
+#: ../../src/wlapplication_options.cc:462
 #: ../../src/wui/game_objectives_menu.cc:41
-#: ../../src/wui/interactive_player.cc:199
+#: ../../src/wui/interactive_player.cc:207
 msgid "Objectives"
 msgstr "目的"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "マップを読込中……"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:224
+#: ../../src/network/gameclient.cc:208
 #: ../../src/network/internet_gaming.cc:116
 msgid "Could not establish connection to host"
 msgstr "ホストへの接続を確立できませんでした"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:1144
-msgid "Disconnected from Host"
-msgstr "ホストから切断"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:283
+#: ../../src/network/gamehost.cc:291
 msgid "Available host commands are:"
 msgstr "利用可能なホストコマンド: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:302
+#: ../../src/network/gamehost.cc:310
 msgid "Wrong use, should be: /announce <message>"
 msgstr "コマンドが不正です。使い方: /announce <message>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:314
+#: ../../src/network/gamehost.cc:322
 msgid "Wrong use, should be: /warn <name> <reason>"
 msgstr "コマンドが不正です。使い方: /warn <name> <reason>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:318 ../../src/network/gamehost.cc:342
+#: ../../src/network/gamehost.cc:326 ../../src/network/gamehost.cc:350
 #, c-format
 msgid "The client %s could not be found."
 msgstr "クライアント%sが見つかりません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:329
+#: ../../src/network/gamehost.cc:337
 msgid "Wrong use, should be: /kick <name> <reason>"
 msgstr "コマンドが不正です。使い方: /kick <name> <reason>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:340
+#: ../../src/network/gamehost.cc:348
 msgid "You can not kick yourself!"
 msgstr "自分を追い出すことはできません！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:346
+#: ../../src/network/gamehost.cc:354
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "%sを本当に追い出しても良いですか？"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:348
+#: ../../src/network/gamehost.cc:356
 #, c-format
 msgid "The stated reason was: %s"
 msgstr "提示された理由: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:349
+#: ../../src/network/gamehost.cc:357
 #, c-format
 msgid "If yes, type: /ack_kick %s"
 msgstr "これでいいなら  /ack_kick %s と入力してください"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:359
+#: ../../src/network/gamehost.cc:367
 msgid "Wrong use, should be: /ack_kick <name>"
 msgstr "コマンドが不正です。使い方: /ack_kick <name>"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:375
+#: ../../src/network/gamehost.cc:383
 msgid "Pause was already forced - game should be paused."
 msgstr "既に強制的に一時停止状態になっています。ゲームは一時停止されているはずです。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:385
+#: ../../src/network/gamehost.cc:393
 msgid "There is no forced pause - nothing to end."
 msgstr "強制一時停止状態ではありません。何もする必要はありません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:394
+#: ../../src/network/gamehost.cc:402
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "無効なコマンドです！/help と入力してコマンド一覧を参照してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:538
+#: ../../src/network/gamehost.cc:547
 msgid "Failed to host the server!"
 msgstr "サーバーでのホスティングに失敗しました！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gamehost.cc:547
+#: ../../src/network/gamehost.cc:556
 msgid "Failed to start the server!"
 msgstr "サーバの起動に失敗しました！"
 
@@ -1368,14 +1371,6 @@ msgid "Something went wrong: %s"
 msgstr "何らかの問題が発生しました: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:434
-#, c-format
-msgid ""
-"You have been logged in as '%s' since your requested name is already in use "
-"or reserved."
-msgstr "あなたのリクエストした名前は予約されているか既に使われているため、あなたは「%s」という名前でログインしています。"
-
-# (pofilter) startcaps: Different capitalization at the start
 #: ../../src/network/internet_gaming.cc:447
 msgid "Our forums can be found at:"
 msgstr "フォーラムへはこちらからどうぞ："
@@ -1386,22 +1381,22 @@ msgid "For reporting bugs, visit:"
 msgstr "バグ報告ならばこちらへどうぞ："
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:471
+#: ../../src/network/internet_gaming.cc:472
 msgid "Mixed up"
 msgstr "混乱中"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:471
+#: ../../src/network/internet_gaming.cc:472
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "メタサーバーが接続中に奇妙な ERROR を送信しました"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:486
+#: ../../src/network/internet_gaming.cc:487
 msgid "Unexpected packet"
 msgstr "予期しないパケット"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:487
+#: ../../src/network/internet_gaming.cc:488
 msgid ""
 "Received an unexpected network packet from the metaserver. The metaserver "
 "could be using a different protocol version. If the error persists, try "
@@ -1409,85 +1404,85 @@ msgid ""
 msgstr "メタサーバーから予期しないパケットを受信しました。メタサーバーが違うプロトコルのバージョンを使っているのかもしれません。エラーが続くようなら、ゲームを更新してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:499
+#: ../../src/network/internet_gaming.cc:500
 #, c-format
 msgid ""
 "WARNING: Received a %s command although we are not in CONNECTING state."
 msgstr "警告: 接続状態ではありませんが、%sコマンドを受信しました。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:510
+#: ../../src/network/internet_gaming.cc:511
 #, c-format
 msgid "Server time offset is %d second."
 msgid_plural "Server time offset is %d seconds."
 msgstr[0] "サーバー時間とのオフセットは %d 秒です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:525
+#: ../../src/network/internet_gaming.cc:526
 #, c-format
 msgid "Invalid chat message type \"%s\"."
 msgstr "不正なチャットメッセージタイプ「%s」です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:525
+#: ../../src/network/internet_gaming.cc:526
 msgid "Invalid message type"
 msgstr "不正なメッセージタイプ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:566
+#: ../../src/network/internet_gaming.cc:567
 #, c-format
 msgid "The game %s is now available"
 msgstr "ゲーム%sは利用可能です"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:577
+#: ../../src/network/internet_gaming.cc:578
 #, c-format
 msgid "The game %s has been closed"
 msgstr "ゲーム%sはクローズされています"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:684
+#: ../../src/network/internet_gaming.cc:687
 msgid "Chat message could not be sent."
 msgstr "チャットメッセージが送れませんでした。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:714
+#: ../../src/network/internet_gaming.cc:717
 #, c-format
 msgid "ERROR: %s"
 msgstr "エラー: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:730
+#: ../../src/network/internet_gaming.cc:733
 #, c-format
 msgid "Received an unknown command from the metaserver: %s"
 msgstr "メタサーバーから不明なコマンドを受信しました: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:883
+#: ../../src/network/internet_gaming.cc:886
 msgid "Message could not be sent: You are not connected to the metaserver!"
 msgstr "メッセージを送信できませんでした。あなたはメタサーバーに接続されていません！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:902
-#: ../../src/network/internet_gaming.cc:909
+#: ../../src/network/internet_gaming.cc:905
+#: ../../src/network/internet_gaming.cc:912
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "メッセージを送信できませんでした。これはプライベートメッセージのつもりでしたか？"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:1010
+#: ../../src/network/internet_gaming.cc:1013
 msgid "Conversion error"
 msgstr "変換エラー"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Geeky message from the metaserver
 #. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
-#: ../../src/network/internet_gaming.cc:1013
+#: ../../src/network/internet_gaming.cc:1016
 #, c-format
 msgid "Unable to determine truth value for \"%s\""
 msgstr "「%s」を真偽値に変換できません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:1038
+#: ../../src/network/internet_gaming.cc:1041
 msgctxt "chat_sender"
 msgid "Unknown"
 msgstr "不明"
@@ -1717,7 +1712,7 @@ msgid "Client %1$s did not answer for more than %2$s."
 msgstr "クライアント%1$sが%2$s秒以上応答しませんでした。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/network_lan_promotion.cc:364
+#: ../../src/network/network_lan_promotion.cc:362
 msgid "Failed to use the local network!"
 msgstr "ローカルネットワークを使えませんでした！"
 
@@ -1728,20 +1723,14 @@ msgid "Select Item"
 msgstr "項目を選ぶ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/dropdown.cc:341 ../../src/ui_basic/dropdown.cc:343
-#: ../../src/ui_fsmenu/launch_mpg.cc:358
-msgid "Error"
-msgstr "エラー"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Selection in Dropdown menus.
-#: ../../src/ui_basic/dropdown.cc:401
+#: ../../src/ui_basic/dropdown.cc:411
 msgctxt "dropdown"
 msgid "Not Selected"
 msgstr "未選択"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "読込中……"
 
@@ -1766,45 +1755,46 @@ msgid "Increase the value by 10"
 msgstr "値を10増やす"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_basic/window.cc:111 ../../src/ui_fsmenu/about.cc:42
+#: ../../src/ui_basic/window.cc:108 ../../src/ui_fsmenu/about.cc:41
 #: ../../src/wui/watchwindow.cc:74
 msgid "Close"
 msgstr "閉じる"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:38
-#: ../../src/ui_fsmenu/loadgame.cc:66
-#: ../../src/ui_fsmenu/scenario_select.cc:101
-msgid "Return to the main menu"
-msgstr "メインメニューへ戻る"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:39
-msgid "Play this campaign"
-msgstr "このキャンペーンをプレイ"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign difficulty
-#: ../../src/ui_fsmenu/campaign_select.cc:47
+#: ../../src/ui_fsmenu/addons_packager_box.cc:325
+#: ../../src/ui_fsmenu/campaign_select.cc:48
 #: ../../src/ui_fsmenu/campaigndetails.cc:63
-#: ../../src/ui_fsmenu/scenario_select.cc:65
+#: ../../src/ui_fsmenu/scenario_select.cc:68
 msgid "Difficulty"
 msgstr "難易度"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/ui_fsmenu/campaign_select.cc:39
+#: ../../src/ui_fsmenu/loadgame.cc:80
+#: ../../src/ui_fsmenu/scenario_select.cc:104
+msgid "Return to the main menu"
+msgstr "メインメニューへ戻る"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/campaign_select.cc:40
+msgid "Play this campaign"
+msgstr "このキャンペーンをプレイ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/campaign_select.cc:49
 msgid "Tribe Name"
 msgstr "部族名"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/campaign_select.cc:50
+#: ../../src/ui_fsmenu/campaign_select.cc:51
 msgid "Campaign Name"
 msgstr "キャンペーン名"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign description
 #: ../../src/ui_fsmenu/campaigndetails.cc:71
-#: ../../src/ui_fsmenu/scenariodetails.cc:67 ../../src/wui/mapdetails.cc:188
+#: ../../src/ui_fsmenu/scenariodetails.cc:67 ../../src/wui/mapdetails.cc:197
 #: ../../src/wui/savegametable.cc:132 ../../src/wui/savegametable.cc:184
 #: ../../src/wui/savegametable.cc:244
 msgid "Description"
@@ -1817,154 +1807,125 @@ msgid "Help: %s"
 msgstr "ヘルプ: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:53
+#: ../../src/ui_fsmenu/internet_lobby.cc:55
+#: ../../src/wlapplication_options.cc:244
 msgid "Metaserver Lobby"
 msgstr "メタサーバー ロビー"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:62
+#: ../../src/ui_fsmenu/internet_lobby.cc:64
 msgid "Clients online:"
 msgstr "オンラインのクライアント: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:83
-#: ../../src/ui_fsmenu/netsetup_lan.cc:81
+#: ../../src/ui_fsmenu/internet_lobby.cc:85
+#: ../../src/ui_fsmenu/netsetup_lan.cc:87
 msgid "Join this game"
 msgstr "このゲームに参加"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:91
+#: ../../src/ui_fsmenu/internet_lobby.cc:93
 msgid "Name of your server:"
 msgstr "あなたのサーバー名: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:100
+#: ../../src/ui_fsmenu/internet_lobby.cc:102
 msgid "Open a new game"
 msgstr "新規ゲームを開く"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:159
+#: ../../src/ui_fsmenu/internet_lobby.cc:161
 msgid "User Status"
 msgstr "ユーザーの状態"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:160
+#: ../../src/ui_fsmenu/internet_lobby.cc:162
 msgid "Administrator"
 msgstr "管理者"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:161
+#: ../../src/ui_fsmenu/internet_lobby.cc:163
 msgid "Registered"
 msgstr "登録済"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:162
+#: ../../src/ui_fsmenu/internet_lobby.cc:164
 msgid "Unregistered"
 msgstr "未登録"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Player Name
-#: ../../src/ui_fsmenu/internet_lobby.cc:166
+#: ../../src/ui_fsmenu/internet_lobby.cc:168
 msgctxt "player"
 msgid "Name"
 msgstr "名前"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Widelands version
-#: ../../src/ui_fsmenu/internet_lobby.cc:168
+#: ../../src/ui_fsmenu/internet_lobby.cc:170
 msgid "Version"
 msgstr "バージョン"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:170
+#: ../../src/ui_fsmenu/internet_lobby.cc:172
+#: ../../src/ui_fsmenu/keyboard_options.cc:185
 msgid "Game"
 msgstr "ゲーム"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:420
+#: ../../src/ui_fsmenu/internet_lobby.cc:434
 msgid "Connection Timed Out"
 msgstr "接続がタイムアウトしました"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:77
+#: ../../src/ui_fsmenu/launch_game.cc:121
 msgid "Start game"
 msgstr "ゲームスタート"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a map tag
-#: ../../src/ui_fsmenu/launch_game.cc:153
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:444
+#: ../../src/ui_fsmenu/launch_game.cc:236
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:466
 #: ../../src/ui_fsmenu/scenariodetails.cc:48
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:276
-#: ../../src/wui/map_tags.cc:44 ../../src/wui/mapdetails.cc:139
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:289
+#: ../../src/wui/map_tags.cc:44 ../../src/wui/mapdetails.cc:141
 msgid "Scenario"
 msgstr "シナリオ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:154
+#: ../../src/ui_fsmenu/launch_game.cc:237
 msgid "Win condition is set through the scenario"
 msgstr "勝利条件はシナリオに設定されます"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:160 ../../src/ui_fsmenu/launch_mpg.cc:73
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:448
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:280
+#: ../../src/ui_fsmenu/launch_game.cc:243
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:470
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:293
 msgid "Saved Game"
 msgstr "保存されたゲーム"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:162
+#: ../../src/ui_fsmenu/launch_game.cc:245
 msgid "The game is a saved game – the win condition was set before."
 msgstr "保存済のゲームです。勝利条件は既に設定されています。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:224
-#, c-format
-msgid ""
-"Unable to determine valid win conditions because the map '%s' could not be "
-"loaded."
-msgstr "マップ「%s」が読み込めないので、有効な勝利条件を決定できません。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Dialog box title for selecting between map or saved game for
-#. new
-#. multiplayer game
-#: ../../src/ui_fsmenu/launch_mpg.cc:57
-msgid "Please select"
-msgstr "選択してください"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:67
-msgid "Select a map"
-msgstr "マップを選択します"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:73
-msgid "Select a saved game"
-msgstr "セーブデータを選択します"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:78
-msgid "Cancel selection"
-msgstr "選択をキャンセルします"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:111
+#: ../../src/ui_fsmenu/launch_mpg.cc:69
 msgid "Show the help window"
 msgstr "ヘルプウィンドウを表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:123
+#: ../../src/ui_fsmenu/launch_mpg.cc:83
 msgid "The host has not yet selected a map or saved game."
 msgstr "ホストがまだマップまたはセーブデータを選択していません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:265
+#: ../../src/ui_fsmenu/launch_mpg.cc:192
 msgid "Saved Game is Directory"
 msgstr "セーブデータがディレクトリです"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:266
+#: ../../src/ui_fsmenu/launch_mpg.cc:193
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
@@ -1972,333 +1933,333 @@ msgid ""
 msgstr "警告: \n選択した保存したゲームはディレクトリです。これは、あなたがオプション「nozip」をtrueに設定するか、セーブデータを手動で解凍した場合に発生します。Widelandsがクライアントにディレクトリ構造を転送することはできないので、別のセーブデータを選択またはディレクトリの内容をzip圧縮してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:283 ../../src/ui_fsmenu/launch_spg.cc:163
+#: ../../src/ui_fsmenu/launch_mpg.cc:212 ../../src/ui_fsmenu/launch_spg.cc:126
 msgid "File not found"
 msgstr "ファイルが見つかりません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:317
+#: ../../src/ui_fsmenu/launch_mpg.cc:253
 msgid ""
 "The selected file can not be found. If it is not automatically transferred "
 "to you, please write to the host about this problem."
 msgstr "選択したファイルが見つかりません。それが自動的に転送されていない場合は、この問題についてホストに問い合わせてください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_mpg.cc:360
-#, c-format
-msgid "Unable to load the win condition script file '%s'."
-msgstr "勝利条件スクリプトファイル「%s」が読み込めません。"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a heading for a help window
-#: ../../src/ui_fsmenu/launch_mpg.cc:482
+#: ../../src/ui_fsmenu/launch_mpg.cc:419
 msgid "Multiplayer Game Setup"
 msgstr "マルチプレイ設定"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:52
+#: ../../src/ui_fsmenu/loadgame.cc:66
 msgid "Show Filenames"
 msgstr "ファイル名を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:67
+#: ../../src/ui_fsmenu/loadgame.cc:81
 msgid "Load this replay"
 msgstr "このリプレイを読み込む"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:69 ../../src/ui_fsmenu/mapselect.cc:59
+#: ../../src/ui_fsmenu/loadgame.cc:83 ../../src/ui_fsmenu/mapselect.cc:67
 msgid "Return to the multiplayer game setup"
 msgstr "マルチプレイゲーム設定に戻る"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:70 ../../src/ui_fsmenu/mapselect.cc:61
+#: ../../src/ui_fsmenu/loadgame.cc:84 ../../src/ui_fsmenu/mapselect.cc:69
 msgid "Return to the single player menu"
 msgstr "シングルプレイメニューに戻る"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/loadgame.cc:71
+#: ../../src/ui_fsmenu/loadgame.cc:85
 msgid "Load this game"
 msgstr "このゲームを読み込む"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:51
+#: ../../src/ui_fsmenu/login_box.cc:52
 msgid "Nickname:"
 msgstr "ニックネーム: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:52
+#: ../../src/ui_fsmenu/login_box.cc:53
 msgid "Password:"
 msgstr "パスワード: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:199
+#: ../../src/ui_fsmenu/login_box.cc:204
 msgid "Please enter a nickname!"
 msgstr "ニックネームを入力してください！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:209
+#: ../../src/ui_fsmenu/login_box.cc:214
 msgid "Please enter your password!"
 msgstr "パスワードを入力してください！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:241
+#: ../../src/ui_fsmenu/main.cc:296 ../../src/wlapplication_options.cc:162
 msgid "New Game"
 msgstr "新規ゲーム"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:245
+#: ../../src/ui_fsmenu/main.cc:301 ../../src/wlapplication_options.cc:186
 msgid "Campaigns"
 msgstr "キャンペーン"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:249
+#: ../../src/ui_fsmenu/main.cc:306 ../../src/wlapplication_options.cc:166
 msgid "Load Game"
 msgstr "ゲーム読込"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:370
+#: ../../src/ui_fsmenu/main.cc:436 ../../src/wlapplication_options.cc:171
 msgid "Watch Replay"
 msgstr "リプレイ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:378 ../../src/ui_fsmenu/options.cc:86
+#: ../../src/ui_fsmenu/main.cc:445 ../../src/ui_fsmenu/options.cc:90
+#: ../../src/wlapplication_options.cc:253
 msgid "Options"
 msgstr "オプション"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %1$s = version string, %2%s = "Debug" or "Release"
-#: ../../src/ui_fsmenu/main.cc:390
+#: ../../src/ui_fsmenu/main.cc:460
 #, c-format
 msgid "Version %1$s (%2$s)"
 msgstr "バージョン %1$s (%2$s)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:161
-msgid "Change map or saved game"
-msgstr "マップまたはセーブデータを変更"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:74
+#: ../../src/ui_fsmenu/mapselect.cc:82
 msgid "Show all maps"
 msgstr "全マップを表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:76
+#: ../../src/ui_fsmenu/mapselect.cc:84
 msgid "Show original map names"
 msgstr "オリジナルのマップ名(未翻訳)を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/menu.cc:112
+#: ../../src/ui_fsmenu/menu.cc:108
 msgid "Back"
 msgstr "戻る"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:57
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:58
 msgid "Role"
 msgstr "役割"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:115
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:117
 msgid "Spectator"
 msgstr "観客"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:168
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:308
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:149
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:192
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:170
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:158
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
 msgid "Type"
 msgstr "タイプ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:201
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:343
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:203
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:363
 #: ../../src/wui/game_chat_panel.cc:443 ../../src/wui/game_summary.cc:113
 msgid "Team"
 msgstr "チーム"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is the name of an AI used in the game setup screens
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:283
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:284
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:174
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:175
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:302
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:303
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:184
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:185
 msgid "Random AI"
 msgstr "ランダムAI"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:288
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:290
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:308
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:310
 msgid "Shared in"
 msgstr "共有"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:295
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:296
-#: ../../src/ui_fsmenu/netsetup_lan.cc:215
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:183
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:315
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:316
+#: ../../src/ui_fsmenu/netsetup_lan.cc:224
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:194
 msgid "Closed"
 msgstr "クローズ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:300
-#: ../../src/ui_fsmenu/netsetup_lan.cc:212
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:320
+#: ../../src/ui_fsmenu/netsetup_lan.cc:221
 msgid "Open"
 msgstr "オープン"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:308
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:192
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
 msgid "Human"
 msgstr "人間"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is an option in multiplayer setup for sharing
 #. another player's starting position.
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:385
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:83
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:404
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:88
 #, c-format
 msgid "Shared in Player %u"
 msgstr "プレイヤー%uと共有"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:445
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:277
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:467
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:290
 msgid "Start type is set via the scenario"
 msgstr "初期状態はシナリオが設定します"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:504
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:364
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:539
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:384
 msgid "No Team"
 msgstr "チーム無し"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:510
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:370
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:545
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:390
 #, c-format
 msgid "Team %d"
 msgstr "チーム %d"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:606
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:645
 msgid "Clients"
 msgstr "クライアント"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:40
+#: ../../src/ui_fsmenu/netsetup_lan.cc:46
 msgid "List of games in your local network:"
 msgstr "ゲーム一覧(ローカルネットワーク)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:51
+#: ../../src/ui_fsmenu/netsetup_lan.cc:57
 msgid "Your nickname:"
 msgstr "ニックネーム"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:60
+#: ../../src/ui_fsmenu/netsetup_lan.cc:66
 msgid "Host to connect:"
 msgstr "接続するホスト"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:72
+#: ../../src/ui_fsmenu/netsetup_lan.cc:78
 msgid "Load previous host"
 msgstr "前回ホストしたゲームを読込"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:89
+#: ../../src/ui_fsmenu/netsetup_lan.cc:95
 msgid "Host a new game"
 msgstr "新しいゲームをホストする"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:123
+#: ../../src/ui_fsmenu/netsetup_lan.cc:129
 msgid "Host"
 msgstr "ホスト"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:125
+#: ../../src/ui_fsmenu/netsetup_lan.cc:131
 msgid "State"
 msgstr "状態"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The state of a LAN game can be open, closed or unknown
-#: ../../src/ui_fsmenu/netsetup_lan.cc:219
+#: ../../src/ui_fsmenu/netsetup_lan.cc:228
 msgctxt "game_state"
 msgid "Unknown"
 msgstr "不明"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:91
+#: ../../src/ui_fsmenu/netsetup_lan.cc:298
+msgid "Invalid Address"
+msgstr "無効なアドレス"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/netsetup_lan.cc:299
+msgid "The entered hostname or address is invalid and can’t be connected to."
+msgstr "入力されたホスト名もしくはアドレスは無効であり、接続できません。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/options.cc:95
 msgid "Apply"
 msgstr "適用"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:114
+#: ../../src/ui_fsmenu/options.cc:119
 msgid "Language"
 msgstr "言語"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:125
+#: ../../src/ui_fsmenu/options.cc:130
 msgid "Window Size"
 msgstr "ウィンドウサイズ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:131
+#: ../../src/ui_fsmenu/options.cc:146
 msgid "Grab Input"
 msgstr "画面内にカーソルを制限"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:147
+#: ../../src/ui_fsmenu/options.cc:154
 msgid "Maximum FPS:"
 msgstr "最大FPS: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:154
+#: ../../src/ui_fsmenu/options.cc:165
 msgid "Snap windows only when overlapping"
 msgstr "重なる場合だけウインドウ表示位置を動かす"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:160
+#: ../../src/ui_fsmenu/options.cc:171
 msgid "Dock windows to edges"
 msgstr "ウィンドウ端でドッキング"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:166
+#: ../../src/ui_fsmenu/options.cc:177
 msgid "Animate automatic map movements"
 msgstr "マップ上でジャンプするときにアニメーションさせる"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:179
+#: ../../src/ui_fsmenu/options.cc:190
 msgid "Distance for windows to snap to other panels:"
 msgstr "ウィンドウが他のパネルにドッキングされる距離"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:191
+#: ../../src/ui_fsmenu/options.cc:202
 msgid "Distance for windows to snap to borders:"
 msgstr "ウィンドウが画面外に収納される距離"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:207
+#: ../../src/ui_fsmenu/options.cc:227
 msgid "Save game automatically every:"
 msgstr "ゲームの自動保存頻度:  "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:220
+#: ../../src/ui_fsmenu/options.cc:240
 msgid "Maximum number of autosave files:"
 msgstr "自動保存ファイルの最大数: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:233
+#: ../../src/ui_fsmenu/options.cc:253
 msgid "Write syncstreams in network games to debug desyncs"
 msgstr "(デバッグ用) 非同期発生の発見や検証のため、マルチプレイゲーム時に同期情報を書き出す"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:252
+#: ../../src/ui_fsmenu/options.cc:272
 msgid "Start building road after placing a flag"
 msgstr "旗を設置したあとすぐに道路の敷設を始める"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:256
+#: ../../src/ui_fsmenu/options.cc:276
 msgid "Show in-game chat with transparent background"
 msgstr "ゲームチャットを透明な背景で表示"
 
@@ -2306,118 +2267,134 @@ msgstr "ゲームチャットを透明な背景で表示"
 #. * TRANSLATORS: A watchwindow is a window where you keep watching an object
 #. or a map region,
 #. * TRANSLATORS: and it also lets you jump to it on the map.
-#: ../../src/ui_fsmenu/options.cc:266
+#: ../../src/ui_fsmenu/options.cc:286
 msgid "Use single watchwindow mode"
 msgstr "単一のウォッチウィンドウモード"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:309
+#: ../../src/ui_fsmenu/options.cc:335
 msgid "Interface"
 msgstr "インターフェイス"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:310
-msgid "Windows"
-msgstr "ウィンドウ"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:311
+#: ../../src/ui_fsmenu/options.cc:336
 msgid "Sound"
 msgstr "サウンド"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:312
+#: ../../src/ui_fsmenu/options.cc:337
 msgid "Saving"
 msgstr "保存"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:391
+#: ../../src/ui_fsmenu/options.cc:438
 msgid "Off"
 msgstr "オフ"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Entry in the window size dropdown
-#: ../../src/ui_fsmenu/options.cc:416
+#: ../../src/ui_fsmenu/options.cc:463
 msgid "Fullscreen"
 msgstr "フルスクリーン"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:522
+#: ../../src/ui_fsmenu/options.cc:588
 msgid "Try system language"
 msgstr "システム言語を試す"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:626
+#: ../../src/ui_fsmenu/options.cc:692
 #, c-format
 msgid "The translation into %s is complete."
 msgstr "%sへの翻訳は完了しています。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:643
+#: ../../src/ui_fsmenu/options.cc:709
 #, c-format
 msgid "If you wish to help us translate, please visit %s"
 msgstr "翻訳に協力するつもりならば、%sを見てください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:84
+#: ../../src/ui_fsmenu/scenario_select.cc:87
 msgid ""
 "You can see a description of the currently selected tutorial on the right."
 msgstr "右側に選択中のチュートリアルの説明が表示されます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:103
+#: ../../src/ui_fsmenu/scenario_select.cc:106
 msgid "Play this scenario"
 msgstr "このシナリオをプレイする"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:103
+#: ../../src/ui_fsmenu/scenario_select.cc:106
 msgid "Play this tutorial"
 msgstr "このチュートリアルをプレイする"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:124
+#: ../../src/ui_fsmenu/scenario_select.cc:127
 msgid "The order in which the tutorials should be played"
 msgstr "推奨するチュートリアルのプレイ順序"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:125
+#: ../../src/ui_fsmenu/scenario_select.cc:128
 msgid "Tutorial Name"
 msgstr "チュートリアル名"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:127
+#: ../../src/ui_fsmenu/scenario_select.cc:130
 msgid "The number of this scenario in the campaign"
 msgstr "キャンペーン内のシナリオ数"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/scenario_select.cc:128
+#: ../../src/ui_fsmenu/scenario_select.cc:131
 msgid "Scenario Name"
 msgstr "シナリオ名称"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1272 ../../src/wui/mapdetails.cc:222
+#. * TRANSLATORS: This text is on a separate line with an error message below
+#: ../../src/wlapplication.cc:690 ../../src/wlapplication.cc:696
+#: ../../src/wlapplication.cc:701 ../../src/wui/savegameloader.cc:107
+msgid "Error message:"
+msgstr "エラーメッセージ: "
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication.cc:691 ../../src/wui/mapdetails.cc:231
 msgid "Game data error"
 msgstr "ゲームデータエラー"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1288
-msgid ""
-"Please add this information to your report.\n"
-"\n"
-"Widelands attempts to create a savegame when errors occur during the game. It is often – though not always – possible to load it and continue playing."
-msgstr "以下の情報を報告に含めてください。\n\nWidelands attempts to create a savegame when errors occur during the game. It is often – though not always – possible to load it and continue playing."
+#: ../../src/wlapplication_options.cc:438
+#: ../../src/wui/ware_statistics_menu.cc:104
+msgid "Ware Statistics"
+msgstr "物資統計"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1380
-msgid "Invalid Address"
-msgstr "無効なアドレス"
+#: ../../src/wlapplication_options.cc:443
+#: ../../src/wui/building_statistics_menu.cc:54
+msgid "Building Statistics"
+msgstr "建物統計"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1381
-msgid "The entered hostname or address is invalid and can’t be connected to."
-msgstr "入力されたホスト名もしくはアドレスは無効であり、接続できません。"
+#: ../../src/wlapplication_options.cc:458
+#: ../../src/wui/seafaring_statistics_menu.cc:49
+msgid "Seafaring Statistics"
+msgstr "航海統計"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:514 ../../src/wui/game_chat_menu.cc:53
+#: ../../src/wui/interactive_gamebase.cc:327
+msgid "Chat"
+msgstr "チャット"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: An entry in the game's main menu
+#: ../../src/wlapplication_options.cc:518
+#: ../../src/wui/game_main_menu_save_game.cc:53
+#: ../../src/wui/interactive_gamebase.cc:138
+msgid "Save Game"
+msgstr "ゲーム保存"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/actionconfirm.cc:186
@@ -2491,15 +2468,10 @@ msgstr "攻撃開始"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Health, Attack, Defense, Evade
 #: ../../src/wui/attack_box.cc:353 ../../src/wui/soldierlist.cc:403
-#: ../../src/wui/soldierlist.cc:472
+#: ../../src/wui/soldierlist.cc:466
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "体力: %1$u/%2$u  攻撃: %3$u/%4$u  防御: %5$u/%6$u  回避: %7$u/%8$u"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/building_statistics_menu.cc:54
-msgid "Building Statistics"
-msgstr "建物統計"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/building_statistics_menu.cc:72
@@ -2542,71 +2514,71 @@ msgstr "鉱山"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:268
+#: ../../src/wui/buildingwindow.cc:269
 msgid "Continue"
 msgstr "続行"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:270
+#: ../../src/wui/buildingwindow.cc:271
 msgid "Stop"
 msgstr "停止"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:292
+#: ../../src/wui/buildingwindow.cc:293
 #, c-format
 msgid "Enhance to %s"
 msgstr "%sに拡張"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:296 ../../src/wui/fieldaction.cc:101
+#: ../../src/wui/buildingwindow.cc:297 ../../src/wui/fieldaction.cc:101
 msgid "Construction costs:"
 msgstr "建設コスト: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:314
+#: ../../src/wui/buildingwindow.cc:315
 msgid "Destroy"
 msgstr "破壊"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:329
+#: ../../src/wui/buildingwindow.cc:330
 msgid "Dismantle"
 msgstr "解体"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:332
+#: ../../src/wui/buildingwindow.cc:333
 msgid "Returns:"
 msgstr "回収物資: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:384 ../../src/wui/fieldaction.cc:488
+#: ../../src/wui/buildingwindow.cc:385 ../../src/wui/fieldaction.cc:522
 #: ../../src/wui/shipwindow.cc:141
 msgid "Show Debug Window"
 msgstr "デバッグウィンドウの表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:391
+#: ../../src/wui/buildingwindow.cc:401
 msgid "Center view on this"
 msgstr "ここに視点移動"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:620
+#: ../../src/wui/buildingwindow.cc:632
 msgid "Hide work area"
 msgstr "作業エリアを隠す"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:623
+#: ../../src/wui/buildingwindow.cc:635
 msgid "Show work area"
 msgstr "作業エリアを表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:648
+#: ../../src/wui/buildingwindow.cc:660
 #: ../../src/wui/constructionsitewindow.cc:374
 msgid "Start an expedition"
 msgstr "探検を開始"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:652
+#: ../../src/wui/buildingwindow.cc:664
 msgid "Cancel the expedition"
 msgstr "探検をキャンセル"
 
@@ -2653,110 +2625,104 @@ msgid "Remove selected wares from here"
 msgstr "選択した物資をここから移動"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:44
+#: ../../src/wui/economy_options_window.cc:45
 msgid "Economy options"
 msgstr "経済オプション"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:84
+#: ../../src/wui/economy_options_window.cc:86
 msgid "Decrease target"
 msgstr "ターゲットを減らす"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/economy_options_window.cc:101
+#: ../../src/wui/economy_options_window.cc:103
 msgid "Increase target"
 msgstr "ターゲットを増やす"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:232
+#: ../../src/wui/fieldaction.cc:234
 msgid "Build small building"
 msgstr "小サイズの建物を建設"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:233
+#: ../../src/wui/fieldaction.cc:235
 msgid "Build big building"
 msgstr "大サイズの建物を建設"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:233
+#: ../../src/wui/fieldaction.cc:235
 msgid "Build medium building"
 msgstr "中サイズの建物を建設"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:234
+#: ../../src/wui/fieldaction.cc:236
 msgid "Build port building"
 msgstr "港を建設"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:264
+#: ../../src/wui/fieldaction.cc:267
 msgid "Action"
 msgstr "アクション"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:418 ../../src/wui/fieldaction.cc:493
+#: ../../src/wui/fieldaction.cc:421 ../../src/wui/fieldaction.cc:527
 msgid "Build road"
 msgstr "道を敷設"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:429
+#: ../../src/wui/fieldaction.cc:432
 msgid "Destroy this flag"
 msgstr "この旗を破壊"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:439
+#: ../../src/wui/fieldaction.cc:442
 msgid "Send geologist to explore site"
 msgstr "地質学者を派遣して資源を調査"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:455
+#: ../../src/wui/fieldaction.cc:489
 msgid "Place a flag"
 msgstr "旗を設置"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:460
+#: ../../src/wui/fieldaction.cc:494
 msgid "Destroy a road"
 msgstr "道を破壊"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:483
+#: ../../src/wui/fieldaction.cc:517
 msgid "Watch field in a separate window"
 msgstr "個別ウィンドウでフィールドを監視"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:496 ../../src/wui/watchwindow.cc:49
+#: ../../src/wui/fieldaction.cc:530 ../../src/wui/watchwindow.cc:49
 msgid "Watch"
 msgstr "監視"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:517
+#: ../../src/wui/fieldaction.cc:551
 msgid "Attack"
 msgstr "攻撃"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:635
+#: ../../src/wui/fieldaction.cc:668
 msgid "Build mines"
 msgstr "鉱山を建設"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:649 ../../src/wui/fieldaction.cc:672
+#: ../../src/wui/fieldaction.cc:682 ../../src/wui/fieldaction.cc:705
 msgid "Build flag"
 msgstr "旗を設置"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:653
+#: ../../src/wui/fieldaction.cc:686
 msgid "Cancel road"
 msgstr "道の敷設をキャンセル"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:664
+#: ../../src/wui/fieldaction.cc:697
 msgid "Build roads"
 msgstr "道を敷設"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_chat_menu.cc:53
-#: ../../src/wui/interactive_gamebase.cc:314
-msgid "Chat"
-msgstr "チャット"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Window label
@@ -2793,17 +2759,17 @@ msgid "AI for the disconnected player"
 msgstr "代わりの AI"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the game's main menu
 #. * TRANSLATORS: Button tooltip
+#. * TRANSLATORS: An entry in the game's main menu
 #: ../../src/wui/game_client_disconnected.cc:103
-#: ../../src/wui/game_summary.cc:103 ../../src/wui/interactive_gamebase.cc:140
+#: ../../src/wui/game_summary.cc:103 ../../src/wui/interactive_gamebase.cc:144
 msgid "Exit Game"
 msgstr "ゲーム終了"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Dropdown selection. Parameter is the name of the AI that
 #. will be used as replacement for a disconnected player
-#: ../../src/wui/game_client_disconnected.cc:122
+#: ../../src/wui/game_client_disconnected.cc:123
 #, c-format
 msgid "Replace player with %s"
 msgstr "プレイヤーを %s に交代する"
@@ -2827,31 +2793,24 @@ msgid "Are you sure you wish to exit this game?"
 msgstr "本当にゲームを終了しますか？"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: An entry in the game's main menu
-#: ../../src/wui/game_main_menu_save_game.cc:53
-#: ../../src/wui/interactive_gamebase.cc:135
-msgid "Save Game"
-msgstr "ゲーム保存"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_main_menu_save_game.cc:251
-#: ../../src/wui/game_main_menu_save_game.cc:287
+#: ../../src/wui/game_main_menu_save_game.cc:252
+#: ../../src/wui/game_main_menu_save_game.cc:288
 msgid "Error Saving Game!"
 msgstr "ゲーム保存エラー！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:52
-#: ../../src/wui/game_message_menu.cc:639
+#: ../../src/wui/game_message_menu.cc:53
+#: ../../src/wui/game_message_menu.cc:599
 msgid "Messages: Inbox"
 msgstr "メッセージ: 受信箱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:69
+#: ../../src/wui/game_message_menu.cc:70
 msgid "Title"
 msgstr "タイトル"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:70
+#: ../../src/wui/game_message_menu.cc:71
 msgctxt "message"
 msgid "Type"
 msgstr "タイプ"
@@ -2863,66 +2822,60 @@ msgstr "タイプ"
 #. * TRANSLATORS: This is used in the game messages menu - please open an
 #. issue if you need more
 #. * space.
-#: ../../src/wui/game_message_menu.cc:76
+#: ../../src/wui/game_message_menu.cc:77
 msgctxt "message"
 msgid "Sent"
 msgstr "時間"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:126
-#: ../../src/wui/game_message_menu.cc:642
+#: ../../src/wui/game_message_menu.cc:127
+#: ../../src/wui/game_message_menu.cc:602
 msgid "Show Archive"
 msgstr "保管箱を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:135
+#: ../../src/wui/game_message_menu.cc:136
 msgid "Center main mapview on location"
 msgstr "マップ視点の中心をこの場所にする"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:573
+#: ../../src/wui/game_message_menu.cc:526
 msgid "Show all messages"
 msgstr "全てのメッセージを表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:583
-msgid "Show geologists' messages only"
-msgstr "地質学者のメッセージだけを表示"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:586
+#: ../../src/wui/game_message_menu.cc:542
 msgid "Show economy messages only"
 msgstr "経済関連メッセージのみ表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:589
+#: ../../src/wui/game_message_menu.cc:546
 msgid "Show seafaring messages only"
 msgstr "航海関連メッセージのみ表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:592
+#: ../../src/wui/game_message_menu.cc:550
 msgid "Show warfare messages only"
 msgstr "戦闘関連メッセージのみ表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:595
+#: ../../src/wui/game_message_menu.cc:554
 msgid "Show scenario messages only"
 msgstr "シナリオメッセージのみを表示"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:632
+#: ../../src/wui/game_message_menu.cc:592
 msgid "Messages: Archive"
 msgstr "メッセージ: 保管箱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:635
+#: ../../src/wui/game_message_menu.cc:595
 msgid "Show Inbox"
 msgstr "受信箱を表示"
 
@@ -2931,7 +2884,7 @@ msgstr "受信箱を表示"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:665
+#: ../../src/wui/game_message_menu.cc:625
 #, c-format
 msgid "Restore the selected %d message"
 msgid_plural "Restore the selected %d messages"
@@ -2939,7 +2892,7 @@ msgstr[0] "選択された%dのメッセージを復元します"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:671
+#: ../../src/wui/game_message_menu.cc:631
 msgid "Restore selected message"
 msgstr "選択されたメッセージを復元します"
 
@@ -2948,7 +2901,7 @@ msgstr "選択されたメッセージを復元します"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:681
+#: ../../src/wui/game_message_menu.cc:641
 #, c-format
 msgid "Archive the selected %d message"
 msgid_plural "Archive the selected %d messages"
@@ -2956,14 +2909,14 @@ msgstr[0] "選択された%dのメッセージを保管庫に入れます"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:687
+#: ../../src/wui/game_message_menu.cc:647
 msgid "Archive selected message"
 msgstr "選択されたメッセージを保管庫に入れます"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's main menu
 #: ../../src/wui/game_options_sound_menu.cc:35
-#: ../../src/wui/interactive_gamebase.cc:126
+#: ../../src/wui/interactive_gamebase.cc:129
 msgid "Sound Options"
 msgstr "サウンドオプション"
 
@@ -3047,88 +3000,88 @@ msgid "Team Score"
 msgstr "チームスコア"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:147
+#: ../../src/wui/gamedetails.cc:153
 msgid "Error:"
 msgstr "エラー: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:153
+#: ../../src/wui/gamedetails.cc:159
 msgid "Map Name:"
 msgstr "マップ名: "
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The time a replay starts. Shown in the replay loading screen
-#: ../../src/wui/gamedetails.cc:166
+#: ../../src/wui/gamedetails.cc:172
 msgid "Start of Replay:"
 msgstr "リプレイを開始: "
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: The current time of a savegame. Shown in the game saving and
 #. loading screens.
-#: ../../src/wui/gamedetails.cc:169
+#: ../../src/wui/gamedetails.cc:175
 msgid "Game Time:"
 msgstr "プレイ時間:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/gamedetails.cc:181
+#: ../../src/wui/gamedetails.cc:187
 msgid "Win Condition:"
 msgstr "勝利条件: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:139
+#: ../../src/wui/general_statistics_menu.cc:136
 msgid "Land"
 msgstr "領土"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:160
+#: ../../src/wui/general_statistics_menu.cc:157
 msgid "Productivity"
 msgstr "生産率"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:165
+#: ../../src/wui/general_statistics_menu.cc:162
 msgid "Casualties"
 msgstr "死者数"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:169
+#: ../../src/wui/general_statistics_menu.cc:166
 msgid "Kills"
 msgstr "殺害数"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:175
+#: ../../src/wui/general_statistics_menu.cc:172
 msgid "Military buildings lost"
 msgstr "軍事施設の損失"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:180
+#: ../../src/wui/general_statistics_menu.cc:177
 msgid "Military buildings defeated"
 msgstr "軍事施設の占領"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:185
+#: ../../src/wui/general_statistics_menu.cc:182
 msgid "Civilian buildings lost"
 msgstr "民間施設の損失"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:190
+#: ../../src/wui/general_statistics_menu.cc:187
 msgid "Military"
 msgstr "軍事力"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's map view menu
-#: ../../src/wui/interactive_base.cc:326
+#: ../../src/wui/interactive_base.cc:271
 msgid "Reset zoom"
 msgstr "ズーム初期化"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip for Sound Options in the game's main menu
-#: ../../src/wui/interactive_gamebase.cc:129
+#: ../../src/wui/interactive_gamebase.cc:132
 msgid "Set sound effect and music options"
 msgstr "音楽と効果音のオプション"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the statistics menu button in the game
-#: ../../src/wui/interactive_player.cc:176
+#: ../../src/wui/interactive_player.cc:179
 #: ../../src/wui/interactive_spectator.cc:45
 msgid "Statistics"
 msgstr "統計"
@@ -3136,21 +3089,21 @@ msgstr "統計"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
 #. * TRANSLATORS: This is a map tag
-#: ../../src/wui/interactive_player.cc:281 ../../src/wui/map_tags.cc:38
+#: ../../src/wui/interactive_player.cc:299 ../../src/wui/map_tags.cc:38
 msgid "Seafaring"
 msgstr "航海"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/wui/interactive_player.cc:287
+#: ../../src/wui/interactive_player.cc:305
 #: ../../src/wui/militarysitewindow.cc:41
 msgid "Soldiers"
 msgstr "兵士"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/wui/interactive_player.cc:292 ../../src/wui/stock_menu.cc:35
-#: ../../src/wui/ware_statistics_menu.cc:154 ../../src/wui/waresdisplay.cc:81
+#: ../../src/wui/interactive_player.cc:310 ../../src/wui/stock_menu.cc:40
+#: ../../src/wui/ware_statistics_menu.cc:153 ../../src/wui/waresdisplay.cc:82
 msgid "Stock"
 msgstr "ストック"
 
@@ -3205,7 +3158,7 @@ msgid "Free for all"
 msgstr "バトルロイヤル"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/mapdata.cc:48 ../../src/wui/mapdata.cc:75
+#: ../../src/wui/mapdata.cc:52 ../../src/wui/mapdata.cc:80
 msgid "No Author"
 msgstr "作者未設定"
 
@@ -3214,7 +3167,7 @@ msgstr "作者未設定"
 #. being
 #. displayed.
 #. * TRANSLATORS: %s is the English name of the map.
-#: ../../src/wui/mapdetails.cc:150
+#: ../../src/wui/mapdetails.cc:152
 #, c-format
 msgid "The original name of this map: %s"
 msgstr "マップのオリジナル名: %s"
@@ -3224,7 +3177,7 @@ msgstr "マップのオリジナル名: %s"
 #. displayed in
 #. English.
 #. * TRANSLATORS: %s is the localized name of the map.
-#: ../../src/wui/mapdetails.cc:156
+#: ../../src/wui/mapdetails.cc:158
 #, c-format
 msgid "The name of this map in your language: %s"
 msgstr "あなたの言語でのマップ名: %s"
@@ -3255,27 +3208,27 @@ msgid "Map Name"
 msgstr "マップ名"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/minimap.cc:159
+#: ../../src/wui/minimap.cc:162
 msgid "Owner"
 msgstr "所有者"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/minimap.cc:203
+#: ../../src/wui/minimap.cc:206
 msgid "Zoom"
 msgstr "ズーム"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:114
+#: ../../src/wui/productionsitewindow.cc:115
 msgid "Exp"
 msgstr "経験"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:115
+#: ../../src/wui/productionsitewindow.cc:116
 msgid "Next Level"
 msgstr "次レベル"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:151
+#: ../../src/wui/productionsitewindow.cc:152
 msgid "Terminate the employment of the selected worker"
 msgstr "選択した労働者の雇用を終了"
 
@@ -3340,23 +3293,17 @@ msgstr "リプレイを削除できませんでした。"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/savegameloader.cc:103
+#: ../../src/wui/savegameloader.cc:104
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
 msgstr "このファイルは間違った形式で書かれており、読み込めません。おそらく古いバージョンのWidelandsで作られたのでしょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wui/savegameloader.cc:106
-msgid "Error message:"
-msgstr "エラーメッセージ: "
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute
-#: ../../src/wui/savegameloader.cc:136
+#: ../../src/wui/savegameloader.cc:137
 msgid "Today, %1%:%2%"
 msgstr "今日 %1%:%2%"
 
@@ -3364,7 +3311,7 @@ msgstr "今日 %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute
-#: ../../src/wui/savegameloader.cc:154
+#: ../../src/wui/savegameloader.cc:155
 msgid "Yesterday, %1%:%2%"
 msgstr "昨日 %1%:%2%"
 
@@ -3430,11 +3377,6 @@ msgid "Map name (start of replay)"
 msgstr "マップ名 (リプレイ開始時)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/seafaring_statistics_menu.cc:49
-msgid "Seafaring Statistics"
-msgstr "航海統計"
-
-# (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
 #: ../../src/wui/seafaring_statistics_menu.cc:125
 msgid "Watch the selected ship"
@@ -3442,61 +3384,61 @@ msgstr "選択した船を見る"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:137
+#: ../../src/wui/seafaring_statistics_menu.cc:140
 msgid "Open the selected ship’s window"
 msgstr "選択した船のウィンドウを開く"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:142
+#: ../../src/wui/seafaring_statistics_menu.cc:145
 msgid "Go to the selected ship and open its window"
 msgstr "選択した船の場所に移動し、ウィンドウを開く"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the seafaring statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:156
+#: ../../src/wui/seafaring_statistics_menu.cc:159
 msgid "Center the map on the selected ship"
 msgstr "選択した船をマップの中心にするよう視界を移動"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/seafaring_statistics_menu.cc:199
+#: ../../src/wui/seafaring_statistics_menu.cc:202
 msgctxt "ship"
 msgid "Name"
 msgstr "名前"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/seafaring_statistics_menu.cc:200
+#: ../../src/wui/seafaring_statistics_menu.cc:203
 msgctxt "ship"
 msgid "Status"
 msgstr "状態"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:550
+#: ../../src/wui/seafaring_statistics_menu.cc:499
 msgid "Show all ships"
 msgstr "全ての船を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:561
+#: ../../src/wui/seafaring_statistics_menu.cc:512
 msgid "Show ships shipping wares and workers"
 msgstr "物資や労働者を輸送中の船を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:565
+#: ../../src/wui/seafaring_statistics_menu.cc:517
 msgid "Show waiting expeditions"
 msgstr "探検待ちの船を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:568
+#: ../../src/wui/seafaring_statistics_menu.cc:522
 msgid "Show scouting expeditions"
 msgstr "偵察航海中の船を表示"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:571
+#: ../../src/wui/seafaring_statistics_menu.cc:527
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "港の候補地を発見したか、植民地を建設中の探検船を表示"
 
@@ -3585,27 +3527,27 @@ msgstr "収容数"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/soldierlist.cc:387 ../../src/wui/soldierlist.cc:409
-#: ../../src/wui/soldierlist.cc:467
+#: ../../src/wui/soldierlist.cc:461
 msgid "Click soldier to send away"
 msgstr "クリックして兵士を追い出す"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:41
+#: ../../src/wui/stock_menu.cc:71
 msgid "Wares (total)"
 msgstr "物資 (合計)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:45
+#: ../../src/wui/stock_menu.cc:75
 msgid "Workers (total)"
 msgstr "労働者 (合計)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:49
+#: ../../src/wui/stock_menu.cc:79
 msgid "Wares in warehouses"
 msgstr "物資 (倉庫)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/stock_menu.cc:54
+#: ../../src/wui/stock_menu.cc:83
 msgid "Workers in warehouses"
 msgstr "労働者 (倉庫)"
 
@@ -3615,37 +3557,32 @@ msgid "Soldiers in training"
 msgstr "訓練中の兵士"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:106
-msgid "Ware Statistics"
-msgstr "物資統計"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:134
+#: ../../src/wui/ware_statistics_menu.cc:133
 msgid "Production"
 msgstr "生産"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:141
+#: ../../src/wui/ware_statistics_menu.cc:140
 msgid "Consumption"
 msgstr "消費"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:148
+#: ../../src/wui/ware_statistics_menu.cc:147
 msgid "Economy health"
 msgstr "健全性 (生産 - 消費)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/warehousewindow.cc:269
+#: ../../src/wui/warehousewindow.cc:270
 msgid "Wares waiting to be shipped"
 msgstr "輸送待ちの物資"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/warehousewindow.cc:272
+#: ../../src/wui/warehousewindow.cc:273
 msgid "Workers waiting to embark"
 msgstr "乗船待ちの労働者"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/warehousewindow.cc:277
+#: ../../src/wui/warehousewindow.cc:278
 msgid "Expedition"
 msgstr "探検"
 

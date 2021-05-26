@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-05 08:44+0000\n"
+"Last-Translator: Atanase Albaran\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares
@@ -32,7 +32,7 @@ msgstr "Le bâtiment ne dispose pas des marchandises suivantes : %s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1325
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -43,12 +43,25 @@ msgstr[1] "%s Produit"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "recruté %s"
 msgstr[1] "%s recruté"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "Module complémentaire %u inadéquat détecté:\n"
+msgstr[1] "Modules complémentaires %u inadéquats détecté:\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/gameclient.cc:903
+msgid "/me ’s file failed md5 checksumming."
+msgstr "Le contrôle de la somme md5 du fichier /me a échoué."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/network/internet_gaming_messages.cc:47
@@ -56,24 +69,21 @@ msgid "You have been temporarily banned from online gaming."
 msgstr "vous avez été temporairement banni du jeu en ligne."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/launch_game.cc:224
-#, c-format
-msgid ""
-"Unable to determine valid win conditions because the map '%s' could not be "
-"loaded."
-msgstr "incapable de déterminer si les conditions de victoires sont valides car la carte '%s' n' a pas pu être chargé."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:35
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:36
 #, c-format
 msgid "invalid tribe ‘%s’"
 msgstr "Tribu ‘%s’ invalide"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:431
+#: ../../src/ui_fsmenu/mapselect.cc:464
 msgctxt "balancing"
 msgid "Unspecified"
 msgstr "non-spécifié"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/options.cc:141
+msgid "UI Theme"
+msgstr "thème de l'IU"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a map tag

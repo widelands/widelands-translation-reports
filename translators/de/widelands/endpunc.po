@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-16 14:49+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 14:38+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -94,7 +94,7 @@ msgid "Dec"
 msgstr "Dez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:977
+#: ../../src/editor/editorinteractive.cc:920
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Lade Karte „%s“ …"
@@ -116,12 +116,12 @@ msgid "Creating empty map…"
 msgstr "Erstelle leere Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "Erstelle Zufallskarte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:325
+#: ../../src/logic/game.cc:377
 msgid "Initializing game…"
 msgstr "Spiel wird initialisiert …"
 
@@ -131,22 +131,22 @@ msgid "Try saving under a different name!"
 msgstr "Versuche es bitte mit einem anderen Speichernamen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy at site defeated!"
 msgstr "Feindliches Militärgebäude besiegt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:130
+#: ../../src/logic/save_handler.cc:131
 msgid "Saving game…"
 msgstr "Spiel wird gespeichert …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "Lade Karte …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:471
+#: ../../src/network/internet_gaming.cc:472
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "Der Metaserver hat einen seltsamen ERROR (Fehler) Code beim Aufbau der Verbindung gesendet."
 
@@ -162,35 +162,46 @@ msgid "Completed transfer of file %1$s to %2$s"
 msgstr "Die Übertragung der Datei %1$s zum Empfänger %2$s ist abgeschlossen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "Lade …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/internet_lobby.cc:74
+#: ../../src/ui_fsmenu/addons.cc:1390
+msgid ""
+"This add-on is known to cause desyncs in multiplayer games and replays."
+msgstr "Diese Erweiterung verursacht bekanntermaßen Desynchronisationen in Mehrspielerpartien und Aufzeichnungen"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons.cc:1661
+msgid "No comments yet."
+msgstr "Noch keine Kommentare"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:76
 msgid "Open Games:"
 msgstr "Offene Spiele"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:50
+#: ../../src/ui_fsmenu/login_box.cc:51
 msgid "Log in to a registered account."
 msgstr "Log dich mit einem registrierten Konto ein"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:207
+#: ../../src/ui_fsmenu/main.cc:892 ../../src/ui_fsmenu/netsetup_lan.cc:321
+msgid "No tribes found!"
+msgstr "Keine Stammesdaten gefunden"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:227
 msgid "Save game automatically every:"
 msgstr "Speichere das Spiel automatisch alle"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:643
+#: ../../src/ui_fsmenu/options.cc:709
 #, c-format
 msgid "If you wish to help us translate, please visit %s"
 msgstr "Wenn du uns mit der Übersetzung helfen möchtest, besuche bitte %s."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1331 ../../src/wlapplication.cc:1459
-msgid "No tribes found!"
-msgstr "Keine Stammesdaten gefunden"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/constructionsitewindow.cc:192
@@ -198,7 +209,7 @@ msgstr "Keine Stammesdaten gefunden"
 #: ../../src/wui/soldiercapacitycontrol.cc:68
 msgid ""
 "Decrease capacity. Hold down Ctrl to set the capacity to the lowest value"
-msgstr "Verringere die Soldatenkapazität. Halte UMSCHALT gedrückt, um die Kapazität auf den kleinsten Wert zu setzen."
+msgstr "Verringere die Soldatenkapazität. Halte STRG gedrückt, um die Kapazität auf den kleinsten Wert zu setzen."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wui/constructionsitewindow.cc:196
@@ -206,4 +217,4 @@ msgstr "Verringere die Soldatenkapazität. Halte UMSCHALT gedrückt, um die Kapa
 #: ../../src/wui/soldiercapacitycontrol.cc:77
 msgid ""
 "Increase capacity. Hold down Ctrl to set the capacity to the highest value"
-msgstr "Erhöhe die Soldatenkapazität. Halte UMSCHALT gedrückt, um die Kapazität auf den größten Wert zu setzen."
+msgstr "Erhöhe die Soldatenkapazität. Halte STRG gedrückt, um die Kapazität auf den größten Wert zu setzen."

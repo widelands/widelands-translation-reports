@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-10-23 07:56+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"PO-Revision-Date: 2021-05-18 21:27+0000\n"
+"Last-Translator: liulitchi <xingzuo88@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -12,70 +12,94 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:36
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:26
 msgid "Welcome to the Widelands Tutorial!"
 msgstr "欢迎来到Widelands教程！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:40
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:30
 msgid ""
 "Widelands is a slow-paced build-up strategy game with an emphasis on "
-"construction rather than destruction. This tutorial will guide you through "
-"the basics of the game."
-msgstr "Widelands是一个慢节奏增长型的策略游戏，强调建造而不是摧毁。此教程将带你参观游戏的基本操作。"
+"construction rather than destruction."
+msgstr "Widelands 是一款节奏缓慢的累积型策略游戏，着重于建设而非破坏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:75
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:90
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:62
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:76
 msgid "Let’s dive right in!"
 msgstr "让我们开始！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:78
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:64
+msgid ""
+"There are five different tribes in Widelands: the Barbarians, the Empire, "
+"the Atlanteans, the Frisians and the Amazons. All tribes have a different "
+"economy, strength and weaknesses, but the general gameplay is the same for "
+"all. We will play the Barbarians for now."
+msgstr "游戏里有五种势力：蛮族、帝国、亚特兰蒂斯、弗里西亚和亚马逊。所有的部落有各自不同经济、强项和弱点，但操作有很多相似之处。我们拿蛮族开局。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:65
 msgid ""
 "You will usually start the game with one headquarters. This is the big "
-"building with the blue flag in front of it. The headquarters is a warehouse "
-"that stores wares, workers and soldiers. Some wares are needed for building "
-"houses, others for making other wares. Obviously, the wares in the "
-"headquarters will not last forever, so you must make sure to replace them. "
-"The most important wares in the early game are the basic construction wares:"
-" logs and granite. Let’s make sure that we do not run out of logs. For this,"
-" we need a lumberjack and a hut for him to stay in."
-msgstr "通常你会从一个大本营开始游戏。这个大建筑前面有一个蓝色的旗子。大本营是储存货物，工人和士兵的仓库。一些货物需要用于建筑，另一些用来制作其他物资。显然，大本营的货物不能永远足够维持需要，你需要不断补充它们。在开始阶段的游戏里，最重要的货物是用于基础建筑的货物：原木和花岗岩。我们来确保我们的原木不会耗尽，我们需要一个伐木工人和一个伐木小屋。"
+"building with the blue flag in front of it. The headquarters stores wares, "
+"workers and soldiers. Some wares are needed for building houses, others for "
+"making other wares. Obviously, the initial wares will not last forever, so "
+"you must make sure to replenish them. The most important wares in the early "
+"game are the basic construction wares: logs and granite. Let’s make sure "
+"that we do not run out of logs. For this, we need a lumberjack and a hut for"
+" him to stay in."
+msgstr "通常从一个大本营开局。在这座大建筑前有一面蓝旗。大本营是储存货物、工人和士兵的仓库。一些货物用于建筑，另一些制造其它物资。显然，货物不能长时间满足大本营需要，需要不断补充。在开局阶段，最重要的货物是用于基础建筑的货物：原木和花岗岩。先来确保原木不会耗尽，我们需要一名伐木工人，和一所伐木小屋。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:105
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:66
 msgid ""
-"There you go. I will explain about all those symbols in a minute. First, let"
-" me show you how to make a lumberjack’s hut and how to connect it with a "
-"road. There is a sweet spot for a lumberjack right next to those trees. I’ll"
-" describe the steps I will take and then ask you to click on the ‘OK’ button"
-" for me to demonstrate."
-msgstr "好。我来花一分钟时候解释这些标志。首先，我来给你演示一下怎么建一个伐工小屋并把它连在一条道路上。有一个不错的地方，正好在树的旁边。 我来告诉你步骤，点击“好的”按钮“，让我们开始"
+"We need to find a nice place for the lumberjack’s hut. To make this easier, "
+"we can activate ‘Show Building Spaces’."
+msgstr "我们需要找到一处适宜伐木小屋的地方。 为了简化操作，我们可以激活“显示建筑空地”。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:116
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:67
+msgid ""
+"I’ll show you where the menu is and where to show and hide the building "
+"spaces."
+msgstr "我将向你展示菜单的位置，以及显示和隐藏建筑空地的位置。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:77
+msgid ""
+"Now that I have shown you where to show and hide the building spaces, please"
+" switch them on so that we can place our first building."
+msgstr "既然已经展示了显示和隐藏建筑空地，请打开它们，以便放置第一座建筑物。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:91
+msgid ""
+"There you go. Now, let me show you how to make a lumberjack’s hut and how to"
+" connect it with a road. There is a sweet spot for a lumberjack right next "
+"to those trees. I’ll describe the steps I will take and then demonstrate "
+"them."
+msgstr "下面，我来花一分钟解释这些标志。首先，先演示怎么建一座伐木工小屋，并把它连到道路上。有一处地方不错，正好在树的旁边。 按照步骤慢慢来，点击“好的”按钮开始。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:102
 msgid ""
 "First, I’ll left-click on the symbol where I want the lumberjack’s hut to be"
-" built. A window will appear where I can choose between buildings. Because "
-"I’ll click a yellow house symbol – which means that its field can house "
-"medium and small buildings – I am presented with all the medium buildings "
-"that I can build. The lumberjack’s hut is a small building, so I will go on "
-"to select the small buildings tab. Then I’ll choose the lumberjack’s hut."
-msgstr "首先，我在想建伐木屋的地方的标志上左键单击。会出现一个窗口，我要在上面选择建筑。因为我要点一个黄色的标志——那意味着这个地方可以建造中小型建筑—— 这里是所有我能建的中型建筑。伐木屋是小型建筑。所以我会选择小型建筑标签，然后选择伐木屋。"
+" built. A window will appear where I can choose between buildings."
+msgstr "首先，在要建造伐木工小屋的符号上鼠标左击。 会出现一个窗口，可选择建筑。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:117
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:103
 msgid ""
-"Click the ‘OK’ button to watch me. I’ll go really slowly: I will click – "
-"then select the tab – and finally I’ll choose the building."
-msgstr "点击“确定”，我来操作。我会非常慢地来操作：点击——然后选中标签——然后最后选中建筑"
+"The lumberjack’s hut is a small building, so I will then go on to select the"
+" small buildings tab. Then I’ll choose the lumberjack’s hut."
+msgstr "伐木工小屋是一座小型建筑，因此继续选择“小型建筑”选项卡。 然后选择伐木工小屋。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:127
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:113
 msgid ""
 "That won’t do yet. I still need to connect the lumberjack’s hut to the rest "
 "of my road network. After ordering the construction site, I was "
@@ -84,7 +108,7 @@ msgid ""
 msgstr "这个还没有做。我还需要把伐木屋连续到我其他的道路网。在命令建造设施之后，游戏自动进入道路建造模式，所以我需要做的全部只是点击大本营前的蓝色旗子。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:140
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:125
 msgid ""
 "That won’t do yet. I still need to connect the lumberjack’s hut to the rest "
 "of my road network. You have disabled the option ‘Start building road after "
@@ -95,7 +119,7 @@ msgid ""
 msgstr "这个还没有做。我还需要把伐木屋连续到我其他的道路网。因为您关闭了游戏选项“旋转旗子立即开始建造道路”（可以通过Widelands主菜单“选项”来改变）。所以我已经手动进入道路建造模式。晚一些时候我会告诉如何操作的。要建造路，目前我需要做的全部只是点击我的大本营前的蓝色旗子。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:153
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:137
 msgid ""
 "Now watch closely while a builder leaves the headquarters and goes to the "
 "construction site. Also, a carrier will take position in between the two "
@@ -103,7 +127,7 @@ msgid ""
 msgstr "现在，注意，一个建筑工人离开了大本部前往建筑设施。另外，一个搬运工将前往两个旗子中间的位置担任起搬运两个旗子之间货物的职责。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:165
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:148
 msgid ""
 "The shorter your road segments are, the faster your wares will be "
 "transported. You should therefore make sure that your roads have as many "
@@ -111,21 +135,36 @@ msgid ""
 msgstr "路段越短你的货物运输的就越快。因此你应该让路上有尽可能多的旗子。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:166
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:149
 msgid ""
 "Build a blue flag now in the middle of the road that connects your "
 "headquarters to your lumberjack’s hut."
 msgstr "在你的总部和伐木屋的中间创建一个蓝旗"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:188
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:150
+msgid ""
+"To build the flag, click on the yellow flag symbol in between the two blue "
+"flags we just placed and then click on the build flag symbol."
+msgstr "要放置旗帜，请单击位于蓝旗之间的黄旗符号，然后单击建筑旗帜符号。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:160
+msgid ""
+"Nice how they are working, isn’t it? But the poor carrier has a very long "
+"way to go. We can make it easier for him (and more efficient for us) by "
+"placing another blue flag on the road. You try it this time."
+msgstr "看他们工作起来还不错，是不是？但是可怜的搬运工每次都要走很长的路。我们可以在路上再放一个旗子，让他们更方便（同时也能提升效率）。这次换你来试试。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:171
 msgid ""
 "I wanted to teach you how to build new flags, but it seems you have already "
 "found out on your own. Well done!"
 msgstr "我本想告诉你如何创建新的旗子，但是看起来好像已经自己发现了办法。干的漂亮！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:189
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:172
 msgid ""
 "Now you have split the road in two parts with a carrier each. This means "
 "less work for him and higher efficiency for us. You should therefore always "
@@ -133,20 +172,17 @@ msgid ""
 msgstr "现在路已经分割成了两段，每一段有一个搬运工。这意味着他的工作变少了和我们效率也更高了。因此你应该尽可能在道路上放置更多的旗子。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:234
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:183
+msgid "Click on the construction site to have a look at it."
+msgstr "单击建筑地基来查看。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:215
 msgid "Well done! Let’s wait till the hut is finished."
 msgstr "干的不错！让我们等到小屋完成。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:236
-msgid ""
-"If you want things to go faster, simply use the Page Up key on your keyboard"
-" to increase the game speed. You can use Page Down to make the game slower "
-"again."
-msgstr "如果你想事情变快一些，只要用键盘上的PageUp键加快游戏速度。你可以用PageDown键让游戏再次减慢。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:247
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:228
 msgid ""
 "Excellent. The lumberjack’s hut is done. A lumberjack will now move in and "
 "start chopping down trees, so our log income is secured for now. Now on to "

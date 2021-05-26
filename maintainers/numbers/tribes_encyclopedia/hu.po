@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-12 08:25+0000\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,18 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Gamekeeper's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1201
+#: ../../data/tribes/initialization/barbarians/units.lua:1216
 msgctxt "barbarians_building"
 msgid "The gamekeeper pauses 52.5 seconds before going to work again."
 msgstr "A vadőr 52,5 másodpercnyi szünetet tart, mielőtt újra elkezd dolgozni."
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1514
+#: ../../data/tribes/initialization/barbarians/units.lua:1530
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 32.5 seconds on "
@@ -32,7 +32,7 @@ msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 32,5
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deep Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1529
+#: ../../data/tribes/initialization/barbarians/units.lua:1545
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 19.5 seconds on "
@@ -41,7 +41,7 @@ msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 19,5
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deeper Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1544
+#: ../../data/tribes/initialization/barbarians/units.lua:1560
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 14.4 seconds on "
@@ -51,7 +51,7 @@ msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 14,4
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for a barbarian production site: Deep
 #. Iron Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1570
+#: ../../data/tribes/initialization/barbarians/units.lua:1586
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 39.5 seconds"
@@ -61,7 +61,7 @@ msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 39,5
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for a barbarian production site: Deeper
 #. Iron Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1583
+#: ../../data/tribes/initialization/barbarians/units.lua:1599
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce iron ore in 17.6 seconds"
@@ -70,7 +70,7 @@ msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 17,6
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deep Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1609
+#: ../../data/tribes/initialization/barbarians/units.lua:1625
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
@@ -79,9 +79,23 @@ msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 19,5
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: Performance helptext for production site: Deeper Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1622
+#: ../../data/tribes/initialization/barbarians/units.lua:1638
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 18.5 seconds"
 " on average."
 msgstr "Ha az élelmiszerellátás folyamatos, akkor ez a bánya átlagosan 18,5 másodpercenként képes aranyércet termelni."
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/tribes/scripting/help/controls.lua:50
+msgid "Increase game speed by 0.25x"
+msgstr "Játéksebesség növelése 0,25-tel"
+
+# (pofilter) numbers: Different numbers
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/tribes/scripting/help/controls.lua:52
+msgid "Decrease game speed by 0.25x"
+msgstr "Játéksebesség csökkentése 0,25-tel"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-26 11:46+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
@@ -12,72 +12,87 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) doublewords: The word 'worden' is repeated
+#. TRANSLATORS: Helptext for an amazon resource indicator: Gold, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:1185
+msgid ""
+"Gold veins contain gold ore that can be washed from the gravel at digger "
+"dwellings."
+msgstr "In Gold-Aders is Goldkluut, dat vun Goldwaschersken ut de Stoff wascht worden worden kann."
+
+# (pofilter) doublewords: The word 'worden' is repeated
+#. TRANSLATORS: Helptext for an amazon resource indicator: Gold, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:1207
+msgid ""
+"Gold veins contain gold ore that can be washed from the gravel at gold "
+"digger dwellings."
+msgstr "In Gold-Aders is Goldkluut, dat vun Goldwaschersken ut de Stoff wascht worden worden kann."
+
+# (pofilter) doublewords: The word 'dat' is repeated
+#. TRANSLATORS: Note helptext for an amazon production site: Tapir Farm
+#: ../../data/tribes/initialization/amazons/units.lua:1442
+msgctxt "amazons_building"
+msgid "Tapirs help to prevent traffic jams on highly used roads."
+msgstr "Tapiren hülpen, dat dat up besigen Straten keene Staus gifft."
 
 # (pofilter) doublewords: The word 'de' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Double Trident
-#: ../../data/tribes/initialization/atlanteans/units.lua:736
+#: ../../data/tribes/initialization/atlanteans/units.lua:756
 msgctxt "atlanteans_ware"
 msgid ""
 "The double trident is one of the best tridents produced by the Atlantean "
 "weapon smithy. It is used in a dungeon – together with food – to train "
 "soldiers from attack level 2 to level 3."
-msgstr "De Dubbelte Dreespitz is eener vun de besten Dreespitzen, de de Atlantiske Wapensmee produzert. 't word in Gefahrelken Gangen – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 2 up Stand 3 uttobilden."
+msgstr "De Dubbelte Dreespitz is eener vun de besten Dreespitzen, de de Atlantiske Wapensmee produzert. ’t word in Gefahrelken Gangen – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 2 up Stand 3 uttobilden."
 
 # (pofilter) doublewords: The word 'de' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Heavy Double Trident
-#: ../../data/tribes/initialization/atlanteans/units.lua:745
+#: ../../data/tribes/initialization/atlanteans/units.lua:765
 msgctxt "atlanteans_ware"
 msgid ""
 "This is the most dangerous weapon of the Atlantean military. Only the best "
 "of the best soldiers may use it. It is produced in the weapon smithy and "
 "used in the dungeon – together with food – to train soldiers from attack "
 "level 3 to level 4."
-msgstr "Dat is de gefahrelkste Wapen, de de Atlantiske Soldateree hett. Blot de besten Soldaten bruken 't. 't word in de Wapensmee produzeert un in Gefahrelken Gangen – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 3 up Stand 4 uttobilden."
+msgstr "Dat is de gefahrelkste Wapen, de de Atlantiske Soldateree hett. Blot de besten Soldaten bruken ’t. ’t word in de Wapensmee produzeert un in Gefahrelken Gangen – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 3 up Stand 4 uttobilden."
 
-# (pofilter) doublewords: The word ''t' is repeated
+# (pofilter) doublewords: The word '’t' is repeated
 #. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:474
+#: ../../data/tribes/initialization/barbarians/units.lua:487
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
 "soldiers can use it. It is produced at the war mill and used in the training"
 " camp – together with food – to train soldiers from attack level 2 to level "
 "3."
-msgstr "De Koperext is eene Wapen, de nich elk un een bruken kann. Blot gode Soldaten bruken 't. 't word in de Oorlogs-Smee produzeert un im Övens-Lager – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 2 up Stand 3 to verbetern."
+msgstr "De Koperext is eene Wapen, de nich elk un een bruken kann. Blot gode Soldaten bruken ’t. ’t word in de Oorlogs-Smee produzeert un im Övens-Lager – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 2 up Stand 3 to verbetern."
 
 # (pofilter) doublewords: The word 'de' is repeated
 #. TRANSLATORS: Helptext for a barbarian ware: Warrior’s Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:492
+#: ../../data/tribes/initialization/barbarians/units.lua:505
 msgctxt "barbarians_ware"
 msgid ""
 "The warrior’s ax is the most dangerous of all Barbarian weapons. Only a few "
 "soldiers ever were able to handle this huge and powerful ax. It is produced "
 "in a war mill and used – together with food – in a training camp to train "
 "soldiers from attack level 4 to level 5."
-msgstr "De Ridderext is de machtigste Wapen vun allen, de de Willen Lüü hebben. Bedröövt minn Soldaten könen deese grote, baldadige Ext bruken. 't word in de Oorlogs-Smee produzeert un – tosammen mit Spiese – im Övens-Lager bruukt, um Soldaten vun Angriff-Stand 4 up Stand 5 to verbetern."
+msgstr "De Ridderext is de machtigste Wapen vun allen, de de Willen Lüü hebben. Bedröövt minn Soldaten könen deese grote, baldadige Ext bruken. ’t word in de Oorlogs-Smee produzeert un – tosammen mit Spiese – im Övens-Lager bruukt, um Soldaten vun Angriff-Stand 4 up Stand 5 to verbetern."
 
 # (pofilter) doublewords: The word 'de' is repeated
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Warmill
-#: ../../data/tribes/initialization/barbarians/units.lua:1398
+#: ../../data/tribes/initialization/barbarians/units.lua:1414
 msgctxt "barbarians_building"
 msgid "Produces all the axes that the Barbarians use for warfare."
 msgstr "Produzeert all Exten, de de Willen Lüü för Slachten bruken."
 
 # (pofilter) doublewords: The word 'de' is repeated
 #. TRANSLATORS: Helptext for an empire ware: War Spear
-#: ../../data/tribes/initialization/empire/units.lua:518
+#: ../../data/tribes/initialization/empire/units.lua:531
 msgctxt "empire_ware"
 msgid ""
 "This is the best and sharpest weapon the Empire weaponsmith creates for the "
 "soldiers. It is used in the training camp – together with food – to train "
 "soldiers from attack level 3 to level 4."
-msgstr "Dat is de beste un scharpste Wapen, de de Rieks-Wapensmidd för de Soldaten maakt. 't word in de Wapensmee produzeert un im Övens-Lager – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 3 up Stand 4 uttobilden."
-
-# (pofilter) doublewords: The word '+' is repeated
-#. TRANSLATORS: This is an access key combination. Localize, but do not change
-#. the key.
-#: ../../data/tribes/scripting/help/controls.lua:97
-msgctxt "hotkey"
-msgid "Ctrl + +"
-msgstr "Strg + +"
+msgstr "Dat is de beste un scharpste Wapen, de de Rieks-Wapensmidd för de Soldaten maakt. ’t word in de Wapensmee produzeert un im Övens-Lager – tosammen mit Spiesen – bruukt, um Soldaten vun Angriff-Stand 3 up Stand 4 uttobilden."

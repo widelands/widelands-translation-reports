@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-26 11:46+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1165
+#: ../../data/tribes/initialization/barbarians/units.lua:1180
 msgctxt "barbarians_building"
 msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "Wat sall dat heten, miene Fisse sünd nich frisk!?"
@@ -24,8 +24,8 @@ msgstr "Wat sall dat heten, miene Fisse sünd nich frisk!?"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
 #. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1394
-#: ../../data/tribes/initialization/barbarians/units.lua:1413
+#: ../../data/tribes/initialization/barbarians/units.lua:1410
+#: ../../data/tribes/initialization/barbarians/units.lua:1429
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -34,24 +34,14 @@ msgstr "Eene neje Ridderext wiest dat beste in hör Drager – of dat leepste in
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:446
+#: ../../data/tribes/initialization/frisians/units.lua:459
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Jaggtsperen worden vun de Smede produzeert."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for a frisian production site: Reed Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1593
-msgctxt "frisians_building"
-msgid ""
-"Reed is the traditional material for roofing. It is also needed for "
-"producing buckets and fishing nets, and it is woven – together with reindeer"
-" fur – into the cloth used for ships’ sails."
-msgstr "All Dacken worden mit Reit beschickt. Man bruukt 't ok, um Emmers un Fiskernetten to maken, un daar weevt man – tosammen mit Sneeihirsken-Fell – de Stoff mit, de man för de Seils vun Schippen bruukt,"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for a frisian production site: Reindeer Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1925
+#: ../../data/tribes/initialization/frisians/units.lua:1948
 msgctxt "frisians_building"
 msgid ""
 "If the supply is steady, the reindeer farm produces one meat after producing"
@@ -60,7 +50,7 @@ msgstr "Wenn de Versörgung good is, produzeert de Sneeihirsktüchteree eenmaal 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1934
+#: ../../data/tribes/initialization/frisians/units.lua:1957
 msgctxt "frisians_building"
 msgid ""
 "A farmer’s reply when asked by his chieftain why he was planting such a "

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-11 14:49+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-03-22 20:16+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
 "Language: gd\n"
@@ -13,39 +13,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:45
+#: ../../src/wlapplication_messages.cc:43
+msgid "       widelands <save.wgf>/<replay.wrpl>"
+msgstr "            widelands <save.wgf>/<replay.wrpl>"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:46
 msgid "                      Note: New value will be written to config file"
 msgstr "                           An aire: Thèid an luach ùr a sgrìobhadh dhan fhaidhle config"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:47
+#: ../../src/wlapplication_messages.cc:48
 msgid ""
 " --datadir=DIRNAME    Use specified directory for the widelands\n"
 "                      data files"
 msgstr " --datadir=AINM-PASGAIN    Cleachd am pasgan sònraichte airson nam faidhlichean\n                           dàta aig widelands"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:50
+#: ../../src/wlapplication_messages.cc:51
 msgid ""
 " --homedir=DIRNAME    Use specified directory for widelands config\n"
 "                      files, savegames and replays"
 msgstr " --homedir=AINM-PASGAIN    Cleachd am pasgan sònraichte airson nam faidhlichean\n                           rèiteachaidh, geamannan air an sàbhaladh is\n                           ath-chluichean aig widelands"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:54
+#: ../../src/wlapplication_messages.cc:55
 msgid "                      Default is ~/.widelands"
-msgstr "                           'S e ~/.widelands a th' ann a ghnàth"
+msgstr "                           ’S e ~/.widelands a th’ ann a ghnàth"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:56
+#: ../../src/wlapplication_messages.cc:57
 msgid "                      Default is %USERPROFILE%\\.widelands"
-msgstr "                           'S e %USERPROFILE%\\.widelands a th' ann a ghnàth"
+msgstr "                           ’S e %USERPROFILE%\\.widelands a th’ ann a ghnàth"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:58
+#: ../../src/wlapplication_messages.cc:59
 msgid ""
 " --localedir=DIRNAME  Use specified directory for the widelands\n"
 "                      locale files"
@@ -56,7 +61,7 @@ msgstr " --localedir=AINM-PASGAIN  Cleachd am pasgan sònraichte airson nam faid
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:65
+#: ../../src/wlapplication_messages.cc:66
 msgid ""
 " --coredump=[true|false]\n"
 "                      Generates a core dump on segfaults instead of\n"
@@ -64,7 +69,7 @@ msgid ""
 msgstr " --coredump=[true|false]   Gin core dump le segfaults an aite SDL\n                           a chleachadh"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:69
+#: ../../src/wlapplication_messages.cc:70
 msgid ""
 " --language=[de_DE|sv_SE|...]\n"
 "                      The locale to use."
@@ -80,33 +85,33 @@ msgstr " --language=[gd_GB|de_DE|...]\n                           An sgeama iona
 #. multiplayer
 #. * TRANSLATORS: games to make sure that there is no mismatch between the
 #. players.
-#: ../../src/wlapplication_messages.cc:78
+#: ../../src/wlapplication_messages.cc:79
 msgid ""
 " --write_syncstreams=[true|false]\n"
 "                      Create syncstream dump files to help debug network games."
 msgstr " --write_syncstreams=[true|false]\n                           Cruthaich faidhlichean sruth sioncronachaidh a chum\n                           geamannan lìonraidh a dhì-bhugachadh."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:81
+#: ../../src/wlapplication_messages.cc:82
 msgid " --autosave=[...]     Automatically save each n minutes"
 msgstr " --autosave=[...]          Sàbhail gu fèin-obrachail gach n mionaid"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:82
+#: ../../src/wlapplication_messages.cc:83
 msgid ""
 " --rolling_autosave=[...]\n"
 "                      Use this many files for rolling autosaves"
-msgstr " --rolling_autosave=[...]  Cleachd an uiread de dh'fhaidhlichean seo airson\n                           fèin-sàbhaladh car mu char"
+msgstr " --rolling_autosave=[...]  Cleachd an uiread de dh’fhaidhlichean seo airson\n                           fèin-sàbhaladh car mu char"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:85
+#: ../../src/wlapplication_messages.cc:86
 msgid ""
 " --metaserver=[...]\n"
 "                      Connect to a different metaserver for internet gaming."
 msgstr " --metaserver=[...]        Dèan ceangal ri meata-fhrithealaiche eile\n                           airson geama eadar-lìn."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:88
+#: ../../src/wlapplication_messages.cc:89
 msgid ""
 " --metaserverport=[...]\n"
 "                      Port number of the metaserver for internet gaming."
@@ -114,59 +119,76 @@ msgstr " --metaserverport=[...]    Àireamh puirt a’ mheata-fhrithealaiche\n  
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/wlapplication_messages.cc:92
+msgid ""
+" --addon_server=[...]\n"
+"                      Connect to a different github repository\n"
+"                      and branch from the add-ons manager."
+msgstr " --addon_server=[...]\n                           Ceangail ri ionad-tasgaidh github agus\n                           meur eile o mhanaidsear nan tuilleadan."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:97
 msgid " --nosound            Starts the game with sound disabled."
 msgstr " --nosound                 Tòisichidh seo an geama leis an fhuaim à comas."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:94
+#: ../../src/wlapplication_messages.cc:99
 msgid ""
 " --fail-on-lua-error  Force Widelands to crash when a Lua error occurs."
 msgstr " --fail-on-lua-error       Spàrr tuisleadh air Widelands nuair a thachras mearachd Lua."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:96
+#: ../../src/wlapplication_messages.cc:101
 msgid " --nozip              Do not save files as binary zip archives."
 msgstr " --nozip                   Na sàbhail faidhlichean nan tasglannan\n                           bìnearaidh zip."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:98
+#: ../../src/wlapplication_messages.cc:103
 msgid ""
 " --editor             Directly starts the Widelands editor.\n"
 "                      You can add a =FILENAME to directly load\n"
 "                      the map FILENAME in editor."
-msgstr " --editor                  Tòisichidh seo an deasaiche Widelands sa bhad.\n                           'S urrainn dhut =AINM-FAIDHLE a chur ris\n                           gus am mapa air a bheil AINM-FAIDHLE a luchdadh\n                           sa bhad san deasaiche."
+msgstr " --editor                  Tòisichidh seo an deasaiche Widelands sa bhad.\n                           ’S urrainn dhut =AINM-FAIDHLE a chur ris\n                           gus am mapa air a bheil AINM-FAIDHLE a luchdadh\n                           sa bhad san deasaiche."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:102
+#: ../../src/wlapplication_messages.cc:107
 msgid ""
 " --ai_training        Enables AI training mode. See\n"
 "                      https://www.widelands.org/wiki/Ai%20Training/\n"
 "                      for a full description of the AI training logic."
-msgstr " --ai_training             Cuiridh seo an comas modh trèanaidh na h-inntinne\n                           fuadain. Faic\n                           https://www.widelands.org/wiki/Ai%20Training/\n                           airson mìneachadh slàn air mar a dh'obraicheas\n                           loidsig trèanaidh na h-IF."
+msgstr " --ai_training             Cuiridh seo an comas modh trèanaidh na h-inntinne\n                           fuadain. Faic\n                           https://www.widelands.org/wiki/Ai%20Training/\n                           airson mìneachadh slàn air mar a dh’obraicheas\n                           loidsig trèanaidh na h-IF."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:106
+#: ../../src/wlapplication_messages.cc:111
 msgid ""
 " --auto_speed         In multiplayer games only, this will keep\n"
 "                      adjusting the game speed automatically,\n"
 "                      depending on FPS. Useful in conjunction with\n"
 "                      --ai_training."
-msgstr " --auto_speed              Ann an geamannan ioma-chluicheadair a-mhàin,\n                           bidh seo a' cur gleus air luathas a' gheama\n                           gu fèin-obrachail a-rèir nam FPS. Tha seo\n                           feumail nuair a chleachdas tu\n                           --ai_training."
+msgstr " --auto_speed              Ann an geamannan ioma-chluicheadair a-mhàin,\n                           bidh seo a’ cur gleus air luathas a’ gheama\n                           gu fèin-obrachail a-rèir nam FPS. Tha seo\n                           feumail nuair a chleachdas tu\n                           --ai_training."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:111
+#: ../../src/wlapplication_messages.cc:116
+msgid ""
+" --new_game_from_template=FILENAME\n"
+"                      Directly create a new singleplayer game\n"
+"                      configured in the given file. An example can\n"
+"                      be found in `data/templates/new_game_template`."
+msgstr " --new_game_from_template=AINM-FAIDHLE\n                           Cruthaich geama aon-chluicheadair ùr gu\n                           dìreach on fhaidhle. Gheibh thu ball-\n                           eisimpleir ann an\n                           `data/templates/new_game_template`."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:122
 msgid ""
 " --scenario=FILENAME  Directly starts the map FILENAME as scenario\n"
 "                      map."
 msgstr " --scenario=AINM-FAIDHLE   Tòisichidh seo am mapa AINM-FAIDHLE sa bhad\n                           mar mhapa cnàmh-sgeòil."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:114
+#: ../../src/wlapplication_messages.cc:125
 msgid " --loadgame=FILENAME  Directly loads the savegame FILENAME."
 msgstr " --loadgame=AINM-FAIDHLE   Luchdaichidh seo an geama air a shàbhaladh\n                           AINM-FAIDHLE sa bhad."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:115
+#: ../../src/wlapplication_messages.cc:127
 msgid ""
 " --script=FILENAME    Run the given Lua script after initialization.\n"
 "                      Only valid with --scenario, --loadgame, or --editor."
@@ -177,7 +199,7 @@ msgstr " --script=AINM-FAIDHLE     Ruith an sgriobt Lua seo às dèidh an tòise
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:121
+#: ../../src/wlapplication_messages.cc:133
 msgid ""
 " --auto_roadbuild_mode=[true|false]\n"
 "                      Whether to enter roadbuilding mode\n"
@@ -190,37 +212,37 @@ msgstr " --auto_roadbuild_mode=[true|false]\n                           Co-dhiù
 #. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
 #. widelands
 #. textdomain
-#: ../../src/wlapplication_messages.cc:132
+#: ../../src/wlapplication_messages.cc:144
 msgid ""
 " --fullscreen=[true|false]\n"
 "                      Whether to use the whole display for the\n"
 "                      game screen."
-msgstr " --fullscreen=[true|false]\n                           Co-dhiù an dèid gus nach dèid an sgrìn slàn a\n                           chleachdadh airson a' gheama."
+msgstr " --fullscreen=[true|false]\n                           Co-dhiù an dèid gus nach dèid an sgrìn slàn a\n                           chleachdadh airson a’ gheama."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:136
+#: ../../src/wlapplication_messages.cc:148
 msgid " --xres=[...]         Width of the window in pixel."
 msgstr " --xres=[...]              Leud na h-uinneige ann am piogsailean."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:137
+#: ../../src/wlapplication_messages.cc:149
 msgid " --yres=[...]         Height of the window in pixel."
 msgstr " --yres=[...]              Àirde na h-uinneige ann am piogsailean."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:138
+#: ../../src/wlapplication_messages.cc:150
 msgid " --maxfps=[5 ...]     Maximal optical framerate of the game."
 msgstr " --maxfps=[5 ...]          Reat as motha nam frèamaichean lèirsinneach sa gheama."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:144
+#: ../../src/wlapplication_messages.cc:156
 msgid ""
 " --animate_map_panning=[yes|no]\n"
 "                      Should automatic map movements be animated."
 msgstr " --animate_map_panning=[yes|no]\n                           Am bi beòthachadh air gluasadan fèin-obrachail a’ mhapa\n                           gus nach bi."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:147
+#: ../../src/wlapplication_messages.cc:159
 msgid ""
 " --border_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the screen\n"
@@ -229,20 +251,7 @@ msgid ""
 msgstr " --border_snap_distance=[0 ...]\n                           Gluais uinneag gu oir na sgrìn ma bhios i taobh\n                           a-staigh an astair seo o oir na sgrìn."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:155
-msgid ""
-" --dock_windows_to_edges=[true|false]\n"
-"                      Eliminate a window's border towards the\n"
-"                      edge of the screen when the edge of the\n"
-"                      window is next to the edge of the screen."
-msgstr " --dock_windows_to_edges=[true|false]\n                           Thoir oir na h-uinneige ri taobh oir na sgrìn\n                           air falbh nuair a bhios oir na h-uinneige ri oir\n                           na sgrìn."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:160
+#: ../../src/wlapplication_messages.cc:172
 msgid ""
 " --panel_snap_distance=[0 ...]\n"
 "                      Move a window to the edge of the panel when\n"
@@ -251,20 +260,29 @@ msgid ""
 msgstr " --panel_snap_distance=[0 ...]\n                           Gluais uinneag gu oir na panail ma bhios i taobh\n                           a-staigh an astair seo o oir na panail."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:165
+#: ../../src/wlapplication_messages.cc:177
 msgid ""
 " --snap_windows_only_when_overlapping=[yes|no]\n"
 "                      Only move a window to the edge of a panel\n"
 "                      if the window is overlapping with the\n"
 "                      panel."
-msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                           Na gluais uinneag gu oir panail ma bhios i\n                           tar-chòmdaichte leis a' phanail."
+msgstr " --snap_windows_only_when_overlapping=[yes|no]\n                           Na gluais uinneag gu oir panail ma bhios i\n                           tar-chòmdaichte leis a’ phanail."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:171
+#: ../../src/wlapplication_messages.cc:183
 msgid " --verbose            Enable verbose debug messages"
 msgstr " --verbose                 Cuir teachdaireachdan dì-bhugachaidh briathrach\n                           an comas"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:172
+#: ../../src/wlapplication_messages.cc:184
 msgid " --help               Show this help"
-msgstr " --help                    Seall a' chobhair seo"
+msgstr " --help                    Seall a’ chobhair seo"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication_messages.cc:186
+msgid ""
+" <save.wgf>/<replay.wrpl> \n"
+"                      Directly loads the given savegame or replay. Useful for\n"
+"                      .wgf/.wrpl file extension association. Does not work with\n"
+"                      other options. Also see --loadgame/--replay."
+msgstr " <save.wgf>/<replay.wrpl> \n                           Luchdaidh seo geama air a shàbhaladh no ath-chluiche\n                           gu dìreach. Feumail airson na leudachain faidhle\n                           .wgf/.wrpl iomruineadh. Chan obraich seo còmhla ri\n                           roghainnean eile. Faic --loadgame/--replay cuideachd."

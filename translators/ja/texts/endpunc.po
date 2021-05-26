@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-07-23 07:47+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-04-13 10:18+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Placeholder is copyright end year
@@ -324,7 +324,7 @@ msgstr "拡張された建物は、多くの場合経験豊かな労働者を必
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/editor.lua:7
+#: ../../data/txts/tips/editor.lua:8
 #, lua-format
 msgid ""
 "You can find general help for the editor as well as a short tutorial on our "
@@ -332,7 +332,7 @@ msgid ""
 msgstr "エディタに関する一般的なヘルプや簡単なチュートリアルに関して、%s にある我々のwikiに情報があります。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:11
+#: ../../data/txts/tips/editor.lua:12
 msgid ""
 "You can select multiple animal types if you hold down Ctrl during selection."
 " If you then click on the map, an instance of one of the selected animal "
@@ -340,14 +340,14 @@ msgid ""
 msgstr "Ctrlを押しながらクリックすれば複数の動物種を選択することができます。その状態でマップをクリックすると、選択した中の一種がマップ上に配置されます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:15
+#: ../../data/txts/tips/editor.lua:16
 msgid ""
 "Just like with animals, you can also select multiple immovables or ground "
 "textures with Ctrl + mouse click."
 msgstr "動物と同じように、Ctrlを押しながらクリックすれば、各種の物や土地のテクスチャを複数選択できます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:19
+#: ../../data/txts/tips/editor.lua:20
 msgid ""
 "Holding down Shift switches the first alternative tool on. This tool is in "
 "most cases the complete opposite of the normal tool (for example deletion of"
@@ -355,40 +355,26 @@ msgid ""
 msgstr "Shift を押しながら操作すると別のツールが起動します。多くの場合、それは本来のツールと反対の機能を持ちます。例えば、オブジェクトを配置するツールを選択中にShiftを押すと、オブジェクトを除去するツールになります。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:23
+#: ../../data/txts/tips/editor.lua:24
 msgid ""
 "Holding down Alt switches the second alternative tool on (if it exists)."
 msgstr "Altを押しながら操作すると、また別のツールが起動します。(存在する場合のみ)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:27
-msgid ""
-"The number keys (0 - 9) allow you to directly set the size of the selected "
-"area around your mouse cursor."
-msgstr "数字キー(0-9)を押すとマウスカーソルの回りの選択範囲の大きさを直接設定できます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:31
-msgid ""
-"Space key behaves like in normal game. It switches if building spaces are "
-"shown on or off."
-msgstr "スペースキーの動作は通常のゲームと同様です。建物用地の表示/非表示を切り替えることができます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:35
+#: ../../data/txts/tips/editor.lua:36
 msgid ""
 "When placing trees, use the help button to see which trees are more likely "
 "to survive on which terrain."
 msgstr "木を配置する時は、ヘルプメニューを見て、それぞれの木がどのような地形で生育しやすいのかを調べるようにしましょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:39
+#: ../../data/txts/tips/editor.lua:40
 msgid ""
 "If you do not set water and fish resources, a default amount will be used."
 msgstr "水や魚の資源が明示的に配置されなかった場合、デフォルトの量が自動的に配置されます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:43
+#: ../../data/txts/tips/editor.lua:44
 msgid ""
 "You can place a medium building on any node where there is a slope no "
 "greater than 1 in the south-east direction and its height difference to all "
@@ -396,7 +382,7 @@ msgid ""
 msgstr "南東方向に 1 以上の傾斜が無く、範囲 2 以内の高低差が 2 以内であるノードには中サイズの建物を建てられます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/editor.lua:47
+#: ../../data/txts/tips/editor.lua:48
 msgid ""
 "You can place a big building on any node where you could place a medium "
 "building if there is no obstacle or non-arable terrain towards the west, "
@@ -427,33 +413,33 @@ msgid "Always build a forester’s house, so you will not run out of logs."
 msgstr "丸太が尽きてしまわないように、植樹番小屋を建設してください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:6
+#: ../../data/txts/tips/general_game.lua:7
 msgid ""
 "The building process will only start after a road is built to the "
 "construction site."
 msgstr "建設のプロセスは、建設場所までの道が敷設されるまで始まりません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:10
+#: ../../data/txts/tips/general_game.lua:11
 msgid ""
 "Be sure to send a geologist to survey sites before building a well or a "
 "mine."
 msgstr "井戸や鉱山を建設する前に予定地に地質学者を派遣しましょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:14
+#: ../../data/txts/tips/general_game.lua:15
 msgid ""
 "Your territory can be expanded by building various military buildings – "
 "Sentry, Fortress, Blockhouse, etc."
 msgstr "詰所、要塞、兵屋のような軍事施設を建設することで領土を拡大できます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:18
+#: ../../data/txts/tips/general_game.lua:19
 msgid "Miners will work only if supplied with food."
 msgstr "鉱夫は食料を与えられないと働きません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:22
+#: ../../data/txts/tips/general_game.lua:23
 msgid ""
 "Split your roads into shorter sections by planting some flags. This will "
 "speed up transportation of your wares."
@@ -461,7 +447,7 @@ msgstr "多くの旗を設置して道を短い区間に分割しましょう。
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/general_game.lua:27
+#: ../../data/txts/tips/general_game.lua:28
 #, lua-format
 msgid ""
 "Any further questions? Our FAQ, the wiki and of course our community forums "
@@ -469,79 +455,54 @@ msgid ""
 msgstr "他にも疑問がありますか？我々のウェブサイト %s にあるFAQ、wiki、そしてフォーラムを訪れてみてはいかがでしょうか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:31
-msgid ""
-"Use the priority buttons in building windows to adjust delivery of a "
-"specific ware. Pressing Ctrl while clicking will adjust all wares at once."
-msgstr "建設中の建物の優先度設定ボタンを使えば、特定の物資の輸送順序を調整できます。Ctrlを押しながら操作すれば、全ての物資の優先度を同時に変更できます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:35
+#: ../../data/txts/tips/general_game.lua:36
 msgid ""
 "Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
 "can be accessed via the flag menu."
 msgstr "物資の生産量は「経済を設定」メニューで設定できます。「経済を設定」メニューは旗のメニューからアクセスできます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:39
-msgid ""
-"Manage your messages more efficiently: press ‘N’ for News to access the "
-"messages window, then use ‘G’ for Go To, and the Delete key to archive "
-"messages."
-msgstr "メッセージを効率よく管理しましょう。「N」キーでメッセージウィンドウを開き、「G」キーでメッセージが発生した場所へ移動し、「Delete」キーでメッセージを保管庫に移します。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:43
+#: ../../data/txts/tips/general_game.lua:45
 msgid "Press %1% to store important locations, then press %2% to recall them."
 msgstr "%1% を押して重要な場所を記録できます。%2% を押せば対応する場所にすぐに移動できます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:47
+#: ../../data/txts/tips/general_game.lua:49
 msgid ""
 "Removing a road while holding Ctrl lets you remove all flags up to the first"
 " junction."
 msgstr "Ctrlキーを押しながら道を削除すると最寄りの交差点までの全ての旗を消すことができます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:51
+#: ../../data/txts/tips/general_game.lua:53
 msgid ""
 "New soldiers are recruited in a barracks. Their abilities can then be "
 "improved in training sites."
 msgstr "新しい兵士は兵舎で雇用できます。彼らの能力は各種訓練施設で向上させることができます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:55
+#: ../../data/txts/tips/general_game.lua:57
 msgid ""
 "If you like to live dangerously, pressing Ctrl while clicking the enhance, "
 "dismantle or destroy building buttons will skip the confirmation."
 msgstr "危険に生きるのがお好みなら、Ctrlキーを押しながら建物の拡張／解体／破壊ボタンを押しましょう。確認操作をスキップできます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:59
-msgid "Press I to quickly toggle the display of your stock inventory."
-msgstr "ストックされている物資リストの表示/非表示は「I」キーで切り替えられます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:63
+#: ../../data/txts/tips/general_game.lua:65
 msgid ""
 "An economy consists of all buildings and flags connected by roads. The "
 "supplies and demands of buildings are handled in its economy."
 msgstr "一つの経済圏は道でつながっている全ての建物と旗で構成されます。物資の需要と供給は、その経済圏の中で対応されなければなりません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:67
+#: ../../data/txts/tips/general_game.lua:69
 msgid ""
 "Some buildings, such as the farm, have a very small work area. If the "
 "building is surrounded with trees or roads, production will stop."
 msgstr "農場のような一部の建物は非常に狭い作業エリアしか持ちません。もし、そのような建物が木や道に囲まれてしまうと生産活動は止まってしまうでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:71
-msgid "Zoom in/out with the mouse wheel or %1%. Press %2% to reset the zoom."
-msgstr "マウスのホイール操作か %1% で拡大縮小ができます。%2% を押すと拡大縮小がリセットされます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:87
+#: ../../data/txts/tips/general_game.lua:98
 msgid ""
 "When a building is destroyed, its workers will start looking for a nearby "
 "flag from which they can move by road to a connected warehouse. If there are"
@@ -569,13 +530,6 @@ msgid ""
 "Use ‘@name’ at the beginning of a chat message to send it to only one "
 "player."
 msgstr "チャットメッセージの始まりに「@(ユーザ名) 」と書くと、指定したユーザにだけメッセージが送れます。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/multiplayer.lua:16
-msgid ""
-"If the game should crash, don't worry! The game will be saved automatically "
-"so that you can reload it afterwards."
-msgstr "ゲームがクラッシュしてもそんなに心配いりません！定期的に自動保存されているのでそこから再開できます。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %s = URL to the Widelands website

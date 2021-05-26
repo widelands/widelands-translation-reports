@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:58
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:57
 msgid "The fishing grounds are full"
 msgstr "Le zone di pesca sono piene."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:52
 msgctxt "atlanteans_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -29,7 +29,7 @@ msgid ""
 msgstr "Il cacciatore al lavoro in questa casa del cacciatore non trova nessuna selvaggina nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:49
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:47
 msgctxt "atlanteans_building"
 msgid ""
 "The stonecutter working at this quarry can’t find any rocks in his work "
@@ -37,16 +37,7 @@ msgid ""
 msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:57
-msgctxt "barbarians_building"
-msgid ""
-"The lumberjack working at this lumberjack’s hut can’t find any trees in his "
-"work area. You should consider dismantling or destroying the building or "
-"building a ranger’s hut."
-msgstr "Controlli"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:56
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:54
 msgctxt "barbarians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -54,7 +45,7 @@ msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:52
 msgctxt "empire_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -62,7 +53,7 @@ msgid ""
 msgstr "Il cacciatore al lavoro in questa casa del cacciatore non trova nessuna selvaggina nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:70
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:68
 msgctxt "empire_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -70,7 +61,7 @@ msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:75
+#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:74
 msgctxt "frisians_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -78,11 +69,22 @@ msgid ""
 msgstr "Il cacciatore al lavoro in questa casa del cacciatore non trova nessuna selvaggina nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:63
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:61
 msgctxt "frisians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
 msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
+#: ../../data/tribes/initialization/amazons/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:129
+#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
+msgid ""
+"Start the game with three ships on the ocean and only a handful of supplies"
+msgstr "Inizia la partita con tre navi sull'oceano e solo una manciata di forniture."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Fortified Village" starting
@@ -94,6 +96,16 @@ msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua
 #: ../../data/tribes/initialization/frisians/starting_conditions/fortified_village.lua:13
 msgid "Start the game with a fortified military installation"
 msgstr "Inizia la partita con un'installazione militare fortificata."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the tooltip for the "New World" starting condition
+#: ../../data/tribes/initialization/amazons/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/barbarians/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/new_world.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/new_world.lua:13
+msgid "Start the game with seven ships full of wares on the ocean"
+msgstr "Inizia la partita con sette navi sull'oceano colme di merci."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Trading Outpost" starting
@@ -117,22 +129,3 @@ msgstr "Se questo giocatore è a corto di merci importanti, verranno rifornite g
 #: ../../data/tribes/initialization/frisians/starting_conditions/village.lua:13
 msgid "Start the game with a peaceful village"
 msgstr "Inizia la partita con un villaggio pacifico."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
-#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
-msgid ""
-"Start the game with three ships on the ocean and only a handful of supplies"
-msgstr "Inizia la partita con tre navi sull'oceano e solo una manciata di forniture."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "New World" starting condition
-#: ../../data/tribes/initialization/atlanteans/starting_conditions/new_world.lua:13
-#: ../../data/tribes/initialization/barbarians/starting_conditions/new_world.lua:13
-#: ../../data/tribes/initialization/empire/starting_conditions/new_world.lua:13
-#: ../../data/tribes/initialization/frisians/starting_conditions/new_world.lua:13
-msgid "Start the game with seven ships full of wares on the ocean"
-msgstr "Inizia la partita con sette navi sull'oceano colme di merci."

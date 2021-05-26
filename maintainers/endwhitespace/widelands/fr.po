@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-05 08:44+0000\n"
+"Last-Translator: Atanase Albaran\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:62
@@ -25,31 +25,81 @@ msgid "Add another suggested team lineup"
 msgstr "Ajouter une autre composition d'équipe suggérée "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/launch_game.cc:146
+#: ../../src/ui_fsmenu/addons.cc:355
+msgid "Development"
+msgstr "Développement "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:851
+msgid "No upgrades are available for your installed add-ons"
+msgstr "Pas de mises à niveau disponibles pour vos modules complémentaires installés "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:1647
+msgid "Previous screenshot"
+msgstr "Capture d'écran précédente "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/launch_game.cc:229
 msgid ""
 "Allow the players to choose their own starting positions at the beginning of"
 " the game"
 msgstr "Autoriser les joueurs à choisir leurs propres positions de départ au début de la partie "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:242
+#: ../../src/ui_fsmenu/loadgame.cc:162
+msgid ""
+"This replay was created with a different Widelands version. It might be compatible, but will more likely desync or even fail to load.\n"
+"\n"
+"Please do not report any bugs that occur while watching this replay.\n"
+"\n"
+"Do you want to load the replay anyway?"
+msgstr "Ce replay a été créé avec une version différente de Widelands. Il peut être compatible, mais pourra être désynchronisé ou même refusera de se charger.\n\nS'il vous plait n'envoyez pas de rapport de bug pouvant survenir pendant le visionnage de ce replay.\n\nVoulez vous néanmoins charger ce replay ?  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/main.cc:298 ../../src/ui_fsmenu/random_game.cc:30
+#: ../../src/wlapplication_options.cc:176
 msgid "New Random Game"
 msgstr "Nouvelle partie aléatoire "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:247
+#: ../../src/ui_fsmenu/main.cc:304
 msgid "Play one of our beginners’ tutorials"
 msgstr "Jouez à un de nos tutoriels pour débutants "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:306
+#: ../../src/ui_fsmenu/main.cc:366
 msgid "Log in as a registered user"
 msgstr "Se connecter en tant qu'utilisateur enregistré "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/buildingwindow.cc:200
+#: ../../src/ui_fsmenu/main.cc:796
+msgid "Desyncing Add-On Found"
+msgstr "Module désynchronisant trouvé "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wlapplication.cc:1467
+msgid "Game ended unexpectedly"
+msgstr "Le jeu s'est terminé inopinément "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wlapplication_options.cc:528
+msgid "Messages: Show "
+msgstr "Messages: Montrer"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/buildingwindow.cc:201
 msgid "All buildings of this type are muted – click to unmute"
 msgstr "Tous les bâtiments de ce type sont mis en sourdine – cliquer pour réactiver "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: This string is used only when the name of the tribe’s scout
+#. house/hut is unknown.
+#: ../../src/wui/fieldaction.cc:460
+msgid ""
+"You need to connect this flag to a scouting building before you can send a "
+"scout here."
+msgstr "Vous devez connecter ce drapeau à une maison d'éclaireur avant de pouvoir y envoyer un éclaireur. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Dropdown tooltip to select the AI difficulty when a player
@@ -69,3 +119,8 @@ msgstr "Équilibré "
 #: ../../src/wui/portdockwaresdisplay.cc:98
 msgid "Additional item"
 msgstr "Objet additionnel "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/stock_menu.cc:55
+msgid "Compare stocked amounts to economy target quantities"
+msgstr "Comparer les montants stockés aux quantités ciblés par l'économie  "

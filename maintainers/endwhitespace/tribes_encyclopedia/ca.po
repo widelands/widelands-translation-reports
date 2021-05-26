@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-29 17:00+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-23 09:41+0000\n"
 "Last-Translator: Juanjo\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
@@ -12,22 +12,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Tunic
+#: ../../data/tribes/initialization/amazons/units.lua:480
+msgctxt "amazons_ware"
+msgid ""
+"Rubber can be bound into a tunic, which is used as basic armor. All new "
+"soldiers are clothed in a tunic."
+msgstr "El cautxú es pot afegir a les túniques, que són una armadura bàsica. Totes les soldades porten túniques. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Lore author helptext for a barbarian warehouse: Port
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Shipyard
-#: ../../data/tribes/initialization/barbarians/units.lua:1108
-#: ../../data/tribes/initialization/barbarians/units.lua:1751
+#: ../../data/tribes/initialization/barbarians/units.lua:1121
+#: ../../data/tribes/initialization/barbarians/units.lua:1767
 msgctxt "barbarians_building"
 msgid "Captain Thanlas the Elder,<br>Explorer"
 msgstr "El vell capità Thanlas, <br>explorador "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Helptext for a frisian ware: Fur
-#: ../../data/tribes/initialization/frisians/units.lua:137
+#: ../../data/tribes/initialization/frisians/units.lua:150
 msgctxt "frisians_ware"
 msgid ""
 "Fur is won from reindeer in a reindeer farm. It is woven into cloth or "
 "turned into fur garments for soldiers."
 msgstr "La pell s'obté dels rens en granges. S'adoba per fer-ne vestits pels soldats. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note helptext for a mine.
+#: ../../data/tribes/scripting/help/building_help.lua:425
+msgid ""
+"This mine will exploit %1%%% of its resources. From there on out, it will "
+"only have a %2%%% chance of finding any more of them."
+msgstr "Aquesta mina explota només el %1% %% dels seus recursos. A partir de llavors, només tindrà una probabilitat de %2% %% de trobar-ne més. "

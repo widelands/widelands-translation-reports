@@ -2,23 +2,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:43+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Blackroot Farmer
-#: ../../data/tribes/initialization/atlanteans/units.lua:933
+#: ../../data/tribes/initialization/atlanteans/units.lua:953
 msgctxt "atlanteans_worker"
 msgid "Plants and harvests blackroot."
 msgstr "Сажает и собирает козелец"
@@ -26,7 +26,7 @@ msgstr "Сажает и собирает козелец"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1134
+#: ../../data/tribes/initialization/barbarians/units.lua:1149
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -36,7 +36,7 @@ msgstr "«Срубишь дерево за 200 ударов — ты ребен�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1208
+#: ../../data/tribes/initialization/barbarians/units.lua:1223
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -45,14 +45,14 @@ msgstr "\"О, сладостный источник жизни,<br>сошедш�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1485
+#: ../../data/tribes/initialization/barbarians/units.lua:1501
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "\"Мужик, я могу перелопатить тонны гранита, но больше не могу слушать твою пустую болтовню\"."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1631
+#: ../../data/tribes/initialization/barbarians/units.lua:1647
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
@@ -60,7 +60,7 @@ msgstr "\"В бою нет лучшего друга в бою, чем удар 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1650
+#: ../../data/tribes/initialization/barbarians/units.lua:1666
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -69,7 +69,7 @@ msgstr "\"Сильный — никогда не простит и не поза
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire ware: Log, part 2
-#: ../../data/tribes/initialization/empire/units.lua:94
+#: ../../data/tribes/initialization/empire/units.lua:107
 msgctxt "empire_ware"
 msgid ""
 "Imperial lumberjacks fell the trees; foresters take care of the supply of "
@@ -79,7 +79,7 @@ msgstr "Варварские дровосеки валят деревья; ле�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an empire production site: Inn
-#: ../../data/tribes/initialization/empire/units.lua:1275
+#: ../../data/tribes/initialization/empire/units.lua:1291
 msgctxt "empire_building"
 msgid ""
 "The innkeeper needs %1% on average to prepare a ration and a meal. If the "
@@ -89,14 +89,14 @@ msgstr "Трактирщику нужно в среднем %1% для подг�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an empire production site: Weaving Mill
-#: ../../data/tribes/initialization/empire/units.lua:1351
+#: ../../data/tribes/initialization/empire/units.lua:1367
 msgctxt "empire_building"
 msgid "Weaves cloth out of wool."
 msgstr "Ткёт сукно из шерсти"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian worker: Fruit Collector
-#: ../../data/tribes/initialization/frisians/units.lua:747
+#: ../../data/tribes/initialization/frisians/units.lua:760
 msgctxt "frisians_worker"
 msgid "Gathers berries."
 msgstr "Собирает ягоды"

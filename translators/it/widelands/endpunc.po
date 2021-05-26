@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
@@ -12,13 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:977
+#: ../../src/editor/editorinteractive.cc:920
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Caricamento della mappa \"%s\" in corso..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:971
+msgid "Loading world…"
+msgstr "Mondo in caricamento..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
@@ -38,9 +43,25 @@ msgid "Creating empty map…"
 msgstr "Creazione di una mappa vuota in corso..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "Generazione di una mappa casuale in corso..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:611
+msgid ""
+"This map was generated automatically by the Widelands Random Map Generator."
+msgstr "Questa mappa è stata generata automaticamente dal Generatore di Mappa Casuale di Widelands"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
+msgid "Saving the map…"
+msgstr "Salvataggio della mappa in corso..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:107
+msgid "This extension is reserved!"
+msgstr "Questa estensione è riservata"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change height access keys. *
@@ -66,17 +87,59 @@ msgid ""
 msgstr "Clicca sulla mappa per aumentare l'ammontare della risorsa selezionata, Shift + clicca per diminuirlo."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/game_io/game_saver.cc:54
+msgid "Autosaving game…"
+msgstr "Auto-salvataggio in corso..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver. Font
+#. support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:188
+msgid ""
+"Widelands won't work because we were unable to detect the OpenGL version."
+msgstr "Widelands non riesce a rilevare la versione di OpenGL"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:252
+#, c-format
+msgid "Creating player %d…"
+msgstr "Creazione giocatore %d..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:319
+msgid "Postloading world and tribes…"
+msgstr "Post-caricamento mondo e tribù"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:281 ../../src/logic/game.cc:328
+#: ../../src/logic/game.cc:423 ../../src/logic/game.cc:478
+msgid "Preloading map…"
+msgstr "Pre-caricamento mappa..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:377
+msgid "Initializing game…"
+msgstr "Inizializzazione partita..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: All players (plural)
+#: ../../src/logic/game.cc:628
+msgid "Creating player infrastructure…"
+msgstr "Creazione infrastrutture del giocatore..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:131
+msgid "Saving game…"
+msgstr "Salvataggio..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "Caricamento della mappa in corso"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:816
-msgid "/me 's file failed md5 checksumming."
-msgstr "/me dice che il suo file non ha superato il controllo md5"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:318 ../../src/network/gamehost.cc:342
+#: ../../src/network/gamehost.cc:326 ../../src/network/gamehost.cc:350
 #, c-format
 msgid "The client %s could not be found."
 msgstr "Non è stato possibile trovare il client %s"
@@ -87,12 +150,12 @@ msgid "Client requests file although none is available to send."
 msgstr "Il client richiede un file sebbene non ve ne siano disponibili da inviare"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "Caricamento in corso..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:266
+#: ../../src/ui_fsmenu/launch_mpg.cc:193
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
@@ -100,6 +163,6 @@ msgid ""
 msgstr "AVVERTIMENTO:\nIl salvataggio che hai selezionato è una directory. Questo succede se attivi l'opzione \"nozip\" o se scompatti manualmente un salvataggio.\nWidelands non è in grado di trasferire le strutture della directory ai client, seleziona un altro salvataggio o comprimi il contenuto delle directory"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:207
+#: ../../src/ui_fsmenu/options.cc:227
 msgid "Save game automatically every:"
 msgstr "Salvataggio automatico del gioco ogni"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 19:46+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
@@ -12,7 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting cassava because ...
+#: ../../data/tribes/buildings/productionsites/amazons/cassava_plantation/init.lua:49
+msgid "planting cassava"
+msgstr "Maniok to planten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting cassava because ...
+#: ../../data/tribes/buildings/productionsites/amazons/cassava_plantation/init.lua:57
+msgid "harvesting cassava"
+msgstr "Maniok to arnten"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start baking bread because ...
@@ -22,18 +34,6 @@ msgstr ""
 #: ../../data/tribes/buildings/productionsites/frisians/honey_bread_bakery/init.lua:88
 msgid "baking bread"
 msgstr "Brood to backen"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Completed/Skipped/Did not start planting barley because ...
-#: ../../data/tribes/buildings/productionsites/amazons/cassava_root_plantation/init.lua:49
-msgid "planting cassava root"
-msgstr "Maniok-Wuddels to planten"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Completed/Skipped/Did not start harvesting barley because ...
-#: ../../data/tribes/buildings/productionsites/amazons/cassava_root_plantation/init.lua:57
-msgid "harvesting cassava root"
-msgstr "Maniok-Wuddels to arnten"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start producing charcoal because ...
@@ -49,15 +49,35 @@ msgstr "Schokolaa to brauen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start planting reed because ...
-#: ../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:54
+#: ../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:55
 msgid "planting cocoa"
 msgstr "Kakao to planten"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start harvesting reed because ...
-#: ../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:62
+#: ../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:63
 msgid "harvesting cocoa"
 msgstr "Kakao to arnten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a basket because ...
+#: ../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:117
+msgid "making sturdy boots"
+msgstr "Gode Stevels to maken"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hunting spear because
+#. ...
+#: ../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:128
+msgid "making swift boots"
+msgstr "Gaue Stevels to maken"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a fishing net because
+#. ...
+#: ../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:139
+msgid "making hero boots"
+msgstr "Heldenstevels to maken"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start smelting gold because ...
@@ -90,16 +110,78 @@ msgid "mining gold"
 msgstr "Gold oftoboen"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hunting because ...
+#: ../../data/tribes/buildings/productionsites/amazons/hunter_gatherers_hut/init.lua:48
+msgid "gathering meat"
+msgstr "Fleesk to pottjen"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hunting because ...
+#: ../../data/tribes/buildings/productionsites/amazons/hunter_gatherers_hut/init.lua:56
+msgid "gathering fish"
+msgstr "Fiss to pottjen"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start planting trees because ...
 #: ../../data/tribes/buildings/productionsites/amazons/jungle_preservers_hut/init.lua:51
-#: ../../data/tribes/buildings/productionsites/atlanteans/foresters_house/init.lua:43
-#: ../../data/tribes/buildings/productionsites/barbarians/rangers_hut/init.lua:49
-#: ../../data/tribes/buildings/productionsites/empire/foresters_house/init.lua:43
-#: ../../data/tribes/buildings/productionsites/frisians/foresters_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/atlanteans/foresters_house/init.lua:42
+#: ../../data/tribes/buildings/productionsites/barbarians/rangers_hut/init.lua:48
+#: ../../data/tribes/buildings/productionsites/empire/foresters_house/init.lua:42
+#: ../../data/tribes/buildings/productionsites/frisians/foresters_house/init.lua:52
 msgid "planting trees"
 msgstr "Bomen to planten"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making clay because ...
+#: ../../data/tribes/buildings/productionsites/amazons/liana_cutters_hut/init.lua:39
+msgid "cutting lianas"
+msgstr "Boomreep to slaan"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:39
+msgid "harvesting balsa"
+msgstr "Balsa to arnten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:48
+msgid "harvesting rubber"
+msgstr "Gummi elasticum to arnten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:57
+msgid "harvesting ironwood"
+msgstr "Iesenholt to arnten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../data/tribes/buildings/productionsites/amazons/rare_tree_plantation/init.lua:56
+msgid "planting balsa tree"
+msgstr "Balsabomen to planten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../data/tribes/buildings/productionsites/amazons/rare_tree_plantation/init.lua:66
+msgid "planting rubber tree"
+msgstr "Gummibomen to planten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../data/tribes/buildings/productionsites/amazons/rare_tree_plantation/init.lua:76
+msgid "planting ironwood tree"
+msgstr "Iesenholtbomen to planten"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making kitchen tools because
+#. ...
 #. TRANSLATORS: Completed/Skipped/Did not start making a basket because ...
 #. TRANSLATORS: Completed/Skipped/Did not start making kitchen tools because
 #. ...
@@ -111,13 +193,19 @@ msgid "making kitchen tools"
 msgstr "Besteck to maken"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making needles because ...
 #. TRANSLATORS: Completed/Skipped/Did not start making a bread paddle because
 #. ...
-#. TRANSLATORS: Completed/Skipped/Did not start making needles because ...
 #: ../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:160
 #: ../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:211
 msgid "making needles"
 msgstr "Nadels to maken"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#: ../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:34
+msgid "cutting granite"
+msgstr "Flint to slaan"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start mining granite because ...
@@ -137,22 +225,35 @@ msgid "mining granite"
 msgstr "Flint oftoboen"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start breeding tapir because ...
+#: ../../data/tribes/buildings/productionsites/amazons/tapir_farm/init.lua:63
+msgctxt "amazons_building"
+msgid "breeding tapir"
+msgstr "Tapiren to tüchten"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start breeding fish because ...
 #. TRANSLATORS: Completed/Skipped/Did not start working because ...
 #. TRANSLATORS: Completed/Skipped/Did not start breeding fish because ...
-#: ../../data/tribes/buildings/productionsites/amazons/wilderness_keepers_tent/init.lua:51
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:42
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:67
+#: ../../data/tribes/buildings/productionsites/amazons/wilderness_keepers_tent/init.lua:50
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:41
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:66
 msgid "breeding fish"
 msgstr "Fisse to tüchten"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#: ../../data/tribes/buildings/productionsites/amazons/wilderness_keepers_tent/init.lua:58
+msgid "releasing game"
+msgstr "Deerten freeitolaten"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start felling trees because ...
-#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:50
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:39
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:46
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:39
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:52
+#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:47
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:37
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:45
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:37
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:50
 msgid "felling trees"
 msgstr "Bomen to slagen"
 
@@ -234,11 +335,11 @@ msgstr "Mais to arnten"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start fishing because ...
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:43
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:49
-#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:41
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:79
-#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:42
+#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:48
+#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:40
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:78
+#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:53
 msgid "fishing"
 msgstr "Fisse to fangen"
 
@@ -288,10 +389,10 @@ msgstr "Swartwuddels to mahlen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start quarrying granite because ...
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:38
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:45
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:51
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:52
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:36
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:43
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:49
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:50
 msgid "quarrying granite"
 msgstr "Flint to slagen"
 
@@ -438,7 +539,7 @@ msgstr "Swientjes to tüchten"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start quarrying marble because ...
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:59
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:57
 msgid "quarrying marble"
 msgstr "Marmel to slagen"
 
@@ -470,7 +571,7 @@ msgstr "Wien to maken"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start planting bushes because ...
-#: ../../data/tribes/buildings/productionsites/frisians/berry_farm/init.lua:54
+#: ../../data/tribes/buildings/productionsites/frisians/berry_farm/init.lua:53
 msgid "planting bushes"
 msgstr "Busken to planten"
 
@@ -488,25 +589,25 @@ msgstr "Köhl to pottjen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start making clay because ...
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:67
+#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:66
 msgid "making clay"
 msgstr "Lehm to maken"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start gathering berries because ...
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:53
 msgid "gathering berries"
 msgstr "Früchten to sammeln"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start planting barley because ...
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:82
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:81
 msgid "planting barley"
 msgstr "Garste to planten"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start harvesting barley because ...
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:90
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:89
 msgid "harvesting barley"
 msgstr "Garste to arnten"
 
@@ -572,6 +673,76 @@ msgstr "Happen torechttomaken"
 #: ../../data/tribes/buildings/productionsites/frisians/weaving_mill/init.lua:70
 msgid "weaving cloth"
 msgstr "Stoff to spinnen"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:115
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 0 to level 1"
+msgstr "Soldatsken-Utwieken vun Stand 0 to Stand 1 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:129
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 1 to level 2"
+msgstr "Soldatsken-Utwieken vun Stand 1 to Stand 2 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:143
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 2 to level 3"
+msgstr "Soldatsken-Utwieken vun Stand 2 to Stand 3 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:158
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Soldatsken-Gesundheid vun Stand 0 to Stand 1 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:172
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 1 to level 2"
+msgstr "Soldatsken-Gesundheid vun Stand 1 to Stand 2 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:186
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 2 to level 3"
+msgstr "Soldatsken-Gesundheid vun Stand 2 to Stand 3 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:201
+msgctxt "amazons_building"
+msgid "upgrading soldier defense from level 0 to level 1"
+msgstr "Soldatsken-Verteidigung vun Stand 0 to Stand 1 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:215
+msgctxt "amazons_building"
+msgid "upgrading soldier defense from level 1 to level 2"
+msgstr "Soldatsken-Verteidigung vun Stand 1 to Stand 2 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:88
+msgctxt "amazons_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Soldatsken-Angriff vun Stand 0 to Stand 1 to verbetern"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:102
+msgctxt "amazons_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Soldatsken-Angriff vun Stand 1 to Stand 2 to verbetern"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...

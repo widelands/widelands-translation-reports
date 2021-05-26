@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-24 19:15+0000\n"
+"Last-Translator: Georgi Georgiev (Жоро) <g.georgiev.shumen@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/widelands/widelands/"
 "language/bg/)\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: A variant of the commandline parameter "true" value
@@ -31,15 +31,30 @@ msgid "off"
 msgstr "изкл."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:203
+#: ../../src/ui_fsmenu/login_box.cc:208
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
 msgstr "Въведете правилен псевдоним. Той може да съдържа само букви от английската азбука, цифри и следните знаци: @ . + - _"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:423
+msgid "Single Player…"
+msgstr "Самостоятелна игра..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:424
+msgid "Multiplayer…"
+msgstr "Мрежова игра..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:425
+msgid "Editor…"
+msgstr "Редактор..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:391
+#: ../../src/ui_fsmenu/options.cc:438
 msgid "Off"
 msgstr "Изкл."
 
@@ -68,15 +83,6 @@ msgstr "Повторението не може да бъде изтрито"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. month day, year
-#: ../../src/wui/savegameloader.cc:164
+#: ../../src/wui/savegameloader.cc:165
 msgid "%1% %2%, %3%"
 msgstr "%2% %1% %3% г."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
-#. are:
-#. month (short name) day (number),
-#. year (number). This is part of a list.
-#: ../../src/wui/savegameloader.cc:171
-msgid "saved on %1% %2%, %3%"
-msgstr "запазено на %2% %1% %3% г."

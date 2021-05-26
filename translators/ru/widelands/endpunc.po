@@ -2,19 +2,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-18 08:25+0000\n"
+"Last-Translator: nskdmitry\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:971
+msgid "Loading world…"
+msgstr "Загрузка мира..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/tools/info_tool.cc:50
@@ -32,9 +37,14 @@ msgid "Creating empty map…"
 msgstr "Создание пустой карты..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:581
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
 msgid "Generating random map…"
 msgstr "Создание случайной карты..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
+msgid "Saving the map…"
+msgstr "Сохранение карты...."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/game_io/game_saver.cc:54
@@ -42,13 +52,62 @@ msgid "Autosaving game…"
 msgstr "Автосохранения игры..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:415 ../../src/map_io/widelands_map_loader.cc:144
+#: ../../src/logic/addons.cc:156
+#, c-format
+msgid "%1$u add-on with wrong version: %2$s"
+msgid_plural "%1$u add-ons with wrong version: %2$s"
+msgstr[0] "%1$uдополнение не той версии (%2$s)."
+msgstr[1] "%1$u дополнения не той версии (%2$s)"
+msgstr[2] "%1$u дополнений не той версии (%2$s)"
+msgstr[3] "%1$u дополнений не той версии: %2$s"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:252
+#, c-format
+msgid "Creating player %d…"
+msgstr "Добавление игрока %d..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:319
+msgid "Postloading world and tribes…"
+msgstr "Постзагрузка мира и племен..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:281 ../../src/logic/game.cc:328
+#: ../../src/logic/game.cc:423 ../../src/logic/game.cc:478
+msgid "Preloading map…"
+msgstr "Предзагрузка карты..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: All players (plural)
+#: ../../src/logic/game.cc:628
+msgid "Creating player infrastructure…"
+msgstr "Создание пользовательской инфраструктуры..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:131
+msgid "Saving game…"
+msgstr "Сохранение игры..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/map_io/map_saver.cc:89
+msgid "Autosaving map…"
+msgstr "Автосохранение..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
 msgid "Loading map…"
 msgstr "Загрузка карты..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gameclient.cc:137 ../../src/network/gamehost.cc:705
+#: ../../src/ui_fsmenu/launch_spg.cc:167 ../../src/wlapplication.cc:637
+msgid "Preparing game…"
+msgstr "Подготовка к игре..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:293
+#: ../../src/network/gamehost.cc:301
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause — Принудительно поставить игру на паузу"
 
@@ -83,31 +142,106 @@ msgid "Client has no access to other player’s settings."
 msgstr "Клиент не имеет доступа к настройкам других игроков"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_lan_promotion.cc:364
+#: ../../src/network/network_lan_promotion.cc:362
 msgid "Failed to use the local network!"
 msgstr "Не удалось использовать локальную сеть"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:62
+#: ../../src/ui_basic/color_chooser.cc:244
+msgid "Choose Color…"
+msgstr "Выбор палитры"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/progresswindow.cc:71
 msgid "Loading…"
 msgstr "Загрузка..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:203
+#: ../../src/ui_fsmenu/addons.cc:211
+msgid "Fix dependencies…"
+msgstr "Исправление зависимостей..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons.cc:257
+msgid "Launch the add-ons packager…"
+msgstr "Запускается упаковщик дополнений"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons.cc:1135
+#, c-format
+msgid "Downloading ‘%s’…"
+msgstr "Загрузка '%s'..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons.cc:1189
+#, c-format
+msgid "Downloading translations for ‘%s’…"
+msgstr "Загрузка локализации  \"%s\"..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons_packager.cc:112
+msgid "Writing Add-Ons…"
+msgstr "Сохранить дополнение"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:94
+msgid "Change map…"
+msgstr "Изменить карту..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:104
+msgid "Change saved game…"
+msgstr "Изменить сохранение..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/login_box.cc:208
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
 msgstr "Введите корректное имя. Это значение может содержать только английские буквы, цифры и символы @ . + - _"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:423
+msgid "Single Player…"
+msgstr "Один игрок..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:424
+msgid "Multiplayer…"
+msgstr "Мультиплеер..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:425
+msgid "Editor…"
+msgstr "Редактор..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:212
+msgid "Edit keyboard shortcuts…"
+msgstr "Настройка горячих клавиш..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
+#. Options
+#: ../../src/ui_fsmenu/options.cc:319
+msgid "Progress…"
+msgstr "Процесс обучения..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:391
+#: ../../src/ui_fsmenu/options.cc:438
 msgid "Off"
 msgstr "Откл."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication.cc:694
+#, c-format
+msgid "Widelands could not find the file \"%s\"."
+msgstr "Игра не нашла этот файл: \"%s\""
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for Sound Options in the game's main menu
-#: ../../src/wui/interactive_gamebase.cc:129
+#: ../../src/wui/interactive_gamebase.cc:132
 msgid "Set sound effect and music options"
 msgstr "Настроить музыку и звуковые эффекты."
 

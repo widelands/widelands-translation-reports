@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-07-23 07:47+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-04-13 10:18+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -12,9 +12,339 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/ABOUT.lua:7
+msgid "Readme"
+msgstr "自述"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/ABOUT.lua:11
 msgid "License"
-msgstr "许可证"
+msgstr "许可"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/ABOUT.lua:15
+msgid "Developers"
+msgstr "开发者"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/ABOUT.lua:19
+msgid "Translators"
+msgstr "翻译人员"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Placeholder is copyright end year
+#: ../../data/txts/LICENSE.lua:9
+msgid "Copyright 2002 - %1% by the Widelands Development Team."
+msgstr "版权 2002 - %1% 由 Widelands开发团队所有"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/LICENSE.lua:13
+#, lua-format
+msgid ""
+"You can find more information on FOSS and the GPL by visiting the following "
+"webpage: %s"
+msgstr "你可以通过访问以下网页找到更多关于FOSS和GPL的信息：%s"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:10
+msgid "Check out the Widelands project homepage:"
+msgstr "查看Widelands项目主页："
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:12
+msgid "Status"
+msgstr "状态"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: %1% is a key on the keyboard
+#: ../../data/txts/README.lua:17
+msgid ""
+"You can find help about gameplay or the editor by using the help button on "
+"the bottom menu, or by pressing %1%."
+msgstr "你可以通过使用底部菜单上的帮助按钮或使用%1%键，找到有关游戏或游戏编辑器的帮助说明 。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:22
+msgid "Reporting Bugs"
+msgstr "报告软件错误"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:23
+msgid "If you encounter a bug, please report it to our bugtracker:"
+msgstr "如果你遇到软件错误，请向我们的错误跟踪器报告："
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:25
+msgid "Please provide enough background information. Tell us:"
+msgstr "请提供足够的背景资料。告诉我们："
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:27
+msgid "Detailed steps on how to trigger the bug, if possible."
+msgstr "如果可能的话，请提供关于如何触发错误的详细步骤。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/README.lua:28
+msgid ""
+"What you expected to happen when performing the steps and what actually "
+"happened."
+msgstr "当你执行这些步骤时你预期会发生什么以及实际发生了什么？"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Atlanteans"
+msgstr "亚特兰蒂斯人"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Barbarians"
+msgstr "蛮族"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Campaign Story"
+msgstr "战役故事"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Chieftains"
+msgstr "核心创始人员"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Coders"
+msgstr "程序员"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Documentation, Help and Wiki"
+msgstr "文档，帮助和维基"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Elders"
+msgstr "先行者"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Empire"
+msgstr "帝国"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Former Elders"
+msgstr "前辈"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Frisians"
+msgstr "弗里西亚部族"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Graphicians"
+msgstr "图形艺术家"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Graphics"
+msgstr "绘图"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Homepage"
+msgstr "网站主页"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Homepage Coders"
+msgstr "网站主页程序员"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Maps and Missions"
+msgstr "地图和任务"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Musicians"
+msgstr "音乐家"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Other"
+msgstr "其他"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Packagers"
+msgstr "游戏程序集成打包"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Sound"
+msgstr "声音"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Sound Effects"
+msgstr "音效"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Tongues"
+msgstr "语言"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Translation"
+msgstr "翻译"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/common_helptexts.lua:10
+msgid "Online Help"
+msgstr "在线帮助"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/common_helptexts.lua:19
+msgid "Introduction"
+msgstr "介绍"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/common_helptexts.lua:29
+msgid "Replays"
+msgstr "回放"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is an access key combination. Localize, but do not change
+#. the key.
+#: ../../data/txts/help/common_helptexts.lua:48
+msgid "Toggle building spaces"
+msgstr "切换建筑空间"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is an access key combination. The hotkey is 'Ctrl + f'
+#: ../../data/txts/help/common_helptexts.lua:57
+msgid "Toggle fullscreen (if supported by the OS)"
+msgstr "切换全屏（如果操作系统支持）"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is an access key combination. The hotkey is 'm'
+#: ../../data/txts/help/common_helptexts.lua:66
+msgid "Toggle minimap"
+msgstr "切换迷你地图"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:7
+msgid "Multiplayer Game Setup"
+msgstr "多人游戏设置"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:8
+msgid "You are in the multiplayer launch game menu."
+msgstr "你在多人游戏启动选单"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:10
+msgid "Client settings"
+msgstr "客户端设置"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:15
+msgid "Player settings"
+msgstr "游戏玩家设置"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/help/multiplayer_help.lua:24
+msgid "Map details"
+msgstr "地图详情"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:16
+msgid "Food is dried with charcoal fires. Ensure a steady supply."
+msgstr "用炭火把食物烘干。确保供应稳定。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/atlanteans.lua:4
+msgid ""
+"Keep an eye on your fishers and build a fish breeder’s house. After fish "
+"resources are exhausted in their work area, the fish supply cannot be "
+"regenerated."
+msgstr "留意你的渔夫，修建一间鱼类饲养员之屋。在他们工作区域的鱼类资源枯竭后，鱼类资源就不能再生了。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/atlanteans.lua:8
+msgid ""
+"Always build a forester’s and a woodcutter’s house, so you will not run out "
+"of logs."
+msgstr "为了确保原木不被用光，至少要修建一间护林员之屋和一间樵夫之屋。 "
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/atlanteans.lua:12
+msgid ""
+"Atlanteans need spidercloth for many buildings. Build the needed "
+"infrastructure early before you run out."
+msgstr "亚特兰蒂斯人的许多建筑都需要使用蛛丝布。在用完之前应尽早修建必要的的基础设施。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/barbarians.lua:4 ../../data/txts/tips/empire.lua:4
+msgid ""
+"Keep an eye on your fishers. After fish resources are exhausted in their "
+"work area, they will stop fishing."
+msgstr "留意你的渔夫，在他们工作区域的鱼类资源枯竭后，渔夫将停止捕捞工作。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/barbarians.lua:8
+msgid ""
+"Always build a ranger’s and a gamekeeper’s hut, so you will not run out of "
+"logs or game."
+msgstr "为了确保原木不被用光，至少要修建一间护林员小屋。为了确保猎物不被捕光，至少要修建一间猎场看守小屋。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/barbarians.lua:12 ../../data/txts/tips/empire.lua:12
+#: ../../data/txts/tips/frisians.lua:12
+msgid ""
+"Most enhanced buildings need experienced workers. Do not enhance a building "
+"unless you have the necessary workers available."
+msgstr "大多数升级后的建筑物需要有经验的劳动者。除非储备有经验丰富的劳动者，否则不要升级建筑物。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: %s = URL to the Widelands website
+#: ../../data/txts/tips/editor.lua:8
+#, lua-format
+msgid ""
+"You can find general help for the editor as well as a short tutorial on our "
+"wiki at %s."
+msgstr "你可以找到关于地图编辑器的常规的帮助和一份简短的教程，我们的wiki位于%s。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:12
+msgid ""
+"You can select multiple animal types if you hold down Ctrl during selection."
+" If you then click on the map, an instance of one of the selected animal "
+"types will be placed."
+msgstr "如果在选择过程中按住Ctrl键，可以选择多种动物类型组合成一个实例。如果你点击地图，一个选定动物类型的实例组合将被放置到地图上。 "
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:16
+msgid ""
+"Just like with animals, you can also select multiple immovables or ground "
+"textures with Ctrl + mouse click."
+msgstr "就像选择多个动物组合而成一个实例一样，你也可以使用Ctrl+鼠标单击选择多个固定物或是地表纹理。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:20
+msgid ""
+"Holding down Shift switches the first alternative tool on. This tool is in "
+"most cases the complete opposite of the normal tool (for example deletion of"
+" an object instead of placing one)."
+msgstr "按住Shift键可以打开可切换工具的第一候选项。在大多数情况下，此工具的功用与普通工具正好相反（ 例如，删除对象而不是放置对象）。"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/editor.lua:24
+msgid ""
+"Holding down Alt switches the second alternative tool on (if it exists)."
+msgstr "按住Alt键可以打开可切换工具的第二候选项（如果存在的话）。"

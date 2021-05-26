@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-07 09:03+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,24 +12,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:234
-#: ../../src/ui_fsmenu/main.cc:741 ../../src/wui/encyclopedia_window.cc:143
+#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
+#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
 #: ../../src/wui/tribal_encyclopedia.cc:56
 msgid "Error!"
 msgstr "¡Error!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:169
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:184
 msgid "Error Creating Directory!"
 msgstr "¡Error al Crear Directorio!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:364
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:310
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:365
 msgid "Error Saving Map!"
 msgstr "¡Error Guardando el Mapa!"
 
@@ -37,6 +37,22 @@ msgstr "¡Error Guardando el Mapa!"
 #: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:107
 msgid "This extension is reserved!"
 msgstr "¡Esta extensión está reservada!"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#: ../../src/logic/addons.cc:175
+#, c-format
+msgid "%1$u missing add-on: %2$s"
+msgid_plural "%1$u missing add-ons: %2$s"
+msgstr[0] "Falta %1$u complemento: %2$s"
+msgstr[1] "Faltan %1$u complementos : %2$s"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#: ../../src/logic/addons.cc:197
+#, c-format
+msgid "%u missing add-on"
+msgid_plural "%u missing add-ons"
+msgstr[0] "Falta %u complemento"
+msgstr[1] "Faltan %u complementos"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../src/logic/generic_save_handler.cc:231
@@ -86,13 +102,13 @@ msgstr "¡El archivo ‘%s’ no pudo ser restaurado!"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
-#: ../../src/logic/map_objects/tribes/militarysite.cc:249
+#: ../../src/logic/map_objects/tribes/militarysite.cc:250
 msgctxt "building"
 msgid "Lost!"
 msgstr "¡Perdido!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:250
+#: ../../src/logic/map_objects/tribes/militarysite.cc:251
 msgid "Militarysite lost!"
 msgstr "¡Sitio militar perdido!"
 
@@ -100,18 +116,18 @@ msgstr "¡Sitio militar perdido!"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy Defeated!"
 msgstr "¡Enemigo derrotado!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:293
 msgid "Enemy at site defeated!"
 msgstr "¡Enemigo derrotado en este lugar!"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Militarysite is being attacked
-#: ../../src/logic/map_objects/tribes/militarysite.cc:948
+#: ../../src/logic/map_objects/tribes/militarysite.cc:952
 msgctxt "building"
 msgid "Attack!"
 msgstr "¡Ataque!"
@@ -120,7 +136,7 @@ msgstr "¡Ataque!"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -128,60 +144,60 @@ msgstr[0] "%s reclutado"
 msgstr[1] "%s reclutados"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/production_program.cc:1827
+#: ../../src/logic/map_objects/tribes/production_program.cc:1834
 msgid "No soldier found for this training level!"
 msgstr "¡No se han encontrado soldados para este nivel de entrenamiento!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1090
+#: ../../src/logic/map_objects/tribes/productionsite.cc:1095
 msgid "Can’t find any more resources!"
 msgstr "¡No se encuentran más recursos!"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:620
 msgid "Land Ahoy!"
 msgstr "¡Tierra Adelante!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:670
 msgid "Port Lost!"
 msgstr "¡Puerto Perdido!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2054
+#: ../../src/logic/map_objects/tribes/worker.cc:2074
 msgid "Worker got lost!"
 msgstr "¡Un trabajador se ha perdido!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/save_handler.cc:176
-#: ../../src/wui/game_main_menu_save_game.cc:297
+#: ../../src/logic/save_handler.cc:178
+#: ../../src/wui/game_main_menu_save_game.cc:298
 msgid "Saving failed!"
 msgstr "¡El guardado ha fallado!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:340
+#: ../../src/network/gamehost.cc:348
 msgid "You can not kick yourself!"
 msgstr "¡No puedes expulsarte a ti mismo!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:346
+#: ../../src/network/gamehost.cc:354
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "¿Estás seguro de querer expulsar a %s?"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:394
+#: ../../src/network/gamehost.cc:402
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "¡Comando no válido! Escribe /help para una lista de comandos."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:538
+#: ../../src/network/gamehost.cc:547
 msgid "Failed to host the server!"
 msgstr "¡Fallo al alojar el servidor!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:547
+#: ../../src/network/gamehost.cc:556
 msgid "Failed to start the server!"
 msgstr "¡Error al iniciar el servidor!"
 
@@ -218,23 +234,78 @@ msgid "Started to send file %1$s to %2$s!"
 msgstr "¡Se comenzó envío de archivo %1$s a %2$s!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_lan_promotion.cc:364
+#: ../../src/network/network_lan_promotion.cc:362
 msgid "Failed to use the local network!"
 msgstr "¡Fallo al utilizar la red local!"
 
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:458
+#, c-format
+msgid "Are you certain that you want to upgrade this %u add-on?"
+msgid_plural "Are you certain that you want to upgrade these %u add-ons?"
+msgstr[0] "¿Estás seguro de querer actualizar este %u complemento?"
+msgstr[1] "¿Estás seguro de querer actualizar este %u complementos?"
+
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/login_box.cc:199
+#: ../../src/ui_fsmenu/addons.cc:1263
+#, c-format
+msgid ""
+"Are you certain that you want to uninstall this add-on?\n"
+"\n"
+"%1$s\n"
+"by %2$s\n"
+"Version %3$s\n"
+"Category: %4$s\n"
+"%5$s"
+msgstr "¿Estás seguro de querer desinstalar este complemento?\n\n%1$s\nde %2$s\nVersión %3$s\nCategoría: %4$s\n%5$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:1991
+#, c-format
+msgid ""
+"Are you certain that you want to install this add-on?\n"
+"\n"
+"%1$s\n"
+"by %2$s\n"
+"%3$s\n"
+"Version %4$s\n"
+"Category: %5$s\n"
+"%6$s\n"
+msgstr "¿Estás seguro de querer instalar este complemento?\n\n%1$s\nde %2$s\n%3$s\nVersión %4$s\nCategoría: %5$s\n%6$s\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:2014
+#, c-format
+msgid ""
+"Are you certain that you want to upgrade this add-on?\n"
+"\n"
+"%1$s\n"
+"by %2$s\n"
+"%3$s\n"
+"Installed version: %4$s\n"
+"Available version: %5$s\n"
+"Category: %6$s\n"
+"%7$s"
+msgstr "¿Estás seguro de querer actualizar este complemento?\n\n%1$s\nde %2$s\n%3$s\nVersión instalado: %4$s\nVersión disponible: %5$s\nCategoría: %6$s\n%7$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/login_box.cc:204
 msgid "Please enter a nickname!"
 msgstr "¡Por favor ingresa un apodo!"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/login_box.cc:209
+#: ../../src/ui_fsmenu/login_box.cc:214
 msgid "Please enter your password!"
 msgstr "¡Por favor ingresa tu contraseña!"
 
 # (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/main.cc:892 ../../src/ui_fsmenu/netsetup_lan.cc:321
+msgid "No tribes found!"
+msgstr "¡No se han encontrado tribus!"
+
+# (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:132
+#: ../../src/ui_fsmenu/scenario_select.cc:135
 msgid "#"
 msgstr "Nº"
 
@@ -298,7 +369,7 @@ msgid "Do you really want to cancel the active expedition?"
 msgstr "¿Realmente quieres cancelar la expedición activa?"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/economy_options_window.cc:600
+#: ../../src/wui/economy_options_window.cc:603
 msgid "Overwrite?"
 msgstr "¿Sobrescribir?"
 
@@ -308,8 +379,8 @@ msgid "Are you sure you wish to exit this game?"
 msgstr "¿Seguro que quieres salir de la partida?"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/game_main_menu_save_game.cc:251
-#: ../../src/wui/game_main_menu_save_game.cc:287
+#: ../../src/wui/game_main_menu_save_game.cc:252
+#: ../../src/wui/game_main_menu_save_game.cc:288
 msgid "Error Saving Game!"
 msgstr "¡Error guardando el partido!"
 

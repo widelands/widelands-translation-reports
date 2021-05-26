@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-21 15:04+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,7 +12,96 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Amazon training site tooltip when it has no soldiers assigned
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:236
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:122
+msgctxt "amazons_building"
+msgid "No soldier to train!"
+msgstr "¡No hay guerreras para entrenar!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Amazon training site tooltip when none of the present soldiers
+#. match the current training program
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:238
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:124
+msgctxt "amazons_building"
+msgid "No soldier found for this training level!"
+msgstr "¡No se han encontrado guerreras para este nivel de entrenamiento!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Atlantean training site tooltip when it has no soldiers
+#. assigned
+#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:340
+#: ../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:163
+msgctxt "atlanteans_building"
+msgid "No soldier to train!"
+msgstr "¡No hay soldados para entrenar!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Atlantean training site tooltip when none of the present
+#. soldiers match the current training program
+#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:342
+#: ../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:165
+msgctxt "atlanteans_building"
+msgid "No soldier found for this training level!"
+msgstr "¡No se han encontrado soldados para este nivel de entrenamiento!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Barbarian training site tooltip when it has no soldiers
+#. assigned
+#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:120
+#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:218
+msgctxt "barbarians_building"
+msgid "No soldier to train!"
+msgstr "¡No hay soldados para entrenar!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Barbarian training site tooltip when none of the present
+#. soldiers match the current training program
+#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:122
+#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:220
+msgctxt "barbarians_building"
+msgid "No soldier found for this training level!"
+msgstr "¡No se han encontrado soldados para este nivel de entrenamiento!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Empire training site tooltip when it has no soldiers assigned
+#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:111
+#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:85
+#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:212
+msgctxt "empire_building"
+msgid "No soldier to train!"
+msgstr "¡No hay soldados para entrenar!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Empire training site tooltip when none of the present soldiers
+#. match the current training program
+#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:113
+#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:87
+#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:214
+msgctxt "empire_building"
+msgid "No soldier found for this training level!"
+msgstr "¡No se han encontrado soldados para este nivel de entrenamiento!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Frisian training site tooltip when it has no soldiers assigned
+#: ../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:205
+#: ../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:202
+msgctxt "frisians_building"
+msgid "No soldier to train!"
+msgstr "¡No hay soldados para entrenar!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Frisian training site tooltip when none of the present
+#. soldiers match the current training program
+#: ../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:207
+#: ../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:204
+msgctxt "frisians_building"
+msgid "No soldier found for this training level!"
+msgstr "¡No se han encontrado soldados para este nivel de entrenamiento!"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/tribes/initialization/barbarians/init.lua:13

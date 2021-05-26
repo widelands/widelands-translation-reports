@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-16 14:49+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 14:38+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../src/editor/ui_menus/tool_resize_options_menu.cc:51
@@ -26,58 +26,103 @@ msgstr "Wähle die neue Kartengröße, dann klicke in die Karte um sie an der ge
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:285
+#: ../../src/network/gamehost.cc:293
 msgid "/help  -  Shows this help"
 msgstr "/help – Zeigt diese Hilfe"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:287
+#: ../../src/network/gamehost.cc:295
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <Nachricht> – Schickt eine Chat-Nachricht als Meldung (System-Chat)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:289
+#: ../../src/network/gamehost.cc:297
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <Name> <Grund> – Verwarnt den Benutzer <Name> aufgrund von <Grund>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:291
+#: ../../src/network/gamehost.cc:299
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <Name> <Grund> – Wirft den Benutzer <Name> hinaus, aufgrund von <Grund>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:293
+#: ../../src/network/gamehost.cc:301
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause – Erzwingt eine Spielpause."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:295
+#: ../../src/network/gamehost.cc:303
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause – Setzt das Spiel fort."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:499
+#: ../../src/network/internet_gaming.cc:500
 #, c-format
 msgid ""
 "WARNING: Received a %s command although we are not in CONNECTING state."
 msgstr "WARNUNG:  Es wurde der Befehl %s empfangen, obwohl wir nicht dabei sind, uns mit dem Metaserver zu verbinden."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:902
-#: ../../src/network/internet_gaming.cc:909
+#: ../../src/network/internet_gaming.cc:905
+#: ../../src/network/internet_gaming.cc:912
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "Die Nachricht konnte nicht gesendet werden:  Sollte dies eine private Nachricht sein?"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/login_box.cc:59
+#: ../../src/ui_fsmenu/addons.cc:269
+msgid ""
+"The interactive add-ons packager allows you to create, edit, and delete add-"
+"ons. You can bundle maps designed with the Widelands Map Editor as an add-on"
+" using the graphical interface and share them with other players, without "
+"having to write a single line of code."
+msgstr "Die interaktive Erweiterungspaketierung ermöglicht es Erweiterungen zu erstellen, zu editieren und zu löschen. Du kannst Karten, die mit dem Widelands Karten Editor erstellt wurden, mit Hilfe der graphischen Oberfläche in eine Erweiterung bündeln und sie mit anderen Spielern teilen,  ohne eine einzige Zeile Code schreiben zu müssen."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/keyboard_options.cc:156
+#, c-format
+msgid ""
+"The shortcut you selected (‘%1$s’) is already in use for the following "
+"action: ‘%2$s’. Please select a different shortcut or change the conflicting"
+" shortcut first."
+msgstr "Der ausgewählte Tastaturbefehl  („%1$s“) ist bereits vergeben für die folgende Aktion: „%2$s“. Bitte wähle einen anderen Tastaturbefehl oder ändere den konkurrierenden Befehl zuerst."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/login_box.cc:60
 #, c-format
 msgid ""
 "In order to use a registered account, you need an account on the Widelands "
 "website. Please log in at %s and set an online gaming password on your "
 "profile page."
 msgstr "Um ein registriertes Konto zu verwenden, brauchst du ein Konto auf der Widelands Webseite. Bitte melde dich auf %s  an und setze ein Passwort für das Internetspiel auf deiner Profilseite."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication.cc:1453
+#, c-format
+msgid ""
+"An error has occured. The error message is:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Please report this problem to help us improve Widelands. You will find related messages in the standard output (stdout.txt on Windows). You are using build %2$s (%3$s).\n"
+"Please add this information to your report."
+msgstr "Ein Fehler ist aufgetreten. Die Fehlermeldung lautet:\n\n%1$s\n\nBitte das aufgetretene Problem melden, damit Widelands entsprechend verbessert werden kann. Weitere Informationen stehen in der Standardausgabe (stdout.txt unter Windows). Benutzte Build-Version:%2$s  (%3$s). \nBitte füge diese Information deiner Meldung bei."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wlapplication.cc:1470
+#, c-format
+msgid ""
+"An error occured during the game. The error message is:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Please report this problem to help us improve Widelands. You will find related messages in the standard output (stdout.txt on Windows). You are using build %2$s (%3$s).\n"
+"\n"
+"Please add this information to your report.\n"
+"\n"
+"Would you like Widelands to attempt to create an emergency savegame? It is often – though not always – possible to load it and continue playing."
+msgstr "Ein Fehler ist während des Spiels aufgetreten. Die Fehlermeldung lautet:\n\n%1$s\n\nBitte melde dieses Problem um uns zu helfen Widelands zu verbesern. Du findest zugehörige Meldungen in der Standardausgabe (stdout.txt bei Windows). Du benutzt Version %2$s (%3$s).\n\nBitte füge diese Informationen deiner Meldung hinzu.\n\nMöchtest du, dass Widelands eine Notfallspeicherung versucht? Es ist oft  – wenn auch nicht immer – möglich das so gespeicherte Spiel zu laden und weiterzu spielen."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 11:23+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:43+0000\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Editor terrain property: space for a flag
@@ -33,10 +33,10 @@ msgid "port"
 msgstr "Muu"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Editor terrain property: units can walk on this terrain
 #. * TRANSLATORS: This is a terrain type tooltip in the editor
+#. * TRANSLATORS: Editor terrain property: units can walk on this terrain
 #: ../../src/editor/tools/info_tool.cc:90
-#: ../../src/logic/map_objects/world/terrain_description.cc:74
+#: ../../src/logic/map_objects/world/terrain_description.cc:76
 msgid "walkable"
 msgstr "Tum Lopen"
 
@@ -51,11 +51,12 @@ msgstr "Tum Swemmen"
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:225
+#: ../../src/graphic/gl/initialize.cc:177
+#: ../../src/graphic/gl/initialize.cc:191
 msgid ""
 "There is an unknown problem with reading the information from the graphics "
 "driver."
-msgstr "'t gifft een Probleem, waar wi nix över weten, Informationen vun dienem Bill-Utgaav-Driever to kriegen."
+msgstr "’t gifft een Probleem, waar wi nix över weten, Informationen vun dienem Bill-Utgaav-Driever to kriegen."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
@@ -78,13 +79,13 @@ msgstr "Enerwaar in de Naam vun de Datei staht %s"
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/logic/generic_save_handler.cc:288
 msgid "An unexpected error occurred:"
-msgstr "'t hett eenen unverwachten Fehler geven:"
+msgstr "’t hett eenen unverwachten Fehler geven:"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1325
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -95,7 +96,7 @@ msgstr[1] "%s sünd produzeert worden"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1408
+#: ../../src/logic/map_objects/tribes/production_program.cc:1415
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -104,44 +105,44 @@ msgstr[1] "%s sünd anhüürt worden"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a terrain type tooltip in the editor
-#: ../../src/logic/map_objects/world/terrain_description.cc:79
+#: ../../src/logic/map_objects/world/terrain_description.cc:81
 msgid "navigable"
 msgstr "Tum Seilen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a terrain type tooltip in the editor
-#: ../../src/logic/map_objects/world/terrain_description.cc:84
+#: ../../src/logic/map_objects/world/terrain_description.cc:86
 msgid "unreachable"
 msgstr "Nich to överkomen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a terrain type tooltip in the editor
-#: ../../src/logic/map_objects/world/terrain_description.cc:89
+#: ../../src/logic/map_objects/world/terrain_description.cc:91
 msgid "mineable"
 msgstr "För Bargwarken"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a terrain type tooltip in the editor
-#: ../../src/logic/map_objects/world/terrain_description.cc:94
+#: ../../src/logic/map_objects/world/terrain_description.cc:96
 msgid "unwalkable"
 msgstr "Nich to henkomen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is shown for multiplayer games when no host
 #. * TRANSLATORS: server to connect to has been specified yet.
-#: ../../src/ui_fsmenu/internet_lobby.cc:461
+#: ../../src/ui_fsmenu/internet_lobby.cc:475
 #, c-format
 msgid "unnamed %u"
 msgstr "Sünner Naam %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:108
-#: ../../src/ui_fsmenu/netsetup_lan.cc:121
+#: ../../src/ui_fsmenu/login_box.cc:109
+#: ../../src/ui_fsmenu/netsetup_lan.cc:127
 msgid "nobody"
 msgstr "Nüms"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:35
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:36
 #, c-format
 msgid "invalid tribe ‘%s’"
 msgstr "Ungültig Volk »%s«"

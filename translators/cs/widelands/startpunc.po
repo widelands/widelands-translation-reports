@@ -2,30 +2,132 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-29 16:13+0000\n"
-"Last-Translator: Ondřej Itřech <vasa5@centrum.cz>\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
-" 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/scripting/richtext_scenarios.lua:50
+#, lua-format
+msgid "“%s”"
+msgstr "„%s“"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:728
+#: ../../src/logic/map_objects/tribes/production_program.cc:730
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s dokončeno, protože %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:734
-#: ../../src/logic/map_objects/tribes/production_program.cc:740
+#: ../../src/logic/map_objects/tribes/production_program.cc:736
+#: ../../src/logic/map_objects/tribes/production_program.cc:742
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s bylo odloženo, protože %2$s"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: e.g. 'Did not start working because 3x water and 3x wheat
+#. are missing'
+#. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
+#. bread is missing'
+#: ../../src/logic/map_objects/tribes/production_program.cc:1224
+#, c-format
+msgid "%s is missing"
+msgid_plural "%s are missing"
+msgstr[0] "chybí %s"
+msgstr[1] "chybí %s"
+msgstr[2] "chybí %s"
+msgstr[3] "chybí %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/map_objects/tribes/worker.cc:2066
+#, c-format
+msgid "Your %s can’t find a way home and will likely die."
+msgstr "%s nemůže najít cestu domů a pravděpodobně zemře."
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "Byl zjištěn %u nesoulad v rámci vybraných rozšíření:\n"
+msgstr[1] "Byly zjištěny %u nesoulady v rámci vybraných rozšíření:\n"
+msgstr[2] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
+msgstr[3] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/network_gaming_messages.cc:167
+#, c-format
+msgid "The player ‘%s’ was defeated and became a spectator."
+msgstr "\"%s\" prohrává hru a pokračuje pouze jako přihlížející."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/network_gaming_messages.cc:169
+#, c-format
+msgid "Client %s is cheating!"
+msgstr "%s obchází pravidla použitím cheatu."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:889
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which could not be found"
+msgstr "· „%1$s“ vyžaduje rozšíření „%2$s“, které nelze nalézt"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:895
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
+msgstr "· „%1$s“ vyžaduje rozšíření „%2$s“, které je vypnuto."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:902
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
+msgstr "· „%1$s“ vyžaduje rozšíření „%2$s“, to je v seznamu až pod požadovaným rozšířením"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons.cc:922
+#, c-format
+msgid ""
+"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
+"wrong order"
+msgstr "· „%1$s“ vyžaduje nejprve rozšíření „%2$s“ a pak „%3$s“, ale v seznamu jsou uvedena ve špatném pořadí"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons_packager.cc:548
+#, c-format
+msgid ""
+"‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
+msgstr "„%1$s“ není platným označením verze. Rozšíření „%2$s“ nebude uloženo."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wui/game_summary.cc:251
+#, c-format
+msgid "%s won!"
+msgstr "Vítězí %s!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: (Gametime · Realtime) or (Gametime · Gamespeed) or (Realtime
+#. · Gamespeed)
+#: ../../src/wui/info_panel.cc:435
+#, c-format
+msgid "%1$s · %2$s"
+msgstr "Herní čas: %1$s · Místní čas: %2$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Gametime · Realtime · Gamespeed
+#: ../../src/wui/info_panel.cc:439
+#, c-format
+msgid "%1$s · %2$s · %3$s"
+msgstr "Herní čas: %1$s · Místní čas: %2$s · %3$s"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-28 09:51+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-25 20:14+0000\n"
 "Last-Translator: Juanjo\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
@@ -12,7 +12,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+#: ../../src/logic/addons.cc:197
+#, c-format
+msgid "%u missing add-on"
+msgid_plural "%u missing add-ons"
+msgstr[0] "Fa falta %u complement."
+msgstr[1] "Fan falta %u complements."
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "S'ha detectat %u incompatibilitat de complements:\n"
+msgstr[1] "S'han detectat %u incompatibilitats de complements:\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/gameclient.cc:903
+msgid "/me ’s file failed md5 checksumming."
+msgstr "La suma md5 del fitxer de /me ha fallat."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/portdockwaresdisplay.cc:100

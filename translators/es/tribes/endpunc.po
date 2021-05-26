@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-21 15:04+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,12 +12,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Empire military site
+#: ../../data/tribes/buildings/militarysites/empire/blockhouse/init.lua:55
+msgctxt "empire_building"
+msgid "Your soldiers defeated the enemy at the blockhouse."
+msgstr "Tus soldados derrotaron al enemigo en el fortín"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Completed/Skipped/Did not start producing charcoal because ...
+#: ../../data/tribes/buildings/productionsites/amazons/charcoal_kiln/init.lua:50
+msgid "producing charcoal"
+msgstr "produciendo carbón vegetal."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Completed/Skipped/Did not start forging an advanced shield
 #. because ...
-#: ../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:235
+#: ../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:234
 msgid "forging an advanced shield"
 msgstr "forjando un escudo avanzado."
 

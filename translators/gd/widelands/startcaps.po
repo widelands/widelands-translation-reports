@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 15:42+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
 "widelands/language/gd/)\n"
 "Language: gd\n"
@@ -13,23 +13,53 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
+#: ../../src/logic/addons.cc:197
+#, c-format
+msgid "%u missing add-on"
+msgid_plural "%u missing add-ons"
+msgstr[0] "Tha %u tuilleadan a dhìth"
+msgstr[1] "Tha %u thuilleadan a dhìth"
+msgstr[2] "Tha %u tuilleadain a dhìth"
+msgstr[3] "Tha %u tuilleadan a dhìth"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
+#: ../../src/logic/addons.cc:200
+#, c-format
+msgid "%u add-on with wrong version"
+msgid_plural "%u add-ons with wrong version"
+msgstr[0] "Tha an tionndadh ceàrr aig %u tuilleadan"
+msgstr[1] "Tha an tionndadh ceàrr aig %u thuilleadan"
+msgstr[2] "Tha an tionndadh ceàrr aig %u tuilleadain"
+msgstr[3] "Tha an tionndadh ceàrr aig %u tuilleadan"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/immovable.cc:488
+#: ../../src/logic/map_objects/immovable.cc:498
 #: ../../src/logic/map_objects/tribes/constructionsite.cc:173
 #, c-format
 msgid "%i%% built"
 msgstr "’Ga thogail: %i%%"
 
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "Tha %u tuilleadan nach eil a-rèir a chèile:\n"
+msgstr[1] "Tha %u thuilleadan nach eil a-rèir a chèile:\n"
+msgstr[2] "Tha %u tuilleadain nach eil a-rèir a chèile:\n"
+msgstr[3] "Tha %u tuilleadan nach eil a-rèir a chèile:\n"
+
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:617
+#: ../../src/network/internet_gaming.cc:618
 #, c-format
 msgid "%s joined the lobby"
 msgstr "Thàinig %s a-steach dhan lobaidh"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:629
+#: ../../src/network/internet_gaming.cc:630
 #, c-format
 msgid "%s left the lobby"
 msgstr "Dh’fhàg %s an lobaidh"

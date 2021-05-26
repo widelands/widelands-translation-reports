@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
+"language/zh_CN/)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/scripting/infrastructure.lua:188
+msgid ""
+"Some of your starting buildings didn’t have enough room and weren’t built. "
+"You are at a disadvantage with this; consider restarting this map with a "
+"fair starting condition."
+msgstr "你的一些起始建筑没有足够的空间并且尚未建设完成。 您在这方面处于劣势；请考虑以合理的起始条件重新开始这张地图。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/scripting/infrastructure.lua:281
+msgid ""
+"There are no rocks near to your starting position. Therefore, you receive "
+"extra resources for bootstrapping your economy."
+msgstr "你的起始位置附近没有岩石。因此，你会得到额外的资源来引导你的经济。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/scripting/infrastructure.lua:286
+msgid ""
+"There are no trees near to your starting position. Therefore, you receive "
+"extra resources for bootstrapping your economy."
+msgstr "你的起始位置附近没有树木。因此，你会得到额外的资源来引导你的经济。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Help text in an editor tool
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:179
+msgid "Click to select an item. Use the Ctrl key to select multiple items."
+msgstr " 单击以选择项目。使用Ctrl键选择多个项目。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:169
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:184
+msgid "Error Creating Directory!"
+msgstr " 创建目录出错！ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:340
+msgid "Saving the map…"
+msgstr " 正在保存地图… "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Tooltip header for characters in illegal filenames.
+#. * This is followed by a list of bullet points
+#: ../../src/io/filesystem/filesystem.cc:272
+msgctxt "illegal_filename_characters"
+msgid "The following characters are not allowed:"
+msgstr " 不允许使用以下字符： "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/map_objects/tribes/ship.cc:557
+msgid "An expedition ship sailed around its island without any events."
+msgstr " 一艘探险船绕岛航行，没有发生任何事件。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: A ship has discovered land
+#: ../../src/logic/map_objects/tribes/ship.cc:620
+msgid "Land Ahoy!"
+msgstr " 着陆啊！ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/map_objects/tribes/warehouse.cc:646
+msgid "A waterway had to be destroyed to make room for your new port dock."
+msgstr " 为了在给你们的新码头腾出空间修建船坞，一条水道不得不被摧毁。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/gamehost.cc:548
+msgid ""
+"Widelands could not start hosting a server.\n"
+"This should not happen and there is most likely nothing you can do about it. Please report a bug."
+msgstr "Widelands不能开始服务器托管。\n 这不应该发生，而且你很可能对此无能为力。 请报告软件错误 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/gamehost.cc:557
+msgid ""
+"Widelands could not start a server.\n"
+"Probably some other process is already running a server on our port."
+msgstr "Widelands不能启动服务。\n 可能其它的进程已经在我们的端口上运行服务器了 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/internet_gaming.cc:937
+msgid "/ban <user> - Ban a user for 24 hours from the metaserver"
+msgstr "/ban <user> - 禁止用户在24小时内访问元数据服务器 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/internet_gaming_messages.cc:44
+msgid "There is no user with this name logged in."
+msgstr " 没有使用此账号名的用户登录。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/internet_gaming_messages.cc:58
+msgid ""
+"You got disconnected from the metaserver, as you did not answer a PING "
+"request in time."
+msgstr " 你已与元数据服务器断开连接，因为你没有及时响应PING请求。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/network_gaming_messages.cc:122
+msgid "Client has left the game."
+msgstr "客户端离开了游戏。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/network_gaming_messages.cc:160
+msgid "Client requests file although none is available to send."
+msgstr "客户端请求文件，尽管没有文件是可以可发送的。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_basic/spinbox.cc:142
+msgid "Decrease the value by 10"
+msgstr " 把值减少10 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_basic/spinbox.cc:146
+msgid "Increase the value by 10"
+msgstr "把值增加10 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:922
+#, c-format
+msgid ""
+"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
+"wrong order"
+msgstr "· ‘%1$s’ 首先需要  ‘%2$s’ 然后需要  ‘%3$s’, 但它们排列顺序不对 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:1175
+#, c-format
+msgid ""
+"The add-on ‘%1$s’ could not be downloaded from the server. Installing/upgrading this add-on will be skipped.\n"
+"\n"
+"Error Message:\n"
+"%2$s"
+msgstr "附加组件 ‘%1$s’ 不能从服务器下载， 将跳过安装/升级此附件。 错误信息： %2$s "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:1230
+#, c-format
+msgid ""
+"The translation files for the add-on ‘%1$s’ could not be downloaded from the server. Installing/upgrading the translations for this add-on will be skipped.\n"
+"\n"
+"Error Message:\n"
+"%2$s"
+msgstr "附加组件的翻译文件 ‘%1$s’ 不能从服务器下载， 将跳过安装/升级此附件的翻译文件。 错误信息： %2$s "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:1841
+msgid "This screenshot could not be fetched from the server due to an error."
+msgstr "由于出现错误，无法从服务器获取此屏幕快照。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons.cc:2065
+msgid ""
+"This add-on was not checked by the Widelands Development Team yet. We cannot"
+" guarantee that it does not contain harmful or offensive content."
+msgstr "Widelands开发团队尚未检查此附加组件。我们不能保证它不包含有害的或是不礼貌的内容 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:76
+msgid "Open Games:"
+msgstr " 打开游戏： "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:431
+msgid ""
+"Widelands was unable to get the IP address of the server in time. There "
+"seems to be a network problem, either on your side or on the side of the "
+"server.\n"
+msgstr " Widelands不能及时获取服务器的IP地址。似乎存在一个网络问题，这个问题不在客户端就在服务器端。 \n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/internet_lobby.cc:434
+msgid "Connection Timed Out"
+msgstr "连接超时 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/main.cc:377
+msgid "Edit an existing map"
+msgstr "编辑一张现有的地图 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/netsetup_lan.cc:299
+msgid "The entered hostname or address is invalid and can’t be connected to."
+msgstr "输入的主机名或地址是无效的，无法进行连接。 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/actionconfirm.cc:187
+msgid "Do you really want to destroy this building?"
+msgstr "你真的想摧毁这栋建筑吗？ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/actionconfirm.cc:246
+msgid "Do you really want to dismantle this building?"
+msgstr "你真的想拆除这栋建筑吗？ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/actionconfirm.cc:301 ../../src/wui/actionconfirm.cc:305
+msgid "Do you really want to enhance this building?"
+msgstr "你真的想把这栋建筑升级吗？ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/attack_box.cc:196
+msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
+msgstr "少派些士兵。按住Ctrl键不派遣士兵 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/attack_box.cc:235
+msgid "Click on a soldier to remove him from the list of attackers"
+msgstr "点击一名士兵，将其从攻击者名单中删除 "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/sound_options.cc:161
+msgid ""
+"Sound is disabled either due to a problem with the sound driver, or because "
+"it was switched off at the command line."
+msgstr "声音被禁用的原因可能是由于声卡驱动程序有问题，也可能是由于命令行关闭了声音。 "

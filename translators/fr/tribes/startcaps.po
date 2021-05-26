@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-13 09:19+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-11 21:14+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -12,21 +12,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/cassava_root_plantation/init.lua:66
-#: ../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:71
+#: ../../data/tribes/buildings/productionsites/amazons/cassava_plantation/init.lua:66
+#: ../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:72
 #: ../../data/tribes/buildings/productionsites/atlanteans/blackroot_farm/init.lua:69
 #: ../../data/tribes/buildings/productionsites/atlanteans/farm/init.lua:73
 #: ../../data/tribes/buildings/productionsites/barbarians/farm/init.lua:83
 #: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:65
 #: ../../data/tribes/buildings/productionsites/empire/farm/init.lua:72
 #: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:71
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:101
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:100
 #: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:81
 msgid "No Fields"
 msgstr "pas de champs"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start brewing chocolate because ...
+#: ../../data/tribes/buildings/productionsites/amazons/chocolate_brewery/init.lua:55
+msgid "brewing chocolate"
+msgstr "Mélange du chocolat"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start preparing a ration because ...
@@ -41,22 +47,66 @@ msgid "preparing a ration"
 msgstr "Prépare une ration"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is a building name used in lists of buildings
+#: ../../data/tribes/buildings/productionsites/amazons/furnace/init.lua:8
+msgctxt "amazons_building"
+msgid "Furnace"
+msgstr "fourneau"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start weaving cloth because ...
+#: ../../data/tribes/buildings/productionsites/amazons/rope_weaver_booth/init.lua:52
+msgid "making a rope"
+msgstr "Fabrique une corde"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start scouting because ...
 #: ../../data/tribes/buildings/productionsites/amazons/scouts_hut/init.lua:41
+#: ../../data/tribes/buildings/productionsites/amazons/scouts_hut/init.lua:49
 #: ../../data/tribes/buildings/productionsites/atlanteans/scouts_house/init.lua:45
+#: ../../data/tribes/buildings/productionsites/atlanteans/scouts_house/init.lua:56
 #: ../../data/tribes/buildings/productionsites/barbarians/scouts_hut/init.lua:49
+#: ../../data/tribes/buildings/productionsites/barbarians/scouts_hut/init.lua:57
 #: ../../data/tribes/buildings/productionsites/empire/scouts_house/init.lua:45
-#: ../../data/tribes/buildings/productionsites/frisians/scouts_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/empire/scouts_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/frisians/scouts_house/init.lua:55
+#: ../../data/tribes/buildings/productionsites/frisians/scouts_house/init.lua:63
 msgid "scouting"
 msgstr "Explore"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a shovel because ...
+#: ../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:116
+msgid "making a machete"
+msgstr "Construit une machette"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a fishing net because
+#. ...
+#: ../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:149
+msgid "making a chisel"
+msgstr "Fabrique un ciseau"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making kitchen tools because
+#. ...
+#: ../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:204
+msgid "making a hardened spear"
+msgstr "Construit une lance renforcée"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#: ../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:34
+msgid "cutting granite"
+msgstr "Coupe le granit"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start felling trees because ...
-#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:50
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:39
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:46
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:39
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:52
+#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:47
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:37
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:45
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:37
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:50
 msgid "felling trees"
 msgstr "Abat des arbres"
 
@@ -175,6 +225,41 @@ msgstr "fourneau"
 msgctxt "frisians_building"
 msgid "rearing reindeer"
 msgstr "Élève des rennes"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:115
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 0 to level 1"
+msgstr "Améliorer l'esquive du soldat du niveau 0 au niveau 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:158
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Améliore la santé du soldat du niveau 0 au niveau 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:186
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 2 to level 3"
+msgstr "Améliore la santé du soldat du niveau 2 au niveau 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:88
+msgctxt "amazons_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Améliore l'attaque du soldat du niveau 0 au niveau 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:102
+msgctxt "amazons_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Améliore l'attaque du soldat du niveau 1 au niveau 2"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-10 19:01+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-12 08:25+0000\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,7 +12,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) printf: Different number of printf variables
+#. TRANSLATORS: Performance helptext for a frisian production site: Tavern
+#: ../../data/tribes/initialization/frisians/units.lua:1909
+#, lua-format
+msgctxt "frisians_building"
+msgid ""
+"The tavern can produce one ration in %s on average if the supply is steady; "
+"otherwise, it will take 50%% longer."
+msgstr "A kocsma átlagosan %s alatt készít egy harapnivalót, ha folyamatos az áruellátása, különben 50%%-kal tovább tart."
+
+# (pofilter) printf: Different printf variable: %-á
+#. TRANSLATORS: Note helptext for a mine.
+#: ../../data/tribes/scripting/help/building_help.lua:425
+msgid ""
+"This mine will exploit %1%%% of its resources. From there on out, it will "
+"only have a %2%%% chance of finding any more of them."
+msgstr "Ez a bánya a nyersanyag %1%%%-át termeli ki. Ezután csak %2%%% valószínűséggel talál többet."
 
 # (pofilter) printf: Different number of printf variables
 #: ../../data/tribes/scripting/help/worker_help.lua:226

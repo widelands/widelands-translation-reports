@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-07-23 08:38+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"PO-Revision-Date: 2021-05-03 15:54+0000\n"
+"Last-Translator: Madkat Here\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../data/txts/help/common_helptexts.lua:21
@@ -25,9 +25,18 @@ msgid ""
 msgstr "En este juego, empiezas a partir de un pequeño pedazo de tierra con  algunos recursos. Usándolos, crearás un imperio con muchos cientos de habitantes. En tu camino hacia el objetivo, tendrás que establecer una infraestructura económica, explorar tierras a tu alrededor y enfrentar a tribus rivales."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/tips/general_game.lua:59
-msgid "Press I to quickly toggle the display of your stock inventory."
-msgstr "Presiona I  para cambiar rápidamente la visualización de tu inventario."
+#: ../../data/txts/tips/general_game.lua:80
+msgid ""
+"Use the ‘%1$s’ and ‘%2$s’ keys to quickly jump between recently visited "
+"locations."
+msgstr "Usa \"%1$s\"  y \"%2$s\" para saltar rapido entre los lugares recientemente visitados."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/txts/tips/general_game.lua:84
+msgid ""
+"Speed up or slow down the game with %1%/%2%. Use %3%/%4% for rapid change; "
+"%5%/%6% will adjust speed smoothly."
+msgstr "Aumenta o reduce la velocidad del juego con %1%/%2%. Utiliza %3%/%4% para cambios rapidos,  %5%/%6% va cambiar la velocidad suavemente."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../data/txts/tips/multiplayer.lua:4

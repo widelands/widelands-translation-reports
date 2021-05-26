@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-16 14:49+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 14:38+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../src/editor/ui_menus/tool_resize_options_menu.cc:51
@@ -23,3 +23,22 @@ msgid ""
 "number of columns/rows will be removed from the east/south of the splitting "
 "location."
 msgstr "Wähle die neue Kartengröße, dann klicke in die Karte um sie an der gewählten Position zu ändern. Wenn die Karte vergrößert wird, werden neue Spalten und Zeilen im Osten und Süden des gewählten Punktes angefügt. Wenn die Karte verkleinert wird, wird die gewünschte Anzahl der Spalten und Zeilen von Osten und Süden des Trennungspunktes gelöscht.  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons_packager.cc:114
+msgid "Please be patient while your changes are written."
+msgstr "Bitte geduldig sein während die Änderungen geschrieben werden. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/random_game.cc:66
+msgid ""
+"The random map generator is still in beta stage. The maps it generates are "
+"usually – but not always – well playable. Seafaring and artifacts are not "
+"supported. Add-ons of the World, Tribes, and Script categories are disabled "
+"in random matches."
+msgstr "Der Zufallskartengenerator ist immer noch in der Beta Phase. Die Karten, die er generiert, sind normalerweise – aber nicht immer – gut spielbar. Seefahrt und Artefakte werden nicht unterstützt. Erweiterungen der Kategorien Welt, Stämme und Skripte werden in Zufallsspielen deaktiviert. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wlapplication_options.cc:528
+msgid "Messages: Show "
+msgstr "Nachrichten: Anzeigen"

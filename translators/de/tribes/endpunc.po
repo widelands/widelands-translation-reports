@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-17 15:48+0000\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-06 20:46+0000\n"
 "Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
@@ -12,7 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
+#: ../../data/tribes/initialization/amazons/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:129
+#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
+#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
+msgid ""
+"Start the game with three ships on the ocean and only a handful of supplies"
+msgstr "Beginne das Spiel mit drei Schiffen auf dem Ozean und nur einer Hand voll an Gütern."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Fortified Village" starting
@@ -57,13 +68,3 @@ msgstr "Wenn diesem Spieler wichtige Waren ausgehen, werden sie umsonst aufgefü
 #: ../../data/tribes/initialization/frisians/starting_conditions/village.lua:13
 msgid "Start the game with a peaceful village"
 msgstr "Beginne das Spiel mit einem friedlichen Dorf."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
-#: ../../data/tribes/initialization/atlanteans/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/barbarians/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/empire/starting_conditions/discovery.lua:13
-#: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
-msgid ""
-"Start the game with three ships on the ocean and only a handful of supplies"
-msgstr "Beginne das Spiel mit drei Schiffen auf dem Ozean und nur einer Hand voll an Gütern."

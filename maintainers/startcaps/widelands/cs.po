@@ -2,18 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-11-29 16:13+0000\n"
-"Last-Translator: Ondřej Itřech <vasa5@centrum.cz>\n"
+"POT-Creation-Date: 2021-05-23 10:22+0000\n"
+"PO-Revision-Date: 2021-05-02 12:39+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <="
-" 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -93,7 +93,7 @@ msgstr "červenec"
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
 #: ../../src/base/time_string.cc:135
 msgid "Aug"
-msgstr "strpen"
+msgstr "srpen"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: September. Keep this to 4 letters maximum.
@@ -135,15 +135,81 @@ msgid "Dec"
 msgstr "prosinec"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/map_io/map_saver.cc:319
-msgid "Minimap"
-msgstr "minimapa"
+#. * TRANSLATORS: "Did not start working because the economy needs the ware
+#. '%s'"
+#. * TRANSLATORS: e.g. 'Did not start working because 3x water and 3x wheat
+#. are missing'
+#. * TRANSLATORS: For this example, this is what's in the place holders:
+#. * TRANSLATORS:    %1$s = "working"
+#. * TRANSLATORS:    %2$s = "3x water and 3x wheat are missing"
+#. * TRANSLATORS: This appears in the hover text on buildings. Please test
+#. these in
+#. context
+#. * TRANSLATORS: on a development build if you can, and let us know if there
+#. are any issues
+#. * TRANSLATORS: we need to address for your language.
+#: ../../src/logic/map_objects/tribes/production_program.cc:724
+#: ../../src/logic/map_objects/tribes/production_program.cc:1238
+#, c-format
+msgid "Did not start %1$s because %2$s"
+msgstr "nezačalo %1$s, protože %2$s"
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
+#. * TRANSLATORS: %s is a list of wares. String is fetched according to total
+#. amount of
+#. wares.
+#: ../../src/logic/map_objects/tribes/production_program.cc:1332
+#, c-format
+msgid "Produced %s"
+msgid_plural "Produced %s"
+msgstr[0] "vyrobena surovina %s"
+msgstr[1] "vyrobena surovina %s"
+msgstr[2] "vyrobena surovina %s"
+msgstr[3] "vyrobena surovina %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:35
+#. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
+#. description of the
+#. * training program, e.g. Completed upgrading soldier evade from level 0 to
+#. level 1
+#: ../../src/logic/map_objects/tribes/production_program.cc:1875
 #, c-format
-msgid "invalid tribe ‘%s’"
-msgstr "Neplatný kmen ‘%s’"
+msgid "Completed %s"
+msgstr "dokončeno %s"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/logic/map_objects/tribes/worker.cc:2066
+#, c-format
+msgid "Your %s can’t find a way home and will likely die."
+msgstr "%s nemůže najít cestu domů a pravděpodobně zemře."
+
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
+#: ../../src/network/gameclient.cc:721
+#, c-format
+msgid "%u add-on mismatch detected:\n"
+msgid_plural "%u add-on mismatches detected:\n"
+msgstr[0] "Byl zjištěn %u nesoulad v rámci vybraných rozšíření:\n"
+msgstr[1] "Byly zjištěny %u nesoulady v rámci vybraných rozšíření:\n"
+msgstr[2] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
+msgstr[3] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/network_gaming_messages.cc:167
+#, c-format
+msgid "The player ‘%s’ was defeated and became a spectator."
+msgstr "\"%s\" prohrává hru a pokračuje pouze jako přihlížející."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/network/network_gaming_messages.cc:169
+#, c-format
+msgid "Client %s is cheating!"
+msgstr "%s obchází pravidla použitím cheatu."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/game_summary.cc:251
+#, c-format
+msgid "%s won!"
+msgstr "Vítězí %s!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/wui/portdockwaresdisplay.cc:100

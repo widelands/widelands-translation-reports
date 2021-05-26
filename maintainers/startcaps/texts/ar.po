@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2020-11-13 06:12+0000\n"
-"PO-Revision-Date: 2020-07-23 07:47+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"PO-Revision-Date: 2021-04-13 10:18+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Arabic (http://www.transifex.com/widelands/widelands/language/"
 "ar/)\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Translate Toolkit 2.5.0\n"
+"X-Generator: Translate Toolkit 3.3.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/ABOUT.lua:7
@@ -382,16 +382,11 @@ msgstr "الإعادات"
 #. TRANSLATORS: This is an access key combination. Localize, but do not change
 #. the key.
 #: ../../data/txts/help/common_helptexts.lua:48
-msgctxt "hotkey"
-msgid "Space"
-msgstr "مساحة"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/help/common_helptexts.lua:48
 msgid "Toggle building spaces"
 msgstr "تبديل مساحة البناء"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is an access key combination. The hotkey is 'Ctrl + f'
 #: ../../data/txts/help/common_helptexts.lua:57
 msgid "Toggle fullscreen (if supported by the OS)"
 msgstr "تبديل الحجم الكامل للشاشة (إذا كان مدعوماً من نظام التشغيل)"
@@ -477,7 +472,7 @@ msgstr "تحتاج معظم المباني المحسنة إلى عمال ذوي
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/editor.lua:7
+#: ../../data/txts/tips/editor.lua:8
 #, lua-format
 msgid ""
 "You can find general help for the editor as well as a short tutorial on our "
@@ -485,7 +480,7 @@ msgid ""
 msgstr "يمكنك العثور على المساعدة العامة للمحرر بالإضافة إلى برنامج تعليمي قصير علي الويكي الخاص بنا على%s."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:11
+#: ../../data/txts/tips/editor.lua:12
 msgid ""
 "You can select multiple animal types if you hold down Ctrl during selection."
 " If you then click on the map, an instance of one of the selected animal "
@@ -493,14 +488,14 @@ msgid ""
 msgstr "يمكنك تحديد عدة أنواع من الحيوانات إذا قمت بالضغط على مفتاح Ctrl أثناء التحديد. إذا قمت بالنقر فوق الخريطة، فسيتم وضع مثيل لإحدي أنواع الحيوانات المحددة."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:35
+#: ../../data/txts/tips/editor.lua:36
 msgid ""
 "When placing trees, use the help button to see which trees are more likely "
 "to survive on which terrain."
 msgstr "عند وضع الأشجار، استخدم زر المساعدة لمعرفة أي الأشجار أكثر احتمالاً للبقاء على أي التضاريس."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/editor.lua:39
+#: ../../data/txts/tips/editor.lua:40
 msgid ""
 "If you do not set water and fish resources, a default amount will be used."
 msgstr "إذا لم تقم بتعيين الموارد المائية والأسماك، فسيتم إستخدام كمية افتراضية."
@@ -529,33 +524,33 @@ msgid "Always build a forester’s house, so you will not run out of logs."
 msgstr "دائماً إبني منزل الحارس، حتي لا تنفذ الألواح الخشبية منك."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:6
+#: ../../data/txts/tips/general_game.lua:7
 msgid ""
 "The building process will only start after a road is built to the "
 "construction site."
 msgstr "لن تبدأ عملية البناء إلا بعد إنشاء طريق إلى موقع البناء."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:10
+#: ../../data/txts/tips/general_game.lua:11
 msgid ""
 "Be sure to send a geologist to survey sites before building a well or a "
 "mine."
 msgstr "إحرص دائماً على إرسال عالم جيولجيا لفحص المواقع المُراد بناء ابار او مناجم بها."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:14
+#: ../../data/txts/tips/general_game.lua:15
 msgid ""
 "Your territory can be expanded by building various military buildings – "
 "Sentry, Fortress, Blockhouse, etc."
 msgstr "منطقة نفوذك يمكن توسيعها ببناء عدة مباني حربية -- مبني حراسة، القلعة، المعقل، إلخ."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:18
+#: ../../data/txts/tips/general_game.lua:19
 msgid "Miners will work only if supplied with food."
 msgstr "عمال المناجم سوف يعملون فقط إذا تم تزويدهم بالطعام."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:22
+#: ../../data/txts/tips/general_game.lua:23
 msgid ""
 "Split your roads into shorter sections by planting some flags. This will "
 "speed up transportation of your wares."
@@ -563,7 +558,7 @@ msgstr "قسِّم الطرق إلى أقسام أقصر عن طريق غرس ب
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/general_game.lua:27
+#: ../../data/txts/tips/general_game.lua:28
 #, lua-format
 msgid ""
 "Any further questions? Our FAQ, the wiki and of course our community forums "
@@ -571,79 +566,54 @@ msgid ""
 msgstr "أي أسئلة أخرى؟ يمكن العثور على الأسئلة الشائعة والويكي وبالطبع على منتديات المجتمع الخاصة بنا على الإنترنت علي %s."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:31
-msgid ""
-"Use the priority buttons in building windows to adjust delivery of a "
-"specific ware. Pressing Ctrl while clicking will adjust all wares at once."
-msgstr "استخدم أزرار الأولوية في نوافذ المبنى لضبط تسليم سلعة معينة. يؤدي الضغط على Ctrl أثناء النقر إلى ضبط جميع السلع دفعة واحدة."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:35
+#: ../../data/txts/tips/general_game.lua:36
 msgid ""
 "Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
 "can be accessed via the flag menu."
 msgstr "استخدم قائمة \"تعديل الإقتصاد\" لضبط الكمية المستهدفة من التركيبات. يمكن الوصول إليها عن طريق قائمة العلم."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:39
-msgid ""
-"Manage your messages more efficiently: press ‘N’ for News to access the "
-"messages window, then use ‘G’ for Go To, and the Delete key to archive "
-"messages."
-msgstr "يمكنك إدارة رسائلك بطريقة أكثر فاعلية: اضغط على \"N\" للأخبار للدخول إلى نافذة الرسائل، ثم استخدم \"G\" للوصول إلى، ومفتاح Delete لأرشفة الرسائل."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:43
+#: ../../data/txts/tips/general_game.lua:45
 msgid "Press %1% to store important locations, then press %2% to recall them."
 msgstr "إضغط %1% لكي تخزن الأماكن الهامة، ومن ثم إضغط  %2% لكي تذهب إليها مجدداً."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:47
+#: ../../data/txts/tips/general_game.lua:49
 msgid ""
 "Removing a road while holding Ctrl lets you remove all flags up to the first"
 " junction."
 msgstr "تتيح لك إزالة الطريق أثناء الضغط على زر Ctrl إزالة جميع الأعلام حتى التقاطع الأول."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:51
+#: ../../data/txts/tips/general_game.lua:53
 msgid ""
 "New soldiers are recruited in a barracks. Their abilities can then be "
 "improved in training sites."
 msgstr "يتم تجنيد جنود جدد في الثكنات. يمكن تحسين قدراتهم في مواقع التدريب."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:55
+#: ../../data/txts/tips/general_game.lua:57
 msgid ""
 "If you like to live dangerously, pressing Ctrl while clicking the enhance, "
 "dismantle or destroy building buttons will skip the confirmation."
 msgstr "إذا كنت تحب الخطر، فإن الضغط على زر Ctrl أثناء النقر على أزرار التحسين أو التفكيك أو التدمير سيؤدي إلى تخطي التأكيد."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:59
-msgid "Press I to quickly toggle the display of your stock inventory."
-msgstr "إضغط 1 بسرعة لكي تُظهر قائمة المخزن."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:63
+#: ../../data/txts/tips/general_game.lua:65
 msgid ""
 "An economy consists of all buildings and flags connected by roads. The "
 "supplies and demands of buildings are handled in its economy."
 msgstr "يتكون الاقتصاد من جميع المباني والأعلام المتصلة بالطرق. يتم التعامل مع الإمدادات ومطالب المباني في اقتصادها."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:67
+#: ../../data/txts/tips/general_game.lua:69
 msgid ""
 "Some buildings, such as the farm, have a very small work area. If the "
 "building is surrounded with trees or roads, production will stop."
 msgstr "تحتوي بعض المباني، مثل المزرعة، على منطقة عمل صغيرة جدًا. إذا كان المبنى محاطًا بأشجار أو طرق، سيتوقف الإنتاج."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:71
-msgid "Zoom in/out with the mouse wheel or %1%. Press %2% to reset the zoom."
-msgstr "تقريب/تبعيد الصورة بواسطة الزر الأوسط للفارة أو %1%. إضغط  %2% لكي تُرجع التقريب الأصلي."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/general_game.lua:87
+#: ../../data/txts/tips/general_game.lua:98
 msgid ""
 "When a building is destroyed, its workers will start looking for a nearby "
 "flag from which they can move by road to a connected warehouse. If there are"
@@ -671,13 +641,6 @@ msgid ""
 "Use ‘@name’ at the beginning of a chat message to send it to only one "
 "player."
 msgstr "استخدم \"@ اسم\" في بداية رسالة الدردشة لإرسالها إلى مستخدم واحد فقط."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/txts/tips/multiplayer.lua:16
-msgid ""
-"If the game should crash, don't worry! The game will be saved automatically "
-"so that you can reload it afterwards."
-msgstr "إذا كانت اللعبة يجب أن تتحطم، لا تقلق! سيتم حفظ اللعبة تلقائيًا حتى تتمكن من إعادة تحميلها بعد ذلك."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %s = URL to the Widelands website
