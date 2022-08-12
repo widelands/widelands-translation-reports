@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-11-03 18:55+0000\n"
+"Last-Translator: D M <kamera001dm@gmail.com>, 2021\n"
 "Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
@@ -12,7 +12,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Amazon military site
+#: ../../data/tribes/buildings/militarysites/amazons/tower/init.lua:62
+msgctxt "amazons_building"
+msgid "Your tower is under attack."
+msgstr "Ditt torn är under attack-"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Atlantean military site
+#: ../../data/tribes/buildings/militarysites/atlanteans/castle/init.lua:153
+msgctxt "atlanteans_building"
+msgid "Your soldiers have occupied your castle."
+msgstr "Dina soldater har ockuperat ditt slott"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Empire military site
+#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:31
+msgctxt "empire_building"
+msgid "Your soldiers have occupied your castle."
+msgstr "Dina soldater har ockuperat ditt slott"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Completed/Skipped/Did not start forging an advanced shield
@@ -22,7 +43,7 @@ msgid "forging an advanced shield"
 msgstr "smida en avancerad sköld."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:86
+#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:93
 msgctxt "barbarians_building"
 msgid ""
 "This granite mine’s main vein is exhausted. Expect strongly diminished "
@@ -31,14 +52,14 @@ msgid ""
 msgstr "Denna granitgruvas huvudsakliga åder är tömd. Förvänta dig starkt minskat utbyte från dina investeringar. Gruvan kan inte byggas ut mer så du borde överväga att demontera eller förstöra den"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:54
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:58
 msgctxt "barbarians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
 msgstr "Stenhuggaren som jobbar i detta stenbrott kan inte hitta några stenar inom sitt arbetsområde"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:68
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:71
 msgctxt "empire_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."

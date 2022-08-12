@@ -2,45 +2,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-07 09:03+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/graphic/gl/initialize.cc:310
+#: ../../src/graphic/gl/initialize.cc:302
 msgid "Shading Language"
 msgstr "lenguaje de sombreado"
 
-# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:197
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
+#: ../../src/logic/addons.cc:220
 #, c-format
 msgid "%u missing add-on"
 msgid_plural "%u missing add-ons"
 msgstr[0] "Falta %u complemento"
 msgstr[1] "Faltan %u complementos"
+msgstr[2] "Faltan %u complementos"
 
-# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
+# (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1415
+#: ../../src/logic/map_objects/tribes/production_program.cc:1424
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "%s reclutado"
 msgstr[1] "%s reclutados"
+msgstr[2] "%s reclutados"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Placeholders are the copyright years
-#: ../../src/ui_fsmenu/main.cc:463
+#: ../../src/ui_fsmenu/main.cc:480
 msgid ""
 "(C) %1%-%2% by the Widelands Development Team · Licensed under the GNU "
 "General Public License V2.0"

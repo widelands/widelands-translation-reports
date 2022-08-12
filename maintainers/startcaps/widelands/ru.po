@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-18 08:25+0000\n"
-"Last-Translator: nskdmitry\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Владимир Шевцов, 2022\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -14,17 +14,17 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A folder that hasn't been given a name yet
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:159
-#: ../../src/ui_fsmenu/internet_lobby.cc:483
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:162
+#: ../../src/ui_fsmenu/internet_lobby.cc:490
 msgid "unnamed"
 msgstr "Без названия"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:200
+#: ../../src/logic/addons.cc:222
 #, c-format
 msgid "%u add-on with wrong version"
 msgid_plural "%u add-ons with wrong version"
@@ -34,25 +34,31 @@ msgstr[2] "У %u дополнений не та версия"
 msgstr[3] "У %u дополнений не та версия"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:903
+#: ../../src/network/gameclient.cc:932
 msgid "/me ’s file failed md5 checksumming."
 msgstr "Файл /me не прошел проверку контрольной суммы MD5."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/addons.cc:468
+#: ../../src/ui_fsmenu/addons/manager.cc:623
 msgid "verified"
 msgstr "Проверено"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/addons.cc:922
+#: ../../src/ui_fsmenu/addons/manager.cc:1215
 #, c-format
 msgid ""
 "· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
 "wrong order"
 msgstr "Дополнения \"%2$s\" и \"%3$s\" должны идти в обратном порядке в зависимостях дополнения \"%1$s\""
 
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/addons/manager.cc:1400
+#, c-format
+msgid "Uploading ‘%s’…"
+msgstr "‘%s’ загружается…"
+
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/ui_fsmenu/addons.cc:2075
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:471
 #, c-format
 msgid "%u download"
 msgid_plural "%u downloads"
@@ -62,11 +68,22 @@ msgstr[2] "Загружено %uраз"
 msgstr[3] "Загружено %uраз"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/plot_area.cc:360
+#: ../../src/wlapplication.cc:1310
+#, c-format
+msgid "%s can not be combined with other actions"
+msgstr "Сочетать %s с другими действиями не получится"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication.cc:1586
+msgid "--xres/--yres, --maximized and --fullscreen can not be combined"
+msgstr "Нельзя использовать сочетания параметров --xres/--yres, --maximized и --fullscreen. Выберите что-то одно"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/plot_area.cc:359
 msgid "game"
 msgstr "Вся игра"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/portdockwaresdisplay.cc:100
+#: ../../src/wui/portdockwaresdisplay.cc:99
 msgid "(Empty)"
 msgstr "(пусто)"

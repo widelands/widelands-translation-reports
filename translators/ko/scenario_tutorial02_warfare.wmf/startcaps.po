@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-01 09:35+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:47+0000\n"
+"Last-Translator: TaeMin An, 2017,2019\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:26
@@ -189,6 +189,13 @@ msgstr "전투 경기장을 건설하십시오"
 #: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:77
 msgid "Build a battle arena. It is a big building."
 msgstr "전투 경기장은 건설하십시오. 대형 건물입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:78
+msgid ""
+"Since the construction will take some time, you can change the game speed "
+"using %1$s and %2$s."
+msgstr "공사에 시간이 걸리기 때문에, %1$s 과 %2$s 를 사용하여 놀이 속도를 변경할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:86
@@ -516,9 +523,9 @@ msgstr "특정한 군인을 치우려면, 그냥 클릭하십시오. 그러면 �
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:202
 msgid ""
-"Let me also describe what the numbers in the statistics string mean. This "
-"string can contain up to three numbers, e.g. ‘1 (+5) soldier (+2)’."
-msgstr "또한 통계 문자열의 숫자들이 의미하는 것에 대해 설명해드리겠습니다. 예를 들어, 이 문자열은 세 개의 숫자를 포함합니다. '1 (+5) 군인들 (+2)'."
+"Let me also describe what the numbers in the status string mean. This string"
+" can contain up to three numbers, e.g. ‘1 (+5) soldier (+2)’."
+msgstr "또한 통계 문자열의 숫자들이 의미하는 것에 대해 설명해드리겠습니다. 이 문자열은 세 개의 숫자를 포함합니다. 예를 들면, ‘1 (+5) 명의 군인들 (+2)’."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:203
@@ -651,7 +658,7 @@ msgid ""
 "Citadels can’t be built directly. Instead, you’ll have to construct a "
 "fortress first and then enhance it to a citadel. To do so, click on the "
 "fortress, then choose the ‘Enhance to Citadel’ button."
-msgstr "성채는 직접적으로 건설할 수 없습니다. 대신, 요새를 먼저 건설하고 성채로 향상시켜야만 합니다. 그렇게 하려면, 요새를 클릭하시고, '성채로 향상' 버튼을 선택하십시오"
+msgstr "성채는 직접적으로 건설할 수 없습니다. 대신, 요새를 먼저 건설하고 성채로 향상시켜야만 합니다. 그렇게 하려면, 요새를 클릭하고, '성채로 향상' 버튼을 선택하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:241

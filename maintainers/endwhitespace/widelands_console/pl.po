@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-22 20:16+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"PO-Revision-Date: 2015-02-03 14:54+0000\n"
+"Last-Translator: Pawel <pawcio980@gmail.com>, 2022\n"
 "Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
 "pl/)\n"
 "Language: pl\n"
@@ -14,12 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_messages.cc:107
-msgid ""
-" --ai_training        Enables AI training mode. See\n"
-"                      https://www.widelands.org/wiki/Ai%20Training/\n"
-"                      for a full description of the AI training logic."
-msgstr "--ai_training Włącza tryb treningowy SI. Skocz pod adres \nhttps://www.widelands.org/wiki/Ai%20Training/\n po pełny opis logiki treningowej SI. "
+#. * TRANSLATORS: The … is not used on purpose to increase readability on
+#. monospaced terminals
+#: ../../src/wlapplication_messages.cc:66
+msgid "[de_DE|sv_SE|...]"
+msgstr "[de_DE|sv_SE|...]\n "

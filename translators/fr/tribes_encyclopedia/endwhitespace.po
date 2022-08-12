@@ -2,28 +2,111 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-11 21:13+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Wodden Helmet
+#: ../../data/tribes/initialization/amazons/units.lua:458
+msgctxt "amazons_ware"
+msgid ""
+"A wooden helmet is a basic piece of equipment for protecting soldiers. It is"
+" produced by the dressmaker and used to train soldiers from health level 1 "
+"to level 2."
+msgstr "Un caque en bois est une piece d'equipement basique pour protéger les soldats. Il est produit par la couturière et utilisé pour améliorer la santé des soldats du niveau 1 au niveau 2. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon worker: Tapir Breeder
+#: ../../data/tribes/initialization/amazons/units.lua:575
+msgctxt "amazons_worker"
+msgid "Breeds tapirs for adding them to the transportation system."
+msgstr "Reproduit les tapirs pour les ajouter au systeme de transport. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon worker: Master Woodcutter
+#: ../../data/tribes/initialization/amazons/units.lua:599
+msgctxt "amazons_worker"
+msgid "Harvests special trees: ironwood, rubber and balsa."
+msgstr "Récolte les arbres spéciaux : bois de fer, caouchouc, balsa. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon worker: Jungle Master
+#: ../../data/tribes/initialization/amazons/units.lua:613
+msgctxt "amazons_worker"
+msgid "Plants special trees: ironwood, rubber and balsa."
+msgstr "Plante les arbres spéciaux : bois de fer, caouchouc, balsa. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Balsa Tree Old
+#: ../../data/tribes/initialization/amazons/units.lua:799
+#: ../../data/tribes/initialization/amazons/units.lua:827
+#: ../../data/tribes/initialization/amazons/units.lua:855
+#: ../../data/tribes/initialization/amazons/units.lua:883
+msgid ""
+"This balsa tree is ready for harvesting balsa wood by a master woodcutter. "
+"Other tribes can harvest it for normal logs."
+msgstr "Ce balsa est prêt á être récolté par une Maitresse bûcheronne pour son bois de balsa. Les autres tribus peuvent le récolter pour des troncs normaux. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Ironwood Tree Pole
+#: ../../data/tribes/initialization/amazons/units.lua:897
+#: ../../data/tribes/initialization/amazons/units.lua:925
+#: ../../data/tribes/initialization/amazons/units.lua:953
+#: ../../data/tribes/initialization/amazons/units.lua:981
+msgid "This ironwood tree is growing."
+msgstr "Cet arbre á bois de fer pousse. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Ironwood Tree Old
+#: ../../data/tribes/initialization/amazons/units.lua:911
+#: ../../data/tribes/initialization/amazons/units.lua:939
+#: ../../data/tribes/initialization/amazons/units.lua:967
+#: ../../data/tribes/initialization/amazons/units.lua:995
+msgid ""
+"This ironwood tree is ready for harvesting ironwood by a master woodcutter. "
+"Other tribes can harvest it for normal logs."
+msgstr "Cer arbre a bois de fer est prêt á être récolté par une Maitresse bûcheronne pour son bois de balsa. Les autres tribus peuvent le récolter pour des troncs normaux. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Rubber Tree Old
+#: ../../data/tribes/initialization/amazons/units.lua:1023
+#: ../../data/tribes/initialization/amazons/units.lua:1051
+#: ../../data/tribes/initialization/amazons/units.lua:1079
+#: ../../data/tribes/initialization/amazons/units.lua:1107
+msgid ""
+"This rubber tree is ready for harvesting rubber by a master woodcutter. "
+"Other tribes can harvest it for normal logs."
+msgstr "Cet arbre à caoutchouc est prêt á être récolté par une Maitresse bûcheronne pour son bois de balsa. Les autres tribus peuvent le récolter pour des troncs normaux. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note helptext for an amazon warehouse: Port
+#: ../../data/tribes/initialization/amazons/units.lua:1258
+msgctxt "amazons_building"
+msgid ""
+"Similar to the Headquarters a Port can be attacked and destroyed by an "
+"enemy. It is recommendable to send soldiers to defend it."
+msgstr "Comme pour les quatiers généraux, un port peut être attaqué et détruit par un adversaire. Il est recommandé d'envoyer des Soldates pour le défendre. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Purpose helptext for an amazon production site: Wilderness
 #. Keeper's Tent
-#: ../../data/tribes/initialization/amazons/units.lua:1330
+#: ../../data/tribes/initialization/amazons/units.lua:1338
 msgctxt "amazons_building"
 msgid "Breeds fish and game to renew food resources."
 msgstr "Élève du poisson et du gibier pour renouveler les ressources de nourriture. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/tribes/initialization/amazons/units.lua:1338
+#: ../../data/tribes/initialization/amazons/units.lua:1346
 msgctxt "amazons_building"
 msgid ""
 "You need to connect this flag to a scout’s hut before you can send a scout "
@@ -31,7 +114,32 @@ msgid ""
 msgstr "Vous devez connecter ce drapeau à une maison d'éclaireur avant de pouvoir y envoyer un éclaireur. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/tribes/initialization/atlanteans/units.lua:1460
+#. TRANSLATORS: Purpose helptext for an amazon production site: Dressmakery
+#: ../../data/tribes/initialization/amazons/units.lua:1403
+msgctxt "amazons_building"
+msgid "Sews all dresses, boots and armor for our soldiers."
+msgstr "Coud toutes les robes, bottes, et armures de nos soldates. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Purpose helptext for an amazon production site: Tapir Farm
+#: ../../data/tribes/initialization/amazons/units.lua:1464
+msgctxt "amazons_building"
+msgid "Breeds tapirs for adding them to the transportation system."
+msgstr "Reproduit les tapirs pour les ajouter au systeme de transport. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note helptext for an atlantean warehouse: Port
+#: ../../data/tribes/initialization/atlanteans/units.lua:1448
+msgctxt "atlanteans_building"
+msgid ""
+"Similar to the Headquarters a Port can be attacked and destroyed by an "
+"enemy. It is recommendable to send soldiers to defend it."
+msgstr "Comme pour les quatiers généraux, un port peut être attaqué et détruit par un adversaire. Il est recommandé d'envoyer des Soldates pour le défendre. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Special helptext for an atlantean production site: Scout's
+#. House without road connection
+#: ../../data/tribes/initialization/atlanteans/units.lua:1579
 msgctxt "atlanteans_building"
 msgid ""
 "You need to connect this flag to a scout’s house before you can send a scout"
@@ -39,7 +147,16 @@ msgid ""
 msgstr "Vous devez connecter ce drapeau à une maison d'éclaireur avant de pouvoir y envoyer un éclaireur. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/tribes/initialization/barbarians/units.lua:1235
+#. TRANSLATORS: Note helptext for an barbarian warehouse: Port
+#: ../../data/tribes/initialization/barbarians/units.lua:1124
+msgctxt "barbarians_building"
+msgid ""
+"Similar to the Headquarters a Port can be attacked and destroyed by an "
+"enemy. It is recommendable to send soldiers to defend it."
+msgstr "Comme pour les quatiers généraux, un port peut être attaqué et détruit par un adversaire. Il est recommandé d'envoyer des Soldates pour le défendre. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/tribes/initialization/barbarians/units.lua:1234
 msgctxt "barbarians_building"
 msgid ""
 "You need to connect this flag to a scout’s hut before you can send a scout "
@@ -49,13 +166,22 @@ msgstr "Vous devez connecter ce drapeau à une maison d'éclaireur avant de pouv
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Lore author helptext for a barbarian production site: Helm
 #. Smithy
-#: ../../data/tribes/initialization/barbarians/units.lua:1490
+#: ../../data/tribes/initialization/barbarians/units.lua:1489
 msgctxt "barbarians_building"
 msgid "Slogan of ‘Harrath’s Handsome Helmets’ in Al’thunran"
 msgstr "Slogan des 'Élégants casques de Harrath' à Al'thunran "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/tribes/initialization/empire/units.lua:1214
+#. TRANSLATORS: Note helptext for an empire warehouse: Port
+#: ../../data/tribes/initialization/empire/units.lua:1226
+msgctxt "empire_building"
+msgid ""
+"Similar to the Headquarters a Port can be attacked and destroyed by an "
+"enemy. It is recommendable to send soldiers to defend it."
+msgstr "Comme pour les quatiers généraux, un port peut être attaqué et détruit par un adversaire. Il est recommandé d'envoyer des Soldates pour le défendre. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/tribes/initialization/empire/units.lua:1370
 msgctxt "empire_building"
 msgid ""
 "You need to connect this flag to a scout’s house before you can send a scout"
@@ -63,7 +189,16 @@ msgid ""
 msgstr "Vous devez connecter ce drapeau à une maison d'éclaireur avant de pouvoir y envoyer un éclaireur. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../data/tribes/initialization/frisians/units.lua:1722
+#. TRANSLATORS: Note helptext for a frisian warehouse: Port
+#: ../../data/tribes/initialization/frisians/units.lua:1546
+msgctxt "frisians_building"
+msgid ""
+"Similar to the Headquarters a Port can be attacked and destroyed by an "
+"enemy. It is recommendable to send soldiers to defend it."
+msgstr "Comme pour les quatiers généraux, un port peut être attaqué et détruit par un adversaire. Il est recommandé d'envoyer des Soldates pour le défendre. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/tribes/initialization/frisians/units.lua:1737
 msgctxt "frisians_building"
 msgid ""
 "You need to connect this flag to a scout’s house before you can send a scout"

@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-29 14:02+0000\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
 "PO-Revision-Date: 2017-05-15 11:49+0000\n"
-"Last-Translator: ks k, 2020\n"
+"Last-Translator: ks k, 2021\n"
 "Language-Team: Korean (https://www.transifex.com/widelands/teams/35159/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:45
@@ -28,7 +28,7 @@ msgstr "첫번째 전초기지"
 msgid ""
 "Build an outpost at the yellow house symbol to the east of your provisional "
 "headquarters."
-msgstr "임시 본부 동쪽에 있는 노란 집 기호에 전초기지를 지으십시오"
+msgstr "임시 본부 동쪽에 있는 노란 집 기호에 전초기지를 지으십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:54
@@ -275,7 +275,7 @@ msgstr "고향으로의 여정"
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:207
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:387
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:622
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:651
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:652
 msgid "Diary of Lutius"
 msgstr "루티우스의 일지"
 
@@ -569,7 +569,7 @@ msgid ""
 "sufficient for the moment being."
 msgstr ""
 "하지만 문제가 있는데, 만약 우리가 대리석을 모두 기둥을 깎는데 사용하면, 다 떨어지겠지요. 그래서 우리는 경제 구성에서 대리석 기둥의 "
-"구성을 더 적은 양으로 낮춰야만 해요. 제 생각에는 네 개의 기둥이 여분으로 확보되면 거의 다 될 것 같아요. "
+"구성을 더 적은 양으로 낮춰야만 해요. 제 생각에는 네 개의 기둥이 여분으로 확보되면 거의 다 될 것 같아요."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:317
@@ -694,14 +694,28 @@ msgstr ""
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Amalea
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:372
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:375
 msgid ""
-"So, let’s think this over. To weave cloth we need some wool from a sheep "
-"farm. The sheepfarm itself needs wheat and water to work. So, let’s find a "
-"space for a big building and build a farm first."
+"After the production of enough wheat, we can dismantle the farm and build a "
+"sheep farm to produce wool. When the sheep farm starts working, we could "
+"find or free up space for a medium building to build a weaving mill to use "
+"our wool for weaving cloth. But for the moment being, let’s start by "
+"producing a reasonable amount of wheat."
 msgstr ""
-"자, 다시 생각해 보죠. 옷감을 직조하라면 양 목장에서 양털이 있어야 합니다. 양 목장이 운영되려면 밀과 물이 있어야 합니다. 그러면, "
-"큰 건물을 지을 공간을 찾아 농장을 먼저 짓습니다."
+"충분한 양의 밀을 생산한 후에, 농장을 해체하고 양털을 생산할 양 목장을 짓습니다. 양 목장이 일을 시작하면, 우리는 중간 크기의 건물이"
+" 천을 짜는 데 쓸 털실을 만들 수 있는 공간을 찾거나 확보할 수 있습니다. 하지만 당분간은 적당한 양의 밀을 생산하는 것으로 "
+"시작합시다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Amalea
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:378
+msgid ""
+"I think a stock of 50 sheaves of wheat would be enough for starters. We do "
+"not have a target quantity for wheat, because the farmer does not need other"
+" wares to produce it. All we have to do is watch our stock of wheat grow."
+msgstr ""
+"우선 밀을 50 묶음이나 비축하면 충분할 것 같아요. 농부가 밀을 생산하는 데 다른 상품들은 필요없기 때문에 우리는 밀의 목표 수량이 "
+"없습니다. 우리가 해야 할 일은 우리의 밀 재고가 늘어나는 것을 지켜보는 것입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:386
@@ -800,6 +814,17 @@ msgstr ""
 "북소리였을 겁니다. 그러므로, 우리는 가서 거기가 어떻게 되고 있는지 살펴봐야만 합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Saledus
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:427
+msgid ""
+"In any case we should be careful with our ports. To defend them against "
+"possible enemies we should send some soldiers to each new port, until we can"
+" protect them with some military buildings."
+msgstr ""
+"어쨌든 우리의 항구를 조심해야 합니다. 가능하면 적으로부터 그들을 방어하기 위해 우리는 군사 건물로 그것들을 보호 할 수 있을 때까지 "
+"각각의 새로운 항구에 몇 명의 군인들을 보내야 합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:435
 msgid "Amalea Advises"
 msgstr "아말리아가 충고했다"
@@ -808,6 +833,17 @@ msgstr "아말리아가 충고했다"
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:436
 msgid "Amalea looks thoughtful…"
 msgstr "아말리아가 생각에 잠겨 있는 것 같다…"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Amalea
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:438
+msgid ""
+"Salve Lutius. While talking to all our brave builders, they told me that "
+"they have to use all our remaining gold for building the port. So, we won’t "
+"have any gold left after our port is built."
+msgstr ""
+"루티우스를 위하여. 용감한 건설업자들과 이야기해봤는데, 그들은 항구를 짓기 위해서는 우리의 남은 금을 모두 사용해야 한다고 말했습니다. "
+"따라서 항구를 건설된 후에는 금이 남지 않을 것입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Amalea
@@ -1264,19 +1300,19 @@ msgstr "이 임무를 완수했습니다. 원한다면 계속 할 수 있고, �
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lutius - Diary
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:636
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:637
 msgid "Finally, we have discovered a piece of our shrine. Praise Neptune!"
 msgstr "마침내, 우리는 성소의 한 조각을 발견했다. 바다용왕을 찬양하라!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lutius - Diary
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:639
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:640
 msgid "We have discovered another piece of our shrine. Praise Neptune!"
 msgstr "우리는 성소의 또 다른 조각을 발견했다. 바다용왕을 찬양하라!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lutius - Diary
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:644
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:645
 #, lua-format
 msgid "We still need to discover %d piece of our shrine."
 msgid_plural "We still need to discover %d pieces of our shrine."
@@ -1284,7 +1320,7 @@ msgstr[0] "우리는 성소의 %d 번째 조각을 발견했다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lutius - Diary
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:647
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:648
 msgid ""
 "Finally, we have discovered the last piece of our shrine. Now we can "
 "reassemble it to worship our god. Praise Neptune!"
@@ -1292,6 +1328,6 @@ msgstr ""
 "마침내, 우리는 성소의 마지막 조각을 발견했다. 이제 우리는 우리의 신을 모시기 위해 재조립할 수 있을 것이다. 바다용왕을 찬양하라!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:650
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:651
 msgid "Artifact Found"
 msgstr "유물 발견"

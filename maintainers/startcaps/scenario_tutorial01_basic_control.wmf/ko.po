@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-22 20:16+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-03-25 02:57+0000\n"
+"PO-Revision-Date: 2015-02-03 14:46+0000\n"
+"Last-Translator: TaeMin An, 2017,2019\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:10
@@ -39,10 +39,58 @@ msgid "Welcome to Widelands!"
 msgstr "와이드랜드에 온 것을 환영합니다!"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:30
+msgid ""
+"Widelands is a slow-paced build-up strategy game with an emphasis on "
+"construction rather than destruction."
+msgstr "와이드랜드는 파괴보다는 건설에 중점을 두는 느린 속도의 건설 전략 놀이입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:31
+msgid "You will be guided through this tutorial by objectives."
+msgstr "이 자습서는 목표별로 안내됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:37
+msgid "Objectives and how to handle them"
+msgstr "목표 및 이를 다루는 방법"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:39
+msgid "Handling of the ‘Objectives’ window"
+msgstr "'목표' 창 다루기"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:41
+msgid ""
+"Like most other windows, you can also close the window by right-clicking on "
+"it."
+msgstr "다른 대부분의 창과 마찬가지로 마우스 오른쪽 단추를 눌러 창을 닫을 수도 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:42
+msgid ""
+"When you have accomplished an objective, it will disappear from the list."
+msgstr "목표를 달성하면 목록에서 사라집니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:48
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:50
 msgid "Show building spaces"
 msgstr "건물 공간 표시"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:51
+msgid "Activate ‘Show Building Spaces’. There are two ways you can do this:"
+msgstr "‘건물 공간 표시’ 를 활성화할 수 있습니다. 두 가지 방법을 사용할 수 있습니다:"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:52
+#, lua-format
+msgid ""
+"Press %s to toggle them, or select ‘Show Building Spaces’ in the ‘Show / "
+"Hide’ menu."
+msgstr "%s 을(를) 눌러 전환하거나 ‘표시 / 숨김’ 차림표에서 ‘건물 공간 표시’를 선택하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:53
@@ -62,11 +110,31 @@ msgid "Let’s dive right in!"
 msgstr "바로 들어가볼까요!"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:65
+msgid ""
+"You will usually start the game with one headquarters. This is the big "
+"building with the blue flag in front of it. The headquarters stores wares, "
+"workers and soldiers. Some wares are needed for building houses, others for "
+"making other wares. Obviously, the initial wares will not last forever, so "
+"you must make sure to replenish them. The most important wares in the early "
+"game are the basic construction wares: logs and granite. Let’s make sure "
+"that we do not run out of logs. For this, we need a lumberjack and a hut for"
+" him to stay in."
+msgstr "일반적으로 하나의 본부로 게임을 시작합니다. 이 앞에 파란 깃발과 같이 큰 건물이 있습니다. 본부는 물품들, 일꾼들, 군인들을 저장하는 창고입니다. 집을 짓는데 필요한 물품도 있고, 다른 물품을 만드는 데 필요한 물품도 있습니다. 당연한거지만, 초기 물품은 영원히 지속되지 않을 것이므로 반드시 그것들을 보충해야 합니다. 게임 초반에 가장 중요한 물품은 통나무와 화강암과 같은 기본적인 건축 물품입니다. 통나무가 부족하지 않도록 해야합니다. 그러기 위해서, 우리는 나무꾼과 그가 지낼 오두막이 필요합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:66
 msgid ""
 "We need to find a nice place for the lumberjack’s hut. To make this easier, "
 "we can activate ‘Show Building Spaces’."
 msgstr "우리는 벌목꾼의 오두막집을 위한 좋은 장소를 찾아야 합니다. 이를 쉽게 하기 위해 ‘건물 공간 표시’를 활성화할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:67
+msgid ""
+"I’ll show you where the menu is and where to show and hide the building "
+"spaces."
+msgstr "차림표가 어디에 있는지, 건물 공간을 보여주고 숨길 곳을 보여 주겠습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:77
@@ -81,9 +149,32 @@ msgid "Lumberjack’s Spot"
 msgstr "벌목꾼의 위치"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:91
+msgid ""
+"There you go. Now, let me show you how to make a lumberjack’s hut and how to"
+" connect it with a road. There is a sweet spot for a lumberjack right next "
+"to those trees. I’ll describe the steps I will take and then demonstrate "
+"them."
+msgstr "됐습니다. 이제 나무꾼 오두막을 만드는 방법과 땅길과 연결하는 방법을 보여 주겠습니다. 그 나무 바로 옆에 나무꾼을 위한 좋은 장소가 있습니다. 제가 취할 단계를 설명한 다음 시연하겠습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:98
 msgid "Building the Lumberjack"
 msgstr "벌목꾼의 오두막 짓기"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:102
+msgid ""
+"First, I’ll left-click on the symbol where I want the lumberjack’s hut to be"
+" built. A window will appear where I can choose between buildings."
+msgstr "먼저, 나무꾼의 오두막을 짓기 원하는 기호를 마우스 왼쪽 단추로 클릭합니다. 건물 중 하나를 선택할 수 있는 창이 나타납니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:103
+msgid ""
+"The lumberjack’s hut is a small building, so I will then go on to select the"
+" small buildings tab. Then I’ll choose the lumberjack’s hut."
+msgstr "나무꾼의 오두막은 작은 건물이므로 저는 이어서 작은 건물 탭을 선택할 것입니다. 그럼 저는 나무꾼의 오두막을 선택하겠습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:110
@@ -231,6 +322,13 @@ msgid "Well done! Let’s wait till the hut is finished."
 msgstr "잘 했습니다! 오두막이 완성되기까지 기다립니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:217
+msgid ""
+"If you want things to go faster, simply use the %1$s key on your keyboard to"
+" increase the game speed. You can use %2$s to make the game slower again."
+msgstr "더 빨리 진행하려면 키보드의 %1$s 키를 사용하여 놀이 속도를 높이면 됩니다. %2$s 키를 사용하여 게임을 다시 느리게 만들 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:225
 msgid "The Lumberjack’s Hut is Done"
 msgstr "벌목꾼의 오두막이 완료됨"
@@ -242,6 +340,16 @@ msgid ""
 "start chopping down trees, so our log income is secured for now. Now on to "
 "the granite."
 msgstr "훌륭합니다. 벌목꾼의 오두막이 지어졌습니다. 벌목꾼은 이제 이동해서 나무를 베어내기 시작할테니, 우리 통나무 수입이 확보될 겁니다. 그럼 화강암으로 넘어가 봅시다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:240
+msgid "Moving the View"
+msgstr "시야를 이동"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:242
+msgid "Move your view"
+msgstr "당신의 시야를 이동시키십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:243
@@ -306,6 +414,15 @@ msgid "Play around a bit with the different overlays (roads, flags, etc.)"
 msgstr "각각의 오버레이 (땅길, 깃발, 기타 등) 를 활성화해 보십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:266
+#, lua-format
+msgid ""
+"When you are ready to continue, close the minimap by selecting ‘Hide "
+"Minimap’ in the ‘Map View’ menu or by pressing ‘%s’. Of course, a right-"
+"click also works."
+msgstr "계속할 준비가 되면 ‘지도 보기’ 차림표에서 ‘작은 지도 숨김’를 선택하거나 ‘%s’ 을 눌러 작은 지도를 닫으십시오. 물론 오른쪽 단추를 눌러도 가능합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:270
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:285
 msgid "Moving Your View"
@@ -320,7 +437,15 @@ msgstr "작은 지도를 사용하기"
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:274
 msgid "Very good. And now about the minimap. "
-msgstr "아주 좋아요. 이제 작은 지도에 대해 알아보겠습니다."
+msgstr "아주 좋아요. 이제 작은 지도에 대해 알아보겠습니다. "
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:276
+#, lua-format
+msgid ""
+"You can open it by selecting the ‘Show Minimap’ entry in the ‘Map View’ menu"
+" at the bottom of the screen or simply by using the keyboard shortcut ‘%s’."
+msgstr "화면 하단의 ‘지도보기’ 차림표에서 ‘작은 지도 표시’항목을 선택하거나 키보드 단축키 ‘%s’ 을 사용하여 간단히 열 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:278
@@ -363,6 +488,15 @@ msgid ""
 msgstr "본부 서쪽에 몇 개의 바위들이 있습니다. 그 바로 옆에 채석장을 지으십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:313
+#, lua-format
+msgid ""
+"The quarry is a small building like the lumberjack’s hut. You can therefore "
+"build it on any field that shows a red, yellow or green house when the "
+"building spaces symbols are enabled (Press ‘%s’ for that)."
+msgstr "채석장은 벌목꾼의 오두막과 같은 작은 건물입니다. 그러므로 건설 공간 기호가 활성화될 때 ( ‘%s’ 키를 누르면 됩니다)  붉은색, 노란색 또는 초록색 집이 나타나는 어떤 땅에서든 지을 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:314
 msgid ""
 "Just click on any house symbol next to the rocks, select the small buildings"
@@ -379,6 +513,14 @@ msgstr "채석장 짓는 방법"
 msgid ""
 "Build a quarry next to those rocks here. Remember how I did it earlier?"
 msgstr "여기 바위들 옆에 채석장을 지으십시오. 전에 했던 것을 기억하십니까?"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:324
+msgid ""
+"Make sure that you are showing the building spaces, then just click on the "
+"space where you want the building to be, choose it from the window that "
+"appears, and it is placed."
+msgstr "건물 공간을 표시하고 있는지 확인한 다음 건물이 있을 공간을 누르고 나타나는 창에서 해당공간을 선택하면 배치됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:325
@@ -457,13 +599,6 @@ msgid ""
 msgstr "이제, 땅길을 살펴 봅시다. 기억하십시오: 우리는 채석장 건설을 명한 직후에 이미 땅길 건설 모드에 들어가 있습니다. 좀 더 길게 말하자면 당신은 한 번에 땅 하나씩 주변 땅에 여러번 왼쪽 클릭을 해서 이어질 땅길 노선을 완벽히 제어할 수 있습니다, 이렇게:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:355
-msgid ""
-" Excellent! To enter road building mode for any flag, left-click on a flag "
-"and select the road building symbol."
-msgstr "잘 했습니다! 깃발에 대한 땅길 건설 모드로 들어가려면 깃발을 마우스 왼쪽 단추로 클릭하고 땅길 건설 기호를 선택하십시오."
-
-# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:357
 msgid ""
 "Now, about this road. I’ll enter the road building mode and then make it "
@@ -486,6 +621,12 @@ msgstr "채석장을 본부와 연결하십시오"
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:376
 msgid "Connect Your Construction Site"
 msgstr "건설 현장을 연결하십시오"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:377
+msgid ""
+"Connect your quarry construction site to your headquarters with a road."
+msgstr "채석장 건설 현장과 본부를 땅길로 연결하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:378
@@ -541,6 +682,14 @@ msgstr "땅길을 배치하는 동안 경사면에 신경을 써서 잇점을 �
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:396
 msgid "Quarry not Connected"
 msgstr "채석장이 연결되지 않았습니다"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:398
+msgid ""
+"Your workers do not like to walk across country. You have to build a road "
+"from your headquarters to the construction site so that carriers can "
+"transport wares."
+msgstr "일꾼들은 지역을 가로지르는 것을 좋아하지 않습니다. 본부에서 건설 현장까지 땅길을 건설해야 짐꾼들이 물품을 운반할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:405
@@ -599,8 +748,25 @@ msgstr "바위들이 많이 있다면, 또다른 채석장을 짓는것을 생�
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:437
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:457
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:469
-msgid "Census and Statistics"
-msgstr "실태 조사와 통계"
+msgid "Census and Status"
+msgstr "실태 조사 및 상태"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:439
+msgid ""
+"While we wait, I’ll quickly show you another useful feature. It is sometimes"
+" hard to tell all the buildings apart. Widelands offers a feature to show "
+"label texts called the ‘census’ over the buildings."
+msgstr "기다리는 동안 다른 유용한 기능을 빠르게 보여 드리겠습니다. 때로는 모든 건물을 구분하기가 어렵습니다. 와이드랜드는 건물에 ‘실태 조사’ 라는 딱지 글자를 표시하는 기능을 제공합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:440
+#, lua-format
+msgid ""
+"In order to show or hide the building census labels, you can select the "
+"‘Show Census’ / ‘Hide Census’ entry from the ‘Show / Hide’ menu on the "
+"bottom, or press the ‘%s’ key on the keyboard."
+msgstr "건물 실태 조사 딱지를 표시하거나 숨기려면 아래쪽에 ‘표시 / 숨김’ 차림표에서 ‘실태 조사 표시’ / ‘실태 조사 숨김’ 항목을 선택하거나 키보드의 ‘%s' 키를 누르십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:441
@@ -610,8 +776,17 @@ msgstr "제가 실태 조사를 할 수 있게 하겠습니다."
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:450
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:452
-msgid "Show the building statistics"
-msgstr "건물 통계 표시"
+msgid "Show the building status"
+msgstr "건물 상태를 표시"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:453
+#, lua-format
+msgid ""
+"In order to show or hide the building status labels, you can select the "
+"‘Show Status’ entry from the ‘Show / Hide’ menu on the bottom, or press the "
+"‘%s’ key on the keyboard."
+msgstr "건물 상태 딱지를 표시하거나 숨기려면 아래쪽에 ‘표시 / 숨김’ 차림표에서 ‘상태를 표시’ 항목을 선택하거나 키보드에서 ‘%s’ 키를 누르십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:460
@@ -623,10 +798,10 @@ msgstr "이제, 창문을 열지 않고도 우리 채석장의 진행 상황을 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:461
 msgid ""
-"In addition to the buildings’ census, you can also activate statistics "
-"labels on them. This will display information about the productivity of "
-"buildings or the progress of construction sites."
-msgstr "건물 실태 조사 외에도 건물의 통계 딱지를 활성화 할 수도 있습니다. 이것은 건물의 생산성 또는 건설 현장의 진행 상황에 대한 정보가 표시됩니다."
+"In addition to the buildings’ census, you can also activate status labels on"
+" them. This will display information about the productivity of buildings or "
+"the progress of construction sites."
+msgstr "건물 실태 조사 외에도 건물의 상태 딱지를 활성화할 수도 있습니다. 이것은 건물의 생산성 또는 건설 현장의 진행 상황에 대한 정보가 표시됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:471
@@ -654,6 +829,23 @@ msgid ""
 "Keep clicking the ‘Archive selected message’ button until all messages have "
 "been archived and the list is empty."
 msgstr "모든 메시지이 보관되고 목록이 비워 질 때까지 '선택한 메시지 보관' 단추를 계속 누릅니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:489
+#, lua-format
+msgid ""
+"You can also hold down the Ctrl or Shift key to select multiple messages, or"
+" press %s to select them all."
+msgstr "또한 Ctrl 키나 Shift 키를 이용해서 여러 메시지를 선택하거나, %s 키를 눌러 모두 선택할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:490
+#, lua-format
+msgid ""
+"You can toggle the message window by pressing ‘%s’ or clicking the second "
+"button from the right at the very bottom of the screen. The newest message "
+"will be marked for you automatically."
+msgstr "‘%s’ 키를 누르거나 화면 맨 아래 오른쪽에서 두 번째 단추를 눌러서 메시지 창을 전환 할 수 있습니다. 최신 메시지가 자동으로 표시됩니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:491
@@ -696,7 +888,7 @@ msgid ""
 "You have two messages at the moment. This one, which you are currently "
 "reading, and the one that informed you that a new headquarters was added to "
 "your economy. Let’s learn how to archive messages:"
-msgstr "현재 두 개의 메시지가 있습니다. 현재 읽고 있는 이 책과 새로운 본부가 여러분의 경제에 추가되었음을 알려주는 내용입니다. 메시지를 보관하는 방법에 대해 알아봅니다."
+msgstr "현재 두 개의 메시지가 있습니다. 현재 읽고 있는 이 책과 새로운 본부가 여러분의 경제에 추가되었음을 알려주는 내용입니다. 메시지를 보관하는 방법에 대해 알아봅니다:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:508
@@ -707,6 +899,14 @@ msgstr "메시지 창을 끄십시오"
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:510
 msgid "Close the Messages Window"
 msgstr "메시지 창을 끄십시오"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:511
+msgid ""
+"All windows in Widelands (except story message windows showing ‘OK’) can be "
+"closed by right-clicking into them. Some windows can also be toggled with "
+"the buttons and menus at the very bottom of the screen."
+msgstr "와이드랜드의 모든 창 ('확인'을 표시하는 스토리 메시지 창 제외) 은 마우스 오른쪽 단추를 눌러서 닫을 수 있습니다. 일부 창은 화면 맨 아래에 있는 단추와 차림표를 사용하여 전환할 수도 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:512
@@ -720,6 +920,11 @@ msgid "Closing Windows"
 msgstr "창 닫기"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:520
+msgid "Excellent. Now we need to focus on other things."
+msgstr "훌륭합니다. 이제 우리는 다른 것에 집중해야 합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:531
 msgid ""
 "Well done! Let’s see how messages work in a real game, shall we? For this, "
@@ -731,12 +936,12 @@ msgstr "잘 하셨습니다. 실제 게임에서 어떻게 메시지가 작동�
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:539
 msgid "Destroy the two quarries"
-msgstr "두 채석장을 파괴하십시오"
+msgstr "채석장 두 곳을 파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:541
 msgid "Destroy the Quarries"
-msgstr "채석장을 파괴하기"
+msgstr "채석장을 파괴"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:542
@@ -782,12 +987,26 @@ msgstr "몇 가지 메시지를 받았습니다. 화면 하단에 있는 단추 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:564
 msgid "Expand your territory"
-msgstr "영토를 확장하십시오."
+msgstr "영토를 확장하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:566
 msgid "Make your Territory Grow"
 msgstr "영토 확장"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:567
+msgid ""
+"Build a military building on your border. Choose the one you like most."
+msgstr "국경에 군사 건물을 지으십시오. 당신이 가장 좋아하는 것을 고르십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:568
+msgid ""
+"The sentry is the only military site that fits on a small building plot. If "
+"your lumberjack has cleared enough space, you can also build a bigger "
+"military building."
+msgstr "초소는 작은 건물 터에 적합한 유일한 군사 시설입니다. 벌목꾼이 충분한 공간을 확보했다면, 더 큰 군사 시설도 지을 수도 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:569
@@ -812,6 +1031,18 @@ msgid ""
 "which we need to mine minerals and coal. So, we have to expand our "
 "territory."
 msgstr "당신에게 가르칠 것이 하나 더 있습니다: 영토를 확장하는 법. 우리가 본부와 함께 시작한 지역은 기초적인 기반 시설을 조성하기에는 빠듯하게나마 충분하지만, 광물과 석탄을 채굴할 수 있는 산맥으로는 접근하지 못합니다. 그래서, 우리는 영토를 확장해야 합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:577
+msgid ""
+"Expanding is as simple as building a military building at the edge of your "
+"territory. The Barbarians have a selection of four different military "
+"buildings: sentries, barriers, towers and fortresses. The bigger the "
+"building, the more expensive it is to build, but the more land it will "
+"conquer around itself and the more soldiers can be stationed there. The "
+"buildings also vary in their vision range: buildings with a tower see "
+"farther than others."
+msgstr "영토 확장은 영토 끝에 군사 건물을 짓으면 끝입니다. 야만인들은 초소, 장벽, 탑, 요새 등 네 가지의 군사 건물을 선택할 수 있습니다. 건물이 클수록 건축비용이 많이 들지만, 주변의 땅을 정복하고 더 많은 병사를 그곳에 주둔시킬 수 있습니다. 건물들은 또한 시야 범위도 다양합니다: 탑이 있는 건물들은 다른 건물들보다 더 멀리 봅니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:578
@@ -880,4 +1111,4 @@ msgstr "그런 다음 ‘놀이 끝내기’ 항목을 누르십시오."
 msgid ""
 "Thanks for playing this tutorial. Enjoy Widelands and remember to visit us "
 "at"
-msgstr "자습서를 실행 해주셔서 감사합니다. 와이드랜드를 즐기시고 한 번 방문해 주세요."
+msgstr "자습서를 실행 해주셔서 감사합니다. 와이드랜드를 즐기시고 한 번 방문해 주세요"

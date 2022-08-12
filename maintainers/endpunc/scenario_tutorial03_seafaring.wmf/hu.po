@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
-"PO-Revision-Date: 2021-05-21 07:26+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:48+0000\n"
+"Last-Translator: Szűcs Kornél Géza <sz.kornelgeza@gmail.com>, 2015\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,7 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:49
+msgid "How to build a port"
+msgstr "Hogyan építsünk kikötőt?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:50
@@ -24,12 +29,12 @@ msgstr "A kikötők nagy épületek, de csak a kijelölt helyeken építhetők, 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:59
 msgid "Build a port"
-msgstr "Építs egy kikötőt!"
+msgstr "Építs egy kikötőt a tábor északi részén!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:61
-msgid "Build a port in the northern part of your camp"
-msgstr "Építs egy kikötőt a táborod északi részén!"
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:63
+msgid "Build a port next to your castle, on the blue port space icon."
+msgstr "Építs egy kikötőt a várad mellé, a kikötő helyét jelző kék szimbólumon!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:74
@@ -40,11 +45,6 @@ msgstr "Építsünk hajókat!"
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:75
 msgid "Great. While your port is being constructed, let’s build some ships."
 msgstr "Nagyszerű. Amíg a kikötőd elkészül, építsünk néhány hajót!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:82
-msgid "Build a shipyard"
-msgstr "Építs egy hajóács műhelyt!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:84
@@ -79,6 +79,13 @@ msgid "I packed my bag and in it I put …"
 msgstr "Összecsomagoltam, viszek magammal…"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:166
+msgid ""
+"Just click on the empty slots and then scroll through the list to choose the"
+" additional item."
+msgstr "Ehhez kattints egy üres áruhelyre, és válaszd ki a listából, hogy mit vigyenek!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:176
 msgid "Start an expedition."
 msgstr "Indíts egy expedíciót!"
@@ -102,9 +109,23 @@ msgid "Found a settlement"
 msgstr "Alapíts új települést!"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:200
+msgid "Navigate your ship to an island that could contain iron ore."
+msgstr "Irányítsd a hajót egy szigetre, ahol lehet vasérc!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:202
 msgid "When you have found a suitable port space, build a port there."
 msgstr "Ha találtál megfelelő kikötőhelyet, építs ott egy kikötőt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:214
+msgid ""
+"But I want to speak a word of warning. Ports are like headquarters: they can"
+" be attacked by a nearby enemy. While your headquarters has soldiers to "
+"defend it, your newly built port won’t. You should therefore avoid settling "
+"next to an enemy."
+msgstr "De figyelmeztetnem is kell téged: A kikötőket a főhadiszálláshoz hasonlóan meg tudja támadni az ellenség. De míg a főhadiszállásodban általában vannak katonák, akik meg tudják védeni, egy újonnan épült kikötőben nincsenek. Ezért, ha lehet, ne az ellenség közelében telepedj le!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:224
@@ -127,9 +148,9 @@ msgid "Start mining iron ore in mountains on the island."
 msgstr "Kezdj vasat bányászni a sziget hegyeiben!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:268
-msgid "Build a ferry yard"
-msgstr "Építs egy csónakkészítő műhelyt!"
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:262
+msgid "Let’s build a ferry yard close to the shore before we will continue."
+msgstr "Mielőtt folytatnánk, építsünk egy csónakkészítő műhelyt a part közelébe!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:270

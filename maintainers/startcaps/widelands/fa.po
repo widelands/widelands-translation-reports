@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: GunChleoc, 2015\n"
 "Language-Team: Persian (http://www.transifex.com/widelands/widelands/"
 "language/fa/)\n"
 "Language: fa\n"
@@ -12,365 +12,376 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/messages.lua:66 ../../data/scripting/messages.lua:68
-#: ../../src/wui/game_message_menu.cc:72 ../../src/wui/game_summary.cc:114
+#: ../../src/wui/game_message_menu.cc:70 ../../src/wui/game_summary.cc:113
 msgid "Status"
 msgstr "وضعیت"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Title for the main menu button in the game
 #. * TRANSLATORS: Title for the main menu button in the editor
-#: ../../src/editor/editorinteractive.cc:92
-#: ../../src/ui_fsmenu/keyboard_options.cc:184
-#: ../../src/wui/interactive_gamebase.cc:89
+#. * TRANSLATORS: Title for the main menu button in the game
+#: ../../src/editor/editorinteractive.cc:95
+#: ../../src/ui_fsmenu/keyboard_options.cc:293
+#: ../../src/wui/interactive_gamebase.cc:92
+#: ../../src/wui/story_message_box.cc:74
 msgid "Main Menu"
 msgstr "منوی اصلی"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the tool menu button in the editor
-#: ../../src/editor/editorinteractive.cc:107
-#: ../../src/wlapplication_options.cc:355
+#: ../../src/editor/editorinteractive.cc:110
+#: ../../src/wlapplication_options.cc:411
 msgid "Tools"
 msgstr "ابزار"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:165
-#: ../../src/wui/buildingwindow.cc:413 ../../src/wui/interactive_player.cc:224
+#: ../../src/editor/editorinteractive.cc:170
+#: ../../src/wui/buildingwindow.cc:417 ../../src/wui/interactive_player.cc:235
 msgid "Help"
 msgstr "راهنما"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:308
-#: ../../src/editor/tools/info_tool.cc:195
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:97
+#: ../../src/editor/editorinteractive.cc:317
+#: ../../src/editor/ui_menus/field_info_window.cc:220
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:96
 #: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:41
-#: ../../src/map_io/map_saver.cc:156
-#: ../../src/map_io/widelands_map_loader.cc:265
+#: ../../src/map_io/map_saver.cc:155
+#: ../../src/map_io/widelands_map_loader.cc:268
 msgid "Resources"
 msgstr "منابع"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:323
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:654
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:171
+#: ../../src/editor/editorinteractive.cc:333
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:677
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:149
 msgid "Players"
 msgstr "بازیکنان"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:204
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:140
-#: ../../src/ui_fsmenu/netsetup_lan.cc:130 ../../src/wui/mapdetails.cc:141
-#: ../../src/wui/minimap.cc:140
+#: ../../src/editor/ui_menus/field_info_window.cc:229
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:158
+#: ../../src/ui_fsmenu/netsetup_lan.cc:131 ../../src/wui/mapdetails.cc:136
+#: ../../src/wui/minimap.cc:143
 msgid "Map"
 msgstr "نقشه"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:214
+#: ../../src/editor/ui_menus/field_info_window.cc:237
 #, c-format
 msgid "Players: %u"
 msgstr "بازیکنان: %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:221
+#: ../../src/editor/ui_menus/field_info_window.cc:242
 #, c-format
 msgid "Author: %s"
 msgstr "نویسنده: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
-#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
-#: ../../src/wui/tribal_encyclopedia.cc:56
+#: ../../src/editor/ui_menus/help.cc:36 ../../src/ui_fsmenu/login_box.cc:238
+#: ../../src/ui_fsmenu/main.cc:1011 ../../src/wui/encyclopedia_window.cc:144
+#: ../../src/wui/tribal_encyclopedia.cc:55
 msgid "Error!"
 msgstr "خطا!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:61
-#: ../../src/ui_fsmenu/addons_packager_box.cc:271
-#: ../../src/wui/economy_options_window.cc:663
+#: ../../src/ui_fsmenu/addons/packager_box.cc:437
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:66
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:89
+#: ../../src/wui/economy_options_window.cc:680
 #: ../../src/wui/load_or_save_game.cc:52
 msgid "Delete"
 msgstr "حذف"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:362
-#: ../../src/ui_fsmenu/addons_packager.cc:148
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:364
+#: ../../src/ui_fsmenu/addons/packager.cc:149
+#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:78
 msgid "Description:"
 msgstr "شرح:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:64
-#: ../../src/wui/gamedetails.cc:179
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:63
+#: ../../src/wui/gamedetails.cc:172
 msgid "Players:"
 msgstr "بازیکنان:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:71
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:70
 msgid "Low"
 msgstr "کم"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:73
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:72
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:255
 msgid "Medium"
 msgstr "متوسط"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:75
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:74
 msgid "High"
 msgstr "بالا"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:622
-#: ../../src/wui/game_summary.cc:112
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
+#: ../../src/wui/game_summary.cc:111
 msgid "Player"
 msgstr "بازیکن"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/player_menu.cc:140 ../../src/wui/maptable.cc:32
+#: ../../src/editor/ui_menus/player_menu.cc:142 ../../src/wui/maptable.cc:29
 msgid "Number of players"
 msgstr "تعداد بازیکن‌ها"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
-#: ../../src/editor/ui_menus/player_menu.cc:158
-#: ../../src/editor/ui_menus/player_menu.cc:285
+#: ../../src/editor/ui_menus/player_menu.cc:160
+#: ../../src/editor/ui_menus/player_menu.cc:288
 #: ../../src/logic/single_player_game_settings_provider.cc:110
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:67
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:100
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:111
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:162
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:50
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:65
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:99
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:131
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:185
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:49
+#: ../../src/wui/game_diplomacy_menu.cc:158
 #, c-format
 msgid "Player %u"
 msgstr "بازیکن %u"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:199
-#: ../../src/map_io/map_saver.cc:221
-#: ../../src/map_io/widelands_map_loader.cc:326
-#: ../../src/wui/general_statistics_menu.cc:147
-#: ../../src/wui/interactive_player.cc:315 ../../src/wui/minimap.cc:195
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:187
+#: ../../src/map_io/map_saver.cc:220
+#: ../../src/map_io/widelands_map_loader.cc:329
+#: ../../src/wui/general_statistics_menu.cc:149
+#: ../../src/wui/interactive_player.cc:328 ../../src/wui/minimap.cc:199
 msgid "Buildings"
 msgstr "ساختمان‌ها"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:339
-#: ../../src/network/network_gaming_messages.cc:132
+#: ../../src/network/internet_gaming.cc:337
+#: ../../src/network/network_gaming_messages.cc:126
 #, c-format
 msgid "Something went wrong: %s"
 msgstr "یک جایی یک اشتباهی پیش آمد: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:717
+#: ../../src/network/internet_gaming.cc:700
 #, c-format
 msgid "ERROR: %s"
 msgstr "خطا: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming_messages.cc:49
+#: ../../src/network/internet_gaming_messages.cc:48
 msgid "You are already logged in!"
 msgstr "شما قبلا وارد شده اید!"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign description
-#: ../../src/ui_fsmenu/campaigndetails.cc:71
-#: ../../src/ui_fsmenu/scenariodetails.cc:67 ../../src/wui/mapdetails.cc:197
-#: ../../src/wui/savegametable.cc:132 ../../src/wui/savegametable.cc:184
-#: ../../src/wui/savegametable.cc:244
+#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:95
+#: ../../src/ui_fsmenu/campaigndetails.cc:66
+#: ../../src/ui_fsmenu/scenariodetails.cc:63 ../../src/wui/mapdetails.cc:186
+#: ../../src/wui/savegametable.cc:147 ../../src/wui/savegametable.cc:199
+#: ../../src/wui/savegametable.cc:258
 msgid "Description"
 msgstr "شرح"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/helpwindow.cc:47 ../../src/wui/helpwindow.cc:45
+#: ../../src/ui_fsmenu/helpwindow.cc:46 ../../src/wui/helpwindow.cc:44
 #, c-format
 msgid "Help: %s"
 msgstr "راهنما: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:172
-#: ../../src/ui_fsmenu/keyboard_options.cc:185
+#: ../../src/ui_fsmenu/internet_lobby.cc:171
+#: ../../src/ui_fsmenu/keyboard_options.cc:295
 msgid "Game"
 msgstr "بازی"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a map tag
-#: ../../src/ui_fsmenu/launch_game.cc:236
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:466
-#: ../../src/ui_fsmenu/scenariodetails.cc:48
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:289
-#: ../../src/wui/map_tags.cc:44 ../../src/wui/mapdetails.cc:141
+#: ../../src/ui_fsmenu/launch_game.cc:238
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:485
+#: ../../src/ui_fsmenu/scenariodetails.cc:46
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:283
+#: ../../src/wui/map_tags.cc:43 ../../src/wui/mapdetails.cc:136
 msgid "Scenario"
 msgstr "سناریو"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:52
+#: ../../src/ui_fsmenu/login_box.cc:51
 msgid "Nickname:"
 msgstr "لقب:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:296 ../../src/wlapplication_options.cc:162
+#: ../../src/ui_fsmenu/main.cc:320 ../../src/wlapplication_options.cc:218
 msgid "New Game"
 msgstr "بازی جدید"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:306 ../../src/wlapplication_options.cc:166
+#. * TRANSLATORS: An entry in the game's main menu
+#: ../../src/ui_fsmenu/main.cc:330 ../../src/wlapplication_options.cc:222
+#: ../../src/wlapplication_options.cc:594
+#: ../../src/wui/game_main_menu_save_game.cc:52
+#: ../../src/wui/interactive_gamebase.cc:157
 msgid "Load Game"
 msgstr "بار کردن بازی"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:445 ../../src/ui_fsmenu/options.cc:90
-#: ../../src/wlapplication_options.cc:253
+#: ../../src/ui_fsmenu/main.cc:462 ../../src/ui_fsmenu/options.cc:86
+#: ../../src/wlapplication_options.cc:309
 msgid "Options"
 msgstr "گزینه ها"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:58
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:56
 msgid "Role"
 msgstr "نقش"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:170
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:158
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:193
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:349
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:152
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:197
 msgid "Type"
 msgstr "نوع"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:203
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:363
-#: ../../src/wui/game_chat_panel.cc:443 ../../src/wui/game_summary.cc:113
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:226
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:357
+#: ../../src/wui/game_chat_panel.cc:436 ../../src/wui/game_summary.cc:112
 msgid "Team"
 msgstr "تیم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:320
-#: ../../src/ui_fsmenu/netsetup_lan.cc:221
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:342
+#: ../../src/ui_fsmenu/netsetup_lan.cc:224
 msgid "Open"
 msgstr "باز"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:349
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:197
 msgid "Human"
 msgstr "انسان"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:57
+#: ../../src/ui_fsmenu/netsetup_lan.cc:56
 msgid "Your nickname:"
 msgstr "لقب شما:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/netsetup_lan.cc:129
+#: ../../src/ui_fsmenu/netsetup_lan.cc:130
 msgid "Host"
 msgstr "میزبان"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:119
+#: ../../src/ui_fsmenu/options.cc:115
 msgid "Language"
 msgstr "زبان"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:165
+#: ../../src/ui_fsmenu/options.cc:150
 msgid "Snap windows only when overlapping"
 msgstr "پرش پنجره‌ها فقط هنگام هم‌پوشانی‌"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Entry in the window size dropdown
-#: ../../src/ui_fsmenu/options.cc:463
+#: ../../src/ui_fsmenu/options.cc:472
 msgid "Fullscreen"
 msgstr "تمام صفحه"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:269
+#: ../../src/wui/buildingwindow.cc:274
 msgid "Continue"
 msgstr "ادامه"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/buildingwindow.cc:315
+#: ../../src/wui/buildingwindow.cc:319
 msgid "Destroy"
 msgstr "تخریب"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:267
+#: ../../src/wui/fieldaction.cc:254
 msgid "Action"
 msgstr "اقدام"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Button tooltip
 #. * TRANSLATORS: An entry in the game's main menu
-#: ../../src/wui/game_client_disconnected.cc:103
-#: ../../src/wui/game_summary.cc:103 ../../src/wui/interactive_gamebase.cc:144
+#. * TRANSLATORS: Button tooltip
+#: ../../src/wui/game_client_disconnected.cc:102
+#: ../../src/wui/game_summary.cc:102 ../../src/wui/interactive_gamebase.cc:170
 msgid "Exit Game"
 msgstr "خروج از بازی"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:70
+#: ../../src/wui/game_message_menu.cc:68
 msgid "Title"
 msgstr "عنوان"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's main menu
-#: ../../src/wui/game_options_sound_menu.cc:35
-#: ../../src/wui/interactive_gamebase.cc:129
+#: ../../src/wui/game_options_sound_menu.cc:34
+#: ../../src/wui/interactive_gamebase.cc:139
 msgid "Sound Options"
 msgstr "گزینه‌های صدا"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:38
+#: ../../src/wui/game_summary.cc:37
 msgid "Game over"
 msgstr "بازی تمام شد"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:88
+#: ../../src/wui/game_summary.cc:87
 msgid "Elapsed time:"
 msgstr "زمان سپری‌شده"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:99
+#: ../../src/wui/game_summary.cc:98
 msgid "Continue playing"
 msgstr "ادامه‌ی بازی"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:306
+#: ../../src/wui/game_summary.cc:310
 msgid "Score"
 msgstr "امتیاز"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:157
+#: ../../src/wui/general_statistics_menu.cc:159
 msgid "Productivity"
 msgstr "فراورش"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the statistics menu button in the game
-#: ../../src/wui/interactive_player.cc:179
-#: ../../src/wui/interactive_spectator.cc:45
+#: ../../src/wui/interactive_player.cc:181
+#: ../../src/wui/interactive_spectator.cc:44
 msgid "Statistics"
 msgstr "آمار‌"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/maptable.cc:35
+#: ../../src/wui/maptable.cc:32
 msgid "Size"
 msgstr "اندازه"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/minimap.cc:206
+#: ../../src/wui/minimap.cc:221
 msgid "Zoom"
 msgstr "زوم"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:133
+#: ../../src/wui/ware_statistics_menu.cc:135
 msgid "Production"
 msgstr "تولید"

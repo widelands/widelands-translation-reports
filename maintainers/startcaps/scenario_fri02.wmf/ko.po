@@ -2,25 +2,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"POT-Creation-Date: 2022-06-22 03:53+0000\n"
 "PO-Revision-Date: 2018-03-24 18:16+0000\n"
-"Last-Translator: ks k, 2020\n"
+"Last-Translator: ks k, 2021\n"
 "Language-Team: Korean (https://www.transifex.com/widelands/teams/35159/ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Message title for a piece of information
-#: ../../data/campaigns/fri02.wmf/scripting/init.lua:32
+#: ../../data/campaigns/fri02.wmf/scripting/init.lua:33
 msgid "Note"
 msgstr "참고"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/fri02.wmf/scripting/init.lua:33
+#: ../../data/campaigns/fri02.wmf/scripting/init.lua:34
 msgid ""
 "You appear not to have completed the previous mission. You may still play "
 "this scenario, but you will be at a disadvantage. I recommend that you "
@@ -122,7 +122,7 @@ msgstr "당신이 제국과 협력 할 것인지 결정하십시오"
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:60
 msgid "Gather Wares as a Gift or Destroy the Empire’s Warehouse"
-msgstr "선물로 물품을 모으거나 제국의 창고를 파괴하십시오."
+msgstr "선물로 물품을 모으거나 제국의 창고를 파괴하십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:61
@@ -721,7 +721,7 @@ msgid ""
 "to give us these wares:"
 msgstr ""
 "또한, 당신의 선의의 표시로, 우리는 제국에게 우정의 선물을 요구합니다. 당신도 알다시피, 나는 당신에게 새 창고를 선물했소. "
-"번역확인-> 그것들을 건네기위해 필요한 선물들로 그것을 채우시오. 당신이 이 물품들을 우리에게 줄 수 있도록 허락하겠소."
+"번역확인-> 그것들을 건네기위해 필요한 선물들로 그것을 채우시오. 당신이 이 물품들을 우리에게 줄 수 있도록 허락하겠소:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Hauke – Supply Murilius 7
@@ -1036,4 +1036,11 @@ msgctxt "empire_building"
 msgid ""
 "Your workers and soldiers will find shelter here. Also stores your wares and"
 " tools."
-msgstr "당신의 일꾼들과 군인들이 여기서 거주할 것입니다. 또한 당신의 물품들과 도구들을 저장합니다."
+msgstr "당신의 일꾼들과 군인들이 여기서 거주할 것입니다. 또한 당신의 물품들과 연장들을 저장합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This is a building name used in lists of buildings
+#: ../../data/campaigns/fri02.wmf/scripting/tribes/warehouse/init.lua:8
+msgctxt "frisians_building"
+msgid "Empire Warehouse"
+msgstr "제국의 창고"

@@ -2,30 +2,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-07 09:03+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:101
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:102
 msgid "Creating empty map…"
 msgstr "Creando mapa vacío..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:540
 msgid "Generating random map…"
 msgstr "Generando mapa aleatorio..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:54
+#: ../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "Autoguardando partida..."
 
@@ -33,94 +34,94 @@ msgstr "Autoguardando partida..."
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:245
+#: ../../src/graphic/gl/initialize.cc:239
 #, c-format
 msgid "The %1$s needs to be version %2$u.%3$u or newer."
 msgstr "El %1$s tiene que ser versión %2$u.%3$u o más nuevo"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:236
+#: ../../src/logic/generic_save_handler.cc:225
 #, c-format
 msgid "Backup file ‘%s’ could not be deleted."
 msgstr "¡La copia de seguridad ‘%s’ no pudo ser borrada!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:34
+#: ../../src/logic/objective.h:33
 msgid "This objective has no description."
 msgstr "El objetivo no tiene descripción"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:131
+#: ../../src/logic/save_handler.cc:127
 msgid "Saving game…"
 msgstr "Guardando partida..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:89
+#: ../../src/map_io/map_saver.cc:88
 msgid "Autosaving map…"
 msgstr "Autoguardando mapa..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
+#: ../../src/map_io/s2map.cc:428 ../../src/map_io/widelands_map_loader.cc:189
 msgid "Loading map…"
 msgstr "Cargando mapa..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:472
+#: ../../src/network/internet_gaming.cc:470
 msgid "The metaserver sent a strange ERROR during connection"
 msgstr "El metaservidor envió un mensaje de ERROR extraño durante la conexión."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:487
+#: ../../src/network/internet_gaming.cc:484
 msgid "Unexpected packet"
 msgstr "Paquete inesperado."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:144
+#: ../../src/network/network_gaming_messages.cc:138
 msgid "Server uses a different protocol version"
 msgstr "El servidor utiliza una versión de protocolo diferente."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/color_chooser.cc:244
+#: ../../src/ui_basic/color_chooser.cc:245
 msgid "Choose Color…"
 msgstr "Elegir color..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons.cc:211
+#: ../../src/ui_fsmenu/addons/manager.cc:267
 msgid "Fix dependencies…"
 msgstr "Arreglar dependencias..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons.cc:257
+#: ../../src/ui_fsmenu/addons/manager.cc:313
 msgid "Launch the add-ons packager…"
 msgstr "Iniciar el empaquetador de complementos..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons_packager.cc:313
+#: ../../src/ui_fsmenu/addons/packager.cc:316
 msgid "Category"
 msgstr "Categoría:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:94
+#: ../../src/ui_fsmenu/launch_game.cc:92
 msgid "Change map…"
 msgstr "Cambiar mapa..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:104
+#: ../../src/ui_fsmenu/launch_game.cc:102
 msgid "Change saved game…"
 msgstr "Cambiar partida guardada..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:186
+#: ../../src/ui_fsmenu/launch_game.cc:188
 msgid "The relations between players are set by the scenario"
 msgstr "Las relaciones entre los jugadores son establecidas por el escenario."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:188
+#: ../../src/ui_fsmenu/launch_game.cc:190
 msgid "The relations between players are set by the saved game"
 msgstr "Las relaciones entre los jugadores son establecidas por la partida guardada."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:213 ../../src/ui_fsmenu/launch_spg.cc:127
+#: ../../src/ui_fsmenu/launch_mpg.cc:210 ../../src/ui_fsmenu/launch_spg.cc:127
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -131,11 +132,23 @@ msgstr "Widelands intentó iniciar una partida con un archivo que no pudo encont
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
 #. Options
-#: ../../src/ui_fsmenu/options.cc:319
+#: ../../src/ui_fsmenu/options.cc:302
 msgid "Progress…"
 msgstr "Progreso..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:177 ../../src/wui/savegametable.cc:237
+#: ../../src/wlapplication_options.cc:979
+msgctxt "hotkey"
+msgid "Page Up"
+msgstr "Re. Pág."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_options.cc:981
+msgctxt "hotkey"
+msgid "Page Down"
+msgstr "Av. Pág."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/savegametable.cc:192 ../../src/wui/savegametable.cc:251
 msgid "Numbers are the number of players."
 msgstr "Los números son la cantidad de jugadores"

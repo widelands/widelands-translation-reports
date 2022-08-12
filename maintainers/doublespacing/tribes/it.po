@@ -2,29 +2,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-11-03 18:55+0000\n"
+"Last-Translator: Log Merger, 2022\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:53
-msgctxt "atlanteans_building"
-msgid ""
-"The fish breeder working out of this fish breeder’s house can’t find any "
-"fish in his work area. Remember that you can only regenerate your fish "
-"resources if there are some fish left to breed."
-msgstr "L'allevatore di pesci  che lavora in questo allevamento non riesce a trovare nessun pesce nella sua area di lavoro. Ricordati che gli allevamenti si possono ripopolare solo se ci sono pesci da allevare."
+#. TRANSLATORS: Message sent by a Frisian military site
+#: ../../data/tribes/buildings/militarysites/frisians/sentinel/init.lua:54
+msgctxt "frisians_building"
+msgid "Your soldiers have occupied your sentinel."
+msgstr "I tuoi soldati hanno occupato il tuo  posto di sentinella."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:86
+#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:85
 msgctxt "atlanteans_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -32,7 +31,7 @@ msgid ""
 msgstr "La vena principale di questa miniera d'oro è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:90
+#: ../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:89
 msgctxt "atlanteans_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -40,8 +39,8 @@ msgid ""
 msgstr "La vena principale di questa miniera di ferro è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:98
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:90
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:105
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:97
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -49,7 +48,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di carbone è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:80
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:87
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -58,7 +57,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di carbone è esaurita.  La produttività sarà estremamente scarsa. Questa miniera non può più essere migliorata, quindi dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:79
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:86
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -67,7 +66,7 @@ msgid ""
 msgstr "La vena principale di questa miniera d'oro è esaurita.  La produttività sarà estremamente scarsa. Questa miniera non può essere migliorata ulteriormente, quindi dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:86
+#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:93
 msgctxt "barbarians_building"
 msgid ""
 "This granite mine’s main vein is exhausted. Expect strongly diminished "
@@ -76,7 +75,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di granito è esaurita.  La produttività sarà estremamente scarsa. Questa miniera non può essere migliorata ulteriormente, quindi dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:80
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:87
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -85,7 +84,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di ferro è esaurita.  La produttività sarà estremamente scarsa. Questa miniera non può essere migliorata ulteriormente, quindi dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:97
+#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:106
 msgctxt "empire_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -93,7 +92,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di carbone è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di potenziarla, smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:96
+#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:105
 msgctxt "empire_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -101,7 +100,7 @@ msgid ""
 msgstr "La vena principale di questa miniera d'oro è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di potenziarla, smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:97
+#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:106
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -109,7 +108,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di ferro è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di potenziarla, smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:76
+#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:85
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -118,7 +117,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di ferro è esaurita.  La produttività sarà estremamente scarsa. Questa miniera non può essere migliorata ulteriormente, quindi dovresti prendere in considerazione l'idea di smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:136
+#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:147
 msgctxt "empire_building"
 msgid ""
 "This marble mine’s main vein is exhausted. Expect strongly diminished "
@@ -143,7 +142,7 @@ msgid ""
 msgstr "La vena principale di questa miniera di ferro è esaurita.  La produttività sarà estremamente scarsa. Dovresti prendere in considerazione l'idea di potenziarla, smantellarla o distruggerla."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:99
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:100
 msgctxt "frisians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "

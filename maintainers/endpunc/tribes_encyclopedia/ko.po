@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: tamanegi, 2018\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Scout
-#: ../../data/tribes/initialization/atlanteans/units.lua:1055
+#: ../../data/tribes/initialization/atlanteans/units.lua:1116
 msgctxt "atlanteans_worker"
 msgid ""
 "Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
@@ -24,7 +24,7 @@ msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Scout
-#: ../../data/tribes/initialization/barbarians/units.lua:791
+#: ../../data/tribes/initialization/barbarians/units.lua:790
 msgctxt "barbarians_worker"
 msgid ""
 "Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
@@ -32,60 +32,8 @@ msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Scout
-#: ../../data/tribes/initialization/empire/units.lua:832
+#: ../../data/tribes/initialization/empire/units.lua:851
 msgctxt "empire_worker"
 msgid ""
 "Scouts like Scotty the scout scouting unscouted areas in a scouty fashion."
 msgstr "미정찰 지역을 정찰병 차림으로 정찰하고 있는 정찰하는 정찰병 같은 정찰병. 언어유희..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an empire production site: Weapon Smithy
-#: ../../data/tribes/initialization/empire/units.lua:1374
-msgctxt "empire_building"
-msgid ""
-"Forges spears to equip the soldiers and to train their attack in the "
-"training camp."
-msgstr "군인들을 무장시키고 훈련소에서 공격을 훈련시킬 창을 단조하십시오"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:459
-msgctxt "frisians_ware"
-msgid "Hunting spears are produced by the blacksmithy"
-msgstr "사냥용 창은 대장간에서 만듭니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Performance helptext for a frisian production site: Quarry
-#: ../../data/tribes/initialization/frisians/units.lua:1548
-#, lua-format
-msgctxt "frisians_building"
-msgid "The stonemason pauses %s before going to work again."
-msgstr "번역확인:쉽니다 멈춥니다 -> 석공은 다시 일하기 전에 %s 초간 쉽니다. 멈춥니다"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a frisian production site: Charcoal
-#. Burner's House
-#. TRANSLATORS: Lore author helptext for a frisian production site: Charcoal
-#. Kiln
-#: ../../data/tribes/initialization/frisians/units.lua:1648
-#: ../../data/tribes/initialization/frisians/units.lua:1831
-msgctxt "frisians_building"
-msgid "The inventor of the Frisian charcoal kiln"
-msgstr "프리지아인은 숯 가마를 처음 발명한 사람들입니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a frisian production site: Brick Kiln
-#: ../../data/tribes/initialization/frisians/units.lua:1737
-msgctxt "frisians_building"
-msgid "A brickmaker arguing with his chieftain who was doing just that"
-msgstr "벽돌공 한 명이 바로 그 일을 하고 있던 그의 족장과 말다툼을 하고 있습니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Performance helptext for a frisian production site: Gold Mine
-#: ../../data/tribes/initialization/frisians/units.lua:2026
-#, lua-format
-msgctxt "frisians_building"
-msgid ""
-"If the food supply is steady, the gold mine can produce one piece of gold "
-"ore in %s on average."
-msgstr "??만약 식량 공급이 중단된다면, 금광은 평균 %s 개의 금광석을 금광석을 생산할 수 있다.?? 숫자가 개수인가???"

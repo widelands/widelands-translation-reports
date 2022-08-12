@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Niklas Nordgren, 2022\n"
 "Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/scripting/richtext_scenarios.lua:50
@@ -21,8 +21,74 @@ msgid "“%s”"
 msgstr "\"%s\""
 
 # (pofilter) startpunc: Different punctuation at the start
-#. * TRANSLATORS: Editor set height access key. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:80
-msgid "Ctrl + Click on the map to set terrain height"
-msgstr "'Ctrl' + klicka på kartan för att ställa in terränghöjden"
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver.
+#. Font support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:219
+#, c-format
+msgid "The %1$u version needs to be version %2$u.%3$u or newer."
+msgstr "%1$u-versionen måste vara version %2$u.%3$u eller nyare."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver.
+#. Font support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:239
+#, c-format
+msgid "The %1$s needs to be version %2$u.%3$u or newer."
+msgstr "%1$s måste vara version %2$u.%3$u eller nyare."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/manager.cc:1176
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which could not be found"
+msgstr "· \"%1$s\" kräver \"%2$s\" som inte kunde hittas"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/manager.cc:1180
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
+msgstr "· \"%1$s\" kräver \"%2$s\" som är inaktiverad"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/manager.cc:1187
+#, c-format
+msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
+msgstr "· \"%1$s\" kräver \"%2$s\",  vilket anges under nödvändiga tillägg"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/manager.cc:1215
+#, c-format
+msgid ""
+"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
+"wrong order"
+msgstr "·\"%1$s\" kräver först \"%2$s\" och därefter \"%3$s\", men de är listade i fel ordning."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/packager.cc:531
+#, c-format
+msgid ""
+"‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
+msgstr "\"%1$s\" är inte en giltig versionssträng. Tillägget \"%2$s\" kommer inte att sparas."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:895
+#, c-format
+msgid "‘%1$s’ commented on version %2$s:"
+msgstr "\"%1$s\" kommenterade version %2$s:"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: %1% = number of selected directories, %2% = number of
+#. selected files
+#: ../../src/wui/gamedetails.cc:122
+msgid "Selected %1% directory and %2%:"
+msgid_plural "Selected %1% directories and %2%:"
+msgstr[0] "%1% katalog och %2% valda:"
+msgstr[1] "%1% kataloger och %2% valda:"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Tooltip for Script Console in the game's main menu
+#: ../../src/wui/interactive_gamebase.cc:132
+msgctxt "hotkey"
+msgid "Ctrl+Shift+Space"
+msgstr "'Ctrl' + 'Shift' + 'Mellanslag'"

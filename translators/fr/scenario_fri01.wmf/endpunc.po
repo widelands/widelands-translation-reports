@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
 "PO-Revision-Date: 2018-03-24 18:15+0000\n"
 "Last-Translator: Renaud Bouchard, 2021\n"
 "Language-Team: French (https://www.transifex.com/widelands/teams/35159/fr/)\n"
@@ -10,8 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri01.wmf/scripting/texts.lua:44
@@ -175,7 +176,7 @@ msgstr ""
 msgid "Soldiers to the port!"
 msgstr "Soldats au port !"
 
-# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
 #. TRANSLATORS: Reebaud – rising water
 #: ../../data/campaigns/fri01.wmf/scripting/texts.lua:414
 #, lua-format
@@ -204,6 +205,14 @@ msgstr[0] ""
 "des matériaux de construction et nos meilleurs hommes au port quand il sera "
 "terminé, pour être prêts à embarquer quand nous appareillerons !"
 msgstr[1] ""
+"J'ai presque oublié dans cette hâte – où que nous atterrissions, nous aurons"
+" besoin de soldats pour sécuriser et étendre notre nouvelle colonie. Même "
+"après avoir chargé l'expédition, le navire devrait avoir assez d'espace pour"
+" quelques marchandises et travailleurs. En plus de cela, il devrait y avoir "
+"un pièce pour %d soldats, si personne ne se soucie d'être entassés. Envoyons"
+" des matériaux de construction et nos meilleurs hommes au port quand il sera"
+" terminé, pour être prêts à embarquer quand nous appareillerons !"
+msgstr[2] ""
 "J'ai presque oublié dans cette hâte – où que nous atterrissions, nous aurons"
 " besoin de soldats pour sécuriser et étendre notre nouvelle colonie. Même "
 "après avoir chargé l'expédition, le navire devrait avoir assez d'espace pour"

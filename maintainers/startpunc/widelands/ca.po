@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-25 20:14+0000\n"
-"Last-Translator: Juanjo\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Juanjo, 2015-2022\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/scripting/richtext_scenarios.lua:50
@@ -21,7 +21,7 @@ msgid "“%s”"
 msgstr "«%s»"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/logic/addons.cc:175
+#: ../../src/logic/addons.cc:201
 #, c-format
 msgid "%1$u missing add-on: %2$s"
 msgid_plural "%1$u missing add-ons: %2$s"
@@ -29,7 +29,7 @@ msgstr[0] "Fa falta %1$u complement: %2$s"
 msgstr[1] "Fan falta %1$u complements: %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/logic/addons.cc:197
+#: ../../src/logic/addons.cc:220
 #, c-format
 msgid "%u missing add-on"
 msgid_plural "%u missing add-ons"
@@ -41,7 +41,7 @@ msgstr[1] "Fan falta %u complements."
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:1224
+#: ../../src/logic/map_objects/tribes/production_program.cc:1237
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"
@@ -49,38 +49,38 @@ msgstr[0] "fa falta %s"
 msgstr[1] "fan falta «%s»"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/network/gameclient.cc:721
+#: ../../src/network/gameclient.cc:756
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
-msgstr[0] "S'ha detectat %u incompatibilitat de complements:\n"
-msgstr[1] "S'han detectat %u incompatibilitats de complements:\n"
+msgstr[0] "S’ha detectat %u incompatibilitat de complements:\n"
+msgstr[1] "S’han detectat %u incompatibilitats de complements:\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gameclient.cc:903
+#: ../../src/network/gameclient.cc:932
 msgid "/me ’s file failed md5 checksumming."
 msgstr "La suma md5 del fitxer de /me ha fallat."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons.cc:889
+#: ../../src/ui_fsmenu/addons/manager.cc:1176
 #, c-format
 msgid "· ‘%1$s’ requires ‘%2$s’ which could not be found"
 msgstr "· «%1$s» necessita «%2$s» i no es pot trobar."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons.cc:895
+#: ../../src/ui_fsmenu/addons/manager.cc:1180
 #, c-format
 msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
 msgstr "· «%1$s» necessita «%2$s» i està desactivat."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons.cc:902
+#: ../../src/ui_fsmenu/addons/manager.cc:1187
 #, c-format
 msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
-msgstr "· «%1$s» necessita «%2$s», que està per sota d'aquest complement."
+msgstr "· «%1$s» necessita «%2$s», que està per sota d’aquest complement."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons.cc:922
+#: ../../src/ui_fsmenu/addons/manager.cc:1215
 #, c-format
 msgid ""
 "· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
@@ -88,36 +88,91 @@ msgid ""
 msgstr "· «%1$s» necessita primer «%2$s» i després «%3$s», però estan en ordre invers."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons.cc:1673
+#: ../../src/ui_fsmenu/addons/manager.cc:1400
 #, c-format
-msgid "‘%1$s’ commented on version %2$s:"
-msgstr "«%1$s» ha comentat la versió %2$s:"
+msgid "Uploading ‘%s’…"
+msgstr "«%s» es va carregant…"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons_packager.cc:548
+#: ../../src/ui_fsmenu/addons/packager.cc:531
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
 msgstr "«%1$s» no és una cadena de versió vàlida. El complement «%2$s» no es pot desar."
 
 # (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:895
+#, c-format
+msgid "‘%1$s’ commented on version %2$s:"
+msgstr "«%1$s» ha comentat la versió %2$s:"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
+#. empty if none is used. %2 is scrolling direction.
+#. %3 is the name of the conflicting function.
+#: ../../src/ui_fsmenu/mousewheel_options.cc:282
+#, c-format
+msgid ""
+"‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
+"change the conflicting setting first."
+msgstr "«%1$s%2$s» té conflictes amb «%3$s». Escolliu una altra combinació o canvieu primer la configuració que genera conflictes."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/mousewheel_options.cc:507
+#, c-format
+msgid ""
+"‘%1$s’ or ‘%2$s’ conflicts with the recommended settings. Change the "
+"conflicting setting(s) too?"
+msgstr "«%1$s» o «%2$s» crea conflictes amb la configuració recomanada. Voleu canviar també la configuració conflictiva?"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wlapplication.cc:1310
+#, c-format
+msgid "%s can not be combined with other actions"
+msgstr "No es pot combinar %s amb altres accions."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wlapplication_options.cc:1031
+msgctxt "hotkey"
+msgid "Keypad -"
+msgstr "- del teclat numèric"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wlapplication_options.cc:1033
+msgctxt "hotkey"
+msgid "Keypad *"
+msgstr "* del teclat numèric"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/wlapplication_options.cc:1035
+msgctxt "hotkey"
+msgid "Keypad /"
+msgstr "/ del teclat numèric"
+
+# (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Column title for number of players in map list
-#: ../../src/wui/maptable.cc:32
+#: ../../src/wui/maptable.cc:29
 msgid "Pl."
 msgstr "#J"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/savegamedeleter.cc:97
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
+#. NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
-msgstr[0] "No s'ha pogut esborrar %d partida."
-msgstr[1] "No s'han pogut esborrar %d partides."
+msgstr[0] "No s’ha pogut esborrar %d partida."
+msgstr[1] "No s’han pogut esborrar %d partides."
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/savegamedeleter.cc:128
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."
-msgstr[0] "No s'ha pogut esborrar %d repetició."
-msgstr[1] "No s'han pogut esborrar %d repeticions."
+msgstr[0] "No s’ha pogut esborrar %d repetició."
+msgstr[1] "No s’han pogut esborrar %d repeticions."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-02-28 12:33+0000\n"
-"Last-Translator: GunChleoc\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:48+0000\n"
+"Last-Translator: TaeMin An, 2017\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:12
@@ -106,7 +106,7 @@ msgstr "어떻게 항구를 건설하는가"
 msgid ""
 "Ports are big buildings, but they can only be built at special locations: "
 "those marked with the"
-msgstr "항구는 대형 건물이지만, 특별한 위치에서만 건설됩니다:"
+msgstr "항구는 큰 건물이지만, 다음의 표시가 있는 특별한 위치에서만 건설됩니다"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:52
@@ -131,7 +131,7 @@ msgstr "항구를 건설하십시오"
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:61
 msgid "Build a port in the northern part of your camp"
-msgstr "당신의 캠프의 북쪽에 항구를 지으십시오."
+msgstr "당신의 캠프의 북쪽에 항구를 지으십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:62
@@ -372,6 +372,47 @@ msgid "Start an expedition in any of your ports."
 msgstr "당신 항구 중 아무데로나 탐험을 시작하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: This refers to a memory game
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:160
+msgid "I packed my bag and in it I put …"
+msgstr "나는 가방을 싸서 그 안 내가…"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:162
+msgid "Additional Items"
+msgstr "추가 항목"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:163
+msgid ""
+"It might be useful to take some more wares with us than just the ones to "
+"build a new port. That way we will be able to start constructing new "
+"buildings as soon as the port has been constructed."
+msgstr "새로운 항구를 건설하는 것보다 더 많은 상품을 가져가는 것이 유용 할 수 있습니다. 이렇게하면 항구가 지어지자 마자 새로운 건물 지을 수 있을 것입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:165
+msgid ""
+"You can take some additional wares, soldiers, or workers with you on an "
+"expedition. You can define them by filling the empty slots below the primary"
+" wares to build the port."
+msgstr "원정대에 추가 물품, 군인 또는 일꾼을 데려 갈 수 있습니다. 항구를 구축하기 위해 기본 제품 아래의 빈 슬롯을 채워 지정할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:166
+msgid ""
+"Just click on the empty slots and then scroll through the list to choose the"
+" additional item."
+msgstr "빈 슬롯을 클릭한 다음 목록을 스크롤하여 추가 항목을 선택합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:167
+msgid ""
+"Now try this out. A small dot in green, yellow, or red tells you whether the"
+" item has arrived, is on its way or is not available respectively."
+msgstr "자, 이걸 써보세요. 녹색, 노란색 또는 빨간색으로 표시된 작은 점은 각각 해당 품목이 도착했는지, 이동 중인지 또는 사용할 수 없는지를 알려줍니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:173
 msgid "Expedition"
 msgstr "탐험"
@@ -609,7 +650,7 @@ msgid ""
 " Ferries are built in ferry yards, one rowboat costs two logs and one piece "
 "of cloth and is quickly constructed. A ferry yard is a medium-sized building"
 " that needs to be built close to the shore."
-msgstr "연락선은 연락선 뜰에 지어지며, 한 척의 노 젓는 배에는 2 개의 통나무와 1 개의 헝겊이 필요하며 빠르게 지어집니다. 연락선 뜰은 해안 가까이에 지을 필요가 있는 가운데 크기의 건물입니다."
+msgstr " 연락선은 연락선 뜰에 지어지며, 한 척의 노 젓는 배에는 2 개의 통나무와 1 개의 헝겊이 필요하며 빠르게 지어집니다. 연락선 뜰은 해안 가까이에 지을 필요가 있는 가운데 크기의 건물입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial03_seafaring.wmf/scripting/texts.lua:262

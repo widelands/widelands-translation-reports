@@ -2,21 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: zecas <jjorge@free.fr>, 2016-2019\n"
 "Language-Team: Portuguese (http://www.transifex.com/widelands/widelands/"
 "language/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a barbarian production site: Bakery
-#: ../../data/tribes/initialization/barbarians/units.lua:1298
+#: ../../data/tribes/initialization/barbarians/units.lua:1297
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -27,7 +28,7 @@ msgstr "Se todos os materiais forem entregues a tempo, este edifício pode produ
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a barbarian production site: Cattle
 #. Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1467
+#: ../../data/tribes/initialization/barbarians/units.lua:1466
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -38,7 +39,7 @@ msgstr "Se todos os materiais forem entregues a tempo, este edifício pode produ
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for a barbarian production site: Granite
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1515
+#: ../../data/tribes/initialization/barbarians/units.lua:1514
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -48,7 +49,7 @@ msgstr "Se a comida não faltar,  esta mina pode produzir granito numa média de
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for production site: Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1530
+#: ../../data/tribes/initialization/barbarians/units.lua:1529
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 32.5 seconds on "
@@ -57,7 +58,7 @@ msgstr "Se a comida não faltar,  esta mina pode produzir carvão numa média de
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for production site: Deep Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1545
+#: ../../data/tribes/initialization/barbarians/units.lua:1544
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 19.5 seconds on "
@@ -66,7 +67,7 @@ msgstr "Se a comida não faltar,  esta mina pode produzir carvão numa média de
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for production site: Deeper Coal Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1560
+#: ../../data/tribes/initialization/barbarians/units.lua:1559
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce coal in 14.4 seconds on "
@@ -75,7 +76,7 @@ msgstr "Se a comida não faltar,  esta mina pode produzir carvão numa média de
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for production site: Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1612
+#: ../../data/tribes/initialization/barbarians/units.lua:1611
 #, lua-format
 msgctxt "barbarians_building"
 msgid ""
@@ -85,7 +86,7 @@ msgstr "Se a comida não faltar,  esta mina pode produzir minério de ouro numa 
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for production site: Deep Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1625
+#: ../../data/tribes/initialization/barbarians/units.lua:1624
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 19.5 seconds"
@@ -94,7 +95,7 @@ msgstr "Se a comida não faltar,  esta mina pode produzir minério de ouro numa 
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for production site: Deeper Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1638
+#: ../../data/tribes/initialization/barbarians/units.lua:1637
 msgctxt "barbarians_building"
 msgid ""
 "If the food supply is steady, this mine can produce gold ore in 18.5 seconds"

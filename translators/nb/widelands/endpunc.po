@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Per-Henrik Kvalnes <perhenrik.kvalnes@gmail.com, 2020\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/widelands/"
 "widelands/language/nb/)\n"
 "Language: nb\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -20,7 +20,7 @@ msgstr ""
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:93
+#: ../../src/base/time_string.cc:92
 msgid "Jan"
 msgstr "jan."
 
@@ -30,7 +30,7 @@ msgstr "jan."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:99
+#: ../../src/base/time_string.cc:98
 msgid "Feb"
 msgstr "feb."
 
@@ -40,7 +40,7 @@ msgstr "feb."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:111
+#: ../../src/base/time_string.cc:110
 msgid "Apr"
 msgstr "apr."
 
@@ -50,7 +50,7 @@ msgstr "apr."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:135
+#: ../../src/base/time_string.cc:134
 msgid "Aug"
 msgstr "aug."
 
@@ -60,7 +60,7 @@ msgstr "aug."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:141
+#: ../../src/base/time_string.cc:140
 msgid "Sep"
 msgstr "sep."
 
@@ -70,7 +70,7 @@ msgstr "sep."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:147
+#: ../../src/base/time_string.cc:146
 msgid "Oct"
 msgstr "okt."
 
@@ -80,7 +80,7 @@ msgstr "okt."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:153
+#: ../../src/base/time_string.cc:152
 msgid "Nov"
 msgstr "nov."
 
@@ -89,33 +89,33 @@ msgstr "nov."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:158
+#: ../../src/base/time_string.cc:157
 msgid "Dec"
 msgstr "des."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:423
+#: ../../src/ui_fsmenu/main.cc:440
 msgid "Single Player…"
 msgstr "Enspiller"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:424
+#: ../../src/ui_fsmenu/main.cc:441
 msgid "Multiplayer…"
 msgstr "Flerspiller"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:66
+#: ../../src/ui_fsmenu/netsetup_lan.cc:65
 msgid "Host to connect:"
 msgstr "Koble til vert"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
 #. Options
-#: ../../src/ui_fsmenu/options.cc:319
+#: ../../src/ui_fsmenu/options.cc:302
 msgid "Progress…"
 msgstr "Progresjon..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:187
+#: ../../src/wui/gamedetails.cc:180
 msgid "Win Condition:"
 msgstr "Vinnertilstand"

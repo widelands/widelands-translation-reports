@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Jiawei Sun, 2022\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -12,18 +12,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:333
+#: ../../src/editor/editorinteractive.cc:343
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "设置坐标为(0,0)的位置。将以此生成迷你地图的左上角。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:476 ../../src/wlapplication.cc:686
+#: ../../src/editor/editorinteractive.cc:515 ../../src/wlapplication.cc:801
 #, c-format
 msgid ""
 "Widelands could not load the file \"%s\". The file format seems to be "
@@ -31,103 +31,104 @@ msgid ""
 msgstr "Widelands 不能读取文件 “%s\"。文件格式似乎不兼容。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:544
+#: ../../src/editor/editorinteractive.cc:590
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "这个地图没有保存，您确定真的要退出吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:176
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:177
 #, c-format
 msgid "Current: %s …"
 msgstr "当前：%s......"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
-#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
-#: ../../src/wui/tribal_encyclopedia.cc:56
+#: ../../src/editor/ui_menus/help.cc:36 ../../src/ui_fsmenu/login_box.cc:238
+#: ../../src/ui_fsmenu/main.cc:1011 ../../src/wui/encyclopedia_window.cc:144
+#: ../../src/wui/tribal_encyclopedia.cc:55
 msgid "Error!"
 msgstr "错误！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:352
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:354
 msgid "Map name:"
 msgstr "地图名："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:362
-#: ../../src/ui_fsmenu/addons_packager.cc:148
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:364
+#: ../../src/ui_fsmenu/addons/packager.cc:149
+#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:78
 msgid "Description:"
 msgstr "描述："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:367
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:369
 msgid "Hint (optional):"
 msgstr "提示（可选项）"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:375
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:377
 msgid "Tags:"
 msgstr "标签："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:396
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:398
 msgid "Waterway length limit:"
 msgstr "水路长度限制："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:430
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:432
 msgid "Suggested Teams:"
 msgstr "组队建议："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:75
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:74
 msgid "Terrain:"
 msgstr "地形："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:101
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:102
 msgid "Creating empty map…"
 msgstr "创建空地图......"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:64
-#: ../../src/wui/gamedetails.cc:179
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:63
+#: ../../src/wui/gamedetails.cc:172
 msgid "Players:"
 msgstr "玩家："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:129
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:128
 msgid "Water:"
 msgstr "水："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:142
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:141
 msgid "Land:"
 msgstr "陆地："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:155
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:154
 msgid "Wasteland:"
 msgstr "荒地："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:160
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:159
 msgid "Mountains:"
 msgstr "山脉："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:178
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:177
 msgid "Random number:"
 msgstr "随机数字："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:185
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:184
 msgid "Map ID:"
 msgstr "地图序号："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:540
 msgid "Generating random map…"
 msgstr "创建随机地图......"
 
@@ -138,7 +139,7 @@ msgstr "创建随机地图......"
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:586
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:585
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -146,43 +147,43 @@ msgid ""
 msgstr "地图已经被创建。请双击玩家起始位置以确保你的搬运工没有被淹没，或是被围困在山顶、岛屿之上。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:611
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:610
 msgid ""
 "This map was generated automatically by the Widelands Random Map Generator."
 msgstr "这张地图是由 Widelands 随机地图生成器自动创建的。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:69
-#: ../../src/wui/game_main_menu_save_game.cc:75
-#: ../../src/wui/gamedetails.cc:203
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:70
+#: ../../src/wui/game_main_menu_save_game.cc:76
+#: ../../src/wui/gamedetails.cc:195
 msgid "Filename:"
 msgstr "文件名："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:171
 msgid "A file or directory with that name already exists."
 msgstr "相同名称的文件或目录已存在。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:307
-#: ../../src/wui/game_main_menu_save_game.cc:249
+#: ../../src/wui/game_main_menu_save_game.cc:269
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "文件‘%s’已经存在了，要覆盖吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:310
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:365
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:364
 msgid "Error Saving Map!"
 msgstr "保存地图错误！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:52
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:51
 msgid "Enter Directory Name:"
 msgstr "输入目录名："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:107
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:108
 msgid "This extension is reserved!"
 msgstr "这个扩展已被保留！"
 
@@ -197,19 +198,19 @@ msgid ""
 msgstr "我们不建议设置超过8名玩家，除非出于测试目的。你确定要设置8个以上的玩家吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:44
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:43
 msgid "Increase/Decrease height by:"
 msgstr "增加/减少高度为："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:56
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:69
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:55
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:68
 msgid "Set height to:"
 msgstr "将“高度”设置为："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:60
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease terrain "
 "height"
@@ -242,17 +243,17 @@ msgid ""
 msgstr "按住Ctrl键并单击地图以设置所选资源的数量。这将覆盖已设置的资源。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:45
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:44
 msgid "Minimum height:"
 msgstr "最低海拔"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:57
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:56
 msgid "Maximum height:"
 msgstr "最大海拔"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_resize_options_menu.cc:51
+#: ../../src/editor/ui_menus/tool_resize_options_menu.cc:50
 msgid ""
 "Select the new map size, then click the map to split it at the desired "
 "location. When increasing the map size, new columns/rows will be inserted to"
@@ -262,7 +263,7 @@ msgid ""
 msgstr "选择新的地图尺寸，然后点击地图将其拆分到所期望位置。增加地图的尺寸时，新的列/行将插入到选定点的东/南。缩小地图尺寸时，所期望的列/行数将从拆分位置的东/南移除。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:54
+#: ../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "自动保存游戏......"
 
@@ -270,7 +271,7 @@ msgstr "自动保存游戏......"
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:173
+#: ../../src/graphic/gl/initialize.cc:171
 msgid ""
 "Widelands won't work because we were unable to detect the shading language "
 "version."
@@ -280,8 +281,8 @@ msgstr " Widelands无法正常工作，因为我们检测不到shading language 
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:177
-#: ../../src/graphic/gl/initialize.cc:191
+#: ../../src/graphic/gl/initialize.cc:175
+#: ../../src/graphic/gl/initialize.cc:188
 msgid ""
 "There is an unknown problem with reading the information from the graphics "
 "driver."
@@ -291,30 +292,27 @@ msgstr "读取显卡信息时出现未知的问题。"
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:188
+#: ../../src/graphic/gl/initialize.cc:185
 msgid ""
 "Widelands won't work because we were unable to detect the OpenGL version."
 msgstr "因无法检测 OpenGL 版本，故游戏无法启动。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
-#. driver. Font
-#. support is limited here, so do not use advanced typography *
-#. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:220
-#: ../../src/graphic/gl/initialize.cc:242
+#: ../../src/graphic/gl/initialize.cc:216
+#: ../../src/graphic/gl/initialize.cc:236
 msgid "Widelands won’t work because your graphics driver is too old."
 msgstr "显卡驱动程序过于陈旧，导致游戏无法运行。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:377
+#: ../../src/logic/game.cc:378
 msgid "Initializing game…"
 msgstr "初始化游戏"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:646 ../../src/logic/player.cc:237
+#: ../../src/logic/game.cc:639 ../../src/logic/player.cc:238
 #, c-format
 msgid ""
 "Widelands could not start the game, because player %u has no starting position.\n"
@@ -322,82 +320,89 @@ msgid ""
 msgstr "Widelands不能开始游戏，因为玩家%u缺少起始位置。\n你可以用Widelands编辑器手动添加一个开始位置来解决这个问题。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:1117
+#: ../../src/logic/game.cc:1191
 msgid "This market has received a new trade offer."
 msgstr "这个市场收到了新的交易报价。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:231
-#: ../../src/logic/generic_save_handler.cc:235
+#: ../../src/logic/game_data_error.cc:45
+msgid ""
+"This game was saved using an older version of Widelands and cannot be loaded"
+" anymore, or it’s a new version that can’t be handled yet."
+msgstr "这个游戏存档是用一个旧版本的Widelands保存的，所以不能够被加载。此外，更高版本的Widelands创建的游戏存档也不能够被加载。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/generic_save_handler.cc:220
+#: ../../src/logic/generic_save_handler.cc:224
 msgid "File successfully saved!"
 msgstr "文件成功保存！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:236
+#: ../../src/logic/generic_save_handler.cc:225
 #, c-format
 msgid "Backup file ‘%s’ could not be deleted."
 msgstr "备份文件 ‘%s’ 不能被删除。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:240
+#: ../../src/logic/generic_save_handler.cc:229
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "文件夹 ‘%s’ 不能被创建！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:244
+#: ../../src/logic/generic_save_handler.cc:233
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "文件 ‘%s’ 不能被移除！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:246
+#: ../../src/logic/generic_save_handler.cc:234
 msgid "Try saving under a different name!"
 msgstr "尝试用其他名称保存！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:252
+#: ../../src/logic/generic_save_handler.cc:239
 #, c-format
 msgid "Error writing data to file ‘%s’!"
 msgstr "将数据写入文件时出现错误  ‘%s’！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:259
+#: ../../src/logic/generic_save_handler.cc:246
 msgid "Saved file may be corrupt!"
 msgstr "保存的文件可能已损坏！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:267
+#: ../../src/logic/generic_save_handler.cc:253
 #, c-format
 msgid "File ‘%s’ could not be restored!"
 msgstr "文件 ‘%s’ 无法还原！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:269
+#: ../../src/logic/generic_save_handler.cc:254
 #, c-format
 msgid "Backup file ‘%s’ will be available for some time."
 msgstr "备份文件 ‘%s’ 将会有一段时间。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:280
+#: ../../src/logic/generic_save_handler.cc:263
 #, c-format
 msgid "File ‘%s’ was restored from backup."
 msgstr "文件 ‘%s’  已从备份还原。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:288
+#: ../../src/logic/generic_save_handler.cc:270
 msgid "An unexpected error occurred:"
 msgstr "发生意外错误："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
-#: ../../src/logic/map_objects/tribes/militarysite.cc:250
+#: ../../src/logic/map_objects/tribes/militarysite.cc:249
 msgctxt "building"
 msgid "Lost!"
 msgstr "丢失！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:251
+#: ../../src/logic/map_objects/tribes/militarysite.cc:250
 msgid "Militarysite lost!"
 msgstr "军事用地丢失！"
 
@@ -405,77 +410,83 @@ msgstr "军事用地丢失！"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:293
+#: ../../src/logic/map_objects/tribes/militarysite.cc:292
 msgid "Enemy Defeated!"
 msgstr "敌人被打败了！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:293
+#: ../../src/logic/map_objects/tribes/militarysite.cc:292
 msgid "Enemy at site defeated!"
 msgstr "战场上的敌人已被击溃！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite is being attacked
-#: ../../src/logic/map_objects/tribes/militarysite.cc:952
+#: ../../src/logic/map_objects/tribes/militarysite.cc:911
 msgctxt "building"
 msgid "Attack!"
 msgstr "攻击！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1834
+#: ../../src/logic/map_objects/tribes/production_program.cc:1850
 msgid "No soldier found for this training level!"
 msgstr "找不到符合此训练级别的士兵！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1095
+#: ../../src/logic/map_objects/tribes/productionsite.cc:1135
 msgid "Can’t find any more resources!"
 msgstr "找不到更多资源！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:437
+#: ../../src/logic/map_objects/tribes/ship.cc:439
 msgid "An expedition ship found a new port build space."
 msgstr "一艘探险船发现了一个新的港口建造空间。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:623
 msgid ""
 "An expedition ship reached a coast and is waiting for further commands."
 msgstr "一艘探险船到达海岸正在等待下一步的命令。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:670
+#: ../../src/logic/map_objects/tribes/ship.cc:674
 msgid "Port Lost!"
 msgstr "港口丢失"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:675
 msgid "Unloading of wares failed, expedition is cancelled now."
 msgstr "卸货失败，探险取消。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:853
+#: ../../src/logic/map_objects/tribes/ship.cc:857
 msgid "An expedition ship is waiting for your commands."
 msgstr "一艘探险船正等待着你的命令。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:557
+#: ../../src/logic/map_objects/tribes/warehouse.cc:556
 msgid "A new port was added to your economy."
 msgstr "一个新的港口已添加到你的经济系统。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:560
+#: ../../src/logic/map_objects/tribes/warehouse.cc:559
 msgid "A new headquarters was added to your economy."
 msgstr "一个新的总部已添加到你的经济系统。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:563
+#: ../../src/logic/map_objects/tribes/warehouse.cc:562
 msgid "A new warehouse was added to your economy."
 msgstr "一个新的仓库已添加到你的经济系统。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:1109
+#: ../../src/logic/map_objects/tribes/worker.cc:1114
 msgid "A geologist found resources."
 msgstr " 一位地质学家发现了资源。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/map_objects/tribes/worker.cc:2068
+#, c-format
+msgid "Your %s can’t find a way home and will likely die."
+msgstr "你 %s 找不到回家的路，很可能会死。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/logic/map_objects/tribes/worker.cc:2074
@@ -483,25 +494,25 @@ msgid "Worker got lost!"
 msgstr "工人迷路了！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:34
+#: ../../src/logic/objective.h:33
 msgid "This objective has no description."
 msgstr "此目标无描述。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/replay_game_controller.cc:102
+#: ../../src/logic/replay_game_controller.cc:107
 msgid ""
 "The end of the replay has been reached and the game has been paused. You may"
 " unpause the game and continue watching if you want to."
 msgstr "重放已结束，游戏已暂停。如果你想继续观看，你可以取消暂停游戏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:178
-#: ../../src/wui/game_main_menu_save_game.cc:298
+#: ../../src/logic/save_handler.cc:174
+#: ../../src/wui/game_main_menu_save_game.cc:321
 msgid "Saving failed!"
 msgstr "保存失败！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_scripting_packet.cc:84
+#: ../../src/map_io/map_scripting_packet.cc:82
 msgid ""
 "The engine received a SIGABRT signal which was most likely triggered by a "
 "corrupted savegame. No solution for this bug has been implemented yet. We "
@@ -509,17 +520,17 @@ msgid ""
 msgstr "这个游戏存档似乎已损坏无法修复，我们对此感到抱歉，目前还没有解决此项错误的方案。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
+#: ../../src/map_io/s2map.cc:428 ../../src/map_io/widelands_map_loader.cc:189
 msgid "Loading map…"
 msgstr "载入地图..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:469
+#: ../../src/map_io/s2map.cc:470
 msgid "Bluebyte Settlers II Map. No comment defined!"
 msgstr "蓝色字节工人物语II地图。未定义注释！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:209
+#: ../../src/network/gameclient.cc:213
 msgid ""
 "Widelands could not establish a connection to the given address. Either no "
 "Widelands server was running at the supposed port or the server shut down as"
@@ -527,77 +538,77 @@ msgid ""
 msgstr "Widelands无法建立到指定地址的连接。如果没有Widelands服务器运行在该端口之上，那么就是在你尝试连接时该服务器已关闭。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:945
+#: ../../src/network/gameclient.cc:974
 msgid ""
 "/me checked the received file. Although md5 check summing succeeded, I can "
 "not handle the file."
 msgstr "/me 已检查收到的文件。虽然md5值校验成功，但我无法处理该文件。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:291
+#: ../../src/network/gamehost.cc:118
 msgid "Available host commands are:"
 msgstr "可用的主机命令包括："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:301
+#: ../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause            -  强制游戏暂停。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:303
+#: ../../src/network/gamehost.cc:130
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause        -  恢复游戏到正常速度。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:326 ../../src/network/gamehost.cc:350
+#: ../../src/network/gamehost.cc:152 ../../src/network/gamehost.cc:176
 #, c-format
 msgid "The client %s could not be found."
 msgstr "找不到 %s 客户端。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:348
+#: ../../src/network/gamehost.cc:174
 msgid "You can not kick yourself!"
 msgstr "你不能踢出自己！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:365
+#: ../../src/network/gamehost.cc:189
 msgid "Kick acknowledgement cancelled: No name given!"
 msgstr "踢出确认取消: 没有指定的名字！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:373
+#: ../../src/network/gamehost.cc:197
 msgid "Kick acknowledgement cancelled: Wrong name given!"
 msgstr "踢出确认取消: 没有指定的名字！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:383
+#: ../../src/network/gamehost.cc:206
 msgid "Pause was already forced - game should be paused."
 msgstr "已经强制暂停 - 游戏应该暂停。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:393
+#: ../../src/network/gamehost.cc:216
 msgid "There is no forced pause - nothing to end."
 msgstr "没有强制暂停 - 没有什么可结束的。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:402
+#: ../../src/network/gamehost.cc:225
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "无效命令！ 输入 /help  获取命令列表。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:547
+#: ../../src/network/gamehost.cc:373
 msgid "Failed to host the server!"
 msgstr "服务器创建主机失败！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:556
+#: ../../src/network/gamehost.cc:382
 msgid "Failed to start the server!"
 msgstr "服务器启动失败！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:117
+#: ../../src/network/internet_gaming.cc:113
 msgid ""
 "Widelands could not establish a connection to the given address.\n"
 "Either there was no metaserver running at the supposed port or\n"
@@ -605,32 +616,32 @@ msgid ""
 msgstr "Widelands无法建立到指定地址的连接。\n 如果没有元数据服务器运行在指定的端口，\n 就是您的网络设置存在问题。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:180
+#: ../../src/network/internet_gaming.cc:176
 msgid "Users marked with IRC will possibly not react to messages."
 msgstr "标识有IRC的用户可能不会对消息做出反应。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:217
+#: ../../src/network/internet_gaming.cc:214
 msgid "Successfully reconnected to the metaserver!"
 msgstr "已成功重新连接到元数据服务器"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:430
+#: ../../src/network/internet_gaming.cc:429
 msgid "Welcome to the Widelands Metaserver!"
 msgstr "欢迎来到Widelands元数据服务器！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:447
+#: ../../src/network/internet_gaming.cc:445
 msgid "Our forums can be found at:"
 msgstr "我们的论坛位于："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:449
+#: ../../src/network/internet_gaming.cc:447
 msgid "For reporting bugs, visit:"
 msgstr "报告软件错误，请访问："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:488
+#: ../../src/network/internet_gaming.cc:485
 msgid ""
 "Received an unexpected network packet from the metaserver. The metaserver "
 "could be using a different protocol version. If the error persists, try "
@@ -638,231 +649,231 @@ msgid ""
 msgstr "从元数据服务器接收到意外的网络数据包。元数据服务器可能使用不同的协议版本。如果错误仍然存在，请尝试更新游戏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:500
+#: ../../src/network/internet_gaming.cc:495
 #, c-format
 msgid ""
 "WARNING: Received a %s command although we are not in CONNECTING state."
 msgstr "警告： 收到 %s 命令， 虽然我们并不处于连接状态。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:511
+#: ../../src/network/internet_gaming.cc:503
 #, c-format
 msgid "Server time offset is %d second."
 msgid_plural "Server time offset is %d seconds."
 msgstr[0] "服务器的时间偏移值为 %d 秒。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:526
+#: ../../src/network/internet_gaming.cc:517
 #, c-format
 msgid "Invalid chat message type \"%s\"."
 msgstr "无效的聊天信息类型 \"%s\"。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:687
+#: ../../src/network/internet_gaming.cc:674
 msgid "Chat message could not be sent."
 msgstr "不能发送聊天信息。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:697
+#: ../../src/network/internet_gaming.cc:682
 msgid "Command could not be executed."
 msgstr "命令不能被执行。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:886
+#: ../../src/network/internet_gaming.cc:867
 msgid "Message could not be sent: You are not connected to the metaserver!"
 msgstr "信息不能被发送：你没有连接到元数据服务器！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:905
-#: ../../src/network/internet_gaming.cc:912
+#: ../../src/network/internet_gaming.cc:887
+#: ../../src/network/internet_gaming.cc:895
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "信息不能被发送：这是私有的信息吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:927
+#: ../../src/network/internet_gaming.cc:910
 msgid "Supported admin commands:"
 msgstr "支持的管理命令"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:45
+#: ../../src/network/internet_gaming_messages.cc:44
 msgid "The game no longer exists, maybe it has just been closed."
 msgstr " 游戏已不存在，也许刚刚被关闭。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:46
+#: ../../src/network/internet_gaming_messages.cc:45
 msgid "Wrong password, please try again."
 msgstr "错误的密码，请再试试。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:47
+#: ../../src/network/internet_gaming_messages.cc:46
 msgid "You have been temporarily banned from online gaming."
 msgstr " 你被暂时禁止在线游戏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:48
+#: ../../src/network/internet_gaming_messages.cc:47
 msgid "The protocol version you are using is not supported!"
 msgstr "你所使用的协议版本不再被支持！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:49
+#: ../../src/network/internet_gaming_messages.cc:48
 msgid "You are already logged in!"
 msgstr "你已经登录了！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:51
+#: ../../src/network/internet_gaming_messages.cc:50
 msgid ""
 "You got disconnected, as you sent a superuser command without superuser "
 "permission. This incident will be logged and reported to the administrator."
 msgstr "你被中断了连接，因为你在没有超级用户权限的情况下发送了超级用户命令。此事件将被记录并报告给管理员。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:54
+#: ../../src/network/internet_gaming_messages.cc:53
 msgid "Connection was closed by the client normally."
 msgstr " 客户端正常关闭了连接。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:55
+#: ../../src/network/internet_gaming_messages.cc:54
 msgid "The connection to the metaserver was lost."
 msgstr " 与元数据服务器的连接已丢失。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:123
+#: ../../src/network/network_gaming_messages.cc:117
 msgid "Client crashed and performed an emergency save."
 msgstr "因客户端发生严重故障，执行了一次应急存档。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:124
+#: ../../src/network/network_gaming_messages.cc:118
 msgid "Connection was lost."
 msgstr " 连接丢失。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:125
+#: ../../src/network/network_gaming_messages.cc:119
 msgid "Server has left the game."
 msgstr "服务器已退出游戏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:127
+#: ../../src/network/network_gaming_messages.cc:121
 msgid "The game has started just after you tried to connect."
 msgstr "游戏在你尝试连接之后刚刚开始。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:128
+#: ../../src/network/network_gaming_messages.cc:122
 msgid "Server has crashed and performed an emergency save."
 msgstr "因服务器发生严重故障，执行了一次应急存档。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:129
+#: ../../src/network/network_gaming_messages.cc:123
 msgid "Client and host have become desynchronized."
 msgstr "客户端和主机已不再同步。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:137
+#: ../../src/network/network_gaming_messages.cc:131
 msgid "Server sent a SYNCREQUEST even though no game is running."
 msgstr "服务器发送了SYNCREQUEST，即使没有游戏正在运行。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:138
+#: ../../src/network/network_gaming_messages.cc:132
 msgid "Received a PLAYERCOMMAND even though no game is running."
 msgstr "收到一条 PLAYERCOMMAND，即使没有游戏正在运行。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:139
+#: ../../src/network/network_gaming_messages.cc:133
 msgid "Unexpectedly received LAUNCH command from server."
 msgstr "从服务器意外地收到LAUNCH命令。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:141
+#: ../../src/network/network_gaming_messages.cc:135
 msgid "Server sent a player update for a player that does not exist."
 msgstr "服务器为不存在的游戏玩家发送了玩家更新。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:143
+#: ../../src/network/network_gaming_messages.cc:137
 msgid "Server sent a user update for a user that does not exist."
 msgstr "服务器为不存在的用户发送了用户更新。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:145
+#: ../../src/network/network_gaming_messages.cc:139
 #, c-format
 msgid "Received command number %s, which is not allowed in this state."
 msgstr "收到在这种状态下不被允许的命令编号 %s 。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:148
+#: ../../src/network/network_gaming_messages.cc:142
 msgid "Client reports time to host that is running backwards."
 msgstr "客户端向主机报告反向运行的时间。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:150
+#: ../../src/network/network_gaming_messages.cc:144
 msgid "Client simulates beyond the game time allowed by the host."
 msgstr "客户端模拟超出主机允许的游戏时间。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:151
+#: ../../src/network/network_gaming_messages.cc:145
 msgid "Client did not submit sync report in time."
 msgstr "客户端没有及时提交sync报告。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:152
+#: ../../src/network/network_gaming_messages.cc:146
 msgid "The game has already started."
 msgstr "游戏已经开始了。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:153
+#: ../../src/network/network_gaming_messages.cc:147
 msgid "Client has no access to other player’s settings."
 msgstr "客户端无法访问其他游戏玩家的设置。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:154
+#: ../../src/network/network_gaming_messages.cc:148
 msgid "Client has no access to server settings."
 msgstr "客户端不能读取服务器的设置。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:156
+#: ../../src/network/network_gaming_messages.cc:150
 msgid "Client sent TIME command even though game is not running."
 msgstr "客户端发送 TIME 命令，即使游戏没有运行。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:157
+#: ../../src/network/network_gaming_messages.cc:151
 msgid "Client sent a PLAYERCOMMAND for another player."
 msgstr "客户端发送一条 PLAYER COMMAND 给另外一个玩家。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:158
+#: ../../src/network/network_gaming_messages.cc:152
 msgid "Client sent unexpected synchronization report."
 msgstr "客户端发送了意外的同步报告。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:161
+#: ../../src/network/network_gaming_messages.cc:155
 #, c-format
 msgid "Host sent player %s to the lobby!"
 msgstr "主机将玩家 %s 送到大厅！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:166
+#: ../../src/network/network_gaming_messages.cc:160
 #, c-format
 msgid "Completed transfer of file %1$s to %2$s"
 msgstr " 已完成文件 %1$s 到 %2$s 的传输。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:167
+#: ../../src/network/network_gaming_messages.cc:161
 #, c-format
 msgid "The player ‘%s’ was defeated and became a spectator."
 msgstr "玩家 ‘%s’ 被打败了，成为了旁观者。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:168
+#: ../../src/network/network_gaming_messages.cc:162
 #, c-format
 msgid "Client %1$s did not answer for more than %2$s."
 msgstr " 客户端 %1$s 没有应答超过了 %2$s 的时间。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_lan_promotion.cc:362
+#: ../../src/network/network_lan_promotion.cc:357
 msgid "Failed to use the local network!"
 msgstr "本地网络不可用！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s is a list of alternative ports with "or"
-#: ../../src/network/network_lan_promotion.cc:364
+#: ../../src/network/network_lan_promotion.cc:359
 #, c-format
 msgid ""
 "Widelands was unable to use the local network. Maybe some other process is "
@@ -870,44 +881,91 @@ msgid ""
 msgstr "Widelands无法使用本地网络。可能其他的进程正运行在服务器的 %s 端口上，或者您的网络设置已中断。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons.cc:953
+#: ../../src/ui_basic/panel.cc:298
+msgid "Please wait…"
+msgstr "请稍候..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/panel.cc:428
+msgid "Game ending – please wait…"
+msgstr "游戏结束 – 请稍候..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/contact.cc:73
+msgid "Send this message now?"
+msgstr "现在就发送这个消息？"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/login_box.cc:75
+#: ../../src/ui_fsmenu/login_box.cc:59
+#, c-format
+msgid ""
+"In order to use a registered account, you need an account on the Widelands "
+"website. Please log in at %s and set an online gaming password on your "
+"profile page."
+msgstr "为了使用注册帐户，你需要在Widelands的官方网站上注册一个帐号。请登入到%s并在你的个人资料概述页面设置一个在线游戏的密码。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/login_box.cc:82
+msgid "Username:"
+msgstr "用户名："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/login_box.cc:87
+#: ../../src/ui_fsmenu/login_box.cc:52
+msgid "Password:"
+msgstr "密码："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:104
+msgid "This add-on may cause major glitches and errors."
+msgstr "这个插件可能会导致重大故障和错误。"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:215
+msgid "Upload a screenshot…"
+msgstr "上传一张屏幕截图..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:1249
 msgid ""
 "Add-Ons with dependency errors may work incorrectly or prevent games and "
 "maps from loading."
 msgstr "存在依赖错误的附件可能无法正常工作，或者阻止加载游戏和地图。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons.cc:1353
+#: ../../src/ui_fsmenu/addons/manager.cc:1623
 #, c-format
 msgid "The required add-on ‘%s’ could not be found on the server."
 msgstr "在服务器上找不到所需的附加组件 ‘%s’ 。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons.cc:1661
-msgid "No comments yet."
-msgstr "还没有评论"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons.cc:1663
-#, c-format
-msgid "%u comment:"
-msgid_plural "%u comments:"
-msgstr[0] "%u 评论："
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons_packager.cc:133
+#: ../../src/ui_fsmenu/addons/packager.cc:134
 msgid "Name:"
 msgstr "姓名："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons_packager.cc:138
+#: ../../src/ui_fsmenu/addons/packager.cc:139
 msgid "Author:"
 msgstr "作者："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons_packager.cc:143
+#: ../../src/ui_fsmenu/addons/packager.cc:144
+#: ../../src/ui_fsmenu/tech_info.cc:67
 msgid "Version:"
 msgstr "版本："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:871
+msgid "No comments yet."
+msgstr "还没有评论"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:872
+#, c-format
+msgid "%u comment:"
+msgid_plural "%u comments:"
+msgstr[0] "%u 评论："
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/ui_fsmenu/internet_lobby.cc:417
@@ -916,32 +974,32 @@ msgid "The game %s is already running. Please choose a different name."
 msgstr "游戏%s已在运行中，请选择其他名称。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:94
+#: ../../src/ui_fsmenu/launch_game.cc:92
 msgid "Change map…"
 msgstr "更换地图..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:104
+#: ../../src/ui_fsmenu/launch_game.cc:102
 msgid "Change saved game…"
 msgstr "更改保存的游戏..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:245
+#: ../../src/ui_fsmenu/launch_game.cc:247
 msgid "The game is a saved game – the win condition was set before."
 msgstr "此游戏是保存的游戏，胜利条件已经设置。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:80
+#: ../../src/ui_fsmenu/launch_mpg.cc:76
 msgid "Please select a map or saved game."
 msgstr "请选择一张地图或是保存游戏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:83
+#: ../../src/ui_fsmenu/launch_mpg.cc:79
 msgid "The host has not yet selected a map or saved game."
 msgstr "主机还未选择地图或游戏存档"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:193
+#: ../../src/ui_fsmenu/launch_mpg.cc:190
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
@@ -949,7 +1007,7 @@ msgid ""
 msgstr "警告：\n你选择的游戏存档是一个文件夹。这种情况在你设置\"nozip\"选项为true或者手工解压缩了游戏存档时会出现。\nWidelands不能传输文件夹到其他客户端，请选择另一个游戏存档或者压缩文件夹内容为zip文件。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:213 ../../src/ui_fsmenu/launch_spg.cc:127
+#: ../../src/ui_fsmenu/launch_mpg.cc:210 ../../src/ui_fsmenu/launch_spg.cc:127
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -958,14 +1016,14 @@ msgid ""
 msgstr "Widelands用了一个无法找到的文件路径开始游戏。\n此文件是：%s\n如果此情况发生在网络游戏中，游戏创建者可能选择了你没有的文件。通常，此文件将从创建者传输过来，但是可能传输目前还没有完成?!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:253
+#: ../../src/ui_fsmenu/launch_mpg.cc:250
 msgid ""
 "The selected file can not be found. If it is not automatically transferred "
 "to you, please write to the host about this problem."
 msgstr "无法找到选择的文件。如果此文件没有自动下载，请致信游戏创建者说明问题。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/loadgame.cc:162
+#: ../../src/ui_fsmenu/loadgame.cc:163
 msgid ""
 "This replay was created with a different Widelands version. It might be compatible, but will more likely desync or even fail to load.\n"
 "\n"
@@ -975,148 +1033,134 @@ msgid ""
 msgstr "此回放是由不同的Widelands版本创建的。它可能是兼容的，但是很有可能不同步甚至无法加载。 \n\n请不要报告在观看此回放时发生的任何错误。 \n\n你是否还要加载回放文件？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:51
+#: ../../src/ui_fsmenu/login_box.cc:50
 msgid "Log in to a registered account."
 msgstr "登录到注册帐户。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:52
+#: ../../src/ui_fsmenu/login_box.cc:51
 msgid "Nickname:"
 msgstr "昵称："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:53
-msgid "Password:"
-msgstr "密码："
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:60
-#, c-format
-msgid ""
-"In order to use a registered account, you need an account on the Widelands "
-"website. Please log in at %s and set an online gaming password on your "
-"profile page."
-msgstr "为了使用注册帐户，你需要在Widelands的官方网站上注册一个帐号。请登入到%s并在你的个人资料概述页面设置一个在线游戏的密码。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:204
+#: ../../src/ui_fsmenu/login_box.cc:203
 msgid "Please enter a nickname!"
 msgstr "请键入一个昵称！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:208
+#: ../../src/ui_fsmenu/login_box.cc:207
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
 msgstr "键入一个有效的昵称。昵称只能由英文字母，数字，和@ . + - _ 等英文输入法状态下的字符构成。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:214
+#: ../../src/ui_fsmenu/login_box.cc:213
 msgid "Please enter your password!"
 msgstr "请输入你的密码！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:423
+#: ../../src/ui_fsmenu/main.cc:440
 msgid "Single Player…"
 msgstr "单人玩家..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:424
+#: ../../src/ui_fsmenu/main.cc:441
 msgid "Multiplayer…"
 msgstr "多人玩家..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:425
+#: ../../src/ui_fsmenu/main.cc:442
 msgid "Editor…"
 msgstr "编辑器..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Placeholders are the copyright years
-#: ../../src/ui_fsmenu/main.cc:463
+#: ../../src/ui_fsmenu/main.cc:480
 msgid ""
 "(C) %1%-%2% by the Widelands Development Team · Licensed under the GNU "
 "General Public License V2.0"
 msgstr "(C)%1%-%2% Widelands 开发团队。基于GNU  General Public License V2.0 许可。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:892 ../../src/ui_fsmenu/netsetup_lan.cc:321
+#: ../../src/ui_fsmenu/main.cc:915 ../../src/ui_fsmenu/netsetup_lan.cc:324
 msgid "No tribes found!"
 msgstr "找不到部落！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:893 ../../src/ui_fsmenu/netsetup_lan.cc:322
+#: ../../src/ui_fsmenu/main.cc:916 ../../src/ui_fsmenu/netsetup_lan.cc:325
 msgid "No tribes found in data/tribes/initialization/[tribename]/init.lua."
 msgstr "在 data/tribes/initialization/[tribename]/init.lua 中找不到部落。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:46
+#: ../../src/ui_fsmenu/netsetup_lan.cc:45
 msgid "List of games in your local network:"
 msgstr "本地网络游戏列表"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:57
+#: ../../src/ui_fsmenu/netsetup_lan.cc:56
 msgid "Your nickname:"
 msgstr "您的名字"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:66
+#: ../../src/ui_fsmenu/netsetup_lan.cc:65
 msgid "Host to connect:"
 msgstr "连接主机"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:277
+#: ../../src/ui_fsmenu/netsetup_lan.cc:280
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters and must not be \"team\"."
 msgstr "键入一个有效的昵称。昵称只能由英文字母，数字，和@ . + - _ 等英文输入法状态下的字符构成，且不能是团队名。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:154
+#: ../../src/ui_fsmenu/options.cc:139
 msgid "Maximum FPS:"
 msgstr "每秒最大帧数："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:190
+#: ../../src/ui_fsmenu/options.cc:175
 msgid "Distance for windows to snap to other panels:"
 msgstr "窗口吸附到其他面板的距离"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:202
+#: ../../src/ui_fsmenu/options.cc:187
 msgid "Distance for windows to snap to borders:"
 msgstr "窗口吸附到边界的距离"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:227
+#: ../../src/ui_fsmenu/options.cc:212
 msgid "Save game automatically every:"
 msgstr "自动保存游戏的时间间隔："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:240
+#: ../../src/ui_fsmenu/options.cc:225
 msgid "Maximum number of autosave files:"
 msgstr "自动保存文件的最大数目："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
 #. Options
-#: ../../src/ui_fsmenu/options.cc:319
+#: ../../src/ui_fsmenu/options.cc:302
 msgid "Progress…"
 msgstr "进度..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:692
+#: ../../src/ui_fsmenu/options.cc:657
 #, c-format
 msgid "The translation into %s is complete."
 msgstr " %s翻译已完成。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %1% = language name, %2% = percentage
-#: ../../src/ui_fsmenu/options.cc:695
+#: ../../src/ui_fsmenu/options.cc:661
 msgid "The translation into %1% is %2%%% complete."
 msgstr "%1%翻译已完成%2%%%。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/random_game.cc:118
+#: ../../src/ui_fsmenu/random_game.cc:128
 msgid ""
 "The random map generator was unable to generate a suitable map. This happens"
 " occasionally because the generator is still in beta stage. Please try again"
@@ -1135,302 +1179,291 @@ msgid ""
 msgstr "你可以在右边看到当前所选择的教程描述。"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/tech_info.cc:85
+msgid "Operating System:"
+msgstr "操作系统："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/tech_info.cc:109
+msgid "Configuration File:"
+msgstr "配置文件："
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/tech_info.cc:110
+msgid "Data Directory:"
+msgstr "数据目录："
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wlapplication.cc:690 ../../src/wlapplication.cc:696
-#: ../../src/wlapplication.cc:701 ../../src/wui/savegameloader.cc:107
+#: ../../src/wlapplication.cc:804 ../../src/wlapplication.cc:808
+#: ../../src/wlapplication.cc:813 ../../src/wui/savegameloader.cc:123
 msgid "Error message:"
 msgstr "错误消息："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:694
+#: ../../src/wlapplication.cc:807
 #, c-format
 msgid "Widelands could not find the file \"%s\"."
 msgstr "Widelands 找不到文件 \"%s\"。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1453
-#, c-format
-msgid ""
-"An error has occured. The error message is:\n"
-"\n"
-"%1$s\n"
-"\n"
-"Please report this problem to help us improve Widelands. You will find related messages in the standard output (stdout.txt on Windows). You are using build %2$s (%3$s).\n"
-"Please add this information to your report."
-msgstr "发生错误，错误消息是： \n\n%1$s\n\n请报告这个问题帮助我们改进Widelands。你将在标准输出中找到相关消息 （stdout.txt on Windows）。你正生成%2$s(%3$s)。\n请添加此信息到你的报告中。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1470
-#, c-format
-msgid ""
-"An error occured during the game. The error message is:\n"
-"\n"
-"%1$s\n"
-"\n"
-"Please report this problem to help us improve Widelands. You will find related messages in the standard output (stdout.txt on Windows). You are using build %2$s (%3$s).\n"
-"\n"
-"Please add this information to your report.\n"
-"\n"
-"Would you like Widelands to attempt to create an emergency savegame? It is often – though not always – possible to load it and continue playing."
-msgstr "游戏时发生错误，错误消息是：\n\n%1$s\n\n请报告这个问题帮助我们改进Widelands。你将在标准输出中找到相关消息（stdout.txt on Windows）。你正生成%2$s (%3$s)。\n\n请添加此信息到你的报告中。\n\n你希望Widelands尝试创建一个应急游戏存档吗？应急游戏存档通常 – 并不总是 – 可以加载并继续游戏。"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:186
+#: ../../src/wui/actionconfirm.cc:187
 msgid "Destroy building?"
 msgstr "摧毁建筑？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:245
+#: ../../src/wui/actionconfirm.cc:248
 msgid "Dismantle building?"
 msgstr "拆除建筑？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:299
+#: ../../src/wui/actionconfirm.cc:302
 msgid "Enhance building?"
 msgstr "升级建筑？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Warning message when player wants to enhance a military
 #. building
-#: ../../src/wui/actionconfirm.cc:303
+#: ../../src/wui/actionconfirm.cc:308
 msgid "Be careful if the enemy is near!"
 msgstr "敌人在附近的时候一定要小心！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:361
+#: ../../src/wui/actionconfirm.cc:366
 msgid "Sink the ship?"
 msgstr "沉掉这艘船？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s is a ship name
-#: ../../src/wui/actionconfirm.cc:363
+#: ../../src/wui/actionconfirm.cc:368
 #, c-format
 msgid "Do you really want to sink %s?"
 msgstr "你真的想沉掉%s吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:400
+#: ../../src/wui/actionconfirm.cc:405
 msgid "Cancel expedition?"
 msgstr "取消探险？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:401
+#: ../../src/wui/actionconfirm.cc:406
 msgid "Do you really want to cancel the active expedition?"
 msgstr "你真的想放弃已激活的探险？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_box.cc:229
+#: ../../src/wui/attack_window.cc:283
 msgid "Attackers:"
 msgstr "攻击者："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_box.cc:246
+#: ../../src/wui/attack_window.cc:299
 msgid "Not attacking:"
 msgstr "不攻击："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:72
+#: ../../src/wui/building_statistics_menu.cc:70
 msgid "Owned:"
 msgstr "拥有："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:77
+#: ../../src/wui/building_statistics_menu.cc:75
 msgid "Under construction:"
 msgstr "建设之中："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:93
+#: ../../src/wui/building_statistics_menu.cc:91
 msgid "Low productivity threshold:"
 msgstr "低生产率阈值："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:701
+#: ../../src/wui/building_statistics_menu.cc:700
 msgid "Low productivity:"
 msgstr "低生产率："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Label for number of buildings that are waiting for soldiers
-#: ../../src/wui/building_statistics_menu.cc:722
+#: ../../src/wui/building_statistics_menu.cc:719
 msgid "Lacking soldiers:"
 msgstr "缺少士兵："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/buildingwindow.cc:297 ../../src/wui/fieldaction.cc:101
+#: ../../src/wui/buildingwindow.cc:301 ../../src/wui/fieldaction.cc:97
 msgid "Construction costs:"
 msgstr "建设成本："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/buildingwindow.cc:333
+#: ../../src/wui/buildingwindow.cc:337
 msgid "Returns:"
 msgstr "可回收："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:603
+#: ../../src/wui/economy_options_window.cc:620
 msgid "Overwrite?"
 msgstr "覆盖？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:604
+#: ../../src/wui/economy_options_window.cc:621
 msgid "A profile with this name already exists. Do you wish to replace it?"
 msgstr "同名的概述文件已存在。你想覆盖它吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_client_disconnected.cc:66
+#: ../../src/wui/game_client_disconnected.cc:65
 msgid ""
 "A player disconnected from the game. An automatic save game has been "
 "created. Do you want to continue playing?"
 msgstr "一个游戏玩家已经从游戏断开连接。游戏存档已自动创建。你想继续游戏吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_exit_confirm_box.cc:30
+#: ../../src/wui/game_exit_confirm_box.cc:28
 msgid "Are you sure you wish to exit this game?"
 msgstr "你真的想退出这局游戏吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:252
-#: ../../src/wui/game_main_menu_save_game.cc:288
+#: ../../src/wui/game_main_menu_save_game.cc:271
+#: ../../src/wui/game_main_menu_save_game.cc:311
 msgid "Error Saving Game!"
 msgstr "游戏保存错误！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:56
+#: ../../src/wui/game_summary.cc:55
 msgid "Player Info:"
 msgstr "玩家信息："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:88
+#: ../../src/wui/game_summary.cc:87
 msgid "Elapsed time:"
 msgstr "运行时间："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:245
+#: ../../src/wui/game_summary.cc:244
 msgid "You won!"
 msgstr "你赢了！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:247
+#: ../../src/wui/game_summary.cc:246
 msgid "You lost."
 msgstr "你输了。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:251
+#: ../../src/wui/game_summary.cc:250
 #, c-format
 msgid "%s won!"
 msgstr "%s胜利！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:254
-msgid "Team %|1$u| won!"
-msgstr "团队%|1$u|胜利！"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:126
+#: ../../src/wui/gamedetails.cc:122
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] "选中%1%目录和%2%："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:145
+#: ../../src/wui/gamedetails.cc:140
 msgid "Directory Name:"
 msgstr "目录名："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:153
+#: ../../src/wui/gamedetails.cc:148
 msgid "Error:"
 msgstr "错误："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:159
+#: ../../src/wui/gamedetails.cc:154
 msgid "Map Name:"
 msgstr "地图名称："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: The time a replay starts. Shown in the replay loading screen
-#: ../../src/wui/gamedetails.cc:172
+#: ../../src/wui/gamedetails.cc:165
 msgid "Start of Replay:"
 msgstr "回放开始："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: The current time of a savegame. Shown in the game saving and
 #. loading screens.
-#: ../../src/wui/gamedetails.cc:175
+#: ../../src/wui/gamedetails.cc:168
 msgid "Game Time:"
 msgstr "游戏时间："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:183
+#: ../../src/wui/gamedetails.cc:176
 msgid "Widelands Version:"
 msgstr "WIdelands版本："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:187
+#: ../../src/wui/gamedetails.cc:180
 msgid "Win Condition:"
 msgstr "胜利条件："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:194 ../../src/wui/mapdetails.cc:193
+#: ../../src/wui/gamedetails.cc:187 ../../src/wui/mapdetails.cc:184
 msgid "Add-Ons:"
 msgstr "附加组件"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:43
+#: ../../src/wui/savegamedeleter.cc:60
 msgid "Do you really want to delete this game?"
 msgstr "确定删除此游戏？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate
 #. string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:46
+#: ../../src/wui/savegamedeleter.cc:63
 #, c-format
 msgid "Do you really want to delete this %d game?"
 msgid_plural "Do you really want to delete these %d games?"
 msgstr[0] "你真的要删除这些%d游戏吗？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:80
+#: ../../src/wui/savegamedeleter.cc:96
 msgid "Error Deleting File!"
 msgstr "删除文件时出错！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:80
+#: ../../src/wui/savegamedeleter.cc:96
 msgid "Error Deleting Files!"
 msgstr "删除文件时出错！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:92
+#: ../../src/wui/savegamedeleter.cc:108
 msgid "The game could not be deleted."
 msgstr "此游戏不能被删除。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:97
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
+#. NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
 msgstr[0] "%d游戏不能被删除。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:109
+#: ../../src/wui/savegamedeleter.cc:124
 msgid "Do you really want to delete this replay?"
 msgstr "确定删除此回放？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a
 #. separate string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:112
+#: ../../src/wui/savegamedeleter.cc:127
 #, c-format
 msgid "Do you really want to delete this %d replay?"
 msgid_plural "Do you really want to delete these %d replays?"
 msgstr[0] "你真的想删除这些%d回放？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:123
+#: ../../src/wui/savegamedeleter.cc:137
 msgid "The replay could not be deleted."
 msgstr "此回放不能被删除。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:128
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."
@@ -1439,27 +1472,27 @@ msgstr[0] "%d回放不能被删除。"
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/savegameloader.cc:104
+#: ../../src/wui/savegameloader.cc:120
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
 msgstr "此文件因格式错误而无法载入，可能是由旧版本Widelands创建的。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:133 ../../src/wui/savegametable.cc:185
-#: ../../src/wui/savegametable.cc:245
+#: ../../src/wui/savegametable.cc:148 ../../src/wui/savegametable.cc:200
+#: ../../src/wui/savegametable.cc:259
 msgid ""
 "The filename that the game was saved under followed by the map’s name, or "
 "the map’s name followed by the last objective achieved."
 msgstr "游戏存档的文件名后跟地图名，地图名后跟一个最后达成的目标。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:177 ../../src/wui/savegametable.cc:237
+#: ../../src/wui/savegametable.cc:192 ../../src/wui/savegametable.cc:251
 msgid "Numbers are the number of players."
 msgstr "数字表示游戏玩家的数量。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:215
+#: ../../src/wui/shipwindow.cc:218
 msgid ""
 "This expedition can’t be canceled, because the ship has no port to return "
 "to."
@@ -1472,11 +1505,11 @@ msgid "Changes the volume. Click to hear a sample."
 msgstr "调节音量。单击此处收听示例。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:61
+#: ../../src/wui/stock_menu.cc:62
 msgid "Yellow:"
 msgstr "黄色："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:65
+#: ../../src/wui/stock_menu.cc:66
 msgid "Green:"
 msgstr "绿色："

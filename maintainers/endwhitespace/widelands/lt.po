@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Tachionas <tachionexas@gmail.com>, 2020-2021\n"
 "Language-Team: Lithuanian (http://www.transifex.com/widelands/widelands/"
 "language/lt/)\n"
 "Language: lt\n"
@@ -14,36 +14,46 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Tooltip for the map size tool in the editor
-#: ../../src/editor/editorinteractive.cc:326
+#: ../../src/editor/editorinteractive.cc:336
 msgid "Set number of players and their names, tribes and starting positions"
 msgstr "Nustatyti žaidėjų skaičių ir jų vardus, gentis ir pradines padėtis "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:333
+#: ../../src/editor/editorinteractive.cc:343
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "Nustatyti poziciją, kurios koordinatės bus (0,0). Tai bus sugeneruoto minižemėlapio viršutinis kairysis kampas.  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/editorinteractive.cc:544
+#: ../../src/editor/editorinteractive.cc:590
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "Žemėlapis nebuvo išsaugotas. Ar tikrai norite išeiti? "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Help text in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:179
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:180
 msgid "Click to select an item. Use the Ctrl key to select multiple items."
 msgstr "Norėdamas pažymėti spustelėk elementą. Naudok Ctrl klavišą norėdamas pažymėti keletą elementų. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/editor/ui_menus/field_info_window.cc:75
+msgid "Node"
+msgstr "Mazgas "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:108
+msgid "This extension is reserved!"
+msgstr "Šis plėtinys rezervuotas! "
+
+# (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:60
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease terrain "
 "height"
@@ -51,49 +61,101 @@ msgstr "Norėdamas padidinti reljefo aukštį spustelėk ant žemėlapio. Norėd
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Editor set height access key. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:64
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:80
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:63
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
 msgid "Ctrl + Click on the map to set terrain height"
 msgstr "Norėdamas nustatyti reljefo aukštį paspausk Ctrl klavišą ir spustelėk ant žemėlapio. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Editor random height access key. *
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:73
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:76
+msgid ""
+"Click on the map to set terrain height to a random value within the "
+"specified range"
+msgstr "Norėdamas nustatyti atsitiktinę reljefo aukščio vertę nurodytame diapazone spustelėk ant žemėlapio. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: A variant of the commandline parameter "false" value
 #. * TRANSLATORS: Needs to be consistent with the translations in widelands-
 #. console
-#: ../../src/io/profile.cc:55
+#: ../../src/io/profile.cc:53
 msgid "no"
 msgstr "Kuriami žaidėjai...  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/logic/generic_save_handler.cc:236
+#: ../../src/logic/generic_save_handler.cc:225
 #, c-format
 msgid "Backup file ‘%s’ could not be deleted."
 msgstr "Atsarginės failo ‘%s’ kopijos nepavyko ištrinti. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/logic/generic_save_handler.cc:269
+#: ../../src/logic/generic_save_handler.cc:229
+#, c-format
+msgid "Directory ‘%s’ could not be created!"
+msgstr "Katalogo '%s' sukūrimas negalimas! "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/generic_save_handler.cc:254
 #, c-format
 msgid "Backup file ‘%s’ will be available for some time."
 msgstr "Atsarginė failo ‘%s’  kopija bus prieinama kurį laiką. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/network/internet_gaming.cc:935
+#: ../../src/network/internet_gaming.cc:918
 msgid "/kick <user|game> - Remove the given user or game from the metaserver"
 msgstr "/kick < naudotojas | žaidimas > - Atitinkamo naudotojo ar žaidimo pašalinimas iš metaserverio.  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/network/network_gaming_messages.cc:143
+#: ../../src/network/network_gaming_messages.cc:137
 msgid "Server sent a user update for a user that does not exist."
 msgstr "Serveris išsiuntė naudotojo atnaujinimą naudotojui, kurio nėra. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/network/network_gaming_messages.cc:166
+#: ../../src/network/network_gaming_messages.cc:160
 #, c-format
 msgid "Completed transfer of file %1$s to %2$s"
 msgstr "Failo %1$s siuntimas %2$s baigtas "
 
 # (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/launch_game.cc:231
+msgid ""
+"Allow the players to choose their own starting positions at the beginning of"
+" the game"
+msgstr "Leisti žaidimo pradžioje žaidėjams pasirinkti jų pradinę poziciją "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/main.cc:328
+msgid "Play one of our beginners’ tutorials"
+msgstr "Žaisti vieną iš mūsų pradedantiesiems skirtą pamoką "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/actionconfirm.cc:249
+msgid "Do you really want to dismantle this building?"
+msgstr "Ar tikrai nori išmontuoti šį statinį? "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/constructionsitewindow.cc:299
+#: ../../src/wui/warehousewindow.cc:150
+msgid "Preferably store selected wares here"
+msgstr "Pageidautina čia saugoti pasirinktus gaminius "
+
+# (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:526
+#: ../../src/wui/game_message_menu.cc:529
 msgid "Show all messages"
 msgstr "Rodyti visas žinutes. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
+#. load.
+#. * TRANSLATORS: Make sure that you keep consistency in your translation.
+#: ../../src/wui/savegametable.cc:182
+msgid "SP = Single Player"
+msgstr "SP = Vieno žaidėjo "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: Tooltip for volume slider in sound options
+#: ../../src/wui/sound_options.cc:66
+msgid "Changes the volume. Click to hear a sample."
+msgstr "Garsumo keitimas. Norėdamas išgirsti pavyzdį, paspausk. "

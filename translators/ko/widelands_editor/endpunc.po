@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-18 17:05+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2016-03-24 07:33+0000\n"
+"Last-Translator: ks k, 2018,2020\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/editor/editor_controls.lua:43
@@ -32,16 +32,3 @@ msgstr "[플레이해 보고 번역수정할것]지도에서 요소를 제거하
 #: ../../data/scripting/editor/editor_controls.lua:47
 msgid "Set map elements to the value selected by ‘Set Value’"
 msgstr "지도 요소를 ‘값 설정’으로 선택된 값으로 합니다."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/editor/editor_introduction.lua:13
-msgid ""
-"As you can see, this editor is heavy work in progress and as the editor "
-"becomes better and better, this text will also get longer and more complete."
-msgstr "[번역확인]보다시피, 편집기는 점점 나아지고 있지만 아직 개발이 필요합니다. 글자도 더 길게 하면서 여러 요소를 제대로 설명해야 합니다"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: A header in the editor help if there is 1 valid resource
-#: ../../data/scripting/editor/terrain_help.lua:25
-msgid "Valid Resource:"
-msgstr "있는 자원 :"

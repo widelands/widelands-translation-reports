@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Foppe Benedictus <foppe.benedictus@gmail.com>, 2020,2022\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -20,7 +20,7 @@ msgstr ""
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:93
+#: ../../src/base/time_string.cc:92
 msgid "Jan"
 msgstr "jan."
 
@@ -30,7 +30,7 @@ msgstr "jan."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:99
+#: ../../src/base/time_string.cc:98
 msgid "Feb"
 msgstr "feb."
 
@@ -40,7 +40,7 @@ msgstr "feb."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:105
+#: ../../src/base/time_string.cc:104
 msgid "Mar"
 msgstr "mrt."
 
@@ -50,7 +50,7 @@ msgstr "mrt."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:111
+#: ../../src/base/time_string.cc:110
 msgid "Apr"
 msgstr "apr."
 
@@ -60,7 +60,7 @@ msgstr "apr."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:123
+#: ../../src/base/time_string.cc:122
 msgid "Jun"
 msgstr "jun."
 
@@ -70,7 +70,7 @@ msgstr "jun."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:129
+#: ../../src/base/time_string.cc:128
 msgid "Jul"
 msgstr "jul."
 
@@ -80,7 +80,7 @@ msgstr "jul."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:135
+#: ../../src/base/time_string.cc:134
 msgid "Aug"
 msgstr "aug."
 
@@ -90,7 +90,7 @@ msgstr "aug."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:141
+#: ../../src/base/time_string.cc:140
 msgid "Sep"
 msgstr "sep."
 
@@ -100,7 +100,7 @@ msgstr "sep."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:147
+#: ../../src/base/time_string.cc:146
 msgid "Oct"
 msgstr "okt."
 
@@ -110,7 +110,7 @@ msgstr "okt."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:153
+#: ../../src/base/time_string.cc:152
 msgid "Nov"
 msgstr "nov."
 
@@ -119,56 +119,338 @@ msgstr "nov."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:158
+#: ../../src/base/time_string.cc:157
 msgid "Dec"
 msgstr "dec."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:971
+#: ../../src/editor/editorinteractive.cc:1126
 msgid "Loading world…"
 msgstr "Wereld laden..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:54
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:610
+msgid ""
+"This map was generated automatically by the Widelands Random Map Generator."
+msgstr "Deze kaart is automatisch aangemaakt door de Widelands Willekeurige Kaart Generator"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:339
+msgid "Saving the map…"
+msgstr "De kaart wordt opgeslagen..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "Spel automatisch opslaan..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:281 ../../src/logic/game.cc:328
-#: ../../src/logic/game.cc:423 ../../src/logic/game.cc:478
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver. Font
+#. support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:185
+msgid ""
+"Widelands won't work because we were unable to detect the OpenGL version."
+msgstr "Widelands werkt niet omdat we de OpenGL versie niet kunnen vaststellen"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver.
+#. Font support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:219
+#, c-format
+msgid "The %1$u version needs to be version %2$u.%3$u or newer."
+msgstr "Versie %1$u moet versie %2$u.%3$u of nieuwer zijn"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Basic error message when we can't handle the graphics
+#. driver.
+#. Font support is limited here, so do not use advanced typography *
+#: ../../src/graphic/gl/initialize.cc:239
+#, c-format
+msgid "The %1$s needs to be version %2$u.%3$u or newer."
+msgstr "Versie %1$s moet versie %2$u.%3$u of nieuwer zijn"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:252
+#, c-format
+msgid "Creating player %d…"
+msgstr "Speler %d wordt gemaakt..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/editor_game_base.cc:322
+msgid "Postloading world and tribes…"
+msgstr "Vooraf laden van wereld en stammen..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/game.cc:282 ../../src/logic/game.cc:326
+#: ../../src/logic/game.cc:424 ../../src/logic/game.cc:478
 msgid "Preloading map…"
 msgstr "Kaart vooraf laden..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:240
+#: ../../src/logic/generic_save_handler.cc:229
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "Kon bestandsmap ‘%s’ niet aanmaken."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:244
+#: ../../src/logic/generic_save_handler.cc:233
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Kon bestand ‘%s’ niet verwijderen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:131
+#: ../../src/logic/map_objects/tribes/warehouse.cc:645
+msgid "A waterway had to be destroyed to make room for your new port dock."
+msgstr "Een waterweg moest vernietigd worden om ruimte te maken voor jouw nieuwe havendok"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/save_handler.cc:127
 msgid "Saving game…"
 msgstr "Spel wordt opgeslagen..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:89
+#: ../../src/map_io/map_saver.cc:88
 msgid "Autosaving map…"
 msgstr "Kaart wordt automatisch opgeslagen..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gameclient.cc:142 ../../src/network/gamehost.cc:542
+#: ../../src/ui_fsmenu/launch_spg.cc:164 ../../src/wlapplication.cc:749
+msgid "Preparing game…"
+msgstr "Spel Voorbereiden..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/gameclient.cc:932
+msgid "/me ’s file failed md5 checksumming."
+msgstr "het bestand van /me  heeft een md5 checksum fout"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/network/internet_gaming.cc:433
+#, c-format
+msgid ""
+"You have been logged in as ‘%s’ since your requested name is already in use "
+"or reserved."
+msgstr "Je bent ingelogd als ' %s ' want de door jouw gevraagde naam is al in gebruik of gereserveerd"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/color_chooser.cc:245
+msgid "Choose Color…"
+msgstr "Kies Kleur..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/panel.cc:298
+msgid "Please wait…"
+msgstr "Even geduld a.u.b .."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_basic/panel.cc:428
+msgid "Game ending – please wait…"
+msgstr "Het spel stopt – even geduld aub..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:267
+msgid "Fix dependencies…"
+msgstr "Herstel afhankelijkheden..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:313
+msgid "Launch the add-ons packager…"
+msgstr "Activeer de uitbreidingen verpakker..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:353
+#, c-format
+msgid ""
+"For more information regarding how to develop and package your own add-ons, "
+"please visit %s."
+msgstr "Voor meer informatie betreffende over het ontwerpen en samenvoegen van je eigen uitbreidingen, kom ajb langs op %s ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:1249
+msgid ""
+"Add-Ons with dependency errors may work incorrectly or prevent games and "
+"maps from loading."
+msgstr "UItbreidingen met afhankelijkheids fouten kunnen incorrect werken of verhinderen spelen en kaarten om geladen te worden"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:1441
+#, c-format
+msgid "Downloading ‘%s’…"
+msgstr "Ophalen '%s'..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:1623
+#, c-format
+msgid "The required add-on ‘%s’ could not be found on the server."
+msgstr "De benodigde uitbreiding '%s' kon niet worden gevonden op de server"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/packager.cc:113
+msgid "Writing Add-Ons…"
+msgstr "Uitbreidingen Schrijven..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/packager.cc:386
+#, c-format
+msgid "Do you really want to delete the add-on ‘%s’?"
+msgstr "Wil je echt de uitbreiding  ' %s '  verwijderen ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/packager.cc:408
+#, c-format
+msgid ""
+"If you quit the packager now, all changes to the following %u add-on will be"
+" discarded."
+msgid_plural ""
+"If you quit the packager now, all changes to the following %u add-ons will "
+"be discarded."
+msgstr[0] "Als je de verpakker nu sluit, worden alle veranderingen aan de volgende %u uitbreidng weggegooid"
+msgstr[1] "Als je de verpakker nu sluit, worden alle veranderingen aan de volgende %u uitbreidingen weggegooid."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/packager.cc:460
+#, c-format
+msgid "Do you really want to commit all changes to the add-on ‘%s’ to disk?"
+msgstr "Wil je echt alle veranderingen doorvoeren naar de uitbreiding '%s' op disk ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/packager_box.cc:166
+msgid "Remove selected map or directory"
+msgstr "Verwijder geselecteerde kaart of map."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/packager_box.cc:441
+#, c-format
+msgid "Do you really want to delete the map ‘%s’?"
+msgstr "wil je echt de map ' %s '  verwijderen ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:231
+msgid "Color…"
+msgstr "Kleur..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:853
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:476
+msgid "No votes yet"
+msgstr "Nog geen stemmen:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:871
+msgid "No comments yet."
+msgstr "Nog geen opmerking"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:97
+msgid ""
+"This add-on is known to cause desyncs in multiplayer games and replays."
+msgstr "Van deze Uitbreiding is bekend dat het ontregelingen veroorzaakt in meerspeler spellen en herhalingen"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:108
+msgid "Uploading…"
+msgstr "Zenden..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign difficulty table header
-#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/ui_fsmenu/campaign_select.cc:47
 msgid "Diff."
 msgstr "M"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/keyboard_options.cc:265
+#, c-format
+msgid ""
+"The shortcut you selected (‘%1$s’) is already in use for the following "
+"action: ‘%2$s’. Please select a different shortcut or change the conflicting"
+" shortcut first."
+msgstr "De sneltoets die je selecteerd ('%1$s') wordt al gebruiklt door '%2$s'. Kies a.j.b. een andere sneltoets of verander eerst de konflikterende sneltoets"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:92
+msgid "Change map…"
+msgstr "Verander kaart..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:102
+msgid "Change saved game…"
+msgstr "Verander bewaard spel..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:293
+#, c-format
+msgid "Unable to load the win condition script file ‘%s’."
+msgstr "Niet instaat om het win conditie script bestand '%s' te laden"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:328
+msgid "Play one of our beginners’ tutorials"
+msgstr "Speel een van de beginners uitlegspelen."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:440
+msgid "Single Player…"
+msgstr "Eenspeler..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:441
+msgid "Multiplayer…"
+msgstr "Meerspeler..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:442
+msgid "Editor…"
+msgstr "Bewerken..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/main.cc:447
+msgid "Play with your friends over the internet"
+msgstr "Speel met je vrienden over internet."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:282
+msgid "Scroll when the mouse cursor is near the screen edge"
+msgstr "Scroll wanneer de muis vlakbij de rand van het scherm is."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
+#. Options
+#: ../../src/ui_fsmenu/options.cc:302
+msgid "Progress…"
+msgstr "Voortgang..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication.cc:1465
+#, c-format
+msgid ""
+"Unknown command line parameter: %s\n"
+"Maybe a '=' is missing?"
+msgstr "Onbekende opdracht regel parameter: %s\nMisschien ontbreekt er een '=' ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_options.cc:664
+msgid "Seafaring: Show Transport Ships"
+msgstr "Zeevaart: Laat vrachtschepen zien."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/building_statistics_menu.cc:75
+msgid "Under construction:"
+msgstr "Wordt gebouwd"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/building_statistics_menu.cc:91
+msgid "Low productivity threshold:"
+msgstr "Lage productie drempel"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/fieldaction.cc:436 ../../src/wui/fieldaction.cc:456
+msgid "Send scout to explore surroundings"
+msgstr "Stuur een Verkenner om de omgeving te verkennen."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Column title for number of players in map list
-#: ../../src/wui/maptable.cc:32
+#: ../../src/wui/maptable.cc:29
 msgid "Pl."
 msgstr "#S"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-23 09:22+0000\n"
-"Last-Translator: Juanjo\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-11-03 18:55+0000\n"
+"Last-Translator: Juanjo, 2015-2022\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -12,21 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/buildings/productionsites/amazons/liana_cutters_hut/init.lua:50
 msgid "No Tree to Cut Lianas"
 msgstr "No hi ha arbres per tallar-ne lianes."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:53
-msgctxt "atlanteans_building"
-msgid ""
-"The fish breeder working out of this fish breeder’s house can’t find any "
-"fish in his work area. Remember that you can only regenerate your fish "
-"resources if there are some fish left to breed."
-msgstr "El criador de peixos d'aquesta casa no pot obtenir peixos vius en aquesta àrea. Recordeu que per generar més cries de peix, cal tenir-ne alguns de vius!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:57
@@ -48,7 +39,7 @@ msgstr "Sense soldats per entrenar"
 #: ../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:124
 msgctxt "amazons_building"
 msgid "No soldier found for this training level!"
-msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
+msgstr "No s’ha trobat cap soldat per entrenar aquest nivell."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Atlantean training site tooltip when it has no soldiers
@@ -66,13 +57,13 @@ msgstr "Sense soldats per entrenar"
 #: ../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:165
 msgctxt "atlanteans_building"
 msgid "No soldier found for this training level!"
-msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
+msgstr "No s’ha trobat cap soldat per entrenar aquest nivell."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Barbarian training site tooltip when it has no soldiers
 #. assigned
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:120
-#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:218
+#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:129
+#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:225
 msgctxt "barbarians_building"
 msgid "No soldier to train!"
 msgstr "Sense soldats per entrenar"
@@ -80,17 +71,17 @@ msgstr "Sense soldats per entrenar"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Barbarian training site tooltip when none of the present
 #. soldiers match the current training program
-#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:122
-#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:220
+#: ../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:131
+#: ../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:227
 msgctxt "barbarians_building"
 msgid "No soldier found for this training level!"
-msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
+msgstr "No s’ha trobat cap soldat per entrenar aquest nivell."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Empire training site tooltip when it has no soldiers assigned
-#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:111
-#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:85
-#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:212
+#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:116
+#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:88
+#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:215
 msgctxt "empire_building"
 msgid "No soldier to train!"
 msgstr "Sense soldats per entrenar"
@@ -98,12 +89,12 @@ msgstr "Sense soldats per entrenar"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Empire training site tooltip when none of the present soldiers
 #. match the current training program
-#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:113
-#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:87
-#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:214
+#: ../../data/tribes/buildings/trainingsites/empire/arena/init.lua:118
+#: ../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:90
+#: ../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:217
 msgctxt "empire_building"
 msgid "No soldier found for this training level!"
-msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
+msgstr "No s’ha trobat cap soldat per entrenar aquest nivell."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Frisian training site tooltip when it has no soldiers assigned
@@ -120,7 +111,7 @@ msgstr "Sense soldats per entrenar"
 #: ../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:204
 msgctxt "frisians_building"
 msgid "No soldier found for this training level!"
-msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
+msgstr "No s’ha trobat cap soldat per entrenar aquest nivell."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Discovery" starting condition
@@ -131,7 +122,7 @@ msgstr "No s'ha trobat cap soldat per entrenar aquest nivell."
 #: ../../data/tribes/initialization/frisians/starting_conditions/discovery.lua:13
 msgid ""
 "Start the game with three ships on the ocean and only a handful of supplies"
-msgstr "Comenceu la partida amb tres vaixells amb uns quants recursos enmig de l'oceà."
+msgstr "Comenceu la partida amb tres vaixells amb uns quants recursos enmig de l’oceà."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Fortified Village" starting
@@ -162,7 +153,7 @@ msgstr "Comença la partida només amb el quarter general."
 #: ../../data/tribes/initialization/empire/starting_conditions/new_world.lua:13
 #: ../../data/tribes/initialization/frisians/starting_conditions/new_world.lua:13
 msgid "Start the game with seven ships full of wares on the ocean"
-msgstr "Comenceu la partida amb set vaixells plens de béns enmig l'oceà."
+msgstr "Comenceu la partida amb set vaixells plens de béns enmig l’oceà."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Trading Outpost" starting
@@ -175,7 +166,7 @@ msgstr "Comenceu la partida amb set vaixells plens de béns enmig l'oceà."
 msgid ""
 "If this player runs low on important wares, they will be replenished for "
 "free"
-msgstr "Si aquest jugador es queda sense béns importants, n'aconseguirà uns quants de franc."
+msgstr "Si aquest jugador es queda sense béns importants, n’aconseguirà uns quants de franc."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Village" starting condition

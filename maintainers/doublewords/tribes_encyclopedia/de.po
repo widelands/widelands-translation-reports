@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 20:47+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2022\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublewords: The word 'die' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Smoked Meat
-#: ../../data/tribes/initialization/atlanteans/units.lua:445
+#: ../../data/tribes/initialization/atlanteans/units.lua:506
 msgctxt "atlanteans_ware"
 msgid ""
 "Smoked meat is made out of meat in a smokery. It is delivered to the mines "
@@ -26,7 +26,7 @@ msgstr "Räucherfleisch wird aus Fleisch in einer Räucherei hergestellt. Es wir
 
 # (pofilter) doublewords: The word 'das' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Hook Pole
-#: ../../data/tribes/initialization/atlanteans/units.lua:678
+#: ../../data/tribes/initialization/atlanteans/units.lua:739
 msgctxt "atlanteans_ware"
 msgid ""
 "This hook pole is used by the smoker to suspend all the meat and fish from "
@@ -35,7 +35,7 @@ msgstr "Diese Hakenstange wird vom Räucherer verwendet, um das das Fleisch und 
 
 # (pofilter) doublewords: The word 'die' is repeated
 #. TRANSLATORS: Note helptext for a barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1401
+#: ../../data/tribes/initialization/barbarians/units.lua:1400
 msgctxt "barbarians_building"
 msgid ""
 "The Barbarian metal workshop is the basic production site in a series of "
@@ -45,14 +45,30 @@ msgstr "Die Werkzeugschmiede der Barbaren ist die erste Produktionsstätte in ei
 
 # (pofilter) doublewords: The word 'die' is repeated
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Warmill
-#: ../../data/tribes/initialization/barbarians/units.lua:1414
+#: ../../data/tribes/initialization/barbarians/units.lua:1413
 msgctxt "barbarians_building"
 msgid "Produces all the axes that the Barbarians use for warfare."
 msgstr "Stellt alle Äxte her, die die Barbaren für die Kriegsführung brauchen."
 
+# (pofilter) doublewords: The word 'gibt' is repeated
+#. TRANSLATORS: Lore helptext for an empire warehouse: Warehouse
+#. Translation for the classical Latin quote:
+#. "Bis dat, qui cito dat, nil dat, qui munera tardat."
+#: ../../data/tribes/initialization/empire/units.lua:1197
+msgid "Who gives promptly, gives twice, who gives late, gives nothing."
+msgstr "Wer schnell gibt, gibt doppelt, wer spät gibt gibt nichts."
+
+# (pofilter) doublewords: The word 'die' is repeated
+#. TRANSLATORS: Lore author helptext for an empire training site: Training
+#. Camp
+#: ../../data/tribes/initialization/empire/units.lua:2029
+msgctxt "empire_building"
+msgid "Trainer to soldiers who questioned the need for higher level training"
+msgstr "Ausbilder zu Soldaten, die die Notwendigkeit der Ausbildung in Frage stellten"
+
 # (pofilter) doublewords: The word 'lehm' is repeated
 #. TRANSLATORS: Purpose helptext for a frisian production site: Clay Pit
-#: ../../data/tribes/initialization/frisians/units.lua:1639
+#: ../../data/tribes/initialization/frisians/units.lua:1654
 msgctxt "building"
 msgid ""
 "Digs up mud from the ground and uses water to turn it into clay. Clay is "

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-22 20:16+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-03-25 02:57+0000\n"
+"PO-Revision-Date: 2015-02-03 14:46+0000\n"
+"Last-Translator: CrisiusXIII <chris@cborn.nl>, 2021\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -12,7 +12,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:37
+msgid "Objectives and how to handle them"
+msgstr "Doelstellingen en hoe ermee om te gaan."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:52
+#, lua-format
+msgid ""
+"Press %s to toggle them, or select ‘Show Building Spaces’ in the ‘Show / "
+"Hide’ menu."
+msgstr "Toets %s  om ze om te wisselen, of delecteer 'Toon Bouwlocaties' in het 'Toon / Verberg' menu"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:77
+msgid ""
+"Now that I have shown you where to show and hide the building spaces, please"
+" switch them on so that we can place our first building."
+msgstr "Nu ik je heb laten zien waar je de gebouwen kan laten zien en verbergen, kan je deze nu 'aan' zetten zodat we ons eerste gebouw kunnen neer zetten?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:180
@@ -22,9 +42,23 @@ msgid "Let’s see the progress"
 msgstr "Laten we de voortgang bekijken."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:218
+msgid "Change is rapid with %1$s/%2$s and smooth with %3$s/%4$s."
+msgstr "Verandering is snel met %1$s/%2$s en geleidelijk met %3$s/%4$s"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:265
 msgid "Play around a bit with the different overlays (roads, flags, etc.)"
 msgstr "Probeer de verschillende knoppen voor extra informatie (wegen, vlagen, enzovoort) uit."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:313
+#, lua-format
+msgid ""
+"The quarry is a small building like the lumberjack’s hut. You can therefore "
+"build it on any field that shows a red, yellow or green house when the "
+"building spaces symbols are enabled (Press ‘%s’ for that)."
+msgstr "De steengroeve is net als de houthakkershut een klein gebouw.  Je kan ze daarom op elk veld bouwen waar een rood, geel of groen huis te zien is als de bouwlocaties zichtbaar zijn (druk daarvoor op '%s')"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:326

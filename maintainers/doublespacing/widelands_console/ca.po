@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
-"PO-Revision-Date: 2021-05-25 19:57+0000\n"
-"Last-Translator: Juanjo\n"
+"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"PO-Revision-Date: 2015-02-03 14:54+0000\n"
+"Last-Translator: Juanjo, 2015-2022\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -12,61 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:51
-msgid ""
-" --homedir=DIRNAME    Use specified directory for widelands config\n"
-"                      files, savegames and replays"
-msgstr " --homedir=DIRNAME    Usa la carpeta indicada per desar\n                      fitxers del Widelands de configuració,\n                      partides desades i repeticions"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:59
-msgid ""
-" --localedir=DIRNAME  Use specified directory for the widelands\n"
-"                      locale files"
-msgstr " --dirlocal=DIRNAME    Usa la carpeta indicada per als fitxers\n                      locals del Widelands"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:83
-msgid ""
-" --rolling_autosave=[...]\n"
-"                      Use this many files for rolling autosaves"
-msgstr " --rolling_autosave=[…]\n                      Usa aquests fitxers per a les partides\n                      desades automàticament"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:107
-msgid ""
-" --ai_training        Enables AI training mode. See\n"
-"                      https://www.widelands.org/wiki/Ai%20Training/\n"
-"                      for a full description of the AI training logic."
-msgstr " --ai_training        Activa el mode entrenament de la IA. Vegeu\n                      https://www.widelands.org/wiki/Ai%20Training/\n                      per una explicació completa de la lògica\n                      d'entrenament de la IA."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:127
-msgid ""
-" --script=FILENAME    Run the given Lua script after initialization.\n"
-"                      Only valid with --scenario, --loadgame, or --editor."
-msgstr " --script=ARXSCRIPT    Executa l'script Lua donat\n                      després de l'inici. Només vàlid amb\n                      --scenario, --loadgame o --editor."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:156
-msgid ""
-" --animate_map_panning=[yes|no]\n"
-"                      Should automatic map movements be animated."
-msgstr "--animate_map_panning=[yes|no]\nAnima els moviments automàtics del mapa."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:183
-msgid " --verbose            Enable verbose debug messages"
-msgstr " --verbose            Habilita els missatges de\n                      depuració descriptius"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:192
+#: ../../src/wlapplication_messages.cc:312
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"
 "\n"
 "Hope you enjoy this game!"
-msgstr "Informes d'errors? Suggeriments? Visiteu el lloc web del projecte:\n https://www.widelands.org/\nEsperem que us agradi aquest joc!"
+msgstr "Informes d’errors? Suggeriments? Visiteu el lloc web del projecte:\n https://www.widelands.org/\nEsperem que us agradi aquest joc!"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Karl Vest, 2020\n"
 "Language-Team: Slovak (http://www.transifex.com/widelands/widelands/language/"
 "sk/)\n"
 "Language: sk\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -21,7 +21,7 @@ msgstr ""
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:93
+#: ../../src/base/time_string.cc:92
 msgid "Jan"
 msgstr "1."
 
@@ -31,7 +31,7 @@ msgstr "1."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:99
+#: ../../src/base/time_string.cc:98
 msgid "Feb"
 msgstr "2."
 
@@ -41,7 +41,7 @@ msgstr "2."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:105
+#: ../../src/base/time_string.cc:104
 msgid "Mar"
 msgstr "3."
 
@@ -51,7 +51,7 @@ msgstr "3."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:111
+#: ../../src/base/time_string.cc:110
 msgid "Apr"
 msgstr "4."
 
@@ -61,7 +61,7 @@ msgstr "4."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:117
+#: ../../src/base/time_string.cc:116
 msgid "May"
 msgstr "5."
 
@@ -71,7 +71,7 @@ msgstr "5."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:123
+#: ../../src/base/time_string.cc:122
 msgid "Jun"
 msgstr "6."
 
@@ -81,7 +81,7 @@ msgstr "6."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:129
+#: ../../src/base/time_string.cc:128
 msgid "Jul"
 msgstr "7."
 
@@ -91,7 +91,7 @@ msgstr "7."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:135
+#: ../../src/base/time_string.cc:134
 msgid "Aug"
 msgstr "8."
 
@@ -101,7 +101,7 @@ msgstr "8."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:141
+#: ../../src/base/time_string.cc:140
 msgid "Sep"
 msgstr "9."
 
@@ -111,7 +111,7 @@ msgstr "9."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:147
+#: ../../src/base/time_string.cc:146
 msgid "Oct"
 msgstr "10."
 
@@ -121,7 +121,7 @@ msgstr "10."
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:153
+#: ../../src/base/time_string.cc:152
 msgid "Nov"
 msgstr "11."
 
@@ -130,18 +130,18 @@ msgstr "11."
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:158
+#: ../../src/base/time_string.cc:157
 msgid "Dec"
 msgstr "12."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map information tool in the editor
-#: ../../src/editor/editorinteractive.cc:349
+#: ../../src/editor/editorinteractive.cc:359
 msgid "Click on a field to show information about it"
 msgstr "Klikni pre zobrazenie ďalších informácií o políčku."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:185
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "Chyba pri vytváraní adresára: %s"
@@ -150,21 +150,21 @@ msgstr "Chyba pri vytváraní adresára: %s"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:293
+#: ../../src/logic/map_objects/tribes/militarysite.cc:292
 msgid "Enemy Defeated!"
 msgstr "Porážka nepriateľa"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:670
+#: ../../src/logic/map_objects/tribes/ship.cc:674
 msgid "Port Lost!"
 msgstr "Strata prístavu"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:217
+#: ../../src/network/internet_gaming.cc:214
 msgid "Successfully reconnected to the metaserver!"
 msgstr "Podarilo sa úspešne pripojiť na metaserver."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_box.cc:205
+#: ../../src/wui/attack_window.cc:249
 msgid "Number of soldiers"
 msgstr "Počet vojakov:"

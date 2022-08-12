@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"POT-Creation-Date: 2022-01-31 02:58+0000\n"
 "PO-Revision-Date: 2020-10-19 15:32+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/widelands/teams/35159/hu/"
 ")\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/training_wheels/building_spaces.lua:32
@@ -30,6 +30,12 @@ msgid "Select ‘Show Building Spaces’."
 msgstr "Válaszd a „Beépíthető helyek megjelenítése” sort!"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/training_wheels/building_spaces.lua:55
+#: ../../data/scripting/training_wheels/welcome.lua:26
+msgid "Click ‘OK’ to continue."
+msgstr "Kattints az „OK” gombra a folytatáshoz!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/training_wheels/flags.lua:64
 msgid "Click on the flag symbol."
 msgstr "Kattints a zászló szimbólumra!"
@@ -43,6 +49,11 @@ msgstr "Kattints a zászló gombra!"
 #: ../../data/scripting/training_wheels/flags.lua:86
 msgid "Now check if you can place even more flags on your roads."
 msgstr "Nézd meg, hogy tudsz-e még több zászlót rakni az útjaidra!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/training_wheels/flags.lua:87
+msgid "Click ‘OK’ when you’re done."
+msgstr "Kattints az „OK” gombra ha elkészültél!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: The title of an in-game teaching objective
@@ -81,6 +92,18 @@ msgstr ""
 "épületek lapról!"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/training_wheels/logs.lua:141
+#: ../../data/scripting/training_wheels/rocks.lua:144
+msgid "Click on the flag in front of the building to start placing a road."
+msgstr "Út építéséhez kattints a zászlóra az épület előtt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/training_wheels/logs.lua:152
+msgid ""
+"Click on the ‘Build road’ button, then and click on the indicated flag."
+msgstr "Kattints az „Út építése” gombra, azután kattints a jelzett zászlóra!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/training_wheels/logs.lua:166
 msgid "…then click on the flag in front of the target building."
 msgstr "…azután kattints a célépület előtti zászlóra!"
@@ -99,6 +122,17 @@ msgid ""
 msgstr ""
 "A játék aktuális célkitűzéseinek megtekintéséhez kattints a nyíllal jelzett "
 "gombra, vagy nyomd meg a „%s” billentyűt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/training_wheels/rocks.lua:155
+msgid ""
+"Click on the ‘Build road’ button. Afterwards, click the colored markers on "
+"the map to guide your road until you reach the flag in front of the target "
+"building."
+msgstr ""
+"Kattints az „Út építése” gombra, azután kattints sorban a térképen a színes "
+"jelölőkre az útvonal kijelöléséhez, amíg el nem érsz a célépület előtti "
+"zászlóig!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/training_wheels/rocks.lua:168

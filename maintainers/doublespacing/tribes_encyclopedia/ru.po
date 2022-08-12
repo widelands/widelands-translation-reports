@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Владимир Шевцов, 2022\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -14,11 +14,30 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for an amazon ware: Ration, part 2
+#: ../../data/tribes/initialization/amazons/units.lua:248
+msgctxt "amazons_ware"
+msgid ""
+"Rations are produced by the food preserver out of fish or meat and bread. "
+"They are dried using a charcoal fire."
+msgstr "Пайки готовят из продовольственных припасов, таких как рыба или хлеб и мясо.  При готовке жгут древесный уголь."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Note helptext for an amazon production site: Rare Tree
+#. Plantation
+#: ../../data/tribes/initialization/amazons/units.lua:1385
+msgctxt "amazons_building"
+msgid ""
+"Rare trees are planted according to the economy requirements. Keep roads "
+"connected to rare tree plantations so they adhere to economy targets."
+msgstr "Редкие деревья растят по запросу экономики.  Строительство дорог к плантациям редких деревьев это важно!"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a barbarian ware: Log, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:114
+#: ../../data/tribes/initialization/barbarians/units.lua:113
 msgctxt "barbarians_ware"
 msgid ""
 "Barbarian lumberjacks fell the trees; rangers take care of the supply of "
@@ -29,7 +48,7 @@ msgstr "Варварские дровосеки валят деревья; ег�
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1281
+#: ../../data/tribes/initialization/barbarians/units.lua:1280
 msgctxt "barbarians_building"
 msgid ""
 "Processes granite to make ‘grout’, a substance that solidifies and so "
@@ -39,8 +58,8 @@ msgstr "Переработайте гранит, чтобы сделать це�
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
 #. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1410
-#: ../../data/tribes/initialization/barbarians/units.lua:1429
+#: ../../data/tribes/initialization/barbarians/units.lua:1409
+#: ../../data/tribes/initialization/barbarians/units.lua:1428
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -49,10 +68,30 @@ msgstr "\"Новый топор воина взывает к лучшему ег
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an empire ware: Armor
-#: ../../data/tribes/initialization/empire/units.lua:549
+#: ../../data/tribes/initialization/empire/units.lua:568
 msgctxt "empire_ware"
 msgid ""
 "Basic armor for Empire soldiers. It is produced in the armor smithy and used"
 " in the training camp – together with food – to train soldiers from health "
 "level 1 to level 2."
 msgstr "Основной доспех имперских солдат. Он изготавливается в бронной и используется, вместе с едой, в тренировочном лагере  для тренировки солдат Здоровью с 1 до 2 уровня."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for a frisian ware: Log, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:100
+msgctxt "frisians_ware"
+msgid ""
+"Woodcutters fell the trees; foresters take care of the supply of trees. Logs"
+" are also used in the blacksmithy to build basic tools, and in the charcoal "
+"kiln for the production of coal. Smokeries use logs as fuel for smoking meat"
+" and fish."
+msgstr "Лесорубы валят деревья; егери сохраняют деревья. Брёвна также используются в кузнице для  создания основных инструментов и в печи углежога для производства угля. Коптильня коптит мясо и рыбу на огне с бревен."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for a frisian ware: Honey Bread
+#: ../../data/tribes/initialization/frisians/units.lua:215
+msgctxt "frisians_ware"
+msgid ""
+"This bread is sweetened with honey. It is consumed by the most experienced "
+"miners and in advanced soldier training."
+msgstr "Хлеб, подслащенный медом. Поставляется опытнейшим шахтерам и для  глубоко обучаемых солдат."

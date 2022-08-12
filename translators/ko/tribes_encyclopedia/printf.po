@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: tamanegi, 2018\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,14 +12,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) printf: Different number of printf variables
 #. TRANSLATORS: Performance helptext for a frisian production site: Tavern
-#: ../../data/tribes/initialization/frisians/units.lua:1909
+#: ../../data/tribes/initialization/frisians/units.lua:1924
 #, lua-format
 msgctxt "frisians_building"
 msgid ""
 "The tavern can produce one ration in %s on average if the supply is steady; "
 "otherwise, it will take 50%% longer."
 msgstr "선술집은 공급이 꾸준하면 평균 %s초 만에 야전식량 1개를 생산할 수 있고, 그렇지 않으면 50%%의 시간이 더 소요됩니다."
+
+# (pofilter) printf: Different printf variable: %를
+#. TRANSLATORS: Note helptext for a mine.
+#: ../../data/tribes/scripting/help/building_help.lua:427
+msgid ""
+"This mine will exploit %1%%% of its resources. From there on out, it will "
+"only have a %2%%% chance of finding any more of them."
+msgstr "이 광산은 자원 중 %1%%%를 활용할 것입니다. 그 다음부터는 더 이상 찾을 확률이 %2%%%밖에 되지 않을 것입니다."
+
+# (pofilter) printf: Different number of printf variables
+#. TRANSLATORS: Note helptext for a mine.
+#: ../../data/tribes/scripting/help/building_help.lua:430
+msgid ""
+"This mine will exploit all of its resources down to the deepest level. But "
+"even after having done so, it will still have a %1%%% chance of finding some"
+" more of them."
+msgstr "이 광산은 모든 자원을 가장 깊은 수준까지 이용할 것입니다. 하지만 그렇게 한 후에도, 여전히 그들 중 일부를 더 찾을 가능성이%1%%%가 될 것입니다."

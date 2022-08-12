@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-04-13 10:18+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-05-10 03:01+0000\n"
+"PO-Revision-Date: 2015-02-03 14:50+0000\n"
+"Last-Translator: ks k, 2017-2021\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/txts/help/multiplayer_help.lua:22
@@ -31,6 +31,13 @@ msgid ""
 msgstr "%s에 있는 위키에서 편집자를 위한 일반 도움말과 간단한 자습서를 찾을 수 있습니다."
 
 # (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/editor.lua:28
+msgid ""
+"The keys %1% allow you to directly set the size of the selected area around "
+"your mouse cursor."
+msgstr "%1% 키를 사용하여 마우스 커서 주변의 선택된 영역의 크기를 직접 설정할 수 있습니다."
+
+# (pofilter) startpunc: Different punctuation at the start
 #: ../../data/txts/tips/general_game.lua:36
 msgid ""
 "Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
@@ -41,6 +48,20 @@ msgstr "'경제 구성'메뉴를 사용하여 목표 수량을 조정하십시�
 #: ../../data/txts/tips/general_game.lua:45
 msgid "Press %1% to store important locations, then press %2% to recall them."
 msgstr "%1% 를 눌러 중요한 위치를 저장 한 다음 %2% 를 눌러 불러올 수 있습니다."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/general_game.lua:80
+msgid ""
+"Use the ‘%1$s’ and ‘%2$s’ keys to quickly jump between recently visited "
+"locations."
+msgstr "‘%1$s’ 키와 ‘%2$s’ 키를 사용하여 최근에 방문한 위치 사이를 빠르게 이동할 수 있습니다."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/txts/tips/general_game.lua:84
+msgid ""
+"Speed up or slow down the game with %1%/%2%. Use %3%/%4% for rapid change; "
+"%5%/%6% will adjust speed smoothly."
+msgstr "%1%/%2%키로 놀이 속도를 빠르게하거나 늦춥니다. %3%/%4% 키로 빠르게 바꿀 수 있고, %5%/%6%키로 속도를 부드럽게 조정합니다."
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/txts/tips/general_game.lua:94

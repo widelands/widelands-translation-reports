@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: LINUX SAUNA, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,11 +12,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an amazon worker: Cocoa Farmer
+#: ../../data/tribes/initialization/amazons/units.lua:658
+msgctxt "amazons_worker"
+msgid "Grows cocoa."
+msgstr "Kasvattaa kaakaota"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for an atlantean production site: Well
+#: ../../data/tribes/initialization/atlanteans/units.lua:1559
+msgctxt "atlanteans_building"
+msgid "Water carrier muttering to himself"
+msgstr "Vedenkerääjä mutisee itsekseen."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for an atlantean production site:
+#. Sawmill
+#: ../../data/tribes/initialization/atlanteans/units.lua:1602
+msgctxt "atlanteans_building"
+msgid "Askadus, Inventor of the vertical axis windmill"
+msgstr "Askadus, pystysuuntaisen tuulimyllyn keksijä."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for an atlantean production site:
+#. Smokery
+#: ../../data/tribes/initialization/atlanteans/units.lua:1613
+msgctxt "atlanteans_building"
+msgid "A Smoker answering a passer-by"
+msgstr "Savustaja vastaa ohikulkijalle."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore author helptext for an atlantean production site: Crystal
+#. Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1795
+msgctxt "atlanteans_building"
+msgid "First part of the Atlantean almanach on architecture"
+msgstr "Atlantealaisen vuosikirjan ensimmäinen osa koskien arkkitehtuuria."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a barbarian warehouse: Warehouse
-#: ../../data/tribes/initialization/barbarians/units.lua:1110
+#: ../../data/tribes/initialization/barbarians/units.lua:1109
 msgctxt "barbarians_building"
 msgid ""
 "Berthron, chief military adviser of Chat’Karuth,<br>when they lost the "
@@ -25,28 +63,36 @@ msgstr "Berthron, Chat’Karuthin johtava sotilasneuvonantaja,<br>kun he menetti
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian production site: Weaving Mill
-#: ../../data/tribes/initialization/barbarians/units.lua:1781
+#: ../../data/tribes/initialization/barbarians/units.lua:1780
 msgctxt "barbarians_building"
 msgid "Weaves cloth out of reed."
 msgstr "Kutoo kangasta ruoikosta"
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for an empire warehouse: Headquarters Shipwreck
+#. Translation for the classical Latin quote:
+#. "Commune naufragium omnibus est consolatio."
+#: ../../data/tribes/initialization/empire/units.lua:1176
+msgid "A shipwreck that is common to all is a consolation."
+msgstr "Haaksirikko joka on tavanomaisen tunnettu kaikille on lohdutus"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:459
+#: ../../data/tribes/initialization/frisians/units.lua:458
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Metsästyskeihäitä tuotaa seppä."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Quarry
-#: ../../data/tribes/initialization/frisians/units.lua:1540
+#: ../../data/tribes/initialization/frisians/units.lua:1555
 msgctxt "frisians_building"
 msgid "When I swing my pick, whole mountains fall before me!"
 msgstr "Kun heilautan hakkuani, kokonainen vuori sortuu eteeni."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Forester's House
-#: ../../data/tribes/initialization/frisians/units.lua:1568
+#: ../../data/tribes/initialization/frisians/units.lua:1583
 msgctxt "frisians_building"
 msgid ""
 "What can ever be more beautiful than the brilliant sun’s beams shining "
@@ -55,14 +101,14 @@ msgstr "Mikä olisikaan kauniimpaa kuin lehvästön läpi kimaltelevat kirkkaat 
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Well
-#: ../../data/tribes/initialization/frisians/units.lua:1622
+#: ../../data/tribes/initialization/frisians/units.lua:1637
 msgctxt "frisians_building"
 msgid "We love the sea so much that we don’t want to drink it empty!"
 msgstr "Rakastamme merta niin paljon ettemme halua juoda sitä tyhjäksi."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Well
-#: ../../data/tribes/initialization/frisians/units.lua:1624
+#: ../../data/tribes/initialization/frisians/units.lua:1639
 msgctxt "frisians_building"
 msgid ""
 "Chieftain Arldor’s retort when he was asked why his tribe can’t drink salt "
@@ -71,7 +117,7 @@ msgstr "Päällikkö Arldorin tiuskaisu, kun häneltä kysyttiin miksi hänen he
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Berry Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1661
+#: ../../data/tribes/initialization/frisians/units.lua:1676
 msgctxt "frisians_building"
 msgid ""
 "My bushes may not be as tall as your trees, but I don’t know anybody who "
@@ -81,14 +127,14 @@ msgstr "Pensaani eivät ehkä ole niin korkeita kuin puusi, mutta en tiedä ket�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a frisian production site: Fruit
 #. Collector's House
-#: ../../data/tribes/initialization/frisians/units.lua:1680
+#: ../../data/tribes/initialization/frisians/units.lua:1695
 msgctxt "building"
 msgid "Collects berries from nearby bushes."
 msgstr "Korjaa marjoja lähialueen pensaista"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a frisian production site: Scout's House
-#: ../../data/tribes/initialization/frisians/units.lua:1719
+#: ../../data/tribes/initialization/frisians/units.lua:1734
 msgctxt "frisians_building"
 msgid ""
 "Everyone has their own ideas on how exactly we should explore the enemy’s "
@@ -99,7 +145,7 @@ msgstr "Jokaisella on omat näkemykset miten meidän tulisi tutkia vihollisen al
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Small
 #. Armor Smithy
-#: ../../data/tribes/initialization/frisians/units.lua:1785
+#: ../../data/tribes/initialization/frisians/units.lua:1800
 msgctxt "frisians_building"
 msgid "A blacksmith pointing out his influence on soldier training"
 msgstr "Seppä painottaa osuuttaan sotilaiden kouluttamisessa."
@@ -107,7 +153,7 @@ msgstr "Seppä painottaa osuuttaan sotilaiden kouluttamisessa."
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Large
 #. Armor Smithy
-#: ../../data/tribes/initialization/frisians/units.lua:1796
+#: ../../data/tribes/initialization/frisians/units.lua:1811
 msgctxt "frisians_building"
 msgid ""
 "A master blacksmith refusing to forge anything but the most sophisticated "
@@ -116,14 +162,14 @@ msgstr "Mestariseppä kieltäytyy takomasta mitään muuta paitsi kaikkein hieno
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Tavern
-#: ../../data/tribes/initialization/frisians/units.lua:1905
+#: ../../data/tribes/initialization/frisians/units.lua:1920
 msgctxt "frisians_building"
 msgid "Hungry customers in times of a shortage of smoked fish and meat"
 msgstr "Nälkäinen asiakas aikana kun savukala ja -liha on vähissä."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Shipyard
-#: ../../data/tribes/initialization/frisians/units.lua:2139
+#: ../../data/tribes/initialization/frisians/units.lua:2163
 msgctxt "frisians_building"
 msgid ""
 "A shipwright who only constructed toy ships after being chid that his ships "
@@ -131,21 +177,22 @@ msgid ""
 msgstr "Veneseppä joka rakensi lapsuutensa jälkeen vain leikkiveneitä, jotka olivat liian pieniä."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:676
+#: ../../data/tribes/scripting/help/building_help.lua:673
 msgid "Or enhanced from:"
 msgstr "Tai paranneltu rakennuksesta"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:678
+#: ../../data/tribes/scripting/help/building_help.lua:675
 msgid "Enhanced from:"
 msgstr "Laajennettu rakennuksesta"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:795
+#: ../../data/tribes/scripting/help/building_help.lua:792
 msgid "Can be enhanced to:"
 msgstr "Voidaan laajentaa rakennukseksi"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/format_help.lua:147
+#: ../../data/tribes/scripting/help/building_help.lua:869
+#: ../../data/tribes/scripting/help/worker_help.lua:169
 msgid "Experience levels"
 msgstr "Taitotaso:"

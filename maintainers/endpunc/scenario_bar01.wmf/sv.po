@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-02-24 20:25+0000\n"
-"Last-Translator: Martin Eriksson <nils.martin.andreas@gmail.com>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:30+0000\n"
+"Last-Translator: Frida Bäcklund <frida.sofia.backlund@gmail.com>, 2021\n"
 "Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
@@ -12,7 +12,58 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:23
+msgid "Build a ranger’s hut next to each lumberjack’s hut."
+msgstr "Bygg en skogvaktarkoja bredvid varje skogshuggarkoja"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:33
+msgid ""
+"Build military buildings (like sentries or barriers) to expand your "
+"territory."
+msgstr "Bygg militärbyggnader (till exempel vaktposter och fort) för att utöka ditt territorium"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:34
+msgid "Get to the rocks north-east from you and build a quarry there."
+msgstr "Ta dig till klipporna åt nordost och bygg ett stenbrott där"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:42
+msgid "Build a coal mine and an iron mine."
+msgstr "Bygg en kolgruva och en järngruva"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:62
+msgid "In order to work, your miners need food."
+msgstr "För att kunna arbeta måste dina gruvarbetare ha mat"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:79
+msgid ""
+"The iron ore your miners dig up is not usable yet – it has to be melted into"
+" iron first."
+msgstr "Järnmalmen som dina gruvarbetare bryter kan ännu inte användas – den måste smältas till järn först"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:86
+msgid "Enhance a mine and the tavern, and build a micro brewery."
+msgstr "Uppgradera en gruva och krogen, och bygg en bryggstuga"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:87
+msgid ""
+"Enhance the coal mine or the iron mine to a deep mine, and enhance the "
+"tavern to an inn."
+msgstr "Uppgradera kolgruvan eller järngruvan till en djup gruva, och uppgradera krogen till ett värdshus"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:88
+msgid "Also build a micro brewery."
+msgstr "Bygg också en bryggstuga"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:142
@@ -32,7 +83,7 @@ msgid ""
 " it’s time to give those who still live and think united a new home, "
 "replacing what is now lost to us? Until we can return to the place we once "
 "called our home…"
-msgstr "Kanske är det dags att göra oss lite mer bekväma här? Kanske är det dags att ge dem som fortfarande lever här ett nytt hem och ersätta vad vi nu har förlorat, fram tills den tid då vi kan återvända till platsen som vi en gång i tiden kallade för hemma..."
+msgstr "Kanske är det dags att göra oss lite mer bekväma här. Kanske är det dags att ge dem som ännu lever och håller oss samman ett nytt hem och ersätta det vi nu har förlorat, fram tills den tid då vi kan återvända till den plats som vi en gång i tiden kallade vårt hem..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:223
@@ -46,7 +97,7 @@ msgid ""
 "Only the gods know for how long we have to remain hidden here. The warriors "
 "hope we may march back gloriously any day now, but I strongly doubt that "
 "will happen soon. And the days are short and cold…"
-msgstr "Bara gudarna vet hur länge vi måste gömma oss här. Krigarna hoppas att vi kan marschera tillbaka ärofullt vilken dag som helst nu, men jag betvivlar att det kommer att ske inom den närmaste tiden. Dagarna är korta och kalla..."
+msgstr "Bara gudarna vet hur länge vi måste fortsätta gömma oss här. Krigarna hoppas att vi kan marschera tillbaka ärofullt vilken dag som helst nu, men jag betvivlar att det kommer att ske inom den närmaste tiden. Och dagarna är korta och kalla..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:235
@@ -61,20 +112,12 @@ msgstr "Thron säger..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Thron
-#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:255
-msgid ""
-"They are a constant reminder of why we have to hide here… and why we must "
-"return in the end!"
-msgstr "De är en ständig påminnelse om varför vi måste gömma oss här...och varför vi slutligen måste återvända."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Thron
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:266
 msgid ""
 "Once again, I went up to my father’s tomb, in a sacred grove at the foot of "
 "the great spire of Kal’mavrath. I just stood there and felt neither the "
 "hours pass nor the cold rain pouring down from the darkened sky…"
-msgstr "Ytterligare en gång gick jag till min faders grav, i en helig dunge vid foten av Kal’mavraths höga topp. Jag stod bara där och jag kände varken att timmarna gick eller att regnet föll från den mörka skyn..."
+msgstr "Än en gång gick jag till min faders grav, i en helig dunge vid foten av Kal’mavraths höga topp. Jag bara stod där och kände varken att timmarna gick eller att regnet föll från skyn, som blev allt mörkare..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Thron
@@ -97,7 +140,7 @@ msgid ""
 "sky. I know – it is too early yet, and what he hopes for will not happen any"
 " time soon. He might still be right, but I fear the bloodshed that returning"
 " too fast would cause on both sides…"
-msgstr "Men när jag ser ut över skogarna kan jag fortfarande se svart rök som stiger mot skyn. Jag vet att det fortfarande är för tidigt och att det han hoppas på inte kommer att hända inom den närmaste tiden. Han kan ha rätt, men den blodspillan det skulle leda till för båda sidor om vi återvänder för snabbt skrämmer mig..."
+msgstr "Men när jag ser ut över skogarna kan jag fortfarande se svart rök som stiger mot skyn. Jag vet: det är fortfarande är för tidigt, och det han hoppas på kommer inte hända inom den närmaste tiden. Han kan ha rätt, men jag fruktar den blodspillan det skulle leda till hos båda sidor om vi återvänder för hastigt..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:289
@@ -127,7 +170,7 @@ msgid ""
 " to do! Thron, what would you say about my taking a few of our most restless"
 " warriors and venturing somewhat closer to the great mountain of Kal’mavrath"
 " – maybe we will find some more big rocks to please the old man?"
-msgstr "Även om det inte är ett värdigt uppdrag för en krigare så är det i alla fall någonting att göra! Thron, vad säger du om att jag tar med mig några av våra mest otåliga krigare och vågar oss lite närmare det mäktiga berget Kal’mavrath. Kanske kan vi hitta några fler stora klippor som kan glädja den gamla gubben."
+msgstr "Även om det inte är ett värdigt uppdrag för en krigare så är det åtminstone någonting att göra! Thron, vad säger du om att jag tar med mig några av våra mest otåliga krigare och vågar oss lite närmare det mäktiga berget Kal’mavrath? Vi kanske kan hitta några fler stora klippor, det skulle glädja den gamla gubben."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:325
@@ -178,12 +221,12 @@ msgid ""
 "North of the great mountain is a large plain – why don’t we use the space "
 "Mother Nature gave us and build a farm? I sure would enjoy a freshly baked "
 "pitta bread for a change…"
-msgstr "Norr om det mäktiga berget finns en stor slätt. Borde vi inte nyttja platsen som naturen gav oss för att bygga en bondgård? Jag skulle definitivt uppskatta ett nybakt pitabröd för omväxlings skull..."
+msgstr "Norr om det mäktiga berget finns en stor slätt. Skulle vi inte kunna nyttja den plats som Moder Jord gav oss och bygga en bondgård? Jag skulle definitivt uppskatta ett nybakat pitabröd för omväxlings skull..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:390
 msgid "Boldreth cheers up…"
-msgstr "Boldreth muntrar upp..."
+msgstr "Boldreth muntrar upp sig..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/bar01.wmf/scripting/texts.lua:400
@@ -227,19 +270,19 @@ msgid "Khantrukh seems relieved…"
 msgstr "Khantrukh verkar lättad..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:487
-#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:502
-#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:525
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:488
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:503
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:526
 msgid "Thron speaks…"
 msgstr "Thron talar..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Thron
-#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:495
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:496
 msgid "The news he brought changed everything…"
 msgstr "Nyheterna han kom med förändrade allting..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:512
+#: ../../data/campaigns/bar01.wmf/scripting/texts.lua:513
 msgid "Thron looks worried…"
 msgstr "Thron verkar bekymrad..."

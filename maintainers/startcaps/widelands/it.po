@@ -2,20 +2,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Log Merger, 2022\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:251
+#: ../../src/network/gameclient.cc:932
+msgid "/me ’s file failed md5 checksumming."
+msgstr "Il file /me non ha superato il controllo in MD5."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:38
+#, c-format
+msgid "invalid tribe ‘%s’"
+msgstr "Tribù non valida ‘%s’"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/game_summary.cc:250
 #, c-format
 msgid "%s won!"
 msgstr "Ha vinto %s!"

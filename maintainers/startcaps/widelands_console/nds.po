@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-04-06 20:40+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"PO-Revision-Date: 2015-02-03 14:54+0000\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2018-2022\n"
 "Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
@@ -12,18 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:45
-msgid " --<config-entry-name>=value overwrites any config file setting"
-msgstr " --<Instellens-Naam>=Weert överschrifft de Instellen vun de Instellens-Datei"
+#. * TRANSLATORS: `n` references a numerical placeholder
+#: ../../src/wlapplication_messages.cc:110
+msgid "Use `n` files for rolling autosaves."
+msgstr "`n` Dateien vum automatisk Sekern ofheven."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:186
-msgid ""
-" <save.wgf>/<replay.wrpl> \n"
-"                      Directly loads the given savegame or replay. Useful for\n"
-"                      .wgf/.wrpl file extension association. Does not work with\n"
-"                      other options. Also see --loadgame/--replay."
-msgstr " <SekertSpeel.wgf>/<Uptekenwrpl> \n                      Stracks dat geven sekert Speel of Upteken laden.\n                      Anner Instellens worden nich annohmen.\n                      Kiek ok an: --loadgame/--replay"
+#: ../../src/wlapplication_messages.cc:226
+msgid "<save.wgf>/<replay.wrpl>"
+msgstr "<Sekert.wgf>/<Upteken.wrpl>"

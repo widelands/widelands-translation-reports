@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: LINUX SAUNA, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,32 +12,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) numbers: Different numbers
-#: ../../src/wui/economy_options_window.cc:78
+#: ../../src/wui/economy_options_window.cc:82
 msgid "Decrease target by 10"
 msgstr "Pienennä tavoitetta kymmenellä"
 
 # (pofilter) numbers: Different numbers
-#: ../../src/wui/economy_options_window.cc:111
+#: ../../src/wui/economy_options_window.cc:115
 msgid "Increase target by 10"
-msgstr "Kastvata tavoitetta kymmenellä"
+msgstr "Kasvata tavoitetta kymmenellä"
 
 # (pofilter) numbers: Different numbers
 #. * TRANSLATORS: This is a map tag
-#: ../../src/wui/map_tags.cc:50
+#: ../../src/wui/map_tags.cc:49
 msgid "Teams of 2"
-msgstr "Kanden pelaajan joukkueet"
+msgstr "Kahden pelaajan joukkueet"
 
 # (pofilter) numbers: Different numbers
 #. * TRANSLATORS: This is a map tag
-#: ../../src/wui/map_tags.cc:52
+#: ../../src/wui/map_tags.cc:51
 msgid "Teams of 3"
 msgstr "Kolmen pelaajan joukkueet"
 
 # (pofilter) numbers: Different numbers
 #. * TRANSLATORS: This is a map tag
-#: ../../src/wui/map_tags.cc:54
+#: ../../src/wui/map_tags.cc:53
 msgid "Teams of 4"
 msgstr "Neljän pelaajan joukkueet"
+
+# (pofilter) numbers: Different numbers
+#: ../../src/wui/productionsitewindow.cc:130
+msgid "Decrease experience by 1"
+msgstr "Vähennä kokemusta yhdellä"
+
+# (pofilter) numbers: Different numbers
+#: ../../src/wui/productionsitewindow.cc:133
+msgid "Increase experience by 1"
+msgstr "Lisää kokemusta yhdellä"

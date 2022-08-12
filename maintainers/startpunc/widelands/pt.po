@@ -2,48 +2,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Francisco Fernandes <franciscof09@gmail.com>, 2021\n"
 "Language-Team: Portuguese (http://www.transifex.com/widelands/widelands/"
 "language/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
-# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: e.g. 'Did not start working because 3x water and 3x wheat
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:1224
+#: ../../src/logic/map_objects/tribes/production_program.cc:1237
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"
 msgstr[0] "falta %s"
 msgstr[1] "faltam %s"
+msgstr[2] "faltam %s"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:133
+#: ../../src/network/network_gaming_messages.cc:127
 #, c-format
 msgid "%1$s has left the game (%2$s)"
 msgstr "Deixou %1$s o jogo (%2$s)"
 
-# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/savegamedeleter.cc:97
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
+#. NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
 msgstr[0] "Não foi possível apagar %d jogo."
 msgstr[1] "Não foi possível apagar %d jogos."
+msgstr[2] "Não foi possível apagar %d jogos."
 
-# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
-#: ../../src/wui/savegamedeleter.cc:128
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."
 msgstr[0] "Não foi possível apagar %d repetição."
 msgstr[1] "Não foi possível apagar %d repetições."
+msgstr[2] "Não foi possível apagar %d repetições."

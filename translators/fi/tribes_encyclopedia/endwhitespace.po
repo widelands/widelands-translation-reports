@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: LINUX SAUNA, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,11 +12,218 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Granite, part 2
+#: ../../data/tribes/initialization/amazons/units.lua:103
+msgctxt "amazons_ware"
+msgid ""
+"The Amazons use granite for making tools and weapons as well. It is produced"
+" by the stonecutters and in stone mines."
+msgstr "Amatsoonit käyttävät graniittia työstääkseen työkaluja sekä myös aseita. Sitä tuottavat kivenleikkaajat ja kivilouhimot. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Water, part 2
+#: ../../data/tribes/initialization/amazons/units.lua:171
+msgctxt "amazons_ware"
+msgid ""
+"Water is used by the cassava root cooker, the chocolate brewery, the gold "
+"digger and the tapir farm."
+msgstr "Vettä käyttävät cassavajuuren keittäjä, suklaatehdas, kullankaivaja sekä tapiiritila. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Bread
+#: ../../data/tribes/initialization/amazons/units.lua:202
+msgctxt "amazons_ware"
+msgid ""
+"This tasty bread is made in cassava root cookeries out of cassava root and "
+"water. It is the basic ingredient of a ration that is made by a food "
+"preserver. Soldiers like it too."
+msgstr "Tämä makoisa leipä valmistetaan cassavajuurileipomoissa cassavajuuresta ja vedestä. Se on säännöstelyn perus raaka-aine jonka valmistaa ruoantuottaja. Myös sotilaat pitävät tästä leivästä. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Ration, part 2
+#: ../../data/tribes/initialization/amazons/units.lua:248
+msgctxt "amazons_ware"
+msgid ""
+"Rations are produced by the food preserver out of fish or meat and bread. "
+"They are dried using a charcoal fire."
+msgstr "Annokset valmistelee ruoanjalostaja kalasta tai punaisesta lihasta ja leivästä. Nämä kuivatetaan käyttäen tulihiiltä. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Pick
+#: ../../data/tribes/initialization/amazons/units.lua:302
+msgctxt "amazons_ware"
+msgid "Picks are used by stonecutters to cut granite from rocks or in mines."
+msgstr "Hakkuja käyttävät kivenleikkaajat leikatakseen kivistä graniittia tai muuten louhoksilla. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Hammer, part 2
+#: ../../data/tribes/initialization/amazons/units.lua:341
+msgctxt "amazons_ware"
+msgid ""
+"Geologists, builders, shipwrights and stone carvers all need a hammer. Make "
+"sure you’ve always got some in reserve! They are produced by the stone "
+"carver."
+msgstr "Maakerrostieteilijät, yleisrakentajat, laivanrakentajat ja kivenveistäjät tarvitsevat kaikki vasaraa. Varmista että näitä on alati jonkin verran varastossa! Vasaroita tuottaa kivenveistäjä. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Wooden Spear, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:363
+msgctxt "amazons_ware"
+msgid ""
+"This spear is the basic weapon in the Amazon military system. It is produced"
+" by the stone carver. In combination with a tunic, it is the equipment to "
+"fit out young soldiers."
+msgstr "Tämä keihäs on Amatsoni-armeijajärjestelmässä perusase. Kivenveistäjä tuottaa niitä. Viitan kanssa se on lähtökohta nuorille sotilaille. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Stone Tipped Spear
+#: ../../data/tribes/initialization/amazons/units.lua:425
+msgctxt "amazons_ware"
+msgid ""
+"This spear has a stone spike. It is produced in a stone workshop and used in"
+" a warriors’ gathering – together with food – to train soldiers from attack "
+"level 0 to attack level 1."
+msgstr "Tässä keihäässä on kiviteräpiikki. Sitä tuotetaan kivipajassa ja käytetään sotureiden kokoontumisissa – ruoan ohella – kouluttamaan sotilaita hyökkäyksen tasolta 0 hyökkäyksen tasolle 1. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Hardened Spear
+#: ../../data/tribes/initialization/amazons/units.lua:436
+msgctxt "amazons_ware"
+msgid ""
+"This is a hardened spear with a stone tip. It is produced in a stone "
+"workshop and used in a warriors’ gathering – together with food – to train "
+"soldiers from attack level 1 to level 2."
+msgstr "Tämä on karkaistu keihäs jossa kiviteräpää. Sitä tuotetaan kivipajassa ja käytetään sotureiden kokoontumisissa – ruoan ohella – kouluttamaan sotilaita hyökkäyksen tasolta 01 hyökkäyksen tasolle 2. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Helptext for an amazon ware: Sturdy Boots
+#: ../../data/tribes/initialization/amazons/units.lua:513
+msgctxt "amazons_ware"
+msgid ""
+"Sturdy boots are excellent footwear for soldiers to be quicker on their "
+"feet. They are produced by the dressmaker and used to train soldiers’ evade "
+"from level 0 to level 1."
+msgstr "Tanakat saappaat ovat erinomaisia jalkineita sotilaille jotta olisivat jalan nopeampia. Niitä valmistaa puvuntekijä ja ne liittyvät sotilaiden kouluttamiseen väistötaidossa tasolta 0 tasolle 1. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Purpose helptext for an amazon warehouse: Port
+#: ../../data/tribes/initialization/amazons/units.lua:1256
+msgctxt "amazons_building"
+msgid ""
+"Serves as a base for overseas colonization and trade. Also stores your "
+"soldiers, wares and tools."
+msgstr "Toimii tukikohtana ylimerellisten asuttamistehtävien ja kaupankäynnin tiimoilla. Myös säilytyspaikka sotilaille, tarvikkeille ja työkaluille. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note helptext for an amazon production site: Water Gatherer's
+#. Hut
+#: ../../data/tribes/initialization/amazons/units.lua:1324
+msgctxt "amazons_building"
+msgid ""
+"The water gatherer’s hut needs open water within the work area. Your workers"
+" cannot dig up water from the ground!"
+msgstr "Vedenkerääjän majan työalueella tarvitaan vapaita vedenlähteitä. Työläisesi eivät voi kaivaa vettä maaperästä! "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Performance helptext for an amazon production site: Furnace
+#: ../../data/tribes/initialization/amazons/units.lua:1372
+#, lua-format
+msgctxt "amazons_building"
+msgid ""
+"The furnace can produce one gold ingot in %s on average if the supply is "
+"steady."
+msgstr "Sulatusuuni voi tuottaa yhden kultaharkon ajassa %s keskimäärin mikäli toimitus on vakaata. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for an amazon production site:
+#. Dressmakery
+#: ../../data/tribes/initialization/amazons/units.lua:1401
+msgctxt "amazons_building"
+msgid ""
+"Dressmakers’ ethos, adapted from the traditional verse ‘Mother Jungle’s "
+"wisdom: Song of the Conscientious.’"
+msgstr "Puvuntekijän tavan henki, otettu perinteisestä laulusta ‘Äiti viidakon viisaus; Tunnollisten laulu.’ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Purpose helptext for an amazon production site: Gardening
+#. Center
+#: ../../data/tribes/initialization/amazons/units.lua:1453
+msgctxt "amazons_building"
+msgid "Enhances the fertility of the landscape for trees."
+msgstr "Parantaa ympäristön puiden hedelmällisyyttä. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Purpose helptext for an amazon training site: Training Glade
+#: ../../data/tribes/initialization/amazons/units.lua:1520
+msgctxt "amazons_building"
+msgid ""
+"Trains soldiers in Evade, Defense and Health. Equips the soldiers with all "
+"necessary equipment and armor parts."
+msgstr "Kouluttaa sotilaat väistötaidossa, puolustautumisessa ja terveyden ylläpidossa. Varustaa sotilaat kaikin tarvituin varustein ja haarniskan osin. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note lore for an atlantean production site: Warehouse
+#: ../../data/tribes/initialization/atlanteans/units.lua:1435
+msgctxt "atlanteans_building"
+msgid ""
+"Maybe you think it’s a boring task to store, count and retrieve all this "
+"stuff, but do you really want your carriers to walk all the way to your "
+"Headquarters?"
+msgstr "Saatat ounastella että on tylsistyttävää varastoida, laskea ja noutaa kaikkea tätä kamaa, mutta haluatko todella kuljettajiesi kävelevän koko pitkän matkan päämajallesi? "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note lore_autor for an atlantean production site: Woodcutter's
+#. House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1480
+msgctxt "atlanteans_building"
+msgid "Atlantean woodcutter asked why saws are used to cut trees"
+msgstr "Atlantealainen metsuri kysyi miksi käytetään sahoja puiden kaatamiseen "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an atlantean production site:  Smokery
+#: ../../data/tribes/initialization/atlanteans/units.lua:1611
+msgctxt "atlanteans_building"
+msgid ""
+"We are using pure logs, no other ingredients! Which drunken foreigner hath "
+"told you that myth?"
+msgstr "Käytämme puhtaita tukkeja, emme muita raaka-aineita! Kuka kumman kännikala ulkomailta on sinulle moisia myyttejä haastellut? "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an atlantean production site: Spider Farm
+#: ../../data/tribes/initialization/atlanteans/units.lua:1764
+msgctxt "atlanteans_building"
+msgid ""
+"No, the spiders are not fed with corn. We feed it to fat grasshoppers, which"
+" in turn are digested by our spiders. We put them on a special device to "
+"gain the spider silk once a day. There is no need to spin this again. The "
+"thread can directly be used by the weaving mill. Oh hello, here is one of "
+"our nice spiders … Hey! Why are you running away?"
+msgstr "Ei, hämähäkkejä ei ruokita maissilla. Sitä me annamme heinäsirkoille pulskistumaan, jotka sitten päätyvät hämähäkeillemme. Laitamme ne erityislaitteeseen saadaksemme hämähäkkisilkkiä kerran päivässä. Ei tarvetta pyöräyttää toista kertaa. Kudontamylly voi käyttää langan suoraan. Heipä hei, tässäpä on yksi mukavista hämähäkseistämme ... Hei! Miksipä karkuun juokset? "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an atlantean production site: Guardhouse
+#: ../../data/tribes/initialization/atlanteans/units.lua:1885
+msgctxt "atlanteans_building"
+msgid ""
+"Hey soldier, even if this is the smallest of our military buildings you "
+"still must not sleep all day!"
+msgstr "Hei sotilas, vaikkakin tämä on varuskuntamme rakennuksista pienin, et siltikään voi nukkua koko päivää! "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an atlantean production site: High Tower
+#: ../../data/tribes/initialization/atlanteans/units.lua:1940
+msgctxt "atlanteans_building"
+msgid ""
+"Beware our mighty high towers! From the topmost spot we can see wide into "
+"the lands and spot the enemy far away."
+msgstr "Varokaa mahdikkaita korkeatornejamme! Ylimmästä kohdasta naemme maille laajalti ja havaitsemme vihollisen kaukaa.  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Helptext for a barbarian ware: Felling Ax, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:347
+#: ../../data/tribes/initialization/barbarians/units.lua:346
 msgctxt "barbarians_ware"
 msgid ""
 "Felling axes are used by lumberjacks and produced in the metal workshop (but"
@@ -26,7 +233,7 @@ msgstr "Katokirveitä käyttää puunhakkaajat ja niitä tuotetaan metallipajass
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Helptext for a barbarian ware: Fire Tongs, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:447
+#: ../../data/tribes/initialization/barbarians/units.lua:446
 msgctxt "barbarians_ware"
 msgid ""
 "They are used in the smelting works and produced by the metal workshop (but "
@@ -35,8 +242,52 @@ msgid ""
 msgstr "Niitä käytetään sulattamoissa ja tuottetaan metallipajassa  (mutta tuotanto loppuu rakennuksessa, jos se laajennetaan kirvespajaksi ja asetehtaaksi). "
 
 # (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an empire production site: Tavern
+#. Translation for the classical Latin quote:
+#. "Esse oportet ut vivas, non vivere ut edas."
+#: ../../data/tribes/initialization/empire/units.lua:1530
+msgid "We eat to live, not live to eat."
+msgstr "Syömme elääksemme, emme elä syödäksemme. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an empire production site: Farm
+#. Translation for the adapted classical Latin quote:
+#. "Lutius iam a publicis negotiis se removerat, ruri vivebat et senatus
+#. legati eum invenerunt
+#. dum agellum suum arat."
+#: ../../data/tribes/initialization/empire/units.lua:1697
+msgid ""
+"Lutius had already removed himself from public affairs, he was living in the"
+" countryside, and the ambassadors of the senate found him while he was "
+"plowing his land."
+msgstr "Lutius oli jo aiemmin sulkenut itsensä pois julkisista asiankäsittelyistä, hän eli maaseudulla, ja senaatin lähettiläät löysivät hänet kyntämässä maataan.  "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an empire training site: Arena
+#. Translation for the classical Latin quote:
+#. "Qui dabat olim […] omnia, nunc se continet atque duas tantum res anxius
+#. optat,
+#. panem et circenses."
+#: ../../data/tribes/initialization/empire/units.lua:1974
+msgid ""
+"[The People of the Empire] who once handed out all [power], now restrains "
+"itself and anxiously hopes for just two things: bread and games."
+msgstr "[Imperiumin kansalaiset] jotka kerran luovuttivat kaiken [vallan], elävät nyt kuin kädet sidottuna ja toivovat kärsimättömästi vain kahta asiaa: leipää ja sirkushuveja. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for an empire production site: Sentry
+#. (the Limes was the border defence system of fortifications of the Roman
+#. Empire)
+#: ../../data/tribes/initialization/empire/units.lua:2083
+msgctxt "empire_building"
+msgid ""
+"Saledus warning Lutius that sentries are not adequate protection for the "
+"Limes"
+msgstr "Saledus varoittaa Lutiusta siitä, että vartijat eivät ole lehmuksille riittävä suoja "
+
+# (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Helptext for a frisian ware: Mead
-#: ../../data/tribes/initialization/frisians/units.lua:234
+#: ../../data/tribes/initialization/frisians/units.lua:233
 msgctxt "frisians_ware"
 msgid ""
 "Mead is produced by mead breweries. Soldiers drink mead during advanced "
@@ -45,7 +296,7 @@ msgstr "Simaa valmistetaan simapanimossa. Sotilaat juovat simaa edistyksellisen 
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Helptext for a frisian ware: Iron, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:336
+#: ../../data/tribes/initialization/frisians/units.lua:335
 msgctxt "frisians_ware"
 msgid ""
 "It is produced by the furnace. Tools and weapons are made of iron. It is "
@@ -55,14 +306,14 @@ msgstr "Sitä tuotetaan sulatusuunissa. Työkalut ja aseet tehdään raudasta. S
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Lore author helptext for a frisian production site: Scout's
 #. House
-#: ../../data/tribes/initialization/frisians/units.lua:1721
+#: ../../data/tribes/initialization/frisians/units.lua:1736
 msgctxt "frisians_building"
 msgid "The spokesman of the scouts’ labor union"
 msgstr "Tiedustelijoiden ammattiyhdistyksen tiedottaja "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Performance helptext for a frisian production site: Tavern
-#: ../../data/tribes/initialization/frisians/units.lua:1909
+#: ../../data/tribes/initialization/frisians/units.lua:1924
 #, lua-format
 msgctxt "frisians_building"
 msgid ""

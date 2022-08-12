@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: LINUX SAUNA, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,34 +12,65 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: e.g. Completed/Skipped/Did not start ...
+#. * TRANSLATORS:      ... because the economy doesn’t need the worker '%s'
+#: ../../src/logic/map_objects/tribes/production_program.cc:489
+#, c-format
+msgid "the economy doesn’t need the worker ‘%s’"
+msgstr "Työntekijälle '%s' ei ole tarvetta"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: %s is a list of wares. String is fetched according to total
+#. amount of
+#. wares.
+#: ../../src/logic/map_objects/tribes/production_program.cc:1342
+#, c-format
+msgid "Produced %s"
+msgid_plural "Produced %s"
+msgstr[0] "Tuotettu %s"
+msgstr[1] "%s tuotettu"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1875
+#: ../../src/logic/map_objects/tribes/production_program.cc:1891
 #, c-format
 msgid "Completed %s"
-msgstr "%svalmis"
+msgstr "%s valmis"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:369
+#, c-format
+msgid "by %1$s (uploaded by %2$s)"
+msgstr "Tekijältä %1$s (%2$s:n lataama)"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is shown for multiplayer games when no host
 #. * TRANSLATORS: server to connect to has been specified yet.
-#: ../../src/ui_fsmenu/internet_lobby.cc:475
+#: ../../src/ui_fsmenu/internet_lobby.cc:482
 #, c-format
 msgid "unnamed %u"
 msgstr "Nimetön %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/attack_box.cc:238
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:38
+#, c-format
+msgid "invalid tribe ‘%s’"
+msgstr "Epäkelpo heimo '%s'"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/attack_window.cc:292
 msgid ""
 "Hold down Shift to remove all soldiers up to the one you’re pointing at"
 msgstr "pidä SHIFT-painike pohjassa poistaaksesi kaikki myöhäisemmät sotilaat"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/attack_box.cc:254
+#: ../../src/wui/attack_window.cc:307
 msgid "Hold down Shift to add all soldiers up to the one you’re pointing at"
 msgstr "pidä SHIFT-painike pohjassa lisätäksesi kaikki aiemmat sotilaat"
 
@@ -56,9 +87,3 @@ msgstr "pidä SHIFT-painike pohjassa lisätäksesi kaikkien tarvikkeiden määr�
 #: ../../src/wui/inputqueuedisplay.cc:133
 msgid "Hold down Shift to decrease all ware types at the same time"
 msgstr "pidä SHIFT-painike pohjassa pienentääksesi kaikkien tarvikkeiden määrää saman aikaisesti."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Title for the map view menu button in the game
-#: ../../src/wui/interactive_base.cc:118
-msgid "Map View"
-msgstr "karttanäkymä"

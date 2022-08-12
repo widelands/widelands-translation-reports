@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: tamanegi, 2018-2019\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/infrastructure.lua:188
@@ -24,14 +24,14 @@ msgstr "初期配置されるはずだった建物のいくつかが空き地不
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:333
+#: ../../src/editor/editorinteractive.cc:343
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "原点(0,0)の位置を設定します。これが生成されるミニマップの左上隅になります。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:476 ../../src/wlapplication.cc:686
+#: ../../src/editor/editorinteractive.cc:515 ../../src/wlapplication.cc:801
 #, c-format
 msgid ""
 "Widelands could not load the file \"%s\". The file format seems to be "
@@ -39,36 +39,36 @@ msgid ""
 msgstr "Widelandsはファイル %s を読み込めませんでした。このファイル形式は互換性がないようです。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:544
+#: ../../src/editor/editorinteractive.cc:590
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "このマップは保存されていません。本当に終了しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:920
+#: ../../src/editor/editorinteractive.cc:1077
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "マップ %s を読み込んでいます"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Help text in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:179
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:180
 msgid "Click to select an item. Use the Ctrl key to select multiple items."
 msgstr "クリックで選択できます。CTRLキーを押しながらクリックすれば複数選択できます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
-#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
-#: ../../src/wui/tribal_encyclopedia.cc:56
+#: ../../src/editor/ui_menus/help.cc:36 ../../src/ui_fsmenu/login_box.cc:238
+#: ../../src/ui_fsmenu/main.cc:1011 ../../src/wui/encyclopedia_window.cc:144
+#: ../../src/wui/tribal_encyclopedia.cc:55
 msgid "Error!"
 msgstr "エラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:101
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:102
 msgid "Creating empty map…"
 msgstr "空のマップを作成しています……"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:541
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:540
 msgid "Generating random map…"
 msgstr "ランダムマップを生成しています……"
 
@@ -79,7 +79,7 @@ msgstr "ランダムマップを生成しています……"
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:586
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:585
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -87,37 +87,37 @@ msgid ""
 msgstr "マップが生成されました。プレイヤーの初期位置をダブルクリックし、海に囲まれていたり、山の頂上に取り残されたりしていないことをチェックしてください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:168
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:171
 msgid "A file or directory with that name already exists."
 msgstr "同じ名前のファイルかディレクトリが既に存在します。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:169
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:184
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:172
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
 msgid "Error Creating Directory!"
 msgstr "ディレクトリ作成エラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:185
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "ディレクトリ %s 作成中にエラー"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:307
-#: ../../src/wui/game_main_menu_save_game.cc:249
+#: ../../src/wui/game_main_menu_save_game.cc:269
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "ファイル「%s」は既に存在します。上書きしますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:310
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:365
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:309
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:364
 msgid "Error Saving Map!"
 msgstr "マップ保存エラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:107
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:108
 msgid "This extension is reserved!"
 msgstr "この拡張子は予約されています！"
 
@@ -133,7 +133,7 @@ msgstr "テスト以外の目的で８人以上のプレイヤー設定にする
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:60
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease terrain "
 "height"
@@ -156,19 +156,19 @@ msgid ""
 msgstr "Ctrl+クリックすると資源量を指定値に設定します。これは既に設置済みの資源を置き換えます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:45
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:44
 msgid "Minimum height:"
 msgstr "最低の高さ"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:57
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:56
 msgid "Maximum height:"
 msgstr "最大の高さ"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Editor random height access key. *
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:74
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:77
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:73
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:76
 msgid ""
 "Click on the map to set terrain height to a random value within the "
 "specified range"
@@ -177,18 +177,18 @@ msgstr "マップをクリックすると、地形の高さが指定範囲内の
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip header for characters in illegal filenames.
 #. * This is followed by a list of bullet points
-#: ../../src/io/filesystem/filesystem.cc:272
+#: ../../src/io/filesystem/illegal_filename_check.cc:95
 msgctxt "illegal_filename_characters"
 msgid "The following characters are not allowed:"
 msgstr "以下の文字は使用できません："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:377
+#: ../../src/logic/game.cc:378
 msgid "Initializing game…"
 msgstr "ゲームを初期化中……"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:646 ../../src/logic/player.cc:237
+#: ../../src/logic/game.cc:639 ../../src/logic/player.cc:238
 #, c-format
 msgid ""
 "Widelands could not start the game, because player %u has no starting position.\n"
@@ -196,77 +196,77 @@ msgid ""
 msgstr "プレイヤー %u の開始位置が存在しないため、Widelandsはゲームを開始できませんでした。\nWidelandsエディタ上で手動で開始位置を追加すれば、問題を解決できます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:1117
+#: ../../src/logic/game.cc:1191
 msgid "This market has received a new trade offer."
 msgstr "このマーケットは新たなトレードの提案を受け取りました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:231
-#: ../../src/logic/generic_save_handler.cc:235
+#: ../../src/logic/generic_save_handler.cc:220
+#: ../../src/logic/generic_save_handler.cc:224
 msgid "File successfully saved!"
 msgstr "ファイルが正常に保存されました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:236
+#: ../../src/logic/generic_save_handler.cc:225
 #, c-format
 msgid "Backup file ‘%s’ could not be deleted."
 msgstr "バックアップファイル %s を削除できませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:240
+#: ../../src/logic/generic_save_handler.cc:229
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "ディレクトリ %s を作成できませんでした！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:244
+#: ../../src/logic/generic_save_handler.cc:233
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "ファイル %s を削除できませんでした！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:246
+#: ../../src/logic/generic_save_handler.cc:234
 msgid "Try saving under a different name!"
 msgstr "別の名前で保存してください！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:252
+#: ../../src/logic/generic_save_handler.cc:239
 #, c-format
 msgid "Error writing data to file ‘%s’!"
 msgstr "ファイル %s 書き込み時にエラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:259
+#: ../../src/logic/generic_save_handler.cc:246
 msgid "Saved file may be corrupt!"
 msgstr "保存されたファイルは破損しているかもしれません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:267
+#: ../../src/logic/generic_save_handler.cc:253
 #, c-format
 msgid "File ‘%s’ could not be restored!"
 msgstr "ファイル %s を復元できませんでした！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:269
+#: ../../src/logic/generic_save_handler.cc:254
 #, c-format
 msgid "Backup file ‘%s’ will be available for some time."
 msgstr "しばらくはバックアップファイル %s が利用可能です。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:280
+#: ../../src/logic/generic_save_handler.cc:263
 #, c-format
 msgid "File ‘%s’ was restored from backup."
 msgstr "ファイル %s はバックアップから復元されました。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
-#: ../../src/logic/map_objects/tribes/militarysite.cc:250
+#: ../../src/logic/map_objects/tribes/militarysite.cc:249
 msgctxt "building"
 msgid "Lost!"
 msgstr "敗北！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:251
+#: ../../src/logic/map_objects/tribes/militarysite.cc:250
 msgid "Militarysite lost!"
 msgstr "軍事施設を失いました！"
 
@@ -274,91 +274,91 @@ msgstr "軍事施設を失いました！"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:293
+#: ../../src/logic/map_objects/tribes/militarysite.cc:292
 msgid "Enemy Defeated!"
 msgstr "敵を倒しました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:293
+#: ../../src/logic/map_objects/tribes/militarysite.cc:292
 msgid "Enemy at site defeated!"
 msgstr "建物の敵を倒しました！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite is being attacked
-#: ../../src/logic/map_objects/tribes/militarysite.cc:952
+#: ../../src/logic/map_objects/tribes/militarysite.cc:911
 msgctxt "building"
 msgid "Attack!"
 msgstr "襲撃！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:952
+#: ../../src/logic/map_objects/tribes/militarysite.cc:911
 msgid "You are under attack"
 msgstr "襲撃を受けています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1834
+#: ../../src/logic/map_objects/tribes/production_program.cc:1850
 msgid "No soldier found for this training level!"
 msgstr "このレベルのトレーニングを必要とする兵士はいません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1095
+#: ../../src/logic/map_objects/tribes/productionsite.cc:1135
 msgid "Can’t find any more resources!"
 msgstr "これ以上資源を見つけられません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:437
+#: ../../src/logic/map_objects/tribes/ship.cc:439
 msgid "An expedition ship found a new port build space."
 msgstr "探検船が港を建設可能な場所を発見しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:557
+#: ../../src/logic/map_objects/tribes/ship.cc:559
 msgid "An expedition ship sailed around its island without any events."
 msgstr "探検船は何事も無く島を一周してしまいました。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:620
+#: ../../src/logic/map_objects/tribes/ship.cc:622
 msgid "Land Ahoy!"
 msgstr "おーい陸だぞー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:621
+#: ../../src/logic/map_objects/tribes/ship.cc:623
 msgid ""
 "An expedition ship reached a coast and is waiting for further commands."
 msgstr "探検船は陸地に到達し、次の指示を待っています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:670
+#: ../../src/logic/map_objects/tribes/ship.cc:674
 msgid "Port Lost!"
 msgstr "港消失！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:671
+#: ../../src/logic/map_objects/tribes/ship.cc:675
 msgid "Unloading of wares failed, expedition is cancelled now."
 msgstr "物資の回収はできず、探検も中止されます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:853
+#: ../../src/logic/map_objects/tribes/ship.cc:857
 msgid "An expedition ship is waiting for your commands."
 msgstr "探検船はあなたの命令を待っています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:557
+#: ../../src/logic/map_objects/tribes/warehouse.cc:556
 msgid "A new port was added to your economy."
 msgstr "港が新たにあなたの経済に加えられました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:560
+#: ../../src/logic/map_objects/tribes/warehouse.cc:559
 msgid "A new headquarters was added to your economy."
 msgstr "本拠地が新たにあなたの経済に加えられました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/warehouse.cc:563
+#: ../../src/logic/map_objects/tribes/warehouse.cc:562
 msgid "A new warehouse was added to your economy."
 msgstr "倉庫が新たにあなたの経済に加えられました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:1109
+#: ../../src/logic/map_objects/tribes/worker.cc:1114
 msgid "A geologist found resources."
 msgstr "地質学者が資源を発見しました。"
 
@@ -368,35 +368,35 @@ msgid "Worker got lost!"
 msgstr "労働者失踪！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:34
+#: ../../src/logic/objective.h:33
 msgid "This objective has no description."
 msgstr "この目的には説明がありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/replay_game_controller.cc:102
+#: ../../src/logic/replay_game_controller.cc:107
 msgid ""
 "The end of the replay has been reached and the game has been paused. You may"
 " unpause the game and continue watching if you want to."
 msgstr "リプレイの終わりに達したため、ゲームを一時停止しています。もし続きを見たいのであれば、手動で一時停止を解除してください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:178
-#: ../../src/wui/game_main_menu_save_game.cc:298
+#: ../../src/logic/save_handler.cc:174
+#: ../../src/wui/game_main_menu_save_game.cc:321
 msgid "Saving failed!"
 msgstr "保存に失敗！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:427 ../../src/map_io/widelands_map_loader.cc:185
+#: ../../src/map_io/s2map.cc:428 ../../src/map_io/widelands_map_loader.cc:189
 msgid "Loading map…"
 msgstr "マップを読込中……"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:469
+#: ../../src/map_io/s2map.cc:470
 msgid "Bluebyte Settlers II Map. No comment defined!"
 msgstr "Bluebyte Settlers IIのマップです。コメントは定義されていません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:209
+#: ../../src/network/gameclient.cc:213
 msgid ""
 "Widelands could not establish a connection to the given address. Either no "
 "Widelands server was running at the supposed port or the server shut down as"
@@ -404,7 +404,7 @@ msgid ""
 msgstr "Widelandsは指定されたアドレスへの接続を確立できませんでした。指定されたポートでWidelandsが動いていないか、サーバがシャットダウンされていることが想定されます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:945
+#: ../../src/network/gameclient.cc:974
 msgid ""
 "/me checked the received file. Although md5 check summing succeeded, I can "
 "not handle the file."
@@ -412,74 +412,74 @@ msgstr "/me が受信したファイルをチェックしました。MD5チェ�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:301
+#: ../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause            - ゲームを強制的に一時停止"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:303
+#: ../../src/network/gamehost.cc:130
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause        -  ゲームを通常の速度に戻す。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:326 ../../src/network/gamehost.cc:350
+#: ../../src/network/gamehost.cc:152 ../../src/network/gamehost.cc:176
 #, c-format
 msgid "The client %s could not be found."
 msgstr "クライアント%sが見つかりません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:348
+#: ../../src/network/gamehost.cc:174
 msgid "You can not kick yourself!"
 msgstr "自分を追い出すことはできません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:354
+#: ../../src/network/gamehost.cc:179
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "%sを本当に追い出しても良いですか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:383
+#: ../../src/network/gamehost.cc:206
 msgid "Pause was already forced - game should be paused."
 msgstr "既に強制的に一時停止状態になっています。ゲームは一時停止されているはずです。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:393
+#: ../../src/network/gamehost.cc:216
 msgid "There is no forced pause - nothing to end."
 msgstr "強制一時停止状態ではありません。何もする必要はありません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:402
+#: ../../src/network/gamehost.cc:225
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "無効なコマンドです！/help と入力してコマンド一覧を参照してください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:547
+#: ../../src/network/gamehost.cc:373
 msgid "Failed to host the server!"
 msgstr "サーバーでのホスティングに失敗しました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:548
+#: ../../src/network/gamehost.cc:374
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."
 msgstr "Widelandsはサーバでのホスティングに失敗しました。\nこれは本来起こるべきことではなく、おそらくあなたにはどうにもできないでしょう。バグとして報告してください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:556
+#: ../../src/network/gamehost.cc:382
 msgid "Failed to start the server!"
 msgstr "サーバの起動に失敗しました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:557
+#: ../../src/network/gamehost.cc:383
 msgid ""
 "Widelands could not start a server.\n"
 "Probably some other process is already running a server on our port."
 msgstr "Widelandsはサーバを起動できませんでした。\nおそらく、別のプロセスが既にサーバを起動しているのでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:117
+#: ../../src/network/internet_gaming.cc:113
 msgid ""
 "Widelands could not establish a connection to the given address.\n"
 "Either there was no metaserver running at the supposed port or\n"
@@ -487,32 +487,32 @@ msgid ""
 msgstr "Widelandsは、指定されたアドレスへの接続を確立できませんでした。\nメタサーバーが予期していたポートで動作していなかったか、\nあなたのネットワーク設定が壊れている可能性があります。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:180
+#: ../../src/network/internet_gaming.cc:176
 msgid "Users marked with IRC will possibly not react to messages."
 msgstr "IRCとマークされているユーザはおそらくメッセージに応答しないでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:217
+#: ../../src/network/internet_gaming.cc:214
 msgid "Successfully reconnected to the metaserver!"
 msgstr "正常にメタサーバーに再接続しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:430
+#: ../../src/network/internet_gaming.cc:429
 msgid "Welcome to the Widelands Metaserver!"
 msgstr "Widelandsのメタサーバへようこそ！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:447
+#: ../../src/network/internet_gaming.cc:445
 msgid "Our forums can be found at:"
 msgstr "フォーラムへはこちらからどうぞ："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:449
+#: ../../src/network/internet_gaming.cc:447
 msgid "For reporting bugs, visit:"
 msgstr "バグ報告ならばこちらへどうぞ："
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:488
+#: ../../src/network/internet_gaming.cc:485
 msgid ""
 "Received an unexpected network packet from the metaserver. The metaserver "
 "could be using a different protocol version. If the error persists, try "
@@ -520,249 +520,249 @@ msgid ""
 msgstr "メタサーバーから予期しないパケットを受信しました。メタサーバーが違うプロトコルのバージョンを使っているのかもしれません。エラーが続くようなら、ゲームを更新してください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:500
+#: ../../src/network/internet_gaming.cc:495
 #, c-format
 msgid ""
 "WARNING: Received a %s command although we are not in CONNECTING state."
 msgstr "警告: 接続状態ではありませんが、%sコマンドを受信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:511
+#: ../../src/network/internet_gaming.cc:503
 #, c-format
 msgid "Server time offset is %d second."
 msgid_plural "Server time offset is %d seconds."
 msgstr[0] "サーバー時間とのオフセットは %d 秒です。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:526
+#: ../../src/network/internet_gaming.cc:517
 #, c-format
 msgid "Invalid chat message type \"%s\"."
 msgstr "不正なチャットメッセージタイプ「%s」です。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:687
+#: ../../src/network/internet_gaming.cc:674
 msgid "Chat message could not be sent."
 msgstr "チャットメッセージが送れませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:886
+#: ../../src/network/internet_gaming.cc:867
 msgid "Message could not be sent: You are not connected to the metaserver!"
 msgstr "メッセージを送信できませんでした。あなたはメタサーバーに接続されていません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:905
-#: ../../src/network/internet_gaming.cc:912
+#: ../../src/network/internet_gaming.cc:887
+#: ../../src/network/internet_gaming.cc:895
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "メッセージを送信できませんでした。これはプライベートメッセージのつもりでしたか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:44
+#: ../../src/network/internet_gaming_messages.cc:43
 msgid "There is no user with this name logged in."
 msgstr "この名前のユーザはログインしていません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:45
+#: ../../src/network/internet_gaming_messages.cc:44
 msgid "The game no longer exists, maybe it has just been closed."
 msgstr "そのゲームは存在しません。おそらくは単にクローズされたのでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:48
+#: ../../src/network/internet_gaming_messages.cc:47
 msgid "The protocol version you are using is not supported!"
 msgstr "ご使用のプロトコルバージョンはサポートされていません！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:49
+#: ../../src/network/internet_gaming_messages.cc:48
 msgid "You are already logged in!"
 msgstr "既にログインしています！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:51
+#: ../../src/network/internet_gaming_messages.cc:50
 msgid ""
 "You got disconnected, as you sent a superuser command without superuser "
 "permission. This incident will be logged and reported to the administrator."
 msgstr "スーパーユーザーの権限なく、スーパーユーザーのコマンドを送信したため、切断されました。この事件は記録され、管理者に報告されます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:54
+#: ../../src/network/internet_gaming_messages.cc:53
 msgid "Connection was closed by the client normally."
 msgstr "接続はクライアントによって正常に終了しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:55
+#: ../../src/network/internet_gaming_messages.cc:54
 msgid "The connection to the metaserver was lost."
 msgstr "メタサーバーへの接続が喪失しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:58
+#: ../../src/network/internet_gaming_messages.cc:57
 msgid ""
 "You got disconnected from the metaserver, as you did not answer a PING "
 "request in time."
 msgstr "pingに時間内に応答しなかったため、メタサーバーから切断されました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:122
+#: ../../src/network/network_gaming_messages.cc:116
 msgid "Client has left the game."
 msgstr "クライアントがゲームから抜けました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:123
+#: ../../src/network/network_gaming_messages.cc:117
 msgid "Client crashed and performed an emergency save."
 msgstr "クライアントがクラッシュしたので緊急セーブを行いました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:124
+#: ../../src/network/network_gaming_messages.cc:118
 msgid "Connection was lost."
 msgstr "接続が失われました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:125
+#: ../../src/network/network_gaming_messages.cc:119
 msgid "Server has left the game."
 msgstr "サーバーがゲームを抜けました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:127
+#: ../../src/network/network_gaming_messages.cc:121
 msgid "The game has started just after you tried to connect."
 msgstr "あなたが接続しようとした直後に、ゲームが開始してしまいました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:128
+#: ../../src/network/network_gaming_messages.cc:122
 msgid "Server has crashed and performed an emergency save."
 msgstr "サーバーがクラッシュしたので緊急セーブが行われました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:129
+#: ../../src/network/network_gaming_messages.cc:123
 msgid "Client and host have become desynchronized."
 msgstr "クライアントとホストが同期されていません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:137
+#: ../../src/network/network_gaming_messages.cc:131
 msgid "Server sent a SYNCREQUEST even though no game is running."
 msgstr "サーバーがゲームが実行されていないにもかかわらず、SYNCREQUESTを送信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:138
+#: ../../src/network/network_gaming_messages.cc:132
 msgid "Received a PLAYERCOMMAND even though no game is running."
 msgstr "ゲームが実行されていないにもかかわらず、PLAYERCOMMANDを受信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:139
+#: ../../src/network/network_gaming_messages.cc:133
 msgid "Unexpectedly received LAUNCH command from server."
 msgstr "予期せずにサーバーからLAUNCHコマンドを受信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:141
+#: ../../src/network/network_gaming_messages.cc:135
 msgid "Server sent a player update for a player that does not exist."
 msgstr "サーバーは存在しないプレイヤーの更新を送信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:143
+#: ../../src/network/network_gaming_messages.cc:137
 msgid "Server sent a user update for a user that does not exist."
 msgstr "サーバーは存在しないユーザーの更新を送信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:145
+#: ../../src/network/network_gaming_messages.cc:139
 #, c-format
 msgid "Received command number %s, which is not allowed in this state."
 msgstr "この状態で許可されていないコマンド番号%sを受け取りました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:148
+#: ../../src/network/network_gaming_messages.cc:142
 msgid "Client reports time to host that is running backwards."
 msgstr "クライアントはホストよりも時間が遅れてしまっています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:150
+#: ../../src/network/network_gaming_messages.cc:144
 msgid "Client simulates beyond the game time allowed by the host."
 msgstr "クライアントはホストに許可されたよりも先の時間のシミュレーションをしています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:151
+#: ../../src/network/network_gaming_messages.cc:145
 msgid "Client did not submit sync report in time."
 msgstr "クライアントは、時間内に同期を送信しませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:152
+#: ../../src/network/network_gaming_messages.cc:146
 msgid "The game has already started."
 msgstr "このゲームはすでに開始しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:153
+#: ../../src/network/network_gaming_messages.cc:147
 msgid "Client has no access to other player’s settings."
 msgstr "クライアントは他のプレイヤーの設定にアクセスできません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:154
+#: ../../src/network/network_gaming_messages.cc:148
 msgid "Client has no access to server settings."
 msgstr "クライアントは、サーバーの設定にアクセスできません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:156
+#: ../../src/network/network_gaming_messages.cc:150
 msgid "Client sent TIME command even though game is not running."
 msgstr "クライアントは、ゲームが実行されていないにもかかわらず、TIMEコマンドを送信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:157
+#: ../../src/network/network_gaming_messages.cc:151
 msgid "Client sent a PLAYERCOMMAND for another player."
 msgstr "クライアントは、他のプレイヤーのためにプレイヤーコマンドを送信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:158
+#: ../../src/network/network_gaming_messages.cc:152
 msgid "Client sent unexpected synchronization report."
 msgstr "クライアントが予期しない同期を送信しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:160
+#: ../../src/network/network_gaming_messages.cc:154
 msgid "Client requests file although none is available to send."
 msgstr "送るべきものは何もないにも関わらず、クライアントがファイルの送信を要求しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:161
+#: ../../src/network/network_gaming_messages.cc:155
 #, c-format
 msgid "Host sent player %s to the lobby!"
 msgstr "ホストがプレイヤー%sをロビーに送りました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:163
+#: ../../src/network/network_gaming_messages.cc:157
 #, c-format
 msgid "WARNING: %1$s uses version: %2$s, while Host uses version: %3$s"
 msgstr "警告: %1$sはバージョン%2$sを使用していますが、ホストはバージョン%3$sを使用しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:165
+#: ../../src/network/network_gaming_messages.cc:159
 #, c-format
 msgid "Started to send file %1$s to %2$s!"
 msgstr "ファイル%1$sの%2$sへの送信を開始"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:167
+#: ../../src/network/network_gaming_messages.cc:161
 #, c-format
 msgid "The player ‘%s’ was defeated and became a spectator."
 msgstr "プレイヤー「%s」が敗北し観客になりました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:168
+#: ../../src/network/network_gaming_messages.cc:162
 #, c-format
 msgid "Client %1$s did not answer for more than %2$s."
 msgstr "クライアント%1$sが%2$s秒以上応答しませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_lan_promotion.cc:362
+#: ../../src/network/network_lan_promotion.cc:357
 msgid "Failed to use the local network!"
 msgstr "ローカルネットワークを使えませんでした！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:71
+#: ../../src/ui_basic/progresswindow.cc:75
 msgid "Loading…"
 msgstr "読込中……"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign difficulty table header
-#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/ui_fsmenu/campaign_select.cc:47
 msgid "Diff."
 msgstr "難"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/internet_lobby.cc:431
+#: ../../src/ui_fsmenu/internet_lobby.cc:430
 msgid ""
 "Widelands was unable to get the IP address of the server in time. There "
 "seems to be a network problem, either on your side or on the side of the "
@@ -770,17 +770,17 @@ msgid ""
 msgstr "Widelandsは時間内にサーバのIPアドレスを取得できませんでした。あなたの側かサーバ側のどちらかのネットワークに問題があるようです。\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:245
+#: ../../src/ui_fsmenu/launch_game.cc:247
 msgid "The game is a saved game – the win condition was set before."
 msgstr "保存済のゲームです。勝利条件は既に設定されています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:83
+#: ../../src/ui_fsmenu/launch_mpg.cc:79
 msgid "The host has not yet selected a map or saved game."
 msgstr "ホストがまだマップまたはセーブデータを選択していません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:193
+#: ../../src/ui_fsmenu/launch_mpg.cc:190
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"
@@ -788,7 +788,7 @@ msgid ""
 msgstr "警告: \n選択した保存したゲームはディレクトリです。これは、あなたがオプション「nozip」をtrueに設定するか、セーブデータを手動で解凍した場合に発生します。Widelandsがクライアントにディレクトリ構造を転送することはできないので、別のセーブデータを選択またはディレクトリの内容をzip圧縮してください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:213 ../../src/ui_fsmenu/launch_spg.cc:127
+#: ../../src/ui_fsmenu/launch_mpg.cc:210 ../../src/ui_fsmenu/launch_spg.cc:127
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -797,67 +797,67 @@ msgid ""
 msgstr "Widelandsは、指定されたパスで見つからなかったファイルを使用して、ゲームを開始しようとしました。\nファイル:  %s\nネットワークゲームでこの問題が発生した場合、ホストがあなたが所有していないファイルを選択している可能性があります。 通常このようなファイルは、ホストから送信されるはずですが、もしかして転送がまだ終了していないのでしょうか？！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:253
+#: ../../src/ui_fsmenu/launch_mpg.cc:250
 msgid ""
 "The selected file can not be found. If it is not automatically transferred "
 "to you, please write to the host about this problem."
 msgstr "選択したファイルが見つかりません。それが自動的に転送されていない場合は、この問題についてホストに問い合わせてください。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:204
+#: ../../src/ui_fsmenu/login_box.cc:203
 msgid "Please enter a nickname!"
 msgstr "ニックネームを入力してください！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:214
+#: ../../src/ui_fsmenu/login_box.cc:213
 msgid "Please enter your password!"
 msgstr "パスワードを入力してください！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:46
+#: ../../src/ui_fsmenu/netsetup_lan.cc:45
 msgid "List of games in your local network:"
 msgstr "ゲーム一覧(ローカルネットワーク)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:57
+#: ../../src/ui_fsmenu/netsetup_lan.cc:56
 msgid "Your nickname:"
 msgstr "ニックネーム"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:66
+#: ../../src/ui_fsmenu/netsetup_lan.cc:65
 msgid "Host to connect:"
 msgstr "接続するホスト"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:299
+#: ../../src/ui_fsmenu/netsetup_lan.cc:302
 msgid "The entered hostname or address is invalid and can’t be connected to."
 msgstr "入力されたホスト名もしくはアドレスは無効であり、接続できません。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:190
+#: ../../src/ui_fsmenu/options.cc:175
 msgid "Distance for windows to snap to other panels:"
 msgstr "ウィンドウが他のパネルにドッキングされる距離"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:202
+#: ../../src/ui_fsmenu/options.cc:187
 msgid "Distance for windows to snap to borders:"
 msgstr "ウィンドウが画面外に収納される距離"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:692
+#: ../../src/ui_fsmenu/options.cc:657
 #, c-format
 msgid "The translation into %s is complete."
 msgstr "%sへの翻訳は完了しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %1% = language name, %2% = percentage
-#: ../../src/ui_fsmenu/options.cc:695
+#: ../../src/ui_fsmenu/options.cc:661
 msgid "The translation into %1% is %2%%% complete."
 msgstr "%1%への翻訳は%2%%%完了しています。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:709
+#: ../../src/ui_fsmenu/options.cc:673
 #, c-format
 msgid "If you wish to help us translate, please visit %s"
 msgstr "翻訳に協力するつもりならば、%sを見てください。"
@@ -869,160 +869,161 @@ msgid ""
 msgstr "右側に選択中のチュートリアルの説明が表示されます。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:186
+#: ../../src/wui/actionconfirm.cc:187
 msgid "Destroy building?"
 msgstr "建物破壊？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:187
+#: ../../src/wui/actionconfirm.cc:188
 msgid "Do you really want to destroy this building?"
 msgstr "本当にこの建物を破壊しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:245
+#: ../../src/wui/actionconfirm.cc:248
 msgid "Dismantle building?"
 msgstr "建物解体？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:246
+#: ../../src/wui/actionconfirm.cc:249
 msgid "Do you really want to dismantle this building?"
 msgstr "本当にこの建物を解体しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:299
+#: ../../src/wui/actionconfirm.cc:302
 msgid "Enhance building?"
 msgstr "建物拡張？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:301 ../../src/wui/actionconfirm.cc:305
+#: ../../src/wui/actionconfirm.cc:306 ../../src/wui/actionconfirm.cc:309
 msgid "Do you really want to enhance this building?"
 msgstr "本当にこの建物を拡張しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Warning message when player wants to enhance a military
 #. building
-#: ../../src/wui/actionconfirm.cc:303
+#: ../../src/wui/actionconfirm.cc:308
 msgid "Be careful if the enemy is near!"
 msgstr "敵が近くにいる場合は注意が必要です！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:361
+#: ../../src/wui/actionconfirm.cc:366
 msgid "Sink the ship?"
 msgstr "船破棄？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s is a ship name
-#: ../../src/wui/actionconfirm.cc:363
+#: ../../src/wui/actionconfirm.cc:368
 #, c-format
 msgid "Do you really want to sink %s?"
 msgstr "本当に%sを沈めますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:400
+#: ../../src/wui/actionconfirm.cc:405
 msgid "Cancel expedition?"
 msgstr "探検キャンセル？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:401
+#: ../../src/wui/actionconfirm.cc:406
 msgid "Do you really want to cancel the active expedition?"
 msgstr "アクティブになっている探検を本当にキャンセルしますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_client_disconnected.cc:66
+#: ../../src/wui/game_client_disconnected.cc:65
 msgid ""
 "A player disconnected from the game. An automatic save game has been "
 "created. Do you want to continue playing?"
 msgstr "プレイヤーの一人の接続が切断されました。現時点での自動セーブが作成されています。このままゲームを続けますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_exit_confirm_box.cc:30
+#: ../../src/wui/game_exit_confirm_box.cc:28
 msgid "Are you sure you wish to exit this game?"
 msgstr "本当にゲームを終了しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:252
-#: ../../src/wui/game_main_menu_save_game.cc:288
+#: ../../src/wui/game_main_menu_save_game.cc:271
+#: ../../src/wui/game_main_menu_save_game.cc:311
 msgid "Error Saving Game!"
 msgstr "ゲーム保存エラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:245
+#: ../../src/wui/game_summary.cc:244
 msgid "You won!"
 msgstr "勝利しました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:247
+#: ../../src/wui/game_summary.cc:246
 msgid "You lost."
 msgstr "敗北しました。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:251
+#: ../../src/wui/game_summary.cc:250
 #, c-format
 msgid "%s won!"
 msgstr "%sが勝利しました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:254
-msgid "Team %|1$u| won!"
-msgstr "チーム %|1$u| が勝利しました！"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:43
+#: ../../src/wui/savegamedeleter.cc:60
 msgid "Do you really want to delete this game?"
 msgstr "本当にこのゲームを削除しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate
 #. string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:46
+#: ../../src/wui/savegamedeleter.cc:63
 #, c-format
 msgid "Do you really want to delete this %d game?"
 msgid_plural "Do you really want to delete these %d games?"
 msgstr[0] "本当にこれら%dのゲームを削除しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:80
+#: ../../src/wui/savegamedeleter.cc:96
 msgid "Error Deleting File!"
 msgstr "ファイル削除エラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:80
+#: ../../src/wui/savegamedeleter.cc:96
 msgid "Error Deleting Files!"
 msgstr "ファイル削除エラー！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:92
+#: ../../src/wui/savegamedeleter.cc:108
 msgid "The game could not be deleted."
 msgstr "ゲームファイルを削除できませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:97
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
+#. NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
 msgstr[0] "%d 個のゲームファイルを削除できませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:109
+#: ../../src/wui/savegamedeleter.cc:124
 msgid "Do you really want to delete this replay?"
 msgstr "本当にこのリプレイを削除しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a
 #. separate string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:112
+#: ../../src/wui/savegamedeleter.cc:127
 #, c-format
 msgid "Do you really want to delete this %d replay?"
 msgid_plural "Do you really want to delete these %d replays?"
 msgstr[0] "本当にこれら%dのリプレイを削除しますか？"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:123
+#: ../../src/wui/savegamedeleter.cc:137
 msgid "The replay could not be deleted."
 msgstr "リプレイを削除できませんでした。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:128
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."
@@ -1031,27 +1032,27 @@ msgstr[0] "%d 個のリプレイが削除できませんでした。"
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/savegameloader.cc:104
+#: ../../src/wui/savegameloader.cc:120
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
 msgstr "このファイルは間違った形式で書かれており、読み込めません。おそらく古いバージョンのWidelandsで作られたのでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:133 ../../src/wui/savegametable.cc:185
-#: ../../src/wui/savegametable.cc:245
+#: ../../src/wui/savegametable.cc:148 ../../src/wui/savegametable.cc:200
+#: ../../src/wui/savegametable.cc:259
 msgid ""
 "The filename that the game was saved under followed by the map’s name, or "
 "the map’s name followed by the last objective achieved."
 msgstr "ゲームを保存したファイル名に加えてマップ名、もしくはマップ名に最後に達成した目的を加えたもの"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:177 ../../src/wui/savegametable.cc:237
+#: ../../src/wui/savegametable.cc:192 ../../src/wui/savegametable.cc:251
 msgid "Numbers are the number of players."
 msgstr "数字はプレイヤーの数です。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:215
+#: ../../src/wui/shipwindow.cc:218
 msgid ""
 "This expedition can’t be canceled, because the ship has no port to return "
 "to."

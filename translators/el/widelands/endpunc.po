@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-17 20:20+0000\n"
-"Last-Translator: erimitis\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: erimitis, 2018,2021\n"
 "Language-Team: Greek (http://www.transifex.com/widelands/widelands/language/"
 "el/)\n"
 "Language: el\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:544
+#: ../../src/editor/editorinteractive.cc:590
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "Ο χάρτης δεν έχει αποθηκευτεί. Θέλετε σίγουρα έξοδο;"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/editor/ui_menus/main_menu_save_map.cc:307
-#: ../../src/wui/game_main_menu_save_game.cc:249
+#: ../../src/wui/game_main_menu_save_game.cc:269
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "Ένα αρχείο με το όνομα ‘%s’ ήδη υπάρχει. Αντικατάσταση.;"
@@ -37,76 +37,76 @@ msgid ""
 msgstr "Δεν συνιστάται ο ορισμός άνω των 8 παικτών, παρεκτός για λόγους δοκιμών. Θέλετε σίγουρα περισσότερους από 8 παίκτες;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:186
+#: ../../src/wui/actionconfirm.cc:187
 msgid "Destroy building?"
 msgstr "Καταστροφή κτιρίου;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:187
+#: ../../src/wui/actionconfirm.cc:188
 msgid "Do you really want to destroy this building?"
 msgstr "Θέλετε σίγουρα να καταστρέψετε αυτό το κτίριο;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:245
+#: ../../src/wui/actionconfirm.cc:248
 msgid "Dismantle building?"
 msgstr "Αποσυναρμολόγηση κτιρίου;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:246
+#: ../../src/wui/actionconfirm.cc:249
 msgid "Do you really want to dismantle this building?"
 msgstr "Θέλετε σίγουρα να αποσυναρμολογήσετε αυτό το κτίριο;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:299
+#: ../../src/wui/actionconfirm.cc:302
 msgid "Enhance building?"
 msgstr "Αναβάθμιση κτιρίου;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:301 ../../src/wui/actionconfirm.cc:305
+#: ../../src/wui/actionconfirm.cc:306 ../../src/wui/actionconfirm.cc:309
 msgid "Do you really want to enhance this building?"
 msgstr "Θέλετε σίγουρα αναβάθμιση αυτού του κτιρίου;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:361
+#: ../../src/wui/actionconfirm.cc:366
 msgid "Sink the ship?"
 msgstr "Βύθιση του πλοίου;"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s is a ship name
-#: ../../src/wui/actionconfirm.cc:363
+#: ../../src/wui/actionconfirm.cc:368
 #, c-format
 msgid "Do you really want to sink %s?"
 msgstr "Θέλετε σίγουρα να βυθίσετε το %s;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:400
+#: ../../src/wui/actionconfirm.cc:405
 msgid "Cancel expedition?"
 msgstr "Ακύρωση αποστολής;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:401
+#: ../../src/wui/actionconfirm.cc:406
 msgid "Do you really want to cancel the active expedition?"
 msgstr "Θέλετε σίγουρα να ακυρώσετε τη διενεργούμενη αποστολή;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_exit_confirm_box.cc:30
+#: ../../src/wui/game_exit_confirm_box.cc:28
 msgid "Are you sure you wish to exit this game?"
 msgstr "Θέλετε σίγουρα να φύγετε από το τρέχον παιχνίδι;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:245
+#: ../../src/wui/game_summary.cc:244
 msgid "You won!"
 msgstr "Νικήσατε:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:43
+#: ../../src/wui/savegamedeleter.cc:60
 msgid "Do you really want to delete this game?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτό το παιχνίδι;"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate
 #. string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:46
+#: ../../src/wui/savegamedeleter.cc:63
 #, c-format
 msgid "Do you really want to delete this %d game?"
 msgid_plural "Do you really want to delete these %d games?"
@@ -114,14 +114,14 @@ msgstr[0] "Θέλετε σίγουρα να διαγράψετε αυτό το %
 msgstr[1] "Θέλετε σίγουρα να διαγράψετε αυτά τα %d παιχνίδια;"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:109
+#: ../../src/wui/savegamedeleter.cc:124
 msgid "Do you really want to delete this replay?"
 msgstr "Θέλετε σίγουρα να διαγράψετε αυτήν την αναπαραγωγή;"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a
 #. separate string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:112
+#: ../../src/wui/savegamedeleter.cc:127
 #, c-format
 msgid "Do you really want to delete this %d replay?"
 msgid_plural "Do you really want to delete these %d replays?"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-22 20:16+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-03-25 02:57+0000\n"
+"PO-Revision-Date: 2015-02-03 14:46+0000\n"
+"Last-Translator: CrisiusXIII <chris@cborn.nl>, 2021\n"
 "Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
@@ -12,7 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:52
+#, lua-format
+msgid ""
+"Press %s to toggle them, or select ‘Show Building Spaces’ in the ‘Show / "
+"Hide’ menu."
+msgstr "Toets %s  om ze om te wisselen, of delecteer 'Toon Bouwlocaties' in het 'Toon / Verberg' menu"
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:113
@@ -100,6 +108,15 @@ msgid ""
 "There are some rocks to the west of your headquarters. Build a quarry right "
 "next to them."
 msgstr "Ten westen van je hoofdkwartier bevinden zich wat rotsen.  Bouw er een steengroeve vlak naast."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:313
+#, lua-format
+msgid ""
+"The quarry is a small building like the lumberjack’s hut. You can therefore "
+"build it on any field that shows a red, yellow or green house when the "
+"building spaces symbols are enabled (Press ‘%s’ for that)."
+msgstr "De steengroeve is net als de houthakkershut een klein gebouw.  Je kan ze daarom op elk veld bouwen waar een rood, geel of groen huis te zien is als de bouwlocaties zichtbaar zijn (druk daarvoor op '%s')"
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:323
@@ -234,6 +251,14 @@ msgid ""
 msgstr "Je kan de steengroeve ontmantelen: het hoofdkwartier zal een bouwvakker sturen om de steengroeve stukje bij beetje te ontmantelen.  Op die manier kan je een deel van de geïnvesteerde bouwmaterialen terugwinnen."
 
 # (pofilter) doublespacing: Different use of double spaces
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:568
+msgid ""
+"The sentry is the only military site that fits on a small building plot. If "
+"your lumberjack has cleared enough space, you can also build a bigger "
+"military building."
+msgstr "De wachtpost is het enige militaire gebouw dat op een kleine bouwlocatie past.  Als je houthakker al voldoende ruimte heeft vrijgemaakt kan je ook een groter militair gebouw neerzetten."
+
+# (pofilter) doublespacing: Different use of double spaces
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:569
 msgid ""
 "Remember that big buildings (green icon) cannot be built on small (red) or "
@@ -251,6 +276,18 @@ msgid ""
 "which we need to mine minerals and coal. So, we have to expand our "
 "territory."
 msgstr "Er is nog één ding dat ik je nu wil onderwijzen: het uitbreiden van je grondgebied.  De ruimte rond het hoofdkwartier waar we mee gestart zijn volstaat nauwelijks om een elementaire bouwinfrastructuur op te zetten, en we hebben geen toegang tot de bergen die we nodig hebben om mineralen en kolen te delven.  Dus moeten we ons terrein uitbreiden."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:577
+msgid ""
+"Expanding is as simple as building a military building at the edge of your "
+"territory. The Barbarians have a selection of four different military "
+"buildings: sentries, barriers, towers and fortresses. The bigger the "
+"building, the more expensive it is to build, but the more land it will "
+"conquer around itself and the more soldiers can be stationed there. The "
+"buildings also vary in their vision range: buildings with a tower see "
+"farther than others."
+msgstr "Om uit te breiden hoef je niet meer doen dan aan de grens van je grondgebied een militair gebouw optrekken.  De Barbaren hebben de keuze tussen een vier militaire gebouwen: wachtposten, barrières, torens en vestingen.  Hoe groter het gebouw zal hoe meer het zal kosten kosten,  maar zal ook meer grondgebied rond zich veroveren en meer soldaten kunnen huisvesten.  De gebouwen verschillen ook in zichtbereik, gebouwen met een toren kunnen verder kijken dan andere."
 
 # (pofilter) doublespacing: Different use of double spaces
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:587

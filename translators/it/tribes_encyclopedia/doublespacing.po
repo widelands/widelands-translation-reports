@@ -2,21 +2,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Log Merger, 2022\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for a barbarian ware: Blackwood
+#: ../../data/tribes/initialization/barbarians/units.lua:123
+msgctxt "barbarians_ware"
+msgid ""
+"This fire-hardened wood is as hard as iron and it is used for several "
+"buildings. It is produced out of logs in the wood hardener."
+msgstr "Il Legno trattato,  cioè indurito col calore, è duro come il ferro ed è usato per parecchie costruzioni. È prodotto a partire da Tronchi nell'officina di Trattamento del legno."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:487
+#: ../../data/tribes/initialization/barbarians/units.lua:486
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -27,7 +37,7 @@ msgstr "L'ascia di bronzo è considerata un'arma difficile da maneggiare. Solo s
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an empire ware: Advanced Spear
-#: ../../data/tribes/initialization/empire/units.lua:513
+#: ../../data/tribes/initialization/empire/units.lua:532
 msgctxt "empire_ware"
 msgid ""
 "This is an advanced spear with a steel tip. It is produced in a weapon "

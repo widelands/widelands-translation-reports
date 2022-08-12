@@ -2,30 +2,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-05 08:44+0000\n"
-"Last-Translator: Atanase Albaran\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:288
+#: ../../src/logic/generic_save_handler.cc:270
 msgid "An unexpected error occurred:"
 msgstr "Une erreur inattendue  s'est produite :"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/loadgame.cc:43
+#: ../../src/ui_fsmenu/loadgame.cc:42
 msgid "Choose Replay"
 msgstr "Choisir le  replay"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/loadgame.cc:162
+#: ../../src/ui_fsmenu/loadgame.cc:163
 msgid ""
 "This replay was created with a different Widelands version. It might be compatible, but will more likely desync or even fail to load.\n"
 "\n"
@@ -35,29 +36,30 @@ msgid ""
 msgstr "Ce replay a été créé avec une version différente de Widelands. Il peut être compatible, mais pourra être désynchronisé ou même refusera de se charger.\n\nS'il vous plait n'envoyez pas de rapport de bug pouvant survenir pendant le visionnage de ce replay.\n\nVoulez vous néanmoins charger ce replay ?  "
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:467
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:290
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:486
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:284
 msgid "Start type is set via the scenario"
 msgstr "Type  de début déterminé dans le scénario"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/random_game.cc:118
+#: ../../src/ui_fsmenu/random_game.cc:128
 msgid ""
 "The random map generator was unable to generate a suitable map. This happens"
 " occasionally because the generator is still in beta stage. Please try again"
 " with slightly different settings."
 msgstr "Le générateur de carte aléatoire n'a pas été capable de générer une carte adaptée. Cela peut survenir occasionnellement car le générateur est  encore en version beta. Merci d'essayer à nouveau avec des paramètres légèrement différents."
 
-# (pofilter) doublespacing: Different use of double spaces
+# (pofilter) doublespacing: Different use of double spaces, Different use of double spaces
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:126
+#: ../../src/wui/gamedetails.cc:122
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] " %1% répertoire et %2% sélectionnés:"
 msgstr[1] "%1% répertoires  et %2% sélectionnés:"
+msgstr[2] "%1% répertoires  et %2% sélectionnés:"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/stock_menu.cc:55
+#: ../../src/wui/stock_menu.cc:56
 msgid "Compare stocked amounts to economy target quantities"
 msgstr "Comparer les montants stockés aux quantités ciblés par l'économie  "

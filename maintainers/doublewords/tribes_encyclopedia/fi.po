@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: LINUX SAUNA, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,20 +12,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublewords: The word 'niitä' is repeated
 #. TRANSLATORS: Helptext for an atlantean ware: Shovel, part 2
-#: ../../data/tribes/initialization/atlanteans/units.lua:619
+#: ../../data/tribes/initialization/atlanteans/units.lua:680
 msgctxt "atlanteans_ware"
 msgid ""
 "Therefore the forester and the blackroot farmer use them. They are produced "
 "by the toolsmith."
 msgstr "Sen vuoksi metsänhoitaja ja mustajuuriviljelijä käyttävät niitä. Niitä tuottaa työkaluseppä."
 
+# (pofilter) doublewords: The word 'jotka' is repeated
+#. TRANSLATORS: Lore helptext for an atlantean production site: Gold Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1832
+msgctxt "atlanteans_building"
+msgid ""
+"‘Way down here in these golden grounds<br>with stones above us the thousand "
+"pounds<br>I dig in the dust until I see the spark;<br>The golden ore I find "
+"in the dark.’"
+msgstr "‘Täällä alhaalla näillä kultaisilla mailla<br>kera kivien jotka jotka painavat tuhat kiloa<br>Pölyn keskellä kaivan kunnes kipunan näen,<br>kultaisen malmin pimeässä löydän täten.’"
+
+# (pofilter) doublewords: The word 'souda,' is repeated
+#. TRANSLATORS: Lore helptext for an atlantean production site: Ferry Yard
+#: ../../data/tribes/initialization/atlanteans/units.lua:1971
+msgctxt "atlanteans_building"
+msgid ""
+"‘Row, row, row your boat<br>gently ’long the shore.<br>Steadily steadily "
+"steadily steadily<br>bring the wares ashore.’"
+msgstr "‘Souda, souda, souda, souda venhettäsi,<br>lempeästi rantaviivaa pitkin<br>vakaasti, vakaasti, vakaasti, vakaasti<br>nyt tarvikkeet jo rannan saavuttivatkin.’"
+
 # (pofilter) doublewords: The word 'niitä' is repeated
 #. TRANSLATORS: Helptext for a barbarian ware: Shovel, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:360
+#: ../../data/tribes/initialization/barbarians/units.lua:359
 msgctxt "barbarians_ware"
 msgid ""
 "Therefore the gardener and the ranger use them. Produced at the metal "
@@ -35,7 +54,7 @@ msgstr "Sen vuoksi puutarhuri ja metsänvartija käyttävät niitä. Niitä tuot
 
 # (pofilter) doublewords: The word 'sitä' is repeated
 #. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:487
+#: ../../data/tribes/initialization/barbarians/units.lua:486
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -46,7 +65,7 @@ msgstr "Pronssikirvestä pidetään aseena, jota on vaikea käsitellä. Vain tai
 
 # (pofilter) doublewords: The word 'kalaa' is repeated
 #. TRANSLATORS: Helptext for an empire ware: Fish
-#: ../../data/tribes/initialization/empire/units.lua:152
+#: ../../data/tribes/initialization/empire/units.lua:171
 msgctxt "empire_ware"
 msgid ""
 "Besides bread and meat, fish is also a foodstuff for the Empire. Fish are "
@@ -55,7 +74,7 @@ msgstr "Leivän ja lihan lisäksi Keisarikunnassa syödään myös kalaa. Kalaa 
 
 # (pofilter) doublewords: The word 'niitä' is repeated
 #. TRANSLATORS: Helptext for an empire ware: Shovel, part 2
-#: ../../data/tribes/initialization/empire/units.lua:386
+#: ../../data/tribes/initialization/empire/units.lua:405
 msgctxt "empire_ware"
 msgid ""
 "Therefore the forester and the vine farmer use them. They are produced by "
@@ -64,7 +83,7 @@ msgstr "Sen vuoksi metsänhoitaja ja viinitarhuri käyttää niitä. Niitä tuot
 
 # (pofilter) doublewords: The word 'savea' is repeated
 #. TRANSLATORS: Purpose helptext for a frisian production site: Clay Pit
-#: ../../data/tribes/initialization/frisians/units.lua:1639
+#: ../../data/tribes/initialization/frisians/units.lua:1654
 msgctxt "building"
 msgid ""
 "Digs up mud from the ground and uses water to turn it into clay. Clay is "

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 20:47+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2022\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:487
+#: ../../data/tribes/initialization/barbarians/units.lua:486
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -24,12 +24,3 @@ msgid ""
 " camp – together with food – to train soldiers from attack level 2 to level "
 "3."
 msgstr "Die Bronzeaxt ist als schwer zu führende Waffe bekannt. Nur begabte Krieger nutzen sie erfolgreich. Die Bronzeaxt wird in der Waffenschmiede hergestellt. Im Ausbildungslager wird sie – bei entsprechender Verpflegung – zur Ausbildung der Angriffsstärke eines Kriegers  von Stufe 2 zu Stufe 3 benutzt."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Note helptext for a mine.
-#: ../../data/tribes/scripting/help/building_help.lua:428
-msgid ""
-"This mine will exploit all of its resources down to the deepest level. But "
-"even after having done so, it will still have a %1%%% chance of finding some"
-" more of them."
-msgstr "Diese Mine baut alle Rohstoffe bis zur tiefsten Schicht ab. Aber auch danach besteht eine Chance von %1%%%,  noch mehr davon zu finden."

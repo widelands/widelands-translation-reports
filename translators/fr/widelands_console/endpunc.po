@@ -2,99 +2,76 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-31 10:37+0000\n"
-"Last-Translator: Renaud Bouchard\n"
+"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"PO-Revision-Date: 2015-02-03 14:54+0000\n"
+"Last-Translator: Boese Kaiser, 2022\n"
 "Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:44
+#: ../../src/wlapplication_messages.cc:51
+msgid "Usage:"
+msgstr "Usage :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:54
 msgid "Options:"
 msgstr "Options :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:45
-msgid " --<config-entry-name>=value overwrites any config file setting"
-msgstr " --<config-entry-name>=valeur Ré-écris tous les paramètres des fichiers de configuration."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:48
-msgid ""
-" --datadir=DIRNAME    Use specified directory for the widelands\n"
-"                      data files"
-msgstr " --datadir=DIRNAME    Utilise le dossier spécifié pour les données\nde Widelands."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:51
-msgid ""
-" --homedir=DIRNAME    Use specified directory for widelands config\n"
-"                      files, savegames and replays"
-msgstr " --homedir=DIRNAME    Utilise le dossier spécifié pour la sauvegarde des fichiers de configuration de Widelands,\n sauvegardes et replays."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:59
-msgid ""
-" --localedir=DIRNAME  Use specified directory for the widelands\n"
-"                      locale files"
-msgstr " --localedir=DIRNAME    Utilise le dossier spécifié pour les traductions\nde Widelands."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
 #: ../../src/wlapplication_messages.cc:66
+msgid "Use the specified locale."
+msgstr "Utiliser les paramètres régionaux spécifiés"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:73
+#, c-format
 msgid ""
-" --coredump=[true|false]\n"
-"                      Generates a core dump on segfaults instead of\n"
-"                      using the SDL"
-msgstr " --coredump=[true|false]\n                      Génère un dump du noyau au\n                      lieu d'utiliser SDL."
+"Create a new game directly with the settings configured in the given file. "
+"An example can be found in `%s`."
+msgstr "Cree une nouvelle partie avec les paramètres configurés dans le fichier indiqué.  Un exemple peut être trouvé dans '%s'"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/wlapplication_messages.cc:82
-msgid " --autosave=[...]     Automatically save each n minutes"
-msgstr " --autosave=[...]      Sauvegarde automatique toutes les n minutes."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:83
 msgid ""
-" --rolling_autosave=[...]\n"
-"                      Use this many files for rolling autosaves"
-msgstr " --rolling_autosave=[...]\n                      Utilise ce nombre de fichiers pour le roulement de sauvegardes automatiques."
+"Run the given Lua script after initialization. Only valid with --scenario, "
+"--loadgame, or --editor."
+msgstr "Lance le Script Lua indiqué après initiallisation. Ne fonctionne qu'avec --scenario, --loadgame, ou --editor"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:139
+#: ../../src/wlapplication_messages.cc:101
+msgid "Game options:"
+msgstr "Options de jeu :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:173
 msgid "Graphic options:"
 msgstr "Options graphiques :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:155
+#: ../../src/wlapplication_messages.cc:174
+msgid "Whether to use the whole display for the game screen."
+msgstr "Utiliser l'écran entier pour afficher le jeu"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:198
 msgid "Options for the internal window manager:"
 msgstr "Options pour le gestionnaire de fenêtre interne :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:183
-msgid " --verbose            Enable verbose debug messages"
-msgstr " --verbose            Active les messages verbeux de debogage."
+#: ../../src/wlapplication_messages.cc:218
+msgid "Others:"
+msgstr "Autres :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:184
-msgid " --help               Show this help"
-msgstr " --help                Montre cette aide."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:192
+#: ../../src/wlapplication_messages.cc:312
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"

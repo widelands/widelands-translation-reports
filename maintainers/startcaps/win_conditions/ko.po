@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-21 13:12+0000\n"
-"PO-Revision-Date: 2021-03-02 12:22+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-06-22 03:53+0000\n"
+"PO-Revision-Date: 2015-02-03 14:55+0000\n"
+"Last-Translator: TaeMin An, 2017\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/artifacts.lua:15
@@ -58,6 +58,11 @@ msgid "Your team found a new artifact."
 msgstr "당신의 편이 새 유물을 발견했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/artifacts.lua:85
+msgid "You found a new artifact."
+msgstr "새로운 유물을 찾았습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible.
 #: ../../data/scripting/win_conditions/artifacts.lua:89
 msgid "Artifact Lost"
@@ -69,6 +74,11 @@ msgid "One of your team’s artifacts was stolen by an enemy."
 msgstr "당신 팀의 유물 중 하나가 적에게 탈취됐습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/artifacts.lua:91
+msgid "One of your artifacts was stolen by an enemy."
+msgstr "당신의 유물 중 하나를 적에게 도둑맞았습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible.
 #: ../../data/scripting/win_conditions/artifacts.lua:95
 msgid "Artifact Conquered"
@@ -78,6 +88,11 @@ msgstr "유물 강탈"
 #: ../../data/scripting/win_conditions/artifacts.lua:96
 msgid "Your team stole an artifact from an enemy."
 msgstr "당신의 팀이 적에게서 유물을 탈취했습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/artifacts.lua:97
+msgid "You stole an artifact from an enemy."
+msgstr "적에게서 유물을 훔쳤습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/artifacts.lua:180
@@ -109,26 +124,26 @@ msgid "Points"
 msgstr "점수"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:65
+#: ../../data/scripting/win_conditions/collectors.lua:68
 #, lua-format
 msgid "Status for %s"
 msgstr "%s 의 상태"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:81
+#: ../../data/scripting/win_conditions/collectors.lua:84
 #, lua-format
 msgid "Total: %i point"
 msgid_plural "Total: %i points"
 msgstr[0] "총계: %i 포인트"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:104
+#: ../../data/scripting/win_conditions/collectors.lua:107
 #, lua-format
 msgid "Status for Team %d"
 msgstr "팀 %d 의 상태"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:106
+#: ../../data/scripting/win_conditions/collectors.lua:109
 #, lua-format
 msgid "Team Total: %i point"
 msgid_plural "Team Total: %i points"
@@ -138,6 +153,13 @@ msgstr[0] "팀 총계 : %i 포인트"
 #: ../../data/scripting/win_conditions/defeat_all.lua:15
 msgid "Autocrat"
 msgstr "전제군주"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/defeat_all.lua:17
+msgid ""
+"The tribe or team that can defeat all others wins the game! This means the "
+"opponents do not have any headquarters, ports or warehouses left."
+msgstr "다른 모든 것을 물리 칠 수있는 부족 또는 팀이 게임에서 이깁니다! 이것은 상대방에게 본부, 항구 또는 창고가 남아 있지 않다는것을 의미합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/endless_game.lua:14
@@ -158,6 +180,13 @@ msgstr "끝없는 게임 (안개 없음)"
 #: ../../data/scripting/win_conditions/endless_game_fogless.lua:15
 msgid "This is an endless game without rules. Fog of war is disabled."
 msgstr "무규칙의 끝없는 게임입니다. 전장의 안개가 비활성화합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/scripting/win_conditions/hq_hunter.lua:18
+msgid ""
+"The tribe or team that can find and destroy all other headquarters wins the "
+"game! Does not work with starting conditions without headquarters."
+msgstr "다른 모든 본부를 찾아 파괴할 수 있는 부족이나 팀이 게임에서 이깁니다! 본부가 없는 시작 조건에서는 작동하지 않습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/territorial_functions.lua:21
@@ -283,7 +312,7 @@ msgstr "상태"
 #. TRANSLATORS: This is an overview for all players.
 #: ../../data/scripting/win_conditions/win_condition_texts.lua:83
 msgid "Player overview:"
-msgstr "플레이어 총계"
+msgstr "플레이어 총계:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/wood_gnome.lua:16

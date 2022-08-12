@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
-"PO-Revision-Date: 2021-05-21 07:26+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:49+0000\n"
+"Last-Translator: Szűcs Kornél Géza <sz.kornelgeza@gmail.com>, 2015\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,13 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:47
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:49
-msgid "Open the building statistics window"
-msgstr "Nyisd meg az épületstatisztika ablakot!"
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:50
+msgid ""
+"Open the building statistics window for an overview over the buildings you "
+"have."
+msgstr "Nyisd meg az épületstatisztika ablakot, hogy áttekinthesd, milyen épületeid vannak!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:51
@@ -48,6 +49,11 @@ msgstr "Nézd meg, hány kocsmád van!"
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:73
 msgid "Look up how many taverns you have."
 msgstr "Nézd meg, hány kocsmád van!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:75
+msgid "Close the building statistics window when you are done."
+msgstr "Zárd be az épületstatisztika ablakot, ha végeztél!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:91
@@ -89,12 +95,6 @@ msgid ""
 "means that you’re not producing any rations. But let’s see what we still "
 "have in stock."
 msgstr "Rendben van. A listában láthattad, hogy nincs több kocsmád, se fogadód. Ez azt jelenti, hogy nem készül sehol harapnivaló. Lássuk, mennyi van még készleten!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:142
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:144
-msgid "Examine the first two tabs in the stock window"
-msgstr "Vizsgáld meg a készletek ablak első két lapját!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:147
@@ -149,21 +149,9 @@ msgid "Otherwise, please reopen it and choose the third tab."
 msgstr "Ha nem, kérlek, nyisd meg újra, és válaszd ki a harmadik lapot!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:223
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:225
-msgid "Build new taverns"
-msgstr "Építs új kocsmákat!"
-
-# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:226
 msgid "Build at least two taverns."
 msgstr "Építs legalább két kocsmát!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:243
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:245
-msgid "Open the in-game help window"
-msgstr "Nyisd meg a Súgó ablakot!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "it" refers to the encyclopedia window
@@ -199,6 +187,11 @@ msgid "Use the encyclopedia to find out how to create new soldiers."
 msgstr "Használd az enciklopédiát, hogy megtudd, hogyan toborozhatsz új katonákat!"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:271
+msgid "Choose the ‘Wares’ tab in the encyclopedia window."
+msgstr "Válaszd az „Áruk” lapot az enciklopédia ablakban!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:272
 msgid ""
 "Look up what is needed to produce a helmet and what is needed to produce a "
@@ -211,6 +204,11 @@ msgid ""
 "If you want, you may further look up what is needed to produce the wares you"
 " just looked up."
 msgstr "Ha érdekel, folytasd tovább a keresést, hogy mi kell az éppen kikeresett áruk készítéséhez!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:274
+msgid "Close the encyclopedia window when you are done."
+msgstr "Zárd be az enciklopédia ablakot, ha végeztél!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:297
@@ -355,21 +353,9 @@ msgid "Otherwise, please reopen it and choose the fourth tab."
 msgstr "Ha nem, kérlek, nyisd meg újra, és válaszd ki a negyedik lapot!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:458
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:460
-msgid "Open the ‘Configure economy’ window"
-msgstr "Nyisd meg a „Gazdaság beállításai” ablakot!"
-
-# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:461
 msgid "Open the ‘Configure economy’ window."
 msgstr "Nyisd meg a „Gazdaság beállításai” ablakot!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:495
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:497
-msgid "Produce 20 marble columns"
-msgstr "Készíts 20 márványoszlopot!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:498
@@ -385,12 +371,6 @@ msgid ""
 "Increase it to be prepared in case you will have to build up your "
 "fortifications quickly."
 msgstr "Akkor most próbáljuk ki! A márványoszlop célmennyisége jelenleg 10. Növeld meg, hogy készen állj, ha esetleg gyorsan kellene erődítményeket építened!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:519
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:521
-msgid "Bring 20 marble columns to the front line"
-msgstr "Hozz 20 márványoszlopot a frontvonalhoz!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:522

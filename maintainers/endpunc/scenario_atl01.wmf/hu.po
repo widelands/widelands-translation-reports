@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
-"PO-Revision-Date: 2021-05-12 08:16+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
+"POT-Creation-Date: 2022-07-01 04:08+0000\n"
+"PO-Revision-Date: 2015-02-03 14:29+0000\n"
+"Last-Translator: zone <z-one@freemail.hu>, 2015\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,7 +12,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:29
+msgid "Ensure the supply of building wares"
+msgstr "Biztosítsd az építőanyagok utánpótlását!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:33
+msgid "Build a quarry"
+msgstr "Építs egy kőfejtőt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:34
+msgid "Build two woodcutter’s houses"
+msgstr "Építs két favágóházat!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:35
+msgid "Build two forester’s houses"
+msgstr "Építs két erdészházat!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:36
+msgid "Build a sawmill"
+msgstr "Építs egy fűrészmalmot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:42
+msgid "Expand your territory and explore"
+msgstr "Terjeszd ki területedet, és fedezd fel a szigetet!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:46
+msgid "Build military sites to expand your territory"
+msgstr "Építs katonai támaszpontokat a területed növeléséhez!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:52
+msgid "Establish a solid food production"
+msgstr "Létesíts egy stabil élelemtermelő gazdaságot!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/atl01.wmf/scripting/texts.lua:55
@@ -29,9 +69,114 @@ msgid "Build a farm and a blackroot farm"
 msgstr "Építs egy földbirtokot és egy feketegyökér ültetvényt!"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:58
+msgid "Build a mill to make cornmeal and blackroot flour"
+msgstr "Építs egy malmot kukorica- és feketegyökérliszt készítéséhez!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:59
+msgid "Build a well"
+msgstr "Építs egy kutat!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:60
+msgid "Build a bakery to bake bread from cornmeal, blackroot flour and water"
+msgstr "Építs egy pékséget, ami kenyeret süt kukorica- és feketegyökérlisztből és vízből!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:61
+msgid "Build a hunter’s house to get raw meat"
+msgstr "Építs egy vadászházat, hogy legyen nyers húsod!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:62
+msgid "Build a fisher’s house close to water to get raw fish"
+msgstr "Építs egy halászházat, közel a vízhez, hogy legyen nyers halad!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:63
+msgid ""
+"Build a fish breeder’s house close to the fisher to make sure the fish do "
+"not die out"
+msgstr "Építs egy haltenyésztőházat, közel a halászéhoz, nehogy kipusztuljanak a halak!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:64
+msgid "Build two smokeries to smoke raw meat and fish"
+msgstr "Építs két füstölőt, ahol meg lehet füstölni a nyers húst és halat!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:70
+msgid "Build a spider farm and a weaving mill"
+msgstr "Építs egy póktenyészetet és egy szövőmalmot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:74
+msgid "Build a weaving mill"
+msgstr "Építs egy szövőmalmot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:75
+msgid "Build a spider farm"
+msgstr "Építs egy póktenyészetet!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:76
+msgid "Build a gold spinning mill"
+msgstr "Építs egy aranyszálfonó malmot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:82
+msgid "Build industry and mines"
+msgstr "Építs ki ipart és bányászatot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:87
+msgid ""
+"Build a mine of each type. Make sure to send geologists to the mountain "
+"first."
+msgstr "Építs minden bányából egyet! Előtte mindenképpen küldj geológusokat a hegyre!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:88
+msgid "Build a smelting works"
+msgstr "Építs egy kohót!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:89
+msgid "Build an armor smithy and a weapon smithy"
+msgstr "Építs páncél- és fegyverkovács műhelyt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:90
+msgid "Build a toolsmithy"
+msgstr "Építs egy szerszámkovács műhelyt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:96
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:100
+msgid "Build a barracks"
+msgstr "Építs egy laktanyát!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:106
+msgid "Build training sites for soldiers"
+msgstr "Építs kiképzőhelyeket a katonáknak!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:110
+msgid "Build a dungeon and a labyrinth"
+msgstr "Építs egy kazamatát és egy labirintust!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/atl01.wmf/scripting/texts.lua:116
 msgid "Build a warehouse and a horse farm"
 msgstr "Építs egy raktárat és egy ménesgazdaságot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:120
+msgid "Build a warehouse"
+msgstr "Építs egy raktárat!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/atl01.wmf/scripting/texts.lua:121
@@ -39,6 +184,33 @@ msgid "Build a horse farm"
 msgstr "Építs egy ménesgazdaságot!"
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:127
+msgid "Build 3 ships to escape from the island"
+msgstr "Építs 3 hajót, hogy megszökhess a szigetről!"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/atl01.wmf/scripting/texts.lua:131
 msgid "Build a shipyard close to the lake to start building ships"
-msgstr "Építs egy hajóács műhelyt a tó közelébe, hogy hajókat tudj építeni!"
+msgstr "Építs egy hajóács műhelyt a tó közelébe a hajók megépítéséhez!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Jundlina
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:363
+msgid ""
+"I do not fear the cost and labor as long as it keeps your people at bay. You"
+" shall get your buildings. But note that I will not tolerate any rogue "
+"soldier; if similar things happen again, I will make you responsible for "
+"them. Dismissed."
+msgstr "Nem sajnálom a költségeket és a munkát, ha ezzel kordában tarthatjuk az embereidet. Megkapod az épületeket. De figyelmeztetlek, hogy nem tűrök meg egyetlen kihágást sem: ha még egyszer ilyen történik, téged vonlak felelősségre. Távozz!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:492
+msgid "Congratulations"
+msgstr "Gratulálunk!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/atl01.wmf/scripting/texts.lua:493
+msgid ""
+"You have completed this mission. You may continue playing if you wish, "
+"otherwise move on to the next mission."
+msgstr "Befejezted ezt a küldetést. Ha szeretnél, játszhatsz még tovább, máskülönben folytasd a következő küldetéssel!"

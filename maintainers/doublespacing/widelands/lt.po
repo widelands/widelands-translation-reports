@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Tachionas <tachionexas@gmail.com>, 2020-2021\n"
 "Language-Team: Lithuanian (http://www.transifex.com/widelands/widelands/"
 "language/lt/)\n"
 "Language: lt\n"
@@ -14,25 +14,25 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:333
+#: ../../src/editor/editorinteractive.cc:343
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "Nustatyti poziciją, kurios koordinatės bus (0,0). Tai bus sugeneruoto minižemėlapio viršutinis kairysis kampas.  "
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:183
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:185
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "Klaida kuriant katalogą  ‘%s’."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Editor change height access keys. *
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:61
+#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:60
 msgid ""
 "Click on the map to increase, Shift + Click on the map to decrease terrain "
 "height"
@@ -42,23 +42,23 @@ msgstr "Norėdamas padidinti reljefo aukštį spustelėk ant žemėlapio. Norėd
 #. * TRANSLATORS: A variant of the commandline parameter "false" value
 #. * TRANSLATORS: Needs to be consistent with the translations in widelands-
 #. console
-#: ../../src/io/profile.cc:55
+#: ../../src/io/profile.cc:53
 msgid "no"
 msgstr "Kuriami žaidėjai...  "
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:244
+#: ../../src/logic/generic_save_handler.cc:233
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Failo ‘%s’  nepavyko pašalinti!"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:269
+#: ../../src/logic/generic_save_handler.cc:254
 #, c-format
 msgid "Backup file ‘%s’ will be available for some time."
 msgstr "Atsarginė failo ‘%s’  kopija bus prieinama kurį laiką. "
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:935
+#: ../../src/network/internet_gaming.cc:918
 msgid "/kick <user|game> - Remove the given user or game from the metaserver"
 msgstr "/kick < naudotojas | žaidimas > - Atitinkamo naudotojo ar žaidimo pašalinimas iš metaserverio.  "

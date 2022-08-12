@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-04-13 10:18+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-05-10 03:01+0000\n"
+"PO-Revision-Date: 2015-02-03 14:50+0000\n"
+"Last-Translator: ks k, 2017-2021\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/ABOUT.lua:7
@@ -38,7 +38,7 @@ msgstr "번역자"
 #. TRANSLATORS: Placeholder is copyright end year
 #: ../../data/txts/LICENSE.lua:9
 msgid "Copyright 2002 - %1% by the Widelands Development Team."
-msgstr "저작권 2002 - %1% 와이드랜드 개발 팀"
+msgstr "저작권 2002 - %1% 와이드랜드 개발 팀."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/LICENSE.lua:11
@@ -202,6 +202,11 @@ msgstr "게임을 저장하거나 문제를 시연하는 경우 (예를 들어, 
 #: ../../data/txts/TRANSLATORS.lua:25
 msgid "Widelands Translators"
 msgstr "와이드랜드 번역자"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/developers.lua:3
+msgid "Add-Ons"
+msgstr "추가 기능"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/developers.lua:3
@@ -427,7 +432,7 @@ msgstr "다시보기는 게임 논리에서 버그를 찾는 데 매우 유용�
 #. the key.
 #: ../../data/txts/help/common_helptexts.lua:48
 msgid "Toggle building spaces"
-msgstr "건물공간 켜기/끄기"
+msgstr "건물 공간 켜기/끄기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an access key combination. The hotkey is 'Ctrl + f'
@@ -475,7 +480,7 @@ msgstr "깃발의 색깔을 가진 선수. 둘 이상의 클라이언트가 동�
 msgid ""
 "Spectator mode, meaning you can see everything, but cannot control any "
 "player"
-msgstr "관전자 모드, 모든 것을 볼 수 있지만 플레이어를 제어 할 수 없음을 의미합니다."
+msgstr "관전자 모드, 모든 것을 볼 수 있지만 플레이어를 제어 할 수 없음을 의미합니다"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/help/multiplayer_help.lua:15
@@ -541,6 +546,68 @@ msgid ""
 "different map. Furthermore, the host is able to set a specific win "
 "condition, and finally can start the game as soon as all players are set up."
 msgstr "오른쪽에서 선택한 지도 또는 저장 게임에 대한 정보를 볼 수 있습니다. 지도 이름 옆에있는 버튼을 사용하면 방장이 다른 지도로 변경할 수 있습니다. 또한, 방장은 특정 우승 조건을 설정할 수 있으며, 마지막으로 모든 선수가 설정되는 즉시 놀이를 시작할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:4
+msgid ""
+"Amazons love trees. Build enough jungle preserver’s huts to have enough of "
+"them."
+msgstr "아마존은 나무를 좋아합니다. 정글 보호자의 오두막을 충분히 지어서 충분히 만들어두십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:8
+msgid ""
+"Rare woods are the backbone of an Amazon economy. Build rare tree "
+"plantations to plant the special trees for these woods."
+msgstr "희귀한 숲은 아마존 경제의 중추입니다. 희귀한 나무 농장을 건설하여 이 숲을위한 특별한 나무를 심으십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:12
+msgid ""
+"Rare trees are cut by experienced woodcutters in woodcutter’s huts enhanced "
+"to rare tree cutter’s huts. But they stop cutting normal trees. Plan their "
+"locations in advance."
+msgstr "희귀한 나무는 희귀 나무 벌목공의 오두막으로 개선된 나무꾼의 오두막에 있는 노련한 나무꾼들이 자른다. 하지만 그들은 평범한 나무들을 자르는 것을 멈춥니다. 그들의 위치를 미리 계획하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:16
+msgid "Food is dried with charcoal fires. Ensure a steady supply."
+msgstr "음식은 숯불로 말립니다. 꾸준한 공급을 보장하십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:20
+msgid ""
+"Liana cutters harvest lianas from nearby trees, but trees are not harmed in "
+"this process."
+msgstr "덩굴나무 나무꾼은 근처 나무에서 덩굴을 수확하지만 이 과정에서 나무는 해를 입지 않습니다. "
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:24
+msgid ""
+"Water is life for the Amazons. Water gatherers perform an important service "
+"to their tribe."
+msgstr "물은 아마존에게 생명입니다. 물을 모으는 사람들은 부족에 중요한 봉사를 수행합니다. "
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:28
+msgid ""
+"Panning for gold requires a steady stream of water, better sourced as close "
+"as possible for efficiency and freshness."
+msgstr "사금 캐기는 효율성과 신선도를 위해 가능한 한 가까운 곳에서 더 잘 공급되는 꾸준한 물의 흐름을 필요로 합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:36
+msgid ""
+"Rare wood stock levels are monitored by rare tree plantations, and jungle "
+"masters will plant according to economic requirements."
+msgstr "희귀 나무 농장의 재고 수준은 희귀 나무 농장에 의해 감시되고, 정글 달인들은 경제적 필요에 따라 심을 것입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/amazons.lua:43
+msgid ""
+"Jungle masters learn their skills by working as jungle preservers before "
+"working in gardening centres or rare tree plantations."
+msgstr "정글 달인들은 정원 가꾸기 가게나 희귀한 나무 농장에서 일하기 전에 정글을 지키는 사람으로 일하면서 그들의 기술을 배웁니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/atlanteans.lua:4
@@ -711,11 +778,26 @@ msgid ""
 msgstr "더 궁금한 점이 있습니까? FAQ, 위키 및 커뮤니티 포럼은 %s 에서 찾을 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:32
+msgid ""
+"Use the priority sliders in building windows to adjust delivery of a "
+"specific ware. Holding down Shift while clicking will adjust all wares at "
+"once."
+msgstr "특정 상품의 전달을 조정하려면 건물 창에서 우선 순위 슬라이더를 사용하십시오. 쉬프트 키를 누른 상태에서 클릭하면 모든 상품이 한 번에 조정됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/general_game.lua:36
 msgid ""
 "Use the ‘configure economy’ menu to adjust the target quantity of wares. It "
 "can be accessed via the flag menu."
 msgstr "'경제 구성'메뉴를 사용하여 목표 수량을 조정하십시오. 깃발 메뉴를 통해 접근 할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:40
+msgid ""
+"Manage your messages more efficiently: press ‘%1%’ to access the messages "
+"window, then use ‘%2%’ for Go To, and the ‘%3%’ key to archive messages."
+msgstr "메시지를 보다 효율적으로 관리하십시오: 메시지 창에 접근하려면 새소식의 ‘%1%’ 키를 누르고, 이동을 위해 ‘%2%’ 키를 누르고, 메시지를 보관하려면 %3%키를 누르십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/general_game.lua:49
@@ -739,6 +821,12 @@ msgid ""
 msgstr "위험하게 살고 싶다면, 컨트롤 키를 누른 상태에서 건물 강화나 건물 해체나 파괴 버튼을 클릭하면 확인을 건너 뜁니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:61
+#, lua-format
+msgid "Press ‘%s’ to quickly toggle the display of your stock inventory."
+msgstr "재고 목록을 빨리 전환하려면  ‘%s’ 키를 누르십시오."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/general_game.lua:65
 msgid ""
 "An economy consists of all buildings and flags connected by roads. The "
@@ -751,6 +839,12 @@ msgid ""
 "Some buildings, such as the farm, have a very small work area. If the "
 "building is surrounded with trees or roads, production will stop."
 msgstr "농장과 같은 몇몇 건물은 작업 공간이 매우 작습니다. 만약 그 건물이 나무나 땅길로 둘러싸버리면, 생산은 중단될 것입니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/txts/tips/general_game.lua:73
+msgid ""
+"Zoom in/out with the mouse wheel or %1%/%2%. Press %3% to reset the zoom."
+msgstr "마우스 휠 또는 %1%/%2%키로 확대/축소합니다. %3%키를 눌러 확대/축소를 다시 설정하십시오."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/txts/tips/general_game.lua:94
@@ -801,10 +895,8 @@ msgid ""
 msgstr "채팅 메시지가 시작될 때 '@name'을 사용하여 한 명에게만 메시지를 보냅니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/singleplayer.lua:7
-#, lua-format
+#: ../../data/txts/tips/multiplayer.lua:16
 msgid ""
-"Our computer players are too boring? Visit our website at %s and meet other "
-"players to play online."
-msgstr "우리 컴퓨터 플레이어가 너무 지루합니까? 저희 누리집 %s 에 방문하여 다른 사람들과 만나 온라인 게임을 즐기십시오."
+"If the game should crash, don’t worry! The game will be saved automatically "
+"so that you can reload it afterwards."
+msgstr "만약 놀이가 중단되어도, 걱정하지 마십시오! 놀이는 자동으로 저장되므로 나중에 다시 불러올 수 있습니다."

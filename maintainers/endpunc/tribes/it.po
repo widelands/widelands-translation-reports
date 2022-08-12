@@ -2,17 +2,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-11-03 18:55+0000\n"
+"Last-Translator: Log Merger, 2022\n"
 "Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by a Barbarian military site
+#: ../../data/tribes/buildings/militarysites/barbarians/citadel/init.lua:43
+msgctxt "barbarians_building"
+msgid "Your soldiers have occupied your citadel."
+msgstr "I tuoi soldati hanno occupato la tua cittadella"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Empire military site
+#: ../../data/tribes/buildings/militarysites/empire/castle/init.lua:33
+msgctxt "empire_building"
+msgid "Your castle discovered an aggressor."
+msgstr "Nel tuo castello è stato scoperto un aggressore"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by an Empire military site
+#: ../../data/tribes/buildings/militarysites/empire/sentry/init.lua:47
+msgctxt "empire_building"
+msgid "Your sentry discovered an aggressor."
+msgstr "Nella tua guardiola è stato scoperto un aggressore"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Message sent by a Frisian military site
+#: ../../data/tribes/buildings/militarysites/frisians/fortress/init.lua:66
+msgctxt "frisians_building"
+msgid "Your soldiers defeated the enemy at the fortress."
+msgstr "Il tuo soldato ha sconfitto il nemico alla fortezza"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:57
@@ -37,15 +66,15 @@ msgid ""
 msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:54
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:58
 msgctxt "barbarians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
-msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
+msgstr "Lo scalpellino al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:52
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:55
 msgctxt "empire_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -53,11 +82,11 @@ msgid ""
 msgstr "Il cacciatore al lavoro in questa casa del cacciatore non trova nessuna selvaggina nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:68
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:71
 msgctxt "empire_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
-msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
+msgstr "Lo scalpellino al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "game" means animals that you can hunt
@@ -73,7 +102,7 @@ msgstr "Il cacciatore al lavoro in questa casa del cacciatore non trova nessuna 
 msgctxt "frisians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
-msgstr "Il tagliapietre al lavoro in questa cava non ha nessuna pietra nella sua area di lavoro"
+msgstr "Lo scalpellino che lavora in questa cava non trova alcuna pietra nella sua area di lavoro"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is the tooltip for the "Discovery" starting condition

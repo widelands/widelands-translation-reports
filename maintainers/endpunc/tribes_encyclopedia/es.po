@@ -2,42 +2,86 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-21 15:16+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2019-2022\n"
 "Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Balsa Tree Old
+#: ../../data/tribes/initialization/amazons/units.lua:799
+#: ../../data/tribes/initialization/amazons/units.lua:827
+#: ../../data/tribes/initialization/amazons/units.lua:855
+#: ../../data/tribes/initialization/amazons/units.lua:883
+msgid ""
+"This balsa tree is ready for harvesting balsa wood by a master woodcutter. "
+"Other tribes can harvest it for normal logs."
+msgstr "Este balsa está listo para cosechar madera de balsa por una maestra leñadora. Otras tribus pueden cosecharlo por troncos ordinarios"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Ironwood Tree Old
+#: ../../data/tribes/initialization/amazons/units.lua:911
+#: ../../data/tribes/initialization/amazons/units.lua:939
+#: ../../data/tribes/initialization/amazons/units.lua:967
+#: ../../data/tribes/initialization/amazons/units.lua:995
+msgid ""
+"This ironwood tree is ready for harvesting ironwood by a master woodcutter. "
+"Other tribes can harvest it for normal logs."
+msgstr "Este árbol de madera de hierro está listo para cosechar madera de hierro por una maestra leñadora. Otras tribus pueden cosecharlo por troncos ordinarios"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Helptext for an amazon immovable: Rubber Tree Old
+#: ../../data/tribes/initialization/amazons/units.lua:1023
+#: ../../data/tribes/initialization/amazons/units.lua:1051
+#: ../../data/tribes/initialization/amazons/units.lua:1079
+#: ../../data/tribes/initialization/amazons/units.lua:1107
+msgid ""
+"This rubber tree is ready for harvesting rubber by a master woodcutter. "
+"Other tribes can harvest it for normal logs."
+msgstr "Este árbol de caucho está listo para cosechar caucho por una maestra leñadora. Otras tribus pueden cosecharlo por troncos ordinarios"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an amazon production site: Rare Tree
+#. Cutter's Hut
+#: ../../data/tribes/initialization/amazons/units.lua:1331
+msgctxt "amazons_building"
+msgid ""
+"Harvests rare trees in the surrounding area. Delivers ironwood, balsa and "
+"rubber."
+msgstr "Cosecha árboles raros en el área circundante. Suministra madera de hierro, madera de balsa y caucho ."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Baker
-#: ../../data/tribes/initialization/atlanteans/units.lua:967
+#: ../../data/tribes/initialization/atlanteans/units.lua:1028
 msgctxt "atlanteans_worker"
 msgid "Bakes bread for workers."
 msgstr "Hornea pan para los trabajadores"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Toolsmith
-#: ../../data/tribes/initialization/atlanteans/units.lua:1008
+#: ../../data/tribes/initialization/atlanteans/units.lua:1069
 msgctxt "atlanteans_worker"
 msgid "Produces tools for the workers."
 msgstr "Produce herramientas para los obreros"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an atlantean worker: Weaponsmith
-#: ../../data/tribes/initialization/atlanteans/units.lua:1041
+#: ../../data/tribes/initialization/atlanteans/units.lua:1102
 msgctxt "atlanteans_worker"
 msgid "Produces weapons for the soldiers."
 msgstr "Produce armas para los soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian ware: Pitta Bread
-#: ../../data/tribes/initialization/barbarians/units.lua:206
+#: ../../data/tribes/initialization/barbarians/units.lua:205
 msgctxt "barbarians_ware"
 msgid ""
 "The Barbarian bakers are best in making this flat and tasty pitta bread. It "
@@ -48,7 +92,7 @@ msgstr "Los panaderos Bárbaros son mejores haciendo este plano y sabroso pan de
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a barbarian worker: Trainer
-#: ../../data/tribes/initialization/barbarians/units.lua:777
+#: ../../data/tribes/initialization/barbarians/units.lua:776
 msgctxt "barbarians_worker"
 msgid "Trains the soldiers."
 msgstr "Entrena a los soldados"
@@ -56,7 +100,7 @@ msgstr "Entrena a los soldados"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
 #. part 1
-#: ../../data/tribes/initialization/barbarians/units.lua:1652
+#: ../../data/tribes/initialization/barbarians/units.lua:1651
 msgctxt "barbarians_building"
 msgid "Trains soldiers in ‘Evade’."
 msgstr "Entrena a los soldados en \"Evasión\""
@@ -64,7 +108,7 @@ msgstr "Entrena a los soldados en \"Evasión\""
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1654
+#: ../../data/tribes/initialization/barbarians/units.lua:1653
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -74,14 +118,14 @@ msgstr "«Evasión» aumenta la posibilidad del soldado de no ser golpeado por e
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a barbarian training site: Training Camp,
 #. part 1
-#: ../../data/tribes/initialization/barbarians/units.lua:1671
+#: ../../data/tribes/initialization/barbarians/units.lua:1670
 msgctxt "barbarians_building"
 msgid "Trains soldiers in ‘Attack’ and in ‘Health’."
 msgstr "Entrena a los soldados en \"Ataque\" y \"Vida\" ."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a barbarian military site: Sentry
-#: ../../data/tribes/initialization/barbarians/units.lua:1687
+#: ../../data/tribes/initialization/barbarians/units.lua:1686
 msgctxt "barbarians_building"
 msgid ""
 "‘The log cabin was so small that two men could hardly live there. But we "
@@ -91,67 +135,69 @@ msgstr "'La cabaña de troncos era tan pequeña que apenas podían vivir dos hom
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Baker
-#: ../../data/tribes/initialization/empire/units.lua:702
+#: ../../data/tribes/initialization/empire/units.lua:721
 msgctxt "empire_worker"
 msgid "Bakes bread for workers."
 msgstr "Hornea pan para los trabajadores"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Toolsmith
-#: ../../data/tribes/initialization/empire/units.lua:785
+#: ../../data/tribes/initialization/empire/units.lua:804
 msgctxt "empire_worker"
 msgid "Produces tools for the workers."
 msgstr "Produce herramientas para los obreros"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an empire worker: Weaponsmith
-#: ../../data/tribes/initialization/empire/units.lua:818
+#: ../../data/tribes/initialization/empire/units.lua:837
 msgctxt "empire_worker"
 msgid "Produces weapons for the soldiers."
 msgstr "Produce armas para los soldados"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an empire production site: Tavern
-#: ../../data/tribes/initialization/empire/units.lua:1282
+#: ../../data/tribes/initialization/empire/units.lua:1537
 msgctxt "empire_building"
 msgid "The innkeeper needs %1% on average to prepare a ration."
 msgstr "El posadero necesita %1% de rendimiento para preparar una ración"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:459
+#: ../../data/tribes/initialization/frisians/units.lua:458
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Las lanzas de caza son producidas por la herrería."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a frisian production site: Reed Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1613
+#: ../../data/tribes/initialization/frisians/units.lua:1628
 msgctxt "frisians_building"
 msgid "Cultivates reed that serves three different purposes for the Frisians."
 msgstr "Cultiva caña que para los Frisios cumple tres propósitos distintos"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for a frisian production site: Sewing Room
-#: ../../data/tribes/initialization/frisians/units.lua:1809
+#: ../../data/tribes/initialization/frisians/units.lua:1824
 msgctxt "building"
 msgid "Sews fur garments out of reindeer fur."
 msgstr "Cose prendas de piel de reno"
 
-# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#: ../../data/tribes/scripting/help/building_help.lua:446
-#: ../../data/tribes/scripting/help/building_help.lua:451
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
+#: ../../data/tribes/scripting/help/building_help.lua:448
+#: ../../data/tribes/scripting/help/building_help.lua:453
 #, lua-format
 msgid "Garrisoned soldiers heal %d health point per second."
 msgid_plural "Garrisoned soldiers heal %d health points per second."
 msgstr[0] "Los soldados guarnecidos se curan %d punto de vida por segundo"
 msgstr[1] "Los soldados guarnecidos se curan %d puntos de vida por segundo"
+msgstr[2] "Los soldados guarnecidos se curan %d puntos de vida por segundo"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Soldier health / attack defense / evade points
-#: ../../data/tribes/scripting/help/worker_help.lua:207
-#: ../../data/tribes/scripting/help/worker_help.lua:218
+#: ../../data/tribes/scripting/help/worker_help.lua:184
+#: ../../data/tribes/scripting/help/worker_help.lua:195
 msgid "Increased by %1% point for each level."
 msgid_plural "Increased by %1% points for each level."
 msgstr[0] "Incrementado en %1% punto por cada nivel"
 msgstr[1] "Incrementado en %1% puntos por cada nivel."
+msgstr[2] "Incrementado en %1% puntos por cada nivel."

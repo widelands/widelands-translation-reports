@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-12 08:25+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: litoll <litoll@freemail.hu>, 2016\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,43 +12,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for an atlantean ware: Golden Tabard
-#: ../../data/tribes/initialization/atlanteans/units.lua:810
-msgctxt "atlanteans_ware"
+#. TRANSLATORS: Note helptext for a frisian production site: Diker's House
+#: ../../data/tribes/initialization/frisians/units.lua:1985
+msgctxt "frisians_building"
 msgid ""
-"Golden tabards are produced in Atlantean weaving mills out of gold thread. "
-"They are used in the labyrinth – together with food – to train soldiers from"
-" health level 0 to level 1."
-msgstr "Az aranyköntösök aranyfonálból készülnek az atlantiszi szövőmalmokban. A labirintusban  – élelemmel együtt –  a katonák életerejét fejlesztik vele 0.-ról 1. szintre."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a barbarian ware: Strong Beer
-#: ../../data/tribes/initialization/barbarians/units.lua:224
-msgctxt "barbarians_ware"
-msgid ""
-"Only this beer is acceptable for the soldiers in a battle arena. Some say "
-"that the whole power of the Barbarians lies in this ale. It helps to train "
-"the soldiers’ evade level from 0 to 1 to 2. Strong beer is also used in big "
-"inns to prepare meals."
-msgstr "Csak ez a sör  elfogadható a katonák számára a harci arénában. Vannak akik azt tartják, hogy ebben a sörben rejlik a barbárok ereje. Segíti a katonák védekezésének szintjét 0-ról 1-re, majd 2-re fejleszteni. Az erős sört a nagy fogadókban is használják az ebédek elkészítéséhez."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for an empire worker: Donkey Breeder
-#: ../../data/tribes/initialization/empire/units.lua:605
-msgctxt "empire_worker"
-msgid ""
-"Breeds cute and helpful donkeys for adding them to the transportation "
-"system."
-msgstr "Aranyos és segítőkész szamarakat tenyészt, hogy aztán részei  legyenek a szállítási rendszernek."
-
-# (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Purpose helptext for an empire production site: Donkey Farm
-#: ../../data/tribes/initialization/empire/units.lua:1335
-msgctxt "empire_building"
-msgid ""
-"Breeds cute and helpful donkeys for adding them to the transportation "
-"system."
-msgstr "Aranyos és segítőkész szamarakat tenyészt, hogy aztán részei  legyenek a szállítási rendszernek."
+"The diker will terraform the land around each breakwater he builds several "
+"times. You can manually remove breakwaters when the land is sufficiently "
+"secured to prevent wasting resources; to do so, build a flag, road, or "
+"building in the dike’s place."
+msgstr "A gátépítő minden általa épített hullámtörő körül több lépésben alakítja ki a szárazföldet.  Érdemes lebontani a hullámtörőt, ha már elég a szárazföld körülötte, hogy ne pazarold a nyersanyagokat. Ezt úgy teheted meg, ha zászlót, utat vagy épületet építesz a helyére."

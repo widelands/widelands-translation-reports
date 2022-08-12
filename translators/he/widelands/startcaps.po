@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: GunChleoc, 2015\n"
 "Language-Team: Hebrew (http://www.transifex.com/widelands/widelands/language/"
 "he/)\n"
 "Language: he\n"
@@ -13,18 +13,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Amount of resources in the random map generator in the
 #. editor
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:73
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:72
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:255
 msgid "Medium"
 msgstr "בינוני"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:622
-#: ../../src/wui/game_summary.cc:112
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
+#: ../../src/wui/game_summary.cc:111
 msgid "Player"
 msgstr "שחקן"
 
@@ -32,26 +33,26 @@ msgstr "שחקן"
 #. * TRANSLATORS: Header in production site window if there is more than 1
 #. worker. If you
 #. need plural forms here, please let us know.
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:192
-#: ../../src/wui/economy_options_window.cc:73
-#: ../../src/wui/general_statistics_menu.cc:142
-#: ../../src/wui/productionsitewindow.cc:112
-#: ../../src/wui/warehousewindow.cc:265
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:180
+#: ../../src/wui/economy_options_window.cc:77
+#: ../../src/wui/general_statistics_menu.cc:144
+#: ../../src/wui/productionsitewindow.cc:111
+#: ../../src/wui/warehousewindow.cc:268
 msgid "Workers"
 msgstr "עובדים"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:271
+#: ../../src/wui/buildingwindow.cc:276
 msgid "Stop"
 msgstr "עצור"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/maptable.cc:35
+#: ../../src/wui/maptable.cc:32
 msgid "Size"
 msgstr "גודל"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:133
+#: ../../src/wui/ware_statistics_menu.cc:135
 msgid "Production"
 msgstr "ייצור"

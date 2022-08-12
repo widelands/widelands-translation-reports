@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 20:47+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2022\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,95 +12,42 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an amazon ware: Bread
-#: ../../data/tribes/initialization/amazons/units.lua:202
-msgctxt "amazons_ware"
+#. TRANSLATORS: Note lore_autor for an atlantean production site: Headquarters
+#: ../../data/tribes/initialization/atlanteans/units.lua:1424
+msgctxt "atlanteans_building"
+msgid "Priest of Satul inaugurating you as leader of the Atleantean tribe"
+msgstr "Ein Priester des Satul bei eurer Einsetzung als Anführer der Atlanter."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Note lore for an atlantean production site: Warehouse
+#: ../../data/tribes/initialization/atlanteans/units.lua:1435
+msgctxt "atlanteans_building"
 msgid ""
-"This tasty bread is made in cassava root cookeries out of cassava root and "
-"water. It is the basic ingredient of a ration that is made by a food "
-"preserver. Soldiers like it too."
-msgstr "Dieses geschmackvolle Brot wird in Cassavawurzelküchen aus Cassavawurzeln und Wasser gebacken. Es ist die Grundzutat einer Ration die in der Nahrungsdarre haltbar gemacht wird. Kriegerinnen mögen es auch"
+"Maybe you think it’s a boring task to store, count and retrieve all this "
+"stuff, but do you really want your carriers to walk all the way to your "
+"Headquarters?"
+msgstr "Es mag ja langweilig sein, die ganzen Dinge ein- und auszulagern. Und die ganze Zählerei! Aber wollt ihr wirklich eure Träger alles bis zur eurem Hauptquartier schleppen lassen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an amazon ware: Padded Vest
-#: ../../data/tribes/initialization/amazons/units.lua:491
-msgctxt "amazons_ware"
-msgid ""
-"Padded vests are light but durable armor. They are produced by the "
-"dressmaker and used to train soldiers’ defence from level 0 to level 1."
-msgstr "Gepolsterte Westen sind leichte aber widerstandsfähige Rüstungen. Sie werden in der Schneiderei gefertigt und dienen dazu die Verteidigung einer Kriegerin von Stufe 0 auf Stufe 1 auszubilden"
+#. TRANSLATORS: Lore helptext for an atlantean production site: Well
+#: ../../data/tribes/initialization/atlanteans/units.lua:1557
+msgctxt "atlanteans_building"
+msgid "Well, there is no wellbeing without a well."
+msgstr "Ein Mann ohne Quelle, merkt auf die Schnelle, bin ein armer Geselle, ohne ’ne Quelle!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an amazon ware: Padded Protector
-#: ../../data/tribes/initialization/amazons/units.lua:502
-msgctxt "amazons_ware"
-msgid ""
-"Padded protectors are strong and durable armor. They are produced by the "
-"dressmaker and used to train soldiers’ defence from level 1 to level 2."
-msgstr "Gepolsterte Protektoren sind starke und widerstandsfähige Rüstungen. Sie werden in der Schneiderei gefertigt und dienen dazu die Verteidigung einer Kriegerin von Stufe 1 auf Stufe 2 auszubilden"
+#. TRANSLATORS: Lore helptext for an atlantean production site: Toolsmithy
+#: ../../data/tribes/initialization/atlanteans/units.lua:1676
+msgctxt "atlanteans_building"
+msgid "People’s power working for the benefit of all"
+msgstr "Volkes Kraft, die für alle schafft."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an amazon production site: Furnace
-#: ../../data/tribes/initialization/amazons/units.lua:1358
-msgctxt "amazons_building"
-msgid "Smelts gold dust into gold ingots using charcoal."
-msgstr "Schmilzt Goldstaub mit Holzkohle zu Goldbarren ."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an amazon production site: Rare Tree
-#. Plantation
-#: ../../data/tribes/initialization/amazons/units.lua:1367
-msgctxt "amazons_building"
-msgid ""
-"Plants rare trees which are needed by the amazons, like balsa, rubber and "
-"ironwood."
-msgstr "Pflanzt seltene Bäume die von den Amazonen benötigt werden, wie Balsa-, Kautschuk- oder Eisenholzbäume"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:459
-msgctxt "frisians_ware"
-msgid "Hunting spears are produced by the blacksmithy"
-msgstr "Jagdspeere werden in der Schmiede hergestellt."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Blacksmithy
-#: ../../data/tribes/initialization/frisians/units.lua:1770
-msgctxt "frisians_building"
-msgid "If you don’t have iron, change your name from blacksmith to lacksmith!"
-msgstr "Wenn du kein Eisen hast, ändere deinen Namen von „Schmied“ nach „Luftklopfer“."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a frisian production site: Reindeer
-#. Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1944
-msgctxt "frisians_building"
-msgid ""
-"The reindeer breeder who first proposed using reindeer fur for clothing"
-msgstr "Der Rentierzüchter, der zuerst die Verwendung von Rentierfell für Gewänder vorgeschlagen hatte."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a frisian production site: Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1957
-msgctxt "frisians_building"
-msgid ""
-"A farmer’s reply when asked by his chieftain why he was planting such a "
-"slow-growing grain."
-msgstr "Die Antwort eines Bauern, als sein Häuptling ihn fragte, warum er ein so langsam wachsendes Getreide anpflanzt"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Shipyard
-#: ../../data/tribes/initialization/frisians/units.lua:2137
-msgctxt "frisians_building"
-msgid ""
-"This house may be called a shipyard, but my ships are rather longer than one"
-" yard!"
-msgstr "Dieses Haus mag Werft genannt werden, aber die Schiffe hier kann mit Sicherheit keiner werfen."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/immovable_help.lua:51
-msgid "Requirements"
-msgstr "Voraussetzungen:"
+#. TRANSLATORS: Lore author helptext for an empire production site: Ferry Yard
+#: ../../data/tribes/initialization/empire/units.lua:2225
+msgctxt "empire_building"
+msgid "Amalea on the need for ferries after the reconstruction of Fremil"
+msgstr "Amalea zur Notwendigkeit von Fähren nach dem Wiederaufbau von Fremil."

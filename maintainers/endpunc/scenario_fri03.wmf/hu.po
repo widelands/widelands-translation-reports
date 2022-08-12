@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"POT-Creation-Date: 2022-07-28 03:54+0000\n"
 "PO-Revision-Date: 2021-03-01 09:35+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021\n"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/widelands/teams/35159/hu/"
 ")\n"
 "Language: hu\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri03.wmf/scripting/texts.lua:31
@@ -22,7 +22,7 @@ msgstr "Juss el északra!"
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri03.wmf/scripting/texts.lua:33
 msgid "Go North"
-msgstr "Menj északra!"
+msgstr "Tarts északra!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri03.wmf/scripting/texts.lua:34
@@ -40,17 +40,17 @@ msgid "Destroy the Atlantean Headquarters and Build a Port"
 msgstr "Rombold le az atlantisziak főhadiszállását és építs kikötőt!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:50
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:51
 msgid "Pay or Fight"
 msgstr "Fizess vagy harcolj!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:52
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:53
 msgid "Pay the Empire or Destroy Their Port"
 msgstr "Fizess a birodalomnak vagy pusztítsd el a kikötőjét!"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:53
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:54
 #, lua-format
 msgid ""
 "Gather %d gold bar in your northernmost port to obtain a passage from Marcus"
@@ -67,7 +67,7 @@ msgstr[1] ""
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Claus Lembeck – Introduction 1
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:77
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:80
 msgid ""
 "I want to find my old friend Reebaud as fast as I can. Every minute of "
 "idleness pains me as I imagine Atterdag gleefully trampling the green "
@@ -79,13 +79,13 @@ msgstr ""
 "hát!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:189
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:192
 msgid "May Satul bless you"
 msgstr "Satul áldása legyen veled!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Claus Lembeck – Port Space 4
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:204
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:207
 msgid ""
 "It doesn’t matter. Let’s just find the next port space quickly, so we can "
 "continue our journey."
@@ -95,7 +95,7 @@ msgstr ""
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Claus Lembeck – Port Space 7
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:224
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:227
 msgid ""
 "It does look good, but it might be just another island. Let’s continue "
 "travelling quickly."
@@ -104,8 +104,8 @@ msgstr ""
 "utunkat!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:289
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:297
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:299
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:308
 msgid ""
 "You have completed this mission. You may continue playing if you wish, "
 "otherwise move on to the next mission."
@@ -114,8 +114,8 @@ msgstr ""
 " folytasd a következő küldetéssel!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: M. C. Iniucundus – victory
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:303
+#. TRANSLATORS: M. C. Iniucundus – lost
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:315
 msgid ""
 "You have taken too long. We must set sail now, and then the storm will not "
 "permit you to leave this island. I am sorry for you, but the weather doesn’t"
@@ -125,7 +125,9 @@ msgstr ""
 "elhagyni a szigetet. Sajnállak, de az időjárás nem vár. Viszont látásra!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:305
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:317
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:325
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:336
 msgid ""
 "You have lost and may not continue playing. May you have better luck when "
 "you retry this scenario. Click OK to return to the main menu."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-25 20:14+0000\n"
-"Last-Translator: Juanjo\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Juanjo, 2015-2022\n"
 "Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:197
+#: ../../src/logic/addons.cc:220
 #, c-format
 msgid "%u missing add-on"
 msgid_plural "%u missing add-ons"
@@ -23,35 +23,77 @@ msgstr[0] "Fa falta %u complement."
 msgstr[1] "Fan falta %u complements."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/network/gameclient.cc:721
+#: ../../src/network/gameclient.cc:756
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
-msgstr[0] "S'ha detectat %u incompatibilitat de complements:\n"
-msgstr[1] "S'han detectat %u incompatibilitats de complements:\n"
+msgstr[0] "S’ha detectat %u incompatibilitat de complements:\n"
+msgstr[1] "S’han detectat %u incompatibilitats de complements:\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:903
+#: ../../src/network/gameclient.cc:932
 msgid "/me ’s file failed md5 checksumming."
 msgstr "La suma md5 del fitxer de /me ha fallat."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/portdockwaresdisplay.cc:100
+#: ../../src/ui_fsmenu/addons/manager.cc:1400
+#, c-format
+msgid "Uploading ‘%s’…"
+msgstr "«%s» es va carregant…"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication.cc:1310
+#, c-format
+msgid "%s can not be combined with other actions"
+msgstr "No es pot combinar %s amb altres accions."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:1029
+msgctxt "hotkey"
+msgid "Keypad +"
+msgstr "+ del teclat numèric"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:1031
+msgctxt "hotkey"
+msgid "Keypad -"
+msgstr "- del teclat numèric"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:1033
+msgctxt "hotkey"
+msgid "Keypad *"
+msgstr "* del teclat numèric"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wlapplication_options.cc:1035
+msgctxt "hotkey"
+msgid "Keypad /"
+msgstr "/ del teclat numèric"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/portdockwaresdisplay.cc:99
 msgid "(Empty)"
 msgstr "(buit)"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/wui/savegamedeleter.cc:97
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
+#. NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
-msgstr[0] "No s'ha pogut esborrar %d partida."
-msgstr[1] "No s'han pogut esborrar %d partides."
+msgstr[0] "No s’ha pogut esborrar %d partida."
+msgstr[1] "No s’han pogut esborrar %d partides."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/wui/savegamedeleter.cc:128
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."
-msgstr[0] "No s'ha pogut esborrar %d repetició."
-msgstr[1] "No s'han pogut esborrar %d repeticions."
+msgstr[0] "No s’ha pogut esborrar %d repetició."
+msgstr[1] "No s’han pogut esborrar %d repeticions."

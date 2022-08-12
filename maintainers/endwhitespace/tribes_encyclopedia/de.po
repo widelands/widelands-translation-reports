@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 20:47+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2022\n"
 "Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,86 +12,67 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Helptext for an amazon ware: Ration, part 1
-#: ../../data/tribes/initialization/amazons/units.lua:246
-msgctxt "amazons_ware"
-msgid ""
-"A small bite to keep the workers digging for gold dust and granite strong "
-"and working. The scout also consumes rations on her scouting trips."
-msgstr "Ein kleiner Happen um die Arbeiterinnen die nach Goldstaub und Stein graben stark und am Arbeiten zu halten. Auch die Kundschafterin verzehrt Rationen auf ihren Kundschafterreisen. "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for an atlantean production site: Fish
-#. Breeder's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1429
+#. TRANSLATORS: Note lore for an atlantean production site: Forester's House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1491
 msgctxt "atlanteans_building"
-msgid "Prophecy of the fish breeders"
-msgstr "Weissagung der Fischzüchter "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a barbarian warehouse: Headquarters
-#. TRANSLATORS: Lore author helptext for a barbarian military site: Barrier
-#. TRANSLATORS: Lore author helptext for a barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1088
-#: ../../data/tribes/initialization/barbarians/units.lua:1702
-#: ../../data/tribes/initialization/barbarians/units.lua:1716
-msgctxt "barbarians_building"
-msgid "Ballad ‘The Battle of Kal’mavrath’ by Hakhor the Bard"
-msgstr "Ballade ‘Der Kampf um Kal’mavrath’, von Hakhor dem Barden "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Scout's
-#. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1239
-msgctxt "barbarians_building"
-msgid "Chat’Karuth<br>at the oath taking ceremony of the first scout troupe"
-msgstr " Chat’Karuth,<br>bei der Vereidigung der ersten Kundschaftertruppe "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Wood
-#. Hardener
-#: ../../data/tribes/initialization/barbarians/units.lua:1253
-msgctxt "barbarians_building"
 msgid ""
-"Legend about a quarrel between the brothers Harthor and Manthor,<br>Manthor "
-"is said to be the inventor of blackwood"
-msgstr "Legende über den Streit zwischen den Brüdern Harthor und Manthor,<br>es heißt, dass Manthor das Hartholz erfand "
+"‘Only after the last tree has been cut<br>Only after the last forest was "
+"devastated<br>Only after the last piece of green has become bare "
+"soil<br>Then will you find that nature needs to be cared for.’"
+msgstr "‘Erst wenn der letzte Baum gefällt wurde,<br>Erst wenn der letzte Wald verwüstet wurde,<br>Erst wenn das letzte Grün zu nackter Erde wurde,<br>Dann wirst du erkennen, dass man sich um die Natur kümmern muss.’ "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Cattle
-#. Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1463
-msgctxt "barbarians_building"
+#. TRANSLATORS: Lore helptext for an atlantean production site: Coal Mine
+#. TRANSLATORS: Lore helptext for an atlantean production site: Iron Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1804
+#: ../../data/tribes/initialization/atlanteans/units.lua:1818
+msgctxt "atlanteans_building"
 msgid ""
-"Khantarakh, ‘The Modern Barbarian Economy’,<br> 5ᵗʰ cowhide ‘Traffic and "
-"Logistics’"
-msgstr "Khantarakh, ‘Die moderne Barbarenwirtschaft’,<br>5. Kuhhaut ‘Verkehr und Logistik’ "
+"‘Way down here in this deep mine<br>where the sun it dare not shine,<br>I "
+"sweat and toil till day is done,<br>but I’ll be back with morning come.’"
+msgstr "‘Glück auf! Glück auf! Der Bergmann kommt!<br>Und er hat sein helles Licht bei der Nacht.<br> Er hat’s angezünd’t, das wirft seinen Schein<br>Und er gräbt nach Kohle und Eisen bei der Nacht<br>im Felsgestein, im Felsgestein.’ "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a barbarian military site: Citadel
-#: ../../data/tribes/initialization/barbarians/units.lua:1742
-msgctxt "barbarians_building"
+#. TRANSLATORS: Lore helptext for an atlantean production site: Gold Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1832
+msgctxt "atlanteans_building"
 msgid ""
-"Colintan, chief planner of the Citadel of Adlen,<br>at its opening ceremony"
-msgstr "Colintan, Architekt der Zitadelle von Adlen,<br>bei der Eröffnungsrede "
+"‘Way down here in these golden grounds<br>with stones above us the thousand "
+"pounds<br>I dig in the dust until I see the spark;<br>The golden ore I find "
+"in the dark.’"
+msgstr "‘Tief hier unten am goldenen Grund<br>mit Gestein über uns zu tausenden Pfund<br>grab ich im Staub bis erscheint mir das Funkeln;<br>Das goldene Erz find ich hier im Dunkeln.’ "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Weaving
-#. Mill
-#: ../../data/tribes/initialization/barbarians/units.lua:1779
-msgctxt "barbarians_building"
+#. TRANSLATORS: Lore helptext for an atlantean production site: Castle
+#: ../../data/tribes/initialization/atlanteans/units.lua:1956
+msgctxt "atlanteans_building"
 msgid ""
-"Khantarakh, ‘The Modern Barbarian Economy’,<br>9ᵗʰ cowhide ‘Seafaring and "
-"Conquest’"
-msgstr "Khantarakh, ‘Die moderne Barbarenwirtschaft’,<br>9. Kuhhaut ‘Seefahrt und Eroberung’ "
+"Sometimes even we Atlanteans need to use brute force, but we always play it "
+"wisely."
+msgstr "Auch wir Atlanter müssen bisweilen brutale Gewalt anwenden, aber wir tun es immer weise. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Helptext for a frisian immovable: Pond
-#: ../../data/tribes/initialization/frisians/units.lua:1213
+#. TRANSLATORS: Lore helptext for an atlantean production site: Shipyard
+#: ../../data/tribes/initialization/atlanteans/units.lua:1985
+msgctxt "atlanteans_building"
 msgid ""
-"Fish are living in this pond. A fisher working from an aqua farm can catch "
-"them as food."
-msgstr "Fische leben in diesem Teich. Ein Fischer in einer Fischzucht kann sie abfischen um Nahrung zu erzeugen. "
+"‘Soon may the wellerman come,<br>to bring us bread and smoked fish.<br>We "
+"set sail for a faraway shore<br>we praise Satul the best we wish.’"
+msgstr "‘Bald kommt das Schiff mit Kisten beladen,<br>uns Brot und Räucherfische zu bringen.<br>Wir setzten Kurs nach fremden Gestaden<br>für unsere Wünsche, Satul wir besingen.’ "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for an empire production site: Mill
+#: ../../data/tribes/initialization/empire/units.lua:1429
+msgctxt "empire_building"
+msgid "Proverb often cited by millers to impatient customers"
+msgstr "Oft von Müllern gegenüber ungeduldigen Kunden gebrauchtes Sprichwort "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for an empire production site: Barracks
+#: ../../data/tribes/initialization/empire/units.lua:1657
+msgctxt "empire_building"
+msgid "Argument in the Senate for increasing recruitment"
+msgstr "Debatte im Senat zur Erhöhung der Rekrutierung "

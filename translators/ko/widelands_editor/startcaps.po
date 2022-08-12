@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-18 17:05+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2016-03-24 07:33+0000\n"
+"Last-Translator: ks k, 2018,2020\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_controls.lua:11
@@ -23,7 +23,7 @@ msgstr "제어"
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_controls.lua:13
 msgid "Keyboard Shortcuts"
-msgstr "키보드 단축키"
+msgstr "키보드 바로가기 키"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an access key combination. Localize, but do not change
@@ -36,19 +36,19 @@ msgstr "도움말"
 #. TRANSLATORS: This is an access key combination.
 #: ../../data/scripting/editor/editor_controls.lua:18
 msgid "Toggle main menu"
-msgstr "주 차림표 켜기/끄기"
+msgstr "기본 차림표를 켜기/끄기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an access key combination. The hotkey is 't'
 #: ../../data/scripting/editor/editor_controls.lua:20
 msgid "Toggle tools menu"
-msgstr "도구 차림표 켜기/끄기"
+msgstr "도구 차림표를 켜기/끄기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an access key combination. The hotkey is 'p'
 #: ../../data/scripting/editor/editor_controls.lua:24
 msgid "Toggle player menu"
-msgstr "플레이어 차림표 켜기/끄기"
+msgstr "선수 차림표를 켜기/끄기"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is an access key combination. Localize, but do not change
@@ -188,7 +188,7 @@ msgstr "이 편집기는 와이드랜드에서 사용할 자신만의 지도를 
 msgid ""
 "As you can see, this editor is heavy work in progress and as the editor "
 "becomes better and better, this text will also get longer and more complete."
-msgstr "[번역확인]보다시피, 편집기는 점점 나아지고 있지만 아직 개발이 필요합니다. 글자도 더 길게 하면서 여러 요소를 제대로 설명해야 합니다"
+msgstr "번역확인->보다시피, 편집기는 점점 나아지고 있지만 아직 개발이 필요합니다. 글자도 더 길게 하면서 여러 요소를 제대로 설명해야 합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/editor/editor_introduction.lua:16
@@ -204,7 +204,7 @@ msgstr "자원"
 #. TRANSLATORS: A header in the editor help if there is 1 valid resource
 #: ../../data/scripting/editor/terrain_help.lua:25
 msgid "Valid Resource:"
-msgstr "있는 자원 :"
+msgstr "있는 자원:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: A header in the editor help if there is more than 1 valid

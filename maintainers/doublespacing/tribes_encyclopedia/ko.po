@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: tamanegi, 2018\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,11 +12,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Note helptext for an amazon military site: Patrol Post
+#. TRANSLATORS: Note helptext for an amazon military site: Warriors’ Dwelling
+#. TRANSLATORS: Note helptext for an amazon military site: Tower
+#. TRANSLATORS: Note helptext for an amazon military site: Observation Tower
+#. TRANSLATORS: Note helptext for an amazon military site: Fortress
+#. TRANSLATORS: Note helptext for an amazon military site: Fortification
+#: ../../data/tribes/initialization/amazons/units.lua:1533
+#: ../../data/tribes/initialization/amazons/units.lua:1551
+#: ../../data/tribes/initialization/amazons/units.lua:1560
+#: ../../data/tribes/initialization/amazons/units.lua:1569
+#: ../../data/tribes/initialization/amazons/units.lua:1578
+#: ../../data/tribes/initialization/amazons/units.lua:1587
+msgctxt "amazons_building"
+msgid ""
+"If you’re low on soldiers to occupy new military sites, use the downward "
+"arrow button to decrease the capacity. You can also click on a soldier to "
+"send her away."
+msgstr "새로운 군사 지역을 차지할 군인이 부족하다면, 아래쪽 화살표 버튼을 사용하여 주둔 병력을  줄이십시오. 또한 군인을 클릭하여 그녀를 다른 곳으로 보낼 수 있습니다."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an empire ware: Bread
-#: ../../data/tribes/initialization/empire/units.lua:207
+#: ../../data/tribes/initialization/empire/units.lua:226
 msgctxt "empire_ware"
 msgid ""
 "The bakers of the Empire make really tasty bread out of flour and water. It "
@@ -25,8 +45,28 @@ msgid ""
 msgstr "제국의 제빵사들은 정말 맛있는 빵을 밀가루와 물을 이용해서 만듭니다. 선술집과 여관에서 야전식량과 식사를 준비하는데 사용됩니다.  빵은 또한 훈련장 (경기장, 원형경기장, 훈련소) 에서 소비됩니다."
 
 # (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for an empire ware: Helmet
+#: ../../data/tribes/initialization/empire/units.lua:559
+msgctxt "empire_ware"
+msgid ""
+"The helmet is the basic defense of a warrior. It is produced in an armor "
+"smithy. In combination with a wooden spear, it is the equipment to fit out "
+"young soldiers. Helmets are also used in training camps – together with food"
+" – to train soldiers from health level 0 to level 1."
+msgstr "투구는 전사를 위한 기본적인 방어 수단입니다. 갑옷 제작소에서 만듭니다. 나무 창과 함께, 젊은 군인들을 무장하기 위한 장비입니다. 투구는 훈련소에서식량과 함께 군인들의 체력 수준을 0 에서 1 로 훈련시키는데  사용됩니다."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Purpose helptext for a frisian production site: Mead Brewery
+#: ../../data/tribes/initialization/frisians/units.lua:1911
+msgctxt "frisians_building"
+msgid ""
+"Brews beer out of barley and water. It also brews mead, which is beer "
+"refined with honey. Mead is consumed by experienced soldiers."
+msgstr "보리와 물로 맥주를 만듭니다.  또한 꿀로 정제된 맥주인 벌꿀술도 만듭니다. 벌꿀술은 숙련된 군인들이 마십니다."
+
+# (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a frisian production site: Barracks
-#: ../../data/tribes/initialization/frisians/units.lua:1927
+#: ../../data/tribes/initialization/frisians/units.lua:1942
 msgctxt "frisians_building"
 msgid ""
 "You have thirty seconds to learn the basics of swordfighting and how to stay"
@@ -38,7 +78,7 @@ msgstr "칼싸움의 기본 사항과 전투에서 살아남는 방법을 배우
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a frisian production site: Shipyard
-#: ../../data/tribes/initialization/frisians/units.lua:2137
+#: ../../data/tribes/initialization/frisians/units.lua:2161
 msgctxt "frisians_building"
 msgid ""
 "This house may be called a shipyard, but my ships are rather longer than one"

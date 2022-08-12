@@ -2,17 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-29 14:02+0000\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
 "PO-Revision-Date: 2017-05-15 11:49+0000\n"
-"Last-Translator: af24e571988b09e5b46468ac89010e87_d1b4333, 2021\n"
+"Last-Translator: Log Merger, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/widelands/teams/35159/it/)"
 "\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:75
+msgid ""
+"Lower the demand for marble columns in the economy settings to four. This "
+"will help to save some marble for buildings."
+msgstr ""
+"Nelle impostazioni dell'economia, riduci la domanda di colonne di marmo a 4:"
+" sarà più facile conservare alcuni pezzi di marmo per le costruzioni!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:228
@@ -52,6 +62,20 @@ msgid "Amalea comes in…"
 msgstr "Amalea entra..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Amalea
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:309
+msgid ""
+"But here’s the rub, if we use up all of our marble for columns, we might run"
+" out. So, we should lower the settings for marble columns in the economy "
+"settings to a smaller amount. I think a reserve of four columns might be "
+"sufficient for the moment being."
+msgstr ""
+"Ma c'è un problema, se usi tutto il marmo per fare le colonne, potresti "
+"finirlo. Quindi dovresti abbassare il bisogno delle colonne di marmo nelle "
+"impostazione dell'economia. Una scorta di quattro colonne dovrebbe essere "
+"sufficiente per il momento"
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:333
 msgid "Saledus is thoughtful…"
 msgstr "Saledus è pensieroso..."
@@ -60,6 +84,53 @@ msgstr "Saledus è pensieroso..."
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:347
 msgid "Saledus looks excited…"
 msgstr "Saledus sembra emozionato..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Saledus
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:349
+msgid ""
+"Sire, today we got a lot closer to finally returning home again. Our "
+"military has spotted a space to build a port on. We should start to build a "
+"port quickly."
+msgstr ""
+"Sire, oggi un altro notevole passo è stato fatto sulla via dell'agognato "
+"ritorno: i militari hanno individuato un luogo che assai si addice alla "
+"costruzione del porto. Diamo il via a tale impresa senza indugio!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Amalea
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:375
+msgid ""
+"After the production of enough wheat, we can dismantle the farm and build a "
+"sheep farm to produce wool. When the sheep farm starts working, we could "
+"find or free up space for a medium building to build a weaving mill to use "
+"our wool for weaving cloth. But for the moment being, let’s start by "
+"producing a reasonable amount of wheat."
+msgstr ""
+"Quando avremo abbastanza grano, potremo smantellare la fattoria e "
+"sostituirla con un allevamento di pecore. Appena l'allevamento inizierà a "
+"produrre lana, troveremo uno spazio per un edificio di medie dimensioni e "
+"costruiremo uno stabilimento tessile, così da usare la lana per tessere. Per"
+" adesso però preoccupiamoci di produrre abbastanza grano!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Amalea
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:378
+msgid ""
+"I think a stock of 50 sheaves of wheat would be enough for starters. We do "
+"not have a target quantity for wheat, because the farmer does not need other"
+" wares to produce it. All we have to do is watch our stock of wheat grow."
+msgstr ""
+"Credo che una scorta di 50 covoni di grano basti per iniziare. Non ci "
+"servono quantità particolari di grano, dato che al contadino non servono "
+"altre merci per produrlo. Le nostre scorte di grano crescono mentre noi "
+"stiamo semplicemente a guardare!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lutius - Diary
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:389
+msgid "Praise the gods. We finally have a ship industry."
+msgstr "Siano lodati gli dèi! Finalmente vantiamo una industria navale!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:396
@@ -78,9 +149,28 @@ msgid "Amalea looks thoughtful…"
 msgstr "Amalea sembra pensierosa..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:463
+msgid ""
+"Let’s finish the Barbarians off and provide a nice colony to the caesar of "
+"our empire."
+msgstr ""
+"Facciamo fuori i Barbari e presentiamo al Cesare del nostro impero una bella"
+" colonia"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:472
+msgid "Amalea is really proud of the achievements…"
+msgstr "Amalea è estremamente orgogliosa dei risultati..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:496
 msgid "Amalea is shaking her head…"
 msgstr "Amalea sta scuotendo la testa..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:511
+msgid "Amalea is looking forward to the exploration…"
+msgstr "Amalea non vede l'ora di andare in esplorazione..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:528
@@ -97,6 +187,22 @@ msgstr "Saledus sta esultando..."
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:561
 msgid "Saledus is Very Sad and Anxious…"
 msgstr "Saledus è molto triste e ansioso..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:578
+msgid "Saledus is happily worshipping…"
+msgstr "Saledus sta pregando allegramente..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp03.wmf/scripting/texts.lua:582
+msgid ""
+"Oh great Neptune, safeguard our journey! Oh great Neptune, let the winds be "
+"friendly to our course! Oh great Neptune, save us from the creatures of the "
+"sea! Oh great Neptune, …"
+msgstr ""
+"O grande Nettuno, proteggici nel nostro viaggio! O magnifico Nettuno, fa' "
+"che i venti siano alleati nella nostra impresa! O glorioso Nettuno, salvaci "
+"dalle creature del mare! O potente Nettuno..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp03.wmf/scripting/texts.lua:589

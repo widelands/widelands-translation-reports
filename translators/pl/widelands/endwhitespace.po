@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-18 12:53+0000\n"
-"Last-Translator: Antoni Szpikowski <szantek2004@gmail.com>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Antoni Szpikowski <szantek2004@gmail.com>, 2021-2022\n"
 "Language-Team: Polish (http://www.transifex.com/widelands/widelands/language/"
 "pl/)\n"
 "Language: pl\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
 "%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/keyboard_options.cc:156
+#: ../../src/ui_fsmenu/keyboard_options.cc:265
 #, c-format
 msgid ""
 "The shortcut you selected (‘%1$s’) is already in use for the following "
@@ -26,26 +26,21 @@ msgid ""
 msgstr "Wybrany skrót (‘%1$s’) jest już używany do wykonania następującego działania: ‘%2$s’. Wybierz inny skrót lub najpierw zmień skrót powodujący konflikt. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_options.cc:194
+#: ../../src/wlapplication_options.cc:250
 msgid "Multiplayer"
 msgstr "Tryb wieloosobowy "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_options.cc:528
-msgid "Messages: Show "
-msgstr "Wiadomości: Pokaż"
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_options.cc:533
+#: ../../src/wlapplication_options.cc:609
 msgid "Messages: Show Geologists’ Messages"
 msgstr "Wiadomości: Pokaż wiadomości geologów "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_options.cc:548
+#: ../../src/wlapplication_options.cc:624
 msgid "Messages: Show Military Messages"
 msgstr "Wiadomości: Pokaż wiadomości o żołnierzach "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/stock_menu.cc:61
+#: ../../src/wui/stock_menu.cc:62
 msgid "Yellow:"
 msgstr "Żółty: "

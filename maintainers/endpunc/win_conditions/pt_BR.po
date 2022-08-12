@@ -2,25 +2,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-21 13:12+0000\n"
-"PO-Revision-Date: 2021-03-02 12:22+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-06-22 03:53+0000\n"
+"PO-Revision-Date: 2015-02-03 14:55+0000\n"
+"Last-Translator: PythonLs, 2022\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
 "widelands/language/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
-# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/scripting/win_conditions/hq_hunter.lua:18
+msgid ""
+"The tribe or team that can find and destroy all other headquarters wins the "
+"game! Does not work with starting conditions without headquarters."
+msgstr "A tribo ou time que achar e destruir todos os quarteis-generais ganha o jogo! Não funciona se começado com a condição sem quartel-general"
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
 #: ../../data/scripting/win_conditions/territorial_functions.lua:265
 #, lua-format
 msgid "You’ve still got %i minute to prevent a victory."
 msgid_plural "You’ve still got %i minutes to prevent a victory."
 msgstr[0] "Você ainda tem %i minuto para evitar uma vitória"
 msgstr[1] "Você ainda tem %i minutos para evitar uma vitória"
+msgstr[2] "Você ainda tem %i minutos para evitar uma vitória"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/scripting/win_conditions/win_condition_texts.lua:57

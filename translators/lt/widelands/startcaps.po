@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Tachionas <tachionexas@gmail.com>, 2020-2021\n"
 "Language-Team: Lithuanian (http://www.transifex.com/widelands/widelands/"
 "language/lt/)\n"
 "Language: lt\n"
@@ -14,18 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A variant of the commandline parameter "false" value
 #. * TRANSLATORS: Needs to be consistent with the translations in widelands-
 #. console
-#: ../../src/io/profile.cc:55
+#: ../../src/io/profile.cc:53
 msgid "no"
 msgstr "Kuriami žaidėjai...  "
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/portdockwaresdisplay.cc:100
+#: ../../src/wui/portdockwaresdisplay.cc:99
 msgid "(Empty)"
 msgstr "(tuščias)"
 
@@ -33,7 +33,7 @@ msgstr "(tuščias)"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/savegameloader.cc:142
+#: ../../src/wui/savegameloader.cc:157
 msgid "saved today at %1%:%2%"
 msgstr "Šiandien išsaugota %1%:%2%"
 
@@ -41,6 +41,6 @@ msgstr "Šiandien išsaugota %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/savegameloader.cc:160
+#: ../../src/wui/savegameloader.cc:175
 msgid "saved yesterday at %1%:%2%"
 msgstr "Vakar išsaugota %1%:%2%"

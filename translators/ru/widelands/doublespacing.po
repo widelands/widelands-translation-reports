@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-18 08:25+0000\n"
-"Last-Translator: nskdmitry\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: Владимир Шевцов, 2022\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -14,16 +14,16 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:236
+#: ../../src/logic/generic_save_handler.cc:225
 #, c-format
 msgid "Backup file ‘%s’ could not be deleted."
 msgstr "Резервный файл ‘%s’  не может быть удален."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gameclient.cc:727
+#: ../../src/network/gameclient.cc:758
 #, c-format
 msgid ""
 "%1$s\n"
@@ -32,48 +32,48 @@ msgstr "%1$s\n. Требования  \"%2$s\" не выполнены"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:293
+#: ../../src/network/gamehost.cc:120
 msgid "/help  -  Shows this help"
 msgstr "/help — Показывает справку"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:295
+#: ../../src/network/gamehost.cc:122
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <сообщ> — Сделать объявление в чате (системный чат)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:297
+#: ../../src/network/gamehost.cc:124
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <имя> <причина> — Вынести предупреждение пользователю <имя> потому что <причина>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:299
+#: ../../src/network/gamehost.cc:126
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <имя> <причина> — Выгнать пользователя <имя> потому что <причина>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:301
+#: ../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause — Принудительно поставить игру на паузу"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:303
+#: ../../src/network/gamehost.cc:130
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause — Продолжить игру с нормальной скоростью."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gamehost.cc:354
+#: ../../src/network/gamehost.cc:179
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "Точно хотите выгнать  %s?"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons.cc:467
+#: ../../src/ui_fsmenu/addons/manager.cc:622
 #, c-format
 msgid ""
 "\n"
@@ -81,13 +81,23 @@ msgid ""
 msgstr "\n· %1$s (%2$s)  от %3$s"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons.cc:1189
+#: ../../src/ui_fsmenu/addons/manager.cc:1429
 #, c-format
-msgid "Downloading translations for ‘%s’…"
-msgstr "Загрузка локализации  \"%s\"..."
+msgid ""
+"The add-on ‘%1$s’ could not be uploaded to the server.\n"
+"\n"
+"Error Message:\n"
+"%2$s"
+msgstr "Дополнение  ‘%1$s’ не может быть загружено на сервер.\nПричина:\n%2$s "
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons.cc:1256
+#: ../../src/ui_fsmenu/addons/packager_box.cc:69
+#, c-format
+msgid "Filename may not contain ‘%s’"
+msgstr "В названии файла не должно быть  ‘%s’"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:47
 #, c-format
 msgid ""
 "Are you certain that you want to uninstall this add-on?\n"
@@ -102,7 +112,7 @@ msgid ""
 msgstr "Вы уверены, что хотите удалить это дополнение?\n\n%1$s\nЗа авторством %2$s\nВерсии %3$s\nКатегория  - %4$s\n%5$s\n\nУчтите, что потом вы не сможете загрузить его с сервера."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/launch_mpg.cc:193
+#: ../../src/ui_fsmenu/launch_mpg.cc:190
 msgid ""
 "WARNING:\n"
 "The saved game you selected is a directory. This happens if you set the option ‘nozip’ to true or manually unzipped the saved game.\n"

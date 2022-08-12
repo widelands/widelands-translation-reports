@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
-"PO-Revision-Date: 2021-05-12 08:23+0000\n"
-"Last-Translator: Tóth András <txa-dev@posteo.hu>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:45+0000\n"
+"Last-Translator: vargaviktor <viktor.varga@gmail.com>, 2021\n"
 "Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
@@ -12,7 +12,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:25
+msgid "Build up a wood economy"
+msgstr "Építs ki egy fatermelő gazdaságot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:28
+msgid "Build three lumberjack’s houses, a forester’s house and a sawmill."
+msgstr "Építs három favágóházat, egy erdészházat és egy fűrészmalmot!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:34
+msgid "Build a quarry"
+msgstr "Építs egy kőfejtőt!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:37
+msgid "Build a quarry to the south of your headquarters."
+msgstr "Építs egy kőfejtőt főhadiszállásodtól délre!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp02.wmf/scripting/texts.lua:43
@@ -20,9 +40,9 @@ msgid "Protect your colony"
 msgstr "Védd meg a településedet!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:45
-msgid "Protect Your Colony"
-msgstr "Védd meg a településedet!"
+#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:46
+msgid "Build some blockhouses and sentries around the colony."
+msgstr "Építs néhány őrbódét és őrházat a település köré!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp02.wmf/scripting/texts.lua:52
@@ -62,16 +82,11 @@ msgstr "Építs egy fogadót, hogy ételt készítsen, ami erőt ad a bányásza
 msgid ""
 "Build a brewery and a winery to supply the miners with some good and strong "
 "drinks."
-msgstr "Építs egy sörfőzdét és egy borászatot, hogy ellásd a bányászokat jó és erős itallal!"
+msgstr "Építs egy sörfőzdét és egy borászatot, ami ellátja a bányászokat jó és erős itallal!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp02.wmf/scripting/texts.lua:84
 msgid "Protect your eastern frontier"
-msgstr "Védd a keleti határt!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:86
-msgid "Protect Your Eastern Frontier"
 msgstr "Védd a keleti határt!"
 
 # (pofilter) endpunc: Different punctuation at the end
@@ -92,11 +107,6 @@ msgid "Destroy the Barbarian tribe"
 msgstr "Pusztítsd el a barbár törzset!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:96
-msgid "Destroy the Barbarian Tribe"
-msgstr "Pusztítsd el a barbár törzset!"
-
-# (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp02.wmf/scripting/texts.lua:97
 msgid "Build a barracks to start training soldiers."
 msgstr "Építs egy laktanyát és kezdj el katonákat toborozni!"
@@ -109,7 +119,7 @@ msgid ""
 msgstr "Támadd meg és semmisítsd meg teljesen a barbár épületeket, amint van elég katonád!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:289
+#: ../../data/campaigns/emp02.wmf/scripting/texts.lua:290
 msgid ""
 "You have completed this mission. You may continue playing if you wish, "
 "otherwise move on to the next mission."

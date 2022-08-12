@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-01 09:35+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"PO-Revision-Date: 2015-02-03 14:49+0000\n"
+"Last-Translator: TaeMin An, 2017\n"
 "Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:10
@@ -119,6 +119,12 @@ msgid "Afterwards, choose ‘Buildings’."
 msgstr "그런 다음 ‘건물’을 선택합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:53
+#, lua-format
+msgid "You can also use the hotkey ‘%s’."
+msgstr "아니면 단축키 ‘%s’ 를 사용해도 됩니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:58
 msgid "Building statistics"
 msgstr "건물 통계"
@@ -139,7 +145,7 @@ msgstr "먼저, 우리는 우리가 현재 보유한 선술집이 얼마나 많�
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:67
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:69
 msgid "Look up how many taverns you have"
-msgstr "당신이 소유한 주점을 찾아보십시오."
+msgstr "당신이 소유한 주점을 찾아보십시오"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:70
@@ -261,6 +267,12 @@ msgstr "재고 창에는 현재 보유하고있는 제품에 대한 개요가 �
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:126
 msgid "Afterwards, choose ‘Stock’."
 msgstr "그런 다음 ‘재고’를 선택합니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:127
+#, lua-format
+msgid "You can also use the hotkey ‘%s’ to access this window quickly."
+msgstr "빠르게 창에 접근하려면 단축키 ‘%s’ 를 사용할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:132
@@ -423,6 +435,12 @@ msgid "Open it. You can access it via the button at the bottom of the screen."
 msgstr "열어보십시오. 화면하단의 단추를 통해 접근 할 수 있습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:249
+#, lua-format
+msgid "Alternatively, you can access it directly with the ‘%s’ key."
+msgstr "또는 ‘%s’ 키를 사용하여 직접 접근 할 수 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:253
 msgid "Encyclopedia"
 msgstr "백과사전"
@@ -505,7 +523,7 @@ msgstr "백과사전 범주"
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:282
 msgid "The encyclopedia has five tabs:"
-msgstr "이 백과사전에는 다음과 같은 5가지 탭이 있습니다."
+msgstr "이 백과사전에는 다음과 같은 5가지 탭이 있습니다:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:283
@@ -592,6 +610,23 @@ msgstr "물품들을 필요로 하는 곳에 보내십시오"
 msgid ""
 "Great. Our taverns have now been built up and are supplying us with rations."
 msgstr "훌륭합니다. 선술집들이 지어졌고 야전식량을 공급하고 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:320
+msgid ""
+"At the moment, all mines are supplied with rations. If you want to "
+"prioritize a special mine, you simply have to open its window. In the wares "
+"tab, behind every ware, you can see a slider."
+msgstr "현재 모든 광산에는 야전식량이 제공되고 있습니다. 특별한 광산의에우선 순위를 지정하려면 해당 창을 열면됩니다. 상품 탭에서 모든 상품 뒤에 미끄럼이가 있습니다."
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:321
+msgid ""
+"When you move the slider to the blue area on the left side (low priority), "
+"the corresponding ware gets delivered less frequently. Red (right side) "
+"means that as many wares as possible should be delivered to this building, "
+"maybe because it produces something important."
+msgstr "미끄럼이를 왼쪽의 파란색 영역 (낮은 우선 순위)으로 이동하면 해당 제품이 덜 자주 전달됩니다. 빨간색 (오른쪽)은이 건물이 중요한 것을 생산하기 때문에 가능한 한 많은 상품을 이 건물에 전달해야 한다는 뜻입니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:322

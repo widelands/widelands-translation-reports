@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
+"POT-Creation-Date: 2022-06-22 03:53+0000\n"
 "PO-Revision-Date: 2018-03-24 18:16+0000\n"
 "Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021\n"
 "Language-Team: Hungarian (https://www.transifex.com/widelands/teams/35159/hu/"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:25
@@ -55,8 +55,8 @@ msgid ""
 "into metal in a recycling center. Use the weapons in the store to train "
 "soldiers and recycle some scrap metal."
 msgstr ""
-"Amikor a katonák gyakorlatoznak, az  elhasznált fegyvereket kidobják. Ezeket"
-" fémmé lehet alakítani az újrahasznosító telepen. Használd a készleten lévő "
+"Amikor a katonák gyakorlatoznak, az elhasznált fegyvereket kidobják. Ezeket "
+"fémmé lehet alakítani az újrahasznosító telepen. Használd a készleten lévő "
 "fegyvereket katonák fejlesztésére, és hasznosítsd újra a keletkező "
 "ócskavasat!"
 
@@ -64,11 +64,6 @@ msgstr ""
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:50
 msgid "Build an aqua farm"
 msgstr "Építs egy halgazdaságot!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:52
-msgid "Build an Aqua Farm to Start Producing Fish"
-msgstr "Építs egy halgazdaságot halak tenyésztéséhez!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:58
@@ -82,9 +77,15 @@ msgstr ""
 "Gyűjts árukat az ajándékhoz, vagy semmisítsd meg a birodalom raktárát!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:82
-msgid "Send a Scout to Spy on the Empire"
-msgstr "Küldj felderítőt, hogy kémkedjen a Birodalom után!"
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:80
+msgid "Spy on Murilius"
+msgstr "Kémkedj Murilius után!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:83
+msgid ""
+"Build a scout’s house near the border to discover the Empire’s secrets."
+msgstr "Építs felderítőházat a határhoz, hogy felfedd a Birodalom titkait!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:88
@@ -96,11 +97,6 @@ msgstr "Fejtsd meg a költeményt!"
 msgid "Understand the Poem the Scout has Found in the Empire"
 msgstr ""
 "Értelmezd a költeményt, amit a felderítő talált a Birodalom területén!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:101
-msgid "Defeat the Barbarians"
-msgstr "Győzd le a barbárokat!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:109
@@ -116,6 +112,11 @@ msgstr ""
 "Az egyetlen módja annak, hogy megőrizzük szabadságunkat a Birodalommal "
 "szemben az, ha mindörökre leromboljuk ezt a helyőrséget. Foglald el az "
 "összes földjüket!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:111
+msgid "Conquer every single field that still belongs to Murilius."
+msgstr "Foglalj el minden egyes mezőt, ami meg Muriliusé!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:118

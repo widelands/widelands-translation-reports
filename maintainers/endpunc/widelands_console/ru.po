@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-16 15:34+0000\n"
-"PO-Revision-Date: 2021-05-13 16:48+0000\n"
-"Last-Translator: Blueberryy <igory.ygr200@gmail.com>\n"
+"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"PO-Revision-Date: 2015-02-03 14:54+0000\n"
+"Last-Translator: Владимир Шевцов, 2022\n"
 "Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
@@ -14,20 +14,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain.
-#. * TRANSLATORS: A syncstream is a synchronization stream. Syncstreams are
-#. used in
-#. multiplayer
-#. * TRANSLATORS: games to make sure that there is no mismatch between the
-#. players.
-#: ../../src/wlapplication_messages.cc:79
-msgid ""
-" --write_syncstreams=[true|false]\n"
-"                      Create syncstream dump files to help debug network games."
-msgstr " --write_syncstreams=[true|false]\n                      Создает дамп файлов синхронизации потоков, для отладки сетевых игр"
+#: ../../src/wlapplication_messages.cc:136
+msgid "Invert click-and-drag map movement direction."
+msgstr "Обратить движение карты при click-and-drag(шелчке и перетаскивании)"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:188
+msgid "Whether to use the mouse cursor provided by SDL."
+msgstr "Использовать ли курсор мыши, предоставляемый SDL"

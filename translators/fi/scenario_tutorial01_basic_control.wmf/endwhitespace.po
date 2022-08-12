@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-22 20:16+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-03-25 02:57+0000\n"
+"PO-Revision-Date: 2015-02-03 14:46+0000\n"
+"Last-Translator: Atte Timonen, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,12 +12,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:64
+msgid ""
+"There are five different tribes in Widelands: the Barbarians, the Empire, "
+"the Atlanteans, the Frisians and the Amazons. All tribes have different "
+"economies, strengths, and weaknesses, but the general gameplay is the same "
+"for all. We will play the Barbarians for now."
+msgstr "Widelandsissa on viisi eri heimoa: Barbaarit, Keisarikunta, Atlantislaiset, Vapaamieliset ja Amazonit. Kaikilla heimoilla on omanlaisensa talousrakenne, sekä omat vahvuudet ja heikkoudet. Perusluonteeltaan peli on kuitenkin samanlainen kaikilla heimoilla pelattaessa. Keskitytään tällä erää barbaareihin. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:217
+msgid ""
+"If you want things to go faster, simply use the %1$s key on your keyboard to"
+" increase the game speed. You can use %2$s to make the game slower again."
+msgstr "Jos haluat pelin etenevän nopeammin, käytä %1$s-näppäintä lisätäksesi kierroksia ja kasvattaaksesi pelinopeutta. Näppäimellä %2$s voit vastaavasti hidastaa tahtia.  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:274
 msgid "Very good. And now about the minimap. "
 msgstr "Loistavaa! Ja nyt hiukan asiaa pienkartasta."
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:489
+#, lua-format
+msgid ""
+"You can also hold down the Ctrl or Shift key to select multiple messages, or"
+" press %s to select them all."
+msgstr "Voit myös pitää pohjassa Ctrl- tai Shift-näppäintä valitaksesi useita viestejä, tai painaa %s valitaksesi ne kaikki. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:531

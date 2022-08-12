@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-22 20:16+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"PO-Revision-Date: 2015-02-03 14:54+0000\n"
+"Last-Translator: tamanegi, 2018\n"
 "Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -12,38 +12,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:42
-msgid "Usage: widelands <option0>=<value0> ... <optionN>=<valueN>"
-msgstr "使い方: widelands <option0>=<value0> ... <optionN>=<valueN>"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:44
+#: ../../src/wlapplication_messages.cc:54
 msgid "Options:"
 msgstr "オプション:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:46
-msgid "                      Note: New value will be written to config file"
-msgstr "                      メモ: 新しい値は設定ファイルに書き込まれます"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:55
-msgid "                      Default is ~/.widelands"
-msgstr "                      デフォルトは ~/.widelands"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_messages.cc:139
+#: ../../src/wlapplication_messages.cc:173
 msgid "Graphic options:"
 msgstr "グラフィックオプション:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: You may translate true/false, also as on/off or yes/no, but
-#. * TRANSLATORS: it HAS TO BE CONSISTENT with the translation in the
-#. widelands
-#. textdomain
-#: ../../src/wlapplication_messages.cc:155
+#: ../../src/wlapplication_messages.cc:198
 msgid "Options for the internal window manager:"
 msgstr "内部ウィンドウマネージャーのオプション:"

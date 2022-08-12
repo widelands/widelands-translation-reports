@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-04-13 10:15+0000\n"
-"PO-Revision-Date: 2021-03-02 12:22+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-02-13 02:42+0000\n"
+"PO-Revision-Date: 2015-02-02 13:54+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Hebrew (http://www.transifex.com/widelands/widelands/language/"
 "he/)\n"
 "Language: he\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/critters/badger/init.lua:124
+#: ../../data/world/critters/badger/init.lua:137
 msgid "Badger"
 msgstr "גירית"
 
@@ -150,35 +150,35 @@ msgid "Desert"
 msgstr "מדבר"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/resources/init.lua:110
+#: ../../data/world/resources/coal/init.lua:110
 msgid "Coal"
 msgstr "פיחם"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/resources/init.lua:126
+#: ../../data/world/resources/fish/init.lua:7
+msgid "Fish"
+msgstr "דג"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/world/resources/gold/init.lua:7
 msgid "Gold"
 msgstr "זהב"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/resources/init.lua:142
+#: ../../data/world/resources/iron/init.lua:7
 msgid "Iron"
 msgstr "ברזל"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/resources/init.lua:158
+#: ../../data/world/resources/stones/init.lua:7
 msgid "Stones"
 msgstr "אבנים"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/resources/init.lua:174
+#: ../../data/world/resources/water/init.lua:7
 #: ../../data/world/terrains/desert/water/init.lua:5
 #: ../../data/world/terrains/summer/water/init.lua:5
 #: ../../data/world/terrains/wasteland/water/init.lua:5
 #: ../../data/world/terrains/winter/water/init.lua:5
 msgid "Water"
 msgstr "מים"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/world/resources/init.lua:190
-msgid "Fish"
-msgstr "דג"

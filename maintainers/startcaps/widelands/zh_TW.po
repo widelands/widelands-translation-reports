@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: GunChleoc, 2015\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/widelands/"
 "widelands/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -12,156 +12,169 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/messages.lua:66 ../../data/scripting/messages.lua:68
-#: ../../src/wui/game_message_menu.cc:72 ../../src/wui/game_summary.cc:114
+#: ../../src/wui/game_message_menu.cc:70 ../../src/wui/game_summary.cc:113
 msgid "Status"
 msgstr "狀態"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/editorinteractive.cc:165
-#: ../../src/wui/buildingwindow.cc:413 ../../src/wui/interactive_player.cc:224
+#: ../../src/editor/editorinteractive.cc:170
+#: ../../src/wui/buildingwindow.cc:417 ../../src/wui/interactive_player.cc:235
 msgid "Help"
 msgstr "幫助"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:225
+#: ../../src/editor/editorinteractive.cc:234
 msgid "Exit Editor"
 msgstr "退出編輯器"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:279
-#: ../../src/editor/tools/info_tool.cc:112
-#: ../../src/editor/ui_menus/tool_set_terrain_options_menu.cc:92
-#: ../../src/wui/minimap.cc:151
+#: ../../src/editor/editorinteractive.cc:288
+#: ../../src/editor/ui_menus/field_info_window.cc:139
+#: ../../src/editor/ui_menus/tool_set_terrain_options_menu.cc:91
+#: ../../src/wui/minimap.cc:155
 msgid "Terrain"
 msgstr "地形"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the editor's tool menu
-#: ../../src/editor/editorinteractive.cc:323
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:654
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:171
+#: ../../src/editor/editorinteractive.cc:333
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:677
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:149
 msgid "Players"
 msgstr "玩家"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:204
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:140
-#: ../../src/ui_fsmenu/netsetup_lan.cc:130 ../../src/wui/mapdetails.cc:141
-#: ../../src/wui/minimap.cc:140
+#: ../../src/editor/ui_menus/field_info_window.cc:229
+#: ../../src/ui_fsmenu/mapdetailsbox.cc:158
+#: ../../src/ui_fsmenu/netsetup_lan.cc:131 ../../src/wui/mapdetails.cc:136
+#: ../../src/wui/minimap.cc:143
 msgid "Map"
 msgstr "地圖"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:214
+#: ../../src/editor/ui_menus/field_info_window.cc:237
 #, c-format
 msgid "Players: %u"
 msgstr "玩家: %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/tools/info_tool.cc:221
+#: ../../src/editor/ui_menus/field_info_window.cc:242
 #, c-format
 msgid "Author: %s"
 msgstr "作者: %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/help.cc:39 ../../src/ui_fsmenu/login_box.cc:239
-#: ../../src/ui_fsmenu/main.cc:988 ../../src/wui/encyclopedia_window.cc:143
-#: ../../src/wui/tribal_encyclopedia.cc:56
+#: ../../src/editor/ui_menus/help.cc:36 ../../src/ui_fsmenu/login_box.cc:238
+#: ../../src/ui_fsmenu/main.cc:1011 ../../src/wui/encyclopedia_window.cc:144
+#: ../../src/wui/tribal_encyclopedia.cc:55
 msgid "Error!"
 msgstr "錯誤!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:80
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:248
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:61
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:79
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:250
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:60
 #: ../../src/editor/ui_menus/player_menu.cc:78
-#: ../../src/ui_basic/color_chooser.cc:262
-#: ../../src/ui_basic/messagebox.cc:102 ../../src/ui_basic/text_prompt.cc:47
-#: ../../src/ui_fsmenu/addons.cc:202 ../../src/ui_fsmenu/addons.cc:1656
-#: ../../src/ui_fsmenu/addons_packager.cc:109
-#: ../../src/ui_fsmenu/helpwindow.cc:57
-#: ../../src/ui_fsmenu/keyboard_options.cc:132 ../../src/ui_fsmenu/menu.cc:145
-#: ../../src/ui_fsmenu/options.cc:96
-#: ../../src/ui_fsmenu/training_wheel_options.cc:155
-#: ../../src/wui/game_main_menu_save_game.cc:85
-#: ../../src/wui/story_message_box.cc:47
+#: ../../src/ui_basic/color_chooser.cc:263
+#: ../../src/ui_basic/messagebox.cc:108 ../../src/ui_basic/text_prompt.cc:46
+#: ../../src/ui_fsmenu/addons/login_box.cc:53
+#: ../../src/ui_fsmenu/addons/manager.cc:258
+#: ../../src/ui_fsmenu/addons/packager.cc:110
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:175
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:462
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:680
+#: ../../src/ui_fsmenu/helpwindow.cc:56
+#: ../../src/ui_fsmenu/keyboard_options.cc:68
+#: ../../src/ui_fsmenu/keyboard_options.cc:230 ../../src/ui_fsmenu/menu.cc:143
+#: ../../src/ui_fsmenu/options.cc:92
+#: ../../src/ui_fsmenu/training_wheel_options.cc:154
+#: ../../src/wui/game_main_menu_save_game.cc:86
+#: ../../src/wui/story_message_box.cc:55
 msgid "OK"
 msgstr "确定"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:81
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:256
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:69
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:757
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:69
-#: ../../src/ui_basic/color_chooser.cc:271
-#: ../../src/ui_basic/messagebox.cc:111 ../../src/ui_basic/text_prompt.cc:56
-#: ../../src/ui_fsmenu/keyboard_options.cc:49
-#: ../../src/ui_fsmenu/login_box.cc:47 ../../src/ui_fsmenu/options.cc:94
-#: ../../src/ui_fsmenu/training_wheel_options.cc:109
-#: ../../src/wui/economy_options_window.cc:662
-#: ../../src/wui/game_main_menu_save_game.cc:84
+#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:80
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:258
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:68
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:755
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:68
+#: ../../src/ui_basic/color_chooser.cc:272
+#: ../../src/ui_basic/messagebox.cc:117 ../../src/ui_basic/text_prompt.cc:55
+#: ../../src/ui_fsmenu/addons/contact.cc:56
+#: ../../src/ui_fsmenu/addons/login_box.cc:61
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:191
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:470
+#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:63
+#: ../../src/ui_fsmenu/keyboard_options.cc:63
+#: ../../src/ui_fsmenu/login_box.cc:46 ../../src/ui_fsmenu/options.cc:90
+#: ../../src/ui_fsmenu/training_wheel_options.cc:108
+#: ../../src/wui/economy_options_window.cc:679
+#: ../../src/wui/game_main_menu_save_game.cc:85
 msgid "Cancel"
 msgstr "取消"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../src/editor/ui_menus/main_menu_map_options.cc:61
-#: ../../src/ui_fsmenu/addons_packager_box.cc:271
-#: ../../src/wui/economy_options_window.cc:663
+#: ../../src/ui_fsmenu/addons/packager_box.cc:437
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:66
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:89
+#: ../../src/wui/economy_options_window.cc:680
 #: ../../src/wui/load_or_save_game.cc:52
 msgid "Delete"
 msgstr "删除"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:357
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:359
 msgid "Authors:"
 msgstr "作者:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:75
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:74
 msgid "Terrain:"
 msgstr "地形:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:64
-#: ../../src/wui/gamedetails.cc:179
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:63
+#: ../../src/wui/gamedetails.cc:172
 msgid "Players:"
 msgstr "玩家:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:622
-#: ../../src/wui/game_summary.cc:112
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
+#: ../../src/wui/game_summary.cc:111
 msgid "Player"
 msgstr "玩家"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
-#: ../../src/editor/ui_menus/player_menu.cc:158
-#: ../../src/editor/ui_menus/player_menu.cc:285
+#: ../../src/editor/ui_menus/player_menu.cc:160
+#: ../../src/editor/ui_menus/player_menu.cc:288
 #: ../../src/logic/single_player_game_settings_provider.cc:110
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:67
-#: ../../src/map_io/map_player_names_and_tribes_packet.cc:100
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:111
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:162
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:50
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:65
+#: ../../src/map_io/map_player_names_and_tribes_packet.cc:99
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:131
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:185
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:49
+#: ../../src/wui/game_diplomacy_menu.cc:158
 #, c-format
 msgid "Player %u"
 msgstr "玩家 %u"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Header for campaign tribe
-#: ../../src/editor/ui_menus/player_menu.cc:183
-#: ../../src/ui_fsmenu/addons_packager_box.cc:314
-#: ../../src/ui_fsmenu/campaign_select.cc:49
-#: ../../src/ui_fsmenu/campaigndetails.cc:58
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:181
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:57
+#: ../../src/editor/ui_menus/player_menu.cc:184
+#: ../../src/ui_fsmenu/addons/packager_box.cc:478
+#: ../../src/ui_fsmenu/campaign_select.cc:48
+#: ../../src/ui_fsmenu/campaigndetails.cc:55
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:204
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:53
 msgid "Tribe"
 msgstr "部落"
 
@@ -169,179 +182,180 @@ msgstr "部落"
 #. * TRANSLATORS: Header in production site window if there is more than 1
 #. worker. If you
 #. need plural forms here, please let us know.
-#: ../../src/logic/map_objects/tribes/tribe_descr.cc:192
-#: ../../src/wui/economy_options_window.cc:73
-#: ../../src/wui/general_statistics_menu.cc:142
-#: ../../src/wui/productionsitewindow.cc:112
-#: ../../src/wui/warehousewindow.cc:265
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:180
+#: ../../src/wui/economy_options_window.cc:77
+#: ../../src/wui/general_statistics_menu.cc:144
+#: ../../src/wui/productionsitewindow.cc:111
+#: ../../src/wui/warehousewindow.cc:268
 msgid "Workers"
 msgstr "工人"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/replay_game_controller.cc:102
+#: ../../src/logic/replay_game_controller.cc:107
 msgid ""
 "The end of the replay has been reached and the game has been paused. You may"
 " unpause the game and continue watching if you want to."
 msgstr "重新整理時間已經暫停。你可以結束暫停或取消繼續執行。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/helpwindow.cc:47 ../../src/wui/helpwindow.cc:45
+#: ../../src/ui_fsmenu/addons/login_box.cc:87
+#: ../../src/ui_fsmenu/login_box.cc:52
+msgid "Password:"
+msgstr "密碼:"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/ui_fsmenu/helpwindow.cc:46 ../../src/wui/helpwindow.cc:44
 #, c-format
 msgid "Help: %s"
 msgstr "幫助： %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is a map tag
-#: ../../src/ui_fsmenu/launch_game.cc:236
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:466
-#: ../../src/ui_fsmenu/scenariodetails.cc:48
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:289
-#: ../../src/wui/map_tags.cc:44 ../../src/wui/mapdetails.cc:141
+#: ../../src/ui_fsmenu/launch_game.cc:238
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:485
+#: ../../src/ui_fsmenu/scenariodetails.cc:46
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:283
+#: ../../src/wui/map_tags.cc:43 ../../src/wui/mapdetails.cc:136
 msgid "Scenario"
 msgstr "方案"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/login_box.cc:53
-msgid "Password:"
-msgstr "密碼:"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:296 ../../src/wlapplication_options.cc:162
+#: ../../src/ui_fsmenu/main.cc:320 ../../src/wlapplication_options.cc:218
 msgid "New Game"
 msgstr "新遊戲"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:301 ../../src/wlapplication_options.cc:186
+#: ../../src/ui_fsmenu/main.cc:325 ../../src/wlapplication_options.cc:242
 msgid "Campaigns"
 msgstr "推廣活動"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/main.cc:445 ../../src/ui_fsmenu/options.cc:90
-#: ../../src/wlapplication_options.cc:253
+#: ../../src/ui_fsmenu/main.cc:462 ../../src/ui_fsmenu/options.cc:86
+#: ../../src/wlapplication_options.cc:309
 msgid "Options"
 msgstr "建議"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:58
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:56
 msgid "Role"
 msgstr "角色"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:170
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:158
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:193
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:349
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:152
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:197
 msgid "Type"
 msgstr "類型"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:327
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:203
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:349
+#: ../../src/ui_fsmenu/singleplayerdropdown.cc:197
 msgid "Human"
 msgstr "人類"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:95
+#: ../../src/ui_fsmenu/options.cc:91
 msgid "Apply"
 msgstr "應用"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/options.cc:119
+#: ../../src/ui_fsmenu/options.cc:115
 msgid "Language"
 msgstr "語言"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Entry in the window size dropdown
-#: ../../src/ui_fsmenu/options.cc:463
+#: ../../src/ui_fsmenu/options.cc:472
 msgid "Fullscreen"
 msgstr "全屏"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:691 ../../src/wui/mapdetails.cc:231
+#: ../../src/wlapplication.cc:805 ../../src/wui/mapdetails.cc:217
 msgid "Game data error"
 msgstr "遊戲日期錯誤"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:514 ../../src/wui/game_chat_menu.cc:53
-#: ../../src/wui/interactive_gamebase.cc:327
+#: ../../src/wlapplication_options.cc:586 ../../src/wui/game_chat_menu.cc:54
+#: ../../src/wui/interactive_gamebase.cc:368
 msgid "Chat"
 msgstr "聊天"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/building_statistics_menu.cc:344
+#: ../../src/wui/attack_window.cc:46
+msgid "Attack"
+msgstr "攻擊"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/building_statistics_menu.cc:342
 msgid "Mines"
 msgstr "公里"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:269
+#: ../../src/wui/buildingwindow.cc:274
 msgid "Continue"
 msgstr "繼續"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Stop/Continue toggle button for production sites.
-#: ../../src/wui/buildingwindow.cc:271
+#: ../../src/wui/buildingwindow.cc:276
 msgid "Stop"
 msgstr "停止"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/fieldaction.cc:551
-msgid "Attack"
-msgstr "攻擊"
-
-# (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: Button tooltip
 #. * TRANSLATORS: An entry in the game's main menu
-#: ../../src/wui/game_client_disconnected.cc:103
-#: ../../src/wui/game_summary.cc:103 ../../src/wui/interactive_gamebase.cc:144
+#. * TRANSLATORS: Button tooltip
+#: ../../src/wui/game_client_disconnected.cc:102
+#: ../../src/wui/game_summary.cc:102 ../../src/wui/interactive_gamebase.cc:170
 msgid "Exit Game"
 msgstr "退出遊戲"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_message_menu.cc:70
+#: ../../src/wui/game_message_menu.cc:68
 msgid "Title"
 msgstr "標題"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:245
+#: ../../src/wui/game_summary.cc:244
 msgid "You won!"
 msgstr "你贏了!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:247
+#: ../../src/wui/game_summary.cc:246
 msgid "You lost."
 msgstr "你輸了。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/general_statistics_menu.cc:187
+#: ../../src/wui/general_statistics_menu.cc:189
 msgid "Military"
 msgstr "軍事"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Title for the statistics menu button in the game
-#: ../../src/wui/interactive_player.cc:179
-#: ../../src/wui/interactive_spectator.cc:45
+#: ../../src/wui/interactive_player.cc:181
+#: ../../src/wui/interactive_spectator.cc:44
 msgid "Statistics"
 msgstr "統計"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: An entry in the game's statistics menu
-#: ../../src/wui/interactive_player.cc:305
-#: ../../src/wui/militarysitewindow.cc:41
+#: ../../src/wui/interactive_player.cc:318
+#: ../../src/wui/militarysitewindow.cc:40 ../../src/wui/warehousewindow.cc:287
 msgid "Soldiers"
 msgstr "士兵"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/maptable.cc:35
+#: ../../src/wui/maptable.cc:32
 msgid "Size"
 msgstr "大小"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/soldiercapacitycontrol.cc:82
+#: ../../src/wui/soldiercapacitycontrol.cc:85
 msgid "Capacity"
 msgstr "容量"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/ware_statistics_menu.cc:133
+#: ../../src/wui/ware_statistics_menu.cc:135
 msgid "Production"
 msgstr "生產"

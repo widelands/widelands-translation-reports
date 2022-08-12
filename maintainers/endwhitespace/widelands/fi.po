@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-02 12:39+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-02 13:35+0000\n"
+"Last-Translator: LINUX SAUNA, 2022\n"
 "Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
@@ -12,10 +12,63 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:487
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:491
 #, c-format
 msgid "It is not recommended to permit waterway lengths greater than %u"
 msgstr "Vältä yli %upitkiä lauttareittejä. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/logic/playercommand.cc:2161
+#, c-format
+msgid "%s has resigned and is now a spectator."
+msgstr "%s kirjautui ulos ja vain seuraa nyt peliä. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/network/network_gaming_messages.cc:163
+#, c-format
+msgid "Client %s is cheating!"
+msgstr "Asiakas %s huijaa! "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:78
+#, c-format
+msgid "%u bytes"
+msgstr "%u tavua "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:872
+#, c-format
+msgid "%u comment:"
+msgid_plural "%u comments:"
+msgstr[0] "%u kommentti:"
+msgstr[1] "%u kommenttia: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:410
+#, c-format
+msgid ""
+"Are you certain that you want to upgrade this add-on?\n"
+"\n"
+"%1$s\n"
+"by %2$s\n"
+"%3$s\n"
+"Installed version: %4$s\n"
+"Available version: %5$s\n"
+"Category: %6$s\n"
+"%7$s"
+msgstr "Oletko varma että haluat päivittää tämän laajennuksen?\n\n%1$s\ntekijältä %2$s\n%3$s\nAsennettu versio: %4$s\nSaatavilla oleva versio: %5$s\nKategoria: %6$s\n%7$s "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wlapplication.cc:1310
+#, c-format
+msgid "%s can not be combined with other actions"
+msgstr "%s ei voi yhdistää muihin toimintoihin "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/interactive_base.cc:733
+#, c-format
+msgid "Waterway length: %1$u/%2$u"
+msgstr "Vesiväylän pituus: %1$u/%2$u "

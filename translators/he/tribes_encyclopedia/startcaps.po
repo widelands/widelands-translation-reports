@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2021-05-23 10:22+0000\n"
-"PO-Revision-Date: 2021-05-06 19:43+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
+"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"PO-Revision-Date: 2015-02-03 14:53+0000\n"
+"Last-Translator: GunChleoc, 2015\n"
 "Language-Team: Hebrew (http://www.transifex.com/widelands/widelands/language/"
 "he/)\n"
 "Language: he\n"
@@ -13,121 +13,109 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.3.2\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore author helptext for a barbarian production site:
 #. Gamekeeper's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1212
+#: ../../data/tribes/initialization/barbarians/units.lua:1211
 msgctxt "barbarians_building"
 msgid "Barbarian nursery rhyme"
 msgstr "ברברימ"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:343
-#: ../../data/tribes/scripting/help/init.lua:59
+#: ../../data/tribes/scripting/help/building_help.lua:345
+#: ../../data/tribes/scripting/help/init.lua:89
 #: ../../data/tribes/scripting/help/tips.lua:29
 msgid "General"
 msgstr "גנרל"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:344
+#: ../../data/tribes/scripting/help/building_help.lua:346
 msgid "Purpose:"
 msgstr "מטרה:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:436
-#: ../../data/tribes/scripting/help/building_help.lua:656
+#: ../../data/tribes/scripting/help/building_help.lua:438
+#: ../../data/tribes/scripting/help/building_help.lua:653
 msgid "Note:"
 msgstr "הודעה:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:441
+#: ../../data/tribes/scripting/help/building_help.lua:443
 msgid "Work area radius:"
 msgstr "אזור עבודה"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:445
-#: ../../data/tribes/scripting/help/building_help.lua:450
+#: ../../data/tribes/scripting/help/building_help.lua:447
+#: ../../data/tribes/scripting/help/building_help.lua:452
 msgid "Healing:"
 msgstr "ריפוי:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:452
-#: ../../data/tribes/scripting/help/building_help.lua:456
+#: ../../data/tribes/scripting/help/building_help.lua:454
+#: ../../data/tribes/scripting/help/building_help.lua:459
 msgid "Capacity:"
 msgstr "כמות:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:458
+#: ../../data/tribes/scripting/help/building_help.lua:456
 msgid "Vision range:"
 msgstr "טווח ראיה"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Heading in the building help for wares that a building accepts
 #. (e.g. wheat for a mill).
-#: ../../data/tribes/scripting/help/building_help.lua:489
+#: ../../data/tribes/scripting/help/building_help.lua:492
 msgid "Incoming:"
 msgstr "מגיע"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a verb (The miner mines)
-#: ../../data/tribes/scripting/help/building_help.lua:498
+#: ../../data/tribes/scripting/help/building_help.lua:501
 msgid "Mines:"
 msgstr "מכרות:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:500
+#: ../../data/tribes/scripting/help/building_help.lua:503
 msgid "Collects:"
 msgstr "אוסף:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:514
-msgid "Produces:"
-msgstr "מוצרים:"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:557
+#: ../../data/tribes/scripting/help/building_help.lua:554
 msgid "None"
 msgstr "אף אחד"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: This is the header for the "Building" section in the building
-#. help, containing size info, buildcost etc.
-#: ../../data/tribes/scripting/help/building_help.lua:641
-msgid "Building"
-msgstr "בניין"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:665
-#: ../../data/tribes/scripting/help/immovable_help.lua:53
+#: ../../data/tribes/scripting/help/building_help.lua:662
+#: ../../data/tribes/scripting/help/immovable_help.lua:58
 msgid "Build cost:"
 msgstr "עלות בנייה:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:732
-#: ../../data/tribes/scripting/help/building_help.lua:781
+#: ../../data/tribes/scripting/help/building_help.lua:729
+#: ../../data/tribes/scripting/help/building_help.lua:778
 msgid "Unknown"
 msgstr "לא ידוע"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:825
+#: ../../data/tribes/scripting/help/building_help.lua:822
 msgid "Crew required:"
 msgstr "צוות דרוש:"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:825
-#: ../../data/tribes/scripting/help/init.lua:92
+#: ../../data/tribes/scripting/help/building_help.lua:822
+#: ../../data/tribes/scripting/help/init.lua:122
 msgid "Workers"
 msgstr "עובדים"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/building_help.lua:898
+#: ../../data/tribes/scripting/help/building_help.lua:891
 msgid "Production"
 msgstr "ייצור"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Space on the map required for building a building there
-#: ../../data/tribes/scripting/help/format_help.lua:80
+#: ../../data/tribes/scripting/help/format_help.lua:94
 msgid "Space required:"
 msgstr "מקום נדרש:"
