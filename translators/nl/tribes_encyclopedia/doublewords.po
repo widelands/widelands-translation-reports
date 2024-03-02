@@ -2,21 +2,39 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: CrisiusXIII <chris@cborn.nl>, 2021\n"
-"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Alex Rijckaert, 2023-2024\n"
+"Language-Team: Dutch (http://app.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
+
+# (pofilter) doublewords: The word 'ze' is repeated
+#. TRANSLATORS: Helptext for an Amazon ware: Shovel, part 2
+#: ../../data/tribes/initialization/amazons/units.lua:343
+msgctxt "amazons_ware"
+msgid ""
+"Therefore the jungle preservers, the cassava farmers and the cocoa farmers "
+"use them. They are produced by the stone carver."
+msgstr "Daarom gebruiken de oerwoudbewaarders, de cassaveboeren en de cacaoboeren ze. Ze worden gemaakt door de steenhouwer."
+
+# (pofilter) doublewords: The word 'gestaag' is repeated
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Ferry Yard
+#: ../../data/tribes/initialization/atlanteans/units.lua:2055
+msgctxt "atlanteans_building"
+msgid ""
+"‘Row, row, row your boat<br>gently ’long the shore.<br>Steadily steadily "
+"steadily steadily<br>bring the wares ashore.’"
+msgstr "‘Roei, roei, roei met je boot<br>zachtjes langs de kust.<br>Gestaag gestaag gestaag gestaag<br>breng de waren aan wal.'"
 
 # (pofilter) doublewords: The word 'je' is repeated
-#. TRANSLATORS: Lore helptext for a frisian production site: Blacksmithy
-#: ../../data/tribes/initialization/frisians/units.lua:1785
+#. TRANSLATORS: Lore helptext for a Frisian production site: Blacksmithy
+#: ../../data/tribes/initialization/frisians/units.lua:1826
 msgctxt "frisians_building"
 msgid "If you don’t have iron, change your name from blacksmith to lacksmith!"
 msgstr "Als je geen ijzer hebt, mag je je geen smid noemen!"

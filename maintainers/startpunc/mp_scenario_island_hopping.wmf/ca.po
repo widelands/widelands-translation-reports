@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-06-22 03:53+0000\n"
+"POT-Creation-Date: 2024-01-01 02:43+0000\n"
 "PO-Revision-Date: 2015-02-03 14:27+0000\n"
-"Last-Translator: Juanjo, 2015-2016,2020,2022\n"
-"Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Juanjo, 2015-2016,2020,2022-2023\n"
+"Language-Team: Catalan (http://app.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:9
@@ -20,32 +20,33 @@ msgid ""
 "Island Hopping is a traditional tournament in Atlantean culture. The rules "
 "of the game are simple: you start with a headquarters on an island. When you"
 " finish a castle at the end of the first island, you are granted a second "
-"headquarters on a second island, which will contain all wares from your "
-"first headquarters."
-msgstr "«Saltant d’illa a illa» és un torneig tradicional en la cultura atlant. Les regles de la partida són senzilles: comenceu amb un quarter general en una illa. Quan acabeu el castell al final de la primera illa, rebreu un quarter general a la segona illa, que contindrà béns del teu primer quarter general."
+"headquarters on a second island, which will get all wares, workers and "
+"soldiers transferred from your headquarters and warehouses on the first "
+"island."
+msgstr "«Saltant d’illa a illa» és un torneig tradicional en la cultura atlant. Les regles de la partida són senzilles: comenceu amb un quarter general en una illa. Quan acabeu el castell al final de la primera illa, rebreu un quarter general a la segona illa, que rebrà tots els béns dels magatzems i del primer quarter general que tingueu a la primera illa."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:43
+#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:45
 msgid "%1$s was the first to reach Island number %2$i."
 msgstr "El primer a arribar a l’illa número %2$i va ser el jugador %1$s."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:44
+#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:46
 msgid "%1$s was the second to reach Island number %2$i."
 msgstr "El segon a arribar a l’illa número %2$i va ser el jugador %1$s."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:45
+#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:47
 msgid "%1$s was the third to reach Island number %2$i."
 msgstr "El tercer a arribar a l’illa número %2$i va ser el jugador %1$s."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:46
+#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:48
 msgid "%1$s was the fourth to reach Island number %2$i."
 msgstr "El quart a arribar a l’illa número %2$i va ser el jugador %1$s."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:51
+#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:53
 #, lua-format
 msgid ""
 "%s is now King of the Hill and will win the game in 20 minutes, if nobody "
@@ -53,6 +54,6 @@ msgid ""
 msgstr "El rei del turó és %s i guanyarà la partida en 20 minuts si ningú recupera el turó abans."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:54
+#: ../../data/maps/MP_Scenarios/Island_Hopping.wmf/scripting/texts.lua:56
 msgid "%1$s has been King of the Hill for %2$s!"
 msgstr "El rei del turó ha estat %1$s durant %2$s!"

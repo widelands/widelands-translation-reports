@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2018-2022\n"
-"Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2018-2024\n"
+"Language-Team: Low German (http://app.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:50
+#: ../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "»%s«"
@@ -30,8 +30,8 @@ msgstr ","
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:175
-#: ../../src/graphic/gl/initialize.cc:188
+#: ../../src/graphic/gl/initialize.cc:183
+#: ../../src/graphic/gl/initialize.cc:196
 msgid ""
 "There is an unknown problem with reading the information from the graphics "
 "driver."
@@ -40,7 +40,7 @@ msgstr "’t gifft een Probleem, waar wi nix över weten, Informationen vun dien
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
 #. *  %s is a list of illegal characters
-#: ../../src/io/filesystem/illegal_filename_check.cc:79
+#: ../../src/io/filesystem/illegal_filename_check.cc:77
 #, c-format
 msgctxt "illegal_filename_characters"
 msgid "%s at the start of the filename"
@@ -49,14 +49,14 @@ msgstr "An’n Begünn vun de Naam vun de Datei staht %s"
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
 #. * %s is a list of illegal characters
-#: ../../src/io/filesystem/illegal_filename_check.cc:86
+#: ../../src/io/filesystem/illegal_filename_check.cc:84
 #, c-format
 msgctxt "illegal_filename_characters"
 msgid "%s anywhere in the filename"
 msgstr "Enerwaar in de Naam vun de Datei staht %s"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/generic_save_handler.cc:270
+#: ../../src/logic/generic_save_handler.cc:273
 msgid "An unexpected error occurred:"
 msgstr "’t hett eenen unverwachten Fehler geven:"
 
@@ -65,7 +65,7 @@ msgstr "’t hett eenen unverwachten Fehler geven:"
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:1237
+#: ../../src/logic/map_objects/tribes/production_program.cc:1276
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"
@@ -76,7 +76,7 @@ msgstr[1] "dat hapert an %s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1342
+#: ../../src/logic/map_objects/tribes/production_program.cc:1381
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -87,7 +87,7 @@ msgstr[1] "%s sünd produzeert worden"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1424
+#: ../../src/logic/map_objects/tribes/production_program.cc:1463
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -95,7 +95,7 @@ msgstr[0] "%s is anhüürt worden"
 msgstr[1] "%s sünd anhüürt worden"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:394
+#: ../../src/ui_fsmenu/addons/manager.cc:426
 msgid ""
 "It is forbidden to upload add-ons containing harmful or malicious content or"
 " spam. By uploading an add-on, you assert that the add-on is of your own "
@@ -104,33 +104,7 @@ msgid ""
 msgstr "’t is nich verlöövt, Verwiederns uptoladen, wat slimme of ungode Inhollen of Werbung enthollen. Indeem du een Verwiedern uplaadst, sekerst du to, dat du dat Verwiedern sülven schreven hest of dat de Schriever(s) daarmit inverstahn is/sünd, dat du dat Verwiedern för hüm/se uplaadst."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1176
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which could not be found"
-msgstr "· »%1$s« bruukt »%2$s« wat nich funnen worden kann"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1180
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
-msgstr "· »%1$s« bruukt »%2$s« wat utknipst is"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1187
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
-msgstr "· »%1$s« bruukt »%2$s« wat unner de anner list is"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1215
-#, c-format
-msgid ""
-"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
-"wrong order"
-msgstr "· »%1$s« bruukt eerst »%2$s« un dann »%3$s«, aver de Rieg is annersrum"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:531
+#: ../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
@@ -138,22 +112,33 @@ msgstr "»%1$s« is keene gültige Versioon. Dat Verwiedern »%2$s« word nich s
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Short for Color text markup
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:231
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:230
 msgctxt "markup"
 msgid "C"
 msgstr "#"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:895
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:912
 #, c-format
 msgid "‘%1$s’ commented on version %2$s:"
 msgstr "»%1$s« hett över Versioon %2$s kommenteert:"
 
 # (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/crash_report.cc:132
+#, c-format
+msgid ""
+"It looks like Widelands crashed the last time you ran it, but a backtrace "
+"for debugging was automatically generated. Please provide the report along "
+"with a description of what was going on in the game and what you did last "
+"before the crash to the Widelands Development Team under %s so we can fix "
+"the problem."
+msgstr "’t süchst so ut, as of Widelands ofstört is, as du dat tolest utföhrt hest. Aver eene Rückspoor för ’t Fehler-Söken is automatisk schrieven worden. Bidde schick de Bericht tosamen mit een Beschrieven, wat in de Speel löss weer un wat du tolest daan hest, ehr dat Speel ofstört is, an de Widelands Entwicklen-Klottje unner %s, daarmit wi dat Probleem ofhelpen könen."
+
+# (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
 #. empty if none is used. %2 is scrolling direction.
 #. %3 is the name of the conflicting function.
-#: ../../src/ui_fsmenu/mousewheel_options.cc:282
+#: ../../src/ui_fsmenu/mousewheel_options.cc:297
 #, c-format
 msgid ""
 "‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
@@ -161,29 +146,23 @@ msgid ""
 msgstr "»%1$s%2$s« gifft een Probleem mit »%3$s«. Bidde köör wat anner ut of änner eerst de anner Instellen."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/mousewheel_options.cc:507
+#: ../../src/ui_fsmenu/mousewheel_options.cc:567
 #, c-format
 msgid ""
-"‘%1$s’ or ‘%2$s’ conflicts with the recommended settings. Change the "
-"conflicting setting(s) too?"
-msgstr "»%1$s« of »%2$s« gifft een Probleem mit de anraadt Instellens. De Instellens, wat Problemen maken, ok ännern?"
+"‘%1$s’, ‘%2$s’, or ‘%3$s’ conflicts with the recommended settings. Change "
+"the conflicting setting(s) too?"
+msgstr "»%1$s«, »%2$s« of »%3$s« gifft een Probleem mit de anraadt Instellens. De Instellens, wat Problemen maken, ok ännern?"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:134
+#: ../../src/ui_fsmenu/scenario_select.cc:136
 msgid "#"
 msgstr "Nr."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication.cc:1310
-#, c-format
-msgid "%s can not be combined with other actions"
-msgstr "»%s« kann nich tosamen mit anner Dingen bruukt worden"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:122
+#: ../../src/wui/gamedetails.cc:119
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] "%1% Verteeknis un %2% utköört:"

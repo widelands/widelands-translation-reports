@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2018-2022\n"
-"Language-Team: Low German (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2018-2024\n"
+"Language-Team: Low German (http://app.transifex.com/widelands/widelands/"
 "language/nds/)\n"
 "Language: nds\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublewords: The word 'dat' is repeated
-#: ../../src/logic/replay.cc:87
+#: ../../src/logic/replay.cc:95
 #, c-format
 msgid ""
 "The replay has desynced and the game was paused.\n"
@@ -26,7 +26,7 @@ msgid ""
 msgstr "Dat Upteken hett sik verschuven un dat Speel is anhollt worden.\nDu kiekst wahrschienelk een Upteken an, wat mit eener anner Versioon vun Widelands maakt worden is. Dat word nich unnerstütt.\n\nWenn du di seker büst, dat dat Upteken mit de sülve Versioon vun Widelands, %1$s, maakt worden is, bidde melle deeses Probleem. Du finnst mehr Narichten över dat Probleem in de Normaal-Utgaav (unner Windows is dat stdout.txt). Bidde föög deese Informatioon to de Fehler-Mellen hento."
 
 # (pofilter) doublewords: The word 'dat' is repeated
-#: ../../src/map_io/map_scripting_packet.cc:82
+#: ../../src/map_io/map_scripting_packet.cc:80
 msgid ""
 "The engine received a SIGABRT signal which was most likely triggered by a "
 "corrupted savegame. No solution for this bug has been implemented yet. We "
@@ -34,7 +34,12 @@ msgid ""
 msgstr "Dat Speel hett een SIGABRT-Signaal kregen, wat wull vun eenem kaputten sekert Speel komen is. Deeser Fehler kunn noch nich ofholpen worden. Leider is deeses sekert Speel wull so kaputt, dat dat nich mehr to bruken is."
 
 # (pofilter) doublewords: The word 'dat' is repeated
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:458
+#: ../../src/network/network_gaming_messages.cc:59
+msgid "Client did not submit sync report in time."
+msgstr "De Gast hett nich bi Tied mellt, dat dat Speel nich verschuven is."
+
+# (pofilter) doublewords: The word 'dat' is repeated
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:483
 msgid ""
 "This add-on was not checked by the Widelands Development Team yet. We cannot"
 " guarantee that it does not contain harmful or offensive content."

@@ -2,38 +2,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Jiawei Sun, 2022\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: 92373a9a734415f33212259453a6274d_77ab48e, 2022\n"
+"Language-Team: Chinese (China) (http://app.transifex.com/widelands/widelands/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #. * TRANSLATORS: Tooltip for the random height tool in the editor
-#: ../../src/editor/editorinteractive.cc:282
+#: ../../src/editor/editorinteractive.cc:304
 msgid "Set the terrain height to random values"
 msgstr " 把地形高度设定为随机值"
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #. * TRANSLATORS: Help text in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:180
+#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:195
 msgid "Click to select an item. Use the Ctrl key to select multiple items."
 msgstr " 单击以选择项目。使用Ctrl键选择多个项目。 "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:172
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:174
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:187
 msgid "Error Creating Directory!"
 msgstr " 创建目录出错！ "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:339
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
 msgid "Saving the map…"
 msgstr " 正在保存地图… "
 
@@ -41,7 +41,7 @@ msgstr " 正在保存地图… "
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver. Font
 #. support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:171
+#: ../../src/graphic/gl/initialize.cc:179
 msgid ""
 "Widelands won't work because we were unable to detect the shading language "
 "version."
@@ -50,24 +50,24 @@ msgstr " Widelands无法正常工作，因为我们检测不到shading language 
 # (pofilter) startwhitespace: Different whitespace at the start
 #. * TRANSLATORS: Tooltip header for characters in illegal filenames.
 #. * This is followed by a list of bullet points
-#: ../../src/io/filesystem/illegal_filename_check.cc:95
+#: ../../src/io/filesystem/illegal_filename_check.cc:93
 msgctxt "illegal_filename_characters"
 msgid "The following characters are not allowed:"
 msgstr " 不允许使用以下字符： "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/logic/map_objects/tribes/ship.cc:559
+#: ../../src/logic/map_objects/tribes/ship.cc:1792
 msgid "An expedition ship sailed around its island without any events."
 msgstr " 一艘探险船绕岛航行，没有发生任何事件。 "
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:622
+#: ../../src/logic/map_objects/tribes/ship.cc:1856
 msgid "Land Ahoy!"
 msgstr " 着陆啊！ "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/logic/map_objects/tribes/warehouse.cc:645
+#: ../../src/logic/map_objects/tribes/warehouse.cc:687
 msgid "A waterway had to be destroyed to make room for your new port dock."
 msgstr " 为了在给你们的新码头腾出空间修建船坞，一条水道不得不被摧毁。 "
 
@@ -83,73 +83,68 @@ msgid "The stated reason was: %s"
 msgstr " 所的述理由是： %s"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/internet_gaming_messages.cc:43
+#: ../../src/network/internet_gaming_messages.cc:28
 msgid "There is no user with this name logged in."
 msgstr " 没有使用此账号名的用户登录。 "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/internet_gaming_messages.cc:44
+#: ../../src/network/internet_gaming_messages.cc:29
 msgid "The game no longer exists, maybe it has just been closed."
 msgstr " 游戏已不存在，也许刚刚被关闭。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/internet_gaming_messages.cc:46
+#: ../../src/network/internet_gaming_messages.cc:31
 msgid "You have been temporarily banned from online gaming."
 msgstr " 你被暂时禁止在线游戏。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/internet_gaming_messages.cc:53
+#: ../../src/network/internet_gaming_messages.cc:40
 msgid "Connection was closed by the client normally."
 msgstr " 客户端正常关闭了连接。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/internet_gaming_messages.cc:54
+#: ../../src/network/internet_gaming_messages.cc:41
 msgid "The connection to the metaserver was lost."
 msgstr " 与元数据服务器的连接已丢失。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/internet_gaming_messages.cc:57
+#: ../../src/network/internet_gaming_messages.cc:45
 msgid ""
 "You got disconnected from the metaserver, as you did not answer a PING "
 "request in time."
 msgstr " 你已与元数据服务器断开连接，因为你没有及时响应PING请求。 "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/network_gaming_messages.cc:118
+#: ../../src/network/network_gaming_messages.cc:32
 msgid "Connection was lost."
 msgstr " 连接丢失。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/network_gaming_messages.cc:160
+#: ../../src/network/network_gaming_messages.cc:74
 #, c-format
 msgid "Completed transfer of file %1$s to %2$s"
 msgstr " 已完成文件 %1$s 到 %2$s 的传输。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/network/network_gaming_messages.cc:162
+#: ../../src/network/network_gaming_messages.cc:76
 #, c-format
 msgid "Client %1$s did not answer for more than %2$s."
 msgstr " 客户端 %1$s 没有应答超过了 %2$s 的时间。"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/ui_basic/spinbox.cc:146
-msgid "Decrease the value by 10"
-msgstr " 把值减少10 "
-
-# (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:212
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:449
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:216
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:474
 #, c-format
 msgid "Category: %s"
 msgstr " 类别： %s"
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:76
+#: ../../src/ui_fsmenu/internet_lobby.cc:89
 msgid "Open Games:"
 msgstr " 打开游戏： "
 
 # (pofilter) startwhitespace: Different whitespace at the start
-#: ../../src/ui_fsmenu/internet_lobby.cc:430
+#: ../../src/ui_fsmenu/internet_lobby.cc:451
 msgid ""
 "Widelands was unable to get the IP address of the server in time. There "
 "seems to be a network problem, either on your side or on the side of the "
@@ -158,7 +153,7 @@ msgstr " Widelands不能及时获取服务器的IP地址。似乎存在一个网
 
 # (pofilter) startwhitespace: Different whitespace at the start
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:657
+#: ../../src/ui_fsmenu/options.cc:768
 #, c-format
 msgid "The translation into %s is complete."
 msgstr " %s翻译已完成。"

@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-07-28 03:54+0000\n"
+"POT-Creation-Date: 2024-01-01 02:43+0000\n"
 "PO-Revision-Date: 2021-03-01 09:35+0000\n"
-"Last-Translator: Thadah D. Denyse <juchuf@gmail.com>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/widelands/teams/35159/es/)"
+"Last-Translator: Juan Miguel Bernal González, 2024\n"
+"Language-Team: Spanish (https://app.transifex.com/widelands/teams/35159/es/)"
 "\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -13,10 +13,162 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:72
+msgid "Welcome back!"
+msgstr "¡Bienvenido de nuevo!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – Introduction 3
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:97
+msgid ""
+"Atterdag! The King of the Danish Empire, and my sworn enemy. Many times did "
+"I aid the dukes of the mainland as they defended themselves against his "
+"thirst for war and conquest, and most times we fought him off. But eight "
+"weeks ago he landed with some of his allies and a large and well-trained "
+"army on my own island, Föhr, and sought to seize it."
+msgstr ""
+"¡Atterdag! El rey del Imperio danés y mi jurado enemigo. Muchas veces ayudé "
+"a los duques del continente mientras se defendían de su sed de guerra y "
+"conquista, y la mayoría de las veces luchamos contra él. Pero hace ocho "
+"semanas desembarcó con algunos de sus aliados con un ejército numeroso y "
+"bien entrenado en mi propia isla, Föhr, y trató de apoderarse de ella."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – Introduction 4
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:106
+msgid "But I will not accept defeat!"
+msgstr "¡Pero no aceptaré la derrota!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – Port Space 1
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:141
+msgid ""
+"My soldiers report they have found a port space! Now we need to build a port"
+" and start an expedition. Of course, we’ll have to build a complete "
+"seafaring economy first, with a shipyard and a weaving mill. But don’t waste"
+" too much time perfecting our economy – all that matters is that we get to "
+"the North soon."
+msgstr ""
+"¡Mis soldados informan que han encontrado un espacio portuario! Ahora "
+"necesitamos construir un puerto y comenzar una expedición. Por supuesto, "
+"primero tendremos que construir una economía marítima completa, con un "
+"astillero y una fábrica de tejidos. Pero no perdamos demasiado tiempo "
+"perfeccionando nuestra economía – lo único que importa es que lleguemos "
+"pronto al Norte."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:152
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:233
+msgid "Who are they?"
+msgstr "¿Quiénes son?"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:158
+msgid "Who are you?"
+msgstr "¿Quién sois?"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Angadthur – Strangers 2
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:160
+msgid ""
+"Be greeted, foreigners! I am Angadthur, the King of this miraculous island, "
+"a descendant of the legendary King Ajanthul the First of Atlantis himself. "
+"Be welcome to me, if you will be our friends!"
+msgstr ""
+"¡Sean bienvenidos, extranjeros! Soy Angadthur, el Rey de esta isla "
+"milagrosa, descendiente del legendario Rey Ajanthul Primero de la Atlántida."
+" ¡Sean bienvenidos si quieren ser nuestros amigos!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:164
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:176
+msgid "Greetings to the King!"
+msgstr "¡Saludos al Rey!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – Strangers 3
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:166
+msgid ""
+"Peace, King Angadthur! I am Claus Lembeck, and this is my son Henneke. We "
+"are searching for my old friend Reebaud, who has left our country several "
+"years ago to seek out a new home in the far North. If I may ask, have you "
+"heard of him before, and can you tell us where to find him?"
+msgstr ""
+"¡Paz, rey Angadthur! Soy Claus Lembeck y este es mi hijo Henneke. Estamos "
+"buscando a mi viejo amigo Reebaud, que dejó nuestro país hace varios años "
+"para buscar un nuevo hogar en el extremo Norte. Si se me permite preguntar, "
+"¿ha oído hablar de él antes? ¿Puede decirnos dónde encontrarlo?"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: M. C. Iniucundus – Strangers 2
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:241
+msgid ""
+"Greetings, Strangers! I am Marcus Caius Iniucundus, a legate of the Empire. "
+"Is this your island? We are only passing through, I hope you don’t mind. We "
+"don’t want any trouble."
+msgstr ""
+"¡Saludos, extranjeros! Soy Marcus Caius Iniucundus, un legado del Imperio. "
+"¿Es esta tu isla? Sólo estamos de paso, espero que no te importe. No "
+"queremos ningún problema."
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – Strangers 3
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:247
+msgid ""
+"Peace, Sir Iniucundus! I am Claus Lembeck, and this is my son Henneke. We "
+"are just passing through as well. You are a legate, you say? You must be "
+"getting around a lot. Have you heard news of my old friend Reebaud? I only "
+"know that he is living in the North, can you tell us where to find him?"
+msgstr ""
+"¡Paz, señor Iniucundus! Soy Claus Lembeck y este es mi hijo Henneke. "
+"Nosotros también estamos de paso. ¿Eres un legado, dices? Debes estar "
+"moviéndote mucho. ¿Has oído noticias de mi viejo amigo Reebaud? Sólo sé que "
+"vive en el Norte, ¿puedes decirnos dónde encontrarlo?"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – Strangers 5
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:259
+msgid ""
+"We thank you for your offer! What is the price you demand? And, if you don’t"
+" mind my asking, may I know what business you are employed on?"
+msgstr ""
+"¡Le agradecemos su oferta! ¿Cuál es el precio que pides? Y, si no le importa"
+" que le pregunte, ¿puedo saber en qué negocio trabaja?"
 
 # (pofilter) startpunc: Different punctuation at the start
 #: ../../data/campaigns/fri03.wmf/scripting/texts.lua:295
 #: ../../data/campaigns/fri03.wmf/scripting/texts.lua:304
 msgid "Victory!"
 msgstr "¡Victoria!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – victory
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:297
+msgid ""
+"We have conquered the port! We are already building a ship, and then, we "
+"will finally be travelling to the actual far North. Although we still heard "
+"no news of Reebaud, I am confident that we will find him soon. Then he will "
+"grant us aid, and I will reconquer Föhr from the usurper Atterdag!"
+msgstr ""
+"¡Hemos conquistado el puerto! Ya estamos construyendo un barco y finalmente "
+"viajaremos al extremo norte. Aunque todavía no hemos tenido noticias de "
+"Reebaud, confío en que lo encontraremos pronto. ¡Entonces él nos ayudará y "
+"yo reconquistaré Föhr del usurpador Atterdag!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:313
+msgid "Goodbye!"
+msgstr "¡Adiós!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Claus Lembeck – lost
+#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:331
+msgid ""
+"This is a disaster! We have reached another shore, but another tribe has "
+"already settled there. They won’t allow us to land on their coast."
+msgstr ""
+"¡Esto es un desastre! Hemos llegado a otra orilla, pero allí ya se ha "
+"asentado otra tribu. No nos permitirán desembarcar en su costa."

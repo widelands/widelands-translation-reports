@@ -2,40 +2,86 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Niklas Nordgren, 2022\n"
-"Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Niklas Nordgren, 2022-2023\n"
+"Language-Team: Swedish (http://app.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1126
+#. * TRANSLATORS: An entry in the editor's main menu
+#: ../../src/editor/editorinteractive.cc:237
+msgid "Publish Map Online…"
+msgstr "Publicera karta online..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:1228
 msgid "Loading world…"
 msgstr "Laddar värld..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:102
+#: ../../src/editor/editorinteractive.cc:1460
+msgid "Uploading Add-On…"
+msgstr "Laddar upp tillägg..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:1461
+msgid "Saving map…"
+msgstr "Sparar karta..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:1486
+msgid "Packaging add-on…"
+msgstr "Packar tillägg..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/editorinteractive.cc:1545
+#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:108
+msgid "Uploading…"
+msgstr "Laddar upp..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:399
+msgid ""
+"Please add suggested team line-ups in the next tab for all selected options"
+msgstr "Var vänlig och ange förslag på laguppställningar i nästa flik för alla valda alternativ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:415
+msgid ""
+"Mark whether the starting positions provide equal conditions for each player"
+msgstr "Ange om startpositionerna ger likvärdiga förutsättningar för alla spelare."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:433
+msgid ""
+"Enable ferries, waterways, and ferry yards on this map by setting the "
+"maximum length of waterways for ferries"
+msgstr "Möjliggör transportbåtar/pråmar, vattenvägar och båtsnickerier på denna karta genom att ställa in maximal längd för båttransporter."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
 msgid "Creating empty map…"
 msgstr "Skapar tom karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:540
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
 msgid "Generating random map…"
 msgstr "Genererar slumpmässig karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:339
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
 msgid "Saving the map…"
 msgstr "Sparar kartan..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:94
+#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:106
 msgid "Fixed height"
 msgstr "Fast höjd:"
 
@@ -44,169 +90,197 @@ msgstr "Fast höjd:"
 msgid "Autosaving game…"
 msgstr "Automatisk sparning..."
 
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#: ../../src/logic/addons.cc:310
+#, c-format
+msgid "%u game-relevant add-on in use:"
+msgid_plural "%u game-relevant add-ons in use:"
+msgstr[0] "%u tillägg relevant för spelet används."
+msgstr[1] "%u tillägg relevanta för spelet används."
+
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:252
+#: ../../src/logic/editor_game_base.cc:236
 #, c-format
 msgid "Creating player %d…"
 msgstr "Genererar spelare %d..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:322
+#: ../../src/logic/editor_game_base.cc:306
 msgid "Postloading world and tribes…"
 msgstr "Avslutar inläsning av värld och stammar..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:282 ../../src/logic/game.cc:326
-#: ../../src/logic/game.cc:424 ../../src/logic/game.cc:478
+#: ../../src/logic/game.cc:246 ../../src/logic/game.cc:289
+#: ../../src/logic/game.cc:407 ../../src/logic/game.cc:462
 msgid "Preloading map…"
 msgstr "Laddar karta i förväg..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:378
+#: ../../src/logic/game.cc:345
 msgid "Initializing game…"
 msgstr "Initialiserar spel..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:621
+#: ../../src/logic/game.cc:604
 msgid "Creating player infrastructure…"
 msgstr "Skapar spelarinfrastruktur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:739
+#: ../../src/logic/game.cc:722
 msgid "Initializing…"
 msgstr "Initialiserar..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:233
+#: ../../src/logic/generic_save_handler.cc:236
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Filen \"%s\" kunde inte tas bort."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:239
+#: ../../src/logic/generic_save_handler.cc:242
 #, c-format
 msgid "Error writing data to file ‘%s’!"
 msgstr "Fel vid skrivning av data till filen \"%s\"."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:246
+#: ../../src/logic/generic_save_handler.cc:249
 msgid "Saved file may be corrupt!"
 msgstr "Den sparade filen kan vara korrumperad."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:253
+#: ../../src/logic/generic_save_handler.cc:256
 #, c-format
 msgid "File ‘%s’ could not be restored!"
 msgstr "Filen \"%s\" kunde inte återställas."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:911
+#: ../../src/logic/map_objects/tribes/militarysite.cc:757
 msgid "You are under attack"
 msgstr "Du är under attack!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1850
+#: ../../src/logic/map_objects/tribes/production_program.cc:1846
 msgid "No soldier found for this training level!"
 msgstr "Ingen soldat hittades för denna träningsnivå."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1135
+#: ../../src/logic/map_objects/tribes/productionsite.cc:1197
 msgid "Can’t find any more resources!"
 msgstr "Kan inte hitta mer resurser."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:33
+#: ../../src/logic/map_objects/tribes/ship.cc:1966
+msgid "Port Space Lost!"
+msgstr "Hamnplats förlorad"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/logic/objective.h:31
 msgid "This objective has no description."
 msgstr "Detta objektiv har ingen beskrivning"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/playercommand.cc:2161
+#: ../../src/logic/playercommand.cc:2371
 #, c-format
 msgid "%s has resigned and is now a spectator."
 msgstr "%s har gett upp och är nu en åskådare"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:127
+#: ../../src/logic/save_handler.cc:114
 msgid "Saving game…"
 msgstr "Sparar spel..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:174
-#: ../../src/wui/game_main_menu_save_game.cc:321
+#: ../../src/logic/save_handler.cc:170
+#: ../../src/wui/game_main_menu_save_game.cc:338
 msgid "Saving failed!"
 msgstr "Misslyckades spara"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:88
+#: ../../src/map_io/map_saver.cc:87
 msgid "Autosaving map…"
 msgstr "Karta sparas automatiskt..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:428 ../../src/map_io/widelands_map_loader.cc:189
+#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Läser in karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:142 ../../src/network/gamehost.cc:542
-#: ../../src/ui_fsmenu/launch_spg.cc:164 ../../src/wlapplication.cc:749
+#: ../../src/network/gameclient.cc:162 ../../src/network/gamehost.cc:561
+#: ../../src/ui_fsmenu/launch_spg.cc:174 ../../src/wlapplication.cc:788
 msgid "Preparing game…"
 msgstr "Förbereder spel..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:932
+#: ../../src/network/gameclient.cc:990
 msgid "/me ’s file failed md5 checksumming."
 msgstr "/me ’s fil misslyckades med md5 kontrollsummering"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:974
+#: ../../src/network/gameclient.cc:1032
 msgid ""
 "/me checked the received file. Although md5 check summing succeeded, I can "
 "not handle the file."
 msgstr "/me kontrollerade mottagen fil. Trots att md5s kontrollsumma lyckades kan inte filen hanteras.."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:45
+#: ../../src/network/internet_gaming_messages.cc:30
 msgid "Wrong password, please try again."
 msgstr "Fel lösenord, var vänlig och försök igen"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:138
+#: ../../src/network/network_gaming_messages.cc:52
 msgid "Server uses a different protocol version"
 msgstr "Servern använder en annan protokollversion."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/color_chooser.cc:245
+#: ../../src/ui_basic/color_chooser.cc:253
 msgid "Choose Color…"
 msgstr "Välj färg..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:298
+#: ../../src/ui_basic/panel.cc:320
 msgid "Please wait…"
 msgstr "Var vänlig och vänta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:428
+#: ../../src/ui_basic/panel.cc:457
 msgid "Game ending – please wait…"
 msgstr "Spel avslutas – var vänlig och vänta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:75
+#: ../../src/ui_basic/progresswindow.cc:79
 msgid "Loading…"
 msgstr "Läser in..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:215
+#: ../../src/ui_fsmenu/addons/manager.cc:96
+msgid "This add-on may cause major glitches and errors."
+msgstr "Detta tillägg kan orsaka stora tekniska fel och problem"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:102
+msgid "This add-on works as advertised."
+msgstr "Detta tillägg fungerar som utlovat"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:241
+msgid "Choose add-on to upload…"
+msgstr "Välj tillägg för uppladdning..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:252
 msgid "Upload a screenshot…"
 msgstr "Ladda upp en skärmdump..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:267
+#: ../../src/ui_fsmenu/addons/manager.cc:305
 msgid "Fix dependencies…"
 msgstr "Rätta till beroenden..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:313
+#: ../../src/ui_fsmenu/addons/manager.cc:351
 msgid "Launch the add-ons packager…"
 msgstr "Starta tilläggsförpackaren..."
 
@@ -214,41 +288,80 @@ msgstr "Starta tilläggsförpackaren..."
 #. * TRANSLATORS: This button allows the user to send a message to the
 #. Widelands
 #. Development Team
-#: ../../src/ui_fsmenu/addons/manager.cc:324
+#: ../../src/ui_fsmenu/addons/manager.cc:362
 msgid "Contact us…"
 msgstr "Kontakta oss..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1215
-#, c-format
-msgid ""
-"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
-"wrong order"
-msgstr "·\"%1$s\" kräver först \"%2$s\" och därefter \"%3$s\", men de är listade i fel ordning."
+#: ../../src/ui_fsmenu/addons/manager.cc:959
+msgid "Connecting to the server…"
+msgstr "Ansluter till servern..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1441
+#: ../../src/ui_fsmenu/addons/manager.cc:1427
+#, c-format
+msgid "Uploading ‘%s’…"
+msgstr "Laddar upp '%s'..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/manager.cc:1469
 #, c-format
 msgid "Downloading ‘%s’…"
 msgstr "Laddar ner \"%s\"..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:113
+#: ../../src/ui_fsmenu/addons/packager.cc:136
 msgid "Writing Add-Ons…"
 msgstr "Skriver tillägg..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:92
+#: ../../src/ui_fsmenu/addons/packager.cc:177 ../../src/wui/mapdetails.cc:198
+#: ../../src/wui/mapdetails.cc:203
+msgid "Minimum Widelands Version:"
+msgstr "Minimal Widelands Version"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:66
+msgid "Edit…"
+msgstr "Ändra..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:230
+msgid "Color…"
+msgstr "Färg..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:695
+msgid "Write a comment…"
+msgstr "Skriv en kommentar..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/crash_report.cc:142
+msgid "Show details…"
+msgstr "Visa detaljer..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/keyboard_options.cc:211
+msgid "Edit Keyboard And Mouse Actions"
+msgstr "Editera tangentbords- och musfunktioner."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_game.cc:167
 msgid "Change map…"
 msgstr "Byt karta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:102
+#: ../../src/ui_fsmenu/launch_game.cc:177
 msgid "Change saved game…"
 msgstr "Byt sparat spel..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:210 ../../src/ui_fsmenu/launch_spg.cc:127
+#: ../../src/ui_fsmenu/launch_game.cc:372
+msgid "Player vision is set by the saved game"
+msgstr "Spelarens sikt ställs in av det sparade spelet."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/launch_mpg.cc:234 ../../src/ui_fsmenu/launch_spg.cc:135
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -257,39 +370,87 @@ msgid ""
 msgstr "Widelands försökte starta ett spel med en fil som inte kunde hittas vid angiven sökväg.\nFilen var: %s\nOm detta händer i ett nätverksspel kan värden ha valt en fil som du inte äger. Normalt ska en sådan fil skickas från värden till dig men kanske har överföringen fortfarande inte slutförts?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:213
+#: ../../src/ui_fsmenu/login_box.cc:228
 msgid "Please enter your password!"
 msgstr "Vänligen ange lösenord"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:323
+#: ../../src/ui_fsmenu/main.cc:364
 msgid "Create a new random match"
 msgstr "Skapa ny match med slumpmässiga inställningar."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:440
+#: ../../src/ui_fsmenu/main.cc:490
 msgid "Single Player…"
 msgstr "Enspelarläge..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:441
+#: ../../src/ui_fsmenu/main.cc:491
 msgid "Multiplayer…"
 msgstr "Flerspelarläge..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:442
+#: ../../src/ui_fsmenu/main.cc:492
 msgid "Editor…"
 msgstr "Redigerare..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/mousewheel_options.cc:372
+msgid ""
+"Reset scroll settings to the defaults recommended for a standard single "
+"wheel mouse"
+msgstr "Återställ rullningsinställningar till standardinställningar rekommenderade för standardmus med ett hjul."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Used as e.g. "Invert scroll direction for map zooming:
+#. Vertical"
+#: ../../src/ui_fsmenu/mousewheel_options.cc:464
+msgid "Invert scroll direction for map zooming:"
+msgstr "Inverterad rullningsriktning för zoomning i kartan"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:110
+msgid ""
+"The player name of the selected slot (%1%) does not match your own (%2%). "
+"Are you sure that you want to occupy this slot?"
+msgstr "Spelarnamnet på vald plats (%1%) stämmer inte överens med ditt eget namn (%2%). Är du säker på att du vill uppta denna plats."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:207
+msgid "Edit keyboard and mouse actions…"
+msgstr "Editera tangentbords- och musfunktioner..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/options.cc:278
+msgid "Keep history of sent chat messages in a file"
+msgstr "Behåll chatthistoriket i en fil."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
 #. Options
-#: ../../src/ui_fsmenu/options.cc:302
+#: ../../src/ui_fsmenu/options.cc:386
 msgid "Progress…"
 msgstr "Framsteg..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_options.cc:1027
+#: ../../src/wlapplication_options.cc:1474
 msgctxt "hotkey"
 msgid "Keypad ."
 msgstr "Numeriskt tangentbord ,"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/fleet_options_window.cc:162
+msgid "Unserviced waterways:"
+msgstr "Obetjänade vattenvägar"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/map_tags.cc:43
+msgid ""
+"Player starting positions were designed to provide equal conditions for all "
+"players"
+msgstr "Spelarnas startpositioner valdes för att ge likvärdiga förutsättningar för alla spelare."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/pinned_note.cc:76
+msgid "Change color…"
+msgstr "Byt färg..."

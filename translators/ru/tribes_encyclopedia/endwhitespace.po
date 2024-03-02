@@ -2,27 +2,68 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Владимир Шевцов, 2022\n"
-"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Yuriy Sokolov <lention@mail.ru>, 2015,2019,2022-2024\n"
+"Language-Team: Russian (http://app.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for an amazon production site: Rope
+#. TRANSLATORS: Performance helptext for an Amazon production site:
+#. Woodcutter's Hut, part 1
+#: ../../data/tribes/initialization/amazons/units.lua:1314
+msgctxt "amazons_building"
+msgid ""
+"This building can produce one log between %1$s and %2$s (with master "
+"woodcutter between %3$s and %4$s), depending on how far the woodcutter has "
+"to walk."
+msgstr "В зависимости от того, как далеко должен идти лесоруб, этому зданию нужно от %1$s до %2$s чтобы произвести одно бревно (со старшим лесорубом - от %3$s до %4$s), "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Rope
 #. Weaver's Booth
-#: ../../data/tribes/initialization/amazons/units.lua:1359
+#: ../../data/tribes/initialization/amazons/units.lua:1430
 msgctxt "amazons_building"
 msgid ""
 "‘My mother taught me to ply the ropes from Liana, how to choose the "
 "strongest cuttings and parts of the harvest, how to trim away flaws. I bless"
 " her wisdom in every length I use.’"
-msgstr "\"Моя мама учила меня плести верёвки из лиан, как выбрать и срезать самые крепкие, как обрывать с них цветы. Я до сих пор пользуюсь её мудростью, вечная моя ей благодарность.\" "
+msgstr "\"Моя мама учила меня плести верёвки из лиан, как выбрать и срезать самые крепкие, как очищать их. Я до сих пор пользуюсь её мудростью, вечная моя ей благодарность.\" "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Performance helptext for a Barbarian production site:
+#. Lumberjack_s Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1162
+msgctxt "barbarians_building"
+msgid ""
+"This building can produce one log between %1$s and %2$s, depending on how "
+"far the lumberjack has to walk."
+msgstr "В зависимости от того, как далеко должен идти дровосек, этому зданию нужно от %1$s до %2$s чтобы произвести одно бревно. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Performance helptext for an Empire production site: Quarry,
+#. part 1
+#: ../../data/tribes/initialization/empire/units.lua:1257
+msgctxt "empire_building"
+msgid ""
+"This building can produce one granite between %1$s and %2$s and one marble "
+"between %3$s and %4$s, depending on how far the stonemason has to walk."
+msgstr "В зависимости от того, как далеко должен идти камнетёс, этому зданию нужно от %1$s до %2$s чтобы произвести один гранит, и от %3$s до %4$s, чтобы произвести один мрамор, "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Performance helptext for an Empire production site:
+#. Lumberjack's House
+#: ../../data/tribes/initialization/empire/units.lua:1284
+msgctxt "empire_building"
+msgid ""
+"This building can produce one log between %1$s and %2$s, depending on how "
+"far the lumberjack has to walk."
+msgstr "В зависимости от того, как далеко должен идти дровосек, этому зданию нужно от %1$s до %2$s чтобы произвести одно бревно. "

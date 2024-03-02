@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Karl Vest, 2020\n"
-"Language-Team: Slovak (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Pavol Gono, 2024\n"
+"Language-Team: Slovak (http://app.transifex.com/widelands/widelands/language/"
 "sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -13,23 +13,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:50
+#: ../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "„%s“"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/immovable.cc:513
-#: ../../src/logic/map_objects/tribes/constructionsite.cc:174
+#: ../../src/base/format/float_node.h:33
+msgctxt "decimal_separator"
+msgid "."
+msgstr ","
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/map_objects/immovable.cc:491
+#: ../../src/logic/map_objects/tribes/constructionsite.cc:169
 #, c-format
 msgid "%i%% built"
 msgstr "postavených %i %%"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/dismantlesite.cc:117
+#: ../../src/logic/map_objects/tribes/dismantlesite.cc:115
 #, c-format
 msgid "%u%% dismantled"
 msgstr "rozobratých %u %%"
@@ -39,7 +45,7 @@ msgstr "rozobratých %u %%"
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:1237
+#: ../../src/logic/map_objects/tribes/production_program.cc:1276
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"

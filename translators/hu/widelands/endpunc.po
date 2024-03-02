@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: zone <z-one@freemail.hu>, 2015\n"
-"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021-2024\n"
+"Language-Team: Hungarian (http://app.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/base/format/float_node.h:33
@@ -21,85 +21,92 @@ msgid "."
 msgstr ","
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:446
+#: ../../src/editor/editorinteractive.cc:477
 msgid ""
 "Toggle whether to show maximum building spaces that will be available if all"
 " immovables (trees, rocks, etc.) are removed"
 msgstr "A mozdíthatatlan tereptárgyak (kövek, fák, stb.) eltávolítása esetén elérhető beépíthető helyek megjelenítése/elrejtése."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: "Display: Original/Localized map/file names"
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:68
-msgid "Display"
-msgstr "Megjelenítés:"
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:399
+msgid ""
+"Please add suggested team line-ups in the next tab for all selected options"
+msgstr "Kérjük, add meg a csapatok javasolt összeállítását is minden bejelölt lehetőséghez a következő lapon!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:172
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:433
+msgid ""
+"Enable ferries, waterways, and ferry yards on this map by setting the "
+"maximum length of waterways for ferries"
+msgstr "A kompok, vízi utak és csónakkészítő műhelyek akkor lesznek használhatók ezen a térképen, ha itt beállítod a vízi utak legnagyobb engedélyezett hosszát."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:174
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:187
 msgid "Error Creating Directory!"
 msgstr "Hiba a könyvtár létrehozásakor."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:108
+#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:110
 msgid "This extension is reserved!"
 msgstr "Ez a kiterjesztés foglalt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/player_menu.cc:194
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:442
+#: ../../src/editor/ui_menus/player_menu.cc:205
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:463
 #: ../../src/ui_fsmenu/singleplayerdropdown.cc:99
 msgid "The tribe will be selected at random"
 msgstr "A törzs véletlenszerűen lesz kiválasztva."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Help tooltip in tool history window
-#: ../../src/editor/ui_menus/tool_toolhistory_options_menu.cc:108
+#: ../../src/editor/ui_menus/tool_toolhistory_options_menu.cc:121
 msgid ""
 "Click to restore, Shift + Click to delete, and Ctrl + Click to pin an item."
 msgstr "Kattintás: használat; Shift + kattintás: eltávolítás; Ctrl + kattintás: rögzítés"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:220
-#: ../../src/logic/generic_save_handler.cc:224
+#: ../../src/logic/generic_save_handler.cc:223
+#: ../../src/logic/generic_save_handler.cc:227
 msgid "File successfully saved!"
 msgstr "A fájl sikeresen elmentve."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:229
+#: ../../src/logic/generic_save_handler.cc:232
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "A(z) „%s” könyvtár nem hozható létre."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:233
+#: ../../src/logic/generic_save_handler.cc:236
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "A(z) „%s” fájl nem távolítható el."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:234
+#: ../../src/logic/generic_save_handler.cc:237
 msgid "Try saving under a different name!"
 msgstr "Próbáld meg más néven elmenteni."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:239
+#: ../../src/logic/generic_save_handler.cc:242
 #, c-format
 msgid "Error writing data to file ‘%s’!"
 msgstr "Hiba az adatok „%s” fájlba írásakor."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:246
+#: ../../src/logic/generic_save_handler.cc:249
 msgid "Saved file may be corrupt!"
 msgstr "A mentett fájl sérült lehet."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:253
+#: ../../src/logic/generic_save_handler.cc:256
 #, c-format
 msgid "File ‘%s’ could not be restored!"
 msgstr "A(z) „%s” nem állítható helyre."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/replay.cc:87
+#: ../../src/logic/replay.cc:95
 #, c-format
 msgid ""
 "The replay has desynced and the game was paused.\n"
@@ -121,19 +128,26 @@ msgid "Invalid command! Type /help for a list of commands."
 msgstr "Érvénytelen parancs! A használható parancsok listázásához írd be, hogy „/help”!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:373
+#: ../../src/network/gamehost.cc:354
 msgid "Failed to host the server!"
 msgstr "A kiszolgáló létesítése meghiúsult."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:382
+#: ../../src/network/gamehost.cc:363
 msgid "Failed to start the server!"
 msgstr "A kiszolgáló elindítása meghiúsult."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:45
+#: ../../src/network/internet_gaming_messages.cc:30
 msgid "Wrong password, please try again."
 msgstr "Hibás jelszó, kérlek próbálkozz újra!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: %1 and %2 are user and player names
+#: ../../src/network/network_gaming_messages.cc:80
+#, c-format
+msgid "Cheating: Client %1$s now controls %2$s"
+msgstr "Csalás: %1$s ügyfél mostantól %2$s játékost irányítja!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/network/network_lan_promotion.cc:357
@@ -141,7 +155,7 @@ msgid "Failed to use the local network!"
 msgstr "A helyi hálózat használata meghiúsult."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/contact.cc:92
+#: ../../src/ui_fsmenu/addons/contact.cc:91
 msgid ""
 "Your message has been sent to the Widelands Development Team, and we will "
 "respond as soon as we can. Don’t forget to check your website inbox "
@@ -149,12 +163,12 @@ msgid ""
 msgstr "Az üzenetedet elküldtük a Widelands fejlesztőcsapatnak, akik hamarosan válaszolni fognak. Figyeld a bejövő üzeneteidet a Widelands honlapján!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:97
+#: ../../src/ui_fsmenu/addons/manager.cc:89
 msgid "Quality not yet evaluated"
 msgstr "Ennek a bővítménynek még nem ellenőrizték a minőségét."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:313
+#: ../../src/ui_fsmenu/addons/manager.cc:351
 msgid "Launch the add-ons packager…"
 msgstr "Bővítménycsomagoló indítása"
 
@@ -162,12 +176,12 @@ msgstr "Bővítménycsomagoló indítása"
 #. * TRANSLATORS: This button allows the user to send a message to the
 #. Widelands
 #. Development Team
-#: ../../src/ui_fsmenu/addons/manager.cc:324
+#: ../../src/ui_fsmenu/addons/manager.cc:362
 msgid "Contact us…"
 msgstr "Kapcsolatfelvétel"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:353
+#: ../../src/ui_fsmenu/addons/manager.cc:403
 #, c-format
 msgid ""
 "For more information regarding how to develop and package your own add-ons, "
@@ -175,7 +189,7 @@ msgid ""
 msgstr "További információkért a bővítmények fejlesztéséről és csomagolásáról kérjük keresd fel a következő oldalt: %s"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:400
+#: ../../src/ui_fsmenu/addons/manager.cc:432
 msgid ""
 "You are required to have read the add-ons documentation under the link given"
 " further above before submitting content. Since the documentation is subject"
@@ -184,42 +198,42 @@ msgid ""
 msgstr "Mielőtt bővítményt töltenél fel, kötelezően el kell olvasnod a bővítmények fejlesztői dokumentációját a fent megadott hivatkozáson. A dokumentáció gyakran változik, ezért győződj meg róla, hogy megismerted-e a legfrissebb változatot, és betartottál-e minden útmutatást!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:771
+#: ../../src/ui_fsmenu/addons/manager.cc:804
 msgid "Please log in to upload add-ons"
 msgstr "Kérjük jelentkezz be, ha bővítményt szeretnél feltölteni!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:773
+#: ../../src/ui_fsmenu/addons/manager.cc:806
 msgid "Please log in to upload content"
 msgstr "Kérjük jelentkezz be, ha képet szeretnél feltölteni!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:775
+#: ../../src/ui_fsmenu/addons/manager.cc:808
 msgid "Please log in to send an enquiry"
 msgstr "Kérjük jelentkezz be, ha üzenetet szeretnél küldeni!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:786
+#: ../../src/ui_fsmenu/addons/manager.cc:819
 msgid "Please tick the confirmation checkbox to upload add-ons"
 msgstr "Kérjük jelöld be a beleegyező négyzetet, ha bővítményt szeretnél feltölteni!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:789
+#: ../../src/ui_fsmenu/addons/manager.cc:822
 msgid "Please tick the confirmation checkbox to upload content"
 msgstr "Kérjük jelöld be a beleegyező négyzetet, ha képet szeretnél feltölteni!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:113
+#: ../../src/ui_fsmenu/addons/packager.cc:136
 msgid "Writing Add-Ons…"
 msgstr "Bővítmények mentése"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:314
+#: ../../src/ui_fsmenu/addons/packager.cc:357
 msgid "Enter the name for the new add-on."
 msgstr "Add meg az új bővítmény nevét"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:338
+#: ../../src/ui_fsmenu/addons/packager.cc:381
 #: ../../src/ui_fsmenu/addons/packager_box.cc:403
 #, c-format
 msgid ""
@@ -229,7 +243,7 @@ msgid ""
 msgstr "Ez a név nem használható az alábbi okból: %s\n\nKérlek válassz más nevet!"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:408
+#: ../../src/ui_fsmenu/addons/packager.cc:451
 #, c-format
 msgid ""
 "If you quit the packager now, all changes to the following %u add-on will be"
@@ -255,7 +269,7 @@ msgid ""
 msgstr "A könyvtárak nem használhatják a(z) „%s” kiterjesztést.\n\nKérjük adj meg más nevet!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:403
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:405
 msgid "This may take several minutes. Please be patient."
 msgstr "Ez eltarthat egy kis ideig. Kérjük várj!"
 
@@ -266,35 +280,46 @@ msgstr "Kérjük írd meg, miért szeretnéd törölni a bővítményt!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This add-on is known to cause desyncs
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:504
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:506
 msgid "Desyncs"
 msgstr "Nem szink."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This add-on will not cause desyncs
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:506
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:508
 msgid "Sync-safe"
 msgstr "Szink. bizt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:871
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:888
 msgid "No comments yet."
 msgstr "Nincsenek még megjegyzések"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:957
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:974
 msgid "This screenshot could not be fetched from the server due to an error."
 msgstr "Hiba a képernyőkép letöltésekor"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:975
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:992
 msgid "Please log in to comment"
 msgstr "Kérjük jelentkezz be, ha hozzá szeretnél szólni!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:977
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:994
 msgid "Please log in to vote"
 msgstr "Kérjük jelentkezz be, ha szavazni szeretnél!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/ui_fsmenu/crash_report.cc:132
+#, c-format
+msgid ""
+"It looks like Widelands crashed the last time you ran it, but a backtrace "
+"for debugging was automatically generated. Please provide the report along "
+"with a description of what was going on in the game and what you did last "
+"before the crash to the Widelands Development Team under %s so we can fix "
+"the problem."
+msgstr "Úgy tűnik, a Widelands összeomlott a legutóbbi használatkor, de a hibakereséshez sikerült elmenteni az összeomlás adatait. Kérjük, küldd el a jelentést a Widelands fejlesztői csapatának a %s szerint, hogy ki tudjuk javítani a hibát! Kérjük írd le azt is, hogy mi történt éppen a játékban, és te mit csináltál utoljára az összeomlás előtt!"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../src/ui_fsmenu/keyboard_options.cc:74
@@ -302,59 +327,59 @@ msgid "Press the new shortcut or close this window to cancel."
 msgstr "Nyomd le a hozzárendelendő billentyűt, vagy zárd be ezt az ablakot az elvetéshez!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:188
+#: ../../src/ui_fsmenu/launch_game.cc:304
 msgid "The relations between players are set by the scenario"
 msgstr "A békés mód beállítását a küldetés határozza meg."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:190
+#: ../../src/ui_fsmenu/launch_game.cc:306
 msgid "The relations between players are set by the saved game"
 msgstr "A békés mód beállítását a mentett játék határozza meg."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:192
+#: ../../src/ui_fsmenu/launch_game.cc:308
 msgid "The selected win condition does not allow peaceful matches"
 msgstr "A kiválasztott játékmód nem teszi lehetővé a békés mérkőzést."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:221
+#: ../../src/ui_fsmenu/launch_game.cc:340
 msgid "All selected starting conditions ignore the map’s starting positions"
 msgstr "Minden kiválasztott kezdőállapot figyelmen kívül hagyja a térkép kezdőpozícióit."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:226
+#: ../../src/ui_fsmenu/launch_game.cc:346
 msgid "The starting positions are set by the scenario"
 msgstr "A kezdőpozíciókat a küldetés határozza meg."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:228
+#: ../../src/ui_fsmenu/launch_game.cc:348
 msgid "The starting positions are set by the saved game"
 msgstr "A kezdőpozíciókat a mentett játék határozza meg."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:231
+#: ../../src/ui_fsmenu/launch_game.cc:351
 msgid ""
 "Allow the players to choose their own starting positions at the beginning of"
 " the game"
 msgstr "A játékosok maguk választhatják meg a kezdőpozíciójukat a játék elején."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:76
+#: ../../src/ui_fsmenu/launch_mpg.cc:88
 msgid "Please select a map or saved game."
 msgstr "Kérjük válassz egy térképet vagy egy mentett játékot!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:50
+#: ../../src/ui_fsmenu/login_box.cc:53
 msgid "Log in to a registered account."
 msgstr "Bejelentkezés regisztrált felhasználóként"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:813
+#: ../../src/ui_fsmenu/main.cc:883
 msgid "An enabled add-on is known to cause desyncs. Proceed at your own risk."
 msgstr "Egy bekapcsolt bővítmény szinkronizációs hibákat szokott okozni. Csak akkor folytasd, ha vállalod a kockázatokat!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/mousewheel_options.cc:351
+#: ../../src/ui_fsmenu/mousewheel_options.cc:382
 msgid ""
 "Sets ‘Zoom Map’ and ‘Scroll Map’ to the recommended settings for a touchpad "
 "or other pointing device that can scroll horizontally as well as vertically."
@@ -362,7 +387,7 @@ msgstr "Az érintőpadokhoz vagy más, vízszintes és függőleges görgetésre
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s is a URL
-#: ../../src/ui_fsmenu/mousewheel_report.cc:75
+#: ../../src/ui_fsmenu/mousewheel_report.cc:65
 #, c-format
 msgid ""
 "Please help us improve the detection of inverted horizontal scrolling. To do"
@@ -371,78 +396,126 @@ msgid ""
 msgstr "Kérjük segíts javítani a felismerés pontosságát! Ehhez kérjük jelentsd a „%s” helyen, hogy a te rendszereden rossz a vízszintes görgetés iránya. Kérjük add meg az alábbi műszaki információkat is!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:162
+#: ../../src/ui_fsmenu/options.cc:367
 msgid "Animate automatic map movements"
 msgstr "Automatikus térkép mozgások animálása."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/scenario_select.cc:85
+#: ../../src/ui_fsmenu/scenario_select.cc:87
 msgid "Pick a tutorial from the list, then hit “OK”."
 msgstr "Válaszd ki az oktatójátékot a listáról és kattints a „Rendben” gombra!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1305
+#: ../../src/wlapplication.cc:867
+msgid "No last saved replay."
+msgstr "Nincs legutóbbi visszajátszás"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication.cc:869
+msgid "No last saved game."
+msgstr "Nincs legutóbbi mentett játék"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication.cc:1360
 #, c-format
-msgid "Empty value of command line parameter: %s"
-msgstr "Hiányzik az érték a %s parancssori beállításhoz."
+msgid "Command line parameter --%s can not use a value"
+msgstr "A --%s parancssori beállításhoz nem lehet értéket megadni."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1310
+#: ../../src/wlapplication.cc:1365
 #, c-format
-msgid "%s can not be combined with other actions"
-msgstr "A(z) %s nem használható más beállításokkal együtt."
+msgid "Empty value of command line parameter --%s"
+msgstr "Hiányzik az érték a --%s parancssori beállításhoz."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1586
-msgid "--xres/--yres, --maximized and --fullscreen can not be combined"
-msgstr "Az --xres/--yres, a --maximized és a --fullscreen beállítások nem használhatók együtt."
+#: ../../src/wlapplication.cc:1371
+#, c-format
+msgid "Command line parameters --%1$s and --%2$s can not be combined"
+msgstr "A --%1$s és a --%2$s beállítások nem használhatók együtt."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_options.cc:1027
+#. * TRANSLATORS: This is the helptext for an access key combination.
+#: ../../src/wlapplication_options.cc:1066
+msgid ""
+"Place new elements on the map, or increase map elements by the value "
+"selected by ‘Increase/Decrease value’"
+msgstr "Új elemek elhelyezése a térképen, vagy a térképen lévő elemek növelése az „Érték növelése/csökkentése” beállításban meghatározott értékkel."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is the helptext for an access key combination.
+#: ../../src/wlapplication_options.cc:1072
+msgid ""
+"Remove elements from the map, or decrease map elements by the value selected"
+" by ‘Increase/Decrease value’"
+msgstr "Elemek törlése a térképről, vagy a térképen lévő elemek csökkentése az „Érték növelése/csökkentése” beállításban meghatározott értékkel."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is the helptext for an access key combination.
+#: ../../src/wlapplication_options.cc:1077
+msgid "Set map elements to the value selected by ‘Set Value’"
+msgstr "A térképen lévő elemeket az „Érték beállítása” részben meghatározott értékre állítja."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_options.cc:1474
 msgctxt "hotkey"
 msgid "Keypad ."
 msgstr "Numerikus ,"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:253
+#: ../../src/wui/actionconfirm.cc:267
 msgid ""
 "Any wares left in the building will be dropped out by the builder, "
 "increasing the dismantling time"
 msgstr "Az épületben maradó árukat először kihordják a munkások, ezzel nő a bontási idő."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:315
+#: ../../src/wui/actionconfirm.cc:329
 msgid ""
 "Any wares left in the building will be dropped out by the builder, "
 "increasing the enhancing time"
 msgstr "Az épületben maradó árukat először kihordják a munkások, ezzel nő a fejlesztés ideje."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:255
+#: ../../src/wui/actionconfirm.cc:459
+msgid "Do you really want to give up and become a spectator?"
+msgstr "Valóban szeretnéd feladni a játékot? Nézőként így is tovább követheted."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:383
+msgid "Send less ships. Hold down Ctrl to send no ships"
+msgstr "Kevesebb hajó küldése. A Ctrl billentyűt lenyomva egyet se."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:384
 msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Kevesebb katona küldése. A Ctrl billentyűt lenyomva egyet se."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:260
+#: ../../src/wui/attack_window.cc:390
+msgid "Send more ships. Hold down Ctrl to send as many ships as possible"
+msgstr "Több hajó küldése. A Ctrl billentyűt lenyomva a lehető legtöbbet."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:391
 msgid ""
 "Send more soldiers. Hold down Ctrl to send as many soldiers as possible"
 msgstr "Több katona küldése. A Ctrl billentyűt lenyomva a lehető legtöbbet."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:205
+#: ../../src/wui/building_statistics_menu.cc:232
 msgid ""
 "Buildings will be considered unproductive if their productivity falls below "
 "this percentage"
 msgstr "Az ennél rosszabb hatékonysággal dolgozó épületeket tekintjük rossz hatékonyságúnak."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:271
-#: ../../src/wui/game_main_menu_save_game.cc:311
+#: ../../src/wui/game_main_menu_save_game.cc:288
+#: ../../src/wui/game_main_menu_save_game.cc:328
 msgid "Error Saving Game!"
 msgstr "Hiba a játék mentésekor"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/interactive_player.cc:386
+#: ../../src/wui/interactive_player.cc:382
 msgid ""
 "Toggle whether overlapping workareas are indicated when placing a "
 "constructionsite"
@@ -463,14 +536,14 @@ msgstr "Hiba a fájlok törlésekor."
 #. are:
 #. month (short name) day (number),
 #. year (number). This is part of a list.
-#: ../../src/wui/savegameloader.cc:186
+#: ../../src/wui/savegameloader.cc:194
 #, c-format
 msgid "saved on %1$s %2$u, %3$u"
 msgstr "mentés dátuma: %3$u. %1$s. %2$u."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:528
+#: ../../src/wui/seafaring_statistics_menu.cc:598
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Azon expedíciók megjelenítése, melyek találtak kikötőhelyet, vagy kolóniát alapítanak."
 

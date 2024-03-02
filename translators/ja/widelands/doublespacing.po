@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: tamanegi, 2018-2019\n"
-"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Japanese (http://app.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
@@ -51,7 +51,7 @@ msgid "If yes, type: /ack_kick %s"
 msgstr "これでいいなら  /ack_kick %s と入力してください"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/launch_mpg.cc:210 ../../src/ui_fsmenu/launch_spg.cc:127
+#: ../../src/ui_fsmenu/launch_mpg.cc:234 ../../src/ui_fsmenu/launch_spg.cc:135
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -60,6 +60,6 @@ msgid ""
 msgstr "Widelandsは、指定されたパスで見つからなかったファイルを使用して、ゲームを開始しようとしました。\nファイル:  %s\nネットワークゲームでこの問題が発生した場合、ホストがあなたが所有していないファイルを選択している可能性があります。 通常このようなファイルは、ホストから送信されるはずですが、もしかして転送がまだ終了していないのでしょうか？！"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/options.cc:212
+#: ../../src/ui_fsmenu/options.cc:223
 msgid "Save game automatically every:"
 msgstr "ゲームの自動保存頻度:  "

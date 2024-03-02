@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2019-2022\n"
-"Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Juan Miguel Bernal González, 2024\n"
+"Language-Team: Spanish (http://app.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -13,105 +13,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Purpose helptext for an amazon production site: Ferry Yard
-#: ../../data/tribes/initialization/amazons/units.lua:1596
+#. TRANSLATORS: Purpose helptext for an Amazon production site: Ferry Yard
+#: ../../data/tribes/initialization/amazons/units.lua:1673
 msgctxt "amazons_building"
 msgid "Builds ferries."
 msgstr "Construye transbordadores. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Helptext for an amazon immovable usable by barbarians: Balsa
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by barbarians:
-#. Blackroot Field
-#. TRANSLATORS: Helptext for an amazon immovable usable by barbarians: Balsa
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by barbarians:
-#. Ironwood Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by barbarians: Rubber
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by atlanteans: Balsa
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by atlanteans:
-#. Ironwood Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by atlanteans: Rubber
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by frisians: Balsa
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by frisians: Ironwood
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by frisians: Rubber
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by empire: Balsa Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by empire: Ironwood
-#. Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by empire: Rubber Tree
-#. TRANSLATORS: Helptext for an amazon immovable usable by empire: Corn Field
-#. TRANSLATORS: Helptext for an amazon immovable usable by empire: Rubber Tree
-#: ../../data/tribes/initialization/atlanteans/units.lua:1329
-#: ../../data/tribes/initialization/atlanteans/units.lua:1336
-#: ../../data/tribes/initialization/atlanteans/units.lua:1343
-#: ../../data/tribes/initialization/atlanteans/units.lua:1350
-#: ../../data/tribes/initialization/atlanteans/units.lua:1357
-#: ../../data/tribes/initialization/atlanteans/units.lua:1364
-#: ../../data/tribes/initialization/atlanteans/units.lua:1371
-#: ../../data/tribes/initialization/atlanteans/units.lua:1378
-#: ../../data/tribes/initialization/atlanteans/units.lua:1385
-#: ../../data/tribes/initialization/atlanteans/units.lua:1392
-#: ../../data/tribes/initialization/atlanteans/units.lua:1399
-#: ../../data/tribes/initialization/atlanteans/units.lua:1406
-#: ../../data/tribes/initialization/barbarians/units.lua:996
-#: ../../data/tribes/initialization/barbarians/units.lua:1003
-#: ../../data/tribes/initialization/barbarians/units.lua:1010
-#: ../../data/tribes/initialization/barbarians/units.lua:1017
-#: ../../data/tribes/initialization/barbarians/units.lua:1024
-#: ../../data/tribes/initialization/barbarians/units.lua:1031
-#: ../../data/tribes/initialization/barbarians/units.lua:1038
-#: ../../data/tribes/initialization/barbarians/units.lua:1045
-#: ../../data/tribes/initialization/barbarians/units.lua:1052
-#: ../../data/tribes/initialization/barbarians/units.lua:1059
-#: ../../data/tribes/initialization/barbarians/units.lua:1066
-#: ../../data/tribes/initialization/barbarians/units.lua:1073
-#: ../../data/tribes/initialization/empire/units.lua:1057
-#: ../../data/tribes/initialization/empire/units.lua:1064
-#: ../../data/tribes/initialization/empire/units.lua:1071
-#: ../../data/tribes/initialization/empire/units.lua:1078
-#: ../../data/tribes/initialization/empire/units.lua:1085
-#: ../../data/tribes/initialization/empire/units.lua:1092
-#: ../../data/tribes/initialization/empire/units.lua:1099
-#: ../../data/tribes/initialization/empire/units.lua:1106
-#: ../../data/tribes/initialization/empire/units.lua:1113
-#: ../../data/tribes/initialization/empire/units.lua:1120
-#: ../../data/tribes/initialization/empire/units.lua:1127
-#: ../../data/tribes/initialization/empire/units.lua:1134
-#: ../../data/tribes/initialization/frisians/units.lua:1439
-#: ../../data/tribes/initialization/frisians/units.lua:1446
-#: ../../data/tribes/initialization/frisians/units.lua:1453
-#: ../../data/tribes/initialization/frisians/units.lua:1460
-#: ../../data/tribes/initialization/frisians/units.lua:1467
-#: ../../data/tribes/initialization/frisians/units.lua:1474
-#: ../../data/tribes/initialization/frisians/units.lua:1481
-#: ../../data/tribes/initialization/frisians/units.lua:1488
-#: ../../data/tribes/initialization/frisians/units.lua:1495
-#: ../../data/tribes/initialization/frisians/units.lua:1502
-#: ../../data/tribes/initialization/frisians/units.lua:1509
-#: ../../data/tribes/initialization/frisians/units.lua:1516
-msgid ""
-"This tree is only planted by the amazon tribe but can be harvested for logs."
-msgstr "Este árbol solo es plantado por la tribu amazonas pero puede ser cosechado por troncos. "
-
-# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Purpose helptext for an Atlantean production site: Ferry Yard
 #. TRANSLATORS: Purpose helptext for production site: Ferry Yard
-#. TRANSLATORS: Purpose helptext for an atlantean production site: Ferry Yard
-#. TRANSLATORS: Purpose helptext for a frisian production site: Ferry Yard
-#. TRANSLATORS: Purpose helptext for an empire production site: Ferry Yard
-#: ../../data/tribes/initialization/atlanteans/units.lua:1967
-#: ../../data/tribes/initialization/barbarians/units.lua:1754
-#: ../../data/tribes/initialization/empire/units.lua:2228
-#: ../../data/tribes/initialization/frisians/units.lua:2152
+#. TRANSLATORS: Purpose helptext for an Empire production site: Ferry Yard
+#. TRANSLATORS: Purpose helptext for a Frisian production site: Ferry Yard
+#: ../../data/tribes/initialization/atlanteans/units.lua:2047
+#: ../../data/tribes/initialization/barbarians/units.lua:1803
+#: ../../data/tribes/initialization/empire/units.lua:2301
+#: ../../data/tribes/initialization/frisians/units.lua:2207
 msgctxt "building"
 msgid "Builds ferries."
 msgstr "Construye transbordadores. "

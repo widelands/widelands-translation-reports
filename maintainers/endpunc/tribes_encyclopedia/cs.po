@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Zlopez <michal.konecny@psmail.xyz>, 2021\n"
-"Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Petr Valášek, 2023\n"
+"Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -13,12 +13,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for an amazon production site:
+#. TRANSLATORS: Lore author helptext for an Amazon production site:
 #. Dressmakery
-#: ../../data/tribes/initialization/amazons/units.lua:1401
+#: ../../data/tribes/initialization/amazons/units.lua:1474
 msgctxt "amazons_building"
 msgid ""
 "Dressmakers’ ethos, adapted from the traditional verse ‘Mother Jungle’s "
@@ -26,16 +26,24 @@ msgid ""
 msgstr "Motto švadleny převzaté z lidové básně \"Moudrost matky džungle: Píseň o svědomitosti\"."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean ware: Buckets
-#: ../../data/tribes/initialization/atlanteans/units.lua:721
+#. TRANSLATORS: Helptext for an Atlantean ware: Buckets
+#: ../../data/tribes/initialization/atlanteans/units.lua:737
 msgctxt "atlanteans_ware"
 msgid "Big buckets for the fish breeder – produced by the toolsmith."
 msgstr "Velké kýble pro porybného – vyrábí je kovář.."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Fish Breeder's
+#. TRANSLATORS: Note lore_autor for an Atlantean production site: Woodcutter's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1527
+#: ../../data/tribes/initialization/atlanteans/units.lua:1502
+msgctxt "atlanteans_building"
+msgid "Atlantean woodcutter asked why saws are used to cut trees"
+msgstr "Atlantský dřevorubec se ptal proč se na kácení stromů používají pily."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Fish Breeder's
+#. House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1569
 msgctxt "atlanteans_building"
 msgid ""
 "‘Only after the last duck has been shot down<br>Only after the last deer has"
@@ -44,8 +52,8 @@ msgid ""
 msgstr "Až nebude ryba na tvém háčku,<br>až zastřelí i poslední kačku,<br>až poslední jelen bude skolen,<br>poznáš, pavouk nebyl k jídlu zvolen."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1224
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Well
+#: ../../data/tribes/initialization/barbarians/units.lua:1249
 msgctxt "barbarians_building"
 msgid ""
 "Song written by Sigurd the Bard when the first rain fell after the Great "
@@ -53,39 +61,39 @@ msgid ""
 msgstr "Píseň básníka Sigurda složená na oslavu prvního deště po období Velkého sucha v 21. roce Chat'Karuthovi vlády"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Gold
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Gold
 #. Mine
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Deep
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Deep
 #. Gold Mine
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Deeper
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Deeper
 #. Gold Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1607
-#: ../../data/tribes/initialization/barbarians/units.lua:1620
-#: ../../data/tribes/initialization/barbarians/units.lua:1633
+#: ../../data/tribes/initialization/barbarians/units.lua:1656
+#: ../../data/tribes/initialization/barbarians/units.lua:1669
+#: ../../data/tribes/initialization/barbarians/units.lua:1682
 msgctxt "barbarians_building"
 msgid ""
 "Excerpt from ‘Our Treasures Underground’,<br> a traditional Barbarian song."
 msgstr "Úryvek z \"Naše podzemní bohatství\",<br> tradiční barbarská píseň"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a barbarian training site: Battle
+#. TRANSLATORS: Lore author helptext for a Barbarian training site: Battle
 #. Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1648
+#: ../../data/tribes/initialization/barbarians/units.lua:1697
 msgctxt "barbarians_building"
 msgid "Said to originate from Neidhardt, the famous trainer."
 msgstr "Citát připisovaný Neidhardtovi, slavnému cvičiteli"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a barbarian training site: Training
+#. TRANSLATORS: Lore author helptext for a Barbarian training site: Training
 #. Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1667
+#: ../../data/tribes/initialization/barbarians/units.lua:1716
 msgctxt "barbarians_building"
 msgid "Chief Chat’Karuth in a speech to his army."
 msgstr "Projev náčelníka Chat’Karutha ke své armádě"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1713
+#. TRANSLATORS: Lore helptext for a Barbarian military site: Tower
+#: ../../data/tribes/initialization/barbarians/units.lua:1762
 msgctxt "barbarians_building"
 msgid ""
 "‘From the height of our tower we could see far into enemy territory. The "
@@ -94,22 +102,22 @@ msgid ""
 msgstr "Z výšky naší věže lze vidět hluboko do území nepřítele. Nepřítel byl připraven dobře, ale všimli jsme si pár slabin v jeho obraně."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:458
+#. TRANSLATORS: Helptext for a Frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:459
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Lovecké oštěpy se vyrábí v kovárně."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Quarry
-#: ../../data/tribes/initialization/frisians/units.lua:1555
+#. TRANSLATORS: Lore helptext for a Frisian production site: Quarry
+#: ../../data/tribes/initialization/frisians/units.lua:1556
 msgctxt "frisians_building"
 msgid "When I swing my pick, whole mountains fall before me!"
 msgstr "Když máchám svým krumpáčem, skály se sypou před mýma očima."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Tailor's Shop
-#: ../../data/tribes/initialization/frisians/units.lua:1833
+#. TRANSLATORS: Lore helptext for a Frisian production site: Tailor's Shop
+#: ../../data/tribes/initialization/frisians/units.lua:1878
 msgctxt "frisians_building"
 msgid ""
 "Don’t complain if these garments are too heavy – they’re not supposed to be "
@@ -117,8 +125,8 @@ msgid ""
 msgstr "Nestěžuj si, pokud jsou tyto kožichy moc těžké – není cílem, aby byly lehké, mají tě o něco déle obtěžkat životem."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a frisian production site: Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1972
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Farm
+#: ../../data/tribes/initialization/frisians/units.lua:2027
 msgctxt "frisians_building"
 msgid ""
 "A farmer’s reply when asked by his chieftain why he was planting such a "
@@ -126,8 +134,8 @@ msgid ""
 msgstr "Odpověď farmáře náčelníkovi, který se zeptal, proč sází tak pomalu rostoucí obilí"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Shipyard
-#: ../../data/tribes/initialization/frisians/units.lua:2161
+#. TRANSLATORS: Lore helptext for a Frisian production site: Shipyard
+#: ../../data/tribes/initialization/frisians/units.lua:2220
 msgctxt "frisians_building"
 msgid ""
 "This house may be called a shipyard, but my ships are rather longer than one"
@@ -135,8 +143,8 @@ msgid ""
 msgstr "Tomuto domu se může říkat obyčejná loděnice, ale pravdou je, že tu stavím ty nejlepší koráby, které kdy brázdily naše nedozírná moře."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Weaving Mill
-#: ../../data/tribes/initialization/frisians/units.lua:2172
+#. TRANSLATORS: Lore helptext for a Frisian production site: Weaving Mill
+#: ../../data/tribes/initialization/frisians/units.lua:2237
 msgctxt "frisians_building"
 msgid ""
 "Reindeer’s fur and roofing reed<br>These items two make up the seed<br>For "

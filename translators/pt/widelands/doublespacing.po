@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Francisco Fernandes <franciscof09@gmail.com>, 2021\n"
-"Language-Team: Portuguese (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Portuguese (http://app.transifex.com/widelands/widelands/"
 "language/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
@@ -22,8 +22,8 @@ msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause            -  Forçar a  pausa do jogo."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:337
-#: ../../src/network/network_gaming_messages.cc:126
+#: ../../src/network/internet_gaming.cc:329
+#: ../../src/network/network_gaming_messages.cc:40
 #, c-format
 msgid "Something went wrong: %s"
 msgstr "Alguma coisa correu mal:  %s"
@@ -32,6 +32,6 @@ msgstr "Alguma coisa correu mal:  %s"
 #. * TRANSLATORS: Tooltip for the "Mode" column when choosing a game/replay to
 #. load.
 #. * TRANSLATORS: Make sure that you keep consistency in your translation.
-#: ../../src/wui/savegametable.cc:189 ../../src/wui/savegametable.cc:248
+#: ../../src/wui/savegametable.cc:190 ../../src/wui/savegametable.cc:249
 msgid "H = Multiplayer (Host)"
 msgstr "H  = Multi-jogador (hospedeiro)"

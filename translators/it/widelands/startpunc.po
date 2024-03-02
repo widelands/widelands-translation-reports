@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Log Merger, 2022\n"
-"Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Samuele Battarra, 2023\n"
+"Language-Team: Italian (http://app.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -13,24 +13,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:239
+#: ../../src/graphic/gl/initialize.cc:247
 #, c-format
 msgid "The %1$s needs to be version %2$u.%3$u or newer."
 msgstr "%1$s deve essere aggiornato alla versione %2$u.%3$u o successiva."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gameclient.cc:932
+#: ../../src/network/gameclient.cc:990
 msgid "/me ’s file failed md5 checksumming."
 msgstr "Il file /me non ha superato il controllo in MD5."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/game_summary.cc:250
+#: ../../src/wui/game_summary.cc:255
 #, c-format
 msgid "%s won!"
 msgstr "Ha vinto %s!"

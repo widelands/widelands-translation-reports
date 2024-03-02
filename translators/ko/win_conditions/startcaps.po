@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-06-22 03:53+0000\n"
+"POT-Creation-Date: 2024-01-01 02:43+0000\n"
 "PO-Revision-Date: 2015-02-03 14:55+0000\n"
 "Last-Translator: TaeMin An, 2017\n"
-"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
+"Language-Team: Korean (http://app.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/artifacts.lua:15
@@ -32,12 +32,12 @@ msgid "Artifacts owned"
 msgstr "공예품 소유함"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:76
+#: ../../data/scripting/win_conditions/artifacts.lua:75
 msgid "No Artifacts"
 msgstr "유물 없음"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:76
+#: ../../data/scripting/win_conditions/artifacts.lua:75
 #, lua-format
 msgid ""
 "There are no artifacts on this map. This should not happen. Please file a "
@@ -48,61 +48,61 @@ msgstr "이 지도에는 유물이 없습니다. 이것은 일어나서는 안�
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible. You can also translate this as
 #. "New artifact"
-#: ../../data/scripting/win_conditions/artifacts.lua:83
+#: ../../data/scripting/win_conditions/artifacts.lua:82
 msgid "Artifact Found"
 msgstr "유물 발견"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:84
+#: ../../data/scripting/win_conditions/artifacts.lua:83
 msgid "Your team found a new artifact."
 msgstr "당신의 편이 새 유물을 발견했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:85
+#: ../../data/scripting/win_conditions/artifacts.lua:84
 msgid "You found a new artifact."
 msgstr "새로운 유물을 찾았습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible.
-#: ../../data/scripting/win_conditions/artifacts.lua:89
+#: ../../data/scripting/win_conditions/artifacts.lua:88
 msgid "Artifact Lost"
 msgstr "유물 분실"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:90
+#: ../../data/scripting/win_conditions/artifacts.lua:89
 msgid "One of your team’s artifacts was stolen by an enemy."
 msgstr "당신 팀의 유물 중 하나가 적에게 탈취됐습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:91
+#: ../../data/scripting/win_conditions/artifacts.lua:90
 msgid "One of your artifacts was stolen by an enemy."
 msgstr "당신의 유물 중 하나를 적에게 도둑맞았습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Keep this as short as possible.
-#: ../../data/scripting/win_conditions/artifacts.lua:95
+#: ../../data/scripting/win_conditions/artifacts.lua:94
 msgid "Artifact Conquered"
 msgstr "유물 강탈"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:96
+#: ../../data/scripting/win_conditions/artifacts.lua:95
 msgid "Your team stole an artifact from an enemy."
 msgstr "당신의 팀이 적에게서 유물을 탈취했습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:97
+#: ../../data/scripting/win_conditions/artifacts.lua:96
 msgid "You stole an artifact from an enemy."
 msgstr "적에게서 유물을 훔쳤습니다."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/artifacts.lua:180
+#: ../../data/scripting/win_conditions/artifacts.lua:179
 msgid "Overview:"
 msgstr "총계:"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %1$i is the team's number; %2$s is a list of team members
 #. (e.g. "Steve, Robert, David"), %3$s is something like "x artifact(s)"
-#: ../../data/scripting/win_conditions/artifacts.lua:198
+#: ../../data/scripting/win_conditions/artifacts.lua:197
 msgid "Team %1$i (%2$s) owns %3$s."
 msgstr "팀 %1$i (%2$s) 이 %3$s 을 소유합니다."
 
@@ -112,38 +112,31 @@ msgid "Collectors"
 msgstr "수집가"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:20
-msgid ""
-"You get points for precious wares in your warehouses. The player with the "
-"highest number of wares at the end of 4 hours wins the game."
-msgstr "당신은 당신 창고의 귀중한 물품으로부터 점수를 얻습니다. 마지막 4시간에 가장 많은 물품을 가진 플레이어가 게임에서 승리합니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:26
+#: ../../data/scripting/win_conditions/collectors.lua:28
 msgid "Points"
 msgstr "점수"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:68
+#: ../../data/scripting/win_conditions/collectors.lua:72
 #, lua-format
 msgid "Status for %s"
 msgstr "%s 의 상태"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:84
+#: ../../data/scripting/win_conditions/collectors.lua:88
 #, lua-format
 msgid "Total: %i point"
 msgid_plural "Total: %i points"
 msgstr[0] "총계: %i 포인트"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:107
+#: ../../data/scripting/win_conditions/collectors.lua:111
 #, lua-format
 msgid "Status for Team %d"
 msgstr "팀 %d 의 상태"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/collectors.lua:109
+#: ../../data/scripting/win_conditions/collectors.lua:113
 #, lua-format
 msgid "Team Total: %i point"
 msgid_plural "Team Total: %i points"
@@ -170,16 +163,6 @@ msgstr "끝없는 게임"
 #: ../../data/scripting/win_conditions/endless_game.lua:16
 msgid "This is an endless game without rules."
 msgstr "무규칙의 끝없는 게임입니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/endless_game_fogless.lua:14
-msgid "Endless Game (no fog)"
-msgstr "끝없는 게임 (안개 없음)"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/endless_game_fogless.lua:15
-msgid "This is an endless game without rules. Fog of war is disabled."
-msgstr "무규칙의 끝없는 게임입니다. 전장의 안개가 비활성화합니다."
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/scripting/win_conditions/hq_hunter.lua:18
@@ -245,18 +228,8 @@ msgid "Territorial Time"
 msgstr "영토 시간"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/territorial_time.lua:24
-msgid ""
-"Each player or team tries to obtain more than half of the map’s area. The "
-"winner will be the player or the team that is able to keep that area for at "
-"least 20 minutes, or the one with the most territory after 4 hours, "
-"whichever comes first. If the peaceful mode is selected, the game ends if "
-"one player has more land than any other player could gain."
-msgstr "각 선수나 편은 지도 영역의 절반 이상을 얻으려고 합니다. 우승자는 최소 20 분 동안 해당 지역을 유지할 수 있는 선수 또는 편이거나, 4 시간 후 가장 많은 영토를 가진 편 중 하나가 먼저 될것입니다. 평화 모드를 선택하면 한 선수가 다른 선수가 얻을 수 있는 것보다 많은 땅을 갖게 되면 놀이가  끝납니다."
-
-# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Context: 'The game will end in (2 hours and) 30 minutes.'
-#: ../../data/scripting/win_conditions/win_condition_functions.lua:372
+#: ../../data/scripting/win_conditions/win_condition_functions.lua:394
 #, lua-format
 msgid "The game will end in %s."
 msgstr "게임이 %s 안에 종료합니다."
@@ -320,20 +293,12 @@ msgid "Wood Gnome"
 msgstr "숲 요정"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/wood_gnome.lua:19
-msgid ""
-"As wood gnome you like big forests, so your task is to have more trees on "
-"your territory than any other player. The game will end after 4 hours of "
-"playing. The one with the most trees at that point will win the game."
-msgstr "당신은 숲 요정으로서 큰 숲을 좋아하기에, 다른 플레이어보다 당신의 영토에 더 많은 나무를 보유하는 것이 일입니다. 게임은 플레이 4시간 후에 종료합니다. 종료 시에 가장 많은 나무를 보유한 자가 게임에서 승리합니다."
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/scripting/win_conditions/wood_gnome.lua:25
+#: ../../data/scripting/win_conditions/wood_gnome.lua:28
 msgid "Trees owned"
 msgstr "보유한 나무"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:94
+#: ../../data/scripting/win_conditions/wood_gnome.lua:98
 msgid "The winner is %1$s with %2$s."
 msgstr "승자는 %2$s 을 보유한 %1$s 입니다."

@@ -2,77 +2,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2022\n"
-"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2024\n"
+"Language-Team: German (http://app.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Note lore for an atlantean production site: Forester's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1491
-msgctxt "atlanteans_building"
+#. TRANSLATORS: Performance helptext for a Frisian production site: Smokery
+#: ../../data/tribes/initialization/frisians/units.lua:1910
+#, lua-format
+msgctxt "frisians_building"
 msgid ""
-"‘Only after the last tree has been cut<br>Only after the last forest was "
-"devastated<br>Only after the last piece of green has become bare "
-"soil<br>Then will you find that nature needs to be cared for.’"
-msgstr "‘Erst wenn der letzte Baum gefällt wurde,<br>Erst wenn der letzte Wald verwüstet wurde,<br>Erst wenn das letzte Grün zu nackter Erde wurde,<br>Dann wirst du erkennen, dass man sich um die Natur kümmern muss.’ "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Coal Mine
-#. TRANSLATORS: Lore helptext for an atlantean production site: Iron Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1804
-#: ../../data/tribes/initialization/atlanteans/units.lua:1818
-msgctxt "atlanteans_building"
-msgid ""
-"‘Way down here in this deep mine<br>where the sun it dare not shine,<br>I "
-"sweat and toil till day is done,<br>but I’ll be back with morning come.’"
-msgstr "‘Glück auf! Glück auf! Der Bergmann kommt!<br>Und er hat sein helles Licht bei der Nacht.<br> Er hat’s angezünd’t, das wirft seinen Schein<br>Und er gräbt nach Kohle und Eisen bei der Nacht<br>im Felsgestein, im Felsgestein.’ "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Gold Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1832
-msgctxt "atlanteans_building"
-msgid ""
-"‘Way down here in these golden grounds<br>with stones above us the thousand "
-"pounds<br>I dig in the dust until I see the spark;<br>The golden ore I find "
-"in the dark.’"
-msgstr "‘Tief hier unten am goldenen Grund<br>mit Gestein über uns zu tausenden Pfund<br>grab ich im Staub bis erscheint mir das Funkeln;<br>Das goldene Erz find ich hier im Dunkeln.’ "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Castle
-#: ../../data/tribes/initialization/atlanteans/units.lua:1956
-msgctxt "atlanteans_building"
-msgid ""
-"Sometimes even we Atlanteans need to use brute force, but we always play it "
-"wisely."
-msgstr "Auch wir Atlanter müssen bisweilen brutale Gewalt anwenden, aber wir tun es immer weise. "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Shipyard
-#: ../../data/tribes/initialization/atlanteans/units.lua:1985
-msgctxt "atlanteans_building"
-msgid ""
-"‘Soon may the wellerman come,<br>to bring us bread and smoked fish.<br>We "
-"set sail for a faraway shore<br>we praise Satul the best we wish.’"
-msgstr "‘Bald kommt das Schiff mit Kisten beladen,<br>uns Brot und Räucherfische zu bringen.<br>Wir setzten Kurs nach fremden Gestaden<br>für unsere Wünsche, Satul wir besingen.’ "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for an empire production site: Mill
-#: ../../data/tribes/initialization/empire/units.lua:1429
-msgctxt "empire_building"
-msgid "Proverb often cited by millers to impatient customers"
-msgstr "Oft von Müllern gegenüber ungeduldigen Kunden gebrauchtes Sprichwort "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#. TRANSLATORS: Lore author helptext for an empire production site: Barracks
-#: ../../data/tribes/initialization/empire/units.lua:1657
-msgctxt "empire_building"
-msgid "Argument in the Senate for increasing recruitment"
-msgstr "Debatte im Senat zur Erhöhung der Rekrutierung "
+"If this building is fully supplied, production of one of each smoked food "
+"takes %s on average."
+msgstr "Wenn dieses Gebäude voll beliefert wird, dauert die Produktion jeweils einer von jeder geräucherten Nahrung im Durchschnitt %s. "

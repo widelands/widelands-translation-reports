@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-06-22 03:53+0000\n"
+"POT-Creation-Date: 2024-01-01 02:43+0000\n"
 "PO-Revision-Date: 2018-03-24 18:16+0000\n"
 "Last-Translator: tamanegi, 2018\n"
-"Language-Team: Japanese (https://www.transifex.com/widelands/teams/35159/ja/)"
+"Language-Team: Japanese (https://app.transifex.com/widelands/teams/35159/ja/)"
 "\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/fri02.wmf/scripting/init.lua:34
@@ -90,7 +90,7 @@ msgstr "国境付近に偵察小屋を建て、帝国の秘密を探りましょ
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Hauke – Expansion hint. A poem, verse 4
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:94
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:343
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:345
 msgid "Who’s ordering around here thee!"
 msgstr "ここを支配するのは汝だ！"
 
@@ -400,16 +400,6 @@ msgid ""
 msgstr "異邦人よ！私はムリリウス、帝国のノーザンランド州の総督だ！お前たちは一体誰で、この地で一体何をしているのか、それを問う！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Murilius – Supply Murilius 5. "Reebaude" is the Latin vocative
-#. case (form of address) of Reebaud.
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:283
-msgid ""
-"In this case, Reebaude, I must inform you of the presence of an "
-"inhospitable, hostile tribe of barbarians in the vicinity of this very "
-"outpost of the Empire."
-msgstr "そういうことならば、良いことを教えてやろう、リーボード。帝国の最前線にあたるこの地には敵対的な野蛮人の部族が生息しているぞ。"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – Supply Murilius 5
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:286
 msgid ""
@@ -464,18 +454,6 @@ msgstr ""
 "物資を提供できないようなら、帝国はお前たちを敵とみなす。それと、貴重な金属の浪費を避けるため、今より贈り物を受けとるまで、お前たちが領土を拡張することを禁じる。従わねば、帝国はお前たちを敵とみなす。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Murilius – Supply Murilius 8
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:310
-msgid ""
-"You will have to fight those barbarians if you intend to live in the area; "
-"surely you can see that fighting them together with the Empire is easier "
-"than alone? And you really do not want the Empire as your enemy. Barbarians "
-"though you are, I do believe you will realize the truth of my words after "
-"some consideration."
-msgstr ""
-"この地に住みたいと言うのなら、お前たちは野蛮人と戦わねばならない。帝国と一緒に戦えば仕事も楽になるぞ？それに、帝国は敵に回したくなかろう？お前達も蛮族の一種なのかもしれんが、ちょっと考えれば私の発言が正しいことがわかるだろう。"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Reebaud – Supply Murilius 9
 #: ../../data/campaigns/fri02.wmf/scripting/texts.lua:317
 msgid ""
@@ -506,7 +484,7 @@ msgstr "領土の拡大については ── あいつはどこまで厳密に�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Hauke – Expansion hint
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:331
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:333
 msgid ""
 "Chieftain Reebaud! Our scout just returned. He has found a poem in the "
 "strange tongue this Proconsul speaks. With some difficulty, I have "
@@ -517,7 +495,7 @@ msgstr ""
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Hauke – Expansion hint
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:346
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:348
 msgid ""
 "I don’t know what it means, but I’m sure it’s important. Perhaps you can "
 "make some sense of it."
@@ -527,14 +505,14 @@ msgstr "私にはどういうことかはわかりませんが、何か重要な
 #. TRANSLATORS: "You are enemies of the Empire!". DO NOT TRANSLATE. Reebaud
 #. doesn’t understand Latin. You can transliterate into non-Latin scripts
 #. though
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:353
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:362
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:355
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:364
 msgid "Hostes Imperii estis!"
 msgstr "ホステスインペリイエスティス！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – enemy of the Empire: player destroyed the warehouse
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:355
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:357
 msgid ""
 "Barbarians! You have refused my offer of friendship most ungraciously by "
 "destroying the beautiful building we presented you with!"
@@ -542,54 +520,44 @@ msgstr "未開の蛮族共！貴様等は私の親切な提案を拒否するか
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – enemy of the Empire
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:358
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:367
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:360
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:369
 msgid "You are enemies of the Empire, and I shall treat you as such!"
 msgstr "貴様等は帝国の敵だ、覚悟してもらう！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – enemy of the Empire: player built forbidden
 #. military buildings
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:364
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:366
 msgid ""
 "Barbarians! You have refused my offer of friendship most ungraciously by "
 "basely wasting your precious resources on expansion!"
 msgstr "未開の蛮族め！貴様等は私の親切な提案を拒否するか！それも貴重な物資を領土の拡張に浪費するなどという不愉快な真似までして！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:371
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:373
 msgid "Defeat the enemies!"
 msgstr "敵を倒しましょう！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Reebaud – defeat both enemies
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:373
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:375
 msgid ""
 "Murilius has made it quite clear that he won’t leave us alone. I fear we "
 "must defeat him and destroy his colony if we ever want to have peace here."
 msgstr "ムリリウスはどうあっても我々を見逃さないだろう。この地で平和を確保するには、彼とその植民地を打倒しなければならないのか。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Reebaud – defeat both enemies
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:376
-msgid ""
-"The barbarian tribe he mentioned is also a threat. I don’t want to share "
-"this land with anyone, as sharing only leads to conflicts and battles, as we"
-" saw in our old home. We must defeat the barbarians as well."
-msgstr ""
-"そして、彼の言っていた野蛮人の部族も脅威の１つだ。私は他の誰とも共存するつもりは無い。永遠の共存は有り得ず、いずれは争うことになるからだ。そう、かつての故郷で起こったことのように。だから野蛮人も排除するしかない。"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "Greetings, friends of the Empire!". DO NOT TRANSLATE. Reebaud
 #. doesn’t understand Latin. You can transliterate into non-Latin scripts
 #. though
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:382
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:384
 msgid "Salvete amici Imperii!"
 msgstr "サルヴェテアミーシインペリイ！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – Supplied Murilius
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:384
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:386
 msgid ""
 "Strangers! I see you have kept your word. The Empire rewards its friends, "
 "therefore I shall reward you with the friendship of the Empire!"
@@ -597,28 +565,15 @@ msgstr ""
 "異邦人よ！私との約束を守ってくれたようだな。帝国は友人にはきちんと報いるのだ。だから、私はここにお前たちと我々帝国の間の友好が成ったと宣言しよう！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Murilius – Supplied Murilius. Murilius’s plan is to use the
-#. player as cannon fodder, while he himself only attacks when he has no
-#. choice
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:387
-msgid ""
-"Now I permit you to assist us in conquering the barbarians, who live in a "
-"sheltered valley northwest to us. I charge you, expand along the northern "
-"end of the mountains enclosing this outpost; you will find the barbarians "
-"there – attack them! We will fend off attacks launched by the enemy."
-msgstr ""
-"では、野蛮人を制圧するのを手伝うことを許可しよう。連中は北西の谷に籠もっている。この基地に近い山の北の端に沿って領土を広げ、連中を発見し、攻撃することを命じる！その間、こちらは敵の攻撃を防ぐことに専念する。"
-
-# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: "Friends of the Empire". DO NOT TRANSLATE. Reebaud doesn’t
 #. understand Latin. You can transliterate into non-Latin scripts though
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:393
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:395
 msgid "Amici Imperii"
 msgstr "アミーシインペリイ！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – defeat Murilius 1
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:395
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:397
 msgid ""
 "You have done well, strangers! As I did tell you earlier, you will be "
 "rewarded with the friendship of the Empire!"
@@ -626,7 +581,7 @@ msgstr "良くやったぞ、異邦人よ！前にも宣言した通り、帝国
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Murilius – defeat Murilius 1
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:398
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:400
 msgid ""
 "I propose you start by sending legates to the Capital, so as to discover the"
 " most recent political activities. Once there, you can receive instructions "
@@ -637,13 +592,13 @@ msgstr ""
 "まずは現在の政治状況を理解するため、首都に使節を送ると良いだろう。そうすれば、議会よりお前たち部族に対して何らかの指示が出るはずだ。それと、首都がお前たちにどんな貢ぎ物を望んでいるのかを調べる必要があるな。ああ、それと誰が王になるのかも調べておく必要もあるだろうな。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:402
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:404
 msgid "Defeat the Empire!"
 msgstr "帝国を倒せ！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Reebaud – defeat Murilius 2
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:404
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:406
 msgid ""
 "Did I understand him correctly? After all we have done for him, after so "
 "many of my soldiers have laid down their lives for his sake, he wants us to "
@@ -654,7 +609,7 @@ msgstr ""
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Reebaud – defeat Murilius 2
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:407
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:409
 msgid ""
 "We will punish this self-proclaimed Proconsul for his treachery! I shall "
 "burn down his entire colony, and kill every single person in his realm. He "
@@ -663,13 +618,13 @@ msgstr ""
 "これより我々は自ら罪を告白したこの総督に罰を与える！連中の全てを焼き払え！一人として逃すな、皆殺しだ！貴様は我々を侮辱したことをせいぜい後悔しながら死ぬが良い！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:412
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:414
 msgid "Victory!"
 msgstr "勝利！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Reebaud – victory
-#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:414
+#: ../../data/campaigns/fri02.wmf/scripting/texts.lua:416
 msgid ""
 "We have defeated all our enemies! Now no other tribe will ever dare settle "
 "here again. We are safe, and we can finally live our lives in peace."

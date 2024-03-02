@@ -2,17 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"POT-Creation-Date: 2024-01-01 02:43+0000\n"
 "PO-Revision-Date: 2017-12-27 17:17+0000\n"
-"Last-Translator: Juano Lemos, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/widelands/teams/35159/es/)"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/widelands/teams/35159/es/)"
 "\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/campaigns/emp04.wmf/scripting/texts.lua:47
@@ -221,7 +222,7 @@ msgid "Vesta is cursing us…"
 msgstr "Vesta nos maldice..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an empire training site: Training Camp,
+#. TRANSLATORS: Purpose helptext for an Empire training site: Training Camp,
 #. part 1
 #: ../../data/campaigns/emp04.wmf/scripting/tribes/init.lua:138
 msgctxt "empire_building"

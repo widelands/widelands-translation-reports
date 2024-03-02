@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-05-10 03:01+0000\n"
+"POT-Creation-Date: 2024-01-01 02:43+0000\n"
 "PO-Revision-Date: 2015-02-03 14:50+0000\n"
-"Last-Translator: Zlopez <michal.konecny@psmail.xyz>, 2021\n"
-"Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Michal Havlíček, 2023\n"
+"Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/README.lua:29
+#: ../../data/txts/README.lua:30
 msgid ""
 "Which version of Widelands you are running (i.e. either the build number or "
 "the revision number if you are running a development version or a daily "
@@ -24,17 +24,10 @@ msgid ""
 msgstr "Kterou verzi Widelands používáš (tj. buď pořadové číslo aktualizace nebo ověřovací ID, pokud používáš vývojovou verzi nebo denní aktualizaci)."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/help/multiplayer_help.lua:21
+#: ../../data/txts/help/multiplayer_help.lua:22
 msgid ""
 "The latter three can only be set by the hosting client by left-clicking the "
 "‘type’ button of a player. Hosting players can also set the initialization "
 "of each player (the set of buildings, wares and workers the player starts "
 "with) and the tribe and team for computer players."
 msgstr "Jednu z posledních tří možností může nastavit pouze hostitel, kliknutím na tlačítko \"Typ\" u každého z hráčů. Hostitel může také nastavovat startovní podmínky u všech hráčů (budovy, zboží a pracovníky, které hráči na začátku hry dostanou) a u počítačových hráčů navíc i kmen a tým ."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../data/txts/tips/general_game.lua:65
-msgid ""
-"An economy consists of all buildings and flags connected by roads. The "
-"supplies and demands of buildings are handled in its economy."
-msgstr "Hospodářství se skládá ze staveb a vlajek propojených cestami. Zásobování a uspokojování poptávky budov je realizováno v rámci celého takto propojeného hospodářství ."

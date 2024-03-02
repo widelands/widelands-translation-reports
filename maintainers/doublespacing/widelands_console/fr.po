@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"POT-Creation-Date: 2024-02-15 02:28+0000\n"
 "PO-Revision-Date: 2015-02-03 14:54+0000\n"
-"Last-Translator: Boese Kaiser, 2022\n"
-"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: C138, 2021,2023\n"
+"Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:57
+#: ../../src/wlapplication_messages.cc:72
 #, c-format
 msgid ""
 "Use the specified directory for Widelands config files, savegames, and "
@@ -24,7 +24,7 @@ msgid ""
 msgstr "Utilisez le Dossier spécifié pour les fichiers de configuration de Widelands, les parties sauvegardées et les rediffusions. Par default, il s'agit de  `%s`."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:73
+#: ../../src/wlapplication_messages.cc:88
 #, c-format
 msgid ""
 "Create a new game directly with the settings configured in the given file. "
@@ -32,12 +32,7 @@ msgid ""
 msgstr "Cree une nouvelle partie avec les paramètres configurés dans le fichier indiqué.  Un exemple peut être trouvé dans '%s'"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:79
-msgid "Load the savegame `FILENAME` directly."
-msgstr "Charge la partie sauvegardée  `NOMDEFICHIER` directement."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:312
+#: ../../src/wlapplication_messages.cc:353
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"

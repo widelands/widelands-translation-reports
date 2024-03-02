@@ -2,24 +2,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Tarța Vasile-Florin <florin13t@gmail.com>, 2016\n"
-"Language-Team: Romanian (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Romanian (http://app.transifex.com/widelands/widelands/"
 "language/ro/)\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n"
-"%100==0)&&(n!=0)))?2:1));\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"Plural-Forms: nplurals=3; "
+"plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. * TRANSLATORS: This is a terrain type tooltip in the editor
 #. * TRANSLATORS: Editor terrain property: units can walk on this terrain
+#. * TRANSLATORS: This is a terrain type tooltip in the editor
 #: ../../src/editor/ui_menus/field_info_window.cc:116
-#: ../../src/logic/map_objects/world/terrain_description.cc:75
+#: ../../src/logic/map_objects/world/terrain_description.cc:76
 msgid "walkable"
 msgstr "Se poate traversa"
 
@@ -32,6 +32,6 @@ msgstr "Se poate înota"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: A world name for the random map generator in the editor
-#: ../../src/logic/map.cc:59
+#: ../../src/logic/map.cc:60
 msgid "Winter"
 msgstr "iarnă"

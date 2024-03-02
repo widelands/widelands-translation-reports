@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Karl Vest, 2020\n"
-"Language-Team: Slovak (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Pavol Gono, 2024\n"
+"Language-Team: Slovak (http://app.transifex.com/widelands/widelands/language/"
 "sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -13,135 +13,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: January. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:92
-msgid "Jan"
-msgstr "1."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: February. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:98
-msgid "Feb"
-msgstr "2."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: March. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:104
-msgid "Mar"
-msgstr "3."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: April. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:110
-msgid "Apr"
-msgstr "4."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: May. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:116
-msgid "May"
-msgstr "5."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: June. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:122
-msgid "Jun"
-msgstr "6."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: July. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:128
-msgid "Jul"
-msgstr "7."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: August. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:134
-msgid "Aug"
-msgstr "8."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: September. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:140
-msgid "Sep"
-msgstr "9."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: October. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:146
-msgid "Oct"
-msgstr "10."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: November. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:152
-msgid "Nov"
-msgstr "11."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: December. Keep this to 4 letters maximum.
-#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
-#. the CLDR
-#. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:157
-msgid "Dec"
-msgstr "12."
+#: ../../src/base/format/float_node.h:33
+msgctxt "decimal_separator"
+msgid "."
+msgstr ","
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map information tool in the editor
-#: ../../src/editor/editorinteractive.cc:359
+#: ../../src/editor/editorinteractive.cc:389
 msgid "Click on a field to show information about it"
-msgstr "Klikni pre zobrazenie ďalších informácií o políčku."
+msgstr "Kliknutím zobrazíte ďalšie informácie o políčku."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:185
+#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "Chyba pri vytváraní adresára: %s"
@@ -150,21 +37,61 @@ msgstr "Chyba pri vytváraní adresára: %s"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:292
+#: ../../src/logic/map_objects/tribes/militarysite.cc:297
 msgid "Enemy Defeated!"
 msgstr "Porážka nepriateľa"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:674
+#: ../../src/logic/map_objects/tribes/ship.cc:1910
 msgid "Port Lost!"
 msgstr "Strata prístavu"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:214
+#: ../../src/network/internet_gaming.cc:206
 msgid "Successfully reconnected to the metaserver!"
 msgstr "Podarilo sa úspešne pripojiť na metaserver."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:249
+#: ../../src/wui/attack_window.cc:376
 msgid "Number of soldiers"
 msgstr "Počet vojakov:"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:383
+msgid "Send less ships. Hold down Ctrl to send no ships"
+msgstr "Poslať menej lodí. Stlačte Ctrl na odobratie všetkých lodí."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:384
+msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
+msgstr "Poslať menej vojakov. Stlačte Ctrl na odobratie všetkých vojakov."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:390
+msgid "Send more ships. Hold down Ctrl to send as many ships as possible"
+msgstr "Poslať viac lodí. Stlačte Ctrl na poslanie všetkých dostupných lodí."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/attack_window.cc:391
+msgid ""
+"Send more soldiers. Hold down Ctrl to send as many soldiers as possible"
+msgstr "Poslať viac vojakov. Stlačte Ctrl na poslanie všetkých dostupných vojakov."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/constructionsitewindow.cc:493
+#: ../../src/wui/soldiercapacitycontrol.cc:85
+msgid ""
+"Decrease capacity. Hold down Ctrl to set the capacity to the lowest value"
+msgstr "Znížiť kapacitu. Súčasným pridržaním Ctrl sa nastaví na najnižšiu hodnotu."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/constructionsitewindow.cc:503
+#: ../../src/wui/soldiercapacitycontrol.cc:94
+msgid ""
+"Increase capacity. Hold down Ctrl to set the capacity to the highest value"
+msgstr "Zvýšiť kapacitu. Súčasným pridržaním Ctrl sa nastaví na najvyššiu hodnotu."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wui/story_message_box.cc:125
+msgid "Continue playing this mission"
+msgstr "Pokračovať v hraní tejto misie."

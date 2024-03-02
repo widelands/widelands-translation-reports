@@ -2,30 +2,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-01-01 02:50+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:47+0000\n"
 "Last-Translator: tamanegi, 2018\n"
-"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Japanese (http://app.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:26
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:21
 msgid "Introduction"
 msgstr "はじめに"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:28
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:23
 msgid "Soldiers, Training and Warfare"
 msgstr "兵士、訓練、戦争"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:29
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:24
 msgid ""
 "In this scenario, I’m going to tell you about soldiers, their training and "
 "their profession: warfare. Although Widelands is about building up, not "
@@ -35,7 +35,7 @@ msgid ""
 msgstr "このシナリオでは、兵士と訓練、そしてその成果を発揮する場、戦争について説明をしていきます。Widelandsは領土と経済を発展させていくことを主眼としたゲームでありますが、どうしても敵を倒さねばならない状況は発生します。しかし戦争自体を主眼に置いたゲームではないため、戦略や戦術といったものは簡略化され、経済的な側面が主に考慮された仕組みになっています。そのため、戦争の仕組みについては説明を要するでしょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:30
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:25
 msgid ""
 "I’ve set up a small village that contains the most important buildings. You "
 "also have enough wares, so you do not have to take care of your weapons "
@@ -43,12 +43,12 @@ msgid ""
 msgstr "というわけで、重要な施設を一通り揃えた村を用意しておきました。物資も十分にあるので、あなたが武器の生産について心配する必要はありません。ちなみに、実際のゲームではこんな贅沢な状況はまずありえません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:37
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:32
 msgid "Soldiers’ abilities"
 msgstr "兵士の能力"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:39
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:34
 msgid ""
 "New soldiers are created differently from normal workers: recruits will walk"
 " from a warehouse (or your headquarters) to the barracks where they will "
@@ -57,7 +57,7 @@ msgid ""
 msgstr "新しい兵士は通常の労働者とは異なる方法で作られます。新兵は倉庫(もしくは本拠地)から歩いて兵舎へ行き、そこで基本的な訓練を受けて晴れて兵士となります。野蛮人の普通の兵士は鎧を使わないので、装備品は一本の斧だけで十分です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:40
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:35
 msgid ""
 "Take a look at the soldiers that are on their way to our military buildings."
 " They look different from normal workers: they have a health bar over their "
@@ -68,7 +68,7 @@ msgstr "さて、軍事建物に向かう兵士達の様子を見てみましょ
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: the current stats are: 3 health, 5 attack, 0 defense, 2 evade.
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:42
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:37
 msgid ""
 "If a Barbarian soldier is fully trained, he has level %1% health, level %2% "
 "attack, level %3% defense and level %4% evade. This is one fearsome warrior "
@@ -76,26 +76,26 @@ msgid ""
 msgstr "もし野蛮人の戦士が訓練を完全に終えると、体力はレベル %1%、攻撃はレベル %2%、防御はレベル %3%、回避はレベル %4% になります。まさに恐るべき戦士です！個々の能力は以下のような意味になっています。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:43
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:38
 msgid "Health:"
 msgstr "体力: "
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: the current stats are: 13000 health, 2800 health gain.
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:45
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:40
 msgid ""
 "The total life of a soldier. A Barbarian soldier starts with %1% health, and"
 " he will gain %2% health with each health level."
 msgstr "兵士の生命力を表します。野蛮人の兵士は初期状態で %1% の体力があり、体力レベルがあがるごとに %2% を追加で獲得します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:46
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:41
 msgid "Attack:"
 msgstr "攻撃: "
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: the current stats are: 1400 damage, gains 850 damage points.
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:48
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:43
 msgid ""
 "The amount of damage a soldier will inflict on the enemy when an attack is "
 "successful. A Barbarian soldier with attack level 0 inflicts ~%1% points of "
@@ -104,31 +104,19 @@ msgid ""
 msgstr "攻撃成功時に敵に与えられるダメージです。野蛮人の攻撃レベル0の兵士は攻撃成功時に %1%前後のダメージを与えます。そして攻撃レベルがあがることにベースダメージが %2% ずつ増加していきます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:50
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:45
 msgid "Defense:"
 msgstr "防御: "
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: the current stats are: 3%. The calculated health value is 3395
-#. TRANSLATORS: The last two %% after the placeholder are the percent symbol.
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:53
-msgid ""
-"The defense is the percentage that is subtracted from the attack value. The "
-"Barbarians cannot train in this skill and therefore have always defense "
-"level 0, which means that the damage is always reduced by %1%%%. If an "
-"attacker with an attack value of 3500 points hits a Barbarian soldier, the "
-"Barbarian will lose 3500·%2%%% = %3% health."
-msgstr "防御は受けた攻撃の軽減率を表します。野蛮人はこの方面での訓練ができないので、常にレベル0です。この状態でもダメージは %1%%% 軽減されます。もし、3500の攻撃が野蛮人の兵士に当たった場合、3500·%2% = %3% の体力を失います。"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:54
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:49
 msgid "Evade:"
 msgstr "回避: "
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: the current stats are: 25% evade, increases in steps of 15%.
 #. TRANSLATORS: The last two %% after the placeholder are the percent symbol.
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:57
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:52
 msgid ""
 "Evade is the chance that the soldier is able to dodge an attack. A level 0 "
 "Barbarian has a %1%%% chance to evade an attack, and this increases in steps"
@@ -136,25 +124,25 @@ msgid ""
 msgstr "回避は兵士が敵の攻撃を避ける確率を表します。回避レベル0の野蛮人の戦士は %1%%% の回避率を持っており、さらに回避レベルが上がるごとに %2%%% ずつ上昇します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:62
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:84
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:57
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:79
 msgid "The Battle Arena"
 msgstr "闘技場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:64
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:59
 msgid "Now I have talked about training and levels. Let me elaborate on that."
 msgstr "ここまで訓練とレベルについて話してきましたが、これからさらに詳しい話に入ります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:65
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:60
 msgid ""
 "A newly created soldier has no experience and is not very good at fighting. "
 "To make him stronger, you can build training sites."
 msgstr "なりたての兵士は何の経験もないので、戦闘が上手とは言い難いです。彼を強くするためには訓練施設を建設する必要があります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:66
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:61
 msgid ""
 "One of these training sites is the battle arena. It is a big and expensive "
 "building, and it trains soldiers in evade. Since soldiers get very hungry "
@@ -163,12 +151,12 @@ msgid ""
 msgstr "そのような訓練施設の一つが闘技場です。これは大サイズで非常に高価な建物で、兵士の回避を訓練できます。兵士達は激しい訓練のために空腹を抱えることになるので、この建物では大量の食料と強ビールが必要です。実際のゲームでも闘技場を建てる前に必要な物資の生産体制を整えておきましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:67
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:62
 msgid "To see evade training in action, build a battle arena."
 msgstr "では闘技場を建てて、実際に回避訓練を行ってみましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:68
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:63
 msgid ""
 "While we’re waiting for the battle arena, you’ll probably notice some "
 "soldiers walking around. They are automatically exchanged from time to time."
@@ -176,78 +164,78 @@ msgid ""
 msgstr "待っている間、兵士たちが歩き回っている様子が確認できるでしょう。彼らは時々自動的に交代するようになっています。これについてはまた後で教えます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:76
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:71
 msgid "Build a battle arena"
 msgstr "闘技場を建てる"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:77
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:72
 msgid "Build a battle arena. It is a big building."
 msgstr "闘技場を建てましょう。大サイズの建物です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:86
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:81
 msgid "The Battle Arena Has Been Constructed"
 msgstr "闘技場建設完了"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:87
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:82
 msgid ""
 "Very good. Our battle arena has been finished, and the soldiers are already "
 "walking towards it."
 msgstr "良くできました。闘技場が完成しました。兵士たちも既に闘技場に向かっています。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:89
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:84
 msgid ""
 "The needed wares are also delivered there. For successful training, you need"
 " pitta bread and strong beer, as well as either fish or meat."
 msgstr "必要な物資も届けられます。訓練を成功させるには、ピタパンと強ビール、それと肉か魚のどちらかが必要です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:90
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:85
 msgid ""
 "For more information, you can have a look at the building’s help window, "
 "accessible via the question mark in every building’s window."
 msgstr "このような情報は建物のヘルプウィンドウからも知ることができます。それぞれの建物のヘルプウィンドウでハテナマークからアクセスできます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:91
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:86
 msgid ""
 "To learn how far your soldiers have progressed in their training, you can "
 "have a look at their icons. They are modified by red dots:"
 msgstr "訓練がどの程度進んでいるのかは、彼らのアイコンをチェックすることで確認できます。訓練が進むと赤い点が追加されます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:92
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:87
 msgid ""
 "No red dots means that the soldier is not trained, so he has level 0. All "
 "your new recruits have this."
 msgstr "赤い点が何もない時は訓練されていないことを示します。つまり彼のレベルは0です。新しい兵士は全てこの状態です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:93
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:88
 msgid ""
 "With every successful training step, your soldier becomes stronger. This is "
 "indicated by a red dot. This soldier is on level 1 in evade training."
 msgstr "訓練が成功すると兵士は強くなります。赤い点はそれを表しています。この兵士は回避レベル1にあります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:94
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:89
 msgid ""
 "When your soldier has reached the highest possible level (in this case level"
 " 2), this is indicated by a white background color."
 msgstr "兵士の能力が最大レベルになると(今回の場合はレベル2)、背景が白くなります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:100
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:102
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:120
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:95
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:97
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:115
 msgid "The Training Camp"
 msgstr "訓練場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:103
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:98
 msgid ""
 "There is a second training site: the training camp. It is a big building "
 "too, and to complement the battle arena, it trains attack and health "
@@ -255,18 +243,18 @@ msgid ""
 msgstr "訓練場は二つ目の訓練施設で、これも大サイズの建物です。闘技場を補う役割があり、攻撃と体力の訓練を行うことができます。(野蛮人は防御の訓練はできません)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:104
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:114
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:99
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:109
 msgid "Build a training camp."
 msgstr "訓練場を建てる。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:112
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:107
 msgid "Build a training camp"
 msgstr "訓練場を建てる"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:113
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:108
 msgid ""
 "The battle arena only trains the soldiers in evade. To get the strongest "
 "possible soldier, you also need to build a training camp, which trains them "
@@ -274,14 +262,14 @@ msgid ""
 msgstr "闘技場は兵士の回避しか訓練できません。兵士を限界まで強くするには、訓練場を建て、攻撃と体力の訓練をする必要があります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:122
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:117
 msgid ""
 "Great, our training camp has now been finished, too. Now nothing will hinder"
 " us from getting the strongest warriors the world has ever seen."
 msgstr "素晴らしい。訓練場も完成しました。もうこれで最強の兵士を作り出す上で何の障害もありません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:123
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:118
 msgid ""
 "To train in the training camp, our soldiers need food like in the battle "
 "arena, but no strong beer. Instead, they need different axes for attack "
@@ -289,7 +277,7 @@ msgid ""
 msgstr "訓練場での訓練でも闘技場と同じように食料が必要です。ただし、強ビールは必要ありません。代わりに、攻撃訓練には通常と違うタイプの斧が、体力訓練にはヘルムが必要になります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:124
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:119
 msgid ""
 "This equipment is produced in smithies out of coal, iron, and sometimes "
 "gold. You will learn more about this in the second scenario of the Barbarian"
@@ -297,19 +285,19 @@ msgid ""
 msgstr "これらの装備品は武器工房で石炭、鉄、時に金を使って作られます。これら武具の製造については、野蛮人のキャンペーンの２番目のシナリオで学ぶことができます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:185
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:187
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:180
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:182
 msgid "Heroes and Rookies"
 msgstr "ヒーローとルーキー"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:188
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:183
 msgid ""
 "While our soldiers are training, let me tell you what we can do with them."
 msgstr "兵士たちが訓練している間に説明できることはしておきましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:189
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:184
 msgid ""
 "In every military building, you can set the preference for heroes (trained "
 "soldiers) or rookies. From time to time, a soldier will walk out of the "
@@ -318,7 +306,7 @@ msgid ""
 msgstr "全ての軍事建物では、訓練を積んだヒーローとルーキーのどちらを優先するかを選ぶことができます。兵士たちは時々自動的に別の建物への配置替えをします。これは前にも見ましたよね？その配置替えとこの設定は関係しています。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:190
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:185
 msgid ""
 "The initial setting depends on the type of the building. For the Barbarians,"
 " the sentry is the only building that prefers rookies by default. You should"
@@ -326,7 +314,7 @@ msgid ""
 msgstr "初期設定は建物の種類に依存します。野蛮人の場合、詰所だけが唯一デフォルトでルーキーを優先します。この設定は必要に応じて変更する必要があります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:191
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:186
 msgid ""
 "When you are expanding into no man’s land, you can make your buildings "
 "prefer rookies. When you are planning to attack, send heroes into that "
@@ -334,17 +322,17 @@ msgid ""
 msgstr "もし、誰もいない方向に領土を拡大する場合なら、ルーキーを優先していても問題ありません。しかし、敵への攻撃を想定しているのならそのような場所へはヒーローを送るべきでしょう。それと、敵の建物を占領した際は、建物の種類によらずヒーローが優先がされます。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:197
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:192
 msgid "Soldier capacity"
 msgstr "兵士の収容数"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:199
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:194
 msgid "Adjusting the number of soldiers"
 msgstr "兵士数の調整"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:200
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:195
 msgid ""
 "There is another way how you can control the strength of a military "
 "building: by the number of soldiers stationed there. Just click on the arrow"
@@ -354,14 +342,14 @@ msgid ""
 msgstr "軍事建物の強さを調整する別の方法があります。駐留している兵士数を調整するのです。矢印ボタンをクリックして目的の数に調整するだけです。全ての建物には最大収容数が設定されています。例えば防塞の場合、その値は5です。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:201
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:196
 msgid ""
 "If you wish to send a certain soldier away, you can simply click on it. It "
 "will then be replaced by another soldier."
 msgstr "もし特定の兵士を他の場所に送り出したい場合は、その兵士のアイコンをクリックしてください。かわりとなる兵士は自動的にやってくるでしょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:203
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:199
 msgid ""
 "The first number describes how many soldiers are currently in this building."
 " In this example, only one soldier is left inside (each military building is"
@@ -369,17 +357,17 @@ msgid ""
 msgstr "先頭の数値は建物の内部にいる兵士数です。この例ではたった一人だけ建物に残っています。(全ての軍事系建物は最低でも一人の兵士が守りにつきます)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:211
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:207
 msgid "Dismantle your sentry"
 msgstr "詰所を解体する"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:213
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:209
 msgid "Dismantling military buildings"
 msgstr "軍事建物の解体"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:214
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:210
 msgid ""
 "You can only reduce the number of soldiers to one. The last soldier of a "
 "building will never come out (unless this building is attacked). If you want"
@@ -388,7 +376,7 @@ msgid ""
 msgstr "駐留する兵士数は1までしか減らせません。そして最後の兵士は建物が攻撃を受けでもしない限り、外に出てきません。もし、兵士を他の場所に送りたいのならば、建物を解体するか破壊するしかありません。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:215
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:211
 msgid ""
 "However, destroying a military building is always linked with a risk: the "
 "land is still yours, but it is no longer protected. Any enemy that builds "
@@ -400,7 +388,7 @@ msgid ""
 msgstr "しかし、軍事建物の消失にはリスクがあります。建物がなくなり、軍事建物の占領エリアから外れてしまった領土がすぐに失われるわけではありませんが、そのような領土は無防備な状態になります。敵の軍事建物の占領エリアにそのような無防備な領土が入ると、領土が敵に奪われてしまいます。そして、占領された土地にあったあなたの建物は焼け落ちてしまうでしょう。それと視界が狭くなるという問題もあります。なので、基本的にはあなたの領土深くにあり、敵の影響を受けない軍事建物だけを壊すするようにしましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:216
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:212
 msgid ""
 "Have you seen your sentry? Since it cannot contain many soldiers and is next"
 " to a stronger barrier, it is rather useless."
@@ -408,24 +396,24 @@ msgstr "詰所の存在に気づきましたか？詰所はあまりたくさん
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: 'it' refers to the Barbarian sentry
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:218
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:214
 msgid "Dismantle it."
 msgstr "解体しましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:219
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:215
 msgid ""
 "You can also use this opportunity to become familiar with the other options:"
 " the heroes/rookies preference and the capacity."
 msgstr "ついでに、ヒーロー/ルーキーの優先設定や収容数の変更を試してみるのも良い考えです。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:227
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:223
 msgid "Dismantle your north-western sentry"
 msgstr "北西にある詰所を解体する"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:228
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:224
 msgid ""
 "You can control the number of soldiers stationed at a military site with the"
 " arrow buttons. If you want to get even your last soldier out, you will have"
@@ -434,23 +422,23 @@ msgid ""
 msgstr "軍事建物では矢印ボタンで兵士数を調整できます。最後の一人まで外に追い出したいのなら、破壊か解体するしかありません。しかし、兵士のいなくなった建物はもう領土を守りません。敵の攻撃や進出には十分注意しましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:229
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:225
 msgid "Dismantle your sentry in the north-west, next to the barrier."
 msgstr "北西の防塞の隣にある詰所を解体しましょう"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:235
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:248
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:231
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:244
 msgid "Enhance Your Fortress"
 msgstr "要塞を拡張する"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:237
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:233
 msgid "Enhancing Buildings"
 msgstr "建物の拡張"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:238
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:234
 msgid ""
 "Well done. Now you know how to draw back your soldiers from the places where"
 " you don’t need them. It is time to tell you how to reinforce your front "
@@ -458,14 +446,14 @@ msgid ""
 msgstr "良くできました。これで必要としないところから兵士を撤退させることができるようになりましたね。それでは、彼らを前線に集める方法を教えましょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:239
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:235
 msgid ""
 "Your fortress is already quite strong and conquers a lot of space. But there"
 " is an even bigger building: the citadel."
 msgstr "あなたの要塞は既に非常に強力な建物で広大な占領エリアを持っています。しかし、まださらに強力な建物、城塞があります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:240
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:236
 msgid ""
 "Citadels can’t be built directly. Instead, you’ll have to construct a "
 "fortress first and then enhance it to a citadel. To do so, click on the "
@@ -473,7 +461,7 @@ msgid ""
 msgstr "城塞は直接建てることはできません。かわりに、一旦要塞を建設し、それを拡張する必要があります。実際にそれを行うには、要塞をクリックし、「城塞に拡張」ボタンを押す必要があります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:241
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:237
 msgid ""
 "Your soldiers will leave the fortress while the construction is going on. "
 "This means that your fortress will lose its military influence, as I "
@@ -481,22 +469,22 @@ msgid ""
 msgstr "拡張中は兵士たちは要塞から離れる必要があります。これはつまり前述のように、要塞は軍事的な影響を失ったということになります。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:242
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:238
 msgid "Enhance your fortress to a citadel now."
 msgstr "要塞を城塞に拡張してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:250
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:246
 msgid "Enhance your fortress to a citadel"
 msgstr "要塞を城塞に拡張する"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:251
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:247
 msgid "Enhance your fortress to a mighty citadel."
 msgstr "要塞を強大な城塞に拡張します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:252
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:248
 msgid ""
 "The citadel can house 12 soldiers, and it is the biggest military building "
 "the Barbarians can build. It also costs a lot of resources and takes a long "
@@ -505,17 +493,17 @@ msgid ""
 msgstr "城塞は最大12人の兵士を収容できる、野蛮人の最大の建物です。当然、その建設には長い時間と多大なコストがかかります。この建物は隘路や山の近くのような戦略的に重要な地点に向いているでしょう。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:259
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:255
 msgid "Defeat your Enemy"
 msgstr "敵を倒す"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:261
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:257
 msgid "Defeat the Enemy"
 msgstr "敵を倒す"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:262
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:258
 msgid ""
 "Great work, the citadel is finished. But what’s that? A hostile tribe has "
 "settled next to us while the citadel was under construction! Do you see how "
@@ -525,15 +513,15 @@ msgid ""
 msgstr "よくできました。城塞が完成しました。おや、あれはなんでしょう？我々が城塞を建設している隙に敵が侵入していました！彼らがどのように我々の領土をかすめ取ったかわかりましたか？我々の木こりも庵を失ってしまいました。これはつまり私が話した通りのことが起こったということです。さて、領土をとりかえし、敵を倒しましょう！"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:263
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:274
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:259
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:270
 msgid ""
 "To attack a building, click on its doors, choose the number of soldiers that"
 " you wish to send and click on the ‘Attack’ button."
 msgstr "建物を攻撃するには、ドアをクリックします。そして攻撃に参加する兵士数を選んで「攻撃」ボタンを押します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:263
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:259
 msgid ""
 "Your soldiers will come from all nearby military buildings. Likewise, the "
 "defenders will come from all nearby military buildings of the enemy and "
@@ -541,35 +529,35 @@ msgid ""
 msgstr "近隣のあなたの軍事建物から兵士は出撃していきます。同様に、防御側も近隣の軍事建物から迎撃するために出撃します。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:264
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:260
 msgid ""
 "Attack and conquer all military buildings of the enemy and destroy their "
 "headquarters."
 msgstr "敵のすべての軍事系建物を攻撃して占領し、敵の本拠地を破壊してください。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:270
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:266
 msgid "Defeat Your Enemy"
 msgstr "敵を倒そう"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:272
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:268
 msgid "Defeat the enemy tribe"
 msgstr "敵の部族を倒そう"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:273
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:269
 msgid "Defeat the nearby enemy."
 msgstr "近くの敵を倒そう"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:279
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:281
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:275
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:277
 msgid "Conclusion"
 msgstr "終わりに"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:282
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:278
 msgid ""
 "Thank you for playing this tutorial. I hope you enjoyed it and you learned "
 "how to create and train soldiers, how to control where they go and how to "
@@ -578,7 +566,7 @@ msgid ""
 msgstr "このチュートリアルをプレイしていただきありがとうございます。兵士の訓練法、兵士の管理方法、そしてどのように敵を倒すのかがわかったと思います。敵を倒すのは簡単だったでしょう？訓練された兵士にはそれだけのアドバンテージがあるのです。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:283
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:279
 msgid ""
 "But a war is expensive, and not always the path leading to the goal. When "
 "setting up a new game, you can also choose peaceful win conditions. You "
@@ -586,7 +574,7 @@ msgid ""
 msgstr "しかし戦争は不経済です。そして必ずしもゴールにつながる道でもありません。新しいゲームをプレイする時には平和的な勝利条件を設定することもできます。どうぞ一度お試しください。それだけの価値はあるつもりです。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:284
+#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:280
 msgid ""
 "You are now ready to play the campaigns. They will teach you about the "
 "different economies of the tribes. You can also play the remaining "

@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
-"Language-Team: Spanish (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Juan Miguel Bernal González, 2024\n"
+"Language-Team: Spanish (http://app.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gameclient.cc:756
+#: ../../src/network/gameclient.cc:814
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -37,14 +37,12 @@ msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Regresar el juego a su velocidad normal."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:912
+#: ../../src/network/internet_gaming.cc:904
 msgid "/announce <msg> - Send a one time system message"
 msgstr "/announce <msg>  -  Envía un mensaje del sistema una sola vez"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: Health, Attack, Defense, Evade
-#: ../../src/wui/attack_window.cc:442 ../../src/wui/soldierlist.cc:418
-#: ../../src/wui/soldierlist.cc:480
+#: ../../src/wui/attack_window.cc:635 ../../src/wui/soldierlist.cc:556
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "PV: %1$u/%2$u AT: %3$u/%4$u DE: %5$u/%6$u EV: %7$u/%8$u"
@@ -56,6 +54,6 @@ msgstr "PV: %1$u/%2$u AT: %3$u/%4$u DE: %5$u/%6$u EV: %7$u/%8$u"
 #. * TRANSLATORS: Make sure that this translation is consistent with the
 #. tooltip.
 #. * TRANSLATORS: %1% is the number of players
-#: ../../src/wui/savegametable.cc:82
+#: ../../src/wui/savegametable.cc:83
 msgid "MP (%1%)"
 msgstr "MJ  (%1%)"

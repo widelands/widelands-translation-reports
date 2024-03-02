@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
 "Last-Translator: Dmytro Kyrychuk <dmytro.kyrychuck@gmail.com>, 2017\n"
-"Language-Team: Ukrainian (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Ukrainian (http://app.transifex.com/widelands/widelands/"
 "language/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -15,128 +15,128 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean worker: Smoker
-#: ../../data/tribes/initialization/atlanteans/units.lua:1000
+#. TRANSLATORS: Helptext for an Atlantean worker: Smoker
+#: ../../data/tribes/initialization/atlanteans/units.lua:1016
 msgctxt "atlanteans_worker"
 msgid "Smokes meat and fish."
 msgstr "Коптить м'ясо та рибу"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean worker: Baker
-#: ../../data/tribes/initialization/atlanteans/units.lua:1028
+#. TRANSLATORS: Helptext for an Atlantean worker: Baker
+#: ../../data/tribes/initialization/atlanteans/units.lua:1044
 msgctxt "atlanteans_worker"
 msgid "Bakes bread for workers."
 msgstr "Пече хліб для робочих"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean worker: Toolsmith
-#: ../../data/tribes/initialization/atlanteans/units.lua:1069
+#. TRANSLATORS: Helptext for an Atlantean worker: Toolsmith
+#: ../../data/tribes/initialization/atlanteans/units.lua:1085
 msgctxt "atlanteans_worker"
 msgid "Produces tools for the workers."
 msgstr "Виготовляє інструмент для робочих"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean worker: Trainer
-#: ../../data/tribes/initialization/atlanteans/units.lua:1095
+#. TRANSLATORS: Helptext for an Atlantean worker: Trainer
+#: ../../data/tribes/initialization/atlanteans/units.lua:1111
 msgctxt "atlanteans_worker"
 msgid "Trains the soldiers."
 msgstr "Тренує солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean worker: Weaponsmith
-#: ../../data/tribes/initialization/atlanteans/units.lua:1102
+#. TRANSLATORS: Helptext for an Atlantean worker: Weaponsmith
+#: ../../data/tribes/initialization/atlanteans/units.lua:1118
 msgctxt "atlanteans_worker"
 msgid "Produces weapons for the soldiers."
 msgstr "Виготовляє зброю для солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an atlantean worker: Armorsmith
-#: ../../data/tribes/initialization/atlanteans/units.lua:1109
+#. TRANSLATORS: Helptext for an Atlantean worker: Armorsmith
+#: ../../data/tribes/initialization/atlanteans/units.lua:1125
 msgctxt "atlanteans_worker"
 msgid "Produces armor for the soldiers."
 msgstr "Виготовляє броню для солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an atlantean training site: Dungeon, part
+#. TRANSLATORS: Purpose helptext for an Atlantean training site: Dungeon, part
 #. 1
-#: ../../data/tribes/initialization/atlanteans/units.lua:1848
+#: ../../data/tribes/initialization/atlanteans/units.lua:1928
 msgctxt "atlanteans_building"
 msgid "Trains soldiers in ‘Attack’."
 msgstr "Тренує солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a barbarian worker: Trainer
-#: ../../data/tribes/initialization/barbarians/units.lua:776
+#. TRANSLATORS: Helptext for a Barbarian worker: Trainer
+#: ../../data/tribes/initialization/barbarians/units.lua:777
 msgctxt "barbarians_worker"
 msgid "Trains the soldiers."
 msgstr "Тренує солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a barbarian worker: Helmsmith
-#: ../../data/tribes/initialization/barbarians/units.lua:783
+#. TRANSLATORS: Helptext for a Barbarian worker: Helmsmith
+#: ../../data/tribes/initialization/barbarians/units.lua:784
 msgctxt "barbarians_worker"
 msgid "Forges helmets for soldiers."
 msgstr "Виготовляє шоломи для солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a barbarian production site: Bakery
-#: ../../data/tribes/initialization/barbarians/units.lua:1295
+#. TRANSLATORS: Purpose helptext for a Barbarian production site: Bakery
+#: ../../data/tribes/initialization/barbarians/units.lua:1330
 msgctxt "barbarians_building"
 msgid "Bakes pitta bread for soldiers and miners alike."
 msgstr "Пече хліб для робочих"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. TRANSLATORS: Purpose helptext for a Barbarian training site: Battle Arena,
 #. part 1
-#: ../../data/tribes/initialization/barbarians/units.lua:1651
+#: ../../data/tribes/initialization/barbarians/units.lua:1700
 msgctxt "barbarians_building"
 msgid "Trains soldiers in ‘Evade’."
 msgstr "Тренує солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an empire worker: Baker
-#: ../../data/tribes/initialization/empire/units.lua:721
+#. TRANSLATORS: Helptext for an Empire worker: Baker
+#: ../../data/tribes/initialization/empire/units.lua:722
 msgctxt "empire_worker"
 msgid "Bakes bread for workers."
 msgstr "Пече хліб для робочих"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an empire worker: Toolsmith
-#: ../../data/tribes/initialization/empire/units.lua:804
+#. TRANSLATORS: Helptext for an Empire worker: Toolsmith
+#: ../../data/tribes/initialization/empire/units.lua:805
 msgctxt "empire_worker"
 msgid "Produces tools for the workers."
 msgstr "Виготовляє інструмент для робочих"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an empire worker: Trainer
-#: ../../data/tribes/initialization/empire/units.lua:830
+#. TRANSLATORS: Helptext for an Empire worker: Trainer
+#: ../../data/tribes/initialization/empire/units.lua:831
 msgctxt "empire_worker"
 msgid "Trains the soldiers."
 msgstr "Тренує солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an empire worker: Weaponsmith
-#: ../../data/tribes/initialization/empire/units.lua:837
+#. TRANSLATORS: Helptext for an Empire worker: Weaponsmith
+#: ../../data/tribes/initialization/empire/units.lua:838
 msgctxt "empire_worker"
 msgid "Produces weapons for the soldiers."
 msgstr "Виготовляє зброю для солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for an empire worker: Armorsmith
-#: ../../data/tribes/initialization/empire/units.lua:844
+#. TRANSLATORS: Helptext for an Empire worker: Armorsmith
+#: ../../data/tribes/initialization/empire/units.lua:845
 msgctxt "empire_worker"
 msgid "Produces armor for the soldiers."
 msgstr "Виготовляє броню для солдат"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 1
-#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. TRANSLATORS: Purpose helptext for an Empire training site: Arena, part 1
+#. TRANSLATORS: Purpose helptext for an Empire training site: Colosseum, part
 #. 1
-#: ../../data/tribes/initialization/empire/units.lua:1981
-#: ../../data/tribes/initialization/empire/units.lua:2006
+#: ../../data/tribes/initialization/empire/units.lua:2054
+#: ../../data/tribes/initialization/empire/units.lua:2079
 msgctxt "empire_building"
 msgid "Trains soldiers in ‘Evade’."
 msgstr "Тренує солдат"

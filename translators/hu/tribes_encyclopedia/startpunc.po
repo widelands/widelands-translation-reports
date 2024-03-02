@@ -2,22 +2,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: litoll <litoll@freemail.hu>, 2016\n"
-"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021-2024\n"
+"Language-Team: Hungarian (http://app.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for an amazon production site: Liana
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Liana
 #. Cutter's Hut
-#: ../../data/tribes/initialization/amazons/units.lua:1307
+#: ../../data/tribes/initialization/amazons/units.lua:1358
 msgctxt "amazons_building"
 msgid ""
 "‘Sunlight smiled upon us and our Ancestors while we worked to clear liana "
@@ -26,9 +26,9 @@ msgid ""
 msgstr "„Mosolygott ránk a napfény, ahogy Őseinkre is, amikor a liánt gyűjtöttük a fákról. Nekem nem ment olyan jól, mint a nagynénémnek és a nővéreimnek, ezért én megtanultam inkább kötelet fonni.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for an amazon production site: Rope
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Rope
 #. Weaver's Booth
-#: ../../data/tribes/initialization/amazons/units.lua:1359
+#: ../../data/tribes/initialization/amazons/units.lua:1430
 msgctxt "amazons_building"
 msgid ""
 "‘My mother taught me to ply the ropes from Liana, how to choose the "
@@ -37,9 +37,9 @@ msgid ""
 msgstr "„Anyám megtanított kötelet fonni a liánokból. Megtanította, hogyan válasszam ki a legerősebb szálakat. Megtanította, hogyan metsszem ki a sérült vagy gyenge részeket. Minden befont szállal az ő bölcsességét áldom.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore for helptext an amazon production site: Rare Tree
+#. TRANSLATORS: Lore helptext for an Amazon production site: Rare Tree
 #. Plantation
-#: ../../data/tribes/initialization/amazons/units.lua:1379
+#: ../../data/tribes/initialization/amazons/units.lua:1450
 msgctxt "amazons_building"
 msgid ""
 "‘If properly harvested, cured and stored, ironwood becomes almost "
@@ -47,8 +47,8 @@ msgid ""
 msgstr "„Ha hozzáértéssel takarítják be, készítik ki és tárolják, a vasfa szinte elpusztíthatatlan, és kiválóan állja a nedvességet is.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore for helptext an amazon production site: Dressmakery
-#: ../../data/tribes/initialization/amazons/units.lua:1399
+#. TRANSLATORS: Lore helptext for an Amazon production site: Dressmakery
+#: ../../data/tribes/initialization/amazons/units.lua:1472
 msgctxt "amazons_building"
 msgid ""
 "‘A skilled maker crafts garments of unsurpassed defence,<br> with each "
@@ -56,38 +56,38 @@ msgid ""
 msgstr "„A tapasztalt ruhakészítő páratlan védelmet nyújtó öltözetet varr, minden egyes öltését ennek a célnak a tudata hatja át.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for an amazon building: Construction Site
-#. TRANSLATORS: Lore helptext for a barbarian building: Construction Site
-#. TRANSLATORS: Lore helptext for an atlantean building: Construction Site
-#. TRANSLATORS: Lore helptext for a frisian building: Construction Site
-#. TRANSLATORS: Lore helptext for an empire building: Construction Site
-#: ../../data/tribes/initialization/amazons/units.lua:1614
-#: ../../data/tribes/initialization/atlanteans/units.lua:2000
-#: ../../data/tribes/initialization/barbarians/units.lua:1789
-#: ../../data/tribes/initialization/empire/units.lua:2260
-#: ../../data/tribes/initialization/frisians/units.lua:2187
+#. TRANSLATORS: Lore helptext for an Amazon building: Construction Site
+#. TRANSLATORS: Lore helptext for an Atlantean building: Construction Site
+#. TRANSLATORS: Lore helptext for a Barbarian building: Construction Site
+#. TRANSLATORS: Lore helptext for an Empire building: Construction Site
+#. TRANSLATORS: Lore helptext for a Frisian building: Construction Site
+#: ../../data/tribes/initialization/amazons/units.lua:1701
+#: ../../data/tribes/initialization/atlanteans/units.lua:2089
+#: ../../data/tribes/initialization/barbarians/units.lua:1848
+#: ../../data/tribes/initialization/empire/units.lua:2343
+#: ../../data/tribes/initialization/frisians/units.lua:2252
 msgctxt "building"
 msgid "‘Don’t swear at the builder who is short of building materials.’"
 msgstr "„Ne szidd az építőmunkást azért, mert nincs építőanyaga!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for an amazon building: Dismantle Site
-#. TRANSLATORS: Lore helptext for a barbarian building: Dismantle Site
-#. TRANSLATORS: Lore helptext for an atlantean building: Dismantle Site
-#. TRANSLATORS: Lore helptext for a frisian building: Dismantle Site
-#. TRANSLATORS: Lore helptext for an empire building: Dismantle Site
-#: ../../data/tribes/initialization/amazons/units.lua:1625
-#: ../../data/tribes/initialization/atlanteans/units.lua:2011
-#: ../../data/tribes/initialization/barbarians/units.lua:1800
-#: ../../data/tribes/initialization/empire/units.lua:2271
-#: ../../data/tribes/initialization/frisians/units.lua:2198
+#. TRANSLATORS: Lore helptext for an Amazon building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an Atlantean building: Dismantle Site
+#. TRANSLATORS: Lore helptext for a Barbarian building: Dismantle Site
+#. TRANSLATORS: Lore helptext for an Empire building: Dismantle Site
+#. TRANSLATORS: Lore helptext for a Frisian building: Dismantle Site
+#: ../../data/tribes/initialization/amazons/units.lua:1712
+#: ../../data/tribes/initialization/atlanteans/units.lua:2100
+#: ../../data/tribes/initialization/barbarians/units.lua:1859
+#: ../../data/tribes/initialization/empire/units.lua:2354
+#: ../../data/tribes/initialization/frisians/units.lua:2263
 msgctxt "building"
 msgid "‘New paths will appear when you are willing to tear down the old.’"
 msgstr "„Új utak nyílnak meg, ha nem félsz lebontani a régieket.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note lore for an atlantean production site: Forester's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1491
+#. TRANSLATORS: Note lore for an Atlantean production site: Forester's House
+#: ../../data/tribes/initialization/atlanteans/units.lua:1519
 msgctxt "atlanteans_building"
 msgid ""
 "‘Only after the last tree has been cut<br>Only after the last forest was "
@@ -96,9 +96,9 @@ msgid ""
 msgstr "„Csak miután az utolsó fát is kivágtátok<br>Csak miután az utolsó erdőt is kiirtottátok<br>Csak miután az utolsó zöld mezőből is pusztaságot csináltatok<br>Akkor fogtok rájönni, hogy a természetet gondozni kell.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Note lore for an atlantean production site: Fisher's House use
+#. TRANSLATORS: Note lore for an Atlantean production site: Fisher's House use
 #. some local fise song as you like
-#: ../../data/tribes/initialization/atlanteans/units.lua:1511
+#: ../../data/tribes/initialization/atlanteans/units.lua:1547
 msgctxt "atlanteans_building"
 msgid ""
 "‘Take your net and come to the sea<br>In the early morning the moon ya still"
@@ -107,9 +107,9 @@ msgid ""
 msgstr "„Fogd a hálót és gyere a tengerre<br>Kora reggel a hold süt a szemedbe<br>Hálóval vagy bottal gyűjtöd be gyümölcsét<br>Ne feledd megadni Satulnak a részét!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for an atlantean production site: Fish Breeder's
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Fish Breeder's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1527
+#: ../../data/tribes/initialization/atlanteans/units.lua:1569
 msgctxt "atlanteans_building"
 msgid ""
 "‘Only after the last duck has been shot down<br>Only after the last deer has"
@@ -118,15 +118,81 @@ msgid ""
 msgstr "„Csak ha már lelőtted az utolsó kacsát<br>Csak ha már megölted az utolsó őzet<br>Csak ha már kifogtad az utolsó halat<br>Csak akkor fogsz rájönni, hogy a pókok nem ehetőek.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for an atlantean production site: Castle
-#: ../../data/tribes/initialization/atlanteans/units.lua:1958
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Armor Smithy
+#: ../../data/tribes/initialization/atlanteans/units.lua:1768
+msgctxt "atlanteans_building"
+msgid ""
+"‘She twists and tweaks the steel with might<br>that soldiers may therewith "
+"once fight<br>most skillful foes, whose lethal lance<br>from this their "
+"armour off will glance!’"
+msgstr "„Értve üti ő a vasat,<br>Mely védi a harcosokat.<br>Bősz ellenség, hegyes lándzsa<br>Ezt a páncélt át nem járja.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Weaving Mill
+#. -- listen to that song please
+#: ../../data/tribes/initialization/atlanteans/units.lua:1849
+msgctxt "atlanteans_building"
+msgid ""
+"Here are the Wide Lands where people may dwell, walking around caring "
+"everything’s well."
+msgstr "„Itt vannak a tág mezők, ahol az emberek élnek,<br>Járnak-kelnek, dolgoznak, sosem henyélnek.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Coal Mine
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Iron Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1879
+#: ../../data/tribes/initialization/atlanteans/units.lua:1895
+msgctxt "atlanteans_building"
+msgid ""
+"‘Way down here in this deep mine<br>where the sun it dare not shine,<br>I "
+"sweat and toil till day is done,<br>but I’ll be back with morning come.’"
+msgstr "„Mély bányának sötét mélyén<br>Napsugár lejönni félénk,<br>Itt izzadok nap végéig<br>Reggel jövök újra mégis.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Gold Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1911
+msgctxt "atlanteans_building"
+msgid ""
+"‘Way down here in these golden grounds<br>with stones above us the thousand "
+"pounds<br>I dig in the dust until I see the spark;<br>The golden ore I find "
+"in the dark.’"
+msgstr "„Aranyos föld sötét gyomra,<br> Fölöttem kő, ezer tonna.<br> Ások én, míg meg nem csillan,<br> Arany érce végre itt van.”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Guardhall
+#: ../../data/tribes/initialization/atlanteans/units.lua:1978
+msgctxt "atlanteans_building"
+msgid "In this hall we praise the fight, Satul will warm us day and night."
+msgstr "„Ez a terem hadunk éke,<br>Satul mindig melegítse!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Castle
+#: ../../data/tribes/initialization/atlanteans/units.lua:2038
 msgctxt "atlanteans_building"
 msgid "‘Wisdom of the Fight’ by the warriors’ guild"
 msgstr "Harcosok céhe: A harc bölcsessége"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian warehouse: Headquarters
-#: ../../data/tribes/initialization/barbarians/units.lua:1085
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Ferry Yard
+#: ../../data/tribes/initialization/atlanteans/units.lua:2055
+msgctxt "atlanteans_building"
+msgid ""
+"‘Row, row, row your boat<br>gently ’long the shore.<br>Steadily steadily "
+"steadily steadily<br>bring the wares ashore.’"
+msgstr "„Húzd, húzd, húzd eveződ,<br> El ne hagyjon sose erőd!<br> Bírd, bírd, bírjad amíg<br> Partra teszed mind áruid!”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Shipyard
+#: ../../data/tribes/initialization/atlanteans/units.lua:2075
+msgctxt "atlanteans_building"
+msgid ""
+"‘Soon may the wellerman come,<br>to bring us bread and smoked fish.<br>We "
+"set sail for a faraway shore<br>we praise Satul the best we wish.’"
+msgstr "„Eljő a Wellerman<br>Lesz rajt' kenyér és füstölt hal<br>Hajónk már a távolban<br>Melegít Satul”"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. TRANSLATORS: Lore helptext for a Barbarian warehouse: Headquarters
+#: ../../data/tribes/initialization/barbarians/units.lua:1086
 msgctxt "barbarians_building"
 msgid ""
 "‘Steep like the slopes of Kal’mavrath, shiny like the most delicate armor "
@@ -135,42 +201,42 @@ msgid ""
 msgstr "„Meredek, mint a Kal’mavrath lejtői, fényes, mint a legmívesebb páncél, és erős, mint őseink. Így magaslott előttünk Chat’Karuth főhadiszállása.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for a barbarian warehouse: Headquarters
-#. TRANSLATORS: Lore author helptext for a barbarian military site: Barrier
-#. TRANSLATORS: Lore author helptext for a barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1087
-#: ../../data/tribes/initialization/barbarians/units.lua:1701
-#: ../../data/tribes/initialization/barbarians/units.lua:1715
+#. TRANSLATORS: Lore author helptext for a Barbarian warehouse: Headquarters
+#. TRANSLATORS: Lore author helptext for a Barbarian military site: Barrier
+#. TRANSLATORS: Lore author helptext for a Barbarian military site: Tower
+#: ../../data/tribes/initialization/barbarians/units.lua:1088
+#: ../../data/tribes/initialization/barbarians/units.lua:1750
+#: ../../data/tribes/initialization/barbarians/units.lua:1764
 msgctxt "barbarians_building"
 msgid "Ballad ‘The Battle of Kal’mavrath’ by Hakhor the Bard"
 msgstr "„A Kal’mavrathi csata” – Hakhor, a bárd balladája"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian warehouse: Warehouse
-#: ../../data/tribes/initialization/barbarians/units.lua:1107
+#. TRANSLATORS: Lore helptext for a Barbarian warehouse: Warehouse
+#: ../../data/tribes/initialization/barbarians/units.lua:1108
 msgctxt "barbarians_building"
 msgid "‘Who still owns a warehouse is not yet defeated!’"
 msgstr "„Akinek áll még egy raktára, az nincs még legyőzve!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian warehouse: Port
-#: ../../data/tribes/initialization/barbarians/units.lua:1118
+#. TRANSLATORS: Lore helptext for a Barbarian warehouse: Port
+#: ../../data/tribes/initialization/barbarians/units.lua:1119
 msgctxt "barbarians_building"
 msgid ""
 "‘I prefer the planks of a ship to any fortress, no matter how strong it is.’"
 msgstr "„A hajódeszkákat választanám akármelyik erőd helyett, legyen az bármilyen erős is.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Quarry
-#: ../../data/tribes/initialization/barbarians/units.lua:1133
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Quarry
+#: ../../data/tribes/initialization/barbarians/units.lua:1134
 msgctxt "barbarians_building"
 msgid "‘We open up roads and make houses from mountains.’"
 msgstr "„Megnyitjuk az utakat és házakat emelünk a hegyekből.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Lumberjack_s
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1148
+#: ../../data/tribes/initialization/barbarians/units.lua:1153
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -179,8 +245,8 @@ msgid ""
 msgstr "„Ha egy fát 200 ütéssel tudsz kidönteni, csecsemő vagy. Ha 100-zal, katona vagy. Ha 50-nel, hős vagy. Döntsd ki 20-szal, és akkor már majdnem tisztességes favágó leszel.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Ranger's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1164
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Ranger's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1173
 msgctxt "barbarians_building"
 msgid ""
 "‘He who can grow two trees where normally only one will grow exceeds the "
@@ -188,15 +254,15 @@ msgid ""
 msgstr "„Aki ki tud növeszteni két fát, ahol egyébként csak egy nőne, az felülmúlja a legfontosabb tábornokot!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1179
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Fisher's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1192
 msgctxt "barbarians_building"
 msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "„Mi az, hogy nem friss a halam?!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1194
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Hunter's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1215
 msgctxt "barbarians_building"
 msgid ""
 "‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
@@ -204,25 +270,25 @@ msgid ""
 msgstr "„Csendes, mint a párduc,<br> ügyes, mint a menyét,<br> sebes, mint a nyílvessző,<br> halálos, mint a vipera.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Hunter's
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Hunter's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1196
+#: ../../data/tribes/initialization/barbarians/units.lua:1217
 msgctxt "barbarians_building"
 msgid "‘The Art of Hunting’"
 msgstr "„A vadászat művészete”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Gamekeeper's
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Gamekeeper's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1209
+#: ../../data/tribes/initialization/barbarians/units.lua:1234
 msgctxt "barbarians_building"
 msgid ""
 "‘He loves the animals and to breed them<br>as we love to cook and eat them.’"
 msgstr "„Állatokat szeret, nevel,<br>mind megesszük könnyű szívvel.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1222
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Well
+#: ../../data/tribes/initialization/barbarians/units.lua:1247
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -230,8 +296,8 @@ msgid ""
 msgstr "„Mily édes az élet forrása,<br> amely lehull az égből,<br> és megitatja a földet.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Scout's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1236
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Scout's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1265
 msgctxt "barbarians_building"
 msgid ""
 "‘Behind the next hill there might be wealth and happiness but also hostility"
@@ -239,8 +305,8 @@ msgid ""
 msgstr "„A szomszédos domb mögött gazdagság és boldogság várhat – vagy éppenhogy háború és a végzet.<br>Aki nem deríti fel, az az ostobaság bűnét követi el.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Wood Hardener
-#: ../../data/tribes/initialization/barbarians/units.lua:1249
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Wood Hardener
+#: ../../data/tribes/initialization/barbarians/units.lua:1284
 msgctxt "barbarians_building"
 msgid ""
 "‘Then he hit the door with his ax and, behold,<br>the door only trembled, "
@@ -248,22 +314,22 @@ msgid ""
 msgstr "„… és akkor a fejszéjét az ajtóba vágta, és láss csodát,<br>az ajtó csak megrázkódott, de a fejsze nyele ezer darabra hasadt.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Reed Yard
-#: ../../data/tribes/initialization/barbarians/units.lua:1261
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Reed Yard
+#: ../../data/tribes/initialization/barbarians/units.lua:1296
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "„Nálunk terem a tető”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1276
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Lime Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1311
 msgctxt "barbarians_building"
 msgid "‘Forming new stone from old with fire and water.’"
 msgstr "„Tűzzel és vízzel új követ csinálok a régiből.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Bakery
-#: ../../data/tribes/initialization/barbarians/units.lua:1291
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Bakery
+#: ../../data/tribes/initialization/barbarians/units.lua:1326
 msgctxt "barbarians_building"
 msgid ""
 "‘He who has enough bread will never be too tired to dig the ore and wield "
@@ -271,8 +337,8 @@ msgid ""
 msgstr "„Akinek elég kenyere van, az soha nem lesz túl fáradt az érc kutatásához és a fejsze forgatásához.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Micro Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1304
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Micro Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1339
 msgctxt "barbarians_building"
 msgid ""
 "‘Let the first one drive away the hunger, the second one put you at ease; "
@@ -280,8 +346,8 @@ msgid ""
 msgstr "„Az első vigye el az éhséget, a második pihentessen meg; és amikor lenyelted a harmadikat, akkor jöhet a következő műszak!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1317
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1352
 msgctxt "barbarians_building"
 msgid ""
 "‘When the Barbarian was created,<br>this was the first thing that he "
@@ -290,29 +356,29 @@ msgid ""
 msgstr "„Mikor a barbár megszületett<br>Első szava ez lehetett:<br>Tudod mitől leszek én hős?<br>Csak, ha mindig jut nekem sör!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1322
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1357
 msgctxt "barbarians_building"
 msgid "First verse of the drinking song ‘Way of the Barbarian’"
 msgstr "„A barbár útja”, kocsmadal, első versszak"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Tavern
-#: ../../data/tribes/initialization/barbarians/units.lua:1331
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Tavern
+#: ../../data/tribes/initialization/barbarians/units.lua:1368
 msgctxt "barbarians_building"
 msgid "‘Fresh from the countryside: Bread, fish or game to go.’"
 msgstr "„Egyenesen a mezőkről: pita, és hozzá hal vagy vad”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Inn
-#: ../../data/tribes/initialization/barbarians/units.lua:1342
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Inn
+#: ../../data/tribes/initialization/barbarians/units.lua:1381
 msgctxt "barbarians_building"
 msgid "‘Miner’s Delight: Pitta bread with fish or meat, comes with one beer.’"
 msgstr "„A bányász álma: pita hallal vagy hússal, mellé egy sör”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Big Inn
-#: ../../data/tribes/initialization/barbarians/units.lua:1353
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Big Inn
+#: ../../data/tribes/initialization/barbarians/units.lua:1394
 msgctxt "barbarians_building"
 msgid ""
 "‘Seasonal fish and game specialties served with pitta bread.<br>Choose from "
@@ -320,8 +386,8 @@ msgid ""
 msgstr "„Az évszaknak megfelelő hal- és vadspecialitások pitával tálalva.<br>Válasszon hozzá elsőrendű helyi kézműves söreink közül!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Charcoal Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1364
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Charcoal Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1407
 msgctxt "barbarians_building"
 msgid ""
 "‘What’s the work of a charcoal burner?<br>He’s the tribe’s most plodding "
@@ -332,8 +398,8 @@ msgid ""
 msgstr "„Mi a szénégető dolga?<br>Ő a törzsnek leglassabja!<br>Magas máglyát rak a fából<br>Na de mi lesz a máglyából?<br>Hol a sok fa, amit cipelt?<br>Parázs alján vajon mit lel?<br>Kicsi szén csak a jutalma<br>Ez a szénégető gondja!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Smelting Works
-#: ../../data/tribes/initialization/barbarians/units.lua:1382
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Smelting Works
+#: ../../data/tribes/initialization/barbarians/units.lua:1425
 msgctxt "barbarians_building"
 msgid ""
 "‘From inferior looking rubble they form shiny gold and gleaming iron.<br>The"
@@ -341,17 +407,17 @@ msgid ""
 msgstr "„Hasztalannak látszó törmelékből csinálnak csillogó aranyat és fényes acélt.<br>A kohászok igazi varázslók kézműveseink között!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1394
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Metal Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1439
 msgctxt "barbarians_building"
 msgid "‘We make it work!’"
 msgstr "„Mi bírjuk munkára!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Warmill
-#. TRANSLATORS: Lore helptext for a barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1409
-#: ../../data/tribes/initialization/barbarians/units.lua:1428
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Warmill
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Ax Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1454
+#: ../../data/tribes/initialization/barbarians/units.lua:1473
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -359,8 +425,8 @@ msgid ""
 msgstr "„Egy új csatabárd kihozza a legjobbat a forgatójából – vagy a legrosszabbat a készítőjéből.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Barracks
-#: ../../data/tribes/initialization/barbarians/units.lua:1447
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Barracks
+#: ../../data/tribes/initialization/barbarians/units.lua:1492
 msgctxt "barbarians_building"
 msgid ""
 "‘Don’t ask what your tribe can do for you, ask what you can do for your "
@@ -368,16 +434,16 @@ msgid ""
 msgstr "„Ne azt kérdezd, hogy mit tehet érted a törzsed, azt kérdezd, te mit tehetsz a törzsedért!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Cattle Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1460
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Cattle Farm
+#: ../../data/tribes/initialization/barbarians/units.lua:1507
 msgctxt "barbarians_building"
 msgid ""
 "‘The smart leader builds roads, while the really wise leader breeds cattle.’"
 msgstr "„Az okos vezér utakat épít, de a bölcs vezér ökröket nevel.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1473
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Farm
+#: ../../data/tribes/initialization/barbarians/units.lua:1520
 msgctxt "barbarians_building"
 msgid ""
 "‘See the crop fields from here to the horizons. They are a huge, heaving, "
@@ -386,35 +452,35 @@ msgid ""
 msgstr "„Nézd a távoli láthatárba nyúló búzatáblákat! Hatalmas hullámzó arany tenger.<br>Oh, búza, gazdagság forrása, sör lelke, harcosaink ereje!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1476
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Farm
+#: ../../data/tribes/initialization/barbarians/units.lua:1523
 msgctxt "barbarians_building"
 msgid "Line from the harvesting song ‘The Wealth of the Fields’"
 msgstr "„A mezők bőséges kincse” című aratódalból"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Helm Smithy
-#: ../../data/tribes/initialization/barbarians/units.lua:1487
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Helm Smithy
+#: ../../data/tribes/initialization/barbarians/units.lua:1534
 msgctxt "barbarians_building"
 msgid ""
 "‘The helmets forgéd by this smithy<br>Are widely known for looking pithy.’"
 msgstr "„Mi készítjük sisakodat:<br>Nem verik be kobakodat!”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1500
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Granite Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1549
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "„Temérdek gránit se fog ki rajtam, ember, csak ez a hiábavaló fecsegés.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Iron Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deep Iron Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Iron
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Iron Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deep Iron Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deeper Iron
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1566
-#: ../../data/tribes/initialization/barbarians/units.lua:1579
-#: ../../data/tribes/initialization/barbarians/units.lua:1592
+#: ../../data/tribes/initialization/barbarians/units.lua:1615
+#: ../../data/tribes/initialization/barbarians/units.lua:1628
+#: ../../data/tribes/initialization/barbarians/units.lua:1641
 msgctxt "barbarians_building"
 msgid ""
 "‘I look at my own pick wearing away day by day and I realize why my work is "
@@ -422,13 +488,13 @@ msgid ""
 msgstr "„Látom, napról napra mint kopik el csákányom, s ráébredek, miért is fontos az én munkám.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Gold Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deep Gold Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Gold
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Gold Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deep Gold Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deeper Gold
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1605
-#: ../../data/tribes/initialization/barbarians/units.lua:1618
-#: ../../data/tribes/initialization/barbarians/units.lua:1631
+#: ../../data/tribes/initialization/barbarians/units.lua:1654
+#: ../../data/tribes/initialization/barbarians/units.lua:1667
+#: ../../data/tribes/initialization/barbarians/units.lua:1680
 msgctxt "barbarians_building"
 msgid ""
 "‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
@@ -436,17 +502,17 @@ msgid ""
 msgstr "„Rugalmas és puha.<br>Mégse hat rá idő, sem a szelek ura.<br>Időtlenné öntve, maga a nap sugara…”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1646
+#. TRANSLATORS: Lore helptext for a Barbarian training site: Battle Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1695
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
 msgstr "„Nincs nagyobb barátod a harcban, mint az ellenséged hibája.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. TRANSLATORS: Purpose helptext for a Barbarian training site: Battle Arena,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1653
+#: ../../data/tribes/initialization/barbarians/units.lua:1702
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -454,8 +520,8 @@ msgid ""
 msgstr "A „Kitérés” növeli a katona esélyét, hogy nem találják el, és így nem sérül meg."
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1665
+#. TRANSLATORS: Lore helptext for a Barbarian training site: Training Camp
+#: ../../data/tribes/initialization/barbarians/units.lua:1714
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -463,8 +529,8 @@ msgid ""
 msgstr "„Aki erős, az nem bocsát meg és nem felejt, hanem megbosszulja az igazságtalanságot, amit elkövettek ellene – vagy el akarnak követni.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian military site: Sentry
-#: ../../data/tribes/initialization/barbarians/units.lua:1686
+#. TRANSLATORS: Lore helptext for a Barbarian military site: Sentry
+#: ../../data/tribes/initialization/barbarians/units.lua:1735
 msgctxt "barbarians_building"
 msgid ""
 "‘The log cabin was so small that two men could hardly live there. But we "
@@ -473,8 +539,8 @@ msgid ""
 msgstr "„A fabódé olyan kicsi volt, hogy a két ember alig fért el benne. De fiatalok voltunk és gondtalanok. Élveztük a szabadságot és az őrhely felelősségét.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian military site: Barrier
-#: ../../data/tribes/initialization/barbarians/units.lua:1699
+#. TRANSLATORS: Lore helptext for a Barbarian military site: Barrier
+#: ../../data/tribes/initialization/barbarians/units.lua:1748
 msgctxt "barbarians_building"
 msgid ""
 "‘When we looked down to the valley from our newly established barrier, we "
@@ -482,8 +548,8 @@ msgid ""
 msgstr "„Amikor letekintettünk a völgyre az újonnan épített határőrházunkból, éreztük, hogy atyáink szelleme vigyázott ránk.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1713
+#. TRANSLATORS: Lore helptext for a Barbarian military site: Tower
+#: ../../data/tribes/initialization/barbarians/units.lua:1762
 msgctxt "barbarians_building"
 msgid ""
 "‘From the height of our tower we could see far into enemy territory. The "
@@ -492,8 +558,8 @@ msgid ""
 msgstr "„A torony tetejéről messzire beláttunk az ellenség vonalai mögé. Az ellenség jól fel volt szerelve, de láttuk a védelmük gyenge pontjait is.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian military site: Fortress
-#: ../../data/tribes/initialization/barbarians/units.lua:1726
+#. TRANSLATORS: Lore helptext for a Barbarian military site: Fortress
+#: ../../data/tribes/initialization/barbarians/units.lua:1775
 msgctxt "barbarians_building"
 msgid ""
 "‘This stronghold made from blackwood and stones will be a hard nut to crack "
@@ -501,8 +567,8 @@ msgid ""
 msgstr "„Ez az erőd, amit edzett fából és kőből építettünk, kemény dió lesz a számukra.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian military site: Citadel
-#: ../../data/tribes/initialization/barbarians/units.lua:1739
+#. TRANSLATORS: Lore helptext for a Barbarian military site: Citadel
+#: ../../data/tribes/initialization/barbarians/units.lua:1788
 msgctxt "barbarians_building"
 msgid ""
 "‘The Citadel of Adlen surely is the finest masterpiece of Barbarian "
@@ -511,8 +577,8 @@ msgid ""
 msgstr "„Adlen fellegvára minden bizonnyal a barbár építészet legfőbb mesterműve. Semmi hozzá foghatóan erős, hatalmas, ugyanakkor gyönyörű nem épült ilyen rövid idő alatt.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Shipyard
-#: ../../data/tribes/initialization/barbarians/units.lua:1763
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Shipyard
+#: ../../data/tribes/initialization/barbarians/units.lua:1816
 msgctxt "barbarians_building"
 msgid ""
 "‘When I saw the Saxnot for the first time, her majestic dragon head already "
@@ -521,8 +587,8 @@ msgid ""
 msgstr "„Amikor először láttam a Saxnotot, a tekintélyt parancsoló sárkányos orrdísze már bőszen meredezett, a mester pedig éppen nekilátott felszerelni a nagy szögletes vitorlát.<br>A legfenségesebb hajó volt, amit valaha láttam.”"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Weaving Mill
-#: ../../data/tribes/initialization/barbarians/units.lua:1775
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Weaving Mill
+#: ../../data/tribes/initialization/barbarians/units.lua:1834
 msgctxt "barbarians_building"
 msgid ""
 "‘Fine cloth and jewelry mean nothing to a true Barbarian.<br>But a noble "
@@ -537,11 +603,11 @@ msgid "‘%1%’<br>(%2%)"
 msgstr "„%1%”<br>(%2%)"
 
 # (pofilter) startpunc: Different punctuation at the start
-#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
-#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. TRANSLATORS: Purpose helptext for an Empire training site: Arena, part 2
+#. TRANSLATORS: Purpose helptext for an Empire training site: Colosseum, part
 #. 2
-#: ../../data/tribes/initialization/empire/units.lua:1983
-#: ../../data/tribes/initialization/empire/units.lua:2008
+#: ../../data/tribes/initialization/empire/units.lua:2056
+#: ../../data/tribes/initialization/empire/units.lua:2081
 msgctxt "empire_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -551,15 +617,23 @@ msgstr "A „Kitérés” növeli a katona esélyét, hogy nem találják el, é
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a building - it hasn't been written yet.
 #. TRANSLATORS: Purpose helptext for a building - it hasn't been written yet.
-#: ../../data/tribes/scripting/help/building_help.lua:331
-#: ../../data/tribes/scripting/help/building_help.lua:407
+#: ../../data/tribes/scripting/help/building_help.lua:240
+#: ../../data/tribes/scripting/help/building_help.lua:316
 msgid "Text needed"
 msgstr "[Szöveg hiányzik]"
 
 # (pofilter) startpunc: Different punctuation at the start
+#: ../../data/tribes/scripting/help/building_help.lua:742
+#: ../../data/tribes/scripting/help/building_help.lua:749
+#: ../../data/tribes/scripting/help/building_help.lua:756
+#: ../../data/tribes/scripting/help/building_help.lua:763
+msgid "From %1% to %2%"
+msgstr "%1% → %2%"
+
+# (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Performance helptext for a building - it hasn't been written
 #. yet.
-#: ../../data/tribes/scripting/help/building_help.lua:932
+#: ../../data/tribes/scripting/help/building_help.lua:823
 msgid "Calculation needed"
 msgstr "[Számítás hiányzik]"
 

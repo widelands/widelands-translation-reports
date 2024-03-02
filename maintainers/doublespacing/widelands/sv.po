@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Niklas Nordgren, 2022\n"
-"Language-Team: Swedish (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Niklas Nordgren, 2022-2023\n"
+"Language-Team: Swedish (http://app.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
@@ -30,13 +30,13 @@ msgstr "/announce <medd> - Skicka ett chattmeddelande som en kungörelse (system
 #. * TRANSLATORS: Available host command
 #: ../../src/network/gamehost.cc:124
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
-msgstr "/warn <namn> <anledning> - Varna användaren <namn> på grund av <anledning>"
+msgstr "/warn <name> <reason> - Varna användaren <name> på grund av <reason>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
 #: ../../src/network/gamehost.cc:126
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
-msgstr "/kick <namn> <anledning> - Sparka ut användaren <namn> på grund av <anledning>"
+msgstr "/kick <name> <reason> - Sparka ut användaren <name> på grund av <reason>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
@@ -51,20 +51,52 @@ msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Sätter tillbaka spelet i normal hastighet."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:918
+#: ../../src/network/internet_gaming.cc:910
 msgid "/kick <user|game> - Remove the given user or game from the metaserver"
 msgstr "/kick <user|game>  - Tag bort den angivna spelaren eller spelet från metaservern"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons/manager.cc:1187
+#: ../../src/ui_fsmenu/addons/manager.cc:956
 #, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
-msgstr "· \"%1$s\" kräver \"%2$s\",  vilket anges under nödvändiga tillägg"
+msgid "Fetching add-ons… (%.1f%%)"
+msgstr "Hämtar tillägg...  (%.1f %%)"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: Health, Attack, Defense, Evade
-#: ../../src/wui/attack_window.cc:442 ../../src/wui/soldierlist.cc:418
-#: ../../src/wui/soldierlist.cc:480
+#: ../../src/ui_fsmenu/addons/packager.cc:591
+#, c-format
+msgid ""
+"The minimum Widelands version ‘%1$s’ may not be newer than the maximum "
+"Widelands version ‘%2$s’. The add-on ‘%3$s’ will not be saved."
+msgstr "Den minimala Widelands-versionen '%1$s' kan inte vara nyare än den maximala idelands-versionen '%2$s'.  Tillägget '%3$s' Kommer inte sparas."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/addons/packager.cc:614
+#, c-format
+msgid ""
+"The add-on ‘%1$s’ does not specify a minimum Widelands version. None of the "
+"contained maps can be loaded with a Widelands version older than %2$s. The "
+"minimum version requirement will automatically be set accordingly."
+msgstr "Tillägget '%1$s'  specifierar inte ett versionsminimum, men inga av kartorna kan laddas med Widelands-versioner äldre än %2$s. Versionsminimumet sätts automatiskt till det."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/addons/packager.cc:619
+#, c-format
+msgid ""
+"The add-on ‘%1$s’ specifies a minimum Widelands version of %2$s. However, "
+"none of the contained maps can be loaded with a Widelands version older than"
+" %3$s. The version requirement will automatically be changed accordingly."
+msgstr "Tillägget '%1$s'  specifierar ett versionsminimum %2$s, men inga av kartorna kan laddas med Widelands-versioner äldre än %3$s Versionsminimumet sätts automatiskt till det."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/ui_fsmenu/mousewheel_options.cc:567
+#, c-format
+msgid ""
+"‘%1$s’, ‘%2$s’, or ‘%3$s’ conflicts with the recommended settings. Change "
+"the conflicting setting(s) too?"
+msgstr "‘%1$s’, '%2$s',  eller ‘%3$s’ är i konflikt med de rekommenderade inställningarna. Vill du ändra på inställning(ar) i konflikt?"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../src/wui/attack_window.cc:635 ../../src/wui/soldierlist.cc:556
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "HÄ: %1$u/%2$u AT: %3$u/%4$u FÖ: %5$u/%6$u UN: %7$u/%8$u"

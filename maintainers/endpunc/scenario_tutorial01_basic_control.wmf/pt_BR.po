@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-03-25 02:57+0000\n"
+"POT-Creation-Date: 2024-02-29 02:23+0000\n"
 "PO-Revision-Date: 2015-02-03 14:46+0000\n"
 "Last-Translator: Willian Francisco Urbano, 2022\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/widelands/"
+"Language-Team: Portuguese (Brazil) (http://app.transifex.com/widelands/"
 "widelands/language/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -13,15 +13,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:62
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:76
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:81
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:96
 msgid "Let’s dive right in!"
 msgstr "Mãos à obra !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:298
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:320
 msgid "Great. Now about that quarry…"
 msgstr "Excelente.  Agora sobre aquela pedreira..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../data/campaigns/tutorial01_basic_control.wmf/scripting/texts.lua:368
+msgid ""
+"Now, about this road. Remember: we are already in road building mode since "
+"you just ordered the quarry. You can either make it longer by one field at a"
+" time by left-clicking multiple times on neighboring fields for perfect "
+"control over the route the road takes, like so:"
+msgstr "Agora, sobre esta estrada.  Lembre-se: já estamos no modo de construção de estradas desde que você acabou de encomendar a pedreira.  Você pode aumentá-lo por um campo de cada vez clicando com o botão esquerdo várias vezes nos campos vizinhos para obter um controle perfeito sobre a rota que a estrada toma, assim:pedreira"

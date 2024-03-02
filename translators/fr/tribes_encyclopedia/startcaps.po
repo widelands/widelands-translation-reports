@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
-"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Arthinet Balika, 2023\n"
+"Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Helptext for an amazon worker: Tapir
-#: ../../data/tribes/initialization/amazons/units.lua:568
+#. TRANSLATORS: Helptext for an Amazon worker: Tapir
+#: ../../data/tribes/initialization/amazons/units.lua:594
 msgctxt "amazons_worker"
 msgid ""
 "Tapirs help to carry items along busy roads. They are reared in a tapir "
@@ -25,8 +25,30 @@ msgid ""
 msgstr "les Tapirs aident a transporter les denrées le long des routes fréquentées. Ils se font reproduire dans l'élevage de tapirs."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian warehouse: Headquarters
-#: ../../data/tribes/initialization/barbarians/units.lua:1085
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Liana
+#. Cutter's Hut
+#: ../../data/tribes/initialization/amazons/units.lua:1358
+msgctxt "amazons_building"
+msgid ""
+"‘Sunlight smiled upon us and our Ancestors while we worked to clear liana "
+"from the trees. I was not as efficient as my aunt and sisters, and so I "
+"learned to ply rope.’"
+msgstr "« La lumière du soleil nous souriait, ainsi qu'à nos ancêtres, pendant que nous travaillions à dégager les lianes des arbres. Je n'étais pas aussi efficace que ma tante et mes sœurs et j'ai donc appris à jouer à la corde."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Rope
+#. Weaver's Booth
+#: ../../data/tribes/initialization/amazons/units.lua:1430
+msgctxt "amazons_building"
+msgid ""
+"‘My mother taught me to ply the ropes from Liana, how to choose the "
+"strongest cuttings and parts of the harvest, how to trim away flaws. I bless"
+" her wisdom in every length I use.’"
+msgstr "« Ma mère m'a appris à tordre les cordes de Liana, à choisir les boutures et les parties de récolte les plus solides, à éliminer les défauts. Je bénis sa sagesse dans chaque longueur que j'utilise."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore helptext for a Barbarian warehouse: Headquarters
+#: ../../data/tribes/initialization/barbarians/units.lua:1086
 msgctxt "barbarians_building"
 msgid ""
 "‘Steep like the slopes of Kal’mavrath, shiny like the most delicate armor "
@@ -35,9 +57,9 @@ msgid ""
 msgstr "« Raides comme les pentes de Kal’mavrath, brillantes comme les armures les plus délicates et fortes comme nos ancêtres, voilà comment le quartier général de Chat’Karuth s'est présenté à nous. »"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Lumberjack_s
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1148
+#: ../../data/tribes/initialization/barbarians/units.lua:1153
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -46,8 +68,8 @@ msgid ""
 msgstr "«&nbsp;S'il te faut 200 coups pour abattre un arbre, alors tu es un bébé. S'il t'en faut 100, alors tu es un soldat. S'il t'en faut 50, alors tu es un héros. S'il t'en faut 20, alors tu seras bientôt un bûcheron honorable.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Ranger's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1164
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Ranger's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1173
 msgctxt "barbarians_building"
 msgid ""
 "‘He who can grow two trees where normally only one will grow exceeds the "
@@ -55,15 +77,15 @@ msgid ""
 msgstr "«&nbsp;Celui qui fait pousser deux arbres à la place d'un est plus digne d'éloge que le meilleur général&nbsp;!&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1179
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Fisher's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1192
 msgctxt "barbarians_building"
 msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "«&nbsp;Qu'est ce que tu veux dire, il est pas frais mon poisson&nbsp;?!&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Hunter's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1194
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Hunter's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1215
 msgctxt "barbarians_building"
 msgid ""
 "‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
@@ -71,25 +93,25 @@ msgid ""
 msgstr "«&nbsp;Aussi silencieux qu'une panthère,<br> agile comme la belette,<br> rapide comme une flèche,<br> aussi mortel qu'un serpent.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Hunter's
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Hunter's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1196
+#: ../../data/tribes/initialization/barbarians/units.lua:1217
 msgctxt "barbarians_building"
 msgid "‘The Art of Hunting’"
 msgstr "«&nbsp;L'Art de la Chasse&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Gamekeeper's
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Gamekeeper's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1209
+#: ../../data/tribes/initialization/barbarians/units.lua:1234
 msgctxt "barbarians_building"
 msgid ""
 "‘He loves the animals and to breed them<br>as we love to cook and eat them.’"
 msgstr "‘il aime les animaux et les élèves<br>\ncomme nous aimons les cuisiner et les manger.’"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1222
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Well
+#: ../../data/tribes/initialization/barbarians/units.lua:1247
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -97,8 +119,8 @@ msgid ""
 msgstr "«&nbsp;Douce est la source de vie,<br> qui descend du ciel <br> et permet à la terre de boire.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Scout's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1236
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Scout's Hut
+#: ../../data/tribes/initialization/barbarians/units.lua:1265
 msgctxt "barbarians_building"
 msgid ""
 "‘Behind the next hill there might be wealth and happiness but also hostility"
@@ -106,8 +128,8 @@ msgid ""
 msgstr "« Derrière la prochaine colline, il peut y avoir de la richesse et du bonheur, mais aussi de l'hostilité et du destin.<br>Celui qui ne l'explorera pas commet le crime de la stupidité. »"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Wood Hardener
-#: ../../data/tribes/initialization/barbarians/units.lua:1249
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Wood Hardener
+#: ../../data/tribes/initialization/barbarians/units.lua:1284
 msgctxt "barbarians_building"
 msgid ""
 "‘Then he hit the door with his ax and, behold,<br>the door only trembled, "
@@ -115,22 +137,22 @@ msgid ""
 msgstr "« Puis il a frappé la porte avec sa hache et, voici,<br>la porte a seulement tremblé, mais le manche de la hache a éclaté en mille morceaux. »"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Reed Yard
-#: ../../data/tribes/initialization/barbarians/units.lua:1261
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Reed Yard
+#: ../../data/tribes/initialization/barbarians/units.lua:1296
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "«&nbsp;Nous faisons pousser des toits&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1276
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Lime Kiln
+#: ../../data/tribes/initialization/barbarians/units.lua:1311
 msgctxt "barbarians_building"
 msgid "‘Forming new stone from old with fire and water.’"
 msgstr "«&nbsp;Créer une nouvelle pierre depuis une vieille avec du feu et de l'eau.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Micro Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1304
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Micro Brewery
+#: ../../data/tribes/initialization/barbarians/units.lua:1339
 msgctxt "barbarians_building"
 msgid ""
 "‘Let the first one drive away the hunger, the second one put you at ease; "
@@ -138,8 +160,8 @@ msgid ""
 msgstr "«&nbsp;Que la première chasse la faim, que la deuxième te mette à l'aise&nbsp;; quand tu as descendu la troisième, la pause est terminée&nbsp;!&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Smelting Works
-#: ../../data/tribes/initialization/barbarians/units.lua:1382
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Smelting Works
+#: ../../data/tribes/initialization/barbarians/units.lua:1425
 msgctxt "barbarians_building"
 msgid ""
 "‘From inferior looking rubble they form shiny gold and gleaming iron.<br>The"
@@ -147,15 +169,15 @@ msgid ""
 msgstr "« A partir de gravats d'aspect inférieur, ils forment de l'or brillant et du fer brillant.<br>Les fonderies sont de véritables magiciens parmi nos artisans. »"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1394
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Metal Workshop
+#: ../../data/tribes/initialization/barbarians/units.lua:1439
 msgctxt "barbarians_building"
 msgid "‘We make it work!’"
 msgstr "«&nbsp;Nous la faisons fonctionner&nbsp;!&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1473
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Farm
+#: ../../data/tribes/initialization/barbarians/units.lua:1520
 msgctxt "barbarians_building"
 msgid ""
 "‘See the crop fields from here to the horizons. They are a huge, heaving, "
@@ -164,20 +186,20 @@ msgid ""
 msgstr "« Voir les champs de cultures d'ici à l'horizon. C’est une mer immense, houleuse et dorée.<br>Oh blé, source de richesse, âme de bière, force de nos guerriers ! »"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1500
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Granite Mine
+#: ../../data/tribes/initialization/barbarians/units.lua:1549
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "«&nbsp;Je peux supporter des tonnes de granit, mon gars, mais plus tes vains bavardages.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Iron Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deep Iron Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Iron
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Iron Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deep Iron Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deeper Iron
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1566
-#: ../../data/tribes/initialization/barbarians/units.lua:1579
-#: ../../data/tribes/initialization/barbarians/units.lua:1592
+#: ../../data/tribes/initialization/barbarians/units.lua:1615
+#: ../../data/tribes/initialization/barbarians/units.lua:1628
+#: ../../data/tribes/initialization/barbarians/units.lua:1641
 msgctxt "barbarians_building"
 msgid ""
 "‘I look at my own pick wearing away day by day and I realize why my work is "
@@ -185,13 +207,13 @@ msgid ""
 msgstr "«&nbsp;Je regarde ma propre pioche s'user jour après jour et je comprends pourquoi mon travail est important.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Gold Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deep Gold Mine
-#. TRANSLATORS: Lore helptext for a barbarian production site: Deeper Gold
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Gold Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deep Gold Mine
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Deeper Gold
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1605
-#: ../../data/tribes/initialization/barbarians/units.lua:1618
-#: ../../data/tribes/initialization/barbarians/units.lua:1631
+#: ../../data/tribes/initialization/barbarians/units.lua:1654
+#: ../../data/tribes/initialization/barbarians/units.lua:1667
+#: ../../data/tribes/initialization/barbarians/units.lua:1680
 msgctxt "barbarians_building"
 msgid ""
 "‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
@@ -199,17 +221,17 @@ msgid ""
 msgstr "«&nbsp;Doux et souple.<br> Et pourtant inaltéré par le temps et les intempéries.<br> Rayons de soleil, forgés dans l'éternité...&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1646
+#. TRANSLATORS: Lore helptext for a Barbarian training site: Battle Arena
+#: ../../data/tribes/initialization/barbarians/units.lua:1695
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
 msgstr "«&nbsp;Dans la bataille, vous n'aurez jamais meilleure amie que la flèche ennemie qui vous a manqué.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Purpose helptext for a barbarian training site: Battle Arena,
+#. TRANSLATORS: Purpose helptext for a Barbarian training site: Battle Arena,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1653
+#: ../../data/tribes/initialization/barbarians/units.lua:1702
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -217,8 +239,8 @@ msgid ""
 msgstr "«&nbsp;Esquive&nbsp;» augmente les chances d'un soldat de ne pas être touché par un ennemi et lui permet ainsi de ne pas être affecté par l'attaque."
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1665
+#. TRANSLATORS: Lore helptext for a Barbarian training site: Training Camp
+#: ../../data/tribes/initialization/barbarians/units.lua:1714
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -226,8 +248,8 @@ msgid ""
 msgstr "«&nbsp;Celui qui est fort ne pardonnera ni n'oubliera, mais vengera l'injustice subie - par le passé et pour l'éternité.&nbsp;»"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Lore helptext for a barbarian production site: Shipyard
-#: ../../data/tribes/initialization/barbarians/units.lua:1763
+#. TRANSLATORS: Lore helptext for a Barbarian production site: Shipyard
+#: ../../data/tribes/initialization/barbarians/units.lua:1816
 msgctxt "barbarians_building"
 msgid ""
 "‘When I saw the Saxnot for the first time, her majestic dragon head already "
@@ -236,19 +258,13 @@ msgid ""
 msgstr "« Quand j'ai vu le Saxnot pour la première fois, sa majestueuse tête de dragon levait déjà les yeux au ciel et le capitaine était sur le point d'installer la voile carrée.<br>C'était le navire le plus noble que j'aie jamais vu. »"
 
 # (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: Purpose helptext for an empire training site: Arena, part 2
-#. TRANSLATORS: Purpose helptext for an empire training site: Colosseum, part
+#. TRANSLATORS: Purpose helptext for an Empire training site: Arena, part 2
+#. TRANSLATORS: Purpose helptext for an Empire training site: Colosseum, part
 #. 2
-#: ../../data/tribes/initialization/empire/units.lua:1983
-#: ../../data/tribes/initialization/empire/units.lua:2008
+#: ../../data/tribes/initialization/empire/units.lua:2056
+#: ../../data/tribes/initialization/empire/units.lua:2081
 msgctxt "empire_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
 "remain totally unaffected."
 msgstr "«&nbsp;Esquive&nbsp;» augmente les chances d'un soldat de ne pas être touché par un ennemi et lui permet ainsi de ne pas être affecté par l'attaque."
-
-# (pofilter) startcaps: Different capitalization at the start
-#. TRANSLATORS: This is an access key combination. The hotkey is 'w'
-#: ../../data/tribes/scripting/help/controls.lua:64
-msgid "Toggle workarea overlap indicators"
-msgstr "basculer les indicateurs de l'aire de travail"

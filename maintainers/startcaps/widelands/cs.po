@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Matej Svrcek <mmatej@yahoo.com>, 2015,2022\n"
-"Language-Team: Czech (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Michal Havlíček, 2023\n"
+"Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -21,7 +21,7 @@ msgstr ""
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:92
+#: ../../src/base/time_string.cc:94
 msgid "Jan"
 msgstr "leden"
 
@@ -31,7 +31,7 @@ msgstr "leden"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:98
+#: ../../src/base/time_string.cc:100
 msgid "Feb"
 msgstr "únor"
 
@@ -41,7 +41,7 @@ msgstr "únor"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:104
+#: ../../src/base/time_string.cc:106
 msgid "Mar"
 msgstr "březen"
 
@@ -51,7 +51,7 @@ msgstr "březen"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:110
+#: ../../src/base/time_string.cc:112
 msgid "Apr"
 msgstr "duben"
 
@@ -61,7 +61,7 @@ msgstr "duben"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:116
+#: ../../src/base/time_string.cc:118
 msgid "May"
 msgstr "květen"
 
@@ -71,7 +71,7 @@ msgstr "květen"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:122
+#: ../../src/base/time_string.cc:124
 msgid "Jun"
 msgstr "červen"
 
@@ -81,7 +81,7 @@ msgstr "červen"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:128
+#: ../../src/base/time_string.cc:130
 msgid "Jul"
 msgstr "červenec"
 
@@ -91,7 +91,7 @@ msgstr "červenec"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:134
+#: ../../src/base/time_string.cc:136
 msgid "Aug"
 msgstr "srpen"
 
@@ -101,7 +101,7 @@ msgstr "srpen"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:140
+#: ../../src/base/time_string.cc:142
 msgid "Sep"
 msgstr "září"
 
@@ -111,7 +111,7 @@ msgstr "září"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:146
+#: ../../src/base/time_string.cc:148
 msgid "Oct"
 msgstr "říjen"
 
@@ -121,7 +121,7 @@ msgstr "říjen"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:152
+#: ../../src/base/time_string.cc:154
 msgid "Nov"
 msgstr "listopad"
 
@@ -130,7 +130,7 @@ msgstr "listopad"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:157
+#: ../../src/base/time_string.cc:159
 msgid "Dec"
 msgstr "prosinec"
 
@@ -148,8 +148,8 @@ msgstr "prosinec"
 #. * TRANSLATORS: on a development build if you can, and let us know if there
 #. are any issues
 #. * TRANSLATORS: we need to address for your language.
-#: ../../src/logic/map_objects/tribes/production_program.cc:718
-#: ../../src/logic/map_objects/tribes/production_program.cc:1250
+#: ../../src/logic/map_objects/tribes/production_program.cc:765
+#: ../../src/logic/map_objects/tribes/production_program.cc:1289
 #, c-format
 msgid "Did not start %1$s because %2$s"
 msgstr "nezačalo %1$s, protože %2$s"
@@ -158,7 +158,7 @@ msgstr "nezačalo %1$s, protože %2$s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1342
+#: ../../src/logic/map_objects/tribes/production_program.cc:1381
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -172,19 +172,19 @@ msgstr[3] "vyrobena surovina %s"
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1891
+#: ../../src/logic/map_objects/tribes/production_program.cc:1887
 #, c-format
 msgid "Completed %s"
 msgstr "dokončeno %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2068
+#: ../../src/logic/map_objects/tribes/worker.cc:2084
 #, c-format
 msgid "Your %s can’t find a way home and will likely die."
 msgstr "%s nemůže najít cestu domů a pravděpodobně zemře."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/network/gameclient.cc:756
+#: ../../src/network/gameclient.cc:814
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -194,24 +194,24 @@ msgstr[2] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
 msgstr[3] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/network_gaming_messages.cc:161
+#: ../../src/network/network_gaming_messages.cc:75
 #, c-format
 msgid "The player ‘%s’ was defeated and became a spectator."
 msgstr "\"%s\" prohrává hru a pokračuje pouze jako přihlížející."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/network_gaming_messages.cc:163
+#: ../../src/network/network_gaming_messages.cc:78
 #, c-format
 msgid "Client %s is cheating!"
 msgstr "%s obchází pravidla použitím cheatu."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:250
+#: ../../src/wui/game_summary.cc:255
 #, c-format
 msgid "%s won!"
 msgstr "Vítězí %s!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/portdockwaresdisplay.cc:99
+#: ../../src/wui/portdockwaresdisplay.cc:105
 msgid "(Empty)"
 msgstr "(prázdné)"

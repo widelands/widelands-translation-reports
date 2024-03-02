@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: GunChleoc, 2015-2021\n"
-"Language-Team: Gaelic, Scottish (http://www.transifex.com/widelands/"
+"Language-Team: Gaelic, Scottish (http://app.transifex.com/widelands/"
 "widelands/language/gd/)\n"
 "Language: gd\n"
 "MIME-Version: 1.0\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:220
+#: ../../src/logic/addons.cc:258
 #, c-format
 msgid "%u missing add-on"
 msgid_plural "%u missing add-ons"
@@ -26,7 +26,7 @@ msgstr[2] "Tha %u tuilleadain a dhìth"
 msgstr[3] "Tha %u tuilleadan a dhìth"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:222
+#: ../../src/logic/addons.cc:260
 #, c-format
 msgid "%u add-on with wrong version"
 msgid_plural "%u add-ons with wrong version"
@@ -36,14 +36,14 @@ msgstr[2] "Tha an tionndadh ceàrr aig %u tuilleadain"
 msgstr[3] "Tha an tionndadh ceàrr aig %u tuilleadan"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/immovable.cc:513
-#: ../../src/logic/map_objects/tribes/constructionsite.cc:174
+#: ../../src/logic/map_objects/immovable.cc:491
+#: ../../src/logic/map_objects/tribes/constructionsite.cc:169
 #, c-format
 msgid "%i%% built"
 msgstr "’Ga thogail: %i%%"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/network/gameclient.cc:756
+#: ../../src/network/gameclient.cc:814
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -53,72 +53,61 @@ msgstr[2] "Tha %u tuilleadain nach eil a-rèir a chèile:\n"
 msgstr[3] "Tha %u tuilleadan nach eil a-rèir a chèile:\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:606
+#: ../../src/network/internet_gaming.cc:598
 #, c-format
 msgid "%s joined the lobby"
 msgstr "Thàinig %s a-steach dhan lobaidh"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming.cc:617
+#: ../../src/network/internet_gaming.cc:609
 #, c-format
 msgid "%s left the lobby"
 msgstr "Dh’fhàg %s an lobaidh"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/network_gaming_messages.cc:158
+#: ../../src/network/network_gaming_messages.cc:72
 #, c-format
 msgid "%s has joined the game"
 msgstr "Thàinig %s a-steach dhan gheama"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1310
-#, c-format
-msgid "%s can not be combined with other actions"
-msgstr "Cha ghabh %s a chur ri gnìomhan eile"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication.cc:1586
-msgid "--xres/--yres, --maximized and --fullscreen can not be combined"
-msgstr "Cha ghabh --xres/--yres, --maximized agus --fullscreen a chur ri chèile"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1027
+#: ../../src/wlapplication_options.cc:1474
 msgctxt "hotkey"
 msgid "Keypad ."
 msgstr ". air pada nan iuchraichean"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1029
+#: ../../src/wlapplication_options.cc:1476
 msgctxt "hotkey"
 msgid "Keypad +"
 msgstr "+ air pada nan iuchraichean"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1031
+#: ../../src/wlapplication_options.cc:1478
 msgctxt "hotkey"
 msgid "Keypad -"
 msgstr "- air pada nan iuchraichean"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1033
+#: ../../src/wlapplication_options.cc:1480
 msgctxt "hotkey"
 msgid "Keypad *"
 msgstr "* air pada nan iuchraichean"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1035
+#: ../../src/wlapplication_options.cc:1482
 msgctxt "hotkey"
 msgid "Keypad /"
 msgstr "/ air pada nan iuchraichean"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/game_summary.cc:250
+#: ../../src/wui/game_summary.cc:255
 #, c-format
 msgid "%s won!"
 msgstr "Bhuannaich %s!"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/portdockwaresdisplay.cc:99
+#: ../../src/wui/portdockwaresdisplay.cc:105
 msgid "(Empty)"
 msgstr "(falamh)"
 

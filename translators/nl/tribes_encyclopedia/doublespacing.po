@@ -2,24 +2,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: CrisiusXIII <chris@cborn.nl>, 2021\n"
-"Language-Team: Dutch (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Alex Rijckaert, 2023-2024\n"
+"Language-Team: Dutch (http://app.transifex.com/widelands/widelands/language/"
 "nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for an empire ware: War Spear
-#: ../../data/tribes/initialization/empire/units.lua:550
+#. TRANSLATORS: Performance helptext for an Atlantean production site: Smokery
+#: ../../data/tribes/initialization/atlanteans/units.lua:1675
+msgctxt "atlanteans_building"
+msgid ""
+"If this building is fully supplied and all kinds of smoked food are needed "
+"by the economy, production of one smoked fish takes %1$s and one smoked meat"
+" takes %2$s on average. If only one kind of food is needed by the economy, "
+"production of one smoked fish takes %3$s and one smoked meat takes %4$s on "
+"average."
+msgstr "Als dit gebouw volledig bevoorraad is en de economie alle soorten gerookt voedsel nodig heeft, duurt de productie van één gerookte vis%1$s en gerookt vlees neemt gemiddeld %2$s. Als de economie maar één soort voedsel nodig heeft, kost de productie van één gerookte vis %3$s en gerookt vlees  gemiddeld %4$s."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Helptext for an Empire ware: War Spear
+#: ../../data/tribes/initialization/empire/units.lua:551
 msgctxt "empire_ware"
 msgid ""
 "This is the best and sharpest weapon the Empire weaponsmith creates for the "
 "soldiers. It is used in the training camp – together with food – to train "
 "soldiers from attack level 3 to level 4."
 msgstr "Dit is het beste en scherpste wapen dat  de Imperiale wapensmid maakt voor de soldaten. Het wordt gebruikt in het trainingskamp – samen met voedsel – om soldaten te trainen van aanvalsniveau 3 naar niveau 4."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Performance helptext for a Frisian production site: Deep Iron
+#. Mine
+#: ../../data/tribes/initialization/frisians/units.lua:2096
+#, lua-format
+msgctxt "frisians_building"
+msgid ""
+"If the food supply is steady, the deep iron mine can produce iron ore in %s "
+"on average."
+msgstr "Als de voedselvoorziening stabiel is, kan de diepe ijzermijn  in gemiddeld %s ijzererts produceren."

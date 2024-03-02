@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2020-2022\n"
-"Language-Team: French (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Arthinet Balika, 2023\n"
+"Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -13,13 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1342
+#: ../../src/logic/map_objects/tribes/production_program.cc:1381
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -31,7 +31,7 @@ msgstr[2] "%s Produit"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1424
+#: ../../src/logic/map_objects/tribes/production_program.cc:1463
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -40,7 +40,7 @@ msgstr[1] "%s recruté"
 msgstr[2] "%s recruté"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
-#: ../../src/network/gameclient.cc:756
+#: ../../src/network/gameclient.cc:814
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -49,6 +49,14 @@ msgstr[1] "Modules complémentaires %u inadéquats détecté:\n"
 msgstr[2] "Modules complémentaires %u inadéquats détecté:\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gameclient.cc:932
+#: ../../src/network/gameclient.cc:990
 msgid "/me ’s file failed md5 checksumming."
 msgstr "Le contrôle de la somme md5 du fichier /me a échoué."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/ui_fsmenu/mousewheel_options.cc:567
+#, c-format
+msgid ""
+"‘%1$s’, ‘%2$s’, or ‘%3$s’ conflicts with the recommended settings. Change "
+"the conflicting setting(s) too?"
+msgstr "\"%1$s\", \"%2$s\" ou \"%3$s\" sont en conflit avec les paramètres recommandés. Modifier aussi le(s) paramètre(s) en conflit ?"

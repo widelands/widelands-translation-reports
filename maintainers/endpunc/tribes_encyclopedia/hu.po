@@ -2,38 +2,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: litoll <litoll@freemail.hu>, 2016\n"
-"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021-2024\n"
+"Language-Team: Hungarian (http://app.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for an amazon production site: Liana
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Liana
 #. Cutter's Hut
-#: ../../data/tribes/initialization/amazons/units.lua:1309
+#: ../../data/tribes/initialization/amazons/units.lua:1360
 msgctxt "amazons_building"
 msgid "Mistress WeaverSong, recollecting her early years as a liana cutter."
 msgstr "Dalszövő úrnő visszaemlékezése liánvágóként töltött fiatal éveire"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for an amazon production site: Rope
+#. TRANSLATORS: Lore author helptext for an Amazon production site: Rope
 #. Weaver's Booth
-#: ../../data/tribes/initialization/amazons/units.lua:1361
+#: ../../data/tribes/initialization/amazons/units.lua:1432
 msgctxt "amazons_building"
 msgid "Mistress WeaverSong, reflecting on training."
 msgstr "Dalszövő úrnő elmélkedése a tanulásról"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for an amazon production site: Rare Tree
+#. TRANSLATORS: Note helptext for an Amazon production site: Rare Tree
 #. Plantation
-#: ../../data/tribes/initialization/amazons/units.lua:1385
+#: ../../data/tribes/initialization/amazons/units.lua:1456
 msgctxt "amazons_building"
 msgid ""
 "Rare trees are planted according to the economy requirements. Keep roads "
@@ -41,8 +41,16 @@ msgid ""
 msgstr "Az ültetendő különleges fafajtákat a gazdaság igényei szerint választja meg. Ezért tartsd összekötve az úthálózatoddal, hogy figyelni tudja a gazdaság állapotát!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note lore for an atlantean production site: Headquarters
-#: ../../data/tribes/initialization/atlanteans/units.lua:1422
+#. TRANSLATORS: Note helptext for an Amazon production site: Ferry Yard, part
+#. 1
+#: ../../data/tribes/initialization/amazons/units.lua:1676
+msgctxt "amazons_building"
+msgid "Needs water nearby. Be aware ferries carry wares only, no workers."
+msgstr "Víz közelében tud csak dolgozni. Ne feledd, hogy a kompok csak árukat szállítanak, munkásokat nem!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Note lore for an Atlantean production site: Headquarters
+#: ../../data/tribes/initialization/atlanteans/units.lua:1438
 msgctxt "atlanteans_building"
 msgid ""
 "We founded this new colony, now go with Satul and do the best you can do for"
@@ -50,31 +58,31 @@ msgid ""
 msgstr "Új települést alapítottunk. Menj hát Satul hírével, és a legjobb tudásod szerint szolgáld a törzset!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for an atlantean production site: Well
-#: ../../data/tribes/initialization/atlanteans/units.lua:1555
+#. TRANSLATORS: Note helptext for an Atlantean production site: Well
+#: ../../data/tribes/initialization/atlanteans/units.lua:1603
 msgctxt "atlanteans_building"
 msgid "I hope you have checked this spot with a geologist."
 msgstr "Remélem ellenőriztetted a helyet egy geológussal!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Well
-#: ../../data/tribes/initialization/atlanteans/units.lua:1557
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Well
+#: ../../data/tribes/initialization/atlanteans/units.lua:1605
 msgctxt "atlanteans_building"
 msgid "Well, there is no wellbeing without a well."
 msgstr "Aki az után kutat, hogy hol ássanak kutat, az egy kútkutató? Jó lenne egy útmutató…"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for an atlantean production site: Gold Spinning
+#. TRANSLATORS: Note helptext for an Atlantean production site: Gold Spinning
 #. Mill
-#: ../../data/tribes/initialization/atlanteans/units.lua:1568
+#: ../../data/tribes/initialization/atlanteans/units.lua:1622
 msgctxt "atlanteans_building"
 msgid "Do not build until you have a steady gold supply."
 msgstr "Ne építsd meg, amíg nincs megbízható aranytermelésed!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site: Gold Spinning
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Gold Spinning
 #. Mill
-#: ../../data/tribes/initialization/atlanteans/units.lua:1570
+#: ../../data/tribes/initialization/atlanteans/units.lua:1624
 msgctxt "atlanteans_building"
 msgid ""
 "No, we can’t spin gold thread from straw. We need real gold. What kind of "
@@ -82,15 +90,15 @@ msgid ""
 msgstr "Nem, nem tudunk szalmából aranyszálat fonni. Miféle tündérmeséből vetted ezt az ötletet? Igazi aranyra van szükségünk."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for an atlantean production site: Sawmill
-#: ../../data/tribes/initialization/atlanteans/units.lua:1598
+#. TRANSLATORS: Note helptext for an Atlantean production site: Sawmill
+#: ../../data/tribes/initialization/atlanteans/units.lua:1658
 msgctxt "atlanteans_building"
 msgid "Will need at least four woodcutters for a constant supply of planks."
 msgstr "Legalább négy favágó kell a folyamatos termeléséhez"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an atlantean production site:  Bakery
-#: ../../data/tribes/initialization/atlanteans/units.lua:1638
+#. TRANSLATORS: Lore helptext for an Atlantean production site:  Bakery
+#: ../../data/tribes/initialization/atlanteans/units.lua:1702
 msgctxt "atlanteans_building"
 msgid ""
 "You cannot compare our bread to anything from those other tribes. This "
@@ -100,8 +108,8 @@ msgid ""
 msgstr "A kenyerünk nem is fogható más törzsek ételeihez. A receptet nemzedékről nemzedékre adtuk tovább. Sokkal táplálóbb a máshol kapható papírízű kenyereknél. Elhagyhatatlan a saját ételünk elkészítésének szertartásából. Satul melegítsen!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for an atlantean production site: Charcoal Kiln
-#: ../../data/tribes/initialization/atlanteans/units.lua:1651
+#. TRANSLATORS: Note helptext for an Atlantean production site: Charcoal Kiln
+#: ../../data/tribes/initialization/atlanteans/units.lua:1715
 msgctxt "atlanteans_building"
 msgid ""
 "Build only if you absolutely must produce some coal, or when you have a very"
@@ -109,98 +117,133 @@ msgid ""
 msgstr "Csak akkor építsd meg, ha máshogy nem tudsz szénhez jutni, vagy ha nagyon sok farönköd van!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Note helptext for an atlantean production site: Ferry Yard
-#: ../../data/tribes/initialization/atlanteans/units.lua:1969
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Weaving Mill
+#. -- listen to that song please
+#: ../../data/tribes/initialization/atlanteans/units.lua:1849
+msgctxt "atlanteans_building"
+msgid ""
+"Here are the Wide Lands where people may dwell, walking around caring "
+"everything’s well."
+msgstr "„Itt vannak a tág mezők, ahol az emberek élnek,<br>Járnak-kelnek, dolgoznak, sosem henyélnek.”"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an Atlantean training site: Dungeon, part
+#. 1
+#: ../../data/tribes/initialization/atlanteans/units.lua:1928
+msgctxt "atlanteans_building"
+msgid "Trains soldiers in ‘Attack’."
+msgstr "Katonákat képez a „Támadás” képességben"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Guardhall
+#: ../../data/tribes/initialization/atlanteans/units.lua:1978
+msgctxt "atlanteans_building"
+msgid "In this hall we praise the fight, Satul will warm us day and night."
+msgstr "„Ez a terem hadunk éke,<br>Satul mindig melegítse!”"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Note helptext for an Atlantean production site: Ferry Yard,
+#. part 1
+#. TRANSLATORS: Note helptext for a Barbarian production site: Ferry Yard,
+#. part 1
+#. TRANSLATORS: Note helptext for an Empire production site: Ferry Yard, part
+#. 1
+#. TRANSLATORS: Note helptext for a Frisian production site: Ferry Yard, part
+#. 1
+#: ../../data/tribes/initialization/atlanteans/units.lua:2050
+#: ../../data/tribes/initialization/barbarians/units.lua:1806
+#: ../../data/tribes/initialization/empire/units.lua:2304
+#: ../../data/tribes/initialization/frisians/units.lua:2210
 msgctxt "building"
 msgid "Needs water nearby. Be aware ferries carry wares only, no workers."
 msgstr "Víz közelében tud csak dolgozni. Ne feledd, hogy a kompok csak árukat szállítanak, munkásokat nem!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire warehouse: Port
+#. TRANSLATORS: Lore helptext for an Empire warehouse: Port
 #. Translation for the classical Latin quote:
 #. "Navigare necesse est."
-#: ../../data/tribes/initialization/empire/units.lua:1216
+#: ../../data/tribes/initialization/empire/units.lua:1217
 msgid "To sail is necessary."
 msgstr "Hajózni muszáj!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Quarry
+#. TRANSLATORS: Lore helptext for an Empire production site: Quarry
 #. Translation for the classical Latin quote:
 #. "Non relinquetur hic lapis super lapidem qui non destruatur."
-#: ../../data/tribes/initialization/empire/units.lua:1242
+#: ../../data/tribes/initialization/empire/units.lua:1243
 msgid ""
 "There shall not be left here a stone upon a stone that shall not be "
 "destroyed."
 msgstr "Kő kövön nem marad itt!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Lumberjack's
+#. TRANSLATORS: Lore helptext for an Empire production site: Lumberjack's
 #. House
 #. Translation for the classical Latin quote:
 #. "In silvam non ligna feras."
-#: ../../data/tribes/initialization/empire/units.lua:1263
+#: ../../data/tribes/initialization/empire/units.lua:1274
 msgid "Don’t carry logs to the forest."
 msgstr "Ne hordj fát az erdőbe!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Bakery
+#. TRANSLATORS: Lore helptext for an Empire production site: Bakery
 #. Translation for the classical Latin quote:
 #. "Non est de sacco tanta farina tuo."
-#: ../../data/tribes/initialization/empire/units.lua:1447
+#: ../../data/tribes/initialization/empire/units.lua:1498
 msgid "There’s not this much flour in your sack."
 msgstr "Nincs ennyi liszt a zsákodban!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Tavern
+#. TRANSLATORS: Lore helptext for an Empire production site: Tavern
 #. Translation for the classical Latin quote:
 #. "Esse oportet ut vivas, non vivere ut edas."
-#: ../../data/tribes/initialization/empire/units.lua:1530
+#: ../../data/tribes/initialization/empire/units.lua:1581
 msgid "We eat to live, not live to eat."
 msgstr "Azért eszünk, hogy éljünk, nem azért élünk, hogy együnk!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Inn
+#. TRANSLATORS: Lore helptext for an Empire production site: Inn
 #. Translation for the classical Latin quote:
 #. "In cena dapibus plena te mente refrena."
-#: ../../data/tribes/initialization/empire/units.lua:1551
+#: ../../data/tribes/initialization/empire/units.lua:1602
 msgid "A meal full of dishes restrains your mind."
 msgstr "A fogásokkal teli ebéd elnehezíti a gondolkodást!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Sheep Farm
+#. TRANSLATORS: Lore helptext for an Empire production site: Sheep Farm
 #. Translation for the classical Latin quote:
 #. "Conari agnum eripere lupo."
-#: ../../data/tribes/initialization/empire/units.lua:1740
+#: ../../data/tribes/initialization/empire/units.lua:1797
 msgid "Try to rescue a lamb from a wolf."
 msgstr "Próbáld megmenteni a bárányt a farkastól!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Fortress
+#. TRANSLATORS: Lore helptext for an Empire production site: Fortress
 #. Translation for the classical Latin quote:
 #. "Si vis pacem, para bellum."
-#: ../../data/tribes/initialization/empire/units.lua:2175
+#: ../../data/tribes/initialization/empire/units.lua:2248
 msgid "If you want peace, prepare for war."
 msgstr "Ha békét akarsz, készülj a háborúra!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for an empire production site: Shipyard
+#. TRANSLATORS: Lore helptext for an Empire production site: Shipyard
 #. Translation for the classical Latin quote:
 #. "Uni navi ne committas omnia."
-#: ../../data/tribes/initialization/empire/units.lua:2244
+#: ../../data/tribes/initialization/empire/units.lua:2321
 msgid "Don’t put everything on the same ship."
 msgstr "Ne bízz mindent egy hajóra!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Helptext for a frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:458
+#. TRANSLATORS: Helptext for a Frisian ware: Hunting Spear, part 2
+#: ../../data/tribes/initialization/frisians/units.lua:459
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "A vadászlándzsa a kovácsműhelyben készül."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Small Armor
+#. TRANSLATORS: Lore helptext for a Frisian production site: Small Armor
 #. Smithy
-#: ../../data/tribes/initialization/frisians/units.lua:1798
+#: ../../data/tribes/initialization/frisians/units.lua:1839
 msgctxt "frisians_building"
 msgid ""
 "I don’t forge swords because soldiers need ’em, but soldiers get ’em because"
@@ -208,8 +251,8 @@ msgid ""
 msgstr "Nem azért kovácsolok kardokat, mert a katonáknak kellenek. A katonák azért kapják, mert én megkovácsolom őket!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian production site: Smokery
-#: ../../data/tribes/initialization/frisians/units.lua:1857
+#. TRANSLATORS: Lore helptext for a Frisian production site: Smokery
+#: ../../data/tribes/initialization/frisians/units.lua:1904
 msgctxt "frisians_building"
 msgid ""
 "Miners and soldiers are so picky… But who am I to complain, as I make my "
@@ -217,8 +260,8 @@ msgid ""
 msgstr "Milyen válogatósak a bányászok és a katonák… De minek panaszkodom, elvégre pont ebből élek!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore author helptext for a frisian production site: Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1972
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Farm
+#: ../../data/tribes/initialization/frisians/units.lua:2027
 msgctxt "frisians_building"
 msgid ""
 "A farmer’s reply when asked by his chieftain why he was planting such a "
@@ -226,19 +269,13 @@ msgid ""
 msgstr "Egy földműves válasza a törzsfőnöknek, hogy miért ilyen lassan növekvő gabonát termeszt"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Lore helptext for a frisian training site: Training Camp
-#: ../../data/tribes/initialization/frisians/units.lua:2068
+#. TRANSLATORS: Lore helptext for a Frisian training site: Training Camp
+#: ../../data/tribes/initialization/frisians/units.lua:2123
 msgctxt "frisians_building"
 msgid ""
 "Just be quiet, listen carefully, and do try not to stab yourself until I’ve "
 "explained to you how to hold a broadsword."
 msgstr "Csak maradj nyugton, figyelj rendesen, és próbáld meg nem összekaszabolni magadat, amíg megmutatom, hogyan tartsd a pallost!"
-
-# (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: This is the helptext for an access key combination.
-#: ../../data/tribes/scripting/help/controls.lua:144
-msgid "Show expeditions that have found a port space or are founding a colony"
-msgstr "Azon expedíciók megjelenítése, melyek találtak kikötőhelyet, vagy kolóniát alapítanak."
 
 # (pofilter) endpunc: Different punctuation at the end
 #: ../../data/tribes/scripting/help/immovable_help.lua:35
@@ -248,16 +285,16 @@ msgid "Purpose"
 msgstr "Rendeltetés:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/immovable_help.lua:57
+#: ../../data/tribes/scripting/help/immovable_help.lua:58
 msgid "Requirements"
 msgstr "Szükséges hozzá:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/immovable_help.lua:73
+#: ../../data/tribes/scripting/help/immovable_help.lua:74
 msgid "Becomes"
 msgstr "Lesz belőle:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/immovable_help.lua:99
+#: ../../data/tribes/scripting/help/immovable_help.lua:100
 msgid "Preferred Terrains"
 msgstr "Kedvelt terepek:"

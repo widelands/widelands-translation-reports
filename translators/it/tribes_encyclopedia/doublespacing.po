@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
 "Last-Translator: Log Merger, 2022\n"
-"Language-Team: Italian (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Italian (http://app.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a barbarian ware: Blackwood
-#: ../../data/tribes/initialization/barbarians/units.lua:123
+#. TRANSLATORS: Helptext for a Barbarian ware: Blackwood
+#: ../../data/tribes/initialization/barbarians/units.lua:124
 msgctxt "barbarians_ware"
 msgid ""
 "This fire-hardened wood is as hard as iron and it is used for several "
@@ -25,8 +25,8 @@ msgid ""
 msgstr "Il Legno trattato,  cioè indurito col calore, è duro come il ferro ed è usato per parecchie costruzioni. È prodotto a partire da Tronchi nell'officina di Trattamento del legno."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:486
+#. TRANSLATORS: Helptext for a Barbarian ware: Bronze Ax
+#: ../../data/tribes/initialization/barbarians/units.lua:487
 msgctxt "barbarians_ware"
 msgid ""
 "The bronze ax is considered a weapon that is hard to handle. Only skilled "
@@ -36,16 +36,11 @@ msgid ""
 msgstr "L'ascia di bronzo è considerata un'arma difficile da maneggiare. Solo soldati abili sono in grado di usarla.  È prodotta dalla fucina da guerra ed è usata nel campo di addestramento - insieme al cibo - per addestrare i soldati dal livello 2 al livello 3."
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for an empire ware: Advanced Spear
-#: ../../data/tribes/initialization/empire/units.lua:532
+#. TRANSLATORS: Helptext for an Empire ware: Advanced Spear
+#: ../../data/tribes/initialization/empire/units.lua:533
 msgctxt "empire_ware"
 msgid ""
 "This is an advanced spear with a steel tip. It is produced in a weapon "
 "smithy and used in a training camp – together with food – to train soldiers "
 "from attack level 1 to level 2."
 msgstr "Questa è una lancia avanzata con una punta in acciaio. È prodotta in una fucina di armi  ed è usata nel campo di addestramento - insieme al cibo - per addestrare i soldati in attacco dal livello 1 al livelllo 2."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../data/tribes/scripting/help/controls.lua:106
-msgid "Show the debug console (only in debug-builds)"
-msgstr "Mostra la console di elimina errori (solo  nella struttura dell'elimina errori)"

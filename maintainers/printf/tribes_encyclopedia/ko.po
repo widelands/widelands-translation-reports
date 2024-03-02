@@ -2,31 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
 "Last-Translator: tamanegi, 2018\n"
-"Language-Team: Korean (http://www.transifex.com/widelands/widelands/language/"
+"Language-Team: Korean (http://app.transifex.com/widelands/widelands/language/"
 "ko/)\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
-
-# (pofilter) printf: Different number of printf variables
-#. TRANSLATORS: Performance helptext for a frisian production site: Tavern
-#: ../../data/tribes/initialization/frisians/units.lua:1924
-#, lua-format
-msgctxt "frisians_building"
-msgid ""
-"The tavern can produce one ration in %s on average if the supply is steady; "
-"otherwise, it will take 50%% longer."
-msgstr "선술집은 공급이 꾸준하면 평균 %s초 만에 야전식량 1개를 생산할 수 있고, 그렇지 않으면 50%%의 시간이 더 소요됩니다."
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) printf: Different printf variable: %를
 #. TRANSLATORS: Note helptext for a mine.
-#: ../../data/tribes/scripting/help/building_help.lua:427
+#: ../../data/tribes/scripting/help/building_help.lua:336
 msgid ""
 "This mine will exploit %1%%% of its resources. From there on out, it will "
 "only have a %2%%% chance of finding any more of them."
@@ -34,7 +24,7 @@ msgstr "이 광산은 자원 중 %1%%%를 활용할 것입니다. 그 다음부�
 
 # (pofilter) printf: Different number of printf variables
 #. TRANSLATORS: Note helptext for a mine.
-#: ../../data/tribes/scripting/help/building_help.lua:430
+#: ../../data/tribes/scripting/help/building_help.lua:339
 msgid ""
 "This mine will exploit all of its resources down to the deepest level. But "
 "even after having done so, it will still have a %1%%% chance of finding some"

@@ -2,31 +2,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Владимир Шевцов, 2022\n"
-"Language-Team: Russian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Yuriy Sokolov <lention@mail.ru>, 2015,2017,2022-2024\n"
+"Language-Team: Russian (http://app.transifex.com/widelands/widelands/"
 "language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
+"n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:239
+#: ../../src/graphic/gl/initialize.cc:247
 #, c-format
 msgid "The %1$s needs to be version %2$u.%3$u or newer."
 msgstr "%1$s доступно, начиная с версии %2$u.%3$u."
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
-#: ../../src/logic/addons.cc:222
+#: ../../src/logic/addons.cc:260
 #, c-format
 msgid "%u add-on with wrong version"
 msgid_plural "%u add-ons with wrong version"
@@ -35,66 +35,56 @@ msgstr[1] "У %u дополнений не та версия"
 msgstr[2] "У %u дополнений не та версия"
 msgstr[3] "У %u дополнений не та версия"
 
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#: ../../src/logic/addons.cc:310
+#, c-format
+msgid "%u game-relevant add-on in use:"
+msgid_plural "%u game-relevant add-ons in use:"
+msgstr[0] "Задействовано %u игровое дополнение:"
+msgstr[1] "Задействованы %u игровых дополнения:"
+msgstr[2] "Задействовано %u игровых дополнений:"
+msgstr[3] "Задействовано %u игровых дополнений:"
+
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gameclient.cc:932
+#: ../../src/network/gameclient.cc:990
 msgid "/me ’s file failed md5 checksumming."
 msgstr "Файл /me не прошел проверку контрольной суммы MD5."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/internet_gaming.cc:113
+#: ../../src/network/internet_gaming.cc:105
 msgid ""
 "Widelands could not establish a connection to the given address.\n"
 "Either there was no metaserver running at the supposed port or\n"
 "your network setup is broken."
-msgstr "«Widelands» не может установить соединение с данным адресом. \nЛибо метасервер не работает на предполагаемом порту, либо ваши настройки сети не верны."
+msgstr "«Widelands» не может установить соединение с данным адресом.\nЛибо метасервер не работает на предполагаемом порту, \nлибо ваши настройки сети не верны."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1176
+#: ../../src/ui_fsmenu/addons/manager.cc:1217
 #, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which could not be found"
-msgstr ". Дополнение \"%1$s\" зависит от \"%2$s\", а оно не найдено"
+msgid "• ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
+msgstr ". ‘%1$s’ нужен ‘%2$s’, который содержится в списке зависимостей дополнения"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1180
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
-msgstr ". Дополнение \"%1$s\" зависит от \"%2$s\", а оно не недоступно"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1187
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
-msgstr ". \"%1$s\" требует установленного \"%2$s\". Взгляните на список зависимостей"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1215
-#, c-format
-msgid ""
-"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
-"wrong order"
-msgstr "Дополнения \"%2$s\" и \"%3$s\" должны идти в обратном порядке в зависимостях дополнения \"%1$s\""
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1400
+#: ../../src/ui_fsmenu/addons/manager.cc:1427
 #, c-format
 msgid "Uploading ‘%s’…"
 msgstr "‘%s’ загружается…"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:531
+#: ../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
-msgstr "Не бывает версии вроде \"%1$s\". Дополнение \"%2$s\" ждёт выставления допустимой версии перед сохранением."
+msgstr "Версия \"%1$s\" недействительна. Дополнение \"%2$s\" не будет сохранено."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:895
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:912
 #, c-format
 msgid "‘%1$s’ commented on version %2$s:"
 msgstr "\"%1$s\" прокомментировал версию %2$s:"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:471
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:496
 #, c-format
 msgid "%u download"
 msgid_plural "%u downloads"
@@ -113,7 +103,7 @@ msgstr "\"%s\" - неиграбельное племя"
 #. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
 #. empty if none is used. %2 is scrolling direction.
 #. %3 is the name of the conflicting function.
-#: ../../src/ui_fsmenu/mousewheel_options.cc:282
+#: ../../src/ui_fsmenu/mousewheel_options.cc:297
 #, c-format
 msgid ""
 "‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
@@ -122,17 +112,6 @@ msgstr "'%1$s%2$s' не согласуется с '%3$s'. Пожалуйста, 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:134
+#: ../../src/ui_fsmenu/scenario_select.cc:136
 msgid "#"
 msgstr "№"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication.cc:1310
-#, c-format
-msgid "%s can not be combined with other actions"
-msgstr "Сочетать %s с другими действиями не получится"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication.cc:1586
-msgid "--xres/--yres, --maximized and --fullscreen can not be combined"
-msgstr "Нельзя использовать сочетания параметров --xres/--yres, --maximized и --fullscreen. Выберите что-то одно"

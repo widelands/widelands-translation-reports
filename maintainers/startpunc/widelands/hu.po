@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: zone <z-one@freemail.hu>, 2015\n"
-"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021-2024\n"
+"Language-Team: Hungarian (http://app.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:50
+#: ../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "„%s”"
@@ -27,29 +27,47 @@ msgid "."
 msgstr ","
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
-#: ../../src/network/gamehost.cc:1631
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:736
+#: ../../src/network/gamehost.cc:1663
 #, c-format
 msgid "Computer %u"
 msgstr "%u. számítógép"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Default player name, e.g. Player 1
-#: ../../src/editor/ui_menus/player_menu.cc:160
-#: ../../src/editor/ui_menus/player_menu.cc:288
-#: ../../src/logic/single_player_game_settings_provider.cc:110
+#: ../../src/editor/ui_menus/player_menu.cc:169
+#: ../../src/editor/ui_menus/player_menu.cc:299
+#: ../../src/logic/single_player_game_settings_provider.cc:106
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:65
 #: ../../src/map_io/map_player_names_and_tribes_packet.cc:99
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:131
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:185
-#: ../../src/ui_fsmenu/singleplayersetupbox.cc:49
-#: ../../src/wui/game_diplomacy_menu.cc:158
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:140
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:208
+#: ../../src/ui_fsmenu/singleplayersetupbox.cc:63
+#: ../../src/wui/game_diplomacy_menu.cc:82
 #, c-format
 msgid "Player %u"
 msgstr "%u. játékos"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/editor_game_base.cc:252
+#: ../../src/logic/detected_port_space.cc:101
+#, c-format
+msgid "Port space of %1$s discovered at %2$s by %3$s"
+msgstr "%1$s kikötőhelye, amit a(z) %3$s talált %2$s-kor"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: "Port space of Player1 discovered at 2:22 by Ship3 44 steps
+#. north
+#. of Port6"
+#: ../../src/logic/detected_port_space.cc:108
+#, c-format
+msgid "Port space of %1$s discovered at %2$s by %3$s %4$u step %5$s of %6$s"
+msgid_plural ""
+"Port space of %1$s discovered at %2$s by %3$s %4$u steps %5$s of %6$s"
+msgstr[0] "%1$s kikötőhelye, amit a(z) %3$s talált %2$s-kor %6$s kikötőjétől %4$u távolságra %5$s"
+msgstr[1] "%1$s kikötőhelye, amit a(z) %3$s talált %2$s-kor %6$s kikötőjétől %4$u távolságra %5$s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/editor_game_base.cc:236
 #, c-format
 msgid "Creating player %d…"
 msgstr "%d. játékos létrehozása…"
@@ -68,23 +86,23 @@ msgstr "%d. játékos létrehozása…"
 #. * TRANSLATORS: on a development build if you can, and let us know if there
 #. are any issues
 #. * TRANSLATORS: we need to address for your language.
-#: ../../src/logic/map_objects/tribes/production_program.cc:718
-#: ../../src/logic/map_objects/tribes/production_program.cc:1250
+#: ../../src/logic/map_objects/tribes/production_program.cc:765
+#: ../../src/logic/map_objects/tribes/production_program.cc:1289
 #, c-format
 msgid "Did not start %1$s because %2$s"
 msgstr "%1$s nem indult el, mert %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:724
+#: ../../src/logic/map_objects/tribes/production_program.cc:771
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s elkészült, mert %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:729
-#: ../../src/logic/map_objects/tribes/production_program.cc:734
+#: ../../src/logic/map_objects/tribes/production_program.cc:776
+#: ../../src/logic/map_objects/tribes/production_program.cc:781
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s kihagyva, mert %2$s"
@@ -93,7 +111,7 @@ msgstr "%1$s kihagyva, mert %2$s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1342
+#: ../../src/logic/map_objects/tribes/production_program.cc:1381
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -104,7 +122,7 @@ msgstr[1] "%s elkészült"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1424
+#: ../../src/logic/map_objects/tribes/production_program.cc:1463
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -116,20 +134,34 @@ msgstr[1] "%s toborozva"
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1891
+#: ../../src/logic/map_objects/tribes/production_program.cc:1887
 #, c-format
 msgid "Completed %s"
 msgstr "%s befejeződött"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/player.cc:1938
+#: ../../src/logic/player.cc:2020
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
 msgstr "%d. hajó"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/internet_gaming.cc:433
+#: ../../src/logic/player.cc:2037
+#, c-format
+msgctxt "warehouse"
+msgid "Port %d"
+msgstr "%d. kikötő"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/logic/player.cc:2037
+#, c-format
+msgctxt "warehouse"
+msgid "Warehouse %d"
+msgstr "%d. raktár"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../src/network/internet_gaming.cc:425
 #, c-format
 msgid ""
 "You have been logged in as ‘%s’ since your requested name is already in use "
@@ -137,57 +169,31 @@ msgid ""
 msgstr "„%s” néven jelentkeztél be, mivel a kért név már használatban van, vagy foglalt."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:139
+#: ../../src/network/network_gaming_messages.cc:54
 #, c-format
 msgid "Received command number %s, which is not allowed in this state."
 msgstr "%s sorszámú parancs érkezett, amely nem engedélyezett ebben az állapotban."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:525
+#: ../../src/ui_fsmenu/addons/manager.cc:558
 #, c-format
 msgid "Toggle category ‘%s’"
 msgstr "%s kategória ki/bekapcsolása"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1176
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which could not be found"
-msgstr "· a(z) ‘%1$s’ által igényelt ‘%2$s’ nem található"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1180
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is disabled"
-msgstr "· a(z) ‘%1$s’ által igényelt ‘%2$s’ le van tiltva"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1187
-#, c-format
-msgid "· ‘%1$s’ requires ‘%2$s’ which is listed below the requiring add-on"
-msgstr "· a(z) ‘%1$s’ által igényelt ‘%2$s’ az igénylő alá van sorolva"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1215
-#, c-format
-msgid ""
-"· ‘%1$s’ requires first ‘%2$s’ and then ‘%3$s’, but they are listed in the "
-"wrong order"
-msgstr "· a(z) ‘%1$s’ előbb a(z) ‘%2$s’-t utána a(z) ‘%3$s’-t igényli, de azok rossz sorrendben vannak felsorolva"
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1400
+#: ../../src/ui_fsmenu/addons/manager.cc:1427
 #, c-format
 msgid "Uploading ‘%s’…"
 msgstr "„%s” feltöltése…"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1441
+#: ../../src/ui_fsmenu/addons/manager.cc:1469
 #, c-format
 msgid "Downloading ‘%s’…"
 msgstr "„%s” letöltése…"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:531
+#: ../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
@@ -195,7 +201,7 @@ msgstr "A(z) „%1$s” nem érvényes verziószám. A(z) „%2$s” bővítmén
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %1$s = version string and build type  ("Debug" or "Release")
-#: ../../src/ui_fsmenu/main.cc:477
+#: ../../src/ui_fsmenu/main.cc:526
 #, c-format
 msgid "Version %1$s"
 msgstr "%1$s verzió"
@@ -217,7 +223,7 @@ msgstr "%1$u. játékos (%2$s): %3$s"
 #. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
 #. empty if none is used. %2 is scrolling direction.
 #. %3 is the name of the conflicting function.
-#: ../../src/ui_fsmenu/mousewheel_options.cc:282
+#: ../../src/ui_fsmenu/mousewheel_options.cc:297
 #, c-format
 msgid ""
 "‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
@@ -225,53 +231,42 @@ msgid ""
 msgstr "A választott görgetési beállítás („%1$s%2$s”) ütközik a következő funkcióval: ‘%3$s’. Kérlek válassz másik beállítást, vagy változtasd meg előbb a másik hozzárendelést."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/mousewheel_options.cc:507
+#: ../../src/ui_fsmenu/mousewheel_options.cc:567
 #, c-format
 msgid ""
-"‘%1$s’ or ‘%2$s’ conflicts with the recommended settings. Change the "
-"conflicting setting(s) too?"
-msgstr "A „%1$s” vagy a „%2$s” beállítása ütközik a javasolt beállításokkal. Módosíthatjuk az ütközést okozó beállítás(oka)t is?"
+"‘%1$s’, ‘%2$s’, or ‘%3$s’ conflicts with the recommended settings. Change "
+"the conflicting setting(s) too?"
+msgstr "A „%1$s”, „%2$s” vagy „%3$s” beállítása ütközik a javasolt beállításokkal. Módosíthatjuk az ütközést okozó beállítás(oka)t is?"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: This is an option in multiplayer setup for sharing
 #. another player's starting position.
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:425
+#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:446
 #: ../../src/ui_fsmenu/singleplayerdropdown.cc:84
 #, c-format
 msgid "Shared in Player %u"
 msgstr "%u. játékosként megosztva"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication.cc:1310
-#, c-format
-msgid "%s can not be combined with other actions"
-msgstr "A(z) %s nem használható más beállításokkal együtt."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication.cc:1586
-msgid "--xres/--yres, --maximized and --fullscreen can not be combined"
-msgstr "Az --xres/--yres, a --maximized és a --fullscreen beállítások nem használhatók együtt."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication_options.cc:684
+#: ../../src/wlapplication_options.cc:836
 #, c-format
 msgid "Set Landmark #%d"
-msgstr "#%d. helyszín rögzítése"
+msgstr "%d. helyszín rögzítése"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication_options.cc:689
+#: ../../src/wlapplication_options.cc:840
 #, c-format
 msgid "Go To Landmark #%d"
-msgstr "#%d. helyszínre ugrás"
+msgstr "%d. helyszínre ugrás"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wlapplication_options.cc:1074
+#: ../../src/wlapplication_options.cc:1521
 #, c-format
 msgid "Fastplace #%i"
 msgstr "%i. építési gyorsbillentyű"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/game_diplomacy_menu.cc:250
+#: ../../src/wui/game_diplomacy_menu.cc:192
 #, c-format
 msgid "Team %u"
 msgstr "%u. csapat"
@@ -279,7 +274,7 @@ msgstr "%u. csapat"
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:122
+#: ../../src/wui/gamedetails.cc:119
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] "%1% könyvtár és %2% van kiválasztva:"

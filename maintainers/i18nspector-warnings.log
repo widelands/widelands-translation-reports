@@ -1,11 +1,9 @@
 W: po/map_along_the_river.wmf/ar.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/bg.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/br.po: no-last-translator-header-field
-W: po/map_along_the_river.wmf/cs.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/da.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/en_GB.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/en_US.po: no-last-translator-header-field
-W: po/map_along_the_river.wmf/eo.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/eu.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/fa.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/fy.po: no-last-translator-header-field
@@ -14,7 +12,6 @@ W: po/map_along_the_river.wmf/gd.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/gl.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/he.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/hi.po: no-last-translator-header-field
-W: po/map_along_the_river.wmf/hr.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/id.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/ig.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/ja.po: no-last-translator-header-field
@@ -25,7 +22,6 @@ W: po/map_along_the_river.wmf/la.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/lt.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/ms.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/nb.po: no-last-translator-header-field
-W: po/map_along_the_river.wmf/nl.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/nn.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/pt.po: no-last-translator-header-field
 W: po/map_along_the_river.wmf/ro.po: no-last-translator-header-field
@@ -41,7 +37,7 @@ W: po/maps/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/maps/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/maps/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/maps/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
-W: po/maps/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/maps/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;' => 'nplurals=2; plural=n != 1;'
 W: po/maps/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/maps/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/maps/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
@@ -59,7 +55,9 @@ W: po/maps/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/map_the_green_plateau.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/map_the_green_plateau.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/map_the_green_plateau.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/map_the_green_plateau.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/map_the_green_plateau.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/map_the_green_plateau.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/map_the_green_plateau.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/map_the_green_plateau.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/map_the_green_plateau.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -67,6 +65,8 @@ W: po/map_the_green_plateau.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; 
 W: po/map_the_green_plateau.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/map_the_green_plateau.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/map_the_green_plateau.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/map_the_green_plateau.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/map_the_green_plateau.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/map_the_green_plateau.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/map_the_green_plateau.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/map_the_green_plateau.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -132,7 +132,6 @@ W: po/scenario_atl02.wmf/eu.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/scenario_atl02.wmf/fa.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
-W: po/scenario_atl02.wmf/fr.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/fy.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/ga.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/gd.po: no-last-translator-header-field
@@ -155,11 +154,9 @@ W: po/scenario_atl02.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_atl02.wmf/lt.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/ms.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/nb.po: no-last-translator-header-field
-W: po/scenario_atl02.wmf/nl.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/nn.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_atl02.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
-W: po/scenario_atl02.wmf/pl.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_atl02.wmf/pt_BR.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
@@ -167,13 +164,10 @@ W: po/scenario_atl02.wmf/pt.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/ro.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_atl02.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
-W: po/scenario_atl02.wmf/ru.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
-W: po/scenario_atl02.wmf/sk.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/sl.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/sr.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/sr_RS.po: no-last-translator-header-field
-W: po/scenario_atl02.wmf/sv.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/tr.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;' or 'nplurals=2; plural=n != 1;'
 W: po/scenario_atl02.wmf/tr.po: no-last-translator-header-field
 W: po/scenario_atl02.wmf/uk.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
@@ -184,7 +178,9 @@ W: po/scenario_atl02.wmf/zh_TW.po: no-last-translator-header-field
 W: po/scenario_bar01.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_bar01.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_bar01.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_bar01.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar01.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_bar01.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_bar01.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar01.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar01.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -192,6 +188,8 @@ W: po/scenario_bar01.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=
 W: po/scenario_bar01.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_bar01.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_bar01.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_bar01.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_bar01.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar01.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_bar01.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_bar01.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -201,7 +199,9 @@ W: po/scenario_bar01.wmf/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_bar02.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_bar02.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_bar02.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_bar02.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar02.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_bar02.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_bar02.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar02.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar02.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -209,6 +209,8 @@ W: po/scenario_bar02.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=
 W: po/scenario_bar02.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_bar02.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_bar02.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_bar02.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_bar02.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_bar02.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_bar02.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_bar02.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -239,13 +241,18 @@ W: po/scenario_dummy.wmf/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_emp01.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_emp01.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_emp01.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_emp01.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp01.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_emp01.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_emp01.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_emp01.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp01.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/scenario_emp01.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp01.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_emp01.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp01.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_emp01.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_emp01.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp01.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp01.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_emp01.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -255,7 +262,9 @@ W: po/scenario_emp01.wmf/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_emp02.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_emp02.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_emp02.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_emp02.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp02.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_emp02.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_emp02.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp02.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp02.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -263,6 +272,8 @@ W: po/scenario_emp02.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=
 W: po/scenario_emp02.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_emp02.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp02.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_emp02.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_emp02.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp02.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp02.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_emp02.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -278,7 +289,6 @@ W: po/scenario_emp03.wmf/ga.po: no-last-translator-header-field
 W: po/scenario_emp03.wmf/gl.po: no-last-translator-header-field
 W: po/scenario_emp03.wmf/he.po: no-last-translator-header-field
 W: po/scenario_emp03.wmf/hi.po: no-last-translator-header-field
-W: po/scenario_emp03.wmf/hr.po: no-last-translator-header-field
 W: po/scenario_emp03.wmf/id.po: no-last-translator-header-field
 W: po/scenario_emp03.wmf/ig.po: no-last-translator-header-field
 W: po/scenario_emp03.wmf/ka.po: no-last-translator-header-field
@@ -301,16 +311,17 @@ W: po/scenario_emp04.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=
 W: po/scenario_emp04.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_emp04.wmf/en_US.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/eo.po: no-last-translator-header-field
+W: po/scenario_emp04.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp04.wmf/eu.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/scenario_emp04.wmf/fa.po: no-last-translator-header-field
+W: po/scenario_emp04.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_emp04.wmf/fy.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/ga.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/gl.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp04.wmf/he.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/hi.po: no-last-translator-header-field
-W: po/scenario_emp04.wmf/hr.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/id.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/ig.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
@@ -326,11 +337,12 @@ W: po/scenario_emp04.wmf/nb.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/nn.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp04.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_emp04.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_emp04.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_emp04.wmf/ro.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_emp04.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_emp04.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
-W: po/scenario_emp04.wmf/sk.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/sl.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/sr.po: no-last-translator-header-field
 W: po/scenario_emp04.wmf/sr_RS.po: no-last-translator-header-field
@@ -388,7 +400,6 @@ W: po/scenario_fri02.wmf/gl.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_fri02.wmf/he.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/hi.po: no-last-translator-header-field
-W: po/scenario_fri02.wmf/hr.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/id.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/ig.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
@@ -410,11 +421,9 @@ W: po/scenario_fri02.wmf/ro.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_fri02.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_fri02.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
-W: po/scenario_fri02.wmf/sk.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/sl.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/sr.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/sr_RS.po: no-last-translator-header-field
-W: po/scenario_fri02.wmf/sv.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/tr.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;' or 'nplurals=2; plural=n != 1;'
 W: po/scenario_fri02.wmf/tr.po: no-last-translator-header-field
 W: po/scenario_fri02.wmf/uk.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
@@ -476,9 +485,7 @@ W: po/scenario_fri04.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=
 W: po/scenario_fri04.wmf/eu.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/scenario_fri04.wmf/fa.po: no-last-translator-header-field
-W: po/scenario_fri04.wmf/fi.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
-W: po/scenario_fri04.wmf/fr.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/fy.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/ga.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/gd.po: no-last-translator-header-field
@@ -501,18 +508,15 @@ W: po/scenario_fri04.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_fri04.wmf/lt.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/ms.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/nb.po: no-last-translator-header-field
-W: po/scenario_fri04.wmf/nl.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/nn.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_fri04.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
-W: po/scenario_fri04.wmf/pl.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_fri04.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_fri04.wmf/pt.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/ro.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_fri04.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
-W: po/scenario_fri04.wmf/ru.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_fri04.wmf/sk.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/sl.po: no-last-translator-header-field
@@ -526,19 +530,85 @@ W: po/scenario_fri04.wmf/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_fri04.wmf/uk.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/zh_CN.po: no-last-translator-header-field
 W: po/scenario_fri04.wmf/zh_TW.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ar.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/bg.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_fri05.wmf/br.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
+W: po/scenario_fri05.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_fri05.wmf/cs.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/da.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/el.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/en_GB.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/en_US.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/eo.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_fri05.wmf/eu.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_fri05.wmf/fa.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_fri05.wmf/fy.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ga.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/gd.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/gl.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_fri05.wmf/he.po: codomain-error-in-unused-plural-forms f(0) = 3 >= 3
+W: po/scenario_fri05.wmf/he.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/hi.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/id.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ig.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_fri05.wmf/it.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ja.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
+W: po/scenario_fri05.wmf/ka.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ko.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/krl.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/la.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
+W: po/scenario_fri05.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_fri05.wmf/lt.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ms.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/nb.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/nn.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
+W: po/scenario_fri05.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_fri05.wmf/pl.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_fri05.wmf/pt_BR.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_fri05.wmf/pt.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ro.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
+W: po/scenario_fri05.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_fri05.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_fri05.wmf/sk.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/sl.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/sr.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/sr_RS.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/sv.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/tr.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;' or 'nplurals=2; plural=n != 1;'
+W: po/scenario_fri05.wmf/tr.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/uk.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
+W: po/scenario_fri05.wmf/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/scenario_fri05.wmf/uk.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/zh_CN.po: no-last-translator-header-field
+W: po/scenario_fri05.wmf/zh_TW.po: no-last-translator-header-field
 W: po/scenario_tutorial01_basic_control.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_tutorial01_basic_control.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_tutorial01_basic_control.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_tutorial01_basic_control.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial01_basic_control.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/scenario_tutorial01_basic_control.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
-W: po/scenario_tutorial01_basic_control.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_tutorial01_basic_control.wmf/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_tutorial01_basic_control.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial01_basic_control.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/scenario_tutorial01_basic_control.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial01_basic_control.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_tutorial01_basic_control.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial01_basic_control.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial01_basic_control.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_tutorial01_basic_control.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial01_basic_control.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial01_basic_control.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial01_basic_control.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -550,13 +620,17 @@ W: po/scenario_tutorial02_warfare.wmf/cs.po: unusual-unused-plural-forms 'nplura
 W: po/scenario_tutorial02_warfare.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_tutorial02_warfare.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial02_warfare.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
-W: po/scenario_tutorial02_warfare.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_tutorial02_warfare.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_tutorial02_warfare.wmf/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/scenario_tutorial02_warfare.wmf/he.po: codomain-error-in-unused-plural-forms f(0) = 3 >= 3
+W: po/scenario_tutorial02_warfare.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial02_warfare.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/scenario_tutorial02_warfare.wmf/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial02_warfare.wmf/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/scenario_tutorial02_warfare.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial02_warfare.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial02_warfare.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_tutorial02_warfare.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial02_warfare.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial02_warfare.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial02_warfare.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -566,7 +640,9 @@ W: po/scenario_tutorial02_warfare.wmf/uk.po: codomain-error-in-unused-plural-for
 W: po/scenario_tutorial03_seafaring.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_tutorial03_seafaring.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_tutorial03_seafaring.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_tutorial03_seafaring.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial03_seafaring.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_tutorial03_seafaring.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_tutorial03_seafaring.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial03_seafaring.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial03_seafaring.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -575,6 +651,7 @@ W: po/scenario_tutorial03_seafaring.wmf/lt.po: codomain-error-in-unused-plural-f
 W: po/scenario_tutorial03_seafaring.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial03_seafaring.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial03_seafaring.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_tutorial03_seafaring.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial03_seafaring.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial03_seafaring.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial03_seafaring.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -584,7 +661,9 @@ W: po/scenario_tutorial03_seafaring.wmf/uk.po: codomain-error-in-unused-plural-f
 W: po/scenario_tutorial04_economy.wmf/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_tutorial04_economy.wmf/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/scenario_tutorial04_economy.wmf/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/scenario_tutorial04_economy.wmf/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial04_economy.wmf/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/scenario_tutorial04_economy.wmf/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/scenario_tutorial04_economy.wmf/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial04_economy.wmf/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial04_economy.wmf/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -593,6 +672,7 @@ W: po/scenario_tutorial04_economy.wmf/lt.po: codomain-error-in-unused-plural-for
 W: po/scenario_tutorial04_economy.wmf/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial04_economy.wmf/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial04_economy.wmf/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/scenario_tutorial04_economy.wmf/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/scenario_tutorial04_economy.wmf/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/scenario_tutorial04_economy.wmf/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/scenario_tutorial04_economy.wmf/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -605,7 +685,7 @@ W: po/texts/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/texts/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/texts/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/texts/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
-W: po/texts/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/texts/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;' => 'nplurals=2; plural=n != 1;'
 W: po/texts/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/texts/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/texts/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
@@ -613,6 +693,7 @@ W: po/texts/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/texts/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/texts/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/texts/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/texts/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/texts/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/texts/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/texts/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -626,21 +707,22 @@ W: po/training_wheels/br.po: no-last-translator-header-field
 W: po/training_wheels/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/training_wheels/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/training_wheels/el.po: no-last-translator-header-field
-W: po/training_wheels/en_GB.po: no-last-translator-header-field
 W: po/training_wheels/en_US.po: no-last-translator-header-field
 W: po/training_wheels/eo.po: no-last-translator-header-field
+W: po/training_wheels/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/training_wheels/eu.po: no-last-translator-header-field
 W: po/training_wheels/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/training_wheels/fa.po: no-last-translator-header-field
+W: po/training_wheels/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/training_wheels/fy.po: no-last-translator-header-field
 W: po/training_wheels/ga.po: no-last-translator-header-field
 W: po/training_wheels/gl.po: no-last-translator-header-field
 W: po/training_wheels/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/training_wheels/he.po: no-last-translator-header-field
 W: po/training_wheels/hi.po: no-last-translator-header-field
-W: po/training_wheels/hr.po: no-last-translator-header-field
 W: po/training_wheels/id.po: no-last-translator-header-field
 W: po/training_wheels/ig.po: no-last-translator-header-field
+W: po/training_wheels/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/training_wheels/ja.po: no-last-translator-header-field
 W: po/training_wheels/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/training_wheels/ka.po: no-last-translator-header-field
@@ -654,13 +736,14 @@ W: po/training_wheels/nb.po: no-last-translator-header-field
 W: po/training_wheels/nn.po: no-last-translator-header-field
 W: po/training_wheels/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/training_wheels/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/training_wheels/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/training_wheels/pt_BR.po: no-last-translator-header-field
+W: po/training_wheels/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/training_wheels/pt.po: no-last-translator-header-field
 W: po/training_wheels/ro.po: no-last-translator-header-field
 W: po/training_wheels/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/training_wheels/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/training_wheels/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
-W: po/training_wheels/sk.po: no-last-translator-header-field
 W: po/training_wheels/sl.po: no-last-translator-header-field
 W: po/training_wheels/sr.po: no-last-translator-header-field
 W: po/training_wheels/sr_RS.po: no-last-translator-header-field
@@ -678,7 +761,7 @@ W: po/tribes/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/tribes/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/tribes/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/tribes/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
-W: po/tribes/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/tribes/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;' => 'nplurals=2; plural=n != 1;'
 W: po/tribes/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/tribes/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/tribes/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
@@ -696,14 +779,18 @@ W: po/tribes/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/widelands_console/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/widelands_console/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/widelands_console/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/widelands_console/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/widelands_console/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
 W: po/widelands_console/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/widelands_console/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/widelands_console/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/widelands_console/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/widelands_console/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/widelands_console/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/widelands_console/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/widelands_console/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/widelands_console/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/widelands_console/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/widelands_console/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/widelands_console/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/widelands_console/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -713,13 +800,19 @@ W: po/widelands_console/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/widelands_editor/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/widelands_editor/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/widelands_editor/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/widelands_editor/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/widelands_editor/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
-W: po/widelands_editor/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/widelands_editor/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/widelands_editor/he.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
+W: po/widelands_editor/he.po: codomain-error-in-unused-plural-forms f(0) = 3 >= 3
+W: po/widelands_editor/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/widelands_editor/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
 W: po/widelands_editor/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/widelands_editor/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/widelands_editor/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/widelands_editor/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/widelands_editor/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/widelands_editor/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/widelands_editor/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/widelands_editor/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/widelands_editor/sk.po: codomain-error-in-unused-plural-forms f(x) != 2
@@ -729,7 +822,9 @@ W: po/widelands_editor/uk.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/world/br.po: unusual-unused-plural-forms 'nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);' => 'nplurals=2; plural=n > 1;'
 W: po/world/cs.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;' => 'nplurals=3; plural=n==1 ? 0 : (n>=2 && n<=4) ? 1 : 2;'
 W: po/world/cs.po: codomain-error-in-unused-plural-forms f(x) != 2
+W: po/world/es.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/world/fa.po: unusual-unused-plural-forms 'nplurals=2; plural=(n > 1);' => 'nplurals=1; plural=0;'
+W: po/world/fr.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
 W: po/world/he.po: unusual-unused-plural-forms 'nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;' => 'nplurals=2; plural=n != 1;'
 W: po/world/it.po: unusual-unused-plural-forms 'nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/world/ka.po: unusual-unused-plural-forms 'nplurals=2; plural=(n!=1);' => 'nplurals=1; plural=0;'
@@ -737,6 +832,8 @@ W: po/world/lt.po: unusual-unused-plural-forms 'nplurals=4; plural=(n % 10 == 1 
 W: po/world/lt.po: codomain-error-in-unused-plural-forms f(x) != 2
 W: po/world/pl.po: unusual-unused-plural-forms 'nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);' => 'nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/world/pl.po: codomain-error-in-unused-plural-forms f(x) != 3
+W: po/world/pt_BR.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n > 1;'
+W: po/world/pt.po: unusual-unused-plural-forms 'nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;' => 'nplurals=2; plural=n != 1;'
 W: po/world/ru.po: unusual-unused-plural-forms 'nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;' or 'nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;'
 W: po/world/ru.po: codomain-error-in-unused-plural-forms f(x) != 3
 W: po/world/sk.po: codomain-error-in-unused-plural-forms f(x) != 2

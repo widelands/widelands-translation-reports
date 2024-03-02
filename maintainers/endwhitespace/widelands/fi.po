@@ -2,44 +2,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: LINUX SAUNA, 2022\n"
-"Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>, 2023\n"
+"Language-Team: Finnish (http://app.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:491
+#: ../../src/editor/ui_menus/main_menu_map_options.cc:538
 #, c-format
 msgid "It is not recommended to permit waterway lengths greater than %u"
 msgstr "Vältä yli %upitkiä lauttareittejä. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/logic/playercommand.cc:2161
+#: ../../src/logic/playercommand.cc:2371
 #, c-format
 msgid "%s has resigned and is now a spectator."
 msgstr "%s kirjautui ulos ja vain seuraa nyt peliä. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/network/network_gaming_messages.cc:163
+#: ../../src/network/network_gaming_messages.cc:78
 #, c-format
 msgid "Client %s is cheating!"
 msgstr "Asiakas %s huijaa! "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:78
+#: ../../src/ui_fsmenu/addons/manager.cc:70
 #, c-format
 msgid "%u bytes"
 msgstr "%u tavua "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:872
+#: ../../src/ui_fsmenu/addons/remote_interaction.cc:889
 #, c-format
 msgid "%u comment:"
 msgid_plural "%u comments:"
@@ -47,7 +47,7 @@ msgstr[0] "%u kommentti:"
 msgstr[1] "%u kommenttia: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:410
+#: ../../src/ui_fsmenu/addons/rows_ui.cc:432
 #, c-format
 msgid ""
 "Are you certain that you want to upgrade this add-on?\n"
@@ -62,13 +62,46 @@ msgid ""
 msgstr "Oletko varma että haluat päivittää tämän laajennuksen?\n\n%1$s\ntekijältä %2$s\n%3$s\nAsennettu versio: %4$s\nSaatavilla oleva versio: %5$s\nKategoria: %6$s\n%7$s "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication.cc:1310
-#, c-format
-msgid "%s can not be combined with other actions"
-msgstr "%s ei voi yhdistää muihin toimintoihin "
+#: ../../src/ui_fsmenu/random_game.cc:73
+msgid ""
+"The random map generator is still in beta stage. The maps it generates are "
+"usually – but not always – well playable. Seafaring and artifacts are not "
+"supported. Add-ons of the Tribes and Script categories are disabled in "
+"random matches."
+msgstr "Satunnaiskarttatuottaja on edelleen kokeiluvaiheessa. Kartat joita se yleisestiottaen tuottaa ovat – vaan eivät aina – hyvin pelattavissa. Merenkulkua ja tutkimuslöydösesineitä ei tueta. Heimojen lisäosat ja syöteluokat ovat satunnaisotteluissa pois käytöstä.  "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/interactive_base.cc:733
-#, c-format
-msgid "Waterway length: %1$u/%2$u"
-msgstr "Vesiväylän pituus: %1$u/%2$u "
+#. * TRANSLATORS: This is a tool tip for a map tag
+#: ../../src/wui/map_tags.cc:32
+msgid "The map is provided by the official Widelands release"
+msgstr "Tämä kartta toimitetaan Widelandsin virallisessa julkaisussa "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/map_tags.cc:43
+msgid ""
+"Player starting positions were designed to provide equal conditions for all "
+"players"
+msgstr "Pelaajien aloitusasemat suunniteltiin tarjoamaan yhdenvertaiset lähtökohdat jokaiselle "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: This is a tool tip for a map tag
+#: ../../src/wui/map_tags.cc:53
+msgid "The map allows building ports and ships"
+msgstr "Tämä kartta sallii satamien ja laivojen rakentamisen "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: This is a tool tip for a map tag
+#: ../../src/wui/map_tags.cc:58
+msgid "The map allows building ferries, ferry yards and waterways"
+msgstr "Tämä kartta sallii lauttojen, lauttavarustamojen ja vesireittien rakentamisen "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: This is a tool tip for a map tag
+#: ../../src/wui/map_tags.cc:63
+msgid "The map contains artifacts for the Artifacts win condition"
+msgstr "Tämä kartta sisältää tutkimuslöytöesineet niihin perustuvalle ehdolle voittaa "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../src/wui/quicknavigation.cc:251
+msgid "View this landmark in a watch window"
+msgstr "Näytä tämä maamerkki tarkkailuikkunassa "

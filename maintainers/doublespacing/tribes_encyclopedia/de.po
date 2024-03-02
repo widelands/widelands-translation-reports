@@ -2,25 +2,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2022\n"
-"Language-Team: German (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2024\n"
+"Language-Team: German (http://app.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Helptext for a barbarian ware: Bronze Ax
-#: ../../data/tribes/initialization/barbarians/units.lua:486
-msgctxt "barbarians_ware"
+#. TRANSLATORS: Performance helptext for an Atlantean production site: Crystal
+#. Mine
+#: ../../data/tribes/initialization/atlanteans/units.lua:1870
+msgctxt "atlanteans_building"
 msgid ""
-"The bronze ax is considered a weapon that is hard to handle. Only skilled "
-"soldiers can use it. It is produced at the war mill and used in the training"
-" camp – together with food – to train soldiers from attack level 2 to level "
-"3."
-msgstr "Die Bronzeaxt ist als schwer zu führende Waffe bekannt. Nur begabte Krieger nutzen sie erfolgreich. Die Bronzeaxt wird in der Waffenschmiede hergestellt. Im Ausbildungslager wird sie – bei entsprechender Verpflegung – zur Ausbildung der Angriffsstärke eines Kriegers  von Stufe 2 zu Stufe 3 benutzt."
+"If this building is fully supplied and all minerals are needed by the "
+"economy, production of one granite takes %1$s, one quartz takes %2$s and one"
+" diamond takes %3$s on average. If only one kind of mineral is needed by the"
+" economy, production of one granite takes %4$s, one quartz takes %5$s and "
+"one diamond takes %6$s on average."
+msgstr "Wenn dieses Gebäude voll beliefert wird und alle Bodenschätze von der Wirtschaft benötigt werden, dauert die Produktion eines Steins im Durchschnitt %1$s, ein Bergkristall dauert im Durchschnitt %2$s und ein Diamant dauert im Durchschnitt %3$s. Wenn nur eine Art Bodenschätze benötigt wird, dauert die Produktion eines Steins im Durchschnitt %4$s,  ein Bergkristall dauert im Durchschnitt %5$s und ein Diamant dauert im Durchschnitt %6$s."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Performance helptext for a Frisian production site: Recycling
+#. Center
+#: ../../data/tribes/initialization/frisians/units.lua:1819
+msgctxt "frisians_building"
+msgid ""
+"If this building is fully supplied and all materials are needed by the "
+"economy, production of one fur takes %1$s, one iron takes %2$s and one gold "
+"takes %3$s on average. If only one kind of material is needed by the "
+"economy, production of one fur takes %4$s, one iron takes %5$s and one gold "
+"takes %6$s on average."
+msgstr "Wenn dieses Gebäude voll beliefert wird und alle aufbereiteten Waren von der Wirtschaft benötigt werden, dauert die Produktion eines Fells im Durchschnitt %1$s, ein Eisen dauert im Durchschnitt %2$s und ein Goldbarren dauert im Durchschnitt %3$s. Wenn nur eine Ware benötigt wird, dauert die Produktion eines Fells im Durchschnitt %4$s,  ein Eisen dauert im Durchschnitt %5$s und ein Goldbarren dauert im Durchschnitt %6$s."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Performance helptext for a Frisian production site: Small
+#. Armor Smithy
+#: ../../data/tribes/initialization/frisians/units.lua:1845
+msgctxt "frisians_building"
+msgid ""
+"If this building is fully supplied and all swords and helmets are needed by "
+"the economy, production of one short sword takes %1$s, one long sword takes "
+"%2$s and one helmet takes %3$s on average. If only one kind of sword or "
+"helmet is needed by the economy, production of one short sword takes %4$s, "
+"one long sword takes %5$s and one helmet takes %6$s on average."
+msgstr "Wenn dieses Gebäude voll beliefert wird und alle Schwerter und Helme von der Wirtschaft benötigt werden, dauert die Produktion eines Kurzschwerts im Durchschnitt %1$s, ein Langschwert dauert im Durchschnitt %2$s und ein Helm dauert im Durchschnitt %3$s. Wenn nur ein Schwert oder Helm benötigt wird, dauert die Produktion eines Kurzschwerts im Durchschnitt %4$s,  ein Langschwert dauert im Durchschnitt %5$s und ein Helm dauert im Durchschnitt %6$s."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Performance helptext for a Frisian production site: Large
+#. Armor Smithy
+#: ../../data/tribes/initialization/frisians/units.lua:1858
+msgctxt "frisians_building"
+msgid ""
+"If this building is fully supplied and all swords and helmets are needed by "
+"the economy, production of one broadsword takes %1$s, one double-edged sword"
+" takes %2$s and one golden helmet takes %3$s on average. If only one kind of"
+" sword or helmet is needed by the economy, production of one broadsword "
+"takes %4$s, one double-edged sword takes %5$s and one golden helmet takes "
+"%6$s on average."
+msgstr "Wenn dieses Gebäude voll beliefert wird und alle Schwerter und Helme von der Wirtschaft benötigt werden, dauert die Produktion eines Breitschwerts im Durchschnitt %1$s, ein zweischneidiges Schwert dauert im Durchschnitt %2$s und ein goldener Helm dauert im Durchschnitt %3$s. Wenn nur ein Schwert oder Helm benötigt wird, dauert die Produktion eines Breitschwerts im Durchschnitt %4$s,  ein zweischneidiges Schwert dauert im Durchschnitt %5$s und ein goldener Helm dauert im Durchschnitt %6$s."

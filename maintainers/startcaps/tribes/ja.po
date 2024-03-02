@@ -2,17 +2,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-08 02:24+0000\n"
 "PO-Revision-Date: 2015-11-03 18:55+0000\n"
 "Last-Translator: tamanegi, 2018-2019\n"
-"Language-Team: Japanese (http://www.transifex.com/widelands/widelands/"
+"Language-Team: Japanese (http://app.transifex.com/widelands/widelands/"
 "language/ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a building name used in lists of buildings
@@ -193,8 +193,8 @@ msgstr "解体中"
 #: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:65
 #: ../../data/tribes/buildings/productionsites/empire/farm/init.lua:75
 #: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:74
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:100
-#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:81
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:93
+#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:78
 msgid "No Fields"
 msgstr "土地不足"
 
@@ -207,106 +207,90 @@ msgstr "土地不足"
 #: ../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:66
 #: ../../data/tribes/buildings/productionsites/empire/farm/init.lua:76
 #: ../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:75
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:101
-#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:82
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:94
+#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:79
 msgid "Out of Fields"
 msgstr "空き地がありません"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/gold_digger_dwelling/init.lua:65
-#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:82
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:86
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:94
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:83
-#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:102
-#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:81
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:104
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:95
-msgid "No Gold"
-msgstr "金鉱枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/amazons/gold_digger_dwelling/init.lua:66
 #: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:83
 #: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:87
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:95
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:84
-#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:103
-#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:82
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:105
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:96
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:96
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:85
+#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:104
+#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:83
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:98
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:90
+msgid "No Gold"
+msgstr "金鉱枯渇"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/tribes/buildings/productionsites/amazons/gold_digger_dwelling/init.lua:67
+#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:84
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:88
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:86
+#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:105
+#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:84
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:99
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:91
 msgid "Main Gold Vein Exhausted"
 msgstr "主要な金の鉱脈が尽きました"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Short for "No Trees to cut lianas" for clay pits
 #: ../../data/tribes/buildings/productionsites/amazons/liana_cutters_hut/init.lua:49
-#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:57
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:46
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:58
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:49
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:59
+#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:65
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:50
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:62
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:53
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:60
 msgid "No Trees"
 msgstr "木枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:44
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:45
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:56
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:69
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:59
+#: ../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:48
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:49
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:60
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:80
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:60
 msgid "No Rocks"
 msgstr "岩枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:45
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:46
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:57
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:70
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:60
+#: ../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:49
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:50
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:61
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:81
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:61
 msgid "Out of Rocks"
 msgstr "岩がありません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/stonemine/init.lua:79
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:90
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:121
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:98
-msgid "No Granite"
-msgstr "花崗岩枯渇"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/stonemine/init.lua:80
-#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:91
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:122
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:99
-msgid "Main Granite Vein Exhausted"
-msgstr "花崗岩の主要鉱脈が尽きました"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:50
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:55
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:64
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:59
+#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:55
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:58
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:67
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:62
 #: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:64
 msgid "No Water"
 msgstr "水枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:51
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:56
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:65
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:60
+#: ../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:56
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:59
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:68
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:63
 #: ../../data/tribes/buildings/productionsites/frisians/well/init.lua:65
 msgid "Out of Water"
 msgstr "水が枯渇しました。"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:58
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:47
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:59
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:50
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:60
+#: ../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:66
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:51
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:63
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:61
 msgid "Out of Trees"
 msgstr "木が枯渇しました"
 
@@ -362,25 +346,25 @@ msgstr "炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/atlanteans/coalmine/init.lua:94
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:102
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:94
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:84
-#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:103
-#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:83
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:118
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:104
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:96
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:86
+#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:105
+#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:85
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:113
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:92
 msgid "No Coal"
 msgstr "石炭枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/atlanteans/coalmine/init.lua:95
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:103
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:95
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:85
-#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:104
-#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:84
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:119
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:98
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:105
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:87
+#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:106
+#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:86
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:114
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:93
 msgid "Main Coal Vein Exhausted"
 msgstr "石炭の主要鉱脈が尽きました"
 
@@ -400,12 +384,12 @@ msgid "Crystal Mine"
 msgstr "水晶鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:154
+#: ../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:158
 msgid "Main Crystal Vein Exhausted"
 msgstr "水晶の主要鉱脈が尽きました"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:156
+#: ../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:160
 msgctxt "atlanteans_building"
 msgid ""
 "This crystal mine’s main vein is exhausted. Expect strongly diminished "
@@ -435,19 +419,19 @@ msgstr "養魚番小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:51
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:52
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:61
-#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:52
-#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:62
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:56
+#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:65
+#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:56
+#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:63
 msgid "No Fish"
 msgstr "魚枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:52
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:53
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:62
-#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:53
-#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:63
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:57
+#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:66
+#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:57
+#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:64
 msgid "Out of Fish"
 msgstr "魚がいません"
 
@@ -464,7 +448,7 @@ msgid "Fisher’s House"
 msgstr "漁師小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:58
 msgctxt "atlanteans_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -494,7 +478,7 @@ msgid "Gold Mine"
 msgstr "金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:85
+#: ../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:86
 msgctxt "atlanteans_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -516,25 +500,25 @@ msgid "Hunter’s House"
 msgstr "狩人小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:48
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:66
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:51
-#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:70
+#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:52
+#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:70
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:55
+#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:71
 msgid "No Game"
 msgstr "獲物枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: "Game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:50
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:68
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:53
-#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:72
+#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:72
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:57
+#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:73
 msgid "Out of Game"
 msgstr "狩りの獲物が枯渇しました"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:52
+#: ../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:56
 msgctxt "atlanteans_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -550,25 +534,25 @@ msgstr "鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:86
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:86
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:94
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:84
-#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:103
-#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:82
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:104
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:87
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:96
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:86
+#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:105
+#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:84
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:98
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:92
 msgid "No Iron"
 msgstr "鉄枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:87
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:87
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:95
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:85
-#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:104
-#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:83
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:105
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:98
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:88
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:87
+#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:106
+#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:85
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:99
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:93
 msgid "Main Iron Vein Exhausted"
 msgstr "鉄の主要鉱脈が尽きました"
 
@@ -595,7 +579,7 @@ msgid "Quarry"
 msgstr "採石場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:47
+#: ../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:51
 msgctxt "atlanteans_building"
 msgid ""
 "The stonecutter working at this quarry can’t find any rocks in his work "
@@ -673,7 +657,7 @@ msgid "Well"
 msgstr "井戸"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:57
+#: ../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:60
 msgctxt "atlanteans_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸には水がありません"
@@ -686,7 +670,7 @@ msgid "Woodcutter’s House"
 msgstr "木こり小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:48
+#: ../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:52
 msgctxt "atlanteans_building"
 msgid ""
 "The woodcutter working at this woodcutter’s house can’t find any trees in "
@@ -751,8 +735,8 @@ msgid "Coal Mine"
 msgstr "炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:105
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:107
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:99
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -774,7 +758,7 @@ msgid "Deeper Coal Mine"
 msgstr "深遠炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:87
+#: ../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:89
 msgctxt "barbarians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -804,7 +788,7 @@ msgid "Fisher’s Hut"
 msgstr "漁師の庵"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:63
+#: ../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:67
 msgctxt "barbarians_building"
 msgid ""
 "The fisher working out of this fisher’s hut can’t find any fish in his work "
@@ -826,8 +810,8 @@ msgid "Gold Mine"
 msgstr "金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:89
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:90
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:99
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -849,7 +833,7 @@ msgid "Deeper Gold Mine"
 msgstr "深遠金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:86
+#: ../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:88
 msgctxt "barbarians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -865,7 +849,21 @@ msgid "Granite Mine"
 msgstr "花崗岩鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
+#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:92
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:116
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:93
+msgid "No Granite"
+msgstr "花崗岩枯渇"
+
+# (pofilter) startcaps: Different capitalization at the start
 #: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:93
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:117
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:94
+msgid "Main Granite Vein Exhausted"
+msgstr "花崗岩の主要鉱脈が尽きました"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:95
 msgctxt "barbarians_building"
 msgid ""
 "This granite mine’s main vein is exhausted. Expect strongly diminished "
@@ -889,7 +887,7 @@ msgstr "狩人の庵"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:70
+#: ../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:74
 msgctxt "barbarians_building"
 msgid ""
 "The hunter working out of this hunter’s hut can’t find any game in his work "
@@ -912,8 +910,8 @@ msgid "Iron Mine"
 msgstr "鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:89
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:97
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:90
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:99
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -935,7 +933,7 @@ msgid "Deeper Iron Mine"
 msgstr "深遠鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:87
+#: ../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:89
 msgctxt "barbarians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -958,7 +956,7 @@ msgid "Lumberjack’s Hut"
 msgstr "木こりの庵"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:60
+#: ../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:64
 msgctxt "barbarians_building"
 msgid ""
 "The lumberjack working at this lumberjack’s hut can’t find any trees in his "
@@ -988,7 +986,7 @@ msgid "Quarry"
 msgstr "採石場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:58
+#: ../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:62
 msgctxt "barbarians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -1066,7 +1064,7 @@ msgid "Well"
 msgstr "井戸"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:66
+#: ../../data/tribes/buildings/productionsites/barbarians/well/init.lua:69
 msgctxt "barbarians_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸にはもう水が無いようです。"
@@ -1121,7 +1119,7 @@ msgid "Coal Mine"
 msgstr "炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:106
+#: ../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:108
 msgctxt "empire_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1136,7 +1134,7 @@ msgid "Deep Coal Mine"
 msgstr "深炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:86
+#: ../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:88
 msgctxt "empire_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1173,7 +1171,7 @@ msgid "Fisher’s House"
 msgstr "漁師小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:54
+#: ../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:58
 msgctxt "empire_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -1195,7 +1193,7 @@ msgid "Gold Mine"
 msgstr "金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:105
+#: ../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:107
 msgctxt "empire_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1210,7 +1208,7 @@ msgid "Deep Gold Mine"
 msgstr "深金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:84
+#: ../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:86
 msgctxt "empire_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1227,7 +1225,7 @@ msgstr "狩人小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:55
+#: ../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:59
 msgctxt "empire_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -1249,7 +1247,7 @@ msgid "Iron Mine"
 msgstr "鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:106
+#: ../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:108
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1264,7 +1262,7 @@ msgid "Deep Iron Mine"
 msgstr "深鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:85
+#: ../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:87
 msgctxt "empire_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1280,7 +1278,7 @@ msgid "Lumberjack’s House"
 msgstr "木こり小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:51
+#: ../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:55
 msgctxt "empire_building"
 msgid ""
 "The lumberjack working at this lumberjack’s house can’t find any trees in "
@@ -1296,19 +1294,19 @@ msgid "Marble Mine"
 msgstr "大理石鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:144
-#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:91
+#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:148
+#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:93
 msgid "No Marble"
 msgstr "大理石枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:145
-#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:92
+#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:149
+#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:94
 msgid "Main Marble Vein Exhausted"
 msgstr "大理石の主要鉱脈が尽きました"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:147
+#: ../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:151
 msgctxt "empire_building"
 msgid ""
 "This marble mine’s main vein is exhausted. Expect strongly diminished "
@@ -1324,7 +1322,7 @@ msgid "Deep Marble Mine"
 msgstr "深大理石鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:94
+#: ../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:96
 msgctxt "empire_building"
 msgid ""
 "This marble mine’s main vein is exhausted. Expect strongly diminished "
@@ -1354,7 +1352,7 @@ msgid "Quarry"
 msgstr "採石場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:71
+#: ../../data/tribes/buildings/productionsites/empire/quarry/init.lua:82
 msgctxt "empire_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -1453,7 +1451,7 @@ msgid "Well"
 msgstr "井戸"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:61
+#: ../../data/tribes/buildings/productionsites/empire/well/init.lua:64
 msgctxt "empire_building"
 msgid "The carrier working at this well can’t find any water in his well."
 msgstr "この井戸には水がありません"
@@ -1473,18 +1471,18 @@ msgid "Aqua Farm"
 msgstr "養殖場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:97
-#: ../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/init.lua:97
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:94
+#: ../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/init.lua:94
 msgid "No Ponds"
 msgstr "空池不足"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:98
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:95
 msgid "Out of Fish Ponds"
 msgstr "養殖池が足りません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:99
+#: ../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:96
 msgctxt "frisians_building"
 msgid ""
 "The fisher working at this aqua farm can’t find any fish ponds in his work "
@@ -1529,12 +1527,12 @@ msgid "Beekeeper’s House"
 msgstr "養蜂家小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:63
+#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:60
 msgid "No Flowers"
 msgstr "花不足"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:64
+#: ../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:61
 msgid "Out of Flowers"
 msgstr "花がありません"
 
@@ -1582,17 +1580,17 @@ msgstr "穴掘り小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Short for "No Level Ground" for clay pits
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:83
+#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:78
 msgid "No Ground"
 msgstr "土地不足"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:84
+#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:79
 msgid "No Level Ground"
 msgstr "平らな地面がありません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:85
+#: ../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:80
 msgctxt "frisians_building"
 msgid ""
 "The clay digger working at this clay pit can’t find any level ground in his "
@@ -1608,7 +1606,7 @@ msgid "Coal Mine"
 msgstr "炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:121
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:116
 msgctxt "frisians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1623,7 +1621,7 @@ msgid "Deep Coal Mine"
 msgstr "深炭鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:100
+#: ../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:95
 msgctxt "frisians_building"
 msgid ""
 "This coal mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1639,17 +1637,17 @@ msgid "Fruit Collector’s House"
 msgstr "フルーツ採取人小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:63
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:60
 msgid "No Bushes"
 msgstr "フルーツ枯渇"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:64
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:61
 msgid "Out of Berries"
 msgstr "ベリーがありません"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:65
+#: ../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:62
 msgctxt "frisians_building"
 msgid ""
 "The fruit collector working at this fruit collector’s house can’t find any "
@@ -1672,7 +1670,7 @@ msgid "Farm"
 msgstr "農場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:102
+#: ../../data/tribes/buildings/productionsites/frisians/farm/init.lua:95
 msgctxt "frisians_building"
 msgid ""
 "The farmer working at this farm has no cleared soil to plant his seeds."
@@ -1686,7 +1684,7 @@ msgid "Fisher’s House"
 msgstr "漁師小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:64
+#: ../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:65
 msgctxt "frisians_building"
 msgid ""
 "The fisher working out of this fisher’s house can’t find any fish in his "
@@ -1715,7 +1713,7 @@ msgid "Gold Mine"
 msgstr "金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:107
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:101
 msgctxt "frisians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1730,7 +1728,7 @@ msgid "Deep Gold Mine"
 msgstr "深金鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:98
+#: ../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:93
 msgctxt "frisians_building"
 msgid ""
 "This gold mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1754,7 +1752,7 @@ msgstr "狩人小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: "game" means animals that you can hunt
-#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:74
+#: ../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:75
 msgctxt "frisians_building"
 msgid ""
 "The hunter working out of this hunter’s house can’t find any game in his "
@@ -1769,7 +1767,7 @@ msgid "Iron Mine"
 msgstr "鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:107
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:101
 msgctxt "frisians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1784,7 +1782,7 @@ msgid "Deep Iron Mine"
 msgstr "深鉄鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:100
+#: ../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:95
 msgctxt "frisians_building"
 msgid ""
 "This iron mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1807,7 +1805,7 @@ msgid "Quarry"
 msgstr "採石場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:61
+#: ../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:62
 msgctxt "frisians_building"
 msgid ""
 "The stonemason working at this quarry can’t find any rocks in his work area."
@@ -1828,7 +1826,7 @@ msgid "Reed Farm"
 msgstr "カヤ農場"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:83
+#: ../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:80
 msgctxt "frisians_building"
 msgid ""
 "The reed farmer working at this reed farm has no cleared soil to plant his "
@@ -1850,7 +1848,7 @@ msgid "Rock Mine"
 msgstr "岩石鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:124
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:119
 msgctxt "frisians_building"
 msgid ""
 "This rock mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1865,7 +1863,7 @@ msgid "Deep Rock Mine"
 msgstr "深岩石鉱"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:101
+#: ../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:96
 msgctxt "frisians_building"
 msgid ""
 "This rock mine’s main vein is exhausted. Expect strongly diminished returns "
@@ -1943,7 +1941,7 @@ msgid "Woodcutter’s House"
 msgstr "木こり小屋"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:61
+#: ../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:62
 msgctxt "frisians_building"
 msgid ""
 "The woodcutter working at this woodcutter’s house can’t find any trees in "
@@ -1953,7 +1951,7 @@ msgstr "木こりは作業エリア内に木を見つけられません。この
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a building name used in lists of buildings
-#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:205
+#: ../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:165
 msgctxt "atlanteans_building"
 msgid "Dungeon"
 msgstr "ダンジョン"
@@ -2016,7 +2014,7 @@ msgstr "訓練場"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: This is a building name used in lists of buildings
-#: ../../data/tribes/buildings/warehouses/atlanteans/headquarters/init.lua:79
+#: ../../data/tribes/buildings/warehouses/atlanteans/headquarters/init.lua:83
 msgctxt "atlanteans_building"
 msgid "Headquarters"
 msgstr "本拠地"
@@ -2527,42 +2525,42 @@ msgid "This is the culture of the Roman Empire."
 msgstr "ローマ帝国の文化圏"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:84
+#: ../../data/tribes/scripting/help/init.lua:85
 msgid "Tribal Encyclopedia"
 msgstr "部族事典"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:89
+#: ../../data/tribes/scripting/help/init.lua:90
 msgid "General"
 msgstr "概略"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:94
+#: ../../data/tribes/scripting/help/init.lua:95
 msgid "Introduction"
 msgstr "紹介"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:100
+#: ../../data/tribes/scripting/help/init.lua:101
 msgid "Controls"
 msgstr "操作"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:106
+#: ../../data/tribes/scripting/help/init.lua:107
 msgid "Tips"
 msgstr "ヒント"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:115
+#: ../../data/tribes/scripting/help/init.lua:116
 msgid "Wares"
 msgstr "物資"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:122
+#: ../../data/tribes/scripting/help/init.lua:123
 msgid "Workers"
 msgstr "労働者"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../data/tribes/scripting/help/init.lua:129
+#: ../../data/tribes/scripting/help/init.lua:130
 msgid "Buildings"
 msgstr "建物"
 

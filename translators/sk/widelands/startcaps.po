@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-03-02 02:23+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Karl Vest, 2020\n"
-"Language-Team: Slovak (http://www.transifex.com/widelands/widelands/language/"
+"Last-Translator: Pavol Gono, 2024\n"
+"Language-Team: Slovak (http://app.transifex.com/widelands/widelands/language/"
 "sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -13,14 +13,164 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: January. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:94
+msgid "Jan"
+msgstr "jan"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: February. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:100
+msgid "Feb"
+msgstr "feb"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: March. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:106
+msgid "Mar"
+msgstr "mar"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: April. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:112
+msgid "Apr"
+msgstr "apr"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: May. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:118
+msgid "May"
+msgstr "máj"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: June. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:124
+msgid "Jun"
+msgstr "jún"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: July. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:130
+msgid "Jul"
+msgstr "júl"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: August. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:136
+msgid "Aug"
+msgstr "aug"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: September. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:142
+msgid "Sep"
+msgstr "sep"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: October. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:148
+msgid "Oct"
+msgstr "okt"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: November. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
+#: ../../src/base/time_string.cc:154
+msgid "Nov"
+msgstr "nov"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: December. Keep this to 4 letters maximum.
+#. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
+#. the CLDR
+#. * TRANSLATORS: definition if there is one for your language.
+#: ../../src/base/time_string.cc:159
+msgid "Dec"
+msgstr "dec"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Map author name when it hasn't been set yet
-#: ../../src/editor/editorinteractive.cc:1102
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:111
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:538
-#: ../../src/logic/map.h:233 ../../src/ui_fsmenu/addons/packager.cc:369
+#: ../../src/editor/editorinteractive.cc:1204
+#: ../../src/editor/ui_menus/main_menu_new_map.cc:116
+#: ../../src/editor/ui_menus/main_menu_random_map.cc:621
+#: ../../src/logic/map.h:232 ../../src/ui_fsmenu/addons/packager.cc:412
 msgctxt "author_name"
 msgid "Unknown"
 msgstr "neznámi"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: This map or savegame uses no add-ons
+#: ../../src/logic/addons.cc:271
+msgid "None"
+msgstr "žiadne"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Productivity label on a building if there is 1
+#. experienced worker missing.
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:255
+msgid "Expert missing"
+msgstr "chýba špecialista"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. * TRANSLATORS: Productivity label on a building if there is more than 1
+#. experienced
+#. worker missing. If you need plural forms here, please let us know.
+#: ../../src/logic/map_objects/tribes/tribe_descr.cc:260
+msgid "Experts missing"
+msgstr "chýbajú špecialisti"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/productionsitewindow.cc:246
+msgid "coming"
+msgstr "Prichádza"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../src/wui/productionsitewindow.cc:246
+msgid "vacant"
+msgstr "Neobsadené"

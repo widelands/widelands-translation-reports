@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"POT-Creation-Date: 2024-02-15 02:28+0000\n"
 "PO-Revision-Date: 2015-02-03 14:54+0000\n"
-"Last-Translator: zone <z-one@freemail.hu>, 2015\n"
-"Language-Team: Hungarian (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021-2024\n"
+"Language-Team: Hungarian (http://app.transifex.com/widelands/widelands/"
 "language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:57
+#: ../../src/wlapplication_messages.cc:72
 #, c-format
 msgid ""
 "Use the specified directory for Widelands config files, savegames, and "
@@ -23,7 +23,7 @@ msgid ""
 msgstr "A megadott könyvtár használata a Widelands beállító fájlok, mentett játékok és visszajátszások tárolására. Alapértelmezett: `%s`"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:73
+#: ../../src/wlapplication_messages.cc:88
 #, c-format
 msgid ""
 "Create a new game directly with the settings configured in the given file. "
@@ -31,74 +31,57 @@ msgid ""
 msgstr "Új játék közvetlen indítása a megadott fájl szerinti beállításokkal. Minta beállításfájl: `%s`"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:93
+#: ../../src/wlapplication_messages.cc:122
 msgid ""
 "Enable AI training mode. See https://www.widelands.org/wiki/Ai%20Training/ "
 "for a full description of the AI training logic."
 msgstr "A mesterséges intelligencia tanító mód bekapcsolása. Részletes leírás: https://www.widelands.org/wiki/Ai%20Training/"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:112
+#: ../../src/wlapplication_messages.cc:156
+msgid "Whether to save the history of sent chat messages to a file."
+msgstr "Az elküldött csevegés üzenetek előzményeinek mentése fájlba. (igen/nem)"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../src/wlapplication_messages.cc:157
 msgid "Show filenames in the replay screen."
 msgstr "Fájlnevek megjelenítése visszajátszás kiválasztásakor. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:115
+#: ../../src/wlapplication_messages.cc:160
 msgid ""
 "Whether a warning should be shown in the editor if there are too many "
 "players."
 msgstr "Figyelmeztetés a térképszerkesztőben túl sok játékos beállítása esetén. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:165
+#: ../../src/wlapplication_messages.cc:201
 msgid "Whether the used metaserver login is for a registered user."
 msgstr "Az internetes játékokhoz használt bejelentkezési név regisztrálva van. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:174
-msgid "Whether to use the whole display for the game screen."
-msgstr "Teljes képernyős üzemmód használata. (igen/nem)"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:175
-msgid "Whether to start the game in a maximized window."
-msgstr "Játék indítása kinagyított ablakban. (igen/nem)"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:187
-msgid "Whether to grab the mouse input."
-msgstr "Bemenet kisajátítása. (igen/nem)"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:188
+#: ../../src/wlapplication_messages.cc:227
 msgid "Whether to use the mouse cursor provided by SDL."
 msgstr "Rendszer egérmutató használata. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:190
+#: ../../src/wlapplication_messages.cc:229
 msgid "Whether to use sticky tooltips."
 msgstr "Tartós eszköztippek használata. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:199
+#: ../../src/wlapplication_messages.cc:235
 msgid "Whether automatic map movements should be animated."
 msgstr "Automatikus térképmozgások animálása. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:206
+#: ../../src/wlapplication_messages.cc:242
 msgid ""
 "Eliminate a window’s border towards the edge of the screen when the edge of "
 "the window is next to the edge of the screen."
 msgstr "Ablakok keretének elrejtése, ahol hozzáérnek a képernyő széléhez. (igen/nem)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:215
-msgid ""
-"Only move a window to the edge of a panel if the window is overlapping with "
-"the panel."
-msgstr "Ablakok tálcához igazítása csak átfedés esetén. (igen/nem)"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:218
+#: ../../src/wlapplication_messages.cc:251
 msgid "Enable verbose debug messages"
 msgstr "Bővebb hibakeresési üzenetek használata."

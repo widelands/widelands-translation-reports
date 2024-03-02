@@ -2,63 +2,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-05-16 03:13+0000\n"
+"POT-Creation-Date: 2024-02-15 02:28+0000\n"
 "PO-Revision-Date: 2015-02-03 14:54+0000\n"
-"Last-Translator: Juanjo, 2015-2022\n"
-"Language-Team: Catalan (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: Juanjo, 2015-2024\n"
+"Language-Team: Catalan (http://app.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: `n` references a numerical placeholder
-#: ../../src/wlapplication_messages.cc:159
+#: ../../src/wlapplication_messages.cc:195
 msgid "Port number `n` of the metaserver for internet gaming."
 msgstr "Port número «n» del metaservidor per jugar per Internet"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:160
+#: ../../src/wlapplication_messages.cc:196
 msgid "The name of the last hosted game."
 msgstr "Nom de l’última partida com a hoste"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:161
+#: ../../src/wlapplication_messages.cc:197
 msgid "The nickname used for LAN and online games."
 msgstr "L’àlies usat per a partides LAN i en línia"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:162
+#: ../../src/wlapplication_messages.cc:198
 msgid "Name of map author."
 msgstr "Nom de l’autor del mapa"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:163
+#: ../../src/wlapplication_messages.cc:199
 msgid "The last host connected to."
 msgstr "Últim hoste al que s’ha connectat"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:166
+#: ../../src/wlapplication_messages.cc:202
 msgid "The hashed password for online logins."
 msgstr "La contrasenya codificada amb hash per a inicis de sessió en línia"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: `n` references a numerical placeholder
-#: ../../src/wlapplication_messages.cc:194
-msgid "Maximal optical framerate `n` of the game."
-msgstr "Nombre màxim de fotogrames «n» del joc"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:218
+#: ../../src/wlapplication_messages.cc:251
 msgid "Enable verbose debug messages"
 msgstr "Habilita els missatges de depuració descriptius."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s = version information
-#: ../../src/wlapplication_messages.cc:254
+#: ../../src/wlapplication_messages.cc:295
 #, c-format
 msgid "This is Widelands version %s"
 msgstr "Aquesta és la versió %s del Widelands."

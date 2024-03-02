@@ -2,21 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2022-08-07 03:41+0000\n"
+"POT-Creation-Date: 2024-02-01 02:29+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: LINUX SAUNA, 2022\n"
-"Language-Team: Finnish (http://www.transifex.com/widelands/widelands/"
+"Last-Translator: LINUX-SAUNA, 2022\n"
+"Language-Team: Finnish (http://app.transifex.com/widelands/widelands/"
 "language/fi/)\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.6.0\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Bakery
-#: ../../data/tribes/initialization/barbarians/units.lua:1293
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Bakery
+#: ../../data/tribes/initialization/barbarians/units.lua:1328
 msgctxt "barbarians_building"
 msgid ""
 "Khantarakh, ‘The Modern Barbarian Economy’,<br>3ʳᵈ cowhide ‘Craftsmanship "
@@ -24,17 +24,17 @@ msgid ""
 msgstr "Khantarakh, ‘Moderni Barbaarien Talous’,<br>kolmas lehmänvuo ‘Ammattitaito ja Kaupankäynti’"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Smelting
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Smelting
 #. Works
-#: ../../data/tribes/initialization/barbarians/units.lua:1385
+#: ../../data/tribes/initialization/barbarians/units.lua:1428
 msgctxt "barbarians_building"
 msgid "Chat’Karuth<br>at the 5ᵗʰ conference of master craftsmen"
 msgstr "Chat’Karuth<br>viidennessä mestarikäsityöläisen kokouksessa"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Cattle
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Cattle
 #. Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1462
+#: ../../data/tribes/initialization/barbarians/units.lua:1509
 msgctxt "barbarians_building"
 msgid ""
 "Khantarakh, ‘The Modern Barbarian Economy’,<br> 5ᵗʰ cowhide ‘Traffic and "
@@ -42,22 +42,11 @@ msgid ""
 msgstr "Khantarakh, ‘Moderni Barbaarien Talous’, <br> viides lehmänvuo ‘Liikenne ja Logistiikka’"
 
 # (pofilter) numbers: Different numbers
-#. TRANSLATORS: Lore author helptext for a barbarian production site: Weaving
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Weaving
 #. Mill
-#: ../../data/tribes/initialization/barbarians/units.lua:1778
+#: ../../data/tribes/initialization/barbarians/units.lua:1837
 msgctxt "barbarians_building"
 msgid ""
 "Khantarakh, ‘The Modern Barbarian Economy’,<br>9ᵗʰ cowhide ‘Seafaring and "
 "Conquest’"
 msgstr "Khantarakh, ‘Moderni Barbaarien talous’,<br>yhdeksäs lehmänvuo ‘Merenkäynti ja Valloitus’"
-
-# (pofilter) numbers: Different numbers
-#. TRANSLATORS: Helptext for an empire ware: Helmet
-#: ../../data/tribes/initialization/empire/units.lua:559
-msgctxt "empire_ware"
-msgid ""
-"The helmet is the basic defense of a warrior. It is produced in an armor "
-"smithy. In combination with a wooden spear, it is the equipment to fit out "
-"young soldiers. Helmets are also used in training camps – together with food"
-" – to train soldiers from health level 0 to level 1."
-msgstr "Kypärä on keisarikunnan asevoimien peruspanssari. Puukeihään kanssa se riittää alokkaiden varustukseksi. Haarniskapajan tuotos."
