@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
 "Last-Translator: Yuriy Sokolov <lention@mail.ru>, 2015,2019,2022-2024\n"
 "Language-Team: Russian (http://app.transifex.com/widelands/widelands/"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an Amazon ware: Gold Dust, part 1
-#: ../../data/tribes/initialization/amazons/units.lua:277
+#: ../../../../data/tribes/initialization/amazons/units.lua:277
 msgctxt "amazons_ware"
 msgid "Gold dust is washed in a gold digger dwelling."
 msgstr "Золотой песок промывают в хижине золотоискателя"
@@ -26,7 +26,7 @@ msgstr "Золотой песок промывают в хижине золот�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an Amazon production site:
 #. Stonecutter's Hut, part 1
-#: ../../data/tribes/initialization/amazons/units.lua:1299
+#: ../../../../data/tribes/initialization/amazons/units.lua:1299
 msgctxt "amazons_building"
 msgid ""
 "This building can produce one granite between %1$s and %2$s, depending on "
@@ -36,7 +36,7 @@ msgstr "В зависимости от того, как далеко долже�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an Amazon production site: Rare Tree
 #. Plantation
-#: ../../data/tribes/initialization/amazons/units.lua:1456
+#: ../../../../data/tribes/initialization/amazons/units.lua:1456
 msgctxt "amazons_building"
 msgid ""
 "Rare trees are planted according to the economy requirements. Keep roads "
@@ -46,7 +46,7 @@ msgstr "Редкие деревья растят по запросу эконо�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for an Amazon production site:
 #. Dressmakery
-#: ../../data/tribes/initialization/amazons/units.lua:1474
+#: ../../../../data/tribes/initialization/amazons/units.lua:1480
 msgctxt "amazons_building"
 msgid ""
 "Dressmakers’ ethos, adapted from the traditional verse ‘Mother Jungle’s "
@@ -61,32 +61,32 @@ msgstr "Кредо портних, взято из традиционной по
 #. Site
 #. TRANSLATORS: Lore author helptext for an Empire building: Construction Site
 #. TRANSLATORS: Lore author helptext for a Frisian building: Construction Site
-#: ../../data/tribes/initialization/amazons/units.lua:1703
-#: ../../data/tribes/initialization/atlanteans/units.lua:2091
-#: ../../data/tribes/initialization/barbarians/units.lua:1850
-#: ../../data/tribes/initialization/empire/units.lua:2345
-#: ../../data/tribes/initialization/frisians/units.lua:2254
+#: ../../../../data/tribes/initialization/amazons/units.lua:1723
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2110
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1866
+#: ../../../../data/tribes/initialization/empire/units.lua:2363
+#: ../../../../data/tribes/initialization/frisians/units.lua:2270
 msgctxt "building"
 msgid "Proverb widely used for impossible tasks of any kind"
 msgstr "Так говорят, когда от кого-то требуют невополнимого."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an Atlantean worker: Blackroot Farmer
-#: ../../data/tribes/initialization/atlanteans/units.lua:1030
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1030
 msgctxt "atlanteans_worker"
 msgid "Plants and harvests blackroot."
 msgstr "Сажает и собирает козелец"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note lore_autor for an Atlantean production site: Headquarters
-#: ../../data/tribes/initialization/atlanteans/units.lua:1440
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1440
 msgctxt "atlanteans_building"
 msgid "Priest of Satul inaugurating you as leader of the Atleantean tribe"
 msgstr "Жрец Сатула провозглашает тебя вождём Атлантов."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note lore for an Atlantean production site: Forester's House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1519
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1519
 msgctxt "atlanteans_building"
 msgid ""
 "‘Only after the last tree has been cut<br>Only after the last forest was "
@@ -97,7 +97,7 @@ msgstr "\"Только после того, как будет срублено �
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note lore for an Atlantean production site: Fisher's House use
 #. some local fise song as you like
-#: ../../data/tribes/initialization/atlanteans/units.lua:1547
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1547
 msgctxt "atlanteans_building"
 msgid ""
 "‘Take your net and come to the sea<br>In the early morning the moon ya still"
@@ -107,7 +107,7 @@ msgstr "\"Снасти возьми ты, и к морю спеши<br>ранн�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Note helptext for an Atlantean production site: Well
-#: ../../data/tribes/initialization/atlanteans/units.lua:1603
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1603
 msgctxt "atlanteans_building"
 msgid "I hope you have checked this spot with a geologist."
 msgstr "Надеюсь ты отправлял сюда геолога"
@@ -115,17 +115,25 @@ msgstr "Надеюсь ты отправлял сюда геолога"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an Atlantean production site: Well,
 #. part 2
-#: ../../data/tribes/initialization/atlanteans/units.lua:1612
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1612
 #, lua-format
 msgctxt "atlanteans_building"
 msgid "If the water resource is depleted, the carrier needs %s on average."
 msgstr "Если водные ресурсы истощены, носильщику, в среднем, нужно %s ."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for an Atlantean production site: Sawmill
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1664
+#, lua-format
+msgctxt "atlanteans_building"
+msgid "The sawmill needs %s on average to produce one plank."
+msgstr "Лесопилке нужно в среднем %s для производства одной доски"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for an Atlantean production site: Coal Mine
 #. TRANSLATORS: Lore helptext for an Atlantean production site: Iron Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1879
-#: ../../data/tribes/initialization/atlanteans/units.lua:1895
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1886
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1902
 msgctxt "atlanteans_building"
 msgid ""
 "‘Way down here in this deep mine<br>where the sun it dare not shine,<br>I "
@@ -134,7 +142,7 @@ msgstr "\"Тружусь я в шахте, в глубине,<br>где солн
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for an Atlantean production site: Gold Mine
-#: ../../data/tribes/initialization/atlanteans/units.lua:1911
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1918
 msgctxt "atlanteans_building"
 msgid ""
 "‘Way down here in these golden grounds<br>with stones above us the thousand "
@@ -144,7 +152,7 @@ msgstr "\"Рудник золотой в глубине под землёй ,<br
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for an Atlantean production site: Shipyard
-#: ../../data/tribes/initialization/atlanteans/units.lua:2075
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2088
 msgctxt "atlanteans_building"
 msgid ""
 "‘Soon may the wellerman come,<br>to bring us bread and smoked fish.<br>We "
@@ -154,14 +162,14 @@ msgstr "Снова Веллерман к нам идёт, <br>копчёную �
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a Barbarian resource indicator: Stones, part 2
 #. TRANSLATORS: Helptext for a Frisian resource indicator: Stones, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:930
-#: ../../data/tribes/initialization/frisians/units.lua:1328
+#: ../../../../data/tribes/initialization/barbarians/units.lua:930
+#: ../../../../data/tribes/initialization/frisians/units.lua:1328
 msgid "There is only a little bit of granite here."
 msgstr "Здесь есть немного гранита"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian warehouse: Headquarters
-#: ../../data/tribes/initialization/barbarians/units.lua:1086
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1086
 msgctxt "barbarians_building"
 msgid ""
 "‘Steep like the slopes of Kal’mavrath, shiny like the most delicate armor "
@@ -173,9 +181,9 @@ msgstr "\"Крутой, как склоны Кал'Маврата, блестя�
 #. TRANSLATORS: Lore author helptext for a Barbarian warehouse: Headquarters
 #. TRANSLATORS: Lore author helptext for a Barbarian military site: Barrier
 #. TRANSLATORS: Lore author helptext for a Barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1088
-#: ../../data/tribes/initialization/barbarians/units.lua:1750
-#: ../../data/tribes/initialization/barbarians/units.lua:1764
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1088
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1754
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1768
 msgctxt "barbarians_building"
 msgid "Ballad ‘The Battle of Kal’mavrath’ by Hakhor the Bard"
 msgstr "Баллада \"Битва за Кал'маврат\", за авторством барда Хакора."
@@ -183,7 +191,7 @@ msgstr "Баллада \"Битва за Кал'маврат\", за автор�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1153
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1153
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -194,7 +202,7 @@ msgstr "«Срубишь дерево за 200 ударов — ты ребен�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a Barbarian production site: Fisher's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1194
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1194
 msgctxt "barbarians_building"
 msgid ""
 "Frequent response of a Barbarian fisherman,<br>often followed by an "
@@ -203,7 +211,7 @@ msgstr "Частый ответ рыбака-варвара,<br> за котор
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1247
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1247
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -213,7 +221,7 @@ msgstr "\"О, сладостный источник жизни,<br>сошедш�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a Barbarian production site: Well,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1256
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1256
 #, lua-format
 msgctxt "barbarians_building"
 msgid "If the water resource is depleted, the carrier needs %s on average."
@@ -221,7 +229,7 @@ msgstr "Если водные ресурсы истощены, носильщи�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Scout's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1265
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1265
 msgctxt "barbarians_building"
 msgid ""
 "‘Behind the next hill there might be wealth and happiness but also hostility"
@@ -231,7 +239,7 @@ msgstr "\"За следующим холмом мы можем найти как
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a Barbarian production site: Wood
 #. Hardener
-#: ../../data/tribes/initialization/barbarians/units.lua:1287
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1287
 msgctxt "barbarians_building"
 msgid ""
 "Legend about a quarrel between the brothers Harthor and Manthor,<br>Manthor "
@@ -239,23 +247,32 @@ msgid ""
 msgstr "Легенда о ссоре между Хатором и его братом Мантором,<br>который, по слухам, изобрел балки."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for a Barbarian production site: Wood
+#. Hardener
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1291
+#, lua-format
+msgctxt "barbarians_building"
+msgid "The wood hardener needs %s on average to produce one blackwood."
+msgstr "Балочной мастерской нужно в среднем %s для производства одной балки"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a Barbarian production site: Smelting
 #. Works
-#: ../../data/tribes/initialization/barbarians/units.lua:1428
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1432
 msgctxt "barbarians_building"
 msgid "Chat’Karuth<br>at the 5ᵗʰ conference of master craftsmen"
 msgstr "Чат'Карут,<br>5я конференция ремесленников."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1549
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1553
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "\"Мужик, я могу перелопатить тонны гранита, но больше не могу слушать твою пустую болтовню\"."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1695
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1699
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
@@ -263,7 +280,7 @@ msgstr "\"В бою нет лучшего друга, чем удар врага
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for a Barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1714
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1718
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -272,14 +289,14 @@ msgstr "\"Сильный — никогда не простит и не поза
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a Barbarian military site: Fortress
-#: ../../data/tribes/initialization/barbarians/units.lua:1777
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1781
 msgctxt "barbarians_building"
 msgid "Berthron,<br>chief military adviser of Chat’Karuth"
 msgstr "Бертрон, <br>главный военный советник Чат'Карута."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for an Empire ware: Log, part 2
-#: ../../data/tribes/initialization/empire/units.lua:127
+#: ../../../../data/tribes/initialization/empire/units.lua:127
 msgctxt "empire_ware"
 msgid ""
 "Imperial lumberjacks fell the trees; foresters take care of the supply of "
@@ -291,7 +308,7 @@ msgstr "Варварские дровосеки валят деревья; ле�
 #. TRANSLATORS: Lore helptext for an Empire production site:  Fisher's House
 #. Translation for the classical Latin quote:
 #. "Piscis primum a capite foetet."
-#: ../../data/tribes/initialization/empire/units.lua:1328
+#: ../../../../data/tribes/initialization/empire/units.lua:1328
 msgid "The fish stinks first at the head."
 msgstr "Рыба гниёт с головы"
 
@@ -299,7 +316,7 @@ msgstr "Рыба гниёт с головы"
 #. TRANSLATORS: Lore helptext for an Empire production site: Hunter's House
 #. Translation for the Latin quote:
 #. "Venator venatus insidiatur."
-#: ../../data/tribes/initialization/empire/units.lua:1359
+#: ../../../../data/tribes/initialization/empire/units.lua:1359
 msgid "The hunter lies in ambush for the game."
 msgstr "Ради добычи охотник прячется в кусты"
 
@@ -307,18 +324,26 @@ msgstr "Ради добычи охотник прячется в кусты"
 #. TRANSLATORS: Lore helptext for an Empire production site: Well
 #. Translation for the classical Latin quote:
 #. "Gratius ex ipso fonte bibuntur aquæ."
-#: ../../data/tribes/initialization/empire/units.lua:1386
+#: ../../../../data/tribes/initialization/empire/units.lua:1386
 msgid "It is more pleasing to drink water from the spring itself."
 msgstr "Воду приятнее пить прямо из источника"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for an Empire production site: Well, part
 #. 2
-#: ../../data/tribes/initialization/empire/units.lua:1396
+#: ../../../../data/tribes/initialization/empire/units.lua:1396
 #, lua-format
 msgctxt "empire_building"
 msgid "If the water resource is depleted, the carrier needs %s on average."
 msgstr "Если водные ресурсы истощены, носильщику, в среднем, нужно %s ."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Performance helptext for an Empire production site: Sawmill
+#: ../../../../data/tribes/initialization/empire/units.lua:1465
+#, lua-format
+msgctxt "empire_building"
+msgid "The sawmill needs %s on average to produce one plank."
+msgstr "Лесопилке нужно в среднем %s для производства одной доски"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore helptext for an Empire production site: Vineyard
@@ -326,14 +351,14 @@ msgstr "Если водные ресурсы истощены, носильщи�
 #. "Vino vendibili hedera non opus est."
 #. Bush (ivy in the original) refers to the ivy leaves used for advertising
 #. by places selling wine
-#: ../../data/tribes/initialization/empire/units.lua:1543
+#: ../../../../data/tribes/initialization/empire/units.lua:1545
 msgid "Good wine needs no bush."
 msgstr "Хорошему вину не нужна реклама"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for an Empire production site: Charcoal
 #. Kiln
-#: ../../data/tribes/initialization/empire/units.lua:1627
+#: ../../../../data/tribes/initialization/empire/units.lua:1629
 msgctxt "empire_building"
 msgid "Imperial proverb meaning to judge whether they are good or bad"
 msgstr "Имперская пословица, смысл которой в том, чтобы оценить кого-либо - хорош он или плох."
@@ -342,7 +367,7 @@ msgstr "Имперская пословица, смысл которой в то
 #. TRANSLATORS: Lore helptext for an Empire production site: Toolsmithy
 #. Translation for the classical Latin quote:
 #. "Faber est suæ quisque fortunæ."
-#: ../../data/tribes/initialization/empire/units.lua:1665
+#: ../../../../data/tribes/initialization/empire/units.lua:1669
 msgid "Each man is the maker of his own fortune."
 msgstr "Каждый сам кузнец своего счастья"
 
@@ -350,13 +375,13 @@ msgstr "Каждый сам кузнец своего счастья"
 #. TRANSLATORS: Lore helptext for an Empire production site: Weaving Mill
 #. Translation for the classical Latin quote:
 #. "Vestis virum reddit."
-#: ../../data/tribes/initialization/empire/units.lua:1816
+#: ../../../../data/tribes/initialization/empire/units.lua:1822
 msgid "Clothes make a man."
 msgstr "Одежда красит человека"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Purpose helptext for an Empire production site: Weaving Mill
-#: ../../data/tribes/initialization/empire/units.lua:1821
+#: ../../../../data/tribes/initialization/empire/units.lua:1827
 msgctxt "empire_building"
 msgid "Weaves cloth out of wool."
 msgstr "Ткёт полотно из шерсти"
@@ -365,7 +390,7 @@ msgstr "Ткёт полотно из шерсти"
 #. TRANSLATORS: Lore helptext for an Empire production site: Weapon Smithy
 #. Translation for the classical Latin quote:
 #. "Ignis calorem suum etiam in ferro tenet."
-#: ../../data/tribes/initialization/empire/units.lua:1835
+#: ../../../../data/tribes/initialization/empire/units.lua:1841
 msgid "The fire keeps its heat even in the iron."
 msgstr "Огонь сохраняет свое тепло даже в железе"
 
@@ -375,7 +400,7 @@ msgstr "Огонь сохраняет свое тепло даже в желез
 #. "Qui dabat olim […] omnia, nunc se continet atque duas tantum res anxius
 #. optat,
 #. panem et circenses."
-#: ../../data/tribes/initialization/empire/units.lua:2047
+#: ../../../../data/tribes/initialization/empire/units.lua:2053
 msgid ""
 "[The People of the Empire] who once handed out all [power], now restrains "
 "itself and anxiously hopes for just two things: bread and games."
@@ -385,7 +410,7 @@ msgstr "[Этот народ], кто когда-то Всё раздавал: [
 #. TRANSLATORS: Lore helptext for an Empire training site: Colosseum
 #. Translation for the classical Latin quote:
 #. "Ave Cæsar! Morituri te salutant!"
-#: ../../data/tribes/initialization/empire/units.lua:2073
+#: ../../../../data/tribes/initialization/empire/units.lua:2079
 msgid "Hail Cæsar! Those who are about to die greet you!"
 msgstr "Славься, Цезарь, идущие на смерть приветствуют тебя"
 
@@ -393,7 +418,7 @@ msgstr "Славься, Цезарь, идущие на смерть приве�
 #. TRANSLATORS: Lore helptext for an Empire training site: Training Camp
 #. Translation for the classical Latin quote:
 #. "Fortes fortuna adiuvat."
-#: ../../data/tribes/initialization/empire/units.lua:2098
+#: ../../../../data/tribes/initialization/empire/units.lua:2104
 msgid "Fortune helps the strong."
 msgstr "Сильным судьба помогает"
 
@@ -401,7 +426,7 @@ msgstr "Сильным судьба помогает"
 #. TRANSLATORS: Lore helptext for an Empire military site: Blockhouse
 #. Translation for the classical Latin quote:
 #. "Aquila non captat muscas."
-#: ../../data/tribes/initialization/empire/units.lua:2127
+#: ../../../../data/tribes/initialization/empire/units.lua:2133
 msgid "An eagle doesn’t catch flies."
 msgstr "Орёл мух не ловит"
 
@@ -409,7 +434,7 @@ msgstr "Орёл мух не ловит"
 #. TRANSLATORS: Lore author helptext for an Empire production site: Sentry
 #. (the Limes was the border defence system of fortifications of the Roman
 #. Empire)
-#: ../../data/tribes/initialization/empire/units.lua:2156
+#: ../../../../data/tribes/initialization/empire/units.lua:2162
 msgctxt "empire_building"
 msgid ""
 "Saledus warning Lutius that sentries are not adequate protection for the "
@@ -420,20 +445,20 @@ msgstr "Салед предупреждает Люция, что карауль�
 #. TRANSLATORS: Lore helptext for an Empire production site: Shipyard
 #. Translation for the classical Latin quote:
 #. "Uni navi ne committas omnia."
-#: ../../data/tribes/initialization/empire/units.lua:2321
+#: ../../../../data/tribes/initialization/empire/units.lua:2333
 msgid "Don’t put everything on the same ship."
 msgstr "Не складывай всё на один корабль"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a Frisian ware: Hunting Spear, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:459
+#: ../../../../data/tribes/initialization/frisians/units.lua:459
 msgctxt "frisians_ware"
 msgid "Hunting spears are produced by the blacksmithy"
 msgstr "Охотничьи копья производятся в кузнице."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Helptext for a Frisian worker: Fruit Collector
-#: ../../data/tribes/initialization/frisians/units.lua:767
+#: ../../../../data/tribes/initialization/frisians/units.lua:767
 msgctxt "frisians_worker"
 msgid "Gathers berries."
 msgstr "Собирает ягоды"
@@ -441,7 +466,7 @@ msgstr "Собирает ягоды"
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Performance helptext for a Frisian production site: Well, part
 #. 2
-#: ../../data/tribes/initialization/frisians/units.lua:1675
+#: ../../../../data/tribes/initialization/frisians/units.lua:1675
 #, lua-format
 msgctxt "frisians_building"
 msgid "If the water resource is depleted, the carrier needs %s on average."
@@ -450,7 +475,7 @@ msgstr "Если водные ресурсы истощены, носильщи�
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a Frisian production site: Drinking
 #. Hall
-#: ../../data/tribes/initialization/frisians/units.lua:1984
+#: ../../../../data/tribes/initialization/frisians/units.lua:1988
 msgctxt "frisians_building"
 msgid "A master miner to the landlady"
 msgstr "Старший шахтёр - госпоже."
@@ -458,7 +483,7 @@ msgstr "Старший шахтёр - госпоже."
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Lore author helptext for a Frisian production site: Reindeer
 #. Farm
-#: ../../data/tribes/initialization/frisians/units.lua:2012
+#: ../../../../data/tribes/initialization/frisians/units.lua:2016
 msgctxt "frisians_building"
 msgid ""
 "The reindeer breeder who first proposed using reindeer fur for clothing"
@@ -466,11 +491,11 @@ msgstr "Оленевод, первым предложивший использо
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Building Encyclopedia Skill trained by a trainingsite
-#: ../../data/tribes/scripting/help/building_help.lua:741
+#: ../../../../data/tribes/scripting/help/building_help.lua:741
 msgid "Health improvement:"
 msgstr "Повышение здоровья"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/tribes/scripting/help/immovable_help.lua:66
+#: ../../../../data/tribes/scripting/help/immovable_help.lua:66
 msgid "Workers and animals can walk across fields with this immovable."
 msgstr "Работники и животные могут пройти сквозь поля с такими объектами"

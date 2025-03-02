@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Karol Zygmunt, 2024\n"
+"Last-Translator: Leszek Szary, 2024\n"
 "Language-Team: Polish (http://app.transifex.com/widelands/widelands/language/"
 "pl/)\n"
 "Language: pl\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -22,7 +22,7 @@ msgstr ""
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:94
+#: ../../../../src/base/time_string.cc:94
 msgid "Jan"
 msgstr "sty"
 
@@ -32,7 +32,7 @@ msgstr "sty"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:100
+#: ../../../../src/base/time_string.cc:100
 msgid "Feb"
 msgstr "lut"
 
@@ -42,7 +42,7 @@ msgstr "lut"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:106
+#: ../../../../src/base/time_string.cc:106
 msgid "Mar"
 msgstr "mar"
 
@@ -52,7 +52,7 @@ msgstr "mar"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:112
+#: ../../../../src/base/time_string.cc:112
 msgid "Apr"
 msgstr "kwi"
 
@@ -62,7 +62,7 @@ msgstr "kwi"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:118
+#: ../../../../src/base/time_string.cc:118
 msgid "May"
 msgstr "maj"
 
@@ -72,7 +72,7 @@ msgstr "maj"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:124
+#: ../../../../src/base/time_string.cc:124
 msgid "Jun"
 msgstr "cze"
 
@@ -82,7 +82,7 @@ msgstr "cze"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:130
+#: ../../../../src/base/time_string.cc:130
 msgid "Jul"
 msgstr "lip"
 
@@ -92,7 +92,7 @@ msgstr "lip"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:136
+#: ../../../../src/base/time_string.cc:136
 msgid "Aug"
 msgstr "sie"
 
@@ -102,7 +102,7 @@ msgstr "sie"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:142
+#: ../../../../src/base/time_string.cc:142
 msgid "Sep"
 msgstr "wrz"
 
@@ -112,7 +112,7 @@ msgstr "wrz"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:148
+#: ../../../../src/base/time_string.cc:148
 msgid "Oct"
 msgstr "paź"
 
@@ -122,7 +122,7 @@ msgstr "paź"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:154
+#: ../../../../src/base/time_string.cc:154
 msgid "Nov"
 msgstr "lis"
 
@@ -131,24 +131,24 @@ msgstr "lis"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:159
+#: ../../../../src/base/time_string.cc:159
 msgid "Dec"
 msgstr "gru"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/game_io/game_saver.cc:103
+#: ../../../../src/game_io/game_saver.cc:103
 msgid "Interactive player"
 msgstr "gracz interaktywny"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/immovable.cc:491
-#: ../../src/logic/map_objects/tribes/constructionsite.cc:169
+#: ../../../../src/logic/map_objects/immovable.cc:509
+#: ../../../../src/logic/map_objects/tribes/constructionsite.cc:163
 #, c-format
 msgid "%i%% built"
 msgstr "Zbudowano %i%%"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/dismantlesite.cc:115
+#: ../../../../src/logic/map_objects/tribes/dismantlesite.cc:115
 #, c-format
 msgid "%u%% dismantled"
 msgstr "Rozebrano %u%%"
@@ -156,7 +156,7 @@ msgstr "Rozebrano %u%%"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This will be inserted into the string "Server Connection
 #. Error <br> by %s"
-#: ../../src/ui_fsmenu/addons/manager.cc:984
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1380
 msgid "a networking bug"
 msgstr "Błąd sieci"
 
@@ -164,7 +164,7 @@ msgstr "Błąd sieci"
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
 #. NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:113
+#: ../../../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
@@ -177,7 +177,7 @@ msgstr[3] "Nie dało się usunąć %d gry."
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
 #. DO NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:142
+#: ../../../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."

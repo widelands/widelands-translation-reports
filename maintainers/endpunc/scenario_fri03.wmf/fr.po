@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2021-03-01 09:35+0000\n"
-"Last-Translator: David D, 2023\n"
+"Last-Translator: Laurent Godard, 2025\n"
 "Language-Team: French (https://app.transifex.com/widelands/teams/35159/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,16 +12,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:239
+#. TRANSLATORS: Claus Lembeck – Introduction 4
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:106
+msgid "But I will not accept defeat!"
+msgstr "Mais je n'accepterai pas la défaite !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:152
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:233
+msgid "Who are they?"
+msgstr "Qui sont-ils ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:158
+msgid "Who are you?"
+msgstr "Qui êtes-vous ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Angadthur – Strangers 2
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:160
+msgid ""
+"Be greeted, foreigners! I am Angadthur, the King of this miraculous island, "
+"a descendant of the legendary King Ajanthul the First of Atlantis himself. "
+"Be welcome to me, if you will be our friends!"
+msgstr ""
+"Soyez bien accueillis, étrangers ! Je suis Angadthur, le roi de cette île "
+"miraculeuse, un descendant du légendaire roi Ajanthul le Premier de "
+"l'Atlantide lui-même. Soyez les bienvenus chez moi, si vous voulez être nos "
+"amis !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:164
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:176
+msgid "Greetings to the King!"
+msgstr "Salutations au roi !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Angadthur – Strangers 4
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:172
+msgid ""
+"Of course you may ask. Ask whatever you like. Why do you ask whether you may"
+" ask?"
+msgstr ""
+"Bien sûr, vous pouvez demander. Demandez ce que vous voulez. Pourquoi "
+"demandez-vous si vous pouvez demander ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Claus Lembeck – Strangers 5
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:178
+msgid ""
+"It’s a figure of speech that is considered polite among our people, that’s "
+"all. Very well, I’ll ask properly: Do you know where we can find my friend "
+"Reebaud?"
+msgstr ""
+"C’est une figure de style considérée comme polie par notre peuple, c’est "
+"tout. Très bien, je vais bien demander : Savez-vous où nous pouvons trouver "
+"mon ami Reebaud ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Angadthur – Atlantean Headquarter Destroyed
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:194
+msgid ""
+"You have gotten past my best guards and burnt down my palace, which I "
+"believed to be impossible. You must be very powerful, and favoured by the "
+"gods. You have most certainly deserved your victory. I congratulate you and "
+"wish you well for your voyage. May Satul keep you safe!"
+msgstr ""
+"Vous avez dépassé mes meilleurs gardes et brûlé mon palais, ce que je "
+"croyais impossible. Vous devez être très puissant et favorisé par les dieux."
+" Vous avez certainement mérité votre victoire. Je vous félicite et vous "
+"souhaite bonne chance pour votre voyage. Que Satul vous protège !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:239
 msgid "No troubles, please"
 msgstr "Pas d'ennuis, s'il vous plait."
 
 # (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Claus Lembeck – Strangers 3
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:247
+msgid ""
+"Peace, Sir Iniucundus! I am Claus Lembeck, and this is my son Henneke. We "
+"are just passing through as well. You are a legate, you say? You must be "
+"getting around a lot. Have you heard news of my old friend Reebaud? I only "
+"know that he is living in the North, can you tell us where to find him?"
+msgstr ""
+"Paix, Sir Iniucundus ! Je suis Claus Lembeck, et voici mon fils Henneke. "
+"Nous ne faisons que passer aussi. Vous êtes légat, dites-vous ? Vous devez "
+"vous déplacer beaucoup. Avez-vous entendu des nouvelles de mon vieil ami "
+"Reebaud ? Je sais seulement qu'il vit dans le Nord, pouvez-vous nous dire où"
+" le trouver ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Claus Lembeck – Strangers 5
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:259
+msgid ""
+"We thank you for your offer! What is the price you demand? And, if you don’t"
+" mind my asking, may I know what business you are employed on?"
+msgstr ""
+"Nous vous remercions pour votre offre ! Quel est le prix que vous exigez ? "
+"Et, si cela ne vous dérange pas que je vous pose la question, puis-je savoir"
+" dans quel domaine vous travaillez ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:295
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:304
+msgid "Victory!"
+msgstr "Victoire !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Claus Lembeck – victory
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:297
+msgid ""
+"We have conquered the port! We are already building a ship, and then, we "
+"will finally be travelling to the actual far North. Although we still heard "
+"no news of Reebaud, I am confident that we will find him soon. Then he will "
+"grant us aid, and I will reconquer Föhr from the usurper Atterdag!"
+msgstr ""
+"Nous avons conquis le port ! Nous construisons déjà un navire, puis nous "
+"nous rendrons enfin dans le Grand Nord. Bien que nous n'ayons toujours pas "
+"eu de nouvelles de Reebaud, je suis convaincu que nous le retrouverons "
+"bientôt. Alors il nous accordera son aide, et je reconquérirai Föhr de "
+"l'usurpateur Atterdag !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:313
+msgid "Goodbye!"
+msgstr "Au revoir !"
+
+# (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: M. C. Iniucundus – lost
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:323
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:323
 msgid ""
 "Now see where your foolishness has led us. The storm has broken and we’re "
 "all stuck here since you burnt down our port. The gods are just – even "
@@ -32,12 +156,12 @@ msgstr ""
 "Vois maintenant où ta folie nous a mené. L'orage a éclaté et nous sommes "
 "coincés ici depuis que vous avez brulé notre port. Les dieux sont justes – "
 "même si vous semblez être un guerrier plus puissant que nous, ils vous "
-"forcent à rester sur cette ile si longtemps que vous n’accomplirez jamais "
+"forcent à rester sur cette île si longtemps que vous n’accomplirez jamais "
 "l'objectif de votre futile voyage. Désespérez de votre triomphe !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Claus Lembeck – lost
-#: ../../data/campaigns/fri03.wmf/scripting/texts.lua:334
+#: ../../../../data/campaigns/fri03.wmf/scripting/texts.lua:334
 msgid ""
 "We were too slow. We dawdled and dallied and this is the result. There is no"
 " way forward. None of us will ever see our home again!"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2023-01-04 20:43+0000\n"
-"Last-Translator: David D, 2023\n"
+"Last-Translator: Laurent Godard, 2024\n"
 "Language-Team: French (https://app.transifex.com/widelands/teams/35159/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,51 +12,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:67
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:67
 msgid "Block the Bottleneck."
 msgstr "Bloquez le goulot d'étranglement"
 
 # (pofilter) endpunc: Different punctuation at the end
-#. TRANSLATORS: Claus Lembeck – Introduction 2
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:112
-msgid ""
-"And then the day arrived at last. We sighted the northernmost tip of the "
-"island Sylt and knew we’d land on Föhr on the evening of that same day. But "
-"then –"
-msgstr ""
-"Et puis le jour est enfin arrivé. Nous avons aperçu la pointe la plus "
-"septentrionale de l'île de Sylt et nous savions que nous atterririons sur "
-"Föhr le soir du même jour. Mais alors..."
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:97
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:107
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:117
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:127
+msgid "Welcome back!"
+msgstr "Bienvenue !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:137
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:151
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:137
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:151
 msgid "Welcome to Helgoland!"
 msgstr "Bienvenue à Helgoland !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Henneke Lembeck – Introduction 8
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:160
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:160
 msgid "Danes! Does Atterdag’s thirst for conquest reach this far then?"
-msgstr "Danes! La soif de conquête d'Atterdag va-t-elle jusque-là ?"
+msgstr "Damne ! La soif de conquête d'Atterdag va-t-elle jusque-là ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Ocke Ketelsen – Introduction 9
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:167
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:167
 msgid ""
 "It does. I see that you recognize this enemy, and I would be interested in "
 "hearing how you met – though I imagine it will not have gone well for them!"
 msgstr ""
-"Cela fait. Je vois que vous reconnaissez cet ennemi, et je serais intéressé "
-"de savoir comment vous vous êtes rencontrés – même si j'imagine que ça ne "
+"Ci-fait. Je vois que vous reconnaissez cet ennemi, et je serais intéressé de"
+" savoir comment vous vous êtes rencontrés – même si j'imagine que ça ne "
 "s'est pas bien passé pour eux !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Claus Lembeck – Introduction 10
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:177
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:177
 msgid ""
 "That it did so might even be heavenly intervention. We will gladly help you "
 "fight this enemy. A warm-up battle, so to speak – I am looking forward to "
@@ -68,7 +64,7 @@ msgstr ""
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Henneke Lembeck – Trade 2
-#: ../../data/campaigns/fri05.wmf/scripting/texts.lua:199
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:199
 msgid ""
 "How do you even sustain yourselves here? These rocks look impressive but I "
 "don't see how you could quarry them to construct stone houses. I see hardly "
@@ -80,3 +76,103 @@ msgstr ""
 "construire des maisons en pierre. Je ne vois pratiquement pas d'arbres et "
 "aucun endroit où l'on pourrait extraire du fer et d'autres minéraux !. "
 "Comment faites-vous ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Henneke Lembeck – Getting Started 3
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:244
+msgid ""
+"As for what we will build, I disagree. More military sites are important, "
+"but even more so is the ability to construct buildings in the first place. "
+"There are no woodcutters anywhere on the island, and we can’t rely on trade "
+"for wood, so we must secure our wood production at once before all our wood "
+"has been used up by the smokeries and charcoal burners!"
+msgstr ""
+"Pour ce que nous construisons, je ne suis pas d'accord. Nous devons accorder"
+" de l'importance à plus de bâtiments militaires, mais encore plus à la "
+"capacité de construire des bâtiments en premier. Il n'y a pas de bûcherons "
+"nulle part sur l'île, et nous ne pouvons compter sur le commerce pour le "
+"bois, alors nous devons nous assurer de notre production en bois une bonne "
+"fois avant que tout notre bois ne soit utilisé en fumoirs et brûleurs de "
+"charbons !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Claus Lembeck – Diking
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:271
+msgid ""
+"However, if you prefer to play it safe, don’t forget that we can simply "
+"enlarge the island. As we have a steady supply of logs now, we can construct"
+" dikes and breakwaters to gain more building space from the sea. When we are"
+" ready to attack, we can even use this as a way to bypass the narrow point "
+"in the east, or if we are to be truly bold we could dike around the whole "
+"western coast of the island to attack the enemy from two sides at once!"
+msgstr ""
+"Cependant, si vous préférez la jouer sûre, n'oubliez pas que vous pouvez "
+"simplement élargir l'île. Comme nous avons un approvisionnement constant en "
+"bois, nous pouvons construire des digues et des brise-vagues pour gagner de "
+"l'espace sur la mer. Quand nous serons prêt à attaquer, nous pourrons même "
+"utiliser ces voies pour contourner le goulot d'étranglement à l'Est, et si "
+"l'audace nous prend nous pourrions même contourner la digue ouest de l'île "
+"afin d'attaquer l'ennemi des deux cotés en même temps !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:277
+msgid "Good luck!"
+msgstr "Bonne chance !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Ocke Ketelsen – Getting Started 4
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:279
+msgid ""
+"I am heartened by your forwardness. Let us all hasten to our separate tasks,"
+" and may fortune smile on us!"
+msgstr ""
+"Votre audace m’enhardit. Hâtons nous vers nos différentes tâches, et que la "
+"fortune nous sourit."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Ocke Ketelsen – Victory 3
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:340
+msgid ""
+"Now this is mainly speculation, but I believe that Atterdag transports his "
+"troops from the Danish capital to the islands he conquers by ship. The land "
+"route is much longer and more strenuous, so it is not hard to see why he "
+"would do that. Clearly he attempts to disguise this fact. Why would he do "
+"that, unless he believes this secret to be of strategical importance?"
+msgstr ""
+"Il s’agit là d’une simple spéculation, mais je crois qu’Atterdag transporte "
+"ses troupes de la capitale danoise vers les îles qu’il conquiert par bateau."
+" La route terrestre est beaucoup plus longue et plus ardue, il n’est donc "
+"pas difficile de comprendre pourquoi il ferait cela. Il essaie clairement de"
+" dissimuler ce fait. Pourquoi ferait-il cela, à moins qu’il ne pense que ce "
+"secret soit d’une importance stratégique ?"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:348
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:362
+msgid "Victory!"
+msgstr "Victoire !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Reebaud – Victory 5
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:350
+msgid ""
+"And if we can block it, they will lose their most important trade route! We "
+"must try it. We will sail to the Kattegat at once to conquer the strait, and"
+" then we’ll raise the people of Föhr and all the other islands in joint "
+"rebellion against the invader!"
+msgstr ""
+"Et si nous parvenons à le bloquer, ils perdront leur principale voie "
+"commerciale ! Nous devons tenter le coup. Nous naviguerons immédiatement "
+"vers le Kattegat pour conquérir le détroit, puis nous soulèverons les "
+"habitants de Föhr et de toutes les autres îles dans une rébellion commune "
+"contre l'envahisseur !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Reebaud – Victory 7
+#: ../../../../data/campaigns/fri05.wmf/scripting/texts.lua:367
+msgid ""
+"And thus we part, to meet again soon. Farewell, and may lasting peace bless "
+"all of Helgoland!"
+msgstr ""
+"Et ainsi nous nous séparons, pour nous retrouver bientôt. Adieu, et que la "
+"paix durable bénisse tout Helgoland !"

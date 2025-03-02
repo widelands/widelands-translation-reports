@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Petr Valášek, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,14 +13,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. TRANSLATORS: Note helptext for a Frisian production site: Reed Farm
-#: ../../data/tribes/initialization/frisians/units.lua:1659
-msgctxt "frisians_building"
+#. TRANSLATORS: Performance helptext for an Amazon production site: Hunter-
+#. Gatherer's Hut, part 1
+#: ../../../../data/tribes/initialization/amazons/units.lua:1348
+msgctxt "amazons_building"
 msgid ""
-"Reed is the traditional material for roofing. It is also needed to produce "
-"baskets and fishing nets, and it is woven – together with reindeer fur – "
-"into the cloth used for ships’ sails."
-msgstr "Rákosí je tradičním materiálem pro pokryv střechy. Také se používá při výrobě košů, rybářských sítí a  společně s kožešinou surovinou pro tkaní látky, která se užívá na výrobu lodního plachtoví."
+"This building can produce one meat or one fish between %1$s and %2$s, "
+"depending on how far the hunter-gatherer has to walk. If both kinds of food "
+"are available, then one of each kind is produced between %3$s and %4$s."
+msgstr "Tato budova může vyprodukovat jedno maso, nebo rybu za %1$s až %2$s, záleží na tom, jak dlouhou cestu musí lovkyně-sběračka urazit. Pokud jsou dostupné oba zdroje, pak je jeden kus od každé suroviny vyprodukován  za %3$s až %4$s."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Charcoal Kiln
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1723
+msgctxt "atlanteans_building"
+msgid "A black voice from inside the charcoal kiln"
+msgstr "tajemný hlas  vycházející z milíře na dřevěné uhlí"

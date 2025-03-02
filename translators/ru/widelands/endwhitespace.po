@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Yuriy Sokolov <lention@mail.ru>, 2015,2017,2022-2024\n"
 "Language-Team: Russian (http://app.transifex.com/widelands/widelands/"
@@ -14,10 +14,16 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/logic/addons.cc:260
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:366
+#: ../../../../src/ui_fsmenu/addons/packager.cc:166
+msgid "Author:"
+msgstr "Автор: "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/logic/addons.cc:266
 #, c-format
 msgid "%u add-on with wrong version"
 msgid_plural "%u add-ons with wrong version"
@@ -27,38 +33,40 @@ msgstr[2] "У %u дополнений не та версия"
 msgstr[3] "У %u дополнений не та версия"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1456
+#: ../../../../src/logic/detected_port_space.cc:83
+#, c-format
+msgid "Unowned port space discovered at %1$s by %2$s"
+msgstr "%2$s обнаружил незанятое место для порта в %1$s "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:2002
 #, c-format
 msgid ""
 "The add-on ‘%1$s’ could not be uploaded to the server.\n"
 "\n"
 "Error Message:\n"
 "%2$s"
-msgstr "Дополнение  ‘%1$s’ не может быть загружено на сервер.\nСообщение об ошибке:\n%2$s "
+msgstr "Дополнение ‘%1$s’ не может быть загружено на сервер.\nСообщение об ошибке:\n%2$s "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:161
+#: ../../../../src/ui_fsmenu/addons/packager.cc:161
 msgid "Name:"
 msgstr "Название: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:166
-msgid "Author:"
-msgstr "Автор: "
-
-# (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:171
-#: ../../src/ui_fsmenu/tech_info.cc:76
+#: ../../../../src/ui_fsmenu/addons/packager.cc:171
+#: ../../../../src/ui_fsmenu/tech_info.cc:76
 msgid "Version:"
 msgstr "Версия: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/packager_box.cc:499
+#: ../../../../src/ui_fsmenu/addons/packager_box.cc:503
 msgid "Difficulty:"
 msgstr "Сложность: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:496
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:585
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:760
 #, c-format
 msgid "%u download"
 msgid_plural "%u downloads"
@@ -68,7 +76,8 @@ msgstr[2] "Загружено %uраз"
 msgstr[3] "Загружено %uраз"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:502
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:591
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:766
 #, c-format
 msgid "%u comment"
 msgid_plural "%u comments"
@@ -78,18 +87,25 @@ msgstr[2] "%uкомментариев"
 msgstr[3] "%u комментариев"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/building_statistics_menu.cc:731
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:704
+#, c-format
+msgid "Size: %1$u×%2$u • Max Players: %3$u • %4$s"
+msgstr "Размер: %1$u×%2$u • Max игроков: %3$u • %4$s "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/wui/building_statistics_menu.cc:735
 msgid "Low productivity:"
 msgstr "Низкая производительность: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/gamedetails.cc:184 ../../src/wui/mapdetails.cc:182
+#: ../../../../src/wui/gamedetails.cc:184
+#: ../../../../src/wui/mapdetails.cc:185
 msgid "Add-Ons:"
 msgstr "Дополнения: "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: An entry in the game's map view menu
-#: ../../src/wui/interactive_base.cc:371
+#: ../../../../src/wui/interactive_base.cc:348
 msgid "Zoom –"
 msgstr "Отдалить – "
 
@@ -98,7 +114,7 @@ msgstr "Отдалить – "
 #. are:
 #. month (short name) day (number),
 #. year (number). This is part of a list.
-#: ../../src/wui/savegameloader.cc:194
+#: ../../../../src/wui/savegameloader.cc:194
 #, c-format
 msgid "saved on %1$s %2$u, %3$u"
 msgstr "сохранение от %2$u %1$s %3$u "

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Thorbjørn Bruarøy, 2015\n"
 "Language-Team: Norwegian Nynorsk (http://app.transifex.com/widelands/"
@@ -12,24 +12,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:371
-msgid ""
-"Set the position that will have the coordinates (0, 0). This will be the "
-"top-left corner of a generated minimap."
-msgstr "Vel posisjonen som skal ha koordinata (0,0).  Dette blir hjørnet øvst til venstre ved eit laga minikart."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/replay_game_controller.cc:103
+#: ../../../../src/commands/cmd_replay_end.cc:34
 msgid ""
 "The end of the replay has been reached and the game has been paused. You may"
 " unpause the game and continue watching if you want to."
 msgstr "Reprisen er slut og spelet er sett på pause.  Du kan halde fram med spelet og fortsette å sjå viss du vil."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gamehost.cc:225
+#. * TRANSLATORS: Tooltip for the map origin tool in the editor
+#: ../../../../src/editor/editorinteractive.cc:380
+msgid ""
+"Set the position that will have the coordinates (0, 0). This will be the "
+"top-left corner of a generated minimap."
+msgstr "Vel posisjonen som skal ha koordinata (0,0).  Dette blir hjørnet øvst til venstre ved eit laga minikart."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/network/gamehost.cc:225
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "Kommandoen er ugyldeg!  Skriv /help for ei liste over kommandoar."

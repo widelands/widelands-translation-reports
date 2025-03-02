@@ -1,0 +1,1738 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
+"PO-Revision-Date: 2015-11-03 18:55+0000\n"
+"Last-Translator: Alexandros Koutroulis, 2024\n"
+"Language-Team: Greek (http://app.transifex.com/widelands/widelands/language/"
+"el/)\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/cassava_plantation/init.lua:41
+#: ../../../../data/tribes/buildings/productionsites/amazons/cassava_root_cooker/init.lua:54
+#: ../../../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:47
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:58
+#: ../../../../data/tribes/buildings/productionsites/amazons/ferry_yard/init.lua:45
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:30
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_plantation/init.lua:47
+#: ../../../../data/tribes/buildings/productionsites/amazons/shipyard/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/amazons/shipyard/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:60
+#: ../../../../data/tribes/buildings/productionsites/amazons/tapir_farm/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/amazons/water_gatherers_hut/init.lua:38
+#: ../../../../data/tribes/buildings/productionsites/amazons/wilderness_keepers_tent/init.lua:38
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:214
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/blackroot_farm/init.lua:44
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/farm/init.lua:48
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/ferry_yard/init.lua:57
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/mill/init.lua:57
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/shipyard/init.lua:69
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/shipyard/init.lua:90
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smelting_works/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smokery/init.lua:60
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/spiderfarm/init.lua:50
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:50
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/init.lua:54
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaving_mill/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/well/init.lua:44
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ax_workshop/init.lua:69
+#: ../../../../data/tribes/buildings/productionsites/barbarians/big_inn/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/barbarians/farm/init.lua:65
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ferry_yard/init.lua:47
+#: ../../../../data/tribes/buildings/productionsites/barbarians/gamekeepers_hut/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/barbarians/helmsmithy/init.lua:69
+#: ../../../../data/tribes/buildings/productionsites/barbarians/inn/init.lua:62
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:85
+#: ../../../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:40
+#: ../../../../data/tribes/buildings/productionsites/barbarians/shipyard/init.lua:66
+#: ../../../../data/tribes/buildings/productionsites/barbarians/shipyard/init.lua:87
+#: ../../../../data/tribes/buildings/productionsites/barbarians/smelting_works/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/barbarians/well/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/empire/armorsmithy/init.lua:71
+#: ../../../../data/tribes/buildings/productionsites/empire/farm/init.lua:50
+#: ../../../../data/tribes/buildings/productionsites/empire/ferry_yard/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/empire/inn/init.lua:46
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:74
+#: ../../../../data/tribes/buildings/productionsites/empire/quarry/init.lua:39
+#: ../../../../data/tribes/buildings/productionsites/empire/shipyard/init.lua:72
+#: ../../../../data/tribes/buildings/productionsites/empire/shipyard/init.lua:93
+#: ../../../../data/tribes/buildings/productionsites/empire/smelting_works/init.lua:64
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:49
+#: ../../../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:72
+#: ../../../../data/tribes/buildings/productionsites/empire/well/init.lua:48
+#: ../../../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_small/init.lua:77
+#: ../../../../data/tribes/buildings/productionsites/frisians/beekeepers_house/init.lua:50
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/init.lua:57
+#: ../../../../data/tribes/buildings/productionsites/frisians/dikers_house/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/frisians/drinking_hall/init.lua:54
+#: ../../../../data/tribes/buildings/productionsites/frisians/farm/init.lua:66
+#: ../../../../data/tribes/buildings/productionsites/frisians/ferry_yard/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/frisians/furnace/init.lua:74
+#: ../../../../data/tribes/buildings/productionsites/frisians/honey_bread_bakery/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/frisians/mead_brewery/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/frisians/recycling_center/init.lua:75
+#: ../../../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/frisians/reindeer_farm/init.lua:64
+#: ../../../../data/tribes/buildings/productionsites/frisians/shipyard/init.lua:61
+#: ../../../../data/tribes/buildings/productionsites/frisians/shipyard/init.lua:82
+#: ../../../../data/tribes/buildings/productionsites/frisians/smokery/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/frisians/tailors_shop/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/frisians/tavern/init.lua:82
+#: ../../../../data/tribes/buildings/productionsites/frisians/well/init.lua:49
+msgid "working"
+msgstr "H εργασία"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting cassava because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/cassava_plantation/init.lua:49
+msgid "planting cassava"
+msgstr "H φύτευση κασάβα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting cassava because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/cassava_plantation/init.lua:57
+msgid "harvesting cassava"
+msgstr "Ο θερισμός κασάβα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing a ration because ...
+#. TRANSLATORS: Completed/Skipped/Did not start baking bread because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/cassava_root_cooker/init.lua:61
+#: ../../../../data/tribes/buildings/productionsites/frisians/bakery/init.lua:80
+#: ../../../../data/tribes/buildings/productionsites/frisians/honey_bread_bakery/init.lua:88
+msgid "baking bread"
+msgstr "Το ψήσιμο ψωμιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start producing charcoal because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/charcoal_kiln/init.lua:50
+msgid "producing charcoal"
+msgstr "Η παραγωγή ξυλάνθρακα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start brewing chocolate because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/chocolate_brewery/init.lua:55
+msgid "brewing chocolate"
+msgstr "Η δημιουργία σοκολάτας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting reed because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:55
+msgid "planting cocoa"
+msgstr "Η φύτευση κακάο"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting reed because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/cocoa_farm/init.lua:63
+msgid "harvesting cocoa"
+msgstr "Η συγκομιδή κακάο"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a felling ax because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:74
+msgid "sewing a tunic"
+msgstr "Το ράψιμο χιτώνα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a pick because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:86
+msgid "making a light wooden armor"
+msgstr "Η κατασκευή ελαφριάς ξύλινης πανοπλίας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a scythe because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:98
+msgid "making a wooden helmet"
+msgstr "Η κατασκευή ξύλινη περικεφαλαίας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a shovel because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:110
+msgid "sewing a warrior’s coat"
+msgstr "Το ράψιμο παλτό πολεμιστή"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a basket because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:122
+msgid "making sturdy boots"
+msgstr "Η κατασκευή στιβαρών μποτών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hunting spear because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:134
+msgid "making swift boots"
+msgstr "Η κατασκευή γοργών μποτών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a fishing net because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:146
+msgid "making hero boots"
+msgstr "Η κατασκευή ηρωικών μποτών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a bread paddle because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:158
+msgid "making a padded vest"
+msgstr "Η κατασκευή ενισχυμένου γιλέκου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making kitchen tools because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/dressmakery/init.lua:170
+msgid "making a padded protector"
+msgstr "Η κατασκευή ενισχυμένου προστάτη"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing a ration because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/food_preserver/init.lua:60
+#: ../../../../data/tribes/buildings/productionsites/barbarians/big_inn/init.lua:62
+#: ../../../../data/tribes/buildings/productionsites/barbarians/inn/init.lua:71
+#: ../../../../data/tribes/buildings/productionsites/barbarians/tavern/init.lua:77
+#: ../../../../data/tribes/buildings/productionsites/empire/inn/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/empire/tavern/init.lua:71
+#: ../../../../data/tribes/buildings/productionsites/frisians/drinking_hall/init.lua:63
+msgid "preparing a ration"
+msgstr "Η προετοιμασία μερίδας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start smelting gold because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/furnace/init.lua:59
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smelting_works/init.lua:91
+#: ../../../../data/tribes/buildings/productionsites/barbarians/smelting_works/init.lua:95
+#: ../../../../data/tribes/buildings/productionsites/empire/smelting_works/init.lua:103
+#: ../../../../data/tribes/buildings/productionsites/frisians/furnace/init.lua:113
+msgid "smelting gold"
+msgstr "Η τήξη χρυσού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start enhancing the fertility of
+#. land because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/gardening_center/init.lua:54
+#: ../../../../data/tribes/buildings/productionsites/amazons/gardening_center/init.lua:68
+msgid "enhancing the fertility of land"
+msgstr "Η βελτίωση της γονιμότητας της γης"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining gold because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/gold_digger_dwelling/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/goldmine/init.lua:65
+#: ../../../../data/tribes/buildings/productionsites/barbarians/goldmine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:63
+#: ../../../../data/tribes/buildings/productionsites/barbarians/goldmine_deep/init.lua:78
+#: ../../../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/barbarians/goldmine_deeper/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/empire/goldmine/init.lua:86
+#: ../../../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/empire/goldmine_deep/init.lua:65
+#: ../../../../data/tribes/buildings/productionsites/frisians/goldmine/init.lua:84
+#: ../../../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/frisians/goldmine_deep/init.lua:72
+msgid "mining gold"
+msgstr "Η εξόρυξη χρυσού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hunting because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/hunter_gatherers_hut/init.lua:40
+msgid "gathering"
+msgstr "Η συλλογή"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hunting because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/hunter_gatherers_hut/init.lua:51
+msgid "gathering meat"
+msgstr "Η συλλογή κρέατος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hunting because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/hunter_gatherers_hut/init.lua:63
+msgid "gathering fish"
+msgstr "Η συλλογή ψαριών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recruiting soldier because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/initiation_site/init.lua:60
+msgctxt "amazons_building"
+msgid "recruiting soldier"
+msgstr "Η στρατολόγηση"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting trees because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/jungle_preservers_hut/init.lua:48
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/foresters_house/init.lua:42
+#: ../../../../data/tribes/buildings/productionsites/barbarians/rangers_hut/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/empire/foresters_house/init.lua:45
+#: ../../../../data/tribes/buildings/productionsites/frisians/foresters_house/init.lua:49
+msgid "planting trees"
+msgstr "Η φύτευση δέντρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making clay because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/liana_cutters_hut/init.lua:39
+msgid "cutting lianas"
+msgstr "Η κοπή λιάνα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:42
+msgid "harvesting balsa"
+msgstr "Η συγκομιδή μπάλσα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:54
+msgid "harvesting rubber"
+msgstr "Η συγκομιδή καοτσούκ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_cutters_hut/init.lua:66
+msgid "harvesting ironwood"
+msgstr "Η συγκομιδή σιδηρόξυλου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_plantation/init.lua:69
+msgid "planting rubber tree"
+msgstr "Η φύτευση καοτσουκόδεντρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../../../data/tribes/buildings/productionsites/amazons/rare_tree_plantation/init.lua:82
+msgid "planting ironwood tree"
+msgstr "Η φύτευση σιδερόδεντρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start weaving cloth because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/rope_weaver_booth/init.lua:52
+msgid "making a rope"
+msgstr "Η δημιουργία σχοινιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start scouting because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/scouts_hut/init.lua:41
+#: ../../../../data/tribes/buildings/productionsites/amazons/scouts_hut/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/scouts_house/init.lua:50
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/scouts_house/init.lua:65
+#: ../../../../data/tribes/buildings/productionsites/barbarians/scouts_hut/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/barbarians/scouts_hut/init.lua:68
+#: ../../../../data/tribes/buildings/productionsites/empire/scouts_house/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/empire/scouts_house/init.lua:63
+#: ../../../../data/tribes/buildings/productionsites/frisians/scouts_house/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/frisians/scouts_house/init.lua:64
+msgid "scouting"
+msgstr "Η ανίχνευση"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start constructing a ship because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/shipyard/init.lua:66
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/shipyard/init.lua:83
+#: ../../../../data/tribes/buildings/productionsites/barbarians/shipyard/init.lua:80
+#: ../../../../data/tribes/buildings/productionsites/empire/shipyard/init.lua:86
+#: ../../../../data/tribes/buildings/productionsites/frisians/shipyard/init.lua:75
+msgid "constructing a ship"
+msgstr "Η ναυπήγηση ενός πλοίου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a shovel because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:87
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:212
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:222
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:218
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:124
+msgid "making a shovel"
+msgstr "Η κατασκευή ενός φτυαριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a felling ax because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:99
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:118
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:75
+msgid "making a felling ax"
+msgstr "Η κατασκευή ενός τσεκουριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a pick because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:111
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:173
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:196
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:179
+msgid "making a pick"
+msgstr "Η κατασκευή μιας αξίνας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a machete because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:123
+msgid "making a machete"
+msgstr "Η κατασκευή μαχαίρας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making kitchen tools because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:135
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:183
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:166
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:184
+msgid "making kitchen tools"
+msgstr "Η κατασκευή ενός σετ κουζινικών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hammer because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:147
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:121
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:157
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:140
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:196
+msgid "making a hammer"
+msgstr "Η κατασκευή ενός σφυριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a chisel because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:159
+msgid "making a chisel"
+msgstr "Η κατασκευή καλεμιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making needles because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:171
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:220
+msgid "making needles"
+msgstr "Η κατασκευή βελονών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a stone bowl because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:183
+msgid "making a stone bowl"
+msgstr "Η κατασκευή ενός πέτρινου μπολ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making firestones because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:195
+msgid "making firestones"
+msgstr "Η κατασκευή οπτόπλινθων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a wooden spear because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:207
+msgid "making a wooden spear"
+msgstr "Η κατασκευή ξύλινου ακοντίου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a stone-tipped spear
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:219
+msgid "making a stone-tipped spear"
+msgstr "Η κατασκευή πέτρινου δόρατος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hardened spear
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stone_workshop/init.lua:231
+msgid "making a hardened spear"
+msgstr "Η κατασκευή ενισχυμένου δόρατος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stonecutters_hut/init.lua:34
+msgid "cutting granite"
+msgstr "Η κοπή γρανίτη"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stonemine/init.lua:51
+msgid "mining"
+msgstr "Η εξόρυξη"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining granite because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stonemine/init.lua:64
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:63
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:107
+#: ../../../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:61
+#: ../../../../data/tribes/buildings/productionsites/barbarians/granitemine/init.lua:74
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:85
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:114
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:84
+#: ../../../../data/tribes/buildings/productionsites/frisians/rockmine/init.lua:98
+#: ../../../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/frisians/rockmine_deep/init.lua:75
+msgid "mining granite"
+msgstr "Η εξόρυξη γρανίτη"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining quartz because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/stonemine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:79
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:115
+msgid "mining quartz"
+msgstr "Η εξόρυξη χαλαζία"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start breeding tapir because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/tapir_farm/init.lua:63
+msgctxt "amazons_building"
+msgid "breeding tapir"
+msgstr "Η εκτροφή ταπίρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#. TRANSLATORS: Completed/Skipped/Did not start breeding fish because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/wilderness_keepers_tent/init.lua:46
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/fishbreeders_house/init.lua:41
+#: ../../../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:63
+msgid "breeding fish"
+msgstr "Η εκτροφή ψαριών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start working because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/wilderness_keepers_tent/init.lua:54
+msgid "releasing game"
+msgstr "Η απελευθέρωση θηραμάτων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start felling trees because ...
+#: ../../../../data/tribes/buildings/productionsites/amazons/woodcutters_hut/init.lua:47
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/woodcutters_house/init.lua:37
+#: ../../../../data/tribes/buildings/productionsites/barbarians/lumberjacks_hut/init.lua:49
+#: ../../../../data/tribes/buildings/productionsites/empire/lumberjacks_house/init.lua:40
+#: ../../../../data/tribes/buildings/productionsites/frisians/woodcutters_house/init.lua:47
+msgid "felling trees"
+msgstr "Η κοπή δέντρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a steel shield because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:223
+msgid "forging a steel shield"
+msgstr "Η σφυρηλάτηση μιας ατσάλινης ασπίδας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging an advanced shield
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/armorsmithy/init.lua:235
+msgid "forging an advanced shield"
+msgstr "Η σφυρηλάτηση μιας προηγμένης ασπίδας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start baking bread because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/bakery/init.lua:57
+msgctxt "atlanteans_building"
+msgid "baking bread"
+msgstr "Το ψήσιμο ψωμιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recruiting soldier because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/barracks/init.lua:56
+msgctxt "atlanteans_building"
+msgid "recruiting soldier"
+msgstr "Η στρατολόγηση στρατιώτη"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting blackroot because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/blackroot_farm/init.lua:52
+msgid "planting blackroot"
+msgstr "Η φύτευση μαυρόριζας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting blackroot because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/blackroot_farm/init.lua:60
+msgid "harvesting blackroot"
+msgstr "Η συγκομιδή μαυρόριζας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start producing coal because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/charcoal_kiln/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/barbarians/charcoal_kiln/init.lua:59
+#: ../../../../data/tribes/buildings/productionsites/empire/charcoal_kiln/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/frisians/charcoal_kiln/init.lua:63
+msgid "producing coal"
+msgstr "Η παραγωγή γαιάνθρακα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining coal because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/coalmine/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/coalmine/init.lua:75
+#: ../../../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/barbarians/coalmine/init.lua:86
+#: ../../../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:63
+#: ../../../../data/tribes/buildings/productionsites/barbarians/coalmine_deep/init.lua:78
+#: ../../../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/barbarians/coalmine_deeper/init.lua:68
+#: ../../../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/empire/coalmine/init.lua:87
+#: ../../../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/empire/coalmine_deep/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:82
+#: ../../../../data/tribes/buildings/productionsites/frisians/coalmine/init.lua:95
+#: ../../../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/frisians/coalmine_deep/init.lua:74
+msgid "mining coal"
+msgstr "Η εξόρυξη γαιάνθρακα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining diamonds because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:95
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/crystalmine/init.lua:123
+msgid "mining diamonds"
+msgstr "Η εξόρυξη διαμαντιών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting corn because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/farm/init.lua:56
+msgid "planting corn"
+msgstr "Η φύτευση καλαμποκιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting corn because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/farm/init.lua:64
+msgid "harvesting corn"
+msgstr "Ο θερισμός καλαμποκιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start fishing because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/fishers_house/init.lua:42
+#: ../../../../data/tribes/buildings/productionsites/barbarians/fishers_hut/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/empire/fishers_house/init.lua:43
+#: ../../../../data/tribes/buildings/productionsites/frisians/aqua_farm/init.lua:75
+#: ../../../../data/tribes/buildings/productionsites/frisians/fishers_house/init.lua:50
+msgid "fishing"
+msgstr "Το ψάρμεμα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start spinning gold because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/gold_spinning_mill/init.lua:48
+msgid "spinning gold"
+msgstr "Το γνέσιμο χρυσό"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start breeding horses because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/horsefarm/init.lua:49
+msgctxt "atlanteans_building"
+msgid "breeding horses"
+msgstr "Η εκτροφή αλόγων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hunting because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/hunters_house/init.lua:39
+#: ../../../../data/tribes/buildings/productionsites/barbarians/hunters_hut/init.lua:57
+#: ../../../../data/tribes/buildings/productionsites/empire/hunters_house/init.lua:42
+#: ../../../../data/tribes/buildings/productionsites/frisians/hunters_house/init.lua:49
+msgid "hunting"
+msgstr "Το κυνήγι"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining iron because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:53
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/ironmine/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ironmine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:63
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ironmine_deep/init.lua:78
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ironmine_deeper/init.lua:68
+#: ../../../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/empire/ironmine/init.lua:87
+#: ../../../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/empire/ironmine_deep/init.lua:66
+#: ../../../../data/tribes/buildings/productionsites/frisians/ironmine/init.lua:84
+#: ../../../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/frisians/ironmine_deep/init.lua:74
+msgid "mining iron"
+msgstr "Η εξόρυξη σιδήρου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start grinding corn because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/mill/init.lua:66
+msgid "grinding corn"
+msgstr "Η άλεση καλαμποκιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start grinding blackroot because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/mill/init.lua:80
+msgid "grinding blackroot"
+msgstr "Η άλεση μαυρόριζας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start quarrying granite because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/quarry/init.lua:36
+#: ../../../../data/tribes/buildings/productionsites/barbarians/quarry/init.lua:47
+#: ../../../../data/tribes/buildings/productionsites/empire/quarry/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/frisians/quarry/init.lua:47
+msgid "quarrying granite"
+msgstr "Η κοπή γρανίτη"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start sawing logs because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/sawmill/init.lua:55
+#: ../../../../data/tribes/buildings/productionsites/empire/sawmill/init.lua:56
+msgid "sawing logs"
+msgstr "Το πριόνισμα κορμών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start smelting iron because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smelting_works/init.lua:63
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smelting_works/init.lua:77
+#: ../../../../data/tribes/buildings/productionsites/barbarians/smelting_works/init.lua:67
+#: ../../../../data/tribes/buildings/productionsites/barbarians/smelting_works/init.lua:81
+#: ../../../../data/tribes/buildings/productionsites/empire/smelting_works/init.lua:75
+#: ../../../../data/tribes/buildings/productionsites/empire/smelting_works/init.lua:89
+#: ../../../../data/tribes/buildings/productionsites/frisians/furnace/init.lua:85
+#: ../../../../data/tribes/buildings/productionsites/frisians/furnace/init.lua:99
+msgid "smelting iron"
+msgstr "Το λιώσιμο σιδήρου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start smoking meat because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smokery/init.lua:70
+#: ../../../../data/tribes/buildings/productionsites/frisians/smokery/init.lua:88
+msgid "smoking meat"
+msgstr "Το κάπνισμα κρέατος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start smoking fish because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smokery/init.lua:83
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/smokery/init.lua:95
+#: ../../../../data/tribes/buildings/productionsites/frisians/smokery/init.lua:76
+msgid "smoking fish"
+msgstr "Το κάπνισμα ψαριών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a bread paddle because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:69
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:105
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:101
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:172
+msgid "making a bread paddle"
+msgstr "Η δημιουργία ενός φτυαριού φούρνου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a pair of buckets
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:82
+msgid "making a pair of buckets"
+msgstr "Η δημιουργία ενός ζεύγους κουβάδων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making fire tongs because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:95
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:131
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:114
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:208
+msgid "making fire tongs"
+msgstr "Η δημιουργία μιας λαβίδας πυρός"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a fishing net because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:108
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:160
+msgid "making a fishing net"
+msgstr "Η δημιουργία ενός διχτυού ψαρέματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hook pole because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:134
+msgid "making a hook pole"
+msgstr "Η δημιουργία ενός κρεμασταριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hunting bow because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:147
+msgid "making a hunting bow"
+msgstr "Η δημιουργία ενός κυνηγετικού τόξου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making milking tongs because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:160
+msgid "making milking tongs"
+msgstr "Η δημιουργία μιας λαβίδας άρμεξης"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a saw because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:186
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:192
+msgid "making a saw"
+msgstr "Η δημιουργία ενός πριονιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a scythe because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/toolsmithy/init.lua:199
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:209
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:205
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:112
+msgid "making a scythe"
+msgstr "Η δημιουργία ενός δρεπανιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a light trident
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/init.lua:66
+msgid "forging a light trident"
+msgstr "Η σφυρηλάτηση μιας ελαφριάς τρίαινας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a long trident because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/init.lua:81
+msgid "forging a long trident"
+msgstr "Η σφυρηλάτηση μιας μακριάς τρίαινας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a steel trident
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/init.lua:96
+msgid "forging a steel trident"
+msgstr "Η σφυρηλάτηση μιας ατσάλινης τρίαινας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a double trident
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/init.lua:111
+msgid "forging a double trident"
+msgstr "Η σφυρηλάτηση μιας διπλής τρίαινας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a heavy double trident
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaponsmithy/init.lua:126
+msgid "forging a heavy double trident"
+msgstr "Η σφυρηλάτηση μιας βαριάς διπλής τρίαινας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start weaving spidercloth because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaving_mill/init.lua:63
+msgid "weaving spidercloth"
+msgstr "Η ύφανση αραχνουφάσματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start tailoring a tabard because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaving_mill/init.lua:76
+msgid "tailoring a tabard"
+msgstr "Το ράψιμο ενός γιλέκου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start tailoring a golden tabard
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/atlanteans/weaving_mill/init.lua:89
+msgid "tailoring a golden tabard"
+msgstr "Το ράψιμο ενός επίχρυσου γιλέκου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging an ax because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ax_workshop/init.lua:81
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:71
+msgid "forging an ax"
+msgstr "Η σφυρηλάτηση ενός πέλεκυ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a sharp ax because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ax_workshop/init.lua:96
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:86
+msgid "forging a sharp ax"
+msgstr "Η σφυρηλάτηση ενός αιχμηρού πέλεκυ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a broad ax because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/ax_workshop/init.lua:111
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:101
+msgid "forging a broad ax"
+msgstr "Η σφυρηλάτηση ενός πλατύ πέλεκυ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start baking bread because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/bakery/init.lua:54
+msgctxt "barbarians_building"
+msgid "baking pitta bread"
+msgstr "Το ψήσιμο πίτας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recruiting soldier because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/barracks/init.lua:54
+msgctxt "barbarians_building"
+msgid "recruiting soldier"
+msgstr "Η στρατολόγηση"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing a snack because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/big_inn/init.lua:75
+#: ../../../../data/tribes/buildings/productionsites/barbarians/inn/init.lua:84
+msgid "preparing a snack"
+msgstr "Η ετοιμασία κολατσιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing a meal because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/big_inn/init.lua:88
+#: ../../../../data/tribes/buildings/productionsites/empire/inn/init.lua:68
+#: ../../../../data/tribes/buildings/productionsites/frisians/drinking_hall/init.lua:76
+msgid "preparing a meal"
+msgstr "Η ετοιμασία γεύματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start brewing strong beer because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/brewery/init.lua:38
+msgid "brewing strong beer"
+msgstr "Η ζύμωση δυνατής μπύρας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start rearing cattle because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/cattlefarm/init.lua:49
+msgctxt "barbarians_building"
+msgid "rearing cattle"
+msgstr "Η εκτροφή βοδιών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting wheat because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/farm/init.lua:73
+#: ../../../../data/tribes/buildings/productionsites/empire/farm/init.lua:58
+msgid "planting wheat"
+msgstr "Η σπορά σιταριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting wheat because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/farm/init.lua:82
+#: ../../../../data/tribes/buildings/productionsites/empire/farm/init.lua:66
+msgid "harvesting wheat"
+msgstr "Ο θερισμός σιταριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a helmet because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/helmsmithy/init.lua:79
+#: ../../../../data/tribes/buildings/productionsites/empire/armorsmithy/init.lua:83
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_small/init.lua:120
+msgid "forging a helmet"
+msgstr "Η σφυρηλάτηση ενός κράνους"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a mask because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/helmsmithy/init.lua:92
+msgid "forging a mask"
+msgstr "Η σφυρηλάτηση μιας μάσκας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a warhelm because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/helmsmithy/init.lua:105
+msgid "forging a warhelm"
+msgstr "Η σφυρηλάτηση ενός πολεμικού κράνους"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mixing grout because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/lime_kiln/init.lua:52
+msgid "mixing grout"
+msgstr "Η ανάμειξη σοβά"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a fishing rod because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:144
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:127
+msgid "making a fishing rod"
+msgstr "Το φτιάξιμο ενός καλαμιού ψαρέματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a hunting spear because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/metal_workshop/init.lua:170
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:153
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:148
+msgid "making a hunting spear"
+msgstr "Το φτιάξιμο ενός κυνηγετικού ακοντίου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start brewing beer because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/micro_brewery/init.lua:65
+#: ../../../../data/tribes/buildings/productionsites/empire/brewery/init.lua:57
+#: ../../../../data/tribes/buildings/productionsites/frisians/brewery/init.lua:77
+#: ../../../../data/tribes/buildings/productionsites/frisians/mead_brewery/init.lua:88
+msgid "brewing beer"
+msgstr "Η ζύμωση μπύρας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting reed because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:48
+#: ../../../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:61
+msgid "planting reed"
+msgstr "Η φύτευση καλαμιών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting reed because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/reed_yard/init.lua:56
+#: ../../../../data/tribes/buildings/productionsites/frisians/reed_farm/init.lua:69
+msgid "harvesting reed"
+msgstr "Η συλλογή καλαμιών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a bronze ax because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:116
+msgid "forging a bronze ax"
+msgstr "Η σφυρηλάτηση ενός χάλκινου πέλεκυ"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a battle ax because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:131
+msgid "forging a battle ax"
+msgstr "Η σφυρηλάτηση ενός πέλεκυ μάχης"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a warrior’s ax because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/warmill/init.lua:146
+msgid "forging a warrior’s ax"
+msgstr "Η σφυρηλάτηση ενός πέλεκυ πολεμιστή"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start weaving because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/weaving_mill/init.lua:52
+#: ../../../../data/tribes/buildings/productionsites/empire/weaving_mill/init.lua:63
+msgid "weaving"
+msgstr "Η ύφανση"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start hardening wood because ...
+#: ../../../../data/tribes/buildings/productionsites/barbarians/wood_hardener/init.lua:65
+msgid "hardening wood"
+msgstr "Η πύρωση ξύλου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a suit of armor
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/armorsmithy/init.lua:95
+msgid "forging a suit of armor"
+msgstr "Η σφυρηλάτηση μιας πανοπλίας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a suit of chain armor
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/armorsmithy/init.lua:107
+msgid "forging a suit of chain armor"
+msgstr "Η σφυρηλάτηση μιας αλυσιδωτής πανοπλίας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a suit of gilded armor
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/armorsmithy/init.lua:119
+msgid "forging a suit of gilded armor"
+msgstr "Η σφυρηλάτηση μιας επίχρυσης πανοπλίας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start baking bread because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/bakery/init.lua:64
+msgctxt "empire_building"
+msgid "baking bread"
+msgstr "Το ψήσιμο ψωμιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recruiting soldier because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/barracks/init.lua:57
+msgctxt "empire_building"
+msgid "recruiting soldier"
+msgstr "Η στρατολόγηση"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start rearing donkeys because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/donkeyfarm/init.lua:55
+msgctxt "empire_building"
+msgid "rearing donkeys"
+msgstr "Η εκτροφή γαϊδουριών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start mining marble because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:100
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine/init.lua:122
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:51
+#: ../../../../data/tribes/buildings/productionsites/empire/marblemine_deep/init.lua:75
+msgid "mining marble"
+msgstr "Η εξόρυξη μαρμάρου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start grinding wheat because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/mill/init.lua:67
+msgid "grinding wheat"
+msgstr "Η άλεση σιταριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start raising pigs because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/piggery/init.lua:57
+msgid "raising pigs"
+msgstr "Η εκτροφή χοίρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start quarrying marble because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/quarry/init.lua:67
+msgid "quarrying marble"
+msgstr "Το κόψιμο μαρμάρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start breeding sheep because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/sheepfarm/init.lua:57
+msgid "breeding sheep"
+msgstr "Η εκτροφή προβάτων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start sculpting a marble column
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/stonemasons_house/init.lua:57
+msgid "sculpting a marble column"
+msgstr "Η σμίλευση μια μαρμάρινης στήλης"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a basket because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/toolsmithy/init.lua:88
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:136
+msgid "making a basket"
+msgstr "Το φτιάξιμο ενός καλαθιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting grapevines because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:57
+msgid "planting grapevines"
+msgstr "Η φύτευση αμπελιών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting grapevines because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/empire/vineyard/init.lua:65
+msgid "harvesting grapes"
+msgstr "Η συγκομιδή σταφυλιών"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a wooden spear because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:84
+msgid "forging a wooden spear"
+msgstr "Η σφυρηλάτηση ενός ξύλινου ακοντίου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a spear because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:99
+msgid "forging a spear"
+msgstr "Η σφυρηλάτηση ενός ακοντίου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging an advanced spear
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:114
+msgid "forging an advanced spear"
+msgstr "Η σφυρηλάτηση ενός προηγμένου ακοντίου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a heavy spear because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:129
+msgid "forging a heavy spear"
+msgstr "Η σφυρηλάτηση ενός βαριού δόρατος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a war spear because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/empire/weaponsmithy/init.lua:144
+msgid "forging a war spear"
+msgstr "Η σφυρηλάτηση ενός πολεμικού δόρατος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making wine because ...
+#: ../../../../data/tribes/buildings/productionsites/empire/winery/init.lua:59
+msgid "making wine"
+msgstr "Η παρασκευή κρασιού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a broadsword because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/init.lua:67
+msgid "forging a broadsword"
+msgstr "Η σφυρηλάτηση ενός πλατύσπαθου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a double-edged sword
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/init.lua:82
+msgid "forging a double-edged sword"
+msgstr "Η σφυρηλάτηση ενός δίκοπου ξίφους"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a golden helmet
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_large/init.lua:97
+msgid "forging a golden helmet"
+msgstr "Η σφυρηλάτηση ενός επίχρυσου κράνους"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a short sword because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_small/init.lua:90
+msgid "forging a short sword"
+msgstr "Η σφυρηλάτηση ενός βραχέος ξίφους"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a long sword because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/armor_smithy_small/init.lua:105
+msgid "forging a long sword"
+msgstr "Η σφυρηλάτηση ενός μακρού ξίφους"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recruiting soldier because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/barracks/init.lua:67
+msgctxt "frisians_building"
+msgid "recruiting soldier"
+msgstr "Η στρατολόγηση"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting bushes because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/berry_farm/init.lua:50
+msgid "planting bushes"
+msgstr "Η φύτευση θάμνων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a felling ax because
+#. ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:88
+msgid "forging a felling ax"
+msgstr "Η σφυρηλάτηση ενός τσεκουριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start forging a pick because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/blacksmithy/init.lua:100
+msgid "forging a pick"
+msgstr "Η σφυρηλάτηση μιας αξίνας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start burning bricks because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/brick_kiln/init.lua:66
+msgid "burning bricks"
+msgstr "Το ψήσιμο τούβλων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making a charcoal stack
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/init.lua:67
+msgid "making a charcoal stack"
+msgstr "Η παρασκευή ξυλάνθρακα"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start collecting coal because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/charcoal_burners_house/init.lua:81
+msgid "collecting coal"
+msgstr "Η συλλογή κάρβουνου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start making clay because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/clay_pit/init.lua:61
+msgid "making clay"
+msgstr "Η παρασκευή πηλού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start gathering berries because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/collectors_house/init.lua:50
+msgid "gathering berries"
+msgstr "Η συλλογή μούρων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start diking because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/dikers_house/init.lua:62
+msgid "diking"
+msgstr "Η συσσώρευση χωμάτων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start building a dike because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/dikers_house/init.lua:72
+msgid "building a dike"
+msgstr "Η κατασκευή αναχώματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start planting barley because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/farm/init.lua:74
+msgid "planting barley"
+msgstr "Η σπορά κριθαριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start harvesting barley because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/farm/init.lua:82
+msgid "harvesting barley"
+msgstr "Ο θερισμός κριθαριού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start baking honey bread because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/honey_bread_bakery/init.lua:64
+#: ../../../../data/tribes/buildings/productionsites/frisians/honey_bread_bakery/init.lua:76
+msgid "baking honey bread"
+msgstr "Το ψήσιμο μελόψωμου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start brewing mead because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/mead_brewery/init.lua:64
+#: ../../../../data/tribes/buildings/productionsites/frisians/mead_brewery/init.lua:76
+msgid "brewing mead"
+msgstr "Το ψήσιμο ρακόμελου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recycling fur because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/recycling_center/init.lua:88
+msgctxt "frisians_building"
+msgid "recycling fur"
+msgstr "Η ανακύκλωση γούνας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recycling iron because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/recycling_center/init.lua:100
+msgctxt "frisians_building"
+msgid "recycling iron"
+msgstr "Η ανακύκλωση σιδήρου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start recycling iron and gold
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/recycling_center/init.lua:112
+msgctxt "frisians_building"
+msgid "recycling iron and gold"
+msgstr "Η ανακύκλωση σιδήρου και χρυσού"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start rearing reindeer because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/reindeer_farm/init.lua:77
+msgctxt "frisians_building"
+msgid "rearing reindeer"
+msgstr "Η εκτροφή τάρανδου"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start producing fur because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/reindeer_farm/init.lua:89
+#: ../../../../data/tribes/buildings/productionsites/frisians/reindeer_farm/init.lua:101
+msgctxt "frisians_building"
+msgid "producing fur"
+msgstr "Η παρασκευή γούνας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start sewing fur garment because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/sewing_room/init.lua:75
+msgid "sewing fur garment"
+msgstr "Το ράψιμο γούνιου υφάσματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start sewing studded fur garment
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/tailors_shop/init.lua:64
+msgid "sewing studded fur garment"
+msgstr "Το ράψιμο ενισχυμένου γούνιου υφάσματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start sewing golden fur garment
+#. because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/tailors_shop/init.lua:76
+msgid "sewing golden fur garment"
+msgstr "Το ράψιμο επίχρυσου γούνιου υφάσματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing only one ration
+#. because ... (can produce more efficient when supply is good)
+#: ../../../../data/tribes/buildings/productionsites/frisians/tavern/init.lua:91
+msgid "preparing only one ration"
+msgstr "Η παρασκευή μόνο μίας μερίδας"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start preparing rations because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/tavern/init.lua:105
+msgid "preparing rations"
+msgstr "Η παρασκευή μερίδων"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start weaving cloth because ...
+#: ../../../../data/tribes/buildings/productionsites/frisians/weaving_mill/init.lua:65
+msgid "weaving cloth"
+msgstr "Η ύφανση υφάσματος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start sleeping because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:73
+#: ../../../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:68
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:218
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:58
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:78
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:76
+#: ../../../../data/tribes/buildings/trainingsites/empire/arena/init.lua:82
+#: ../../../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:42
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:66
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:76
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:75
+msgid "sleeping"
+msgstr "Ο ύπνος"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:81
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 0 to level 1"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:95
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 1 to level 2"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:109
+msgctxt "amazons_building"
+msgid "upgrading soldier evade from level 2 to level 3"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:124
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:138
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 1 to level 2"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:152
+msgctxt "amazons_building"
+msgid "upgrading soldier health from level 2 to level 3"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:167
+msgctxt "amazons_building"
+msgid "upgrading soldier defense from level 0 to level 1"
+msgstr "Η αναβάθμιση της άμυνας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/training_glade/init.lua:181
+msgctxt "amazons_building"
+msgid "upgrading soldier defense from level 1 to level 2"
+msgstr "Η αναβάθμιση της άμυνας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:76
+msgctxt "amazons_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/amazons/warriors_gathering/init.lua:90
+msgctxt "amazons_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:226
+msgctxt "atlanteans_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:240
+msgctxt "atlanteans_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:254
+msgctxt "atlanteans_building"
+msgid "upgrading soldier attack from level 2 to level 3"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/dungeon/init.lua:268
+msgctxt "atlanteans_building"
+msgid "upgrading soldier attack from level 3 to level 4"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 3 στο επίπεδο 4"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:66
+msgctxt "atlanteans_building"
+msgid "upgrading soldier defense from level 0 to level 1"
+msgstr "Η αναβάθμιση της άμυνας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:80
+msgctxt "atlanteans_building"
+msgid "upgrading soldier defense from level 1 to level 2"
+msgstr "Η αναβάθμιση της άμυνας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:94
+msgctxt "atlanteans_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:107
+msgctxt "atlanteans_building"
+msgid "upgrading soldier evade from level 0 to level 1"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/atlanteans/labyrinth/init.lua:120
+msgctxt "atlanteans_building"
+msgid "upgrading soldier evade from level 1 to level 2"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:86
+msgctxt "barbarians_building"
+msgid "upgrading soldier evade from level 0 to level 1"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/battlearena/init.lua:101
+msgctxt "barbarians_building"
+msgid "upgrading soldier evade from level 1 to level 2"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:84
+msgctxt "barbarians_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:98
+msgctxt "barbarians_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:112
+msgctxt "barbarians_building"
+msgid "upgrading soldier attack from level 2 to level 3"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:126
+msgctxt "barbarians_building"
+msgid "upgrading soldier attack from level 3 to level 4"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 3 στο επίπεδο 4"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:140
+msgctxt "barbarians_building"
+msgid "upgrading soldier attack from level 4 to level 5"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 4 στο επίπεδο 5"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:154
+msgctxt "barbarians_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:167
+msgctxt "barbarians_building"
+msgid "upgrading soldier health from level 1 to level 2"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/barbarians/trainingcamp/init.lua:181
+msgctxt "barbarians_building"
+msgid "upgrading soldier health from level 2 to level 3"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/arena/init.lua:90
+#: ../../../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:50
+msgctxt "empire_building"
+msgid "upgrading soldier evade from level 0 to level 1"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/colosseum/init.lua:63
+msgctxt "empire_building"
+msgid "upgrading soldier evade from level 1 to level 2"
+msgstr "Η αναβάθμιση της αποφυγής του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:74
+msgctxt "empire_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:88
+msgctxt "empire_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:102
+msgctxt "empire_building"
+msgid "upgrading soldier attack from level 2 to level 3"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:116
+msgctxt "empire_building"
+msgid "upgrading soldier attack from level 3 to level 4"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 3 στο επίπεδο 4"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:130
+msgctxt "empire_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:143
+msgctxt "empire_building"
+msgid "upgrading soldier health from level 1 to level 2"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:157
+msgctxt "empire_building"
+msgid "upgrading soldier health from level 2 to level 3"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/empire/trainingcamp/init.lua:171
+msgctxt "empire_building"
+msgid "upgrading soldier health from level 3 to level 4"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 3 στο επίπεδο 4"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:84
+msgctxt "frisians_building"
+msgid "upgrading soldier attack from level 3 to level 4"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 3 στο επίπεδο 4"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:99
+msgctxt "frisians_building"
+msgid "upgrading soldier attack from level 4 to level 5"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 4 στο επίπεδο 5"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:115
+msgctxt "frisians_building"
+msgid "upgrading soldier attack from level 5 to level 6"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 5 στο επίπεδο 6"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:132
+msgctxt "frisians_building"
+msgid "upgrading soldier defense from level 1 to level 2"
+msgstr "Η αναβάθμιση της άμυνας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_arena/init.lua:148
+msgctxt "frisians_building"
+msgid "upgrading soldier health from level 1 to level 2"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:83
+msgctxt "frisians_building"
+msgid "upgrading soldier attack from level 0 to level 1"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:98
+msgctxt "frisians_building"
+msgid "upgrading soldier attack from level 1 to level 2"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 1 στο επίπεδο 2"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:114
+msgctxt "frisians_building"
+msgid "upgrading soldier attack from level 2 to level 3"
+msgstr "Η αναβάθμιση της επίθεσης του στρατιώτη από το επίπεδο 2 στο επίπεδο 3"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:130
+msgctxt "frisians_building"
+msgid "upgrading soldier health from level 0 to level 1"
+msgstr "Η αναβάθμιση της υγείας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Completed/Skipped/Did not start upgrading ... because ...
+#: ../../../../data/tribes/buildings/trainingsites/frisians/training_camp/init.lua:145
+msgctxt "frisians_building"
+msgid "upgrading soldier defense from level 0 to level 1"
+msgstr "Η αναβάθμιση της άμυνας του στρατιώτη από το επίπεδο 0 στο επίπεδο 1"

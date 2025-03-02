@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>, 2023\n"
 "Language-Team: Finnish (http://app.transifex.com/widelands/widelands/"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: e.g. Completed/Skipped/Did not start ...
 #. * TRANSLATORS:      ... because the economy doesn’t need the worker '%s'
-#: ../../src/logic/map_objects/tribes/production_program.cc:481
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:485
 #, c-format
 msgid "the economy doesn’t need the worker ‘%s’"
 msgstr "Työntekijälle '%s' ei ole tarvetta"
@@ -26,7 +26,7 @@ msgstr "Työntekijälle '%s' ei ole tarvetta"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1381
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1416
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -38,13 +38,14 @@ msgstr[1] "%s tuotettu"
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1887
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1924
 #, c-format
 msgid "Completed %s"
 msgstr "%s valmis"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:388
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:466
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:699
 #, c-format
 msgid "by %1$s (uploaded by %2$s)"
 msgstr "Tekijältä %1$s (%2$s:n lataama)"
@@ -52,38 +53,38 @@ msgstr "Tekijältä %1$s (%2$s:n lataama)"
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: This is shown for multiplayer games when no host
 #. * TRANSLATORS: server to connect to has been specified yet.
-#: ../../src/ui_fsmenu/internet_lobby.cc:511
+#: ../../../../src/ui_fsmenu/internet_lobby.cc:511
 #, c-format
 msgid "unnamed %u"
 msgstr "Nimetön %u"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:38
+#: ../../../../src/ui_fsmenu/mapdetailsbox.cc:38
 #, c-format
 msgid "invalid tribe ‘%s’"
 msgstr "Epäkelpo heimo '%s'"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/attack_window.cc:433
+#: ../../../../src/wui/attack_window.cc:433
 msgid ""
 "Hold down Shift to remove all soldiers up to the one you’re pointing at"
 msgstr "pidä SHIFT-painike pohjassa poistaaksesi kaikki myöhäisemmät sotilaat"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/attack_window.cc:454
+#: ../../../../src/wui/attack_window.cc:454
 msgid "Hold down Shift to add all soldiers up to the one you’re pointing at"
 msgstr "pidä SHIFT-painike pohjassa lisätäksesi kaikki aiemmat sotilaat"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Button tooltip in in a building's wares input queue -
 #. option explanation
-#: ../../src/wui/inputqueuedisplay.cc:141
+#: ../../../../src/wui/inputqueuedisplay.cc:141
 msgid "Hold down Shift to increase all ware types at the same time"
 msgstr "pidä SHIFT-painike pohjassa lisätäksesi kaikkien tarvikkeiden määrää"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: Button tooltip in in a building's wares input queue -
 #. option explanation
-#: ../../src/wui/inputqueuedisplay.cc:144
+#: ../../../../src/wui/inputqueuedisplay.cc:144
 msgid "Hold down Shift to decrease all ware types at the same time"
 msgstr "pidä SHIFT-painike pohjassa pienentääksesi kaikkien tarvikkeiden määrää saman aikaisesti."

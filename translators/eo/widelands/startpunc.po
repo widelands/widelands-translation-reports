@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Ximena Delgado, 2022\n"
+"Last-Translator: Raúl Contreras, 2024-2025\n"
 "Language-Team: Esperanto (http://app.transifex.com/widelands/widelands/"
 "language/eo/)\n"
 "Language: eo\n"
@@ -12,40 +12,69 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
-# (pofilter) startpunc: Different punctuation at the start
-#. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#: ../../../../src/logic/addons.cc:245
 #, c-format
-msgid "Completed %1$s because %2$s"
-msgstr "%1$s estis kompletigita ĉar %2$s"
+msgid "%1$u missing add-on: %2$s"
+msgid_plural "%1$u missing add-ons: %2$s"
+msgstr[0] "Mankas %1$u kromprogramo: %2$s "
+msgstr[1] "Mankas %1$u kromprogramoj: %2$s"
 
-# (pofilter) startpunc: Different punctuation at the start
-#. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#: ../../../../src/logic/addons.cc:264
 #, c-format
-msgid "Skipped %1$s because %2$s"
-msgstr "%1$s ellasita ĉar %2$s"
+msgid "%u missing add-on"
+msgid_plural "%u missing add-ons"
+msgstr[0] "Mankas %u kromprogramo"
+msgstr[1] "Mankas %u kromprogramoj"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: e.g. 'Did not start working because 3x water and 3x wheat
+#. are missing'
+#. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
+#. bread is missing'
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1311
+#, c-format
+msgid "%s is missing"
+msgid_plural "%s are missing"
+msgstr[0] "Mankas %s"
+msgstr[1] "Mankas %s"
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1381
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1416
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
-msgstr[0] "%s estis farita"
-msgstr[1] "%s estis faritaj"
+msgstr[0] "%s estis produktita"
+msgstr[1] "%s estis produktitaj"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: %s is a list of workers. String is fetched according to
+#. total amount of
+#. workers.
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1498
+#, c-format
+msgid "Recruited %s"
+msgid_plural "Recruited %s"
+msgstr[0] "%s estis rekrutita"
+msgstr[1] "%s estis rekrutitaj"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Success message of a trainingsite '%s' stands for the
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1887
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1924
 #, c-format
 msgid "Completed %s"
 msgstr "%s kompletigita"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/network/gameclient.cc:989
+msgid "/me ’s file failed md5 checksumming."
+msgstr "La dosiero de /me malsukcesis ĉe la MD5-kontrolsumado."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Francisco Fernandes <franciscof09@gmail.com>, 2021\n"
 "Language-Team: Portuguese (http://app.transifex.com/widelands/widelands/"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: January. Keep this to 4 letters maximum.
@@ -21,7 +21,7 @@ msgstr ""
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:94
+#: ../../../../src/base/time_string.cc:94
 msgid "Jan"
 msgstr "jan"
 
@@ -31,7 +31,7 @@ msgstr "jan"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:100
+#: ../../../../src/base/time_string.cc:100
 msgid "Feb"
 msgstr "fev"
 
@@ -41,7 +41,7 @@ msgstr "fev"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:106
+#: ../../../../src/base/time_string.cc:106
 msgid "Mar"
 msgstr "mar"
 
@@ -51,7 +51,7 @@ msgstr "mar"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:112
+#: ../../../../src/base/time_string.cc:112
 msgid "Apr"
 msgstr "abr"
 
@@ -61,7 +61,7 @@ msgstr "abr"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:118
+#: ../../../../src/base/time_string.cc:118
 msgid "May"
 msgstr "mai"
 
@@ -71,7 +71,7 @@ msgstr "mai"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:124
+#: ../../../../src/base/time_string.cc:124
 msgid "Jun"
 msgstr "jun"
 
@@ -81,7 +81,7 @@ msgstr "jun"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:130
+#: ../../../../src/base/time_string.cc:130
 msgid "Jul"
 msgstr "jul"
 
@@ -91,7 +91,7 @@ msgstr "jul"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:136
+#: ../../../../src/base/time_string.cc:136
 msgid "Aug"
 msgstr "ago"
 
@@ -101,7 +101,7 @@ msgstr "ago"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:142
+#: ../../../../src/base/time_string.cc:142
 msgid "Sep"
 msgstr "set"
 
@@ -111,7 +111,7 @@ msgstr "set"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:148
+#: ../../../../src/base/time_string.cc:148
 msgid "Oct"
 msgstr "out"
 
@@ -121,7 +121,7 @@ msgstr "out"
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
 #. * TRANSLATORS: https://www.unicode.org/cldr/charts/latest/summary/root.html
-#: ../../src/base/time_string.cc:154
+#: ../../../../src/base/time_string.cc:154
 msgid "Nov"
 msgstr "nov"
 
@@ -130,7 +130,7 @@ msgstr "nov"
 #. * TRANSLATORS: Use the "Months - abbreviated - Formatting" definition from
 #. the CLDR
 #. * TRANSLATORS: definition if there is one for your language.
-#: ../../src/base/time_string.cc:159
+#: ../../../../src/base/time_string.cc:159
 msgid "Dec"
 msgstr "dez"
 
@@ -138,7 +138,7 @@ msgstr "dez"
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
 #. NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:113
+#: ../../../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
@@ -150,7 +150,7 @@ msgstr[2] "Não foi possível apagar %d jogos."
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
 #. DO NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:142
+#: ../../../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."

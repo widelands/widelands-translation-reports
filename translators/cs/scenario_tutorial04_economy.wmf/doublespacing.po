@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:49+0000\n"
-"Last-Translator: Petr Valášek, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,13 +13,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:258
+#: ../../../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:258
 msgid ""
 "When you’ve played a lot, you will know all these things by heart. But until"
 " then or if you’re unsure about your tribe’s needs and abilities and how its"
 " buildings and workers operate, you can look it up easily in our tribe-"
 "specific in-game help and encyclopedia."
 msgstr "Až budeš mít za sebou několik her, budeš si v těchto věcech jistější.  Ale do té doby, pokud nevíš přesně, co tvůj kmen potřebuje, jaké má schopnosti a co jeho budovy a dělníci dělají, můžeš si to jednoduše najít v encyklopedii svého kmene, která je součástí nápovědy."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../data/campaigns/tutorial04_economy.wmf/scripting/texts.lua:509
+msgid ""
+"The same button can also be found in the building window of production "
+"sites. There, it causes only this one site to produce indefinitely, "
+"regardless of the economy settings. This can be useful to arrange, for "
+"example, that more building materials are produced near the border even if "
+"there are plenty in stock far away in your homeland."
+msgstr "Stejné tlačítko lze nalézt také v okně výrobních budov. Tam umožňuje, aby pouze tato zvolená budova vyráběla neomezeně, bez ohledu na samotné nastavení hospodářství. Tím můžeme například docílit toho, že poblíž hranice  se bude neustále vyrábět další stavební materiál a to i přesto, že ho máš ve svém vnitrozemí skladem již spousty."

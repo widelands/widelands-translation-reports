@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: 92373a9a734415f33212259453a6274d_77ab48e, 2022\n"
+"Last-Translator: Hao Hu, 2024\n"
 "Language-Team: Chinese (China) (http://app.transifex.com/widelands/widelands/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -12,22 +12,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:242
+#: ../../../../src/logic/generic_save_handler.cc:242
 #, c-format
 msgid "Error writing data to file ‘%s’!"
 msgstr "将数据写入文件时出现错误  ‘%s’！"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:266
+#: ../../../../src/logic/generic_save_handler.cc:266
 #, c-format
 msgid "File ‘%s’ was restored from backup."
 msgstr "文件 ‘%s’  已从备份还原。"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gamehost.cc:225
+#: ../../../../src/network/gamehost.cc:225
 msgid "Invalid command! Type /help for a list of commands."
 msgstr "无效命令！ 输入 /help  获取命令列表。"
 
@@ -35,19 +35,20 @@ msgstr "无效命令！ 输入 /help  获取命令列表。"
 #. * TRANSLATORS: Filesize • Download count • Average rating • Number of
 #. comments •
 #. Number of screenshots
-#: ../../src/ui_fsmenu/addons/rows_ui.cc:360
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:438
 #, c-format
 msgid "%1$s   ⬇ %2$u   ★ %3$s   “” %4$u   ▣ %5$u"
 msgstr "%1$s ⬇%2$u  ★ %3$s  “” %4$u ▣ %5$u"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/scenario_select.cc:265
+#: ../../../../src/ui_fsmenu/scenario_select.cc:265
 #, c-format
 msgid "Invalid path to file in campaigns.lua of tutorials.lua: %s"
 msgstr "campaigns.lua 中的文件路径无效 在  tutorials.lua：%s"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/attack_window.cc:635 ../../src/wui/soldierlist.cc:556
+#: ../../../../src/wui/attack_window.cc:635
+#: ../../../../src/wui/soldierlist.cc:558
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "健康：%1$u/%2$u 攻击：%3$u/%4$u 防御：%5$u/%6$u  闪避：%7$u/%8$u"

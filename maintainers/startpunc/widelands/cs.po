@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Michal Havlíček, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2024-2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,31 +13,90 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:52
+#: ../../../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "„%s“"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/base/format/float_node.h:33
+#: ../../../../src/base/format/float_node.h:33
 msgctxt "decimal_separator"
 msgid "."
 msgstr ","
 
 # (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:80
+#: ../../../../src/wui/game_diplomacy_menu.cc:269
+#, c-format
+msgid "%1$s has requested to join the team of %2$s."
+msgstr "Hráč %1$s by se chtěl připojit k týmu %2$s."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:81
+#: ../../../../src/wui/game_diplomacy_menu.cc:276
+#, c-format
+msgid "%1$s has invited %2$s to join their team."
+msgstr "Hráč %1$s pozval hráče %2$s do svého týmu."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:120
+#, c-format
+msgid "%1$s has accepted %2$s into their team."
+msgstr "Hráč %1$s přijal hráče %2$s do svého týmu."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:122
+#, c-format
+msgid "%1$s has accepted the invitation to join the team of %2$s."
+msgstr "Hráč %1$s přijal pozvánku do týmu %2$s."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:127
+#, c-format
+msgid "%1$s has retracted the request to join the team of %2$s."
+msgstr "Hráč %1$s stáhl žádost o připojení do týmu %2$s."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:129
+#, c-format
+msgid "%1$s has denied %2$s membership in their team."
+msgstr "Hráč %1$s odmítl hráči %2$s členství ve svém týmu."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:132
+#, c-format
+msgid "%1$s has retracted the invitation to %2$s to join their team."
+msgstr "Hráč %1$s stáhl pozvánku pro hráče %2$s k připojení do týmu."
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/commands/cmd_diplomacy.cc:134
+#, c-format
+msgid "%1$s has rejected the invitation to join the team of %2$s."
+msgstr "Hráč %1$s odmítl pozvánku do týmu %2$s."
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#: ../../../../src/logic/addons.cc:316
+#, c-format
+msgid "%u game-relevant add-on in use:"
+msgid_plural "%u game-relevant add-ons in use:"
+msgstr[0] "Použito %u hru ovlivňující rozšíření:"
+msgstr[1] "Použity %u hru ovlivňující rozšíření:"
+msgstr[2] "Použito %u hru ovlivňujících rozšíření:"
+msgstr[3] "Použito %u hru ovlivňujících rozšíření:"
+
+# (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:777
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s dokončeno, protože %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:784
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s bylo odloženo, protože %2$s"
@@ -47,7 +106,7 @@ msgstr "%1$s bylo odloženo, protože %2$s"
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:1276
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1311
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"
@@ -57,13 +116,13 @@ msgstr[2] "chybí %s"
 msgstr[3] "chybí %s"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/worker.cc:2084
+#: ../../../../src/logic/map_objects/tribes/worker_tasks/return.cc:115
 #, c-format
 msgid "Your %s can’t find a way home and will likely die."
 msgstr "%s nemůže najít cestu domů a pravděpodobně zemře."
 
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
-#: ../../src/network/gameclient.cc:814
+#: ../../../../src/network/gameclient.cc:817
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -73,19 +132,13 @@ msgstr[2] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
 msgstr[3] "Bylo zjištěno %u nesouladů v rámci vybraných rozšíření:\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:75
+#: ../../../../src/network/network_gaming_messages.cc:75
 #, c-format
 msgid "The player ‘%s’ was defeated and became a spectator."
 msgstr "\"%s\" prohrává hru a pokračuje pouze jako přihlížející."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:78
-#, c-format
-msgid "Client %s is cheating!"
-msgstr "%s obchází pravidla použitím cheatu."
-
-# (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:599
+#: ../../../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
@@ -95,7 +148,7 @@ msgstr "„%1$s“ není platným označením verze. Rozšíření „%2$s“ ne
 #. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
 #. empty if none is used. %2 is scrolling direction.
 #. %3 is the name of the conflicting function.
-#: ../../src/ui_fsmenu/mousewheel_options.cc:297
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:297
 #, c-format
 msgid ""
 "‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
@@ -103,7 +156,14 @@ msgid ""
 msgstr "'%1$s%2$s' má konflikt s '%3$s'. Prosím vyber jinou kombinaci nebo změň nejprve konfliktní nastavení."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/game_summary.cc:255
+#: ../../../../src/wui/game_summary.cc:257
 #, c-format
 msgid "%s won!"
 msgstr "Vítězí %s!"
+
+# (pofilter) startpunc: Different punctuation at the start
+#. * TRANSLATORS: Gametime • Realtime • Gamespeed
+#: ../../../../src/wui/info_panel.cc:465
+#, c-format
+msgid "%1$s • %2$s • %3$s"
+msgstr "Herní čas: %1$s • Místní čas: %2$s • %3$s"

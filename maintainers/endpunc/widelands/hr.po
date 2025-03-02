@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Ivan Bižaca <biza@malilosinj.info>, 2015,2023\n"
 "Language-Team: Croatian (http://app.transifex.com/widelands/widelands/"
@@ -13,111 +13,115 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:237
+#: ../../../../src/editor/editorinteractive.cc:243
 msgid "Publish Map Online…"
 msgstr "Objavi zemljovid online"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:371
+#: ../../../../src/editor/editorinteractive.cc:380
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "Stavi mjesto koje će imati koordinate (0, 0). To će biti gornje lijevo polazno mjesto na minimapi"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1179
+#: ../../../../src/editor/editorinteractive.cc:1312
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Učitavanje karte \"%s\"..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1228
+#: ../../../../src/editor/editorinteractive.cc:1361
 msgid "Loading world…"
 msgstr "Učitavanje svijeta ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:171
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:171
 msgid "Wasteland:"
 msgstr "Pustopoljina"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:633
 msgid "Generating random map…"
 msgstr "Generiranje nasumične karte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:345
 msgid "Saving the map…"
 msgstr "Spremanje karte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:52
+#: ../../../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "Automatsko spremanje igre..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:236
+#: ../../../../src/logic/editor_game_base.cc:236
 #, c-format
 msgid "Creating player %d…"
 msgstr "Stvaranje igrača %d..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:306
+#: ../../../../src/logic/editor_game_base.cc:306
 msgid "Postloading world and tribes…"
 msgstr "Naknadno učitavanje svijeta i plemena..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:114
+#: ../../../../src/logic/save_handler.cc:114
 msgid "Saving game…"
 msgstr "Spremanje igre..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Učitavam zemljovid..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:162 ../../src/network/gamehost.cc:561
-#: ../../src/ui_fsmenu/launch_spg.cc:174 ../../src/wlapplication.cc:788
+#: ../../../../src/network/gameclient.cc:163
+#: ../../../../src/network/gamehost.cc:561
+#: ../../../../src/ui_fsmenu/launch_spg.cc:174
+#: ../../../../src/wlapplication.cc:909
 msgid "Preparing game…"
 msgstr "Pripremam igru..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/color_chooser.cc:253
+#: ../../../../src/ui_basic/color_chooser.cc:259
 msgid "Choose Color…"
 msgstr "Odaberite boju..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:320
+#: ../../../../src/ui_basic/panel.cc:325
 msgid "Please wait…"
 msgstr "Molim pričekajte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "Učitavanje...."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:490
+#: ../../../../src/ui_fsmenu/main.cc:498
 msgid "Single Player…"
 msgstr "Igrajte sami..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:491
+#: ../../../../src/ui_fsmenu/main.cc:499
 msgid "Multiplayer…"
 msgstr "Igrajte s prijateljima..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:46
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:46
 msgid "List of games in your local network:"
 msgstr "Popis igra u lokalnoj mreži"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:262
+#: ../../../../src/wui/actionconfirm.cc:262
 msgid "Dismantle building?"
 msgstr "Rastaviti građevinu"

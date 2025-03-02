@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-08 02:24+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-02 13:53+0000\n"
-"Last-Translator: Zlopez <michal.konecny@psmail.xyz>, 2021-2022\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) numbers: Different numbers
 #. TRANSLATORS: A long description of a campaign
-#: ../../data/campaigns/campaigns.lua:75
+#: ../../../../data/campaigns/campaigns.lua:75
 msgid ""
 "Six months ago, Lutius – a young general of the Empire – was sent with 150 "
 "soldiers to the frontier beyond the northern forests where Barbarian tribes "
@@ -32,11 +32,21 @@ msgid ""
 msgstr "Před šesti měsíci byl Lutius, mladý generál sloužící Císařství, poslán se 150 vojáky na hranici za severními lesy, kudy docházelo k pronikání barbarských kmenů na Císařstvím ovládaná území. Měl za úkol bránit državy císařství. Z počátku šlo vše hladce. Setkal se dokonce s několika barbarskými dětmi a vypadalo to na pokojné soužití, bok po boku s tímto prastarým společenstvem. Začínal se tu cítit bezpečněji a i jeho vojáci polevili v ostražitosti vůči nepřátelské hrozbě. To se jim však vymstilo. Jedné březnové noci bylo jeho nepozorné vojsko přepadeno stovkou barbarských primitivů a bylo zcela rozprášeno. Pouze Lutius sám a pár jeho vojáků se štěstím vyvázlo s holými životy."
 
 # (pofilter) numbers: Different numbers
-#: ../../data/maps/Wisent_Valley.wmf/elemental:11
+#: ../../../../data/maps/No_metal_challenge.wmf/elemental:10
+msgid ""
+"This map is intended as a solo challenge for those very skilled players that"
+" find 1 vs 6 against the AI too easy. Blue player has no metal (except a bit"
+" of iron to kickstart your economy), so you have to rely on the 5% "
+"production of an empty mine. And you’re still 1 vs 6 (though of course you "
+"can remove some AI players to make it a bit easier). Good luck!"
+msgstr "Tato mapa je navržena jako výzva pro jednoho. Je pro zkušené hráče, pro které je 1 proti 6 AI příliš snadné. Pozice modrého nemá k dispozici žádné kovy (jen trochu železa pro rozběh hospodářství), takže budeš muset spoléhat na pětiprocentní produkci prázdných dolů. A to stále ve hře 1 proti 6 (samozřejmě počet AI hráčů lze snížit a hru tak udělat snazší). Hodně štěstí!"
+
+# (pofilter) numbers: Different numbers
+#: ../../../../data/maps/Wisent_Valley.wmf/elemental:11
 msgid ""
 "The black player is surrounded in the center with no resources, so there are"
 " three different ways to use this map: without the black player for a normal"
 " 4 players’ map, with a black AI to add a complication to the expansion of "
 "the other players, or you can play as a challenge with the black player "
 "against the other 4 (VERY difficult)."
-msgstr "Černý hráč je obklíčen ve středu mapy a bez surovin, takže jsou tři možné způsoby jak hrát tuto mapu: bez černého hráče, jako běžnou mapu pro 4 hráče, s černým hráčem, coby UI pro zkomplikování rozšiřování ostatních hráčů nebo zkusit s černým hráčem hrát proti zbylým čtyřem (velmi obtížné)."
+msgstr "Černý hráč je obklíčen ve středu mapy a bez surovin, takže jsou tři možné způsoby jak hrát tuto mapu: bez černého hráče, jako běžnou mapu pro 4 hráče, s černým hráčem, coby AI pro zkomplikování rozšiřování ostatních hráčů, nebo zkusit s černým hráčem hrát proti zbylým čtyřem (velmi obtížné)."

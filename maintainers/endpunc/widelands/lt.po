@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Tachionas <tachionexas@gmail.com>, 2020-2021,2023\n"
 "Language-Team: Lithuanian (http://app.transifex.com/widelands/widelands/"
@@ -14,178 +14,180 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
 "11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 :"
 " n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:237
+#: ../../../../src/editor/editorinteractive.cc:243
 msgid "Publish Map Online…"
 msgstr "Skelbti žemėlapį tinkle..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1228
+#: ../../../../src/editor/editorinteractive.cc:1361
 msgid "Loading world…"
 msgstr "Įkeliamas pasaulis..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1460
+#: ../../../../src/editor/editorinteractive.cc:1596
 msgid "Uploading Add-On…"
 msgstr "Įkeliamas priedas..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1461
+#: ../../../../src/editor/editorinteractive.cc:1597
 msgid "Saving map…"
 msgstr "Išsaugojamas žemėlapis..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1545
-#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:108
+#: ../../../../src/editor/editorinteractive.cc:1681
+#: ../../../../src/ui_fsmenu/addons/screenshot_upload.cc:108
 msgid "Uploading…"
 msgstr "Įkeliama..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:192
 #, c-format
 msgid "Current: %s …"
 msgstr "Dabartinis: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
+#: ../../../../src/editor/ui_menus/main_menu_new_map.cc:106
 msgid "Creating empty map…"
 msgstr "Sukurti tuščią žemėlapį..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:633
 msgid "Generating random map…"
 msgstr "Generuojamas atsitiktinis žemėlapis..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:80
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:31
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:80
+#: ../../../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:31
 msgid "Make Directory"
 msgstr "Sukurti katalogą:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:345
 msgid "Saving the map…"
 msgstr "Žemėlapio išsaugojimas..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:52
+#: ../../../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "Automatinis žaidimo išsaugojimas..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:236
+#: ../../../../src/logic/editor_game_base.cc:236
 #, c-format
 msgid "Creating player %d…"
 msgstr "Žaidėjo %d sukūrimas ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:114
+#: ../../../../src/logic/save_handler.cc:114
 msgid "Saving game…"
 msgstr "Žaidimas įrašomas..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Įkeliamas žemėlapis..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:907
+#: ../../../../src/network/internet_gaming.cc:907
 msgid "/warn <user> <msg> - Send a private system message to the given user"
 msgstr "/warn <user> <msg> - Privačios sistemos žinutės siuntimas atitinkamam naudotojui."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:42
+#: ../../../../src/network/internet_gaming_messages.cc:42
 msgid "Metaserver did not answer"
 msgstr "Metaserveris neatsako."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "Įkeliama..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:357
+#: ../../../../src/ui_fsmenu/addons/packager.cc:357
 msgid "Enter the name for the new add-on."
 msgstr "Įvesti pavadinimą naujam priedui"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/keyboard_options.cc:74
+#: ../../../../src/ui_fsmenu/keyboard_options.cc:74
 msgid "Press the new shortcut or close this window to cancel."
 msgstr "Paspausti naują trumpinį arba uždaryti šį langą norint atšaukti"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:490
+#: ../../../../src/ui_fsmenu/main.cc:498
 msgid "Single Player…"
 msgstr "Vieno žaidėjo ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:491
+#: ../../../../src/ui_fsmenu/main.cc:499
 msgid "Multiplayer…"
 msgstr "Kelių žaidėjų ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:384
+#: ../../../../src/wui/attack_window.cc:384
 msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Siųsti mažiau kareivių. Laikyk paspaudęs Ctlr mygtuką, norėdamas nesiųsti kareivių."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:391
+#: ../../../../src/wui/attack_window.cc:391
 msgid ""
 "Send more soldiers. Hold down Ctrl to send as many soldiers as possible"
 msgstr "Siųsti daugiau kareivių. Laikyk paspaudęs Ctlr mygtuką, norėdamas siųsti visus kareivius, kuriuos galima."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:425
+#: ../../../../src/wui/attack_window.cc:425
 msgid "Click on a soldier to remove him from the list of attackers"
 msgstr "Spustelėk ant kareivio, norėdamas pašalinti jį iš atakuojančių sąrašo."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:428
+#: ../../../../src/wui/attack_window.cc:428
 msgid "Hold down Ctrl to remove all soldiers from the list"
 msgstr "Laikyk paspaudęs Ctlr mygtuką, norėdamas pašalinti visus kareivius iš sąrašo."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:433
+#: ../../../../src/wui/attack_window.cc:433
 msgid ""
 "Hold down Shift to remove all soldiers up to the one you’re pointing at"
 msgstr "Laikyk paspaudęs Shift mygtuką, norėdamas pašalinti visus kareivius išskyrus tavo pažymėtą."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:447
+#: ../../../../src/wui/attack_window.cc:447
 msgid "Click on a soldier to add him to the list of attackers"
 msgstr "Spustelėk ant kareivio, norėdamas įtraukti jį į atakuojančių sąrašą."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:450
+#: ../../../../src/wui/attack_window.cc:450
 msgid "Hold down Ctrl to add all soldiers to the list"
 msgstr "Laikyk paspaudęs Ctlr mygtuką, norėdamas visus kareivius įtraukti į sąrašą."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:454
+#: ../../../../src/wui/attack_window.cc:454
 msgid "Hold down Shift to add all soldiers up to the one you’re pointing at"
 msgstr "Laikyk paspaudęs Shift mygtuką, norėdamas įtraukti visus kareivius išskyrus tavo pažymėtą."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/buildingwindow.cc:212
+#: ../../../../src/wui/buildingwindow.cc:212
 msgid "Muted – click to unmute"
 msgstr "Nutildyta. Norėdamas atšaukti nutildymą, paspausk."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/buildingwindow.cc:218
+#: ../../../../src/wui/buildingwindow.cc:218
 msgid "All buildings of this type are muted – click to unmute"
 msgstr "Visi šio tipo statiniai yra nutildyti – norėdamas atšaukti nutildymą, paspausk."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fieldaction.cc:396
+#: ../../../../src/wui/fieldaction.cc:395
 msgid "Marked for removal by a worker – click to unmark"
 msgstr "Darbininkas pažymėtas pašalinimui. Norėdamas atžymėti, paspausk."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the messages window
-#: ../../src/wui/game_message_menu.cc:546
+#: ../../../../src/wui/game_message_menu.cc:553
 msgid "Show economy messages only"
 msgstr "Rodyti tik ekonomikos žinutes."

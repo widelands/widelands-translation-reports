@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Karol Zygmunt, 2024\n"
+"Last-Translator: Leszek Szary, 2024\n"
 "Language-Team: Polish (http://app.transifex.com/widelands/widelands/language/"
 "pl/)\n"
 "Language: pl\n"
@@ -14,10 +14,34 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && ("
 "n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/keyboard_options.cc:267
+#: ../../../../src/logic/addons.cc:316
+#, c-format
+msgid "%u game-relevant add-on in use:"
+msgid_plural "%u game-relevant add-ons in use:"
+msgstr[0] "%udodatek związany z grą w użyciu: "
+msgstr[1] "%udodatki związane z grą w użyciu:"
+msgstr[2] "%udodatek związany z grą w użyciu"
+msgstr[3] "%u dodatki związane z grą w użyciu"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. * TRANSLATORS: "Unowned port space discovered at 1:11 by Ship2 33 steps
+#. north of
+#. Port5"
+#: ../../../../src/logic/detected_port_space.cc:89
+#, c-format
+msgid "Unowned port space discovered at %1$s by %2$s %3$u step %4$s of %5$s"
+msgid_plural ""
+"Unowned port space discovered at %1$s by %2$s %3$u steps %4$s of %5$s"
+msgstr[0] "Bezpańskie miejsce na port odkryte na %1$s przez %2$s%3$u kroków %4$s z %5$s"
+msgstr[1] "Bezpańskie miejsce na port odkryte na %1$s przez %2$s %3$u kroków %4$s z %5$s"
+msgstr[2] "Bezpańskie miejsce na port odkryte na %1$s przez %2$s %3$u kroków %4$s z %5$s "
+msgstr[3] "Bezpańskie miejsce na port odkryte na %1$s przez %2$s %3$u kroków %4$s z %5$s"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/ui_fsmenu/keyboard_options.cc:267
 #, c-format
 msgid ""
 "The shortcut you selected (‘%1$s’) is already in use for the following "
@@ -26,11 +50,11 @@ msgid ""
 msgstr "Wybrany skrót (‘%1$s’) jest już używany do wykonania następującego działania: ‘%2$s’. Wybierz inny skrót lub najpierw zmień skrót powodujący konflikt. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_options.cc:291
+#: ../../../../src/wlapplication_options.cc:274
 msgid "Multiplayer"
 msgstr "Tryb wieloosobowy "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/stock_menu.cc:62
+#: ../../../../src/wui/stock_menu.cc:62
 msgid "Yellow:"
 msgstr "Żółty: "

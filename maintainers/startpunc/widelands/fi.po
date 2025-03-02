@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Oi Suomi On! <oisuomion@protonmail.com>, 2023\n"
 "Language-Team: Finnish (http://app.transifex.com/widelands/widelands/"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:52
+#: ../../../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "\"%s\""
@@ -24,31 +24,21 @@ msgstr "\"%s\""
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:227
-#, c-format
-msgid "The %1$u version needs to be version %2$u.%3$u or newer."
-msgstr "%1$u täytyy olla versiota %2$u.%3$u tai uudempi."
-
-# (pofilter) startpunc: Different punctuation at the start
-#. * TRANSLATORS: Basic error message when we can't handle the graphics
-#. driver.
-#. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:247
+#: ../../../../src/graphic/gl/initialize.cc:247
 #, c-format
 msgid "The %1$s needs to be version %2$u.%3$u or newer."
 msgstr "%1$s täytyy olla versiota %2$u.%3$u tai uudempi."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:777
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s valmistui, koska %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:784
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s ohitettu, koska %2$s"
@@ -57,7 +47,7 @@ msgstr "%1$s ohitettu, koska %2$s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1381
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1416
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -69,7 +59,7 @@ msgstr[1] "%s tuotettu"
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1887
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1924
 #, c-format
 msgid "Completed %s"
 msgstr "%s valmis"

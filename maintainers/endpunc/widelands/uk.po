@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Кловн, 2022\n"
 "Language-Team: Ukrainian (http://app.transifex.com/widelands/widelands/"
@@ -15,7 +15,14 @@ msgstr ""
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/commands/cmd_replay_end.cc:34
+msgid ""
+"The end of the replay has been reached and the game has been paused. You may"
+" unpause the game and continue watching if you want to."
+msgstr "Повтор закінчено і гра зупанена. Якщо бажаєте, Ви можете знову запустити гру і продовжити перегляд,"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Title for a menu button in the editor. This menu will
@@ -24,40 +31,34 @@ msgstr ""
 #. * TRANSLATORS: Title for a menu button in the game. This menu will
 #. show/hide
 #. building spaces, census, status, etc.
-#: ../../src/editor/editorinteractive.cc:130
-#: ../../src/wui/interactive_gamebase.cc:83
+#: ../../../../src/editor/editorinteractive.cc:133
+#: ../../../../src/wui/interactive_gamebase.cc:83
 msgid "Show / Hide"
 msgstr "Показ. / Схов."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:852
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:863
 msgid "Generate Map"
 msgstr "Згенерувати мапу:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/replay_game_controller.cc:103
-msgid ""
-"The end of the replay has been reached and the game has been paused. You may"
-" unpause the game and continue watching if you want to."
-msgstr "Повтор закінчено і гра зупанена. Якщо бажаєте, Ви можете знову запустити гру і продовжити перегляд,"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:52
+#: ../../../../src/network/network_gaming_messages.cc:52
 msgid "Server uses a different protocol version"
 msgstr "Сервер використовує іншу версію протоколу."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:218
+#: ../../../../src/ui_fsmenu/login_box.cc:218
 msgid "Please enter a nickname!"
 msgstr "Будь ласка введіть псевдонім"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Options: Save game automatically every:
-#: ../../src/ui_fsmenu/options.cc:506 ../../src/ui_fsmenu/options.cc:507
+#: ../../../../src/ui_fsmenu/options.cc:525
+#: ../../../../src/ui_fsmenu/options.cc:526
 msgid "Off"
 msgstr "Викл."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:113
+#: ../../../../src/wui/productionsitewindow.cc:113
 msgid "Exp"
 msgstr "Досв."

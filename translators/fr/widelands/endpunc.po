@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Arthinet Balika, 2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: An entry in the editor's main menu
-#: ../../src/editor/editorinteractive.cc:237
+#: ../../../../src/editor/editorinteractive.cc:243
 msgid "Publish Map Online…"
 msgstr "Publier la carte en ligne..."
 
@@ -26,213 +26,211 @@ msgstr "Publier la carte en ligne..."
 #. show maximum
 #. * building spaces that will be available if all immovables (trees, rocks,
 #. etc.) are removed
-#: ../../src/editor/editorinteractive.cc:473
+#: ../../../../src/editor/editorinteractive.cc:484
 msgid "Hide Maximum Building Spaces"
 msgstr "Cacher les espaces de construction maximum."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:474
+#: ../../../../src/editor/editorinteractive.cc:485
 msgid "Show Maximum Building Spaces"
 msgstr "Montrer les espaces de construction maximum."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:612
+#: ../../../../src/editor/editorinteractive.cc:650
 msgid "The map has not been saved, do you really want to quit?"
 msgstr "La carte n'a pas été enregistré, voulez vous vraiment quitter ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:613
+#: ../../../../src/editor/editorinteractive.cc:651
 msgid "Are you sure you wish to exit the editor?"
 msgstr "Êtes vous sûr de vouloir quitter l'éditeur ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1179
+#: ../../../../src/editor/editorinteractive.cc:1312
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Chargement de la carte \"%s\"..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1228
+#: ../../../../src/editor/editorinteractive.cc:1361
 msgid "Loading world…"
 msgstr "Chargement du monde..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1460
+#: ../../../../src/editor/editorinteractive.cc:1596
 msgid "Uploading Add-On…"
 msgstr "Téléversement de l'Add-On..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1461
+#: ../../../../src/editor/editorinteractive.cc:1597
 msgid "Saving map…"
 msgstr "Sauve la carte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1480
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:315
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:370
+#: ../../../../src/editor/editorinteractive.cc:1616
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:315
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:370
 msgid "Error Saving Map!"
 msgstr "Erreur d'enregistrement de la carte !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1486
+#: ../../../../src/editor/editorinteractive.cc:1622
 msgid "Packaging add-on…"
 msgstr "Conditionnement de l'Add-On"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1545
-#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:108
+#: ../../../../src/editor/editorinteractive.cc:1681
+#: ../../../../src/ui_fsmenu/addons/screenshot_upload.cc:108
 msgid "Uploading…"
 msgstr "Uploade..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:192
 #, c-format
 msgid "Current: %s …"
 msgstr "Actuel : %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/help.cc:36 ../../src/ui_fsmenu/login_box.cc:255
-#: ../../src/ui_fsmenu/main.cc:267 ../../src/ui_fsmenu/main.cc:1101
-#: ../../src/wui/encyclopedia_window.cc:146
-#: ../../src/wui/tribal_encyclopedia.cc:55
+#: ../../../../src/editor/ui_menus/help.cc:36
+#: ../../../../src/ui_fsmenu/login_box.cc:255
+#: ../../../../src/ui_fsmenu/main.cc:276
+#: ../../../../src/ui_fsmenu/main.cc:1174
+#: ../../../../src/wui/encyclopedia_window.cc:146
+#: ../../../../src/wui/tribal_encyclopedia.cc:55
 msgid "Error!"
 msgstr "Erreur !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:361
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:361
 msgid "Map name:"
 msgstr "Nom de la carte :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:366
-msgid "Authors:"
-msgstr "Auteurs :"
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:372
-#: ../../src/ui_fsmenu/addons/packager.cc:189
-#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:77
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:372
+#: ../../../../src/ui_fsmenu/addons/packager.cc:189
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:160
+#: ../../../../src/ui_fsmenu/addons/screenshot_upload.cc:77
 msgid "Description:"
 msgstr "Description :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:378
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:378
 msgid "Hint (optional):"
 msgstr "Astuce (optionnel) :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:389
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:389
 msgid "Tags:"
 msgstr "Etiquettes :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Header for suitable team line-up tags, like "Free for all",
 #. * "Teams of 2", etc.
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:397
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:397
 msgid "This map is suitable for:"
 msgstr "Cette carte est appropriée à :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:399
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:399
 msgid ""
 "Please add suggested team line-ups in the next tab for all selected options"
 msgstr "Veuillez ajouter des suggestions de composition d’équipe dans l’onglet suivant pour toutes les options sélectionnées."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:432
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:432
 msgid "Ferry range:"
 msgstr "Portée des traversiers :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:477
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:477
 msgid "Suggested Teams:"
 msgstr "Équipes suggérées :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:76
+#: ../../../../src/editor/ui_menus/main_menu_new_map.cc:76
 msgid "Terrain:"
 msgstr "Terrain :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
+#: ../../../../src/editor/ui_menus/main_menu_new_map.cc:106
 msgid "Creating empty map…"
 msgstr "Création d'une carte vide..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:81
-#: ../../src/wui/gamedetails.cc:169
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:81
+#: ../../../../src/wui/gamedetails.cc:169
 msgid "Players:"
 msgstr "Joueurs :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:143
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:143
 msgid "Water:"
 msgstr "Eau :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:157
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:157
 msgid "Land:"
 msgstr "Terre :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:171
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:171
 msgid "Wasteland:"
 msgstr "Terres en friche :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:184
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:184
 msgid "Mountains:"
 msgstr "Montagnes :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:220
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:220
 msgid "Random number:"
 msgstr "Nombre aléatoire :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:244
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:244
 msgid "Map ID:"
 msgstr "ID de la carte :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:633
 msgid "Generating random map…"
 msgstr "Génération d'une carte aléatoire..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:728
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:739
 msgid ""
 "This map was generated automatically by the Widelands Random Map Generator."
 msgstr "Cette carte a été générée automatiquement par le Générateur de Cartes Aléatoires Widelands"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:71
-#: ../../src/wui/game_main_menu_save_game.cc:89
-#: ../../src/wui/gamedetails.cc:192
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:71
+#: ../../../../src/wui/game_main_menu_save_game.cc:89
+#: ../../../../src/wui/gamedetails.cc:192
 msgid "Filename:"
 msgstr "Nom de fichier :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:174
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:187
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:174
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:187
 msgid "Error Creating Directory!"
 msgstr "Erreur à la création du répertoire !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:313
-#: ../../src/wui/game_main_menu_save_game.cc:286
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:313
+#: ../../../../src/wui/game_main_menu_save_game.cc:325
 #, c-format
 msgid "A file with the name ‘%s’ already exists. Overwrite?"
 msgstr "Un fichier nommé '%s' existe déjà. L'écraser ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:53
+#: ../../../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:53
 msgid "Enter Directory Name:"
 msgstr "Entrez le nom du répertoire :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:110
+#: ../../../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:110
 msgid "This extension is reserved!"
 msgstr "Cette extension est réservée !"
 
@@ -240,153 +238,153 @@ msgstr "Cette extension est réservée !"
 #. * TRANSLATORS: Info text in editor player menu when a player has selected
 #. more than the
 #. recommended number of players. Choice is made by OK/Abort.
-#: ../../src/editor/ui_menus/player_menu.cc:66
+#: ../../../../src/editor/ui_menus/player_menu.cc:66
 msgid ""
 "We do not recommend setting more than 8 players except for testing purposes."
 " Are you sure that you want more than 8 players?"
 msgstr "Nous ne recommandons pas de définir plus de 8 joueurs excepté pour des fins de test. Êtes vous sur que vous voulez plus de 8 joueurs ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:53
+#: ../../../../src/editor/ui_menus/tool_change_height_options_menu.cc:53
 msgid "Increase/Decrease height by:"
 msgstr "Augmenter / Diminuer la valeur par :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_change_height_options_menu.cc:66
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
+#: ../../../../src/editor/ui_menus/tool_change_height_options_menu.cc:66
+#: ../../../../src/editor/ui_menus/tool_noise_height_options_menu.cc:79
 msgid "Set height to:"
 msgstr "Fixer l' élévation à :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:62
+#: ../../../../src/editor/ui_menus/tool_change_resources_options_menu.cc:62
 msgid "Increase/Decrease amount by:"
 msgstr "Augmenter / Diminuer la valeur par :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:75
+#: ../../../../src/editor/ui_menus/tool_change_resources_options_menu.cc:75
 msgid "Set amount to:"
 msgstr "Fixer le montant à :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:53
+#: ../../../../src/editor/ui_menus/tool_noise_height_options_menu.cc:53
 msgid "Minimum height:"
 msgstr "Elévation minimum :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/tool_noise_height_options_menu.cc:66
+#: ../../../../src/editor/ui_menus/tool_noise_height_options_menu.cc:66
 msgid "Maximum height:"
 msgstr "Elévation maximum :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/toolsize_menu.cc:51
+#: ../../../../src/editor/ui_menus/toolsize_menu.cc:51
 msgid "Size:"
 msgstr "Taille :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/toolsize_menu.cc:64
+#: ../../../../src/editor/ui_menus/toolsize_menu.cc:64
 msgid "Gaps:"
 msgstr "Espaces :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:52
+#: ../../../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "Auto-sauvegarde du jeu..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip header for characters in illegal filenames.
 #. * This is followed by a list of bullet points
-#: ../../src/io/filesystem/illegal_filename_check.cc:93
+#: ../../../../src/io/filesystem/illegal_filename_check.cc:93
 msgctxt "illegal_filename_characters"
 msgid "The following characters are not allowed:"
 msgstr "Les caractères suivants ne sont pas permis :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:236
+#: ../../../../src/logic/editor_game_base.cc:236
 #, c-format
 msgid "Creating player %d…"
 msgstr "Création des joueur %d..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:306
+#: ../../../../src/logic/editor_game_base.cc:306
 msgid "Postloading world and tribes…"
 msgstr "Post-chargement du monde et des tribus..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:246 ../../src/logic/game.cc:289
-#: ../../src/logic/game.cc:407 ../../src/logic/game.cc:462
+#: ../../../../src/logic/game.cc:288 ../../../../src/logic/game.cc:331
+#: ../../../../src/logic/game.cc:449 ../../../../src/logic/game.cc:504
 msgid "Preloading map…"
 msgstr "Pré-chargement de la carte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:345
+#: ../../../../src/logic/game.cc:387
 msgid "Initializing game…"
 msgstr "Initialisation de la partie..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:604
+#: ../../../../src/logic/game.cc:646
 msgid "Creating player infrastructure…"
 msgstr "Création de l'infrastructure du joueur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:722
+#: ../../../../src/logic/game.cc:764
 msgid "Initializing…"
 msgstr "Initialisation..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:223
-#: ../../src/logic/generic_save_handler.cc:227
+#: ../../../../src/logic/generic_save_handler.cc:223
+#: ../../../../src/logic/generic_save_handler.cc:227
 msgid "File successfully saved!"
 msgstr "Fichier sauvegardé avec succès !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:232
+#: ../../../../src/logic/generic_save_handler.cc:232
 #, c-format
 msgid "Directory ‘%s’ could not be created!"
 msgstr "Le répertoire ‘%s’ ne peut être créé !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:236
+#: ../../../../src/logic/generic_save_handler.cc:236
 #, c-format
 msgid "File ‘%s’ could not be removed!"
 msgstr "Le fichier ‘%s’ n'a pu être enlevé !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:237
+#: ../../../../src/logic/generic_save_handler.cc:237
 msgid "Try saving under a different name!"
 msgstr "Essaye de sauver avec nom différent !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:242
+#: ../../../../src/logic/generic_save_handler.cc:242
 #, c-format
 msgid "Error writing data to file ‘%s’!"
 msgstr "Erreur à l'écriture des données du fichier ‘%s’ !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:249
+#: ../../../../src/logic/generic_save_handler.cc:249
 msgid "Saved file may be corrupt!"
 msgstr "Le fichier de sauvegarde est peut être corrompu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:256
+#: ../../../../src/logic/generic_save_handler.cc:256
 #, c-format
 msgid "File ‘%s’ could not be restored!"
 msgstr "Le fichier ‘%s’ n'a pu être restauré !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:273
+#: ../../../../src/logic/generic_save_handler.cc:273
 msgid "An unexpected error occurred:"
 msgstr "Une erreur inattendue  s'est produite :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite lost (taken/destroyed by enemy)
-#: ../../src/logic/map_objects/tribes/militarysite.cc:254
+#: ../../../../src/logic/map_objects/tribes/militarysite.cc:253
 msgctxt "building"
 msgid "Lost!"
 msgstr "Perdu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:255
+#: ../../../../src/logic/map_objects/tribes/militarysite.cc:254
 msgid "Militarysite lost!"
 msgstr "Bâtiment militaire perdu !"
 
@@ -394,254 +392,315 @@ msgstr "Bâtiment militaire perdu !"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:297
+#: ../../../../src/logic/map_objects/tribes/militarysite.cc:296
 msgid "Enemy Defeated!"
 msgstr "Ennemi vaincu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/militarysite.cc:297
+#: ../../../../src/logic/map_objects/tribes/militarysite.cc:296
 msgid "Enemy at site defeated!"
 msgstr "Ennemi sur site vaincu !"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Militarysite is being attacked
-#: ../../src/logic/map_objects/tribes/militarysite.cc:757
+#: ../../../../src/logic/map_objects/tribes/militarysite.cc:715
 msgctxt "building"
 msgid "Attack!"
 msgstr "Attaque !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1846
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1881
 msgid "No soldier found for this training level!"
 msgstr "Aucun soldat trouvé pour ce niveau d’entraînement !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/productionsite.cc:1197
+#: ../../../../src/logic/map_objects/tribes/productionsite.cc:1201
 msgid "Can’t find any more resources!"
 msgstr "Impossible de trouver plus de ressources !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:1791
+#: ../../../../src/logic/map_objects/tribes/ship.cc:1802
 msgid "Island Circumnavigated"
 msgstr "Nous avons navigué tout autours de l'île."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: A ship has discovered land
-#: ../../src/logic/map_objects/tribes/ship.cc:1856
+#: ../../../../src/logic/map_objects/tribes/ship.cc:1868
 msgid "Land Ahoy!"
 msgstr "Terre en vue !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:1910
+#: ../../../../src/logic/map_objects/tribes/ship.cc:1922
 msgid "Port Lost!"
 msgstr "Port perdu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:1966
+#: ../../../../src/logic/map_objects/tribes/ship.cc:1980
 msgid "Port Space Lost!"
 msgstr "Perte d'espace pour un port !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:2090
+#: ../../../../src/logic/map_objects/tribes/worker_tasks/return.cc:121
 msgid "Worker got lost!"
 msgstr "Un ouvrier s'est perdu !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:114
+#: ../../../../src/logic/save_handler.cc:114
 msgid "Saving game…"
 msgstr "Sauvegarde du jeu..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:170
-#: ../../src/wui/game_main_menu_save_game.cc:338
+#: ../../../../src/logic/save_handler.cc:170
+#: ../../../../src/wui/game_main_menu_save_game.cc:377
 msgid "Saving failed!"
 msgstr "La sauvegarde a échoué !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:87
+#: ../../../../src/map_io/map_buildingdata_packet.cc:891
+msgid "Building’s inputs changed!"
+msgstr "Entrées des constructions changées !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: The argument is the buiding name
+#: ../../../../src/map_io/map_buildingdata_packet.cc:902
+#, c-format
+msgid "%s: the building’s inputs have changed."
+msgstr "%s: Les entrées des constructions ont changé !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/map_io/map_buildingdata_packet.cc:905
+msgid "The following wares have been deleted:"
+msgstr "Les marchandises suivantes ont été supprimé :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/map_io/map_saver.cc:87
 msgid "Autosaving map…"
 msgstr "Auto-sauvegarde de la carte"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Chargement de la carte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:459
+#: ../../../../src/map_io/s2map.cc:460
 msgid "Bluebyte Settlers II Map. No comment defined!"
 msgstr "Carte Bluebyte Settlers II. Pas de commentaire défini !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:162 ../../src/network/gamehost.cc:561
-#: ../../src/ui_fsmenu/launch_spg.cc:174 ../../src/wlapplication.cc:788
+#: ../../../../src/network/gameclient.cc:163
+#: ../../../../src/network/gamehost.cc:561
+#: ../../../../src/ui_fsmenu/launch_spg.cc:174
+#: ../../../../src/wlapplication.cc:909
 msgid "Preparing game…"
 msgstr "Préparation de la partie"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:118
+#: ../../../../src/network/gamehost.cc:118
 msgid "Available host commands are:"
 msgstr "Les commandes hôte disponibles sont :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:174
+#: ../../../../src/network/gamehost.cc:174
 msgid "You can not kick yourself!"
 msgstr "Vous ne pouvez pas vous expulser vous-même !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:179
+#: ../../../../src/network/gamehost.cc:179
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "Êtes vous sûr de vouloir expulser %s ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:189
+#: ../../../../src/network/gamehost.cc:189
 msgid "Kick acknowledgement cancelled: No name given!"
 msgstr "Approbation de l'expulsion annulée : Pas de nom donné !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:197
+#: ../../../../src/network/gamehost.cc:197
 msgid "Kick acknowledgement cancelled: Wrong name given!"
 msgstr "Approbation de l'expulsion annulée : Mauvais nom donné !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:354
+#: ../../../../src/network/gamehost.cc:354
 msgid "Failed to host the server!"
 msgstr "Échec de l'hébergement du serveur !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:363
+#: ../../../../src/network/gamehost.cc:363
 msgid "Failed to start the server!"
 msgstr "Échec au démarrage du serveur !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:206
+#: ../../../../src/network/internet_gaming.cc:206
 msgid "Successfully reconnected to the metaserver!"
 msgstr "Reconnecté au méta-serveur avec succès !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:421
+#: ../../../../src/network/internet_gaming.cc:421
 msgid "Welcome to the Widelands Metaserver!"
 msgstr "Bienvenue sur le Meta-serveur de Widelands !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:437
+#: ../../../../src/network/internet_gaming.cc:437
 msgid "Our forums can be found at:"
 msgstr "Nos forums peuvent êtres trouvés à :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:439
+#: ../../../../src/network/internet_gaming.cc:439
 msgid "For reporting bugs, visit:"
 msgstr "Pour signaler des bugs, visitez :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:859
+#: ../../../../src/network/internet_gaming.cc:859
 msgid "Message could not be sent: You are not connected to the metaserver!"
 msgstr "Le message n'a pas pu être envoyé : vous n'êtes pas connecté au méta-serveur !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:879
-#: ../../src/network/internet_gaming.cc:887
+#: ../../../../src/network/internet_gaming.cc:879
+#: ../../../../src/network/internet_gaming.cc:887
 msgid "Message could not be sent: Was this supposed to be a private message?"
 msgstr "Le message n'a pas pu être envoyé : était-ce censé être un message privé ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:902
+#: ../../../../src/network/internet_gaming.cc:902
 msgid "Supported admin commands:"
 msgstr "Commandes admin supportées :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:32
+#: ../../../../src/network/internet_gaming_messages.cc:32
 msgid "The protocol version you are using is not supported!"
 msgstr "La version du protocole que vous utilisez n'est pas supportée !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:33
+#: ../../../../src/network/internet_gaming_messages.cc:33
 msgid "You are already logged in!"
 msgstr "Vous êtes déjà connecté !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:69
+#: ../../../../src/network/network_gaming_messages.cc:69
 #, c-format
 msgid "Host sent player %s to the lobby!"
 msgstr "L'hôte a envoyé le joueur %s dans le vestibule !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:73
+#: ../../../../src/network/network_gaming_messages.cc:73
 #, c-format
 msgid "Started to send file %1$s to %2$s!"
 msgstr "Commence à envoyer le fichier %1$s vers %2$s !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:77
+#: ../../../../src/network/network_gaming_messages.cc:77
 #, c-format
 msgid "Client %s has cheating features enabled!"
 msgstr "Le client%s a activé les fonctionnalités de triche !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:78
+#: ../../../../src/network/network_gaming_messages.cc:78
 #, c-format
 msgid "Client %s is cheating!"
 msgstr "Le client %s triche !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_lan_promotion.cc:357
+#: ../../../../src/network/network_lan_promotion.cc:359
 msgid "Failed to use the local network!"
 msgstr "Utilisation du réseau local échouée !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/color_chooser.cc:253
+#: ../../../../src/ui_basic/color_chooser.cc:259
 msgid "Choose Color…"
 msgstr "Choisir la couleur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:320
+#: ../../../../src/ui_basic/panel.cc:325
 msgid "Please wait…"
 msgstr "Patientez s'il vous plaît..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:457
+#: ../../../../src/ui_basic/panel.cc:467
 msgid "Game ending – please wait…"
 msgstr "Fin du jeu – Patientez s'il vous plaît..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "Chargement..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/contact.cc:72
+#: ../../../../src/ui_fsmenu/addons/contact.cc:72
 msgid "Send this message now?"
 msgstr "Envoyer le message maintenant ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/login_box.cc:93
+#: ../../../../src/ui_fsmenu/addons/login_box.cc:93
 msgid "Username:"
 msgstr "Nom d'utilisateur :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/login_box.cc:100
-#: ../../src/ui_fsmenu/login_box.cc:63
+#: ../../../../src/ui_fsmenu/addons/login_box.cc:100
+#: ../../../../src/ui_fsmenu/login_box.cc:63
 msgid "Password:"
 msgstr "Mot de passe :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:241
+#: ../../../../src/ui_fsmenu/addons/manager.cc:354
+msgid "Min Players:"
+msgstr "Joueurs Min :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:367
+msgid "Min Width:"
+msgstr "Largeur Min :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:380
+msgid "Min Height:"
+msgstr "Hauteur Min :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:393
+msgid "Min Size:"
+msgstr "Taille Min :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:406
+msgid "Max Players:"
+msgstr "Joueurs Max :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:419
+msgid "Max Width:"
+msgstr "Largeur Max :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:432
+msgid "Max Height:"
+msgstr "Hauteur Max :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:445
+msgid "Max Size:"
+msgstr "Taille Max :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:455
 msgid "Choose add-on to upload…"
 msgstr "Choisissez un module complémentaire à uploader..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:252
+#: ../../../../src/ui_fsmenu/addons/manager.cc:466
 msgid "Upload a screenshot…"
 msgstr "Uploader une capture d'écran..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:305
+#: ../../../../src/ui_fsmenu/addons/manager.cc:528
 msgid "Fix dependencies…"
 msgstr "Réparer les dépendances..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:351
+#: ../../../../src/ui_fsmenu/addons/manager.cc:574
 msgid "Launch the add-ons packager…"
 msgstr "Lance l'empaqueteur de modules complémentaires..."
 
@@ -649,12 +708,12 @@ msgstr "Lance l'empaqueteur de modules complémentaires..."
 #. * TRANSLATORS: This button allows the user to send a message to the
 #. Widelands
 #. Development Team
-#: ../../src/ui_fsmenu/addons/manager.cc:362
+#: ../../../../src/ui_fsmenu/addons/manager.cc:585
 msgid "Contact us…"
 msgstr "Nous contacter..."
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:649
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1012
 #, c-format
 msgid "Are you certain that you want to upgrade this %u add-on?"
 msgid_plural "Are you certain that you want to upgrade these %u add-ons?"
@@ -663,22 +722,22 @@ msgstr[1] "Êtes vous certain de vouloir mettre à jour ces %u modules compléme
 msgstr[2] "Êtes vous certain de vouloir mettre à jour ces %u modules complémentaires ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:819
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1195
 msgid "Please tick the confirmation checkbox to upload add-ons"
 msgstr "Veuillez cocher la boîte de confirmation pour uploader des modules complémentaires s'il vous plait."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:822
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1198
 msgid "Please tick the confirmation checkbox to upload content"
 msgstr "Veuillez cocher la boîte de confirmation pour uploader du contenu s'il vous plait."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:959
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1355
 msgid "Connecting to the server…"
 msgstr "Connexion au serveur..."
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1164
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1617
 #, c-format
 msgid "Upgrade the following %u add-on:"
 msgid_plural "Upgrade the following %u add-ons:"
@@ -687,24 +746,35 @@ msgstr[1] "Mise à niveau des modules complémentaires %u :"
 msgstr[2] "Mise à niveau des modules complémentaires %u :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1417
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1934
 #, c-format
 msgid "Do you really want to upload the add-on ‘%s’ to the server?"
 msgstr "Voulez vous vraiment téléverser le module complémentaire ‘%s’ sur le serveur ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:136
+#: ../../../../src/ui_fsmenu/addons/packager.cc:136
 msgid "Writing Add-Ons…"
 msgstr "Écrit modules complémentaires"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:503
+#: ../../../../src/ui_fsmenu/addons/packager.cc:177
+#: ../../../../src/wui/mapdetails.cc:201 ../../../../src/wui/mapdetails.cc:206
+msgid "Minimum Widelands Version:"
+msgstr "Version minimum de Widelands :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/packager.cc:183
+msgid "Maximum Widelands Version:"
+msgstr "Version maximum de Widelands :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/packager.cc:503
 #, c-format
 msgid "Do you really want to commit all changes to the add-on ‘%s’ to disk?"
 msgstr "Voulez vous vraiment appliquer tous les changements du module '%s' au disque ?"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager.cc:507
+#: ../../../../src/ui_fsmenu/addons/packager.cc:507
 #, c-format
 msgid ""
 "Do you really want to commit all changes to the following %u add-on to disk?"
@@ -716,55 +786,62 @@ msgstr[1] "Voulez vous vraiment appliquer tous les changements des modules '%u' 
 msgstr[2] "Voulez vous vraiment appliquer tous les changements des modules '%u' au disque ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager_box.cc:439
+#: ../../../../src/ui_fsmenu/addons/packager.cc:516
+msgid ""
+"Warning: If you manually edited any files in this add-on, your changes may "
+"be overwritten!"
+msgstr "Attention: Si vous éditez manuellement des fichiers dans ce module, vos changements pourraient êtres écrasés !"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/packager_box.cc:440
 #, c-format
 msgid "Do you really want to delete the directory ‘%s’ and all its contents?"
 msgstr "Voulez vous vraiment supprimer le répertoire '%s' et tout son contenu ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/packager_box.cc:499
+#: ../../../../src/ui_fsmenu/addons/packager_box.cc:503
 msgid "Difficulty:"
 msgstr "Difficulté :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:66
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:66
 msgid "Edit…"
-msgstr "Édite..."
+msgstr "Éditer ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:91
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:91
 msgid "Are you sure you want to delete this comment?"
-msgstr "Êtes vous sûr de vouloir supprimer ce commentaire ?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce commentaire ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:230
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:230
 msgid "Color…"
 msgstr "Couleur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:311
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:311
 msgid "Preview:"
 msgstr "Prévisualisation :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:336
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:336
 msgid "The comment contains invalid richtext markup:"
-msgstr "Le commentaire contient un balisage richtext non valide :"
+msgstr "Le commentaire contient un balisage rich-text non valide :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: "Resource" here refers to the name of a translation unit
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:390
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:390
 msgctxt "tx"
 msgid "Resource Name:"
 msgstr "Nom de la ressource :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:695
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:696
 msgid "Write a comment…"
 msgstr "Écrire un commentaire..."
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:889
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:892
 #, c-format
 msgid "%u comment:"
 msgid_plural "%u comments:"
@@ -773,38 +850,49 @@ msgstr[1] "%u commentaires :"
 msgstr[2] "%u commentaires :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:912
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:915
 #, c-format
 msgid "‘%1$s’ commented on version %2$s:"
 msgstr "‘%1$s’ à commenté sur la version %2$s :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/internet_lobby.cc:65
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:168
+msgid "Hint:"
+msgstr "Astuce :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/rows_ui.cc:175
+msgid "Comment by uploader:"
+msgstr "Commentaire de l'uploader :"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/internet_lobby.cc:65
 msgid "Clients online:"
 msgstr "Clients en ligne :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/internet_lobby.cc:108
+#: ../../../../src/ui_fsmenu/internet_lobby.cc:108
 msgid "Name of your server:"
 msgstr "Nom de votre serveur :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:167
+#: ../../../../src/ui_fsmenu/launch_game.cc:167
 msgid "Change map…"
 msgstr "Changer de carte..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:177
+#: ../../../../src/ui_fsmenu/launch_game.cc:177
 msgid "Change saved game…"
 msgstr "Changer de sauvegarde..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:340
+#: ../../../../src/ui_fsmenu/launch_game.cc:343
 msgid "All selected starting conditions ignore the map’s starting positions"
 msgstr "Toutes les conditions de départ sélectionnées ignorent les positions de départ de la carte."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:234 ../../src/ui_fsmenu/launch_spg.cc:135
+#: ../../../../src/ui_fsmenu/launch_mpg.cc:240
+#: ../../../../src/ui_fsmenu/launch_spg.cc:135
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -813,199 +901,205 @@ msgid ""
 msgstr "Widelands à tenté de démarrer un jeu avec un fichier introuvable dans le chemin donné.\nCe fichier est : %s\nSi cela arrive pendant une partie en réseau: l'hébergeur peut avoir sélectionné un fichier que vous ne possédez pas. Normalement ce type de fichier doit vous être envoyé par l'hébergeur. Peut-être que le transfert de ce fichier n'est pas encore terminé !?!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:58
+#: ../../../../src/ui_fsmenu/login_box.cc:58
 msgid "Nickname:"
 msgstr "Pseudo :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:218
+#: ../../../../src/ui_fsmenu/login_box.cc:218
 msgid "Please enter a nickname!"
 msgstr "Veuillez entrer un pseudonyme !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:228
+#: ../../../../src/ui_fsmenu/login_box.cc:228
 msgid "Please enter your password!"
 msgstr "Veuillez entrer votre mot de passe s'il vous plait !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:490
+#: ../../../../src/ui_fsmenu/main.cc:498
 msgid "Single Player…"
 msgstr "Un joueur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:491
+#: ../../../../src/ui_fsmenu/main.cc:499
 msgid "Multiplayer…"
 msgstr "Multijoueur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:492
+#: ../../../../src/ui_fsmenu/main.cc:500
 msgid "Editor…"
 msgstr "Éditeur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:993 ../../src/ui_fsmenu/netsetup_lan.cc:352
+#: ../../../../src/ui_fsmenu/main.cc:501
+msgid "Watch Replay…"
+msgstr "Voir replay..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/main.cc:1067
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:352
 msgid "No tribes found!"
 msgstr "Pas de Tribus trouvées !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:1039
+#: ../../../../src/ui_fsmenu/main.cc:1112
 msgid "Are you sure you wish to exit Widelands?"
 msgstr "Êtes vous sûr de vouloir quitter Widelands ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used as e.g. "Invert scroll direction for map zooming:
 #. Vertical"
-#: ../../src/ui_fsmenu/mousewheel_options.cc:464
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:464
 msgid "Invert scroll direction for map zooming:"
 msgstr "Inverser la direction du défilement pour zoomer sur la carte :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used as e.g. "Invert scroll direction for tab switching:
 #. Vertical"
-#: ../../src/ui_fsmenu/mousewheel_options.cc:469
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:469
 msgid "Invert scroll direction for tab switching:"
 msgstr "Inverser la direction du défilement pour sauter les onglets :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Used as e.g. "Invert scroll direction for increase/decrease:
 #. Vertical"
-#: ../../src/ui_fsmenu/mousewheel_options.cc:474
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:474
 msgid "Invert scroll direction for increase/decrease:"
 msgstr "Inverser la direction du défilement pour augmenter/réduire :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/mousewheel_options.cc:567
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:567
 #, c-format
 msgid ""
 "‘%1$s’, ‘%2$s’, or ‘%3$s’ conflicts with the recommended settings. Change "
 "the conflicting setting(s) too?"
-msgstr "\"%1$s\", \"%2$s\" ou \"%3$s\" sont en conflit avec les paramètres recommandés. Modifier aussi le(s) paramètre(s) en conflit ?"
+msgstr "\"%1$s\", \"%2$s\" ou \"%3$s\" sont en conflit avec les paramètres recommandés. Modifier aussi le.s paramètre.s en conflit ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:110
+#: ../../../../src/ui_fsmenu/multiplayersetupgroup.cc:110
 msgid ""
 "The player name of the selected slot (%1%) does not match your own (%2%). "
 "Are you sure that you want to occupy this slot?"
-msgstr "Le nom du joueur du slot sélectionné (%1%) ne correspond pas au vôtre (%2%). Êtes-vous sûr(e) de vouloir occuper ce créneau ?"
+msgstr "Le nom du joueur du slot sélectionné (%1%) ne correspond pas au vôtre (%2%). Êtes-vous sûr.e de vouloir occuper ce créneau ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:46
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:46
 msgid "List of games in your local network:"
 msgstr "Liste des parties sur votre réseau local :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:58
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:58
 msgid "Your nickname:"
 msgstr "Votre pseudo :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:68
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:68
 msgid "Host to connect:"
 msgstr "Hôte auquel se connecter :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/netsetup_lan.cc:300
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:300
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters and must not be \"team\"."
-msgstr "Entrez un pseudo valide. Cette valeur peut contenir des lettres anglaises seulement ainsi que des nombres, les caractères @ . + - _ et ne doit pas être \"team\". (équipe)"
+msgstr "Entrez un pseudo valide. Cette valeur peut seulement contenir des lettres anglaises, des nombres, les caractères @ . + - _ et ne doit pas être \"team\". (équipe)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:184
+#: ../../../../src/ui_fsmenu/options.cc:202
 msgid "Distance for windows to snap to other panels:"
 msgstr "Distance pour que la fenêtre se colle à d'autres :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:197
+#: ../../../../src/ui_fsmenu/options.cc:215
 msgid "Distance for windows to snap to borders:"
 msgstr "Distance pour que la fenêtre se colle aux bords :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:207
+#: ../../../../src/ui_fsmenu/options.cc:225
 msgid "Edit keyboard and mouse actions…"
 msgstr "Éditer les actions du clavier et de la souris..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:223
+#: ../../../../src/ui_fsmenu/options.cc:241
 msgid "Save game automatically every:"
 msgstr "Sauvegarde automatique à chaque :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:237
+#: ../../../../src/ui_fsmenu/options.cc:255
 msgid "Maximum number of autosave files:"
 msgstr "Nombre maximal de sauvegardes automatiques :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:253
+#: ../../../../src/ui_fsmenu/options.cc:271
 msgid "Delete replays after:"
 msgstr "Supprimer les replays après :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:316
+#: ../../../../src/ui_fsmenu/options.cc:334
 msgid "Pause game when inactive for:"
-msgstr "Mettre jeu en pause quand inactif depuis :"
+msgstr "Mettre le jeu en pause quand inactif depuis :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Button to bring up a window to edit teaching progress in the
 #. Options
-#: ../../src/ui_fsmenu/options.cc:386
+#: ../../../../src/ui_fsmenu/options.cc:404
 msgid "Progress…"
 msgstr "Progression..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:94
+#: ../../../../src/ui_fsmenu/tech_info.cc:94
 msgid "Operating System:"
 msgstr "Système d'exploitation :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:117
+#: ../../../../src/ui_fsmenu/tech_info.cc:117
 msgid "Locale:"
 msgstr "Locale :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:118
+#: ../../../../src/ui_fsmenu/tech_info.cc:118
 msgid "Home Directory:"
 msgstr "Dossier personnel :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:119
+#: ../../../../src/ui_fsmenu/tech_info.cc:119
 msgid "Configuration File:"
 msgstr "Fichier de configuration :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:120
+#: ../../../../src/ui_fsmenu/tech_info.cc:120
 msgid "Data Directory:"
-msgstr "Dossier de donnée :"
+msgstr "Dossier de données :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:121
+#: ../../../../src/ui_fsmenu/tech_info.cc:121
 msgid "Locale Directory:"
 msgstr "Dossier locale :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:123
+#: ../../../../src/ui_fsmenu/tech_info.cc:123
 msgid "Executable Directory:"
 msgstr "Dossier exécutable :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:126
+#: ../../../../src/ui_fsmenu/tech_info.cc:126
 msgid "Enabled Add-Ons:"
 msgstr "Modules complémentaires activés :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/tech_info.cc:128
+#: ../../../../src/ui_fsmenu/tech_info.cc:128
 msgid "Inactive Installed Add-Ons:"
 msgstr "Modules complémentaires installés inactifs :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wlapplication.cc:880 ../../src/wlapplication.cc:885
-#: ../../src/wui/savegameloader.cc:131
+#: ../../../../src/wlapplication.cc:1005 ../../../../src/wlapplication.cc:1010
+#: ../../../../src/wui/savegameloader.cc:131
 msgid "Error message:"
 msgstr "Message d'erreur :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication.cc:1559
+#: ../../../../src/wlapplication.cc:1758
 #, c-format
 msgid ""
 "Unknown command line parameter: %s\n"
@@ -1013,160 +1107,172 @@ msgid ""
 msgstr "Paramètre de ligne de commande inconnu: %s\nIl manque peut être '=' ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_options.cc:562
+#: ../../../../src/wlapplication_options.cc:550
 msgid "Toggle Maximum Build Spaces"
 msgstr "Bascule les espaces de construction maximum."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:201
+#: ../../../../src/wui/actionconfirm.cc:201
 msgid "Destroy building?"
 msgstr "Détruire le bâtiment ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:202
+#: ../../../../src/wui/actionconfirm.cc:202
 msgid "Do you really want to destroy this building?"
 msgstr "Voulez vous réellement détruire ce bâtiment ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:263
+#: ../../../../src/wui/actionconfirm.cc:263
 msgid "Do you really want to dismantle this building?"
 msgstr "Voulez vous réellement démonter ce bâtiment ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:320 ../../src/wui/actionconfirm.cc:323
+#: ../../../../src/wui/actionconfirm.cc:320
+#: ../../../../src/wui/actionconfirm.cc:323
 msgid "Do you really want to enhance this building?"
 msgstr "Voulez vous réellement améliorer ce bâtiment ?"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Warning message when player wants to enhance a military
 #. building
-#: ../../src/wui/actionconfirm.cc:322
+#: ../../../../src/wui/actionconfirm.cc:322
 msgid "Be careful if the enemy is near!"
 msgstr "Soyez précautionneux si l' ennemi est proche !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:419
+#: ../../../../src/wui/actionconfirm.cc:419
 msgid "Cancel expedition?"
 msgstr "Annuler l'expédition ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:420
+#: ../../../../src/wui/actionconfirm.cc:420
 msgid "Do you really want to cancel the active expedition?"
 msgstr "Voulez-vous vraiment annuler l'expédition en cours ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:459
+#: ../../../../src/wui/actionconfirm.cc:459
 msgid "Do you really want to give up and become a spectator?"
-msgstr "Voulez vous vraiment abandonner et devenir un spectateur ?"
+msgstr "Voulez-vous vraiment abandonner et devenir un spectateur ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:459
+#: ../../../../src/wui/actionconfirm.cc:459
 msgid "Resign?"
 msgstr "Abandonner ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:433
-msgid ""
-"Hold down Shift to remove all soldiers up to the one you’re pointing at"
-msgstr "Maintenez enfoncé Shift pour enlever tous les soldats jusqu'à celui que vous pointez."
+#: ../../../../src/wui/attack_window.cc:432
+msgid "Hold down Shift to remove all ships up to the one you’re pointing at"
+msgstr "Maintenir enfoncé Shift pour enlever tous les navires jusqu'à celui que vous pointez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:454
+#: ../../../../src/wui/attack_window.cc:433
+msgid ""
+"Hold down Shift to remove all soldiers up to the one you’re pointing at"
+msgstr "Maintenir enfoncé Shift pour enlever tous les soldats jusqu'à celui que vous pointez."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/attack_window.cc:453
+msgid "Hold down Shift to add all ships up to the one you’re pointing at"
+msgstr "Maintenir Shift enfoncé pour ajouter tous les navires jusqu'à celui que vous pointez."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/attack_window.cc:454
 msgid "Hold down Shift to add all soldiers up to the one you’re pointing at"
 msgstr "Maintenez Shift enfoncé pour ajouter tous les soldats jusqu'à celui que vous pointez."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:94
+#: ../../../../src/wui/building_statistics_menu.cc:94
 msgid "Under construction:"
 msgstr "En construction :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:124
+#: ../../../../src/wui/building_statistics_menu.cc:124
 msgid "Low productivity threshold:"
 msgstr "Niveau de productivité faible :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:731
+#: ../../../../src/wui/building_statistics_menu.cc:735
 msgid "Low productivity:"
 msgstr "Productivité faible :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/buildingwindow.cc:331 ../../src/wui/fieldaction.cc:107
+#: ../../../../src/wui/buildingwindow.cc:331
+#: ../../../../src/wui/fieldaction.cc:106
 msgid "Construction costs:"
 msgstr "Coûts de construction :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/buildingwindow.cc:367
+#: ../../../../src/wui/buildingwindow.cc:367
 msgid "Returns:"
 msgstr "Retours :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:493
-#: ../../src/wui/soldiercapacitycontrol.cc:85
+#: ../../../../src/wui/constructionsitewindow.cc:526
+#: ../../../../src/wui/soldiercapacitycontrol.cc:85
 msgid ""
 "Decrease capacity. Hold down Ctrl to set the capacity to the lowest value"
-msgstr "Diminuer la capacité. Maintenez le bouton Ctrl pour mettre la valeur la plus basse."
+msgstr "Diminuer la capacité. Maintenir le bouton Ctrl pour mettre la valeur la plus basse."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:503
-#: ../../src/wui/soldiercapacitycontrol.cc:94
+#: ../../../../src/wui/constructionsitewindow.cc:536
+#: ../../../../src/wui/soldiercapacitycontrol.cc:94
 msgid ""
 "Increase capacity. Hold down Ctrl to set the capacity to the highest value"
-msgstr "Augmenter la capacité. Maintenez le bouton Ctrl pour mettre la valeur la plus haute."
+msgstr "Augmenter la capacité. Maintenir le bouton Ctrl pour mettre la valeur la plus haute."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:620
+#: ../../../../src/wui/economy_options_window.cc:624
 msgid "Overwrite?"
 msgstr "Ré-écrire ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/economy_options_window.cc:621
+#: ../../../../src/wui/economy_options_window.cc:625
 msgid "A profile with this name already exists. Do you wish to replace it?"
-msgstr "Un profil pourtant se nom existe déjà. Voulez vous le remplacer ?"
+msgstr "Un profil pourtant ce nom existe déjà. Voulez vous le remplacer ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:159
+#: ../../../../src/wui/fleet_options_window.cc:159
 msgid "Ships:"
 msgstr "Vaisseaux :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:161
+#: ../../../../src/wui/fleet_options_window.cc:161
 msgid "Total waterways:"
 msgstr "Voies navigables totales :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:162
+#: ../../../../src/wui/fleet_options_window.cc:162
 msgid "Unserviced waterways:"
 msgstr "Voies navigables non utilisées :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:163
+#: ../../../../src/wui/fleet_options_window.cc:163
 msgid "Total ferries:"
-msgstr "Total des ferries :"
+msgstr "Total des traversiers :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:164
+#: ../../../../src/wui/fleet_options_window.cc:164
 msgid "Unemployed ferries:"
-msgstr "Ferries non utilisés :"
+msgstr "Traversiers non utilisés :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:175
+#: ../../../../src/wui/fleet_options_window.cc:175
 msgid "Desired number of transport ships:"
 msgstr "Nombre désiré de vaisseaux de transport :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fleet_options_window.cc:176
+#: ../../../../src/wui/fleet_options_window.cc:176
 msgid "Desired number of unemployed ferries:"
-msgstr "Nombre désiré de ferries non utilisés :"
+msgstr "Nombre désiré de traversiers non utilisés :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_exit_confirm_box.cc:28
+#: ../../../../src/wui/game_exit_confirm_box.cc:28
 msgid "Are you sure you wish to exit this game?"
 msgstr "Êtes vous sur de vouloir quitter cette partie ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_main_menu_save_game.cc:288
-#: ../../src/wui/game_main_menu_save_game.cc:328
+#: ../../../../src/wui/game_main_menu_save_game.cc:327
+#: ../../../../src/wui/game_main_menu_save_game.cc:367
 msgid "Error Saving Game!"
 msgstr "Erreur pendant la sauvegarde du jeu !"
 
@@ -1175,7 +1281,7 @@ msgstr "Erreur pendant la sauvegarde du jeu !"
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:633
+#: ../../../../src/wui/game_message_menu.cc:644
 #, c-format
 msgid "Restore the selected %d message"
 msgid_plural "Restore the selected %d messages"
@@ -1184,104 +1290,104 @@ msgstr[1] "Restaurer les %d messages sélectionnés:"
 msgstr[2] "Restaurer les %d messages sélectionnés:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:59
+#: ../../../../src/wui/game_summary.cc:59
 msgid "Player Info:"
 msgstr "Information joueur :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:92
+#: ../../../../src/wui/game_summary.cc:92
 msgid "Elapsed time:"
 msgstr "Temps écoulé :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:249
+#: ../../../../src/wui/game_summary.cc:251
 msgid "You won!"
 msgstr "Vous avez gagné !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:255
+#: ../../../../src/wui/game_summary.cc:257
 #, c-format
 msgid "%s won!"
 msgstr "%s a gagné !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:145
+#: ../../../../src/wui/gamedetails.cc:145
 msgid "Error:"
 msgstr "Erreur :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:151
+#: ../../../../src/wui/gamedetails.cc:151
 msgid "Map Name:"
 msgstr "Nom de la carte :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: The time a replay starts. Shown in the replay loading screen
-#: ../../src/wui/gamedetails.cc:162
+#: ../../../../src/wui/gamedetails.cc:162
 msgid "Start of Replay:"
 msgstr "Début du replay :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: The current time of a savegame. Shown in the game saving and
 #. loading screens.
-#: ../../src/wui/gamedetails.cc:165
+#: ../../../../src/wui/gamedetails.cc:165
 msgid "Game Time:"
 msgstr "Temps de jeu :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:173
+#: ../../../../src/wui/gamedetails.cc:173
 msgid "Widelands Version:"
 msgstr "Version de Widelands :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:177
+#: ../../../../src/wui/gamedetails.cc:177
 msgid "Win Condition:"
 msgstr "Condition de victoire :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/gamedetails.cc:198
+#: ../../../../src/wui/gamedetails.cc:198
 msgid "Game data error:"
 msgstr "Erreur dans les donnés du jeu"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/interactive_base.cc:1887
+#: ../../../../src/wui/interactive_base.cc:1858
 msgid "Failed saving screenshot!"
 msgstr "Capture d'écran échouée !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/interactive_gamebase.cc:239
+#: ../../../../src/wui/interactive_gamebase.cc:241
 msgid "Are you sure you wish to restart this replay?"
 msgstr "Êtes vous sûr de vouloir redémarrer ce replay ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/interactive_gamebase.cc:240
+#: ../../../../src/wui/interactive_gamebase.cc:242
 msgid "Are you sure you wish to restart this scenario?"
 msgstr "Êtes vous sur de vouloir recommencer le scénario ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/interactive_gamebase.cc:657
+#: ../../../../src/wui/interactive_gamebase.cc:669
 msgid "Remaining construction costs:"
 msgstr "Coûts des travaux restants :"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This is a tool tip for a map tag
-#: ../../src/wui/map_tags.cc:48
+#: ../../../../src/wui/map_tags.cc:48
 msgid "Players face different conditions or balancing is not checked"
 msgstr "Les joueurs font face a différente conditions ou l'équilibrage n'est pas vérifié."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/pinned_note.cc:76
+#: ../../../../src/wui/pinned_note.cc:76
 msgid "Change color…"
 msgstr "Change la couleur..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:60
+#: ../../../../src/wui/savegamedeleter.cc:60
 msgid "Do you really want to delete this game?"
 msgstr "Voulez-vous vraiment effacer cette partie ?"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate
 #. string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:63
+#: ../../../../src/wui/savegamedeleter.cc:63
 #, c-format
 msgid "Do you really want to delete this %d game?"
 msgid_plural "Do you really want to delete these %d games?"
@@ -1290,24 +1396,24 @@ msgstr[1] "Voulez vous réellement supprimer ces %d parties ?"
 msgstr[2] "Voulez vous réellement supprimer ces %d parties ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:96
+#: ../../../../src/wui/savegamedeleter.cc:96
 msgid "Error Deleting File!"
 msgstr "Erreur à la suppression du fichier !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:96
+#: ../../../../src/wui/savegamedeleter.cc:96
 msgid "Error Deleting Files!"
 msgstr "Erreur lors de la suppression des fichiers !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegamedeleter.cc:124
+#: ../../../../src/wui/savegamedeleter.cc:124
 msgid "Do you really want to delete this replay?"
 msgstr "Voulez-vous vraiment effacer ce replay ?"
 
 # (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end, Different punctuation at the end
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a
 #. separate string. DO NOT omit the placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:127
+#: ../../../../src/wui/savegamedeleter.cc:127
 #, c-format
 msgid "Do you really want to delete this %d replay?"
 msgid_plural "Do you really want to delete these %d replays?"
@@ -1316,62 +1422,63 @@ msgstr[1] "Voulez vous réellement supprimer ces %d replays ?"
 msgstr[2] "Voulez vous réellement supprimer ces %d replays ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:147 ../../src/wui/savegametable.cc:175
-#: ../../src/wui/savegametable.cc:238
+#: ../../../../src/wui/savegametable.cc:147
+#: ../../../../src/wui/savegametable.cc:175
+#: ../../../../src/wui/savegametable.cc:238
 msgid "The date this game was saved"
 msgstr "La date à laquelle cette partie a été sauvegardé."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:583
+#: ../../../../src/wui/seafaring_statistics_menu.cc:592
 msgid "Show ships shipping wares and workers"
 msgstr "Afficher les navires transportant des marchandises et des ouvriers."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:598
+#: ../../../../src/wui/seafaring_statistics_menu.cc:607
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Afficher les expéditions qui ont trouvé un espace portuaire ou qui fondent une colonie."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for volume slider in sound options
-#: ../../src/wui/sound_options.cc:72
+#: ../../../../src/wui/sound_options.cc:73
 msgid "Changes the volume. Click to hear a sample."
 msgstr "Change le volume. Cliquer ici pour entendre un échantillon"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/sound_options.cc:202
+#: ../../../../src/wui/sound_options.cc:219
 msgid ""
 "Sound is disabled either due to a problem with the sound driver, or because "
 "it was switched off at the command line."
 msgstr "Le son est désactivé, soit à cause d'un problème de pilote logiciel, soit parce qu'il a été désactivé au niveau de la ligne de commande"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:59
+#: ../../../../src/wui/stock_menu.cc:59
 msgid "Red:"
 msgstr "Rouge :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:59
+#: ../../../../src/wui/stock_menu.cc:59
 msgid "Stock is lower than the target"
 msgstr "Le stock est inférieur à la cible."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:62
+#: ../../../../src/wui/stock_menu.cc:62
 msgid "Yellow:"
 msgstr "Jaune :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:63
+#: ../../../../src/wui/stock_menu.cc:63
 msgid "Stock is equal to the target"
 msgstr "Le stock est égal à la cible."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:66
+#: ../../../../src/wui/stock_menu.cc:66
 msgid "Green:"
 msgstr "Vert :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/stock_menu.cc:67
+#: ../../../../src/wui/stock_menu.cc:67
 msgid "Stock is higher than the target"
 msgstr "Le stock est supérieur à la cible."

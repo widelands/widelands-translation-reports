@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2024\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2025\n"
 "Language-Team: German (http://app.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,13 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: "Port space of Player1 discovered at 2:22 by Ship3 44 steps
 #. north
 #. of Port6"
-#: ../../src/logic/detected_port_space.cc:108
+#: ../../../../src/logic/detected_port_space.cc:103
 #, c-format
 msgid "Port space of %1$s discovered at %2$s by %3$s %4$u step %5$s of %6$s"
 msgid_plural ""
@@ -28,12 +28,12 @@ msgstr[1] "Hafenbauplatz von %1$s bei %2$s, %4$u Felder %5$s von %6$s, durch  %3
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:128
+#: ../../../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause  –  Erzwingt eine Spielpause."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:130
+#: ../../../../src/network/gamehost.cc:130
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause  –  Setzt das Spiel fort."

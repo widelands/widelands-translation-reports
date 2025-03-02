@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
 "Last-Translator: Yuriy Sokolov <lention@mail.ru>, 2015,2019,2022-2024\n"
 "Language-Team: Russian (http://app.transifex.com/widelands/widelands/"
@@ -14,11 +14,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || ("
 "n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an Amazon ware: Water, part 2
-#: ../../data/tribes/initialization/amazons/units.lua:186
+#: ../../../../data/tribes/initialization/amazons/units.lua:186
 msgctxt "amazons_ware"
 msgid ""
 "Water is used by the cassava root cooker, the chocolate brewery, the gold "
@@ -27,7 +27,7 @@ msgstr "Воду поставляется на  маниоковую кухню,
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an Amazon ware: Ration, part 2
-#: ../../data/tribes/initialization/amazons/units.lua:263
+#: ../../../../data/tribes/initialization/amazons/units.lua:263
 msgctxt "amazons_ware"
 msgid ""
 "Rations are produced by the food preserver out of fish or meat and bread. "
@@ -36,7 +36,7 @@ msgstr "Пайки готовят в пищевом цеху из хлеба, р
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an Amazon ware: Padded Protector
-#: ../../data/tribes/initialization/amazons/units.lua:495
+#: ../../../../data/tribes/initialization/amazons/units.lua:495
 msgctxt "amazons_ware"
 msgid ""
 "Padded protectors are strong and durable armor. They are produced by the "
@@ -46,7 +46,7 @@ msgstr "Мягкая защита -  это прочная и долговечн
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Note helptext for an Amazon production site: Rare Tree
 #. Plantation
-#: ../../data/tribes/initialization/amazons/units.lua:1456
+#: ../../../../data/tribes/initialization/amazons/units.lua:1456
 msgctxt "amazons_building"
 msgid ""
 "Rare trees are planted according to the economy requirements. Keep roads "
@@ -56,7 +56,7 @@ msgstr "Редкие деревья растят по запросу эконо�
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Performance helptext for an Amazon production site: Charcoal
 #. Kiln
-#: ../../data/tribes/initialization/amazons/units.lua:1487
+#: ../../../../data/tribes/initialization/amazons/units.lua:1493
 #, lua-format
 msgctxt "amazons_building"
 msgid "The charcoal kiln needs %s on average to produce one lump of coal."
@@ -64,7 +64,7 @@ msgstr "Печи углежога нужно в среднем %s  для про
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a Barbarian ware: Log, part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:114
+#: ../../../../data/tribes/initialization/barbarians/units.lua:114
 msgctxt "barbarians_ware"
 msgid ""
 "Barbarian lumberjacks fell the trees; rangers take care of the supply of "
@@ -75,7 +75,7 @@ msgstr "Варварские дровосеки валят деревья; ег�
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Purpose helptext for a Barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1315
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1317
 msgctxt "barbarians_building"
 msgid ""
 "Processes granite to make ‘grout’, a substance that solidifies and so "
@@ -85,8 +85,8 @@ msgstr "Переработайте гранит, чтобы сделать це�
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Warmill
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1454
-#: ../../data/tribes/initialization/barbarians/units.lua:1473
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1458
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1477
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -95,7 +95,7 @@ msgstr "\"Новый топор воина взывает к лучшему ег
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for an Empire ware: Armor
-#: ../../data/tribes/initialization/empire/units.lua:569
+#: ../../../../data/tribes/initialization/empire/units.lua:569
 msgctxt "empire_ware"
 msgid ""
 "Basic armor for Empire soldiers. It is produced in the armor smithy and used"
@@ -105,7 +105,7 @@ msgstr "Основной доспех имперских солдат. Он из
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a Frisian ware: Log, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:101
+#: ../../../../data/tribes/initialization/frisians/units.lua:101
 msgctxt "frisians_ware"
 msgid ""
 "Woodcutters fell the trees; foresters take care of the supply of trees. Logs"
@@ -116,7 +116,7 @@ msgstr "Лесорубы валят деревья; лесники сохран�
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Helptext for a Frisian ware: Basket
-#: ../../data/tribes/initialization/frisians/units.lua:517
+#: ../../../../data/tribes/initialization/frisians/units.lua:517
 msgctxt "frisians_ware"
 msgid ""
 "Baskets are needed by the fruit collector to gather berries. They are woven "
@@ -125,7 +125,7 @@ msgstr "Корзины используются собирателем для с
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: Note helptext for a Frisian production site: Diker's House
-#: ../../data/tribes/initialization/frisians/units.lua:1243
+#: ../../../../data/tribes/initialization/frisians/units.lua:1243
 msgid ""
 "You can manually remove the dike when the land is sufficiently secured to "
 "prevent wasting resources. To do so, build a flag, road, or building in its "

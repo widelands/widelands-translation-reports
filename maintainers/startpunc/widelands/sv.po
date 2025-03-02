@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Niklas Nordgren, 2022-2023\n"
+"Last-Translator: Jan Lindblom <janlindblom@fastmail.fm>, 2024\n"
 "Language-Team: Swedish (http://app.transifex.com/widelands/widelands/"
 "language/sv/)\n"
 "Language: sv\n"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:52
+#: ../../../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "\"%s\""
@@ -24,29 +24,29 @@ msgstr "\"%s\""
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:227
+#: ../../../../src/graphic/gl/initialize.cc:227
 #, c-format
-msgid "The %1$u version needs to be version %2$u.%3$u or newer."
-msgstr "%1$u-versionen måste vara version %2$u.%3$u eller nyare."
+msgid "The %1$s version needs to be version %2$u.%3$u or newer."
+msgstr "%1$s-versionen måste vara version %2$u.%3$u eller nyare."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:247
+#: ../../../../src/graphic/gl/initialize.cc:247
 #, c-format
 msgid "The %1$s needs to be version %2$u.%3$u or newer."
 msgstr "%1$s måste vara version %2$u.%3$u eller nyare."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:599
+#: ../../../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
 msgstr "\"%1$s\" är inte en giltig versionssträng. Tillägget \"%2$s\" kommer inte att sparas."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:912
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:915
 #, c-format
 msgid "‘%1$s’ commented on version %2$s:"
 msgstr "\"%1$s\" kommenterade version %2$s:"
@@ -55,7 +55,7 @@ msgstr "\"%1$s\" kommenterade version %2$s:"
 #. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
 #. empty if none is used. %2 is scrolling direction.
 #. %3 is the name of the conflicting function.
-#: ../../src/ui_fsmenu/mousewheel_options.cc:297
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:297
 #, c-format
 msgid ""
 "‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
@@ -64,14 +64,14 @@ msgstr "'%1$s %2$s' är i konflikt med '%3$s'. Var vänlig och välj en annan ko
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: This is an access key combination.
-#: ../../src/wlapplication_options.cc:1070
+#: ../../../../src/wlapplication_options.cc:1053
 msgctxt "hotkey"
 msgid "Shift + Click"
 msgstr "'Shift' + klicka"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: This is an access key combination.
-#: ../../src/wlapplication_options.cc:1075
+#: ../../../../src/wlapplication_options.cc:1058
 msgctxt "hotkey"
 msgid "Ctrl + Click"
 msgstr "'Ctrl' + klicka"
@@ -79,7 +79,7 @@ msgstr "'Ctrl' + klicka"
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:119
+#: ../../../../src/wui/gamedetails.cc:119
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] "%1% katalog och %2% valda:"

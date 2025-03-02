@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Arthinet Balika, 2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces, Different use of double spaces
-#: ../../src/logic/addons.cc:310
+#: ../../../../src/logic/addons.cc:316
 #, c-format
 msgid "%u game-relevant add-on in use:"
 msgid_plural "%u game-relevant add-ons in use:"
@@ -25,32 +25,49 @@ msgstr[1] "%u  Add-Ons en usage en relation avec le jeu:"
 msgstr[2] "%u Add-Ons en usage en relation avec le jeu:"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/generic_save_handler.cc:273
+#: ../../../../src/logic/detected_port_space.cc:96
+#, c-format
+msgid "Port space of %1$s discovered at %2$s by %3$s"
+msgstr "Espace portuaire de  %1$s découvert à %2$s par %3$s"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/logic/generic_save_handler.cc:273
 msgid "An unexpected error occurred:"
 msgstr "Une erreur inattendue  s'est produite :"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/loadgame.cc:41
+#: ../../../../src/network/gameclient.cc:234
+#, c-format
+msgid ""
+"Widelands could not establish a connection to the given address. Either no "
+"Widelands server was reachable at the TCP port %u or the server shut down as"
+" you tried to connect."
+msgstr "Widelands n'a pas pu établir de connexion à l'adresse donnée. Ou aucun serveur n'a pu être joint sur le port TCP  %u ou le serveur était éteint lors que vous avez essayé de vous connecter."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/ui_fsmenu/crash_report.cc:132
+#, c-format
+msgid ""
+"It looks like Widelands crashed the last time you ran it, but a backtrace "
+"for debugging was automatically generated. Please provide the report along "
+"with a description of what was going on in the game and what you did last "
+"before the crash to the Widelands Development Team under %s so we can fix "
+"the problem."
+msgstr "Il semble que Widelands s'est planté la dernière fois que vous l'avez exécuté, mais une trace de débogage a été automatiquement générée. Veuillez fournir le rapport ainsi qu'une description de ce qu'il  se passait dans le jeu et de ce que vous avez fait avant le crash à l'équipe de développement de Widelands sous %s afin que nous puissions résoudre le problème."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/ui_fsmenu/loadgame.cc:41
 msgid "Choose Replay"
 msgstr "Choisir le  replay"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/multiplayersetupgroup.cc:507
-#: ../../src/ui_fsmenu/singleplayerdropdown.cc:284
+#: ../../../../src/ui_fsmenu/multiplayersetupgroup.cc:507
+#: ../../../../src/ui_fsmenu/singleplayerdropdown.cc:284
 msgid "Start type is set via the scenario"
 msgstr "Type  de début déterminé dans le scénario"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/random_game.cc:73
-msgid ""
-"The random map generator is still in beta stage. The maps it generates are "
-"usually – but not always – well playable. Seafaring and artifacts are not "
-"supported. Add-ons of the Tribes and Script categories are disabled in "
-"random matches."
-msgstr "Le générateur de cartes aléatoires est encore en phase bêta. Les cartes qu'il génère sont généralement – mais pas toujours – bien jouables. La navigation et les artefacts ne sont pas pris en charge. Les modules complémentaires des catégories  Tribus, et Script sont désactivés dans les correspondances aléatoires."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/random_game.cc:128
+#: ../../../../src/ui_fsmenu/random_game.cc:128
 msgid ""
 "The random map generator was unable to generate a suitable map. This happens"
 " occasionally because the generator is still in beta stage. Please try again"
@@ -60,7 +77,7 @@ msgstr "Le générateur de carte aléatoire n'a pas été capable de générer u
 # (pofilter) doublespacing: Different use of double spaces, Different use of double spaces
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:119
+#: ../../../../src/wui/gamedetails.cc:119
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] " %1% répertoire et %2% sélectionnés:"
@@ -68,7 +85,7 @@ msgstr[1] "%1% répertoires  et %2% sélectionnés:"
 msgstr[2] "%1% répertoires  et %2% sélectionnés:"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/load_or_save_game.cc:147
+#: ../../../../src/wui/load_or_save_game.cc:152
 msgid ""
 "This replay was created with a different Widelands version. It might be compatible, but will more likely desync or even fail to load.\n"
 "\n"
@@ -78,6 +95,6 @@ msgid ""
 msgstr "Ce replay a été créé avec une version différente de Widelands. Il peut être compatible, mais pourra être désynchronisé ou même refusera de se charger.\n\nS'il vous plait n'envoyez pas de rapport de bug pouvant survenir pendant le visionnage de ce replay.\n\nVoulez vous néanmoins charger ce replay ?  "
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/stock_menu.cc:56
+#: ../../../../src/wui/stock_menu.cc:56
 msgid "Compare stocked amounts to economy target quantities"
-msgstr "Comparer les montants stockés aux quantités ciblés par l'économie  "
+msgstr "Comparer les les stocks aux quantités ciblés par l'économie  "

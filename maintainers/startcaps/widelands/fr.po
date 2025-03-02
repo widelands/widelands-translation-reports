@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Arthinet Balika, 2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,43 +13,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares
-#: ../../src/logic/map_objects/tribes/production_program.cc:535
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:540
 #, c-format
 msgid "the building has the following wares: %s"
 msgstr "Le bâtiment dispose des marchandises suivantes : %s"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: %s is a list of wares
-#: ../../src/logic/map_objects/tribes/production_program.cc:558
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:564
 #, c-format
 msgid "the building doesn’t have the following wares: %s"
 msgstr "Le bâtiment ne dispose pas des marchandises suivantes : %s"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/production_program.cc:609
+#. * TRANSLATORS: 'Completed/Skipped/Did not start ... because the workers
+#. need no experience'.
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:586
+msgid "the workers need no experience"
+msgstr "Les ouvriers n'ont pas besoin d'expérience"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:615
 msgid "the fleet needs a ferry"
-msgstr "La flotte a besoin d'un ferry"
+msgstr "La flotte a besoin d'un traversier"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: 'Completed/Skipped/Did not start ... because the fleet needs
 #. a ship/ferry'.
-#: ../../src/logic/map_objects/tribes/production_program.cc:609
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:615
 msgid "the fleet needs a ship"
 msgstr "La flotte a besoin d'un vaisseau"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/logic/map_objects/tribes/production_program.cc:616
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:622
 msgid "the fleet needs no ferries"
-msgstr "La flotte ne nécessite pas de ferries"
+msgstr "La flotte ne nécessite pas de traversiers"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. * TRANSLATORS: 'Completed/Skipped/Did not start ... because the fleet needs
 #. no ships/ferries'.
-#: ../../src/logic/map_objects/tribes/production_program.cc:616
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:622
 msgid "the fleet needs no ships"
 msgstr "La flotte ne nécessite pas de vaisseaux"
 
@@ -57,7 +64,7 @@ msgstr "La flotte ne nécessite pas de vaisseaux"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1381
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1416
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -69,7 +76,7 @@ msgstr[2] "%s Produit"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1463
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1498
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -78,7 +85,7 @@ msgstr[1] "%s recruté"
 msgstr[2] "%s recruté"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start, Different capitalization at the start
-#: ../../src/network/gameclient.cc:814
+#: ../../../../src/network/gameclient.cc:817
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -87,48 +94,43 @@ msgstr[1] "Modules complémentaires %u inadéquats détecté:\n"
 msgstr[2] "Modules complémentaires %u inadéquats détecté:\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:990
+#: ../../../../src/network/gameclient.cc:989
 msgid "/me ’s file failed md5 checksumming."
 msgstr "Le contrôle de la somme md5 du fichier /me a échoué."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/internet_gaming_messages.cc:31
+#: ../../../../src/network/internet_gaming_messages.cc:31
 msgid "You have been temporarily banned from online gaming."
 msgstr "vous avez été temporairement banni du jeu en ligne."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/addons/login_box.cc:37
+#: ../../../../src/ui_fsmenu/addons/login_box.cc:37
 msgid "Login"
 msgstr "connexion"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapdetailsbox.cc:38
+#: ../../../../src/ui_fsmenu/mapdetailsbox.cc:38
 #, c-format
 msgid "invalid tribe ‘%s’"
 msgstr "Tribu ‘%s’ invalide"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/mapselect.cc:500
+#: ../../../../src/ui_fsmenu/mapselect.cc:504
 msgctxt "balancing"
 msgid "Unspecified"
 msgstr "non-spécifié"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/tech_info.cc:113
+#: ../../../../src/ui_fsmenu/tech_info.cc:113
 msgid "assuming inverted"
 msgstr "Assume l'inversion"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:215
-msgid "Secondary Farm"
-msgstr "ferme secondaire"
-
-# (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1493
+#: ../../../../src/wlapplication_options.cc:1486
 msgid "(disabled)"
 msgstr "(Désactivé)"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/productionsitewindow.cc:246
+#: ../../../../src/wui/productionsitewindow.cc:246
 msgid "coming"
 msgstr "Bientôt"

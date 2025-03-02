@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:55+0000\n"
 "Last-Translator: GunChleoc, 2015\n"
 "Language-Team: Gaelic, Scottish (http://app.transifex.com/widelands/"
@@ -13,38 +13,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
 "(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: e.g. Team 1 owns 5 artifacts.
-#: ../../data/scripting/win_conditions/artifacts.lua:184
+#: ../../../../data/scripting/win_conditions/artifacts.lua:184
 msgid "%1$s owns %2$s."
 msgstr "Tha %2$s aig %1$s."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:22
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:22
 msgid "%1$s has %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "Tha %2$3.0f%% dhen tìr aig %1$s (%3$i de %4$i)."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:23
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:23
 msgid "%1$s had %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "Bha %2$3.0f%% dhen tìr aig %1$s (%3$i de %4$i)."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/win_conditions/territorial_functions.lua:264
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:264
 #, lua-format
 msgid "%s owns more than half of the map’s area."
 msgstr "Tha barrachd air an dàrna leth de roinn a’ mhapa aig %s."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:71
+#: ../../../../data/scripting/win_conditions/wood_gnome.lua:71
 msgid "%1$s has %2$s at the moment."
 msgstr "Tha %2$s aig %1$s an-dràsta."
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:92
+#: ../../../../data/scripting/win_conditions/wood_gnome.lua:92
 msgid "%1$s had %2$s."
 msgstr "Bha %2$s aig %1$s."

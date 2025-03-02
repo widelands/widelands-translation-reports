@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2009,2015-2021\n"
 "Language-Team: Danish (http://app.transifex.com/widelands/widelands/language/"
@@ -12,40 +12,40 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:120
+#: ../../../../src/network/gamehost.cc:120
 msgid "/help  -  Shows this help"
 msgstr "/help - Viser denne hjælpetekst"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:122
+#: ../../../../src/network/gamehost.cc:122
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <besked> - Send en snakkebesked som annoncering (systemsnak)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:124
+#: ../../../../src/network/gamehost.cc:124
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <navn> <årsag> - Advar brugeren <navn> på grund af <årsag>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:126
+#: ../../../../src/network/gamehost.cc:126
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <navn> <årsag> - Smid brugeren <navn> ud på grund af <årsag>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:128
+#: ../../../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - tving spillet på pause."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: %1% is a number, %2% a map's name.
-#: ../../src/wui/savegametable.cc:50
+#: ../../../../src/wui/savegametable.cc:50
 msgid "Autosave %1%: %2%"
 msgstr "Gem automatisk  %1%: %2%"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Juan Miguel Bernal González, 2024\n"
+"Last-Translator: CansecoGPC, 2024\n"
 "Language-Team: Spanish (http://app.transifex.com/widelands/widelands/"
 "language/es/)\n"
 "Language: es\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gameclient.cc:814
+#: ../../../../src/network/gameclient.cc:817
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -26,23 +26,24 @@ msgstr[2] "%u discrepancias de complementos detectado:\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:128
+#: ../../../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Forzar pausa en el juego."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:130
+#: ../../../../src/network/gamehost.cc:130
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Regresar el juego a su velocidad normal."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:904
+#: ../../../../src/network/internet_gaming.cc:904
 msgid "/announce <msg> - Send a one time system message"
 msgstr "/announce <msg>  -  Envía un mensaje del sistema una sola vez"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/attack_window.cc:635 ../../src/wui/soldierlist.cc:556
+#: ../../../../src/wui/attack_window.cc:635
+#: ../../../../src/wui/soldierlist.cc:558
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "PV: %1$u/%2$u AT: %3$u/%4$u DE: %5$u/%6$u EV: %7$u/%8$u"
@@ -54,6 +55,6 @@ msgstr "PV: %1$u/%2$u AT: %3$u/%4$u DE: %5$u/%6$u EV: %7$u/%8$u"
 #. * TRANSLATORS: Make sure that this translation is consistent with the
 #. tooltip.
 #. * TRANSLATORS: %1% is the number of players
-#: ../../src/wui/savegametable.cc:83
+#: ../../../../src/wui/savegametable.cc:83
 msgid "MP (%1%)"
 msgstr "MJ  (%1%)"

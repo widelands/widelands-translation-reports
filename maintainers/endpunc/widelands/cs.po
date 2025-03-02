@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Michal Havlíček, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2024-2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,65 +13,95 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/base/format/float_node.h:33
+#: ../../../../src/base/format/float_node.h:33
 msgctxt "decimal_separator"
 msgid "."
 msgstr ","
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1461
+#. * TRANSLATORS: An entry in the editor's main menu
+#: ../../../../src/editor/editorinteractive.cc:243
+msgid "Publish Map Online…"
+msgstr "Zveřejnit mapu online..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:514
+msgid ""
+"Display separate water bodies with differently coloured overlays to see "
+"which coasts can be connected by shipping routes"
+msgstr "Barevně odliší oddělené vodní plochy, aby bylo zřejmé, která pobřeží lze propojit námořní trasou."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:1596
+msgid "Uploading Add-On…"
+msgstr "Nahrávání rozšíření..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:1597
 msgid "Saving map…"
 msgstr "Ukládání mapy..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1545
-#: ../../src/ui_fsmenu/addons/screenshot_upload.cc:108
+#: ../../../../src/editor/editorinteractive.cc:1622
+msgid "Packaging add-on…"
+msgstr "Balení rozšíření..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:1681
+#: ../../../../src/ui_fsmenu/addons/screenshot_upload.cc:108
 msgid "Uploading…"
 msgstr "Nahrávám..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:192
 #, c-format
 msgid "Current: %s …"
 msgstr "Vybráno: %s"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/editor_game_base.cc:306
+#. * TRANSLATORS: Help tooltip in tool history window
+#: ../../../../src/editor/ui_menus/tool_toolhistory_options_menu.cc:121
+msgid ""
+"Click to restore, Shift + Click to delete, and Ctrl + Click to pin an item."
+msgstr "Kliknutím obnovíš nastavení nástroje, Shift+kliknutí smaže zápis a Ctrl+kliknutí připne zápis"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/logic/detected_port_space.cc:96
+#, c-format
+msgid "Port space of %1$s discovered at %2$s by %3$s"
+msgstr "V %2$s byl lodí %3$s objeven přístav patřící hráči %1$s."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/logic/editor_game_base.cc:306
 msgid "Postloading world and tribes…"
 msgstr "Donačítání světa a kmenů"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:722
+#: ../../../../src/logic/game.cc:764
 msgid "Initializing…"
 msgstr "Příprava..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:78
-#, c-format
-msgid "Client %s is cheating!"
-msgstr "%s obchází pravidla použitím cheatu."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:320
+#: ../../../../src/ui_basic/panel.cc:325
 msgid "Please wait…"
-msgstr "Prosím počkejte..."
+msgstr "Prosím o strpení..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/panel.cc:457
+#: ../../../../src/ui_basic/panel.cc:467
 msgid "Game ending – please wait…"
-msgstr "Hra se ukončuje – prosím počkejte..."
+msgstr "Hra se ukončuje – prosím o strpení..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:241
+#: ../../../../src/ui_fsmenu/addons/manager.cc:455
 msgid "Choose add-on to upload…"
-msgstr "Zvolte rozšíření k nahrání..."
+msgstr "Zvol rozšíření k nahrání..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:252
+#: ../../../../src/ui_fsmenu/addons/manager.cc:466
 msgid "Upload a screenshot…"
 msgstr "Nahrát snímek obrazovky..."
 
@@ -79,17 +109,23 @@ msgstr "Nahrát snímek obrazovky..."
 #. * TRANSLATORS: This button allows the user to send a message to the
 #. Widelands
 #. Development Team
-#: ../../src/ui_fsmenu/addons/manager.cc:362
+#: ../../../../src/ui_fsmenu/addons/manager.cc:585
 msgid "Contact us…"
 msgstr "Kontaktujte nás..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:959
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1355
 msgid "Connecting to the server…"
 msgstr "Připojuji se k serveru..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1394
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1713
+#, c-format
+msgid "• ‘%1$s’ requires ‘%2$s’ which is disabled"
+msgstr "• „%1$s“ vyžaduje rozšíření „%2$s“, které je vypnuto."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1911
 #, c-format
 msgid ""
 "The add-on ‘%1$s’ can not be uploaded because its version (%2$s) is not "
@@ -97,7 +133,7 @@ msgid ""
 msgstr "Rozšíření \"%1$s\" nemůže být nahráno, protože verze (%2$s) je starší než verze dostupná na serveru (%3$s)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1405
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1922
 #, c-format
 msgid ""
 "The add-on ‘%1$s’ can not be uploaded because its category (%2$s) does not "
@@ -105,38 +141,44 @@ msgid ""
 msgstr "Rozšíření \"%1$s\" nemůže být nahráno, protože kategorie této verze (%2$s) není stejná jako kategorie verze dostupné na serveru (%3$s)"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1427
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1944
 #, c-format
 msgid "Uploading ‘%s’…"
 msgstr "Nahrávám „%s“..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:66
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:66
 msgid "Edit…"
 msgstr "Upravit..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:230
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:230
 msgid "Color…"
 msgstr "Barva..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:695
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:696
 msgid "Write a comment…"
 msgstr "Napsat komentář..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:888
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:891
 msgid "No comments yet."
 msgstr "Zatím bez komentáře"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_game.cc:433
+#: ../../../../src/ui_fsmenu/crash_report.cc:142
+msgid "Show details…"
+msgstr "Zobrazit podrobnosti..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/launch_game.cc:440
 msgid "Win condition is set through the scenario"
 msgstr "Výherní podmínka je definována prostřednictvím scénáře."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:234 ../../src/ui_fsmenu/launch_spg.cc:135
+#: ../../../../src/ui_fsmenu/launch_mpg.cc:240
+#: ../../../../src/ui_fsmenu/launch_spg.cc:135
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -145,62 +187,116 @@ msgid ""
 msgstr "Widelands se pokouší zahájit hru se souborem, který nebylo možné nalézt v očekávaném umístění.\nJde o soubor: %s\nPokud k tomu došlo při zahájení hry po síti, hostitel zřejmě zvolil soubor, který nemáš k dispozici. Za normálních okolností by ti takový soubor měl být poslán hostitelem, ale třeba stahování ještě nedoběhlo do konce?!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:222
+#: ../../../../src/ui_fsmenu/login_box.cc:222
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
 msgstr "Zadej platnou přezdívku. Musí obsahovat pouze písmena anglické abecedy, čísla a znaky @ . + - _ ."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:495
+#: ../../../../src/ui_fsmenu/main.cc:501
+msgid "Watch Replay…"
+msgstr "Vybrat záznam hry"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/ui_fsmenu/main.cc:503
 msgid "Begin or load a single-player campaign or free game"
 msgstr "Začít nebo načíst kampaň nebo hru jednoho hráče."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:207
+#: ../../../../src/ui_fsmenu/options.cc:225
 msgid "Edit keyboard and mouse actions…"
 msgstr "Upravit akce myši a klávesnice..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:267
+#. * TRANSLATORS: This is the helptext for an access key combination.
+#: ../../../../src/wlapplication_options.cc:1049
+msgid ""
+"Place new elements on the map, or increase map elements by the value "
+"selected by ‘Increase/Decrease value’"
+msgstr "Dle zvoleného nástroje umístit odpovídající prvek na mapu, nebo zvýšit počet prvků o hodnotu nastavenou v parametru \"Zvýšit/Snížit hodnotu\" nástroje."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is the helptext for an access key combination.
+#: ../../../../src/wlapplication_options.cc:1055
+msgid ""
+"Remove elements from the map, or decrease map elements by the value selected"
+" by ‘Increase/Decrease value’"
+msgstr "Dle zvoleného nástroje odebrat odpovídající prvek z mapy, nebo snížit počet prvků o hodnotu nastavenou v parametru \"Zvýšit/Snížit hodnotu\" nástroje."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: This is the helptext for an access key combination.
+#: ../../../../src/wlapplication_options.cc:1060
+msgid "Set map elements to the value selected by ‘Set Value’"
+msgstr "Nastavit počet prvků na mapě podle hodnoty parametru \"Nastavit hodnotu\" zvoleného nástroje."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/actionconfirm.cc:267
 msgid ""
 "Any wares left in the building will be dropped out by the builder, "
 "increasing the dismantling time"
 msgstr "Veškeré zboží, které bylo uloženo v budově, bude stavařem vyneseno. Prodlouží se tím doba rozebrání stavby."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:329
+#: ../../../../src/wui/actionconfirm.cc:329
 msgid ""
 "Any wares left in the building will be dropped out by the builder, "
 "increasing the enhancing time"
 msgstr "Veškeré zboží, které bylo uloženo v budově, bude stavařem vyneseno. Prodlouží se tím doba na vylepšení stavby."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:384
+#: ../../../../src/wui/attack_window.cc:383
+msgid "Send less ships. Hold down Ctrl to send no ships"
+msgstr "Poslat méně lodí. Při současném přidržení Ctrl budou odebrány všechny lodě."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/attack_window.cc:384
 msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Poslat méně vojáků. Při současném přidržení Ctrl budou odebráni všichni vojáci."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/fieldaction.cc:403
+#: ../../../../src/wui/attack_window.cc:390
+msgid "Send more ships. Hold down Ctrl to send as many ships as possible"
+msgstr "Poslat více lodí. Při současném přidržení Ctrl budou přidány všechny lodě, které jsou k dispozici."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/encyclopedia_window.cc:236
+#: ../../../../src/wui/helpwindow.cc:148
+msgid "This hyperlink seems to be broken."
+msgstr "Tento hypertextový odkaz není funkční"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/fieldaction.cc:402
 msgid "Mark this immovable for timely removal by a suited worker"
 msgstr "Označ tento pevný předmět, aby byl příslušným dělníkem odstraněn ihned, jak situace dovolí."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_diplomacy_menu.cc:93
+#: ../../../../src/wui/game_diplomacy_menu.cc:93
 msgid "Leave your current team and become teamless"
 msgstr "Opustit svůj současný tým a zůstat bez týmu."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_diplomacy_menu.cc:96
+#: ../../../../src/wui/game_diplomacy_menu.cc:96
 msgid "Give up and become a spectator"
-msgstr "Vzdát hru a stát se pozorovatelem."
+msgstr "Vzdát hru a stát se divákem."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_diplomacy_menu.cc:114
+#: ../../../../src/wui/game_diplomacy_menu.cc:114
 msgid "Request to join this player’s team"
 msgstr "Žádost o přijetí do týmu hráče."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:113
+#. * TRANSLATORS: This is a tool tip for a map tag
+#: ../../../../src/wui/map_tags.cc:32
+msgid "The map is provided by the official Widelands release"
+msgstr "Mapa je součástí oficiálního vydání hry Widelands."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/pinned_note.cc:76
+msgid "Change color…"
+msgstr "Změna barvy..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/wui/productionsitewindow.cc:113
 msgid "Exp"
 msgstr "Zkuš."

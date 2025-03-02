@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Alex Rijckaert, 2023-2024\n"
 "Language-Team: Dutch (http://app.transifex.com/widelands/widelands/language/"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/scripting/infrastructure.lua:189
+#: ../../../../data/scripting/infrastructure.lua:189
 msgid ""
 "Some of your starting buildings didn’t have enough room and weren’t built. "
 "You are at a disadvantage with this; consider restarting this map with a "
@@ -24,7 +24,7 @@ msgstr "Er was onvoldoende ruimte voor enkele van je startgebouwen en deze zijn 
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Help text in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:195
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:195
 msgid "Click to select an item. Use the Ctrl key to select multiple items."
 msgstr "Klik om een gereedschap te selecteren.  Ctrl + klik om meerdere gereedschappen te selecteren."
 
@@ -35,7 +35,7 @@ msgstr "Klik om een gereedschap te selecteren.  Ctrl + klik om meerdere gereedsc
 #. * TRANSLATORS: as long as the user understands that he needs to check the
 #. player
 #. positions.
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:697
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:708
 msgid ""
 "The map has been generated. Please double-check the player starting "
 "positions to make sure that your carriers won’t drown, or be stuck on an "
@@ -46,67 +46,67 @@ msgstr "De kaart is aangemaakt.  Gelieve zelf de startposities te controleren zo
 #. * TRANSLATORS: Info text in editor player menu when a player has selected
 #. more than the
 #. recommended number of players. Choice is made by OK/Abort.
-#: ../../src/editor/ui_menus/player_menu.cc:66
+#: ../../../../src/editor/ui_menus/player_menu.cc:66
 msgid ""
 "We do not recommend setting more than 8 players except for testing purposes."
 " Are you sure that you want more than 8 players?"
 msgstr "We raden aan om niet meer dan 8 spelers in te stellen, behalve voor testdoeleinden.  Ben je zeker dat je meer dan 8 spelers wilt?"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/logic/addons.cc:56
+#: ../../../../src/logic/addons.cc:60
 msgid "Map Set"
 msgstr "Kaart  Klaar"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gameclient.cc:990
+#: ../../../../src/network/gameclient.cc:989
 msgid "/me ’s file failed md5 checksumming."
 msgstr "het bestand van /me  heeft een md5 checksum fout"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:120
+#: ../../../../src/network/gamehost.cc:120
 msgid "/help  -  Shows this help"
 msgstr "/help - Toont deze hulp"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:122
+#: ../../../../src/network/gamehost.cc:122
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <bericht> - Stuur een chatbericht als aankondiging (system chat)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:124
+#: ../../../../src/network/gamehost.cc:124
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
 msgstr "/warn <naam> <reden> - Waarschuw de gebruiker <naam> vanwege <reden>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:126
+#: ../../../../src/network/gamehost.cc:126
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
 msgstr "/kick <naam> <reden> - Verwijder de gebruiker <naam> vanwege >reden>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:128
+#: ../../../../src/network/gamehost.cc:128
 msgid "/forcePause            -  Force the game to pause."
 msgstr "/forcePause - Dwing het spel tot pauzeren."
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:130
+#: ../../../../src/network/gamehost.cc:130
 msgid "/endForcedPause        -  Return game to normal speed."
 msgstr "/endForcedPause - Ga terug naar normale spelsnelheid."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gamehost.cc:355
+#: ../../../../src/network/gamehost.cc:355
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."
 msgstr "Widelands kon geen server instellen om te hosten.\nDit zou niet mogen gebeuren, waarschijnlijk kan je hier zelf niets aan doen.  Gelieve deze fout te rapporteren."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/internet_gaming.cc:477
+#: ../../../../src/network/internet_gaming.cc:477
 msgid ""
 "Received an unexpected network packet from the metaserver. The metaserver "
 "could be using a different protocol version. If the error persists, try "
@@ -114,7 +114,7 @@ msgid ""
 msgstr "Onverwacht netwerkpakket ontvangen van de metaserver.  De metaserver gebruikt misschien een andere protocolversie.  Als het probleem aanhoudt kan je proberen om je versie van het spel up to date te brengen."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons/manager.cc:388
+#: ../../../../src/ui_fsmenu/addons/manager.cc:612
 msgid ""
 "The interactive add-ons packager allows you to create, edit, and delete add-"
 "ons. You can bundle maps designed with the Widelands Map Editor as an add-on"
@@ -123,43 +123,44 @@ msgid ""
 msgstr "De interactieve uitbreidingen verpakker kan je uitbreidingen helpen maken, bewerken en verwijderen. Je bundelt met de Widelands Kaart Editor ontworpen kaarten als een uitbreiding  met gebruik van de grafische interface en deelt ze met andere spelers. zonder dat je een enkele regel code hoeft te schrijven."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons/packager.cc:429
+#: ../../../../src/ui_fsmenu/addons/packager.cc:429
 #, c-format
 msgid "Do you really want to delete the add-on ‘%s’?"
 msgstr "Wil je echt de uitbreiding  ' %s '  verwijderen ?"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/addons/packager_box.cc:441
+#: ../../../../src/ui_fsmenu/addons/packager_box.cc:442
 #, c-format
 msgid "Do you really want to delete the map ‘%s’?"
 msgstr "wil je echt de map ' %s '  verwijderen ?"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/ui_fsmenu/netsetup_lan.cc:300
+#: ../../../../src/ui_fsmenu/netsetup_lan.cc:300
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters and must not be \"team\"."
 msgstr "Geef een geldige Spelnaam. Deze waarde mag alleen Engelse letters , nummers, en @ . + - _  als characters bevatten en mag niet \"team\" zijn."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication.cc:1712
+#: ../../../../src/wlapplication.cc:1906
 #, c-format
 msgid "Unknown command line parameter: %s"
 msgstr "Onbekende opdracht regel parameter:  %s"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/attack_window.cc:472
+#: ../../../../src/wui/attack_window.cc:472
 msgid "Destroy the target building instead of conquering it"
 msgstr "Vernietig het  gekozen gebouw in plaats van het te veroveren"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/attack_window.cc:635 ../../src/wui/soldierlist.cc:556
+#: ../../../../src/wui/attack_window.cc:635
+#: ../../../../src/wui/soldierlist.cc:558
 #, c-format
 msgid "HP: %1$u/%2$u  AT: %3$u/%4$u  DE: %5$u/%6$u  EV: %7$u/%8$u"
 msgstr "L: %1$u/%2$u A: %3$u/%4$u V: %5$u/%6$u O: %7$u/%8$u"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wui/game_client_disconnected.cc:75
+#: ../../../../src/wui/game_client_disconnected.cc:75
 msgid ""
 "A player disconnected from the game. An automatic save game has been "
 "created. Do you want to continue playing?"
@@ -168,7 +169,7 @@ msgstr "De verbinding met één van de spelers is verbroken.  Het spel is automa
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Error message introduction for when an old savegame can't be
 #. loaded
-#: ../../src/wui/savegameloader.cc:128
+#: ../../../../src/wui/savegameloader.cc:128
 msgid ""
 "This file has the wrong format and can’t be loaded. Maybe it was created "
 "with an older version of Widelands."
@@ -178,7 +179,7 @@ msgstr "Dit bestand heeft het verkeerde formaat en kan niet geladen worden.  Mis
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/savegameloader.cc:165
+#: ../../../../src/wui/savegameloader.cc:165
 msgid "saved today at %1%:%2%"
 msgstr "vandaag opgeslagen om  %1%:%2%"
 
@@ -186,6 +187,6 @@ msgstr "vandaag opgeslagen om  %1%:%2%"
 #. * TRANSLATORS: Display date for choosing a savegame/replay. Placeholders
 #. are:
 #. hour:minute. This is part of a list.
-#: ../../src/wui/savegameloader.cc:183
+#: ../../../../src/wui/savegameloader.cc:183
 msgid "saved yesterday at %1%:%2%"
 msgstr "gisteren opgeslagen om  %1%:%2%"

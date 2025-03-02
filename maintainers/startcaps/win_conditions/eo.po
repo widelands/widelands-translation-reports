@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widelands\n"
+"Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
+"PO-Revision-Date: 2015-02-03 14:55+0000\n"
+"Last-Translator: Raúl Contreras, 2024\n"
+"Language-Team: Esperanto (http://app.transifex.com/widelands/widelands/"
+"language/eo/)\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Will be inserted into "The player with the highest score after
+#. %s wins the game."
+#. TRANSLATORS: Will be inserted into "The winner will be the player […] with
+#. the most territory after %s"
+#. TRANSLATORS: Will be inserted into "The game will end after %s."
+#: ../../../../data/scripting/win_conditions/collectors.lua:24
+#: ../../../../data/scripting/win_conditions/territorial_time.lua:32
+#: ../../../../data/scripting/win_conditions/wood_gnome.lua:23
+msgid "the configured time limit"
+msgstr "Agordita tempolimo"

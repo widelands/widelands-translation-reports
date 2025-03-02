@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Michal Havlíček, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2024-2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,32 +13,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../src/editor/editorinteractive.cc:1143 ../../src/ui_fsmenu/main.cc:269
-#: ../../src/wlapplication.cc:1767
-#, c-format
-msgid ""
-"An error has occured. The error message is:\n"
-"\n"
-"%1$s\n"
-"\n"
-"Please report this problem to help us improve Widelands. You will find related messages in the standard output (stdout.txt on Windows). You are using version %2$s.\n"
-"Please add this information to your report."
-msgstr "Došlo k chybě. Chybové hlášení je:\n\n%1$s\n\nPomožte nám vylepšit Widelands tím, že chybu nahlásíte. Ve standartním výstupu  (na Windows je to stdout.txt) najdete propojené zprrávy.Používáte verzi %2$s.\nPřidejte prosím tuto informaci do vaší zprávy."
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: An entry in the tool history list. Inc. and dec. stand for
 #. increase and
 #. * decrease.
-#: ../../src/editor/tools/increase_height_tool.cc:62
+#: ../../../../src/editor/tools/increase_height_tool.cc:62
 #, c-format
 msgid "Height: inc./dec. %1$d, set to %2$d"
-msgstr "Výška: změněno o %1$d, nastaveno na  %2$d"
+msgstr "Výška: změnit o %1$d, nastavit na  %2$d"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/network/gamehost.cc:355
+#: ../../../../src/network/gameclient.cc:822
+#, c-format
+msgid ""
+"%1$s\n"
+"• ‘%2$s’ installed at version %3$s but host uses version %4$s"
+msgstr "%1$s\n• ‘%2$s’ instalováno ve verzi %3$s, ale hostitel používá  %4$s"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/network/gamehost.cc:355
 msgid ""
 "Widelands could not start hosting a server.\n"
 "This should not happen and there is most likely nothing you can do about it. Please report a bug."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: D Tufan, 2022\n"
 "Language-Team: Turkish (http://app.transifex.com/widelands/widelands/"
@@ -12,27 +12,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map origin tool in the editor
-#: ../../src/editor/editorinteractive.cc:371
+#: ../../../../src/editor/editorinteractive.cc:380
 msgid ""
 "Set the position that will have the coordinates (0, 0). This will be the "
 "top-left corner of a generated minimap."
 msgstr "(0, 0) koordinatlarının alınacağı konumu ayarlayın. Bu oluşturulan küçük haritanın sol üst köşesi olacak"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Harita yükleniyor..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:459
+#: ../../../../src/map_io/s2map.cc:460
 msgid "Bluebyte Settlers II Map. No comment defined!"
 msgstr "Bluebyte Settlers II Map. Yorum belirtilmemiş."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "Yükleniyor..."

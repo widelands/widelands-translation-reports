@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Petr Valášek, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,11 +13,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an Atlantean production site: Tower
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2012
+msgctxt "atlanteans_building"
+msgid ""
+"All the other tribes envy us for our towers, elegant outside, comfortable "
+"inside, still perfect for defense."
+msgstr "Všechny kmeny nám závidí naše věže, elegantní vzhled ani pohodlný interiér neubírají nic na jejich vynikajících obranných vlastnostech. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Note helptext for an Empire production site: Quarry, part 2
+#: ../../../../data/tribes/initialization/empire/units.lua:1253
+msgctxt "empire_building"
+msgid ""
+"The stonemason finds 5 blocks of granite and 2 blocks of marble out of 7 "
+"rocks."
+msgstr "Kameník vytěží ze skal na 5 kvádrů žuly 2 kvádry mramoru. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#. TRANSLATORS: Lore helptext for an Empire production site: Hunter's House
+#. Translation for the Latin quote:
+#. "Venator venatus insidiatur."
+#: ../../../../data/tribes/initialization/empire/units.lua:1359
+msgid "The hunter lies in ambush for the game."
+msgstr "Lovec číhá na zvěř. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. TRANSLATORS: Helptext for a Frisian ware: Water, part 2
-#: ../../data/tribes/initialization/frisians/units.lua:181
+#: ../../../../data/tribes/initialization/frisians/units.lua:181
 msgctxt "frisians_ware"
 msgid ""
 "Water is used to bake bread and brew beer. Reindeer farms and aqua farms "

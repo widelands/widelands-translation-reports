@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Pavol Gono, 2024\n"
+"Last-Translator: Pavol Gono, 2024-2025\n"
 "Language-Team: Slovak (http://app.transifex.com/widelands/widelands/language/"
 "sk/)\n"
 "Language: sk\n"
@@ -13,22 +13,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/base/format/float_node.h:33
+#: ../../../../src/base/format/float_node.h:33
 msgctxt "decimal_separator"
 msgid "."
 msgstr ","
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip for the map information tool in the editor
-#: ../../src/editor/editorinteractive.cc:389
+#: ../../../../src/editor/editorinteractive.cc:398
 msgid "Click on a field to show information about it"
-msgstr "Kliknutím zobrazíte ďalšie informácie o políčku."
+msgstr "Kliknutím zobraziť ďalšie informácie o políčku."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:186
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:186
 #, c-format
 msgid "Error while creating directory ‘%s’."
 msgstr "Chyba pri vytváraní adresára: %s"
@@ -37,61 +37,61 @@ msgstr "Chyba pri vytváraní adresára: %s"
 #. * TRANSLATORS: Message title.
 #. * TRANSLATORS: If you run out of space, you can also translate this as
 #. "Success!"
-#: ../../src/logic/map_objects/tribes/militarysite.cc:297
+#: ../../../../src/logic/map_objects/tribes/militarysite.cc:296
 msgid "Enemy Defeated!"
 msgstr "Porážka nepriateľa"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/ship.cc:1910
+#: ../../../../src/logic/map_objects/tribes/ship.cc:1922
 msgid "Port Lost!"
 msgstr "Strata prístavu"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming.cc:206
+#: ../../../../src/network/internet_gaming.cc:206
 msgid "Successfully reconnected to the metaserver!"
 msgstr "Podarilo sa úspešne pripojiť na metaserver."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:376
+#: ../../../../src/wui/attack_window.cc:376
 msgid "Number of soldiers"
 msgstr "Počet vojakov:"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:383
+#: ../../../../src/wui/attack_window.cc:383
 msgid "Send less ships. Hold down Ctrl to send no ships"
 msgstr "Poslať menej lodí. Stlačte Ctrl na odobratie všetkých lodí."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:384
+#: ../../../../src/wui/attack_window.cc:384
 msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Poslať menej vojakov. Stlačte Ctrl na odobratie všetkých vojakov."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:390
+#: ../../../../src/wui/attack_window.cc:390
 msgid "Send more ships. Hold down Ctrl to send as many ships as possible"
 msgstr "Poslať viac lodí. Stlačte Ctrl na poslanie všetkých dostupných lodí."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:391
+#: ../../../../src/wui/attack_window.cc:391
 msgid ""
 "Send more soldiers. Hold down Ctrl to send as many soldiers as possible"
 msgstr "Poslať viac vojakov. Stlačte Ctrl na poslanie všetkých dostupných vojakov."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:493
-#: ../../src/wui/soldiercapacitycontrol.cc:85
+#: ../../../../src/wui/constructionsitewindow.cc:526
+#: ../../../../src/wui/soldiercapacitycontrol.cc:85
 msgid ""
 "Decrease capacity. Hold down Ctrl to set the capacity to the lowest value"
 msgstr "Znížiť kapacitu. Súčasným pridržaním Ctrl sa nastaví na najnižšiu hodnotu."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/constructionsitewindow.cc:503
-#: ../../src/wui/soldiercapacitycontrol.cc:94
+#: ../../../../src/wui/constructionsitewindow.cc:536
+#: ../../../../src/wui/soldiercapacitycontrol.cc:94
 msgid ""
 "Increase capacity. Hold down Ctrl to set the capacity to the highest value"
 msgstr "Zvýšiť kapacitu. Súčasným pridržaním Ctrl sa nastaví na najvyššiu hodnotu."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/story_message_box.cc:125
+#: ../../../../src/wui/story_message_box.cc:125
 msgid "Continue playing this mission"
 msgstr "Pokračovať v hraní tejto misie."

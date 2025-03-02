@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-03-01 03:04+0000\n"
 "PO-Revision-Date: 2015-02-03 14:50+0000\n"
-"Last-Translator: C138, 2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2022,2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/help/common_helptexts.lua:11
+#: ../../../../data/txts/help/common_helptexts.lua:11
 #, lua-format
 msgid ""
 "If you need more documentation or help for Widelands or the Widelands "
@@ -25,15 +25,15 @@ msgid ""
 msgstr "Si vous avez besoin de plus de documentation ou d'aide pour Widelands ou pour l'éditeur de Widelands, visitez notre page officielle: %s. Vous pouvez  y trouver une aide en ligne au sein de notre Wiki."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/tips/editor.lua:44
+#: ../../../../data/txts/tips/editor.lua:44
 msgid ""
 "You can place a medium building on any node where there is a slope no "
 "greater than 1 in the south-east direction and its height difference to all "
 "nodes in a radius of 2 is no greater than 2."
-msgstr "Vous pouvez placer un bâtiment moyen sur n'importe quel point où il n'y a pas de pente plus grande que 1 dans la direction du sud-est et dont la différence d' altitude par rapport à tous les points dans un rayon de 2  n'est pas supérieure à 2."
+msgstr "Vous pouvez placer un bâtiment moyen sur n'importe quel point où il n'y a pas de pente plus grande que 1 dans la direction du sud-est et dont la différence d'altitude par rapport à tous les points dans un rayon de 2  n'est pas supérieure à 2."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/tips/general_game.lua:7
+#: ../../../../data/txts/tips/general_game.lua:7
 msgid ""
 "The building process will only start after a road is built to the "
 "construction site."
@@ -41,7 +41,7 @@ msgstr "La  construction d'un bâtiment ne commence qu'après qu'une route soit 
 
 # (pofilter) doublespacing: Different use of double spaces
 #. TRANSLATORS: %s = URL to the Widelands website
-#: ../../data/txts/tips/general_game.lua:28
+#: ../../../../data/txts/tips/general_game.lua:28
 #, lua-format
 msgid ""
 "Any further questions? Our FAQ, the wiki and of course our community forums "
@@ -49,21 +49,14 @@ msgid ""
 msgstr "D'autres questions ? Notre FAQ, le wiki et bien sur les forums de la communauté sont en ligne à  %s."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/tips/general_game.lua:53
-msgid ""
-"New soldiers are recruited in a barracks. Their abilities can then be "
-"improved in training sites."
-msgstr "Les nouveaux soldats sont recrutés dans les casernes. Leurs capacités  peuvent alors êtres améliorées dans les camps d'entraînement."
-
-# (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/tips/general_game.lua:84
+#: ../../../../data/txts/tips/general_game.lua:84
 msgid ""
 "Use the ‘%1$s’ and ‘%2$s’ keys to quickly jump between recently visited "
 "locations."
 msgstr "Utilisez les touches  ‘%1$s’  et  ‘%2$s’ pour sauter  rapidement entre les endroits récemment visités."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../data/txts/tips/multiplayer.lua:8
+#: ../../../../data/txts/tips/multiplayer.lua:8
 msgid ""
 "You can use ‘/me’ at the beginning of a chatmessage: ‘/me is tired’ will be "
 "printed as ‘-> Nickname is tired’."

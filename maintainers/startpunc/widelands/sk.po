@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Pavol Gono, 2024\n"
+"Last-Translator: Pavol Gono, 2024-2025\n"
 "Language-Team: Slovak (http://app.transifex.com/widelands/widelands/language/"
 "sk/)\n"
 "Language: sk\n"
@@ -13,29 +13,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:52
+#: ../../../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "„%s“"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/base/format/float_node.h:33
+#: ../../../../src/base/format/float_node.h:33
 msgctxt "decimal_separator"
 msgid "."
 msgstr ","
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/immovable.cc:491
-#: ../../src/logic/map_objects/tribes/constructionsite.cc:169
+#: ../../../../src/logic/map_objects/immovable.cc:509
+#: ../../../../src/logic/map_objects/tribes/constructionsite.cc:163
 #, c-format
 msgid "%i%% built"
 msgstr "postavených %i %%"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/map_objects/tribes/dismantlesite.cc:115
+#: ../../../../src/logic/map_objects/tribes/dismantlesite.cc:115
 #, c-format
 msgid "%u%% dismantled"
 msgstr "rozobratých %u %%"
@@ -45,7 +45,7 @@ msgstr "rozobratých %u %%"
 #. are missing'
 #. * TRANSLATORS: e.g. 'Did not start working because fish, meat or pitta
 #. bread is missing'
-#: ../../src/logic/map_objects/tribes/production_program.cc:1276
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1311
 #, c-format
 msgid "%s is missing"
 msgid_plural "%s are missing"
@@ -53,3 +53,29 @@ msgstr[0] "chýba %s"
 msgstr[1] "chýba %s"
 msgstr[2] "chýba %s"
 msgstr[3] "chýba %s"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
+#. NOT omit the
+#. * placeholder in your translation.
+#: ../../../../src/wui/savegamedeleter.cc:113
+#, c-format
+msgid "%d game could not be deleted."
+msgid_plural "%d games could not be deleted."
+msgstr[0] "Nepodarilo sa vymazať %d hru."
+msgstr[1] "Nepodarilo sa vymazať %d hry."
+msgstr[2] "Nepodarilo sa vymazať %d hier."
+msgstr[3] "Nepodarilo sa vymazať %d hier."
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../../../src/wui/savegamedeleter.cc:142
+#, c-format
+msgid "%d replay could not be deleted."
+msgid_plural "%d replays could not be deleted."
+msgstr[0] "Nepodarilo sa vymazať %d záznam."
+msgstr[1] "Nepodarilo sa vymazať %d záznamy."
+msgstr[2] "Nepodarilo sa vymazať %d záznamov."
+msgstr[3] "Nepodarilo sa vymazať %d záznamov."

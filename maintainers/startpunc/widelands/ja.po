@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: tamanegi, 2018-2019\n"
 "Language-Team: Japanese (http://app.transifex.com/widelands/widelands/"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
 #. *  %s is a list of illegal characters
-#: ../../src/io/filesystem/illegal_filename_check.cc:77
+#: ../../../../src/io/filesystem/illegal_filename_check.cc:77
 #, c-format
 msgctxt "illegal_filename_characters"
 msgid "%s at the start of the filename"
@@ -26,7 +26,7 @@ msgstr "ファイル名の先頭に%s"
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
 #. * %s is a list of illegal characters
-#: ../../src/io/filesystem/illegal_filename_check.cc:84
+#: ../../../../src/io/filesystem/illegal_filename_check.cc:84
 #, c-format
 msgctxt "illegal_filename_characters"
 msgid "%s anywhere in the filename"
@@ -46,23 +46,22 @@ msgstr "ファイル名のどこかに%s"
 #. * TRANSLATORS: on a development build if you can, and let us know if there
 #. are any issues
 #. * TRANSLATORS: we need to address for your language.
-#: ../../src/logic/map_objects/tribes/production_program.cc:765
-#: ../../src/logic/map_objects/tribes/production_program.cc:1289
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1324
 #, c-format
 msgid "Did not start %1$s because %2$s"
 msgstr "%2$sで、%1$sを中止しました"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:777
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%2$sで、%1$sを完了しました"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:784
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%2$sで、%1$sをスキップしました"
@@ -71,7 +70,7 @@ msgstr "%2$sで、%1$sをスキップしました"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1381
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1416
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -81,21 +80,21 @@ msgstr[0] "%sを生産"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1463
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1498
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
 msgstr[0] "%sを登用"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/logic/player.cc:2020
+#: ../../../../src/logic/player.cc:2022
 #, c-format
 msgctxt "shipname"
 msgid "Ship %d"
 msgstr "%d 号"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gamehost.cc:179
+#: ../../../../src/network/gamehost.cc:179
 #, c-format
 msgid "Are you sure you want to kick %s?"
 msgstr "%sを本当に追い出しても良いですか？"
@@ -103,36 +102,36 @@ msgstr "%sを本当に追い出しても良いですか？"
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Geeky message from the metaserver
 #. * TRANSLATORS: This message is shown if %s isn't "true" or "false"
-#: ../../src/network/internet_gaming.cc:994
+#: ../../../../src/network/internet_gaming.cc:994
 #, c-format
 msgid "Unable to determine truth value for \"%s\""
 msgstr "「%s」を真偽値に変換できません"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %s = language name
-#: ../../src/ui_fsmenu/options.cc:768
+#: ../../../../src/ui_fsmenu/options.cc:810
 #, c-format
 msgid "The translation into %s is complete."
 msgstr "%sへの翻訳は完了しています。"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: %1% = language name, %2% = percentage
-#: ../../src/ui_fsmenu/options.cc:772
+#: ../../../../src/ui_fsmenu/options.cc:814
 msgid "The translation into %1% is %2%%% complete."
 msgstr "%1%への翻訳は%2%%%完了しています。"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Number of soldiers that should attack. Used in the attack
 #. window.
-#: ../../src/wui/attack_window.cc:293
-#: ../../src/wui/constructionsitewindow.cc:567
+#: ../../../../src/wui/attack_window.cc:293
+#: ../../../../src/wui/constructionsitewindow.cc:600
 #, c-format
 msgid "%u soldier"
 msgid_plural "%u soldiers"
 msgstr[0] "兵士数 %u"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/buildingwindow.cc:328
+#: ../../../../src/wui/buildingwindow.cc:328
 #, c-format
 msgid "Enhance to %s"
 msgstr "%sに拡張"

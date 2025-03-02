@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Petr Valášek, 2023\n"
+"Last-Translator: Ondřej Itřech, 2020-2021,2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,7 +13,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Amazon building: Construction Site
+#. TRANSLATORS: Lore author helptext for an Atlantean building: Construction
+#. Site
+#. TRANSLATORS: Lore author helptext for a Barbarian building: Construction
+#. Site
+#. TRANSLATORS: Lore author helptext for an Empire building: Construction Site
+#. TRANSLATORS: Lore author helptext for a Frisian building: Construction Site
+#: ../../../../data/tribes/initialization/amazons/units.lua:1723
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2110
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1866
+#: ../../../../data/tribes/initialization/empire/units.lua:2363
+#: ../../../../data/tribes/initialization/frisians/units.lua:2270
+msgctxt "building"
+msgid "Proverb widely used for impossible tasks of any kind"
+msgstr "často užívané přísloví používané pro nesplnitelné úkoly všeho druhu"
 
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore author helptext for an Amazon building: Dismantle Site
@@ -21,22 +38,286 @@ msgstr ""
 #. TRANSLATORS: Lore author helptext for a Barbarian building: Dismantle Site
 #. TRANSLATORS: Lore author helptext for an Empire building: Dismantle Site
 #. TRANSLATORS: Lore author helptext for a Frisian building: Dismantle Site
-#: ../../data/tribes/initialization/amazons/units.lua:1714
-#: ../../data/tribes/initialization/atlanteans/units.lua:2102
-#: ../../data/tribes/initialization/barbarians/units.lua:1861
-#: ../../data/tribes/initialization/empire/units.lua:2356
-#: ../../data/tribes/initialization/frisians/units.lua:2265
+#: ../../../../data/tribes/initialization/amazons/units.lua:1734
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2121
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1877
+#: ../../../../data/tribes/initialization/empire/units.lua:2374
+#: ../../../../data/tribes/initialization/frisians/units.lua:2281
 msgctxt "building"
 msgid "Proverb"
 msgstr "přísloví"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Note lore_autor for an Atlantean production site: Headquarters
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1454
+msgctxt "atlanteans_building"
+msgid "Head of the warehouse"
+msgstr "vedoucí skladu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Note lore_autor for an Atlantean production site: Woodcutter's
+#. House
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1502
+msgctxt "atlanteans_building"
+msgid "Atlantean woodcutter asked why saws are used to cut trees"
+msgstr "atlantský dřevorubec je tázán, proč se na kácení stromů používají pily"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Note lore_autor for an Atlantean production site: Forester's
+#. House
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1524
+msgctxt "atlanteans_building"
+msgid "Prophecy of the foresters’ guild"
+msgstr "proroctví cechu lesníků"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Note lore_autor for an Atlantean production site: Fisher's
+#. House
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1552
+msgctxt "atlanteans_building"
+msgid "A song from the fishers’ guild"
+msgstr "píseň cechu rybářů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Fish
+#. Breeder's House
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1574
+msgctxt "atlanteans_building"
+msgid "Prophecy of the fish breeders"
+msgstr "proroctví porybného"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Hunter's House
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1588
+msgctxt "atlanteans_building"
+msgid "Hunter answering a fisher"
+msgstr "lovec odpovídá rybáři"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Gold
+#. Spinning Mill
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1626
+msgctxt "atlanteans_building"
+msgid "Painted on a gold spinning mill without supplies"
+msgstr "nápis na přádelně zlata, které se nedostává zásob"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Scout's House
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1641
+msgctxt "atlanteans_building"
+msgid "A scout answering a soldier"
+msgstr "průzkumník odpovídá vojákovi"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Smokery
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1675
+msgctxt "atlanteans_building"
+msgid "A Smoker answering a passer-by"
+msgstr "uzenář odpovídá kolemjdoucímu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Mill
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1691
+msgctxt "atlanteans_building"
+msgid "Miller arguing with a sawyer"
+msgstr "mlynář v hádce s dělníkem na pile"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Bakery
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1708
+msgctxt "atlanteans_building"
+msgid "Head of the bakers’ guild"
+msgstr "cechmistr cechu pekařů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Charcoal Kiln
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1723
+msgctxt "atlanteans_building"
+msgid "A black voice from inside the charcoal kiln"
+msgstr "tajemný hlas  vycházející z milíře na dřevěné uhlí"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Smelting Works
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1736
+msgctxt "atlanteans_building"
+msgid "A member of the smelters’ guild"
+msgstr "tovaryš cechu slévačů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Toolsmithy
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1749
+msgctxt "atlanteans_building"
+msgid "Faded sign found on top of this building"
+msgstr "vybledlý nápis na horní části budovy"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Weapon
+#. Smithy
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Armor
+#. Smithy
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1762
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1778
+msgctxt "atlanteans_building"
+msgid "Atlantean nursery rhyme"
+msgstr "atlantská říkanka"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Barracks
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1791
+msgctxt "atlanteans_building"
+msgid "Recruiting poster"
+msgstr "náborová vývěska"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Horse
+#. Farm
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1806
+msgctxt "atlanteans_building"
+msgid "Busy carrier murmuring to himself"
+msgstr "zaneprázdněný nosič brblající si sám pro sebe"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Farm
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1817
+msgctxt "atlanteans_building"
+msgid "Atlantean harvesting song"
+msgstr "atlantská píseň ženců"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Blackroot Farm
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1831
+msgctxt "atlanteans_building"
+msgid "Blackroot farmer asked by a foreigner"
+msgstr "pěstitel rozrazilu je dotazován cizincem"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Spider
+#. Farm
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1846
+msgctxt "atlanteans_building"
+msgid "A spider breeder showing his farm"
+msgstr "chovatelka pavouků ukazuje svou farmu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Weaving
+#. Mill
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1859
+msgctxt "atlanteans_building"
+msgid "Part of the silkweavers’ song"
+msgstr "část písně tkalců hedvábí"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Crystal
+#. Mine
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1875
+msgctxt "atlanteans_building"
+msgid "First part of the Atlantean almanach on architecture"
+msgstr "citát z první části Atlantského almanachu architektury"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:  Coal
+#. Mine
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:  Iron
+#. Mine
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1891
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1907
+msgctxt "atlanteans_building"
+msgid "Song from the miners’ guild"
+msgstr "píseň cechu horníků"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Gold
+#. Mine
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1923
+msgctxt "atlanteans_building"
+msgid "Miner’s prayer"
+msgstr "hornická říkanka"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Dungeon
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1942
+msgctxt "atlanteans_building"
+msgid "Engraving on the entrance to the dungeon"
+msgstr "vstupní rytina zdravící návštěvníky kobek"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Labyrinth
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1958
+msgctxt "atlanteans_building"
+msgid "Atlantean hero after first contact with a real enemy"
+msgstr "atlantský hrdina po svém prvním střetu se skutečným protivníkem"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Guardhouse
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1974
+msgctxt "atlanteans_building"
+msgid "Officer visiting a remote guardhouse"
+msgstr "důstojník na návštěvě odlehlé strážnice"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Guardhall
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1987
+msgctxt "atlanteans_building"
+msgid "Scribbling on the wall of a guardhall"
+msgstr "ručně psaný nápis na stěně velké strážnice"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Small
+#. Tower
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2000
+msgctxt "atlanteans_building"
+msgid "Notes on the building instructions"
+msgstr "poznámky k popisu budovy"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Tower
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2014
+msgctxt "atlanteans_building"
+msgid "Soldier handing over his duties to a younger one"
+msgstr "zasloužilý voják předává službu nově příchozímu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: High
+#. Tower
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2030
+msgctxt "atlanteans_building"
+msgid "Soldier showing off a High Tower"
+msgstr "voják provázející vysokou věží"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site: Ferry
+#. Yard
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2067
+msgctxt "atlanteans_building"
+msgid "Traditional song of the ferrymen"
+msgstr "tradiční píseň převozníků"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Atlantean production site:
+#. Shipyard -- not directly stolen from the wellerman song
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2093
+msgctxt "atlanteans_building"
+msgid "Transcript from oral tradition"
+msgstr "přepis lidové slovesnosti"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore author helptext for a Barbarian warehouse: Headquarters
 #. TRANSLATORS: Lore author helptext for a Barbarian military site: Barrier
 #. TRANSLATORS: Lore author helptext for a Barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1088
-#: ../../data/tribes/initialization/barbarians/units.lua:1750
-#: ../../data/tribes/initialization/barbarians/units.lua:1764
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1088
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1754
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1768
 msgctxt "barbarians_building"
 msgid "Ballad ‘The Battle of Kal’mavrath’ by Hakhor the Bard"
 msgstr "z balady \"Bitva o Kal'Mavrath\" složené Hakhorem Pěvcem"
@@ -44,16 +325,726 @@ msgstr "z balady \"Bitva o Kal'Mavrath\" složené Hakhorem Pěvcem"
 # (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore author helptext for a Barbarian warehouse: Port
 #. TRANSLATORS: Lore author helptext for a Barbarian production site: Shipyard
-#: ../../data/tribes/initialization/barbarians/units.lua:1121
-#: ../../data/tribes/initialization/barbarians/units.lua:1819
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1121
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1829
 msgctxt "barbarians_building"
 msgid "Captain Thanlas the Elder,<br>Explorer"
 msgstr "kapitán Thanlas starší,<br>objevitel"
 
 # (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Quarry
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1136
+msgctxt "barbarians_building"
+msgid "Slogan of the stonemasons’ guild"
+msgstr "heslo cechu kamenického"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Fisher's
+#. Hut
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1194
+msgctxt "barbarians_building"
+msgid ""
+"Frequent response of a Barbarian fisherman,<br>often followed by an "
+"enjoyable brawl"
+msgstr "velmi častá reakce barbarského rybáře,<br>předznamenávající pořádnou melu strhávající na sebe náležitou veřejnou pozornost"
+
+# (pofilter) startcaps: Different capitalization at the start
 #. TRANSLATORS: Lore author helptext for a Barbarian production site:
 #. Gamekeeper's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1236
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1236
 msgctxt "barbarians_building"
 msgid "Barbarian nursery rhyme"
 msgstr "barbarská říkanka"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Well
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1249
+msgctxt "barbarians_building"
+msgid ""
+"Song written by Sigurd the Bard when the first rain fell after the Great "
+"Drought in the 21ˢᵗ year of Chat’Karuth’s reign."
+msgstr "píseň básníka Sigurda složená na oslavu prvního deště po období Velkého sucha v 21. roce Chat'Karuthovy vlády"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Wood
+#. Hardener
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1287
+msgctxt "barbarians_building"
+msgid ""
+"Legend about a quarrel between the brothers Harthor and Manthor,<br>Manthor "
+"is said to be the inventor of blackwood"
+msgstr "z legendy o při bratrů Harthora a Manthora,<br>Manthor je považován za vynálezce tvrzeného dřeva"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Micro
+#. Brewery
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1343
+msgctxt "barbarians_building"
+msgid "Widespread toast among miners"
+msgstr "přípitek rozšířený mezi horníky"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Brewery
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1359
+msgctxt "barbarians_building"
+msgid "First verse of the drinking song ‘Way of the Barbarian’"
+msgstr "první verš hospodské písně \"To Barbar\""
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Tavern
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1372
+msgctxt "barbarians_building"
+msgid "Menu of the tavern ‘Ye Ol’ Bronze Axe’"
+msgstr "nabídka hospody \"Stará dobrá bronzová sekerka\""
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Inn
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1385
+msgctxt "barbarians_building"
+msgid "Chef’s recommendation in ‘The Singing Master Miner’"
+msgstr "výběr hlavního kuchaře hostince \"U zpívajícího hornického mistra\""
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Charcoal
+#. Kiln
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1418
+msgctxt "barbarians_building"
+msgid "Song of the charcoal burners"
+msgstr "uhlířská píseň"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Metal
+#. Workshop
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1445
+msgctxt "barbarians_building"
+msgid ""
+"Inscription on the threshold of the now ruined Olde Forge at Harradsheim, "
+"the eldest known smithy."
+msgstr "nápis nad prahem dnes již zchátralé Staré kovárny v Harradsheimu, nejstarší známé kovárny"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Warmill
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Ax
+#. Workshop
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1460
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1479
+msgctxt "barbarians_building"
+msgid ""
+"An old Barbarian proverb<br> meaning that you need to take some risks "
+"sometimes."
+msgstr "staré barbarské přísloví říká,<br>že někdy je třeba riskovat."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Barracks
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1498
+msgctxt "barbarians_building"
+msgid "Famous Barbarian recruitment poster"
+msgstr "známý barbarský verbovací aushang"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Farm
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1527
+msgctxt "barbarians_building"
+msgid "Line from the harvesting song ‘The Wealth of the Fields’"
+msgstr "sloka písně ženců \"Štědré pole\""
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Helm
+#. Smithy
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1540
+msgctxt "barbarians_building"
+msgid "Slogan of ‘Harrath’s Handsome Helmets’ in Al’thunran"
+msgstr "slogan \"Harrathovi umělecko-řemeslné přilbárny\" v Al'thunranu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Iron
+#. Mine
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Deep
+#. Iron Mine
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Deeper
+#. Iron Mine
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1621
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1634
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1647
+msgctxt "barbarians_building"
+msgid "Quote from an anonymous miner."
+msgstr "citát neznámého horníka."
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Gold
+#. Mine
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Deep
+#. Gold Mine
+#. TRANSLATORS: Lore author helptext for a Barbarian production site: Deeper
+#. Gold Mine
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1660
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1673
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1686
+msgctxt "barbarians_building"
+msgid ""
+"Excerpt from ‘Our Treasures Underground’,<br> a traditional Barbarian song."
+msgstr "úryvek z \"Naše podzemní bohatství\",<br> tradiční barbarská píseň"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian training site: Battle
+#. Arena
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1701
+msgctxt "barbarians_building"
+msgid "Said to originate from Neidhardt, the famous trainer."
+msgstr "citát připisovaný Neidhardtovi, slavnému cvičiteli"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Barbarian training site: Training
+#. Camp
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1720
+msgctxt "barbarians_building"
+msgid "Chief Chat’Karuth in a speech to his army."
+msgstr "projev náčelníka Chat’Karutha ke své armádě"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire warehouse: Headquarters
+#: ../../../../data/tribes/initialization/empire/units.lua:1158
+msgctxt "empire_building"
+msgid "Proverb signifying the glory of the Empire and its capital"
+msgstr "přísloví vyzdvihující věhlas Císařství a jeho hlavního města"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire warehouse: Warehouse
+#: ../../../../data/tribes/initialization/empire/units.lua:1201
+msgctxt "empire_building"
+msgid "Proverb written over the doors of a warehouse"
+msgstr "přísloví napsané nad dveřmi skladu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire warehouse: Port
+#: ../../../../data/tribes/initialization/empire/units.lua:1221
+msgctxt "empire_building"
+msgid ""
+"Admiral Litus Marius Exsiccatus, sending out the fleet to break the naval "
+"blockade during the First Atlantean War"
+msgstr "admirál Litus Marius Exsiccatus, vysílá své loďstvo, aby prolomilo námořní blokádu v průběhu První atlantské války"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Quarry
+#: ../../../../data/tribes/initialization/empire/units.lua:1246
+msgctxt "empire_building"
+msgid "An enthusiastic stonemason arriving to a new quarry"
+msgstr "kameník plný nadšení obydlil nový lom (Mt 24:2)"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site:
+#. Lumberjack's House
+#: ../../../../data/tribes/initialization/empire/units.lua:1277
+msgctxt "empire_building"
+msgid "A carrier to a lumberjack who lost his way home"
+msgstr "nosič k dřevorubci, který se ztratil po cestě domů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Forester's
+#. House
+#: ../../../../data/tribes/initialization/empire/units.lua:1304
+msgctxt "empire_building"
+msgid "Blessing from the god Silvanus"
+msgstr "požehnání od boha Silvana"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Fisher's
+#. House
+#: ../../../../data/tribes/initialization/empire/units.lua:1331
+msgctxt "empire_building"
+msgid "A fisherman criticising the Grand Master of the Fishermans’ Guild"
+msgstr "rybář kritizující hlavního mistra cechu rybářů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Hunter's
+#. House
+#: ../../../../data/tribes/initialization/empire/units.lua:1362
+msgctxt "empire_building"
+msgid "Caption on an imperial relief showing a hunter"
+msgstr "nápis na císařské plastice zobrazující lovce"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Well
+#. TRANSLATORS: Lore author helptext for an Empire production site: Marble
+#. Mine
+#: ../../../../data/tribes/initialization/empire/units.lua:1389
+#: ../../../../data/tribes/initialization/empire/units.lua:1867
+msgctxt "empire_building"
+msgid "Imperial proverb"
+msgstr "císařské přísloví"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Scout's
+#. House
+#: ../../../../data/tribes/initialization/empire/units.lua:1414
+msgctxt "empire_building"
+msgid "A belated scout’s report"
+msgstr "opožděné hlášení průzkumníka"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site:
+#. Stonemason's House
+#: ../../../../data/tribes/initialization/empire/units.lua:1442
+msgctxt "empire_building"
+msgid "Motto of the Stonemasons’ Guild"
+msgstr "motto cechu kameníků"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Sawmill
+#: ../../../../data/tribes/initialization/empire/units.lua:1461
+msgctxt "empire_building"
+msgid "Motto of the Carpenters’ Guild"
+msgstr "motto tesařského cechu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Mill
+#: ../../../../data/tribes/initialization/empire/units.lua:1482
+msgctxt "empire_building"
+msgid "Proverb often cited by millers to impatient customers"
+msgstr "mlynáři často používané přísloví pokud se setkají s netrpělivým zákazníkem"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Bakery
+#: ../../../../data/tribes/initialization/empire/units.lua:1503
+msgctxt "empire_building"
+msgid "A baker accusing another of theft"
+msgstr "pekař obviňuje druhého z krádeže"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Brewery
+#: ../../../../data/tribes/initialization/empire/units.lua:1525
+msgctxt "empire_building"
+msgid "Imperial drinking song"
+msgstr "císařská hodovní píseň"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Vineyard
+#: ../../../../data/tribes/initialization/empire/units.lua:1548
+msgctxt "empire_building"
+msgid "A proud vine farmer boasting"
+msgstr "pyšný vinař se vychvaluje"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Winery
+#. TRANSLATORS: Lore author helptext for an Empire production site: Piggery
+#. TRANSLATORS: Lore author helptext for an Empire production site: Coal Mine
+#. TRANSLATORS: Lore author helptext for an Empire production site: Deep Coal
+#. Mine
+#: ../../../../data/tribes/initialization/empire/units.lua:1567
+#: ../../../../data/tribes/initialization/empire/units.lua:1785
+#: ../../../../data/tribes/initialization/empire/units.lua:1915
+#: ../../../../data/tribes/initialization/empire/units.lua:1940
+msgctxt "empire_building"
+msgid "Excerpt from the Encyclopædia Imperica"
+msgstr "výňatek z Císařské encyklopedie"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Tavern
+#: ../../../../data/tribes/initialization/empire/units.lua:1586
+msgctxt "empire_building"
+msgid "Warning to a gluttonous miner"
+msgstr "varování nenasytnému horníkovi"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Inn
+#: ../../../../data/tribes/initialization/empire/units.lua:1607
+msgctxt "empire_building"
+msgid "Warning from a master miner to an apprentice"
+msgstr "mistr horník varuje učně"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Charcoal
+#. Kiln
+#: ../../../../data/tribes/initialization/empire/units.lua:1629
+msgctxt "empire_building"
+msgid "Imperial proverb meaning to judge whether they are good or bad"
+msgstr "císařské přísloví tázající se, zda je něco dobré, nebo špatné"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Toolsmithy
+#: ../../../../data/tribes/initialization/empire/units.lua:1672
+msgctxt "empire_building"
+msgid "Imperial proverb quoted in a toolsmith's advertising"
+msgstr "císařské přísloví použité k propagaci kovárny"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site:
+#. Armorsmithy
+#: ../../../../data/tribes/initialization/empire/units.lua:1697
+msgctxt "empire_building"
+msgid "An armorsmith teaching an apprentice"
+msgstr "platnéř školící učně"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Barracks
+#: ../../../../data/tribes/initialization/empire/units.lua:1718
+msgctxt "empire_building"
+msgid "Argument in the Senate for increasing recruitment"
+msgstr "argument z senátu obhajující navýšení náboru vojáků"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Donkey
+#. Farm
+#: ../../../../data/tribes/initialization/empire/units.lua:1741
+msgctxt "empire_building"
+msgid "A donkey breeder during a shortage of wheat"
+msgstr "chovatel oslů v době nedostatku pšenice"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Sheep Farm
+#: ../../../../data/tribes/initialization/empire/units.lua:1806
+msgctxt "empire_building"
+msgid "Imperial proverb for trying the impossible"
+msgstr "císařské přísloví vyjadřující snahu o nemožné"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Weaving
+#. Mill
+#: ../../../../data/tribes/initialization/empire/units.lua:1825
+msgctxt "empire_building"
+msgid "Motto of the Weavers’ Guild"
+msgstr "motto tkalcovského cechu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Weapon
+#. Smithy
+#: ../../../../data/tribes/initialization/empire/units.lua:1844
+msgctxt "empire_building"
+msgid "Motto of the Weaponsmiths’ Guild"
+msgstr "motto cechu zbrojířů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Iron Mine
+#: ../../../../data/tribes/initialization/empire/units.lua:1961
+msgctxt "empire_building"
+msgid "A proverb that is vehemently disputed by iron miners"
+msgstr "přísloví, které je vehementně zpochybňováno horníky těžícími železnou rudu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Deep Gold
+#. Mine
+#: ../../../../data/tribes/initialization/empire/units.lua:2029
+msgctxt "empire_building"
+msgid "General Trepidus Egenus Attenuatus on motivating soldiers"
+msgstr "generál Trepidus Egenus Attenuatus motivující vojáky"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire training site: Colosseum
+#: ../../../../data/tribes/initialization/empire/units.lua:2082
+msgctxt "empire_building"
+msgid "Greeting from the gladiators to the emperor"
+msgstr "pozdrav gladiátorů císaři"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire training site: Training
+#. Camp
+#: ../../../../data/tribes/initialization/empire/units.lua:2108
+msgctxt "empire_building"
+msgid "Trainer to soldiers who questioned the need for higher level training"
+msgstr "trenér připravuje vojáky vyšší úroveň výcviku"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire military site: Blockhouse
+#: ../../../../data/tribes/initialization/empire/units.lua:2137
+msgctxt "empire_building"
+msgid ""
+"General Passerus Claudius Pedestrus on why he didn’t order the destruction "
+"of a rebel Blockhouse"
+msgstr "generál Passerus Claudius Pedestrus vysvětluje, proč nenařídil zničení povstalecké malé pevnosti"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire military site: Barrier
+#: ../../../../data/tribes/initialization/empire/units.lua:2210
+msgctxt "empire_building"
+msgid ""
+"Rebel general Certus Ignavus Fidelius upon entering the limits of Fremil to "
+"overthrow the government"
+msgstr "generál povstalců Certus Ignavus Fidelius překračující hranice Fremilu během cesty svrhnout vládu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire military site: Tower
+#: ../../../../data/tribes/initialization/empire/units.lua:2234
+msgctxt "empire_building"
+msgid ""
+"General Claudius Cæcus Cessus reporting a quick victory over the Barbarians "
+"thanks to the superior vision of a tower"
+msgstr "generál Claudius Cæcus Cessus oznamující své bleskové vítězství nad Barbary díky využití výjimečného dohledu věže"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for an Empire production site: Shipyard
+#: ../../../../data/tribes/initialization/empire/units.lua:2337
+msgctxt "empire_building"
+msgid "A shipwright lamenting when he was instructed to stop working"
+msgstr "stavitel lodí stěžující si, že výroba lodí byla zastavena"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Quarry
+#: ../../../../data/tribes/initialization/frisians/units.lua:1558
+msgctxt "frisians_building"
+msgid "A stonemason"
+msgstr "neznámý kameník"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site:
+#. Woodcutter's House
+#: ../../../../data/tribes/initialization/frisians/units.lua:1577
+msgctxt "frisians_building"
+msgid "An over-enthusiastic woodcutter"
+msgstr "přemotivovaný dřevorubec"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Forester's
+#. House
+#: ../../../../data/tribes/initialization/frisians/units.lua:1596
+msgctxt "frisians_building"
+msgid "A forester explaining his choice of profession"
+msgstr "lesník objasňující důvod volby své profese"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Fisher's
+#. House
+#: ../../../../data/tribes/initialization/frisians/units.lua:1632
+msgctxt "frisians_building"
+msgid "A hunter admiring a fisher"
+msgstr "lovec velebící povolání rybáře"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Reed Farm
+#: ../../../../data/tribes/initialization/frisians/units.lua:1655
+msgctxt "frisians_building"
+msgid "Anonymous reed farmer"
+msgstr "neznámý pěstitel rákosí"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Well
+#: ../../../../data/tribes/initialization/frisians/units.lua:1668
+msgctxt "frisians_building"
+msgid ""
+"Chieftain Arldor’s retort when he was asked why his tribe can’t drink salt "
+"water"
+msgstr "pádný argument kmenového vůdce Arldora zdůvodňující, proč jeho kmen nemůže pít slanou vodu"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Clay Pit
+#: ../../../../data/tribes/initialization/frisians/units.lua:1685
+msgctxt "frisians_building"
+msgid "A clay digger arguing with a builder"
+msgstr "kopáč hlíny ve sporu se stavařem"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Charcoal
+#. Burner's House
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Charcoal
+#. Kiln
+#: ../../../../data/tribes/initialization/frisians/units.lua:1696
+#: ../../../../data/tribes/initialization/frisians/units.lua:1897
+msgctxt "frisians_building"
+msgid "The inventor of the Frisian charcoal kiln"
+msgstr "vynálezce Fríské uhlířské pece"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Berry Farm
+#: ../../../../data/tribes/initialization/frisians/units.lua:1715
+msgctxt "frisians_building"
+msgid "A berry farmer to a forester"
+msgstr "sadař krotící lesníkovu samolibost"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Fruit
+#. Collector's House
+#: ../../../../data/tribes/initialization/frisians/units.lua:1730
+msgctxt "frisians_building"
+msgid "A fruit collector advertising his harvest to a landlady"
+msgstr "sběrač ovoce získává sympatie hostinské pro svou sklizeň"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site:
+#. Beekeeper's House
+#: ../../../../data/tribes/initialization/frisians/units.lua:1745
+msgctxt "frisians_building"
+msgid "A beekeeper ignoring a customer’s complaint"
+msgstr "včelař nenacházející pochopení pro zákazníkovu stížnost"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Aqua Farm
+#: ../../../../data/tribes/initialization/frisians/units.lua:1760
+msgctxt "frisians_building"
+msgid "The fisherman who invented aqua farming"
+msgstr "rybář, který vymyslel systém rybích sádek"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Scout's
+#. House
+#: ../../../../data/tribes/initialization/frisians/units.lua:1773
+msgctxt "frisians_building"
+msgid "The spokesman of the scouts’ labor union"
+msgstr "mluvčí odborů průzkumníků"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Brick Kiln
+#: ../../../../data/tribes/initialization/frisians/units.lua:1793
+msgctxt "frisians_building"
+msgid "A brickmaker arguing with his chieftain who was doing just that"
+msgstr "cihlář ve sporu s kmenovým vůdcem, který se dopustil právě výše zmíněného"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Furnace
+#: ../../../../data/tribes/initialization/frisians/units.lua:1806
+msgctxt "frisians_building"
+msgid "Slogan of the Smelters’ Guild"
+msgstr "heslo cechu slévačského"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Recycling
+#. Center
+#: ../../../../data/tribes/initialization/frisians/units.lua:1819
+msgctxt "frisians_building"
+msgid "A smelter explaining the need for recycling to his impatient chieftain"
+msgstr "slévač vysvětlující inovativní přínosy recyklace progresivnímu kmenovému vůdci"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site:
+#. Blacksmithy
+#: ../../../../data/tribes/initialization/frisians/units.lua:1832
+msgctxt "frisians_building"
+msgid "Irritated chieftain during a metal shortage"
+msgstr "kmenový vůdce rozladěný kritickým stavem hutnictví železa"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Small
+#. Armor Smithy
+#: ../../../../data/tribes/initialization/frisians/units.lua:1845
+msgctxt "frisians_building"
+msgid "A blacksmith pointing out his influence on soldier training"
+msgstr "kovář vyjadřující svůj osobní zájem na dobře vycvičené armádě"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Large
+#. Armor Smithy
+#: ../../../../data/tribes/initialization/frisians/units.lua:1858
+msgctxt "frisians_building"
+msgid ""
+"A master blacksmith refusing to forge anything but the most sophisticated "
+"helmets and weapons"
+msgstr "nechuť mistra kováře věnovat se něčemu jinému než kování zbraní a přileb odpovídajících jeho vysoce odborné kvalifikaci"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Sewing
+#. Room
+#: ../../../../data/tribes/initialization/frisians/units.lua:1871
+msgctxt "frisians_building"
+msgid "A seamstress scolding a soldier for disrespecting her profession"
+msgstr "švadlena plísnící vojáka za nedocenění přínosu její profese"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Tailor's
+#. Shop
+#: ../../../../data/tribes/initialization/frisians/units.lua:1884
+msgctxt "frisians_building"
+msgid "A trainer scolding a soldier"
+msgstr "cvičitel poučuje vojáka"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Smokery
+#: ../../../../data/tribes/initialization/frisians/units.lua:1910
+msgctxt "frisians_building"
+msgid "A smoker explaining his profession"
+msgstr "strategie uzenáře na spokojený profesní život"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Bakery
+#: ../../../../data/tribes/initialization/frisians/units.lua:1923
+msgctxt "frisians_building"
+msgid "A baker"
+msgstr "pekař"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Honey
+#. Bread Bakery
+#: ../../../../data/tribes/initialization/frisians/units.lua:1936
+msgctxt "frisians_building"
+msgid "A trainer in conversation with a baker"
+msgstr "moudro od cvičitele vojáků pekaři"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Brewery
+#: ../../../../data/tribes/initialization/frisians/units.lua:1949
+msgctxt "frisians_building"
+msgid "A brewer boasting about the importance of his profession"
+msgstr "sládek k důležitosti své profese v rámci kmenového hospodářství"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Mead
+#. Brewery
+#: ../../../../data/tribes/initialization/frisians/units.lua:1962
+msgctxt "frisians_building"
+msgid "Slogan over a mead brewery"
+msgstr "vývěsní cedule nad varnou medoviny"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Tavern
+#: ../../../../data/tribes/initialization/frisians/units.lua:1975
+msgctxt "frisians_building"
+msgid "Hungry customers in times of a shortage of smoked fish and meat"
+msgstr "hladový zákazník hospody v čase nedostatku uzenin"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Drinking
+#. Hall
+#: ../../../../data/tribes/initialization/frisians/units.lua:1988
+msgctxt "frisians_building"
+msgid "A master miner to the landlady"
+msgstr "mistr horník k paní hostinské"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Barracks
+#: ../../../../data/tribes/initialization/frisians/units.lua:2001
+msgctxt "frisians_building"
+msgid "A trainer greeting the new recruits"
+msgstr "cvičitel vítající nové rekruty"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Reindeer
+#. Farm
+#: ../../../../data/tribes/initialization/frisians/units.lua:2016
+msgctxt "frisians_building"
+msgid ""
+"The reindeer breeder who first proposed using reindeer fur for clothing"
+msgstr "chovatel sobů, který jako první navrhl užití sobí kožešiny na výrobu oděvů"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Farm
+#: ../../../../data/tribes/initialization/frisians/units.lua:2031
+msgctxt "frisians_building"
+msgid ""
+"A farmer’s reply when asked by his chieftain why he was planting such a "
+"slow-growing grain."
+msgstr "odpověď sedláka vůdci kmene na otázku, proč zasel tak pomale rostoucí obilí"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian training site: Training
+#. Camp
+#. TRANSLATORS: Lore author helptext for a Frisian training site: Training
+#. Arena
+#: ../../../../data/tribes/initialization/frisians/units.lua:2129
+#: ../../../../data/tribes/initialization/frisians/units.lua:2142
+msgctxt "frisians_building"
+msgid "A trainer training a soldier"
+msgstr "cvičitel zahajující výcvik"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Shipyard
+#: ../../../../data/tribes/initialization/frisians/units.lua:2232
+msgctxt "frisians_building"
+msgid ""
+"A shipwright who only constructed toy ships after being chid that his ships "
+"were too small"
+msgstr "loďař o nedostatečnosti jazyka k vyjádření určitých kvalit"
+
+# (pofilter) startcaps: Different capitalization at the start
+#. TRANSLATORS: Lore author helptext for a Frisian production site: Weaving
+#. Mill
+#: ../../../../data/tribes/initialization/frisians/units.lua:2255
+msgctxt "frisians_building"
+msgid "A seamstress’ work song"
+msgstr "pracovní píseň švadlen"

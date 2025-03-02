@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Ximena Delgado, 2022\n"
+"Last-Translator: Raúl Contreras, 2024-2025\n"
 "Language-Team: Esperanto (http://app.transifex.com/widelands/widelands/"
 "language/eo/)\n"
 "Language: eo\n"
@@ -12,96 +12,151 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:546
-#, c-format
+#: ../../../../data/scripting/infrastructure.lua:294
+msgid "Not enough trees nearby"
+msgstr "Ne sufiĉe da arboj proksime."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip for the immovables tool in the editor
+#: ../../../../src/editor/editorinteractive.cc:334
+msgid "Add or remove immovables"
+msgstr "Aldoni aŭ forigi nemoveblaĵojn."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip for the map size tool in the editor
+#: ../../../../src/editor/editorinteractive.cc:373
+msgid "Set number of players and their names, tribes and starting positions"
+msgstr "Agordu la nombron de ludantoj kaj iliajn nomojn, tribojn kaj komencajn poziciojn."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. * TRANSLATORS: Tooltip for the map information tool in the editor
+#: ../../../../src/editor/editorinteractive.cc:398
+msgid "Click on a field to show information about it"
+msgstr "Alklaku kampon por montri informon pri ĝi."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:488
 msgid ""
-"Widelands could not load the file \"%s\". The file format seems to be "
-"incompatible."
-msgstr "Widelands ne povis ŝargi la dosieron \"%s\". La formato ŝajnas esti nekongrua"
+"Toggle whether to show maximum building spaces that will be available if all"
+" immovables (trees, rocks, etc.) are removed"
+msgstr "Alternas inter montri aŭ ne ĉiujn konstruejojn, kiuj estas disponeblaj, se ĉiuj nemoveblaĵoj (arboj, rokoj, ktp.) estas forigitaj."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1228
+#: ../../../../src/editor/editorinteractive.cc:514
+msgid ""
+"Display separate water bodies with differently coloured overlays to see "
+"which coasts can be connected by shipping routes"
+msgstr "Montras apartajn akvokorpojn kun malsamkoloraj tavoloj por vidi, kiuj marbordoj povas esti konektitaj per maraj itineroj."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:1361
 msgid "Loading world…"
 msgstr "Ŝargante mondon..."
 
 # (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/editorinteractive.cc:1681
+#: ../../../../src/ui_fsmenu/addons/screenshot_upload.cc:108
+msgid "Uploading…"
+msgstr "Alŝutante..."
+
+# (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:192
 #, c-format
 msgid "Current: %s …"
 msgstr "Nuna: %s…"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:198
-#: ../../src/editor/ui_menus/tool_change_resources_options_menu.cc:176
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:198
+#: ../../../../src/editor/ui_menus/tool_change_resources_options_menu.cc:176
 #, c-format
 msgid "Current: %s"
 msgstr "Nuna: %s…"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:399
+msgid ""
+"Please add suggested team line-ups in the next tab for all selected options"
+msgstr "Bonvolu aldoni proponitajn teamajn konsistojn en la sekva langeto por ĉiuj elektitaj opcioj."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:415
+msgid ""
+"Mark whether the starting positions provide equal conditions for each player"
+msgstr "Marku ĉu la komencaj pozicioj provizas egalajn kondiĉojn por ĉiu ludanto."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:420
+msgid "Set the theme for the game loadscreens"
+msgstr "Agordu la temon por la ŝargaj ekranoj de la ludo."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:433
+msgid ""
+"Enable ferries, waterways, and ferry yards on this map by setting the "
+"maximum length of waterways for ferries"
+msgstr "Ŝaltu pramojn, akvovojojn kaj pramfarejojn sur ĉi tiu mapo per agordo de la maksimuma longo de akvovojoj por pramoj."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/editor/ui_menus/main_menu_new_map.cc:106
 msgid "Creating empty map…"
-msgstr "Kreanta mapon malplenan"
+msgstr "Kreante malplenan mapon..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
-msgid "Saving the map…"
-msgstr "Konservante la mapon..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:52
+#: ../../../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
-msgstr "Aŭtomatkonserva ludon..."
+msgstr "Aŭtomatsavante la ludon..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:246 ../../src/logic/game.cc:289
-#: ../../src/logic/game.cc:407 ../../src/logic/game.cc:462
-msgid "Preloading map…"
-msgstr "Praŝarganta mapon..."
+#: ../../../../src/logic/editor_game_base.cc:306
+msgid "Postloading world and tribes…"
+msgstr "Postŝarĝo de mondo kaj triboj..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:345
-msgid "Initializing game…"
-msgstr "Inicializante ludon..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:604
-msgid "Creating player infrastructure…"
-msgstr "Kreanta ludant-instalaĵojn..."
-
-# (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:722
+#: ../../../../src/logic/game.cc:764
 msgid "Initializing…"
-msgstr "Inicializante..."
+msgstr "Iniciigante..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/objective.h:31
+#: ../../../../src/logic/generic_save_handler.cc:266
+#, c-format
+msgid "File ‘%s’ was restored from backup."
+msgstr "La dosiero \"%s\" ne povis esti forigita!"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../src/logic/objective.h:31
 msgid "This objective has no description."
 msgstr "Tiu celo ne havas priskribon"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:114
+#: ../../../../src/logic/save_handler.cc:114
 msgid "Saving game…"
-msgstr "Konservante ludon..."
+msgstr "Savante la ludon..."
+
+# (pofilter) endpunc: Different punctuation at the end, Different punctuation at the end
+#: ../../../../src/map_io/map_buildingdata_packet.cc:918
+#, c-format
+msgid "%1$u piece of an unknown ware"
+msgid_plural "%1$u pieces of unknown wares"
+msgstr[0] "%1$u peco de nekonata varo."
+msgstr[1] "%1$u pecoj de nekonataj varoj."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:87
+#: ../../../../src/map_io/map_saver.cc:87
 msgid "Autosaving map…"
-msgstr "Aŭtomatkonserva mapon..."
+msgstr "Aŭtomatsavante la mapon..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:128
-msgid "/forcePause            -  Force the game to pause."
-msgstr "/forcePause - Eldevigas lud-paŭzon"
+#: ../../../../src/ui_fsmenu/addons/manager.cc:539
+msgid "Move selected add-on to top"
+msgstr "Movu la elektitan kromprogramon al la supro."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/savegametable.cc:147 ../../src/wui/savegametable.cc:175
-#: ../../src/wui/savegametable.cc:238
-msgid "Save Date"
-msgstr "Konservi daton."
+#. * TRANSLATORS: Tooltip in the ship statistics window
+#: ../../../../src/wui/seafaring_statistics_menu.cc:607
+msgid "Show expeditions that have found a port space or are founding a colony"
+msgstr "Montru ekspediciojn, kiuj trovis havenspacon aŭ fondas kolonion."

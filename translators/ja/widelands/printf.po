@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: tamanegi, 2018-2019\n"
 "Language-Team: Japanese (http://app.transifex.com/widelands/widelands/"
@@ -12,17 +12,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) printf: Different number of printf variables
-#: ../../src/logic/map_objects/immovable.cc:491
-#: ../../src/logic/map_objects/tribes/constructionsite.cc:169
+#: ../../../../src/logic/map_objects/immovable.cc:509
+#: ../../../../src/logic/map_objects/tribes/constructionsite.cc:163
 #, c-format
 msgid "%i%% built"
 msgstr "%i%%建設"
 
 # (pofilter) printf: Different number of printf variables
 #. * TRANSLATORS: %1% = language name, %2% = percentage
-#: ../../src/ui_fsmenu/options.cc:772
+#: ../../../../src/ui_fsmenu/options.cc:814
 msgid "The translation into %1% is %2%%% complete."
 msgstr "%1%への翻訳は%2%%%完了しています。"

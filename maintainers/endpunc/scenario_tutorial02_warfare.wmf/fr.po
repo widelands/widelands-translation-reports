@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:47+0000\n"
-"Last-Translator: Renaud Bouchard, 2016-2017,2019-2020,2023\n"
+"Last-Translator: Renaud Bouchard, 2016-2017,2019-2020,2023-2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: the current stats are: 3 health, 5 attack, 0 defense, 2 evade.
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:37
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:37
 msgid ""
 "If a Barbarian soldier is fully trained, he has level %1% health, level %2% "
 "attack, level %3% defense and level %4% evade. This is one fearsome warrior "
@@ -25,39 +25,39 @@ msgid ""
 msgstr "Si un soldat Barbare est complètement entrainé, il aura un niveau de santé de %1%, un niveau de %2% en attaque, un niveau de %3% en défense et un niveau de %4% en esquive. C'est alors un guerrier craint de tous ! Les compétences individuelles ont cette signification :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:38
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:38
 msgid "Health:"
 msgstr "Santé :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:41
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:41
 msgid "Attack:"
 msgstr "Attaque :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:45
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:45
 msgid "Defense:"
 msgstr "Défense :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:49
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:49
 msgid "Evade:"
 msgstr "Esquive :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:81
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:81
 msgid "The Battle Arena Has Been Constructed"
 msgstr "L'arène de combat a été construite."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:86
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:86
 msgid ""
 "To learn how far your soldiers have progressed in their training, you can "
 "have a look at their icons. They are modified by red dots:"
 msgstr "Pour savoir jusqu'où vos soldats ont progressé, vous pouvez regarder leurs icônes. Elles sont modifiées par des points rouges :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:130
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:130
 msgid ""
 "You can try your luck and expand randomly, but this is risky. A safer way is"
 " to use a scout to explore unseen parts of the map. What if he finds "
@@ -65,22 +65,28 @@ msgid ""
 msgstr "Vous pouvez tenter votre chance en vous étendant au hasard, mais c'est risqué. Une manière plus sûre consiste à envoyer un éclaireur  explorer les parties non découvertes de la carte. Que se passerait il s'il découvrait des montagnes débordantes d'or ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:150
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:150
 msgid "Ready to go!"
 msgstr "Prêt à y aller !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:171
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:171
 msgid "New horizons?"
 msgstr "De nouveaux horizons ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:223
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:207
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:209
+msgid "Soldiers in the headquarters"
+msgstr "Soldats dans les quartiers-généraux."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:243
 msgid "Dismantle your north-western sentry"
 msgstr "Démantelez votre guérite la plus au nord-ouest."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:258
+#: ../../../../data/campaigns/tutorial02_warfare.wmf/scripting/texts.lua:278
 msgid ""
 "Great work, the citadel is finished. But what’s that? A hostile tribe has "
 "settled next to us while the citadel was under construction! Do you see how "

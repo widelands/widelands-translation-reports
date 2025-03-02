@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2009,2015-2021\n"
 "Language-Team: Danish (http://app.transifex.com/widelands/widelands/language/"
@@ -12,171 +12,178 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1179
+#: ../../../../src/editor/editorinteractive.cc:1312
 #, c-format
 msgid "Loading map “%s”…"
 msgstr "Indlæser kort »%s« ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/editorinteractive.cc:1228
+#: ../../../../src/editor/editorinteractive.cc:1361
 msgid "Loading world…"
 msgstr "Indlæser verden ..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:192
 #, c-format
 msgid "Current: %s …"
 msgstr "Aktuel: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_load_or_save_map.cc:114
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:250
-#: ../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:62
-#: ../../src/editor/ui_menus/player_menu.cc:87
-#: ../../src/ui_basic/color_chooser.cc:272
-#: ../../src/ui_basic/messagebox.cc:108 ../../src/ui_basic/text_prompt.cc:46
-#: ../../src/ui_fsmenu/addons/login_box.cc:54
-#: ../../src/ui_fsmenu/addons/manager.cc:296
-#: ../../src/ui_fsmenu/addons/packager.cc:134
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:174
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:465
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:696
-#: ../../src/ui_fsmenu/helpwindow.cc:56
-#: ../../src/ui_fsmenu/keyboard_options.cc:68
-#: ../../src/ui_fsmenu/keyboard_options.cc:232 ../../src/ui_fsmenu/menu.cc:166
-#: ../../src/ui_fsmenu/options.cc:93
-#: ../../src/ui_fsmenu/training_wheel_options.cc:154
-#: ../../src/wui/game_main_menu_save_game.cc:100
-#: ../../src/wui/pinned_note.cc:51 ../../src/wui/story_message_box.cc:70
+#: ../../../../src/editor/ui_menus/main_menu_load_or_save_map.cc:114
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:250
+#: ../../../../src/editor/ui_menus/main_menu_save_map_make_directory.cc:62
+#: ../../../../src/editor/ui_menus/player_menu.cc:87
+#: ../../../../src/ui_basic/color_chooser.cc:278
+#: ../../../../src/ui_basic/messagebox.cc:108
+#: ../../../../src/ui_basic/text_prompt.cc:46
+#: ../../../../src/ui_fsmenu/addons/login_box.cc:54
+#: ../../../../src/ui_fsmenu/addons/manager.cc:519
+#: ../../../../src/ui_fsmenu/addons/packager.cc:134
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:174
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:465
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:697
+#: ../../../../src/ui_fsmenu/helpwindow.cc:56
+#: ../../../../src/ui_fsmenu/keyboard_options.cc:68
+#: ../../../../src/ui_fsmenu/keyboard_options.cc:232
+#: ../../../../src/ui_fsmenu/menu.cc:166
+#: ../../../../src/ui_fsmenu/options.cc:95
+#: ../../../../src/ui_fsmenu/training_wheel_options.cc:154
+#: ../../../../src/wui/game_main_menu_save_game.cc:100
+#: ../../../../src/wui/pinned_note.cc:51
+#: ../../../../src/wui/story_message_box.cc:70
 msgid "OK"
 msgstr "O.k."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
+#: ../../../../src/editor/ui_menus/main_menu_new_map.cc:106
 msgid "Creating empty map…"
 msgstr "Opretter tomt kort..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:633
 msgid "Generating random map…"
 msgstr "Danner tilfældigt kort..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_save_map.cc:345
+#: ../../../../src/editor/ui_menus/main_menu_save_map.cc:345
 msgid "Saving the map…"
 msgstr "Gemmer kortet …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/game_io/game_saver.cc:52
+#: ../../../../src/game_io/game_saver.cc:52
 msgid "Autosaving game…"
 msgstr "Gemmer automatisk spil ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:246 ../../src/logic/game.cc:289
-#: ../../src/logic/game.cc:407 ../../src/logic/game.cc:462
+#: ../../../../src/logic/game.cc:288 ../../../../src/logic/game.cc:331
+#: ../../../../src/logic/game.cc:449 ../../../../src/logic/game.cc:504
 msgid "Preloading map…"
 msgstr "Forudindlæser kort ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:345
+#: ../../../../src/logic/game.cc:387
 msgid "Initializing game…"
 msgstr "Starter spil ..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: All players (plural)
-#: ../../src/logic/game.cc:604
+#: ../../../../src/logic/game.cc:646
 msgid "Creating player infrastructure…"
 msgstr "Opretter spillerinfrastruktur ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/game.cc:1248
+#: ../../../../src/logic/game.cc:1288
 msgid "This market has received a new trade offer."
 msgstr "Dette marked har modtaget et nyt handelstilbud"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/save_handler.cc:114
+#: ../../../../src/logic/save_handler.cc:114
 msgid "Saving game…"
 msgstr "Gemmer spillet ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/map_saver.cc:87
+#: ../../../../src/map_io/map_saver.cc:87
 msgid "Autosaving map…"
 msgstr "Gemmer automatisk kort ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Indlæser kort..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gameclient.cc:162 ../../src/network/gamehost.cc:561
-#: ../../src/ui_fsmenu/launch_spg.cc:174 ../../src/wlapplication.cc:788
+#: ../../../../src/network/gameclient.cc:163
+#: ../../../../src/network/gamehost.cc:561
+#: ../../../../src/ui_fsmenu/launch_spg.cc:174
+#: ../../../../src/wlapplication.cc:909
 msgid "Preparing game…"
 msgstr "Forbereder spil …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "Indlæser..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:222
+#: ../../../../src/ui_fsmenu/login_box.cc:222
 msgid ""
 "Enter a valid nickname. This value may contain only English letters, "
 "numbers, and @ . + - _ characters."
 msgstr "Indtast et gyldigt navn. Denne værdi må kun indeholde engelske bogstaver, tal og tegnene @ . + - _ ."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:490
+#: ../../../../src/ui_fsmenu/main.cc:498
 msgid "Single Player…"
 msgstr "Spil mod computeren ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:491
+#: ../../../../src/ui_fsmenu/main.cc:499
 msgid "Multiplayer…"
 msgstr "Spil mod andre ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/main.cc:492
+#: ../../../../src/ui_fsmenu/main.cc:500
 msgid "Editor…"
 msgstr "Redigeringsprogram ..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign scenario number table header
-#: ../../src/ui_fsmenu/scenario_select.cc:136
+#: ../../../../src/ui_fsmenu/scenario_select.cc:136
 msgid "#"
 msgstr "Nr."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:329
+#: ../../../../src/wui/actionconfirm.cc:329
 msgid ""
 "Any wares left in the building will be dropped out by the builder, "
 "increasing the enhancing time"
 msgstr "Eventuelle varer tilbage i bygningen vil blive smidt ud af byggearbejderen, hvilket øger udvidelsesperioden."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/attack_window.cc:384
+#: ../../../../src/wui/attack_window.cc:384
 msgid "Send less soldiers. Hold down Ctrl to send no soldiers"
 msgstr "Send færre soldater. Hold Ctrl nede for ikke at sende soldater."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/building_statistics_menu.cc:232
+#: ../../../../src/wui/building_statistics_menu.cc:232
 msgid ""
 "Buildings will be considered unproductive if their productivity falls below "
 "this percentage"
 msgstr "Bygninger anses for uproduktive, hvis deres produktivitet falder under denne procent."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:113
+#: ../../../../src/wui/productionsitewindow.cc:113
 msgid "Exp"
 msgstr "Erf."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Tooltip in the ship statistics window
-#: ../../src/wui/seafaring_statistics_menu.cc:598
+#: ../../../../src/wui/seafaring_statistics_menu.cc:607
 msgid "Show expeditions that have found a port space or are founding a colony"
 msgstr "Vis ekspeditioner der har fundet en havneplads eller grundlægger en koloni."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-15 02:28+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:54+0000\n"
-"Last-Translator: C138, 2021,2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2022,2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,75 +13,75 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:66
+#: ../../../../src/wlapplication_messages.cc:66
 msgid "Usage:"
 msgstr "Usage :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:69
+#: ../../../../src/wlapplication_messages.cc:69
 msgid "Options:"
 msgstr "Options :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:81
+#: ../../../../src/wlapplication_messages.cc:81
 msgid "Use the specified locale."
 msgstr "Utiliser les paramètres régionaux spécifiés"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:88
+#: ../../../../src/wlapplication_messages.cc:88
 #, c-format
 msgid ""
 "Create a new game directly with the settings configured in the given file. "
 "An example can be found in `%s`."
-msgstr "Cree une nouvelle partie avec les paramètres configurés dans le fichier indiqué.  Un exemple peut être trouvé dans '%s'"
+msgstr "Crée une nouvelle partie avec les paramètres configurés dans le fichier indiqué.  Un exemple peut être trouvé dans '%s'"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:114
+#: ../../../../src/wlapplication_messages.cc:114
 msgid ""
 "Run the given Lua script after initialization. Only valid with --scenario, "
 "--loadgame, or --editor."
 msgstr "Lance le Script Lua indiqué après initiallisation. Ne fonctionne qu'avec --scenario, --loadgame, ou --editor"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:130
+#: ../../../../src/wlapplication_messages.cc:137
 msgid "Enable the Script Console and Cheating Mode."
 msgstr "Activer le script en console et le mode triche"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:133
+#: ../../../../src/wlapplication_messages.cc:139
 msgid "Game options:"
 msgstr "Options de jeu :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:156
+#: ../../../../src/wlapplication_messages.cc:159
 msgid "Whether to save the history of sent chat messages to a file."
 msgstr "S'il faut enregistrer l'historique des messages de chat envoyés dans un fichier"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:191
+#: ../../../../src/wlapplication_messages.cc:194
 msgid "Networking:"
 msgstr "Réseautage :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:214
+#: ../../../../src/wlapplication_messages.cc:218
 msgid "Graphic options:"
 msgstr "Options graphiques :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:234
+#: ../../../../src/wlapplication_messages.cc:240
 msgid "Options for the internal window manager:"
 msgstr "Options pour le gestionnaire de fenêtre interne :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:251
+#: ../../../../src/wlapplication_messages.cc:258
 msgid "Others:"
 msgstr "Autres :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wlapplication_messages.cc:353
+#: ../../../../src/wlapplication_messages.cc:360
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"

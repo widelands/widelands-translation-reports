@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-15 02:28+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:54+0000\n"
-"Last-Translator: I. M. Bur <transifex@lty.cz>, 2022\n"
+"Last-Translator: Ondřej Itřech, 2021,2025\n"
 "Language-Team: Czech (http://app.transifex.com/widelands/widelands/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -13,10 +13,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:122
+#. * TRANSLATORS: %1 is translation for FILENAME,
+#. %2 is translation for "last" for last used file
+#: ../../../../src/wlapplication_messages.cc:97
+#, c-format
+msgid ""
+"Load the savegame `%1$s` directly or the last saved game if `=%2$s` is used."
+msgstr "Rovnou nahraje uloženou hru `%1$s`  nebo  poslední uloženou hru pokud je použito `=%2$s` ."
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: %1 is translation for FILENAME,
+#. %2 is translation for "last" for last used file
+#: ../../../../src/wlapplication_messages.cc:103
+#, c-format
+msgid ""
+"Load the replay `%1$s` directly or the last saved replay if `=%2$s` is used."
+msgstr "Rovnou nahraje záznam hry `%1$s`  nebo  poslední uložený záznam hry pokud je použito `=%2$s` ."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/wlapplication_messages.cc:128
 msgid ""
 "Enable AI training mode. See https://www.widelands.org/wiki/Ai%20Training/ "
 "for a full description of the AI training logic."

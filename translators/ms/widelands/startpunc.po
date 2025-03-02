@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>, 2015,2017\n"
 "Language-Team: Malay (http://app.transifex.com/widelands/widelands/language/"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:473
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:473
 #, c-format
 msgid "%u Player"
 msgid_plural "%u Players"
@@ -23,15 +23,14 @@ msgstr[0] "Pemain %u"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:777
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s selesai kerana %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:784
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s dilangkau kerana %2$s"

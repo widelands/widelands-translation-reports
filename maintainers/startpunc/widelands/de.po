@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2024\n"
+"Last-Translator: Stephan Lutz <stephan-lutz@gmx.de>, 2018-2025\n"
 "Language-Team: German (http://app.transifex.com/widelands/widelands/language/"
 "de/)\n"
 "Language: de\n"
@@ -12,16 +12,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../data/scripting/richtext_scenarios.lua:52
+#: ../../../../data/scripting/richtext_scenarios.lua:52
 #, lua-format
 msgid "“%s”"
 msgstr "„%s“"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/base/format/float_node.h:33
+#: ../../../../src/base/format/float_node.h:33
 msgctxt "decimal_separator"
 msgid "."
 msgstr ","
@@ -40,23 +40,22 @@ msgstr ","
 #. * TRANSLATORS: on a development build if you can, and let us know if there
 #. are any issues
 #. * TRANSLATORS: we need to address for your language.
-#: ../../src/logic/map_objects/tribes/production_program.cc:765
-#: ../../src/logic/map_objects/tribes/production_program.cc:1289
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1324
 #, c-format
 msgid "Did not start %1$s because %2$s"
 msgstr "%1$s wurde nicht angefangen, weil %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:777
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s wurde abgeschlossen, weil %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:784
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s wurde übersprungen, weil %2$s"
@@ -65,7 +64,7 @@ msgstr "%1$s wurde übersprungen, weil %2$s"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1463
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1498
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -77,20 +76,26 @@ msgstr[1] "%s ausgebildet"
 #. description of the
 #. * training program, e.g. Completed upgrading soldier evade from level 0 to
 #. level 1
-#: ../../src/logic/map_objects/tribes/production_program.cc:1887
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1924
 #, c-format
 msgid "Completed %s"
 msgstr "%s wurde abgeschlossen"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:599
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1975
+#, c-format
+msgid "‘%s’"
+msgstr "„%s“"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: ../../../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
 msgstr "„%1$s“ ist keine gültige Versionsbezeichnung. Die Erweiterung „%2$s“ wird nicht gespeichert."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:912
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:915
 #, c-format
 msgid "‘%1$s’ commented on version %2$s:"
 msgstr "„%1$s“ kommentierte zu Version %2$s:"
@@ -99,7 +104,7 @@ msgstr "„%1$s“ kommentierte zu Version %2$s:"
 #. * TRANSLATORS: %1 is a modifier key combination, e.g. "Ctrl+", or
 #. empty if none is used. %2 is scrolling direction.
 #. %3 is the name of the conflicting function.
-#: ../../src/ui_fsmenu/mousewheel_options.cc:297
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:297
 #, c-format
 msgid ""
 "‘%1$s%2$s’ conflicts with ‘%3$s’. Please select a different combination or "
@@ -107,7 +112,7 @@ msgid ""
 msgstr "„%1$s%2$s“ kollidiert mit „%3$s“. Bitte wähle eine andere Kombination oder ändere zuerst die kollidierende Einstellung."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/mousewheel_options.cc:567
+#: ../../../../src/ui_fsmenu/mousewheel_options.cc:567
 #, c-format
 msgid ""
 "‘%1$s’, ‘%2$s’, or ‘%3$s’ conflicts with the recommended settings. Change "
@@ -119,7 +124,7 @@ msgstr "„%1$s“, „%2$s“ oder „%3$s“ kollidieren mit den empfohlenen E
 #. for 1
 #. * message.
 #. * DO NOT omit the placeholder in your translation.
-#: ../../src/wui/game_message_menu.cc:648
+#: ../../../../src/wui/game_message_menu.cc:659
 #, c-format
 msgid "Archive the selected %d message"
 msgid_plural "Archive the selected %d messages"
@@ -129,7 +134,7 @@ msgstr[1] "%d ausgewählte Nachrichten ablegen"
 # (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start
 #. * TRANSLATORS: %1% = number of selected directories, %2% = number of
 #. selected files
-#: ../../src/wui/gamedetails.cc:119
+#: ../../../../src/wui/gamedetails.cc:119
 msgid "Selected %1% directory and %2%:"
 msgid_plural "Selected %1% directories and %2%:"
 msgstr[0] "%1% Verzeichnis und %2% ausgewählt:"

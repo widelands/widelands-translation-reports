@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands svnVERSION\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2022-06-13 06:31+0000\n"
-"Last-Translator: Log Merger, 2022\n"
+"Last-Translator: Guybrush88 <erpizzo@alice.it>, 2025\n"
 "Language-Team: Italian (https://app.transifex.com/widelands/teams/35159/it/)"
 "\n"
 "Language: it\n"
@@ -13,9 +13,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/campaigns/atl02.wmf/scripting/texts.lua:98
+#: ../../../../data/campaigns/atl02.wmf/scripting/texts.lua:98
 msgid "Build a spider farm and a weaving mill"
 msgstr "Costruisci un allevamento di ragni ed uno stabilimento tessile."
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ../../../../data/campaigns/atl02.wmf/scripting/texts.lua:179
+#: ../../../../data/campaigns/atl02.wmf/scripting/texts.lua:741
+#: ../../../../data/campaigns/atl02.wmf/scripting/texts.lua:752
+msgid "Sidolus has bad news…"
+msgstr "Sidolus ha cattive notizie..."
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an Atlantean production site: Scout's
+#. House
+#: ../../../../data/campaigns/atl02.wmf/scripting/tribes/init.lua:20
+msgctxt "building"
+msgid "Explores unknown territory."
+msgstr "Esplora territori sconosciuti"
+
+# (pofilter) endpunc: Different punctuation at the end
+#. TRANSLATORS: Purpose helptext for an Atlantean worker: Satul's Initiate
+#: ../../../../data/campaigns/atl02.wmf/scripting/tribes/init.lua:43
+msgctxt "atlanteans_worker"
+msgid "Takes care of the Temple of Satul."
+msgstr "Si prende cura del Tempio di Satul"

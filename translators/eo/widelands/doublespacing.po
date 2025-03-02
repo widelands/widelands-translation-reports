@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Ximena Delgado, 2022\n"
+"Last-Translator: Raúl Contreras, 2024-2025\n"
 "Language-Team: Esperanto (http://app.transifex.com/widelands/widelands/"
 "language/eo/)\n"
 "Language: eo\n"
@@ -12,40 +12,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../data/scripting/infrastructure.lua:294
+msgid ""
+"There are not enough trees near to your starting position. Therefore, you "
+"receive extra resources for bootstrapping your economy."
+msgstr "Ne estas sufiĉe da arboj proksime al via komenca pozicio. Tial, vi ricevas ekstrajn resursojn  por startigi vian ekonomion."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/editor/ui_menus/tool_place_immovable_options_menu.cc:57
+#, c-format
+msgid "%1$s (needs a medium building plot)"
+msgstr "%1$s  (bezonas mezan konstruejon)"
+
+# (pofilter) doublespacing: Different use of double spaces
+#. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
+#. *  %s is a list of illegal characters
+#: ../../../../src/io/filesystem/illegal_filename_check.cc:77
+#, c-format
+msgctxt "illegal_filename_characters"
+msgid "%s at the start of the filename"
+msgstr "%s  je la komenco de la dosiernomo"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:120
+#: ../../../../src/network/gamehost.cc:120
 msgid "/help  -  Shows this help"
 msgstr "/help - Montras tiun ĉi helpon"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:122
+#: ../../../../src/network/gamehost.cc:122
 msgid "/announce <msg>  -  Send a chatmessage as announcement (system chat)"
 msgstr "/announce <msg> - Sendas mesaĝon kiel avizon (sistema babilado)"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:124
+#: ../../../../src/network/gamehost.cc:124
 msgid "/warn <name> <reason>  -  Warn the user <name> because of <reason>"
-msgstr "/warn <nomo> <kaŭzo> - Avertas la uzanton <nomo> pro <kaŭzo>"
+msgstr "/warn <name> <reason> - Avertas la uzanton <name> pro <reason>"
 
 # (pofilter) doublespacing: Different use of double spaces
 #. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:126
+#: ../../../../src/network/gamehost.cc:126
 msgid "/kick <name> <reason>  -  Kick the user <name> because of <reason>"
-msgstr "/kick <nomo> <kaŭzo> - Elpuŝas la uzanton <nomo> pro <kaŭzo>"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:128
-msgid "/forcePause            -  Force the game to pause."
-msgstr "/forcePause - Eldevigas lud-paŭzon"
-
-# (pofilter) doublespacing: Different use of double spaces
-#. * TRANSLATORS: Available host command
-#: ../../src/network/gamehost.cc:130
-msgid "/endForcedPause        -  Return game to normal speed."
-msgstr "/endForcedPause - Reagordas la ludon al regulara rapido."
+msgstr "/kick <name> <reason> - Elpelas la uzanton <name> pro <reason>"

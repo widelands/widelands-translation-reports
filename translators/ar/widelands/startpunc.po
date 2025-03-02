@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: 425467bb0c9da71484550c3c99a0865a_432023a "
 "<42ebb87f8d673776150a6c232428c0ac_329642>, 2017\n"
@@ -14,10 +14,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/editor/editorinteractive.cc:546
+#: ../../../../src/editor/editorinteractive.cc:584
 #, c-format
 msgid ""
 "Widelands could not load the file \"%s\". The file format seems to be "
@@ -25,13 +25,13 @@ msgid ""
 msgstr "\"الارض الواسعة\" غير قادره على فتح الملف \"%s\". يبدو أن الملف غير مكتمل."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:41
+#: ../../../../src/network/network_gaming_messages.cc:41
 #, c-format
 msgid "%1$s has left the game (%2$s)"
 msgstr "لقد خرج %1$s من اللعبه (%2$s)"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/network_gaming_messages.cc:72
+#: ../../../../src/network/network_gaming_messages.cc:72
 #, c-format
 msgid "%s has joined the game"
 msgstr "إنضم %s الى اللعبة"

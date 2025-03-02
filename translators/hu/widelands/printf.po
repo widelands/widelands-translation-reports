@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Tóth András <txa-dev@posteo.hu>, 2021-2024\n"
 "Language-Team: Hungarian (http://app.transifex.com/widelands/widelands/"
@@ -12,13 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) printf: Different number of printf variables
 #. * TRANSLATORS: "Increase/Decrease the value by <n>%"
 #. You may want to treat this as "by <n>%", depending on how you
 #. translated "Increase/Decrease the value by %s".
-#: ../../src/ui_basic/spinbox.cc:589
+#: ../../../../src/ui_basic/spinbox.cc:591
 #, c-format
 msgctxt "spinbox_change"
 msgid "%i %%"
@@ -26,6 +26,6 @@ msgstr "%i%%-kal"
 
 # (pofilter) printf: Different number of printf variables
 #. * TRANSLATORS: %1% = language name, %2% = percentage
-#: ../../src/ui_fsmenu/options.cc:772
+#: ../../../../src/ui_fsmenu/options.cc:814
 msgid "The translation into %1% is %2%%% complete."
 msgstr "A %1% fordítás %2%%%-os."

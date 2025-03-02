@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Arthinet Balika, 2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,27 +13,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/editorinteractive.cc:477
+#: ../../../../src/editor/editorinteractive.cc:488
 msgid ""
 "Toggle whether to show maximum building spaces that will be available if all"
 " immovables (trees, rocks, etc.) are removed"
 msgstr "Active la possibilité de montrer les espaces de construction maximum qui seraient disponibles si tous les inamovibles (arbres, roches, etc.) étaient enlevés "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:62
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:62
 msgid "Delete this suggested team lineup"
 msgstr "Supprimer cette composition d'équipe suggérée "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/editor/ui_menus/main_menu_map_options.cc:339
+#: ../../../../src/editor/ui_menus/main_menu_map_options.cc:339
 msgid "Add another suggested team lineup"
 msgstr "Ajouter une autre composition d'équipe suggérée "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/contact.cc:91
+#: ../../../../src/ui_fsmenu/addons/contact.cc:91
 msgid ""
 "Your message has been sent to the Widelands Development Team, and we will "
 "respond as soon as we can. Don’t forget to check your website inbox "
@@ -41,72 +41,86 @@ msgid ""
 msgstr "Votre message a été envoyé à l'équipe de développement de Widelands, et nous répondrons aussi vite que possible. N'oubliez pas de vérifier votre mail fréquemment. "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:522
+#: ../../../../src/ui_fsmenu/addons/manager.cc:757
 msgid "Development"
 msgstr "Développement "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/manager.cc:1162
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1615
 msgid "No upgrades are available for your installed add-ons"
 msgstr "Pas de mises à niveau disponibles pour vos modules complémentaires installés "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:687
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:688
 msgid "Previous screenshot"
 msgstr "Capture d'écran précédente "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/launch_game.cc:351
+#: ../../../../src/ui_fsmenu/launch_game.cc:141
+msgid "Enable naval warfare (experimental feature)"
+msgstr "Activer les batailles navales (fonctionnalité expérimentale) "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/ui_fsmenu/launch_game.cc:354
 msgid ""
 "Allow the players to choose their own starting positions at the beginning of"
 " the game"
 msgstr "Autoriser les joueurs à choisir leurs propres positions de départ au début de la partie "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:363 ../../src/ui_fsmenu/random_game.cc:29
-#: ../../src/wlapplication_options.cc:273
+#: ../../../../src/ui_fsmenu/launch_game.cc:405
+msgid ""
+"Enable coastal invasions and ship-to-ship battles. This feature is "
+"experimental and may undergo substantial redesign in future versions of "
+"Widelands."
+msgstr "Activer les invasions côtières et les batailles bateau contre bateau. Cette fonctionnalité est expérimentale et peut subir de substantiels re-design dans les futures versions de Widelands. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/ui_fsmenu/main.cc:371
+#: ../../../../src/ui_fsmenu/random_game.cc:29
+#: ../../../../src/wlapplication_options.cc:258
 msgid "New Random Game"
 msgstr "Nouvelle partie aléatoire "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:369
+#: ../../../../src/ui_fsmenu/main.cc:377
 msgid "Play one of our beginners’ tutorials"
-msgstr "Jouez à un de nos tutoriels pour débutants "
+msgstr "Jouer à un de nos tutoriels pour débutants "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:413
+#: ../../../../src/ui_fsmenu/main.cc:421
 msgid "Log in as a registered user"
 msgstr "Se connecter en tant qu'utilisateur enregistré "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/main.cc:882
+#: ../../../../src/ui_fsmenu/main.cc:957
 msgid "Desyncing Add-On Found"
 msgstr "Module désynchronisant trouvé "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/ui_fsmenu/mapselect.cc:109
+#: ../../../../src/ui_fsmenu/mapselect.cc:113
 msgid "Show both official and unofficial maps"
 msgstr "Montrer l'ensemble des cartes, officielles et non officielles "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication.cc:1780
+#: ../../../../src/wlapplication.cc:1974
 msgid "Game ended unexpectedly"
 msgstr "Le jeu s'est terminé inopinément "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wlapplication_options.cc:230
+#: ../../../../src/wlapplication_options.cc:218
 msgid "Second Carrier"
 msgstr "Carrière "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/buildingwindow.cc:218
+#: ../../../../src/wui/buildingwindow.cc:218
 msgid "All buildings of this type are muted – click to unmute"
 msgstr "Tous les bâtiments de ce type sont mis en sourdine – cliquer pour réactiver "
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: This string is used only when the name of the tribe’s scout
 #. house/hut is unknown.
-#: ../../src/wui/fieldaction.cc:465
+#: ../../../../src/wui/fieldaction.cc:464
 msgid ""
 "You need to connect this flag to a scouting building before you can send a "
 "scout here."
@@ -116,12 +130,12 @@ msgstr "Vous devez connecter ce drapeau à une maison d'éclaireur avant de pouv
 #. * TRANSLATORS: Dropdown tooltip to select the AI difficulty when a player
 #. has
 #. disconnected from a game
-#: ../../src/wui/game_client_disconnected.cc:99
+#: ../../../../src/wui/game_client_disconnected.cc:99
 msgid "AI for the disconnected player"
 msgstr "AI pour le client déconnecté "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/load_or_save_game.cc:147
+#: ../../../../src/wui/load_or_save_game.cc:152
 msgid ""
 "This replay was created with a different Widelands version. It might be compatible, but will more likely desync or even fail to load.\n"
 "\n"
@@ -132,16 +146,24 @@ msgstr "Ce replay a été créé avec une version différente de Widelands. Il p
 
 # (pofilter) endwhitespace: Different whitespace at the end
 #. * TRANSLATORS: This is a map tag
-#: ../../src/wui/map_tags.cc:40
+#: ../../../../src/wui/map_tags.cc:40
 msgid "Balanced"
 msgstr "Équilibré "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/portdockwaresdisplay.cc:103
+#: ../../../../src/wui/portdockwaresdisplay.cc:103
 msgid "Additional item"
 msgstr "Objet additionnel "
 
 # (pofilter) endwhitespace: Different whitespace at the end
-#: ../../src/wui/stock_menu.cc:56
+#: ../../../../src/wui/sound_options.cc:163
+msgid ""
+"Whether to play the intro music when Widelands is started. The splashscreen "
+"is only closed automatically when the intro music ends, but can be skipped "
+"by a keypress or a mouse click."
+msgstr "Jouer la musique d'intro quand Widelands démarre. L'écran de démarrage se fermera seulement quand la musique d'intro se terminera, mais peut être passé par une pression de touche ou un clic de souris. "
+
+# (pofilter) endwhitespace: Different whitespace at the end
+#: ../../../../src/wui/stock_menu.cc:56
 msgid "Compare stocked amounts to economy target quantities"
-msgstr "Comparer les montants stockés aux quantités ciblés par l'économie  "
+msgstr "Comparer les les stocks aux quantités ciblés par l'économie  "

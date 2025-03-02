@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-01 02:29+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:53+0000\n"
-"Last-Translator: Arthinet Balika, 2023\n"
+"Last-Translator: Laurent Godard, 2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,12 +13,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore author helptext for an Amazon production site: Liana
 #. Cutter's Hut
-#: ../../data/tribes/initialization/amazons/units.lua:1358
+#: ../../../../data/tribes/initialization/amazons/units.lua:1358
 msgctxt "amazons_building"
 msgid ""
 "‘Sunlight smiled upon us and our Ancestors while we worked to clear liana "
@@ -29,7 +29,7 @@ msgstr "« La lumière du soleil nous souriait, ainsi qu'à nos ancêtres, penda
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore author helptext for an Amazon production site: Rope
 #. Weaver's Booth
-#: ../../data/tribes/initialization/amazons/units.lua:1430
+#: ../../../../data/tribes/initialization/amazons/units.lua:1430
 msgctxt "amazons_building"
 msgid ""
 "‘My mother taught me to ply the ropes from Liana, how to choose the "
@@ -40,7 +40,7 @@ msgstr "« Ma mère m'a appris à tordre les cordes de Liana, à choisir les bou
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for an Amazon production site: Rare Tree
 #. Plantation
-#: ../../data/tribes/initialization/amazons/units.lua:1450
+#: ../../../../data/tribes/initialization/amazons/units.lua:1450
 msgctxt "amazons_building"
 msgid ""
 "‘If properly harvested, cured and stored, ironwood becomes almost "
@@ -49,7 +49,7 @@ msgstr "\"S'il est correctement récolté, séché et stocké, le bois de fer de
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for an Amazon production site: Dressmakery
-#: ../../data/tribes/initialization/amazons/units.lua:1472
+#: ../../../../data/tribes/initialization/amazons/units.lua:1478
 msgctxt "amazons_building"
 msgid ""
 "‘A skilled maker crafts garments of unsurpassed defence,<br> with each "
@@ -62,11 +62,11 @@ msgstr "\"Un fabricant qualifié fabrique des vêtements d'une défense inégal�
 #. TRANSLATORS: Lore helptext for a Barbarian building: Construction Site
 #. TRANSLATORS: Lore helptext for an Empire building: Construction Site
 #. TRANSLATORS: Lore helptext for a Frisian building: Construction Site
-#: ../../data/tribes/initialization/amazons/units.lua:1701
-#: ../../data/tribes/initialization/atlanteans/units.lua:2089
-#: ../../data/tribes/initialization/barbarians/units.lua:1848
-#: ../../data/tribes/initialization/empire/units.lua:2343
-#: ../../data/tribes/initialization/frisians/units.lua:2252
+#: ../../../../data/tribes/initialization/amazons/units.lua:1721
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2108
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1864
+#: ../../../../data/tribes/initialization/empire/units.lua:2361
+#: ../../../../data/tribes/initialization/frisians/units.lua:2268
 msgctxt "building"
 msgid "‘Don’t swear at the builder who is short of building materials.’"
 msgstr "\"Ne vous en prenez pas au constructeur qui n'a plus de matériaux.\""
@@ -77,11 +77,11 @@ msgstr "\"Ne vous en prenez pas au constructeur qui n'a plus de matériaux.\""
 #. TRANSLATORS: Lore helptext for a Barbarian building: Dismantle Site
 #. TRANSLATORS: Lore helptext for an Empire building: Dismantle Site
 #. TRANSLATORS: Lore helptext for a Frisian building: Dismantle Site
-#: ../../data/tribes/initialization/amazons/units.lua:1712
-#: ../../data/tribes/initialization/atlanteans/units.lua:2100
-#: ../../data/tribes/initialization/barbarians/units.lua:1859
-#: ../../data/tribes/initialization/empire/units.lua:2354
-#: ../../data/tribes/initialization/frisians/units.lua:2263
+#: ../../../../data/tribes/initialization/amazons/units.lua:1732
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:2119
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1875
+#: ../../../../data/tribes/initialization/empire/units.lua:2372
+#: ../../../../data/tribes/initialization/frisians/units.lua:2279
 msgctxt "building"
 msgid "‘New paths will appear when you are willing to tear down the old.’"
 msgstr "De nouveaux chemins apparaîtrons  quand vous voudrez détruire l'ancien."
@@ -89,7 +89,7 @@ msgstr "De nouveaux chemins apparaîtrons  quand vous voudrez détruire l'ancien
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for an Atlantean production site: Fish Breeder's
 #. House
-#: ../../data/tribes/initialization/atlanteans/units.lua:1569
+#: ../../../../data/tribes/initialization/atlanteans/units.lua:1569
 msgctxt "atlanteans_building"
 msgid ""
 "‘Only after the last duck has been shot down<br>Only after the last deer has"
@@ -99,7 +99,7 @@ msgstr "\"Uniquement après l'abattage du dernier canard<br>Uniquement après la
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian warehouse: Headquarters
-#: ../../data/tribes/initialization/barbarians/units.lua:1086
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1086
 msgctxt "barbarians_building"
 msgid ""
 "‘Steep like the slopes of Kal’mavrath, shiny like the most delicate armor "
@@ -109,14 +109,14 @@ msgstr "« Raides comme les pentes de Kal’mavrath, brillantes comme les armure
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian warehouse: Warehouse
-#: ../../data/tribes/initialization/barbarians/units.lua:1108
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1108
 msgctxt "barbarians_building"
 msgid "‘Who still owns a warehouse is not yet defeated!’"
 msgstr "\"Qui possède encore un entrepôt n'est pas vaincu !\""
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian warehouse: Port
-#: ../../data/tribes/initialization/barbarians/units.lua:1119
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1119
 msgctxt "barbarians_building"
 msgid ""
 "‘I prefer the planks of a ship to any fortress, no matter how strong it is.’"
@@ -124,7 +124,7 @@ msgstr "\"Je préfère le plancher d'un bateau à n'importe quelle forteresse, a
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Quarry
-#: ../../data/tribes/initialization/barbarians/units.lua:1134
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1134
 msgctxt "barbarians_building"
 msgid "‘We open up roads and make houses from mountains.’"
 msgstr "'Nous avons créé des routes et fait des montagnes nos maisons.'"
@@ -132,7 +132,7 @@ msgstr "'Nous avons créé des routes et fait des montagnes nos maisons.'"
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Lumberjack_s
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1153
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1153
 msgctxt "barbarians_building"
 msgid ""
 "‘Take 200 hits to fell a tree and you’re a baby. Take 100 and you’re a "
@@ -142,7 +142,7 @@ msgstr "«&nbsp;S'il te faut 200 coups pour abattre un arbre, alors tu es un bé
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Ranger's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1173
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1173
 msgctxt "barbarians_building"
 msgid ""
 "‘He who can grow two trees where normally only one will grow exceeds the "
@@ -151,14 +151,14 @@ msgstr "«&nbsp;Celui qui fait pousser deux arbres à la place d'un est plus dig
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Fisher's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1192
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1192
 msgctxt "barbarians_building"
 msgid "‘What do you mean, my fish ain’t fresh?!’"
 msgstr "«&nbsp;Qu'est ce que tu veux dire, il est pas frais mon poisson&nbsp;?!&nbsp;»"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Hunter's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1215
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1215
 msgctxt "barbarians_building"
 msgid ""
 "‘As silent as a panther,<br> as deft as a weasel,<br> as swift as an "
@@ -168,14 +168,14 @@ msgstr "«&nbsp;Aussi silencieux qu'une panthère,<br> agile comme la belette,<b
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore author helptext for a Barbarian production site: Hunter's
 #. Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1217
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1217
 msgctxt "barbarians_building"
 msgid "‘The Art of Hunting’"
 msgstr "«&nbsp;L'Art de la Chasse&nbsp;»"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Well
-#: ../../data/tribes/initialization/barbarians/units.lua:1247
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1247
 msgctxt "barbarians_building"
 msgid ""
 "‘Oh how sweet is the source of life,<br> that comes down from the sky <br> "
@@ -184,7 +184,7 @@ msgstr "«&nbsp;Douce est la source de vie,<br> qui descend du ciel <br> et perm
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Scout's Hut
-#: ../../data/tribes/initialization/barbarians/units.lua:1265
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1265
 msgctxt "barbarians_building"
 msgid ""
 "‘Behind the next hill there might be wealth and happiness but also hostility"
@@ -193,7 +193,7 @@ msgstr "« Derrière la prochaine colline, il peut y avoir de la richesse et du 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Wood Hardener
-#: ../../data/tribes/initialization/barbarians/units.lua:1284
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1284
 msgctxt "barbarians_building"
 msgid ""
 "‘Then he hit the door with his ax and, behold,<br>the door only trembled, "
@@ -202,21 +202,21 @@ msgstr "« Puis il a frappé la porte avec sa hache et, voici,<br>la porte a seu
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Reed Yard
-#: ../../data/tribes/initialization/barbarians/units.lua:1296
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1298
 msgctxt "barbarians_building"
 msgid "‘We grow roofs’"
 msgstr "«&nbsp;Nous faisons pousser des toits&nbsp;»"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Lime Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1311
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1313
 msgctxt "barbarians_building"
 msgid "‘Forming new stone from old with fire and water.’"
 msgstr "«&nbsp;Créer une nouvelle pierre depuis une vieille avec du feu et de l'eau.&nbsp;»"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Bakery
-#: ../../data/tribes/initialization/barbarians/units.lua:1326
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1328
 msgctxt "barbarians_building"
 msgid ""
 "‘He who has enough bread will never be too tired to dig the ore and wield "
@@ -225,7 +225,7 @@ msgstr "'Celui qui aura assez de pain ne sera jamais assez fatigué pour extrair
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Micro Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1339
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1341
 msgctxt "barbarians_building"
 msgid ""
 "‘Let the first one drive away the hunger, the second one put you at ease; "
@@ -234,7 +234,7 @@ msgstr "«&nbsp;Que la première chasse la faim, que la deuxième te mette à l'
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Brewery
-#: ../../data/tribes/initialization/barbarians/units.lua:1352
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1354
 msgctxt "barbarians_building"
 msgid ""
 "‘When the Barbarian was created,<br>this was the first thing that he "
@@ -244,21 +244,21 @@ msgstr "'Quand le Barbare fut créé,<br>c'était la première chose qu'il a dé
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Tavern
-#: ../../data/tribes/initialization/barbarians/units.lua:1368
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1370
 msgctxt "barbarians_building"
 msgid "‘Fresh from the countryside: Bread, fish or game to go.’"
 msgstr "'En direct de la campagne: Pain, poisson ou gibier à la demande.'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Inn
-#: ../../data/tribes/initialization/barbarians/units.lua:1381
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1383
 msgctxt "barbarians_building"
 msgid "‘Miner’s Delight: Pitta bread with fish or meat, comes with one beer.’"
 msgstr "'Le délice des mineurs: Du pain pitta avec du poisson ou de la viande, accompagné d'une bière.'"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Big Inn
-#: ../../data/tribes/initialization/barbarians/units.lua:1394
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1396
 msgctxt "barbarians_building"
 msgid ""
 "‘Seasonal fish and game specialties served with pitta bread.<br>Choose from "
@@ -267,7 +267,7 @@ msgstr "'Spécialités saisonnières de poisson et de gibier servies avec du pai
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Charcoal Kiln
-#: ../../data/tribes/initialization/barbarians/units.lua:1407
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1409
 msgctxt "barbarians_building"
 msgid ""
 "‘What’s the work of a charcoal burner?<br>He’s the tribe’s most plodding "
@@ -279,7 +279,7 @@ msgstr "'Quel est le travail d'un brûleur de charbon de bois ?<br>Il est le plu
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Smelting Works
-#: ../../data/tribes/initialization/barbarians/units.lua:1425
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1429
 msgctxt "barbarians_building"
 msgid ""
 "‘From inferior looking rubble they form shiny gold and gleaming iron.<br>The"
@@ -288,7 +288,7 @@ msgstr "« A partir de gravats d'aspect inférieur, ils forment de l'or brillant
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Metal Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1439
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1443
 msgctxt "barbarians_building"
 msgid "‘We make it work!’"
 msgstr "«&nbsp;Nous la faisons fonctionner&nbsp;!&nbsp;»"
@@ -296,8 +296,8 @@ msgstr "«&nbsp;Nous la faisons fonctionner&nbsp;!&nbsp;»"
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Warmill
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Ax Workshop
-#: ../../data/tribes/initialization/barbarians/units.lua:1454
-#: ../../data/tribes/initialization/barbarians/units.lua:1473
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1458
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1477
 msgctxt "barbarians_building"
 msgid ""
 "‘A new warrior’s ax brings forth the best in its wielder – or the worst in "
@@ -306,7 +306,7 @@ msgstr "'La hache d'une nouvelle recrue révèle le meilleur de celui qui la tie
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Cattle Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1507
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1511
 msgctxt "barbarians_building"
 msgid ""
 "‘The smart leader builds roads, while the really wise leader breeds cattle.’"
@@ -314,7 +314,7 @@ msgstr "\"Le chef avisé construit des routes, tandis que le chef réellement av
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Farm
-#: ../../data/tribes/initialization/barbarians/units.lua:1520
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1524
 msgctxt "barbarians_building"
 msgid ""
 "‘See the crop fields from here to the horizons. They are a huge, heaving, "
@@ -324,7 +324,7 @@ msgstr "« Voir les champs de cultures d'ici à l'horizon. C’est une mer immen
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Helm Smithy
-#: ../../data/tribes/initialization/barbarians/units.lua:1534
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1538
 msgctxt "barbarians_building"
 msgid ""
 "‘The helmets forgéd by this smithy<br>Are widely known for looking pithy.’"
@@ -332,7 +332,7 @@ msgstr "'Les casques forgés par ce forgeron<br>sont largement connus pour leur 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Granite Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1549
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1553
 msgctxt "barbarians_building"
 msgid "‘I can handle tons of granite, man, but no more of your vain prattle.’"
 msgstr "«&nbsp;Je peux supporter des tonnes de granit, mon gars, mais plus tes vains bavardages.&nbsp;»"
@@ -342,9 +342,9 @@ msgstr "«&nbsp;Je peux supporter des tonnes de granit, mon gars, mais plus tes 
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Deep Iron Mine
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Deeper Iron
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1615
-#: ../../data/tribes/initialization/barbarians/units.lua:1628
-#: ../../data/tribes/initialization/barbarians/units.lua:1641
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1619
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1632
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1645
 msgctxt "barbarians_building"
 msgid ""
 "‘I look at my own pick wearing away day by day and I realize why my work is "
@@ -356,9 +356,9 @@ msgstr "«&nbsp;Je regarde ma propre pioche s'user jour après jour et je compre
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Deep Gold Mine
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Deeper Gold
 #. Mine
-#: ../../data/tribes/initialization/barbarians/units.lua:1654
-#: ../../data/tribes/initialization/barbarians/units.lua:1667
-#: ../../data/tribes/initialization/barbarians/units.lua:1680
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1658
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1671
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1684
 msgctxt "barbarians_building"
 msgid ""
 "‘Soft and supple.<br> And yet untouched by time and weather.<br> Rays of "
@@ -367,7 +367,7 @@ msgstr "«&nbsp;Doux et souple.<br> Et pourtant inaltéré par le temps et les i
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian training site: Battle Arena
-#: ../../data/tribes/initialization/barbarians/units.lua:1695
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1699
 msgctxt "barbarians_building"
 msgid ""
 "‘No better friend you have in battle than the enemy’s blow that misses.’"
@@ -376,7 +376,7 @@ msgstr "«&nbsp;Dans la bataille, vous n'aurez jamais meilleure amie que la flè
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Purpose helptext for a Barbarian training site: Battle Arena,
 #. part 2
-#: ../../data/tribes/initialization/barbarians/units.lua:1702
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1706
 msgctxt "barbarians_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "
@@ -385,7 +385,7 @@ msgstr "«&nbsp;Esquive&nbsp;» augmente les chances d'un soldat de ne pas être
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian training site: Training Camp
-#: ../../data/tribes/initialization/barbarians/units.lua:1714
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1718
 msgctxt "barbarians_building"
 msgid ""
 "‘He who is strong shall neither forgive nor forget, but revenge injustice "
@@ -394,7 +394,7 @@ msgstr "«&nbsp;Celui qui est fort ne pardonnera ni n'oubliera, mais vengera l'i
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian military site: Sentry
-#: ../../data/tribes/initialization/barbarians/units.lua:1735
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1739
 msgctxt "barbarians_building"
 msgid ""
 "‘The log cabin was so small that two men could hardly live there. But we "
@@ -404,7 +404,7 @@ msgstr "«La cabane en rondins était si petite que deux hommes pouvaient à pei
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian military site: Barrier
-#: ../../data/tribes/initialization/barbarians/units.lua:1748
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1752
 msgctxt "barbarians_building"
 msgid ""
 "‘When we looked down to the valley from our newly established barrier, we "
@@ -413,7 +413,7 @@ msgstr "\"Quand nous avons regardé en bas dans la vallée depuis notre nouveau 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian military site: Tower
-#: ../../data/tribes/initialization/barbarians/units.lua:1762
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1766
 msgctxt "barbarians_building"
 msgid ""
 "‘From the height of our tower we could see far into enemy territory. The "
@@ -423,7 +423,7 @@ msgstr "'Depuis les hauteurs de notre tour nous pouvions voir au loin dans le te
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian military site: Fortress
-#: ../../data/tribes/initialization/barbarians/units.lua:1775
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1779
 msgctxt "barbarians_building"
 msgid ""
 "‘This stronghold made from blackwood and stones will be a hard nut to crack "
@@ -432,7 +432,7 @@ msgstr "'Cette place-forte faite de bois dur leur fera une dure coquille à cass
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian military site: Citadel
-#: ../../data/tribes/initialization/barbarians/units.lua:1788
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1792
 msgctxt "barbarians_building"
 msgid ""
 "‘The Citadel of Adlen surely is the finest masterpiece of Barbarian "
@@ -442,7 +442,7 @@ msgstr "La Citadelle d'Adlen est certainement le plus beau chef-d'œuvre de l'ar
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Shipyard
-#: ../../data/tribes/initialization/barbarians/units.lua:1816
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1826
 msgctxt "barbarians_building"
 msgid ""
 "‘When I saw the Saxnot for the first time, her majestic dragon head already "
@@ -452,7 +452,7 @@ msgstr "« Quand j'ai vu le Saxnot pour la première fois, sa majestueuse tête 
 
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: Lore helptext for a Barbarian production site: Weaving Mill
-#: ../../data/tribes/initialization/barbarians/units.lua:1834
+#: ../../../../data/tribes/initialization/barbarians/units.lua:1850
 msgctxt "barbarians_building"
 msgid ""
 "‘Fine cloth and jewelry mean nothing to a true Barbarian.<br>But a noble "
@@ -463,8 +463,8 @@ msgstr "'Les beaux tissus et les bijoux ne signifient rien pour un vrai barbare.
 #. TRANSLATORS: Purpose helptext for an Empire training site: Arena, part 2
 #. TRANSLATORS: Purpose helptext for an Empire training site: Colosseum, part
 #. 2
-#: ../../data/tribes/initialization/empire/units.lua:2056
-#: ../../data/tribes/initialization/empire/units.lua:2081
+#: ../../../../data/tribes/initialization/empire/units.lua:2062
+#: ../../../../data/tribes/initialization/empire/units.lua:2087
 msgctxt "empire_building"
 msgid ""
 "‘Evade’ increases the soldier’s chance not to be hit by the enemy and so to "

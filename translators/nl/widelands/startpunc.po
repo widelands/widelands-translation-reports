@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Alex Rijckaert, 2023-2024\n"
 "Language-Team: Dutch (http://app.transifex.com/widelands/widelands/language/"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
 #. *  %s is a list of illegal characters
-#: ../../src/io/filesystem/illegal_filename_check.cc:77
+#: ../../../../src/io/filesystem/illegal_filename_check.cc:77
 #, c-format
 msgctxt "illegal_filename_characters"
 msgid "%s at the start of the filename"
@@ -26,7 +26,7 @@ msgstr "aan het begin van de bestandsnaam: %s"
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Tooltip entry for characters in illegal filenames.
 #. * %s is a list of illegal characters
-#: ../../src/io/filesystem/illegal_filename_check.cc:84
+#: ../../../../src/io/filesystem/illegal_filename_check.cc:84
 #, c-format
 msgctxt "illegal_filename_characters"
 msgid "%s anywhere in the filename"
@@ -34,15 +34,14 @@ msgstr "op geen enkele plaats in de bestandsnaam: %s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Completed working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:771
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:777
 #, c-format
 msgid "Completed %1$s because %2$s"
 msgstr "%1$s uitgevoerd want %2$s"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: "Skipped working because the economy needs the ware '%s'"
-#: ../../src/logic/map_objects/tribes/production_program.cc:776
-#: ../../src/logic/map_objects/tribes/production_program.cc:781
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:784
 #, c-format
 msgid "Skipped %1$s because %2$s"
 msgstr "%1$s overgeslagen want %2$s"
@@ -51,7 +50,7 @@ msgstr "%1$s overgeslagen want %2$s"
 #. * TRANSLATORS: %s is a list of wares. String is fetched according to total
 #. amount of
 #. wares.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1381
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1416
 #, c-format
 msgid "Produced %s"
 msgid_plural "Produced %s"
@@ -62,7 +61,7 @@ msgstr[1] "%s geproduceerd"
 #. * TRANSLATORS: %s is a list of workers. String is fetched according to
 #. total amount of
 #. workers.
-#: ../../src/logic/map_objects/tribes/production_program.cc:1463
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1498
 #, c-format
 msgid "Recruited %s"
 msgid_plural "Recruited %s"
@@ -70,26 +69,26 @@ msgstr[0] "%s gerekruteerd"
 msgstr[1] "%s gerekruteerd"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gameclient.cc:990
+#: ../../../../src/network/gameclient.cc:989
 msgid "/me ’s file failed md5 checksumming."
 msgstr "het bestand van /me  heeft een md5 checksum fout"
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/packager.cc:599
+#: ../../../../src/ui_fsmenu/addons/packager.cc:599
 #, c-format
 msgid ""
 "‘%1$s’ is not a valid version string. The add-on ‘%2$s’ will not be saved."
 msgstr "'%1$s' is een ongeldige versie string. De uitbreiding '%2$s' zal niet bewaard worden."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/ui_fsmenu/addons/remote_interaction.cc:912
+#: ../../../../src/ui_fsmenu/addons/remote_interaction.cc:915
 #, c-format
 msgid "‘%1$s’ commented on version %2$s:"
 msgstr "'%1$s' merkte op over versie %2$s:"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Column title for number of players in map list
-#: ../../src/wui/maptable.cc:34
+#: ../../../../src/wui/maptable.cc:34
 msgid "Pl."
 msgstr "#S"
 
@@ -97,7 +96,7 @@ msgstr "#S"
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
 #. NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:113
+#: ../../../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
@@ -108,7 +107,7 @@ msgstr[1] "Kon %d opgeslagen spellen niet verwijderen."
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
 #. DO NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:142
+#: ../../../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."
@@ -116,10 +115,10 @@ msgstr[0] "Kon %d herhaling niet verwijderen."
 msgstr[1] "Kon %d herhalingen niet verwijderen."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/soldier_statistics_menu.cc:260
-#: ../../src/wui/soldier_statistics_menu.cc:266
-#: ../../src/wui/soldier_statistics_menu.cc:272
-#: ../../src/wui/soldier_statistics_menu.cc:278
+#: ../../../../src/wui/soldier_statistics_menu.cc:260
+#: ../../../../src/wui/soldier_statistics_menu.cc:266
+#: ../../../../src/wui/soldier_statistics_menu.cc:272
+#: ../../../../src/wui/soldier_statistics_menu.cc:278
 #, c-format
 msgid "×%u"
 msgstr "x %u"

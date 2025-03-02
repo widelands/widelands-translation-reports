@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:28+0000\n"
 "Last-Translator: tamanegi, 2018\n"
 "Language-Team: Japanese (http://app.transifex.com/widelands/widelands/"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:9
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:9
 msgid ""
 "Smugglers is a fun map for 4 players. You and your partner start diagonally "
 "from each other on a point symmetric island. There are plenty of smuggling "
@@ -23,7 +23,7 @@ msgid ""
 msgstr "密輸業者は４人プレイヤー用のシナリオです。あなたとあなたの相方は対称的な島の正反対の場所からスタートします。この島には多くの密輸経路があり、各経路には受け取り側と発送側の端があります。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:10
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:10
 msgid ""
 "To establish a smuggling route, you need to build a warehouse on a "
 "sending/receiving spot while your team mate has to build one on the "
@@ -33,7 +33,7 @@ msgstr "輸送経路を確立するには、まずあなたが発送／受け取
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %s = '<number> points'
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:12
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:12
 #, lua-format
 msgid ""
 "For harder to defend smuggling routes, you get 2 or 3 points per ware "
@@ -41,7 +41,7 @@ msgid ""
 msgstr "密輸経路の維持の難易度に応じて、密輸した物資あたり 2 か 3 ポイントが得られます。そして先に %s を獲得したチームが勝利となります。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:16
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:16
 msgid ""
 "Remember that the map has rotational symmetry. For example, when you have "
 "found a spot to the top-left of your headquarters, the corresponding spot "
@@ -49,7 +49,7 @@ msgid ""
 msgstr "マップが回転対称であることを忘れないようにしましょう。例えば、あなたの本拠地の左上に発送／受け取り地点を見つけた場合、相方の本拠地の右下に対応する発送／受け取り地点があるでしょう。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:17
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:17
 msgid ""
 "You can see the number of wares traded at any time in the general statistics"
 " menu. Good luck!"
@@ -58,7 +58,7 @@ msgstr "輸送された物資の数はいつでも一般統計メニューで調
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: the first 2 parameters are player names, the last parameter is
 #. '<number> points'
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:22
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:22
 msgid ""
 "A new smuggling route from %1$s to %2$s has been established! Every ware "
 "they smuggle there is worth %3$s."
@@ -66,7 +66,7 @@ msgstr "%1$s から %2$s への新たな密輸経路が確立しました！密�
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %s = '<number> points'
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:26
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:26
 #, lua-format
 msgid ""
 "Your team has established a new smuggling route. You have the sending "
@@ -75,7 +75,7 @@ msgstr "あなたのチームが新たな密輸経路を確立しました。あ
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %s = '<number> points'
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:30
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:30
 #, lua-format
 msgid ""
 "Your team has established a new smuggling route. You have the receiving "
@@ -85,19 +85,19 @@ msgstr "あなたのチームが新たな密輸経路を確立しました。あ
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: the first parameter is '<number> points', the last 2
 #. parameters are player names
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:34
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:34
 msgid "The smuggling route worth %1$s from %2$s to %3$s has been broken!"
 msgstr "物資あたりの価値 %1$s である %2$s から %3$s への密輸経路が破壊されました！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:37
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:37
 msgid "Game over!"
 msgstr "ゲーム終了！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: the first 4 parameters are player names, the last parameter is
 #. '<number> points'
-#: ../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:39
+#: ../../../../data/maps/MP_Scenarios/Smugglers.wmf/scripting/texts.lua:39
 msgid ""
 "Game over! %1$s and %2$s have won the game! %3$s and %4$s only managed to "
 "collect %5$s."

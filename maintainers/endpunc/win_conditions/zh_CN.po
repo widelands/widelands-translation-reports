@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-01-01 02:43+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:55+0000\n"
 "Last-Translator: liu lizhi <xingzuo88@qq.com>, 2021\n"
 "Language-Team: Chinese (China) (http://app.transifex.com/widelands/widelands/"
@@ -12,17 +12,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:17
+#: ../../../../data/scripting/win_conditions/artifacts.lua:17
 msgid ""
 "Search for ancient artifacts. Once all of them are found, the team who owns "
 "most of them will win the game."
 msgstr "搜寻远古遗物。一旦它们被全部找到，拥有最多数量远古遗物的团队将赢得比赛。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:75
+#: ../../../../data/scripting/win_conditions/artifacts.lua:75
 #, lua-format
 msgid ""
 "There are no artifacts on this map. This should not happen. Please file a "
@@ -31,95 +31,95 @@ msgid ""
 msgstr "这张地图上没有远古遗物。这不应该发生。请提交一份 %s 的软件错误并详述你的Widelands版本和所尝试加载的地图。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:83
+#: ../../../../data/scripting/win_conditions/artifacts.lua:83
 msgid "Your team found a new artifact."
 msgstr "你的团队找到新的远古遗物。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:84
+#: ../../../../data/scripting/win_conditions/artifacts.lua:84
 msgid "You found a new artifact."
 msgstr "你发现了一件远古遗物。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:89
+#: ../../../../data/scripting/win_conditions/artifacts.lua:89
 msgid "One of your team’s artifacts was stolen by an enemy."
 msgstr "你所在团队的一件远古遗物被敌人偷走了。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:90
+#: ../../../../data/scripting/win_conditions/artifacts.lua:90
 msgid "One of your artifacts was stolen by an enemy."
 msgstr "你的一件远古遗物被偷了。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:95
+#: ../../../../data/scripting/win_conditions/artifacts.lua:95
 msgid "Your team stole an artifact from an enemy."
 msgstr "你所在的团队从敌人哪里偷来了一件远古遗物。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:96
+#: ../../../../data/scripting/win_conditions/artifacts.lua:96
 msgid "You stole an artifact from an enemy."
 msgstr "你从敌人偷了一件远古遗物。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/artifacts.lua:179
+#: ../../../../data/scripting/win_conditions/artifacts.lua:179
 msgid "Overview:"
 msgstr "概览："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: e.g. Team 1 owns 5 artifacts.
-#: ../../data/scripting/win_conditions/artifacts.lua:184
+#: ../../../../data/scripting/win_conditions/artifacts.lua:184
 msgid "%1$s owns %2$s."
 msgstr "%1$s拥有%2$s。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$i is the team's number; %2$s is a list of team members
 #. (e.g. "Steve, Robert, David"), %3$s is something like "x artifact(s)"
-#: ../../data/scripting/win_conditions/artifacts.lua:197
+#: ../../../../data/scripting/win_conditions/artifacts.lua:197
 msgid "Team %1$i (%2$s) owns %3$s."
 msgstr "团队%1$i (%2$s) 拥有 %3$s。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/endless_game.lua:16
+#: ../../../../data/scripting/win_conditions/endless_game.lua:16
 msgid "This is an endless game without rules."
 msgstr "这是一场没有规则的无休止游戏。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:22
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:22
 msgid "%1$s has %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "%1$s拥有%2$3.0f%%的土地 (%3$i of %4$i)。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:23
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:23
 msgid "%1$s had %2$3.0f%% of the land (%3$i of %4$i)."
 msgstr "%1$s拥有了%2$3.0f%%的土地 (%3$i of %4$i)。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:235
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:235
 msgid "You own more than half of the map’s area."
 msgstr "你拥有超过半数的地图面积。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:236
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:236
 #, lua-format
 msgid "Keep it for %i more minute to win the game."
 msgid_plural "Keep it for %i more minutes to win the game."
 msgstr[0] "再坚持 %i 分钟就赢了。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:264
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:264
 #, lua-format
 msgid "%s owns more than half of the map’s area."
 msgstr "%s拥有超过半数的地图面积。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_functions.lua:265
+#: ../../../../data/scripting/win_conditions/territorial_functions.lua:265
 #, lua-format
 msgid "You’ve still got %i minute to prevent a victory."
 msgid_plural "You’ve still got %i minutes to prevent a victory."
 msgstr[0] "你还有%i分钟的时间来阻止胜利。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_lord.lua:21
+#: ../../../../data/scripting/win_conditions/territorial_lord.lua:21
 msgid ""
 "Each player or team tries to obtain more than half of the map’s area. The "
 "winner will be the player or the team that is able to keep that area for at "
@@ -128,62 +128,62 @@ msgid ""
 msgstr "每一个游戏玩家或团队都试图获得地图面积的一半以上的领土。能够持续控制该区域至少20分钟的游戏玩家或团队将会成为胜利者。如果选择了和平模式，如果一个游戏玩家拥有的土地面积超过了其他的任何玩家，游戏就结束了。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/territorial_lord.lua:58
+#: ../../../../data/scripting/win_conditions/territorial_lord.lua:58
 msgid "Currently no faction owns more than half of the map’s area."
 msgstr "目前没有任何团队拥有超过半数以上的地图面积。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: Context: 'The game will end in (2 hours and) 30 minutes.'
-#: ../../data/scripting/win_conditions/win_condition_functions.lua:394
+#: ../../../../data/scripting/win_conditions/win_condition_functions.lua:394
 #, lua-format
 msgid "The game will end in %s."
 msgstr "游戏将在%s结束。"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:33
+#: ../../../../data/scripting/win_conditions/win_condition_texts.lua:33
 msgid "Congratulations!"
 msgstr "恭喜！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:34
+#: ../../../../data/scripting/win_conditions/win_condition_texts.lua:34
 msgid "You have won this game!"
 msgstr "你已经赢得了本局游戏！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:45
+#: ../../../../data/scripting/win_conditions/win_condition_texts.lua:45
 msgid "You are defeated!"
 msgstr "你被打败了！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:58
+#: ../../../../data/scripting/win_conditions/win_condition_texts.lua:58
 msgid "You are the winner!"
 msgstr "你是胜利者！"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:70
+#: ../../../../data/scripting/win_conditions/win_condition_texts.lua:70
 msgid "You’ve lost this game!"
 msgstr "你已经输掉了本局游戏！"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: This is an overview for all players.
-#: ../../data/scripting/win_conditions/win_condition_texts.lua:83
+#: ../../../../data/scripting/win_conditions/win_condition_texts.lua:83
 msgid "Player overview:"
 msgstr "游戏玩家概览："
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:71
+#: ../../../../data/scripting/win_conditions/wood_gnome.lua:71
 msgid "%1$s has %2$s at the moment."
 msgstr "%1$s目前拥有%2$s。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:92
+#: ../../../../data/scripting/win_conditions/wood_gnome.lua:92
 msgid "%1$s had %2$s."
 msgstr "%1$s拥有%2$s。"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. TRANSLATORS: %1$s = player name, %2$s = x tree(s)
-#: ../../data/scripting/win_conditions/wood_gnome.lua:98
+#: ../../../../data/scripting/win_conditions/wood_gnome.lua:98
 msgid "The winner is %1$s with %2$s."
 msgstr "胜利者是%1$s和%2$s。"

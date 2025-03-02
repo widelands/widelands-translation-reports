@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Juanjo, 2015-2024\n"
+"Last-Translator: Juanjo, 2015-2025\n"
 "Language-Team: Catalan (http://app.transifex.com/widelands/widelands/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -12,10 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:258
+#: ../../../../src/logic/addons.cc:264
 #, c-format
 msgid "%u missing add-on"
 msgid_plural "%u missing add-ons"
@@ -23,7 +23,7 @@ msgstr[0] "Fa falta %u complement."
 msgstr[1] "Fan falta %u complements."
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/logic/addons.cc:310
+#: ../../../../src/logic/addons.cc:316
 #, c-format
 msgid "%u game-relevant add-on in use:"
 msgid_plural "%u game-relevant add-ons in use:"
@@ -31,7 +31,7 @@ msgstr[0] "Es fan servir %u complements rellevants:"
 msgstr[1] "Es fa servir %u complement rellevant:"
 
 # (pofilter) startcaps: Different capitalization at the start, Different capitalization at the start
-#: ../../src/network/gameclient.cc:814
+#: ../../../../src/network/gameclient.cc:817
 #, c-format
 msgid "%u add-on mismatch detected:\n"
 msgid_plural "%u add-on mismatches detected:\n"
@@ -39,42 +39,42 @@ msgstr[0] "S’ha detectat %u incompatibilitat de complements:\n"
 msgstr[1] "S’han detectat %u incompatibilitats de complements:\n"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/network/gameclient.cc:990
+#: ../../../../src/network/gameclient.cc:989
 msgid "/me ’s file failed md5 checksumming."
 msgstr "La suma md5 del fitxer de /me ha fallat."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/ui_fsmenu/addons/manager.cc:1427
+#: ../../../../src/ui_fsmenu/addons/manager.cc:1944
 #, c-format
 msgid "Uploading ‘%s’…"
 msgstr "«%s» es va carregant…"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1476
+#: ../../../../src/wlapplication_options.cc:1469
 msgctxt "hotkey"
 msgid "Keypad +"
 msgstr "+ del teclat numèric"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1478
+#: ../../../../src/wlapplication_options.cc:1471
 msgctxt "hotkey"
 msgid "Keypad -"
 msgstr "- del teclat numèric"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1480
+#: ../../../../src/wlapplication_options.cc:1473
 msgctxt "hotkey"
 msgid "Keypad *"
 msgstr "* del teclat numèric"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wlapplication_options.cc:1482
+#: ../../../../src/wlapplication_options.cc:1475
 msgctxt "hotkey"
 msgid "Keypad /"
 msgstr "/ del teclat numèric"
 
 # (pofilter) startcaps: Different capitalization at the start
-#: ../../src/wui/portdockwaresdisplay.cc:105
+#: ../../../../src/wui/portdockwaresdisplay.cc:105
 msgid "(Empty)"
 msgstr "(buit)"
 
@@ -82,7 +82,7 @@ msgstr "(buit)"
 #. * TRANSLATORS: Used with multiple games, 1 game has a separate string. DO
 #. NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:113
+#: ../../../../src/wui/savegamedeleter.cc:113
 #, c-format
 msgid "%d game could not be deleted."
 msgid_plural "%d games could not be deleted."
@@ -93,7 +93,7 @@ msgstr[1] "No s’han pogut esborrar %d partides."
 #. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
 #. DO NOT omit the
 #. * placeholder in your translation.
-#: ../../src/wui/savegamedeleter.cc:142
+#: ../../../../src/wui/savegamedeleter.cc:142
 #, c-format
 msgid "%d replay could not be deleted."
 msgid_plural "%d replays could not be deleted."

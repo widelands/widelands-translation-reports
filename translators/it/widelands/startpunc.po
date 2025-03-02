@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
-"Last-Translator: Samuele Battarra, 2023\n"
+"Last-Translator: Guybrush88 <erpizzo@alice.it>, 2015-2018,2021,2025\n"
 "Language-Team: Italian (http://app.transifex.com/widelands/widelands/"
 "language/it/)\n"
 "Language: it\n"
@@ -13,24 +13,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
 ": 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) startpunc: Different punctuation at the start
 #. * TRANSLATORS: Basic error message when we can't handle the graphics
 #. driver.
 #. Font support is limited here, so do not use advanced typography *
-#: ../../src/graphic/gl/initialize.cc:247
+#: ../../../../src/graphic/gl/initialize.cc:247
 #, c-format
 msgid "The %1$s needs to be version %2$u.%3$u or newer."
 msgstr "%1$s deve essere aggiornato alla versione %2$u.%3$u o successiva."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/network/gameclient.cc:990
+#: ../../../../src/network/gameclient.cc:989
 msgid "/me ’s file failed md5 checksumming."
 msgstr "Il file /me non ha superato il controllo in MD5."
 
 # (pofilter) startpunc: Different punctuation at the start
-#: ../../src/wui/game_summary.cc:255
+#: ../../../../src/wui/game_summary.cc:257
 #, c-format
 msgid "%s won!"
 msgstr "Ha vinto %s!"
+
+# (pofilter) startpunc: Different punctuation at the start, Different punctuation at the start, Different punctuation at the start
+#. * TRANSLATORS: Used with multiple replays, 1 replay has a separate string.
+#. DO NOT omit the
+#. * placeholder in your translation.
+#: ../../../../src/wui/savegamedeleter.cc:142
+#, c-format
+msgid "%d replay could not be deleted."
+msgid_plural "%d replays could not be deleted."
+msgstr[0] "non è stato possibile cancellare %d replay."
+msgstr[1] "non è stato possibile cancellare %d replay."
+msgstr[2] "non è stato possibile cancellare %d replay."

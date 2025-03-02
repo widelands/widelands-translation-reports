@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: Francisco Fernandes <franciscof09@gmail.com>, 2021\n"
 "Language-Team: Portuguese (http://app.transifex.com/widelands/widelands/"
@@ -13,61 +13,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:633
 msgid "Generating random map…"
 msgstr "Gerando mapa aleatório …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/generic_save_handler.cc:249
+#: ../../../../src/logic/generic_save_handler.cc:249
 msgid "Saved file may be corrupt!"
 msgstr "O ficheiro guardado pode estar corrompido"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/production_program.cc:1846
+#: ../../../../src/logic/map_objects/tribes/production_program.cc:1881
 msgid "No soldier found for this training level!"
 msgstr "Não há soldados para treinar por este nível !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/logic/map_objects/tribes/worker.cc:2090
+#: ../../../../src/logic/map_objects/tribes/worker_tasks/return.cc:121
 msgid "Worker got lost!"
 msgstr "O trabalhador perdeu-se !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Carregando o mapa …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:174
+#: ../../../../src/network/gamehost.cc:174
 msgid "You can not kick yourself!"
 msgstr "Não te podes expulsar a ti próprio !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:42
+#: ../../../../src/network/internet_gaming_messages.cc:42
 msgid "Metaserver did not answer"
 msgstr "O meta-servidor não respondeu."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:60
+#: ../../../../src/network/network_gaming_messages.cc:60
 msgid "The game has already started."
 msgstr "O jogo já começou"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/network_gaming_messages.cc:69
+#: ../../../../src/network/network_gaming_messages.cc:69
 #, c-format
 msgid "Host sent player %s to the lobby!"
 msgstr "O hospedeiro enviou o jogador %s para a receção !"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "A carregar …"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/launch_mpg.cc:234 ../../src/ui_fsmenu/launch_spg.cc:135
+#: ../../../../src/ui_fsmenu/launch_mpg.cc:240
+#: ../../../../src/ui_fsmenu/launch_spg.cc:135
 #, c-format
 msgid ""
 "Widelands tried to start a game with a file that could not be found at the given path.\n"
@@ -76,68 +79,68 @@ msgid ""
 msgstr "Widelands tentou iniciar um jogo com um ficheiro que não pôde ser encontrado no diretório indicado.\nO Ficheiro fora: %s\nSe isto acontecer provavelmente o anfitrião selecionou um ficheiro que ainda não tens. Normalmente tal ficheiro irá enviado pelo anfitrião, mas talvez a transferência ainda não terminou !?!"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/login_box.cc:218
+#: ../../../../src/ui_fsmenu/login_box.cc:218
 msgid "Please enter a nickname!"
 msgstr "Por favor escolhe uma alcunha"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_fsmenu/options.cc:237
+#: ../../../../src/ui_fsmenu/options.cc:255
 msgid "Maximum number of autosave files:"
 msgstr "Número máximo de ficheiros gravados autom.:"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: This text is on a separate line with an error message below
-#: ../../src/wlapplication.cc:880 ../../src/wlapplication.cc:885
-#: ../../src/wui/savegameloader.cc:131
+#: ../../../../src/wlapplication.cc:1005 ../../../../src/wlapplication.cc:1010
+#: ../../../../src/wui/savegameloader.cc:131
 msgid "Error message:"
 msgstr "Mensagem do erro :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/actionconfirm.cc:262
+#: ../../../../src/wui/actionconfirm.cc:262
 msgid "Dismantle building?"
 msgstr "Desmanchar edifício ?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:92
+#: ../../../../src/wui/game_summary.cc:92
 msgid "Elapsed time:"
 msgstr "Tempo decorrido :"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/productionsitewindow.cc:151
+#: ../../../../src/wui/productionsitewindow.cc:151
 msgid "Terminate the employment of the selected worker"
 msgstr "Terminar a tarefa do trabalhador selecionado."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:117
+#: ../../../../src/wui/shipwindow.cc:117
 msgid "Scout towards the north west"
 msgstr "Explora ao longo da costa noroeste."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:127
+#: ../../../../src/wui/shipwindow.cc:127
 msgid "Scout towards the north east"
 msgstr "Explora ao longo da costa nordeste."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:132
+#: ../../../../src/wui/shipwindow.cc:132
 msgid "Scout towards the west"
 msgstr "Explora ao longo da costa oeste."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:137
+#: ../../../../src/wui/shipwindow.cc:137
 msgid "Construct a port at the current location"
 msgstr "Construa um porto neste local."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:147
+#: ../../../../src/wui/shipwindow.cc:146
 msgid "Scout towards the east"
 msgstr "Explora ao longo da costa leste."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:152
+#: ../../../../src/wui/shipwindow.cc:151
 msgid "Scout towards the south west"
 msgstr "Explora ao longo da costa sudoeste."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/shipwindow.cc:162
+#: ../../../../src/wui/shipwindow.cc:161
 msgid "Scout towards the south east"
 msgstr "Explora ao longo da costa sudeste."

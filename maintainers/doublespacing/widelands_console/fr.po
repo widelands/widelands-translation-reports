@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-02-15 02:28+0000\n"
+"POT-Creation-Date: 2025-01-02 02:52+0000\n"
 "PO-Revision-Date: 2015-02-03 14:54+0000\n"
-"Last-Translator: C138, 2021,2023\n"
+"Last-Translator: Renaud Bouchard, 2015-2022,2024\n"
 "Language-Team: French (http://app.transifex.com/widelands/widelands/language/"
 "fr/)\n"
 "Language: fr\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:72
+#: ../../../../src/wlapplication_messages.cc:72
 #, c-format
 msgid ""
 "Use the specified directory for Widelands config files, savegames, and "
@@ -24,15 +24,26 @@ msgid ""
 msgstr "Utilisez le Dossier spécifié pour les fichiers de configuration de Widelands, les parties sauvegardées et les rediffusions. Par default, il s'agit de  `%s`."
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:88
+#: ../../../../src/wlapplication_messages.cc:88
 #, c-format
 msgid ""
 "Create a new game directly with the settings configured in the given file. "
 "An example can be found in `%s`."
-msgstr "Cree une nouvelle partie avec les paramètres configurés dans le fichier indiqué.  Un exemple peut être trouvé dans '%s'"
+msgstr "Crée une nouvelle partie avec les paramètres configurés dans le fichier indiqué.  Un exemple peut être trouvé dans '%s'"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: ../../src/wlapplication_messages.cc:353
+#. * TRANSLATORS: %1 is translation for FILENAME,
+#. %2 is translation for "last" for last used file
+#: ../../../../src/wlapplication_messages.cc:109
+#, c-format
+msgid ""
+"Start the Widelands map editor directly. You can add `=%1$s` to directly "
+"load the map `FILENAME` in the editor or `=%2$s` to load the last edited "
+"map."
+msgstr "Lance directement l'éditeur de cartes de Widelands. Vous pouvez ajouter `=%1$s` pour charger la carte directement dans l'éditeur ou  `=%2$s` pour charger la dernière carte éditée."
+
+# (pofilter) doublespacing: Different use of double spaces
+#: ../../../../src/wlapplication_messages.cc:360
 msgid ""
 "Bug reports? Suggestions? Check out the project website:\n"
 "        https://www.widelands.org/\n"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Widelands\n"
 "Report-Msgid-Bugs-To: https://www.widelands.org/wiki/ReportingBugs/\n"
-"POT-Creation-Date: 2024-03-02 02:23+0000\n"
+"POT-Creation-Date: 2025-02-27 02:59+0000\n"
 "PO-Revision-Date: 2015-02-02 13:35+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>, 2015,2017\n"
 "Language-Team: Malay (http://app.transifex.com/widelands/widelands/language/"
@@ -12,54 +12,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.12.2\n"
+"X-Generator: Translate Toolkit 3.15.0\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: %s are the currently selected items in an editor tool
-#: ../../src/editor/ui_menus/categorized_item_selection_menu.h:192
+#: ../../../../src/editor/ui_menus/categorized_item_selection_menu.h:192
 #, c-format
 msgid "Current: %s …"
 msgstr "Semasa: %s ..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_new_map.cc:106
+#: ../../../../src/editor/ui_menus/main_menu_new_map.cc:106
 msgid "Creating empty map…"
 msgstr "Mencipta peta kosong..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/editor/ui_menus/main_menu_random_map.cc:624
+#: ../../../../src/editor/ui_menus/main_menu_random_map.cc:633
 msgid "Generating random map…"
 msgstr "Menjana peta rawak..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/map_io/s2map.cc:421 ../../src/map_io/widelands_map_loader.cc:196
+#: ../../../../src/map_io/s2map.cc:422
+#: ../../../../src/map_io/widelands_map_loader.cc:196
 msgid "Loading map…"
 msgstr "Memuatkan peta..."
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/gamehost.cc:174
+#: ../../../../src/network/gamehost.cc:174
 msgid "You can not kick yourself!"
 msgstr "Anda tidak boleh tendang diri sendiri?"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/network/internet_gaming_messages.cc:36
+#: ../../../../src/network/internet_gaming_messages.cc:36
 msgid ""
 "You got disconnected, as you sent a superuser command without superuser "
 "permission. This incident will be logged and reported to the administrator."
 msgstr "Anda terputus hubungan, keranan anda telah menghantar perintah pengguna super tanpa keizinan pengguna super. Insiden ini akan dilogkan dan dilaporkan kepada pentadbir,"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/ui_basic/progresswindow.cc:79
+#: ../../../../src/ui_basic/progresswindow.cc:83
+#: ../../../../src/wlapplication.cc:489
 msgid "Loading…"
 msgstr "Memuatkan..."
 
 # (pofilter) endpunc: Different punctuation at the end
 #. * TRANSLATORS: Campaign difficulty table header
-#: ../../src/ui_fsmenu/campaign_select.cc:47
+#: ../../../../src/ui_fsmenu/campaign_select.cc:47
 msgid "Diff."
 msgstr "Sukar"
 
 # (pofilter) endpunc: Different punctuation at the end
-#: ../../src/wui/game_summary.cc:251
+#: ../../../../src/wui/game_summary.cc:253
 msgid "You lost."
 msgstr "Anda kalah"
